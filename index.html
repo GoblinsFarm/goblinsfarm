@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goblins Farm: your village farms itself</title>
+<meta name="description" content="Goblins Farm is a farming bot for Clash of Clans on PC. It raids, loots and collects gold, elixir and dark elixir while you're away. One payment, one device, lifetime.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;0,6..12,900;1,6..12,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parch:#d7c4ac;
+  --parch-hi:#e6d6c0;
+  --brown:#4a3226;
+  --brown-hi:#5d4232;
+  --brown-deep:#38251a;
+  --sky:#c0efff;
+  --sky-deep:#9adcf5;
+  --ink:#2b1d12;
+  --outline:#1f150d;
+  --white:#ffffff;
+  --blue:#00a2ff;
+  --blue-edge:#0a2a44;
+  --gold:#ffb800;
+  --green:#6cc94e;
+  --elixir:#b45ce8;
+  --card-edge:#2b1d12;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--parch);
+  color:var(--ink);
+  font-family:"Nunito Sans",system-ui,sans-serif;
+  font-size:17px;line-height:1.6;
+  overflow-x:hidden;
+}
+h1,h2,h3{font-family:"Lilita One",sans-serif;font-weight:400;letter-spacing:.015em}
+.outl{
+  color:var(--white);
+  -webkit-text-stroke:3px var(--outline);
+  paint-order:stroke fill;
+  text-shadow:0 4px 0 var(--outline), 0 10px 24px rgba(0,0,0,.35);
+}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+section{padding:92px 0}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+
+/* section eyebrows — varied type rhythm */
+.kicker{
+  display:inline-block;font-weight:900;font-size:12.5px;letter-spacing:.22em;
+  text-transform:uppercase;margin-bottom:14px;padding:5px 14px;border-radius:999px;
+}
+.kicker.on-parch{color:#7c633f;background:rgba(43,29,18,.08);box-shadow:inset 0 0 0 1.5px rgba(43,29,18,.18)}
+.kicker.on-brown{color:#a5e18b;background:rgba(0,0,0,.28);box-shadow:inset 0 0 0 1.5px rgba(165,225,139,.25)}
+.kicker.on-sky{color:#1c6a8c;background:rgba(255,255,255,.55);box-shadow:inset 0 0 0 1.5px rgba(28,106,140,.25)}
+
+/* torn paper edges — with real cast shadow for depth */
+.tear{filter:drop-shadow(0 6px 5px rgba(0,0,0,.28));position:relative;z-index:3}
+.tear::after{
+  content:"";display:block;height:26px;margin:-1px 0;
+  clip-path:polygon(0 0,3% 62%,6% 18%,10% 74%,14% 30%,18% 84%,23% 22%,27% 66%,31% 12%,36% 78%,40% 34%,45% 88%,50% 18%,54% 70%,58% 26%,63% 82%,68% 14%,72% 64%,77% 32%,81% 86%,85% 20%,90% 72%,94% 38%,97% 80%,100% 8%,100% 100%,0 100%);
+}
+.tear.flip{transform:scaleY(-1)}
+.tear.t-brown::after{background:linear-gradient(180deg,var(--brown-deep),var(--brown))}
+.tear.t-sky::after{background:linear-gradient(180deg,var(--sky-deep),var(--sky))}
+.tear.t-parch::after{background:linear-gradient(180deg,#c4ae92,var(--parch))}
+
+/* brown sections: lit from above, vignetted at the edges */
+.brown-sec{
+  background:
+    radial-gradient(1100px 480px at 50% 0%, rgba(255,214,150,.14), transparent 65%),
+    radial-gradient(circle at 14% 78%, rgba(0,0,0,.25), transparent 45%),
+    radial-gradient(circle at 88% 70%, rgba(0,0,0,.22), transparent 45%),
+    linear-gradient(180deg,var(--brown-hi),var(--brown) 40%,var(--brown-deep));
+  color:#e8dcc9;
+}
+.brown-sec p{color:#cdbda6}
+
+/* parchment sections: paper grain + soft top light */
+.parch-sec{
+  background:
+    radial-gradient(900px 300px at 50% 0%, rgba(255,255,255,.35), transparent 70%),
+    repeating-linear-gradient(-42deg, rgba(43,29,18,.022) 0 3px, transparent 3px 7px),
+    linear-gradient(180deg,var(--parch-hi),var(--parch) 55%,#cbb59a);
+}
+
+/* ── nav ── */
+header{background:linear-gradient(180deg,#151515,#000);position:relative;z-index:4;
+  box-shadow:0 4px 14px rgba(0,0,0,.45)}
+nav{display:flex;align-items:center;gap:28px;padding:14px 0}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Lilita One",sans-serif;font-size:22px;text-decoration:none}
+.logo img{
+  width:40px;height:40px;border-radius:50%;
+  border:2.5px solid var(--gold);box-shadow:0 2px 6px rgba(0,0,0,.5);
+  transition:transform .25s cubic-bezier(.34,1.56,.64,1);
+}
+.logo:hover img{transform:rotate(-8deg) scale(1.12)}
+.logo span{color:#fff;-webkit-text-stroke:1.5px #000;paint-order:stroke fill;text-shadow:0 2px 0 #000}
+.logo em{font-style:normal;color:var(--green)}
+nav .links{margin-left:auto;display:flex;gap:24px;align-items:center}
+nav .links a:not(.btn){text-decoration:none;font-weight:700;font-size:15px;color:#d7c4ac}
+nav .links a:not(.btn):hover{color:#fff}
+
+/* ── CoC-style buttons, with shine sweep ── */
+.btn{
+  position:relative;overflow:hidden;
+  display:inline-block;border:0;cursor:pointer;text-decoration:none;text-align:center;
+  font-family:"Lilita One",sans-serif;font-size:18px;letter-spacing:.02em;
+  padding:14px 28px;border-radius:12px;color:#fff;
+  background:linear-gradient(180deg,#4fc1ff 0%,var(--blue) 45%,#0086e0 100%);
+  border:3px solid var(--blue-edge);
+  box-shadow:0 5px 0 var(--blue-edge), 0 10px 18px rgba(0,0,0,.28), inset 0 2px 0 rgba(255,255,255,.35);
+  text-shadow:0 2px 0 rgba(10,42,68,.6);
+  transition:transform .1s ease, box-shadow .1s ease;
+}
+.btn::after{
+  content:"";position:absolute;top:-20%;bottom:-20%;left:-45%;width:34%;
+  background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);
+  transform:skewX(-18deg);transition:left .45s ease;
+}
+.btn:hover::after{left:120%}
+.btn:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--blue-edge), 0 14px 22px rgba(0,0,0,.3), inset 0 2px 0 rgba(255,255,255,.35)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 var(--blue-edge), inset 0 2px 0 rgba(255,255,255,.35)}
+.btn.gold{
+  background:linear-gradient(180deg,#ffd95e 0%,var(--gold) 45%,#e09600 100%);
+  border-color:#5c3d00;box-shadow:0 5px 0 #5c3d00, 0 10px 18px rgba(0,0,0,.28), inset 0 2px 0 rgba(255,255,255,.45);
+  text-shadow:0 2px 0 rgba(92,61,0,.55);
+}
+.btn.gold:hover{box-shadow:0 7px 0 #5c3d00, 0 14px 22px rgba(0,0,0,.3), inset 0 2px 0 rgba(255,255,255,.45)}
+.btn.gold:active{box-shadow:0 2px 0 #5c3d00}
+.btn.ghost{
+  background:linear-gradient(180deg,#fffdf8,#efe3cf);color:var(--ink);
+  border-color:var(--card-edge);box-shadow:0 5px 0 var(--card-edge), 0 10px 18px rgba(0,0,0,.22);text-shadow:none;
+}
+.btn.ghost:active{box-shadow:0 2px 0 var(--card-edge)}
+.btn.small{font-size:15px;padding:9px 20px}
+
+/* ── hero ── */
+.hero{position:relative;padding:96px 0 104px;text-align:center;overflow:hidden}
+.hero .wrap{position:relative;z-index:2}
+.float{position:absolute;z-index:1;opacity:.9;filter:drop-shadow(0 6px 6px rgba(0,0,0,.35))}
+.float svg{width:100%;height:100%}
+@keyframes bob{
+  0%,100%{transform:translateY(0) rotate(var(--tilt,0deg))}
+  50%{transform:translateY(-14px) rotate(var(--tilt,0deg))}
+}
+.js .float{animation:bob var(--dur,5s) ease-in-out infinite;animation-delay:var(--delay,0s)}
+
+.hero .eyebrow{
+  font-weight:900;font-size:13px;letter-spacing:.16em;text-transform:uppercase;
+  color:#a5e18b;margin-bottom:18px;text-shadow:0 1px 0 rgba(0,0,0,.5);
+}
+.hero h1{font-size:clamp(40px,6.6vw,74px);line-height:1.06;margin-bottom:22px}
+.hero h1 .gold-line{color:var(--gold)}
+.hero p.sub{max-width:560px;margin:0 auto 34px;font-size:19.5px;font-weight:700;color:#d9c8b0}
+.hero p.sub em{font-style:italic;color:#f5e5c8}
+
+/* load-in sequence */
+@keyframes riseIn{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.js .hero .stagger{opacity:0;animation:riseIn .7s cubic-bezier(.22,.9,.35,1) forwards}
+.js .hero .stagger:nth-child(1){animation-delay:.05s}
+.js .hero .stagger:nth-child(2){animation-delay:.15s}
+.js .hero .stagger:nth-child(3){animation-delay:.28s}
+.js .hero .stagger:nth-child(4){animation-delay:.42s}
+.js .hero .stagger:nth-child(5){animation-delay:.52s}
+.js .hero .stagger:nth-child(6){animation-delay:.62s}
+.js .hero .stagger:nth-child(7){animation-delay:.72s}
+
+.loot{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+.pill{
+  display:flex;align-items:center;gap:10px;
+  background:linear-gradient(180deg,#46301f,var(--brown-deep));
+  border:3px solid var(--card-edge);border-radius:999px;
+  padding:9px 20px 9px 11px;min-width:190px;
+  box-shadow:0 5px 0 rgba(0,0,0,.4), 0 12px 20px rgba(0,0,0,.3), inset 0 2px 0 rgba(255,255,255,.1);
+}
+.pill svg{width:28px;height:28px;flex:none;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
+.pill .num{
+  font-family:"Lilita One",sans-serif;font-size:20px;
+  font-variant-numeric:tabular-nums;
+  color:#fff;-webkit-text-stroke:1px var(--outline);paint-order:stroke fill;
+  text-shadow:0 2px 0 var(--outline);
+  display:inline-block;
+}
+@keyframes tickPop{0%{transform:scale(1)}35%{transform:scale(1.12)}100%{transform:scale(1)}}
+.num.pop{animation:tickPop .35s ease}
+.pill.gold .num{color:#ffd351}
+.pill.elixir .num{color:#dfb3ff}
+.pill.dark .num{color:#cabce0}
+.loot-caption{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#a08e75;margin-bottom:38px}
+.cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
+.trust{font-size:14px;color:#b3a188}
+
+/* ── sections ── */
+.sec-head{text-align:center;max-width:660px;margin:0 auto 54px}
+.sec-head h2{font-size:clamp(30px,4.5vw,46px);margin-bottom:12px}
+.sec-head h2 .hl{color:var(--gold)}
+.sec-head p{font-size:17.5px;font-weight:700}
+.parch-sec .sec-head p{color:#6b563e}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{
+  background:linear-gradient(180deg,#fffef9 0%,#faf3e4 70%,#f1e5cf 100%);
+  border:3px solid var(--card-edge);border-radius:16px;
+  box-shadow:0 7px 0 rgba(43,29,18,.9), 0 18px 30px rgba(20,12,6,.28), inset 0 2px 0 rgba(255,255,255,.85);
+  padding:26px 24px;
+  color:var(--ink);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 0 rgba(43,29,18,.9), 0 26px 40px rgba(20,12,6,.34), inset 0 2px 0 rgba(255,255,255,.85);
+}
+.card h3{color:var(--ink)}
+.brown-sec .card p{color:#5c4a38}
+.step .n{
+  font-family:"Lilita One",sans-serif;font-size:17px;color:#fff;
+  -webkit-text-stroke:1px #14330a;paint-order:stroke fill;
+  background:linear-gradient(180deg,#8ede6f,var(--green) 55%,#4da332);
+  border:3px solid #14330a;box-shadow:0 3px 0 #14330a, 0 7px 10px rgba(0,0,0,.25);
+  width:38px;height:38px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;margin-bottom:16px;
+}
+.step h3{font-size:22px;margin-bottom:8px}
+.step p{font-size:15px;color:#5c4a38}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.feat h3{font-size:19px;margin:12px 0 6px}
+.feat p{font-size:14.5px}
+.feat .ic{
+  width:52px;height:52px;border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  border:3px solid var(--card-edge);
+  box-shadow:0 3px 0 rgba(43,29,18,.85), inset 0 2px 0 rgba(255,255,255,.5);
+}
+.feat .ic svg{width:30px;height:30px}
+.ic.i-eye{background:linear-gradient(180deg,#dff2ff,#a9d8f5)}
+.ic.i-phone{background:linear-gradient(180deg,#e8ffe0,#b6e8a4)}
+.ic.i-target{background:linear-gradient(180deg,#ffe3dd,#f5b3a6)}
+.ic.i-loop{background:linear-gradient(180deg,#e8ffe0,#b6e8a4)}
+.ic.i-bolt{background:linear-gradient(180deg,#fff3cf,#ffd970)}
+.ic.i-key{background:linear-gradient(180deg,#fff3cf,#ffd970)}
+
+/* screenshot on sky, with drifting clouds */
+.sky-sec{
+  background:
+    radial-gradient(900px 380px at 50% 8%, #e2f8ff, transparent 70%),
+    linear-gradient(180deg,var(--sky) 0%,#a8e4f8 100%);
+  position:relative;overflow:hidden;
+}
+.cloud{position:absolute;background:#fff;border-radius:999px;filter:blur(1.5px);opacity:.85;
+  box-shadow:0 10px 24px rgba(28,106,140,.15)}
+.cloud::before,.cloud::after{content:"";position:absolute;background:#fff;border-radius:50%}
+.cloud.c1{width:150px;height:44px;top:56px;left:6%}
+.cloud.c1::before{width:60px;height:60px;top:-26px;left:26px}
+.cloud.c1::after{width:44px;height:44px;top:-16px;left:76px}
+.cloud.c2{width:110px;height:34px;top:130px;right:8%}
+.cloud.c2::before{width:46px;height:46px;top:-20px;left:20px}
+.cloud.c2::after{width:34px;height:34px;top:-12px;left:56px}
+@keyframes drift{from{transform:translateX(0)}50%{transform:translateX(34px)}to{transform:translateX(0)}}
+.js .cloud{animation:drift 14s ease-in-out infinite}
+.js .cloud.c2{animation-duration:18s;animation-delay:2s}
+.shot{position:relative;z-index:2}
+.shot .frame{
+  border-radius:16px;overflow:hidden;border:3px solid var(--card-edge);
+  box-shadow:0 10px 0 rgba(43,29,18,.85), 0 34px 60px rgba(23,52,64,.4);
+  transform:perspective(1400px) rotateX(2.5deg);
+}
+.shot figcaption{text-align:center;font-size:14.5px;margin-top:22px;color:#2c586e;font-weight:800;font-style:italic}
+
+/* ── phone remote showcase ── */
+.remote{display:grid;grid-template-columns:360px 1fr;gap:60px;align-items:center}
+.phone{
+  width:300px;margin:0 auto;
+  background:linear-gradient(180deg,#182031,#0f141f);
+  border:4px solid var(--card-edge);border-radius:38px;
+  padding:16px 14px 22px;
+  box-shadow:0 12px 0 rgba(43,29,18,.9), 0 32px 54px rgba(20,12,6,.38), inset 0 2px 0 rgba(255,255,255,.08);
+  transform:rotate(-3deg);
+  transition:transform .25s ease;
+}
+.phone:hover{transform:rotate(-1deg) translateY(-4px)}
+.phone .notch{width:88px;height:8px;border-radius:99px;background:#2a3242;margin:0 auto 16px}
+.phone .ptime{text-align:center;color:#eef3ff;font-family:"Lilita One",sans-serif;font-size:36px;line-height:1;text-shadow:0 2px 0 #000}
+.phone .pdate{text-align:center;color:#8fa0c0;font-size:12px;font-weight:700;margin:4px 0 18px}
+.notif{
+  background:rgba(255,255,255,.97);border-radius:14px;padding:12px 14px;margin-bottom:10px;
+  box-shadow:0 8px 16px rgba(0,0,0,.4);
+}
+.notif .nhead{display:flex;gap:8px;align-items:center;margin-bottom:4px}
+.notif .nhead svg{width:18px;height:18px}
+.notif .napp{font-size:10.5px;font-weight:900;letter-spacing:.07em;color:#7a6a52;text-transform:uppercase}
+.notif .ntime{margin-left:auto;font-size:11px;color:#9a917f;font-weight:700}
+.notif .nbody{font-size:13.5px;color:#26232b;font-weight:700;line-height:1.45}
+.notif .acts{display:flex;gap:8px;margin-top:10px}
+.notif .act{
+  font-size:12px;font-weight:900;padding:6px 14px;border-radius:9px;
+  background:linear-gradient(180deg,#f4f7fc,#e3eaf4);color:#0068c9;border:1.5px solid #c0cede;
+  box-shadow:0 1.5px 0 #c0cede;
+}
+.remote-copy h2{font-size:clamp(28px,4vw,42px);margin-bottom:14px}
+.remote-copy > p{font-size:17.5px;font-weight:700;color:#6b563e;margin-bottom:8px}
+.remote-copy ul{list-style:none;margin:20px 0 28px}
+.remote-copy li{padding:8px 0;font-size:16px;font-weight:700;color:#5c4a38;display:flex;gap:12px;align-items:flex-start}
+.remote-copy li::before{
+  content:"✓";flex:none;width:24px;height:24px;border-radius:7px;margin-top:2px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:13px;font-weight:900;
+  background:linear-gradient(180deg,#8ede6f,#4da332);
+  border:2px solid #14330a;box-shadow:0 2px 0 #14330a;
+}
+
+/* ── pricing: gold burst ── */
+#pricing{overflow:hidden} /* the burst spills wider than small screens */
+.price-wrap{position:relative;max-width:560px;margin:0 auto;padding:40px 0}
+.burst{
+  position:absolute;inset:-60px -140px;pointer-events:none;opacity:.6;
+  background:repeating-conic-gradient(from 8deg, rgba(255,184,0,.32) 0deg 9deg, transparent 9deg 18deg);
+  -webkit-mask-image:radial-gradient(closest-side, #000 18%, transparent 72%);
+  mask-image:radial-gradient(closest-side, #000 18%, transparent 72%);
+}
+@keyframes slowSpin{to{transform:rotate(18deg)}}
+.js .burst{animation:slowSpin 14s ease-in-out infinite alternate}
+.price-card{
+  position:relative;text-align:center;
+  background:linear-gradient(180deg,#fffef9 0%,#faf3e4 70%,#f1e5cf 100%);
+  border:3px solid var(--card-edge);border-radius:20px;
+  box-shadow:0 9px 0 rgba(43,29,18,.9), 0 26px 46px rgba(20,12,6,.32), inset 0 2px 0 rgba(255,255,255,.85);
+  padding:40px 36px;
+}
+.price-card .tag{
+  display:inline-block;font-weight:900;font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+  color:#8a5b00;background:linear-gradient(180deg,#ffe9a8,#ffd351);
+  border:2px solid #5c3d00;border-radius:999px;padding:4px 14px;margin-bottom:14px;
+  box-shadow:0 2px 0 #5c3d00;
+}
+.price-card .amount{
+  font-family:"Lilita One",sans-serif;font-size:60px;line-height:1;
+  color:var(--gold);-webkit-text-stroke:3px var(--outline);paint-order:stroke fill;
+  text-shadow:0 4px 0 var(--outline), 0 12px 22px rgba(0,0,0,.25);
+}
+.price-card .per{font-size:15px;margin:8px 0 24px;color:#5c4a38;font-weight:700}
+.price-card ul{list-style:none;text-align:left;margin-bottom:28px}
+.price-card li{padding:9px 0;border-bottom:2px solid #eadfcb;font-size:15.5px}
+.price-card li::before{content:"✓";color:#3f9426;font-weight:900;margin-right:10px}
+.price-card li:last-child{border:0}
+
+/* ── faq ── */
+.faq{max-width:680px;margin:0 auto}
+.faq details{
+  background:linear-gradient(180deg,#fffef9,#f7efdd);
+  border:3px solid var(--card-edge);border-radius:14px;
+  box-shadow:0 5px 0 rgba(43,29,18,.9), 0 14px 22px rgba(20,12,6,.25);
+  margin-bottom:14px;overflow:hidden;
+  transition:transform .15s ease;
+}
+.faq details:hover{transform:translateY(-2px)}
+.faq summary{
+  cursor:pointer;list-style:none;padding:16px 20px;font-weight:900;font-size:16.5px;
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  color:var(--ink);
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:"Lilita One",sans-serif;color:#0068c9;font-size:24px;flex:none;transition:transform .2s ease}
+.faq details[open] summary::after{content:"–"}
+.faq details p{padding:0 20px 18px;font-size:15.5px;color:#5c4a38}
+
+footer{background:linear-gradient(180deg,#151515,#000);padding:48px 0 40px;font-size:13.5px;color:#9c8c76}
+footer .wrap{display:flex;flex-direction:column;gap:10px}
+footer a{color:#d7c4ac}
+footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
+
+.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+.js .reveal.in{opacity:1;transform:none}
+.js .steps .reveal:nth-child(2),.js .grid .reveal:nth-child(2),.js .grid .reveal:nth-child(5){transition-delay:.12s}
+.js .steps .reveal:nth-child(3),.js .grid .reveal:nth-child(3),.js .grid .reveal:nth-child(6){transition-delay:.24s}
+
+@media (max-width:800px){
+  .steps,.grid{grid-template-columns:1fr}
+  .remote{grid-template-columns:1fr;gap:40px}
+  .phone{width:min(300px,100%);transform:rotate(-2deg)}
+  section{padding:64px 0}
+  nav .links a:not(.btn){display:none}
+  .outl{-webkit-text-stroke:2px var(--outline);text-shadow:0 3px 0 var(--outline)}
+  .float{display:none}
+  .js .steps .reveal,.js .grid .reveal{transition-delay:0s !important}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .btn{transition:none}
+  .btn::after{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="#" aria-label="Goblins Farm home">
+        <img src="assets/logo.png" alt="" width="40" height="40">
+        <span><em>Goblins</em> Farm</span>
+      </a>
+      <div class="links">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn small" href="#pricing">Get the bot</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="brown-sec">
+  <section class="hero">
+    <!-- floating loot, gently bobbing -->
+    <div class="float" style="width:54px;height:54px;top:18%;left:7%;--dur:5.2s;--tilt:-10deg" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#ffb800" stroke="#5c3d00" stroke-width="6"/><circle cx="50" cy="50" r="28" fill="none" stroke="#c8891a" stroke-width="7"/></svg>
+    </div>
+    <div class="float" style="width:38px;height:38px;top:58%;left:13%;--dur:6.5s;--delay:.8s;--tilt:8deg" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><path d="M50 6 C50 6 18 44 18 66 a32 32 0 0 0 64 0 C82 44 50 6 50 6Z" fill="#b45ce8" stroke="#3c1a55" stroke-width="6"/><path d="M38 62a12 14 0 0 0 10 16" fill="none" stroke="#d9b6f5" stroke-width="6" stroke-linecap="round"/></svg>
+    </div>
+    <div class="float" style="width:44px;height:44px;top:22%;right:8%;--dur:5.8s;--delay:.4s;--tilt:12deg" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><path d="M50 6 C50 6 18 44 18 66 a32 32 0 0 0 64 0 C82 44 50 6 50 6Z" fill="#b45ce8" stroke="#3c1a55" stroke-width="6"/><path d="M38 62a12 14 0 0 0 10 16" fill="none" stroke="#d9b6f5" stroke-width="6" stroke-linecap="round"/></svg>
+    </div>
+    <div class="float" style="width:60px;height:60px;top:62%;right:11%;--dur:7s;--delay:1.4s;--tilt:-7deg" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#ffb800" stroke="#5c3d00" stroke-width="6"/><circle cx="50" cy="50" r="28" fill="none" stroke="#c8891a" stroke-width="7"/></svg>
+    </div>
+
+    <div class="wrap">
+      <p class="eyebrow stagger">A farming bot for Clash of Clans on PC</p>
+      <h1 class="outl stagger">Your village farms itself,<br><span class="gold-line">even at 3 AM.</span></h1>
+      <p class="sub stagger">Goblins Farm raids, loots and collects on its own. You set the target. <em>The goblin does the grind.</em></p>
+
+      <div class="loot stagger" aria-label="Example loot collected overnight">
+        <div class="pill gold">
+          <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="#ffb800" stroke="#5c3d00" stroke-width="6"/><circle cx="50" cy="50" r="28" fill="none" stroke="#c8891a" stroke-width="7"/></svg>
+          <span class="num" id="cGold" data-base="8214650">8,214,650</span>
+        </div>
+        <div class="pill elixir">
+          <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 6 C50 6 18 44 18 66 a32 32 0 0 0 64 0 C82 44 50 6 50 6Z" fill="#b45ce8" stroke="#3c1a55" stroke-width="6"/><path d="M38 62a12 14 0 0 0 10 16" fill="none" stroke="#d9b6f5" stroke-width="6" stroke-linecap="round"/></svg>
+          <span class="num" id="cElixir" data-base="7902480">7,902,480</span>
+        </div>
+        <div class="pill dark">
+          <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 6 C50 6 18 44 18 66 a32 32 0 0 0 64 0 C82 44 50 6 50 6Z" fill="#2c2340" stroke="#0f0a1c" stroke-width="6"/><path d="M38 62a12 14 0 0 0 10 16" fill="none" stroke="#6a5691" stroke-width="6" stroke-linecap="round"/></svg>
+          <span class="num" id="cDark" data-base="41260">41,260</span>
+        </div>
+      </div>
+      <p class="loot-caption stagger">looted tonight, while you slept</p>
+
+      <div class="cta-row stagger">
+        <a class="btn gold" href="https://goblinsfarm.lemonsqueezy.com/checkout/buy/7855a8c6-8524-4a4a-ae5e-0c9582bb07e0">Get Goblins Farm for €49.99</a>
+        <a class="btn ghost" href="#how">See how it works</a>
+      </div>
+      <p class="trust stagger">One-time payment · One device · Windows &amp; macOS</p>
+    </div>
+  </section>
+</div>
+<div class="tear t-brown flip"></div>
+
+<div class="parch-sec">
+  <section id="how">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker on-parch">Setup</span>
+        <h2 class="outl">Three steps, then it's <span class="hl">the goblin's problem</span></h2>
+        <p>About two minutes with the built-in wizard.</p>
+      </div>
+      <div class="steps">
+        <div class="card step reveal">
+          <div class="n">1</div>
+          <h3>Connect</h3>
+          <p>Run Clash of Clans in the BlueStacks emulator. One click auto-detects it and connects. No config files, no command line.</p>
+        </div>
+        <div class="card step reveal">
+          <div class="n">2</div>
+          <h3>Set your loot target</h3>
+          <p>Pick how much gold, elixir and dark elixir you want. The bot farms to the number, then stops on its own.</p>
+        </div>
+        <div class="card step reveal">
+          <div class="n">3</div>
+          <h3>Press Start</h3>
+          <p>The goblin searches bases, raids, and collects, then reports progress straight to your phone. Stop it from your couch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="tear t-sky"></div>
+<section class="sky-sec">
+  <div class="cloud c1" aria-hidden="true"></div>
+  <div class="cloud c2" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker on-sky">The app</span>
+      <h2 class="outl">Mission control for your loot</h2>
+    </div>
+    <figure class="shot reveal">
+      <div class="frame"><img src="assets/app-farm.png" alt="Goblins Farm app: Farm tab with gold, elixir and dark elixir counters and target sliders" width="1000" height="679" loading="lazy"></div>
+      <figcaption>The Farm tab: live loot counters, targets, one big Start button.</figcaption>
+    </figure>
+  </div>
+</section>
+<div class="tear t-sky flip"></div>
+
+<div class="parch-sec">
+  <section id="remote">
+    <div class="wrap">
+      <div class="remote reveal">
+        <div class="phone" aria-hidden="true">
+          <div class="notch"></div>
+          <div class="ptime">2:41</div>
+          <div class="pdate">Tuesday night, while you sleep</div>
+          <div class="notif">
+            <div class="nhead">
+              <img src="assets/favicon.png" alt="" style="width:18px;height:18px;border-radius:5px">
+              <span class="napp">Goblins Farm</span><span class="ntime">2:41 AM</span>
+            </div>
+            <p class="nbody">Raid complete: +312,540 gold, +268,110 elixir. 6 raids this session.</p>
+            <div class="acts"><span class="act">Stop</span><span class="act">Start</span><span class="act">Status</span></div>
+          </div>
+          <div class="notif">
+            <div class="nhead">
+              <img src="assets/favicon.png" alt="" style="width:18px;height:18px;border-radius:5px">
+              <span class="napp">Goblins Farm</span><span class="ntime">6:05 AM</span>
+            </div>
+            <p class="nbody">Target reached: 8,000,000 gold. Farming stopped. Sleep well, chief.</p>
+          </div>
+        </div>
+        <div class="remote-copy">
+          <span class="kicker on-parch">Phone remote</span>
+          <h2 class="outl">The goblin texts you</h2>
+          <p>Every raid reports back to your phone as a push notification. You always know what got looted, and you stay in command from anywhere.</p>
+          <ul>
+            <li>Raid reports with loot gained and session totals</li>
+            <li>Start, Stop and Restart buttons right inside the notification</li>
+            <li>Ask for status from the bus, get an instant reply</li>
+            <li>Free ntfy app on iPhone and Android, no account needed</li>
+          </ul>
+          <a class="btn small" href="#pricing">Get remote control</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="tear t-brown"></div>
+
+<div class="brown-sec">
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker on-brown">Features</span>
+        <h2 class="outl">Built like a raider, <span class="hl">not a hack</span></h2>
+        <p>No memory injection, no modified game files. It looks at the screen and taps, like you would.</p>
+      </div>
+      <div class="grid">
+        <div class="card feat reveal">
+          <div class="ic i-eye"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M8 50 Q50 12 92 50 Q50 88 8 50Z" fill="#fff" stroke="#2b1d12" stroke-width="6"/><circle cx="50" cy="50" r="17" fill="#00a2ff" stroke="#0a2a44" stroke-width="5"/><circle cx="50" cy="50" r="7" fill="#0a2a44"/><circle cx="56" cy="43" r="4" fill="#fff"/></svg></div>
+          <h3>Sees the screen</h3><p>Template-based screen detection drives every decision, using the same pixels you see.</p>
+        </div>
+        <div class="card feat reveal">
+          <div class="ic i-phone"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="28" y="8" width="44" height="84" rx="10" fill="#fff" stroke="#2b1d12" stroke-width="6"/><rect x="35" y="20" width="30" height="52" rx="3" fill="#6cc94e"/><circle cx="50" cy="82" r="4.5" fill="#2b1d12"/><path d="M78 24 q10 8 0 16M86 18 q16 12 0 28" fill="none" stroke="#2b1d12" stroke-width="5" stroke-linecap="round"/></svg></div>
+          <h3>Phone remote</h3><p>Start, stop and check status from push notifications on your phone. Free, no account.</p>
+        </div>
+        <div class="card feat reveal">
+          <div class="ic i-target"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="38" fill="#fff" stroke="#2b1d12" stroke-width="6"/><circle cx="50" cy="50" r="25" fill="#e23c30" stroke="#2b1d12" stroke-width="5"/><circle cx="50" cy="50" r="11" fill="#fff" stroke="#2b1d12" stroke-width="5"/><path d="M50 50 L82 18" stroke="#2b1d12" stroke-width="6" stroke-linecap="round"/><path d="M82 18 l-2 12 M82 18 l-12 2" stroke="#2b1d12" stroke-width="5" stroke-linecap="round"/></svg></div>
+          <h3>Farm to a number</h3><p>Set gold / elixir / dark elixir targets and it stops when you're full.</p>
+        </div>
+        <div class="card feat reveal">
+          <div class="ic i-loop"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M26 42 a26 26 0 0 1 48 -6" fill="none" stroke="#3f9426" stroke-width="9" stroke-linecap="round"/><path d="M74 22 l2 16 -16 -2" fill="none" stroke="#3f9426" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M74 58 a26 26 0 0 1 -48 6" fill="none" stroke="#2b1d12" stroke-width="9" stroke-linecap="round"/><path d="M26 78 l-2 -16 16 2" fill="none" stroke="#2b1d12" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Recovers on its own</h3><p>Reconnects dropped streams, finds its way back to the village from unknown screens.</p>
+        </div>
+        <div class="card feat reveal">
+          <div class="ic i-bolt"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M56 6 L24 56 h20 L40 94 L76 40 H54 Z" fill="#ffb800" stroke="#5c3d00" stroke-width="6" stroke-linejoin="round"/></svg></div>
+          <h3>Instant stop</h3><p>Stop or quit mid-raid and it obeys within a second. No hung windows, ever.</p>
+        </div>
+        <div class="card feat reveal">
+          <div class="ic i-key"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="32" cy="38" r="20" fill="#ffb800" stroke="#5c3d00" stroke-width="6"/><circle cx="32" cy="38" r="7" fill="#fff3cf" stroke="#5c3d00" stroke-width="4"/><path d="M46 52 L82 88 M70 76 l10 -10 M60 66 l8 -8" stroke="#5c3d00" stroke-width="8" stroke-linecap="round"/></svg></div>
+          <h3>Lifetime license</h3><p>Pay once, activate one device, keep every update. Works offline for two weeks at a time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="tear t-brown flip"></div>
+
+<div class="parch-sec">
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker on-parch">Price</span>
+        <h2 class="outl">One raid <span class="hl">pays for itself</span></h2>
+        <p>No subscription. No per-month goblin wages.</p>
+      </div>
+      <div class="price-wrap reveal">
+        <div class="burst" aria-hidden="true"></div>
+        <div class="price-card">
+          <span class="tag">Lifetime deal</span>
+          <div class="amount">€49.99</div>
+          <p class="per">one payment, forever</p>
+          <ul>
+            <li>Full farming bot for Windows &amp; macOS</li>
+            <li>Activated on one device, movable anytime</li>
+            <li>Phone notifications &amp; remote control</li>
+            <li>All future updates included</li>
+            <li>License key delivered instantly by email</li>
+          </ul>
+          <a class="btn" href="https://goblinsfarm.lemonsqueezy.com/checkout/buy/7855a8c6-8524-4a4a-ae5e-0c9582bb07e0">Buy the license</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="tear t-parch"></div>
+<div class="brown-sec">
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker on-brown">FAQ</span>
+        <h2 class="outl">Questions goblins get asked</h2>
+      </div>
+      <div class="faq reveal">
+        <details>
+          <summary>Do I need anything besides the bot?</summary>
+          <p>Yes, the free BlueStacks emulator with Clash of Clans installed. The setup wizard walks you through it and auto-detects everything.</p>
+        </details>
+        <details>
+          <summary>Can my account get banned?</summary>
+          <p>Automation is against Supercell's Terms of Service, so the risk is never zero. Goblins Farm only reads the screen and taps like a human, with no memory editing and no modified clients, but you use it at your own risk.</p>
+        </details>
+        <details>
+          <summary>Does my PC have to stay on?</summary>
+          <p>Yes. The bot runs on your machine and drives the emulator there. Many players run it overnight — the phone notifications tell you how the raid went.</p>
+        </details>
+        <details>
+          <summary>Can I move my license to a new PC?</summary>
+          <p>Yes. Deactivate on the old machine (or contact us if it's dead) and activate on the new one. One device at a time.</p>
+        </details>
+        <details>
+          <summary>Something doesn't work on my setup</summary>
+          <p>Email us. Most issues are emulator settings and take minutes to fix. If we can't get it running on your machine, we'll make it right.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p class="fbrand">Goblins Farm</p>
+    <p><a href="mailto:support@goblinsfarm.com">support@goblinsfarm.com</a></p>
+    <p>Goblins Farm is not affiliated with, endorsed by, or associated with Supercell. Clash of Clans is a trademark of Supercell Oy. Use of automation may violate the game's Terms of Service. Use at your own risk.</p>
+    <p>© 2026 Goblins Farm</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduced) document.documentElement.classList.add("js");
+
+  // Ticking loot counters with a little pop on each raid
+  var counters = [
+    {el: document.getElementById("cGold"),   step: [800, 4200]},
+    {el: document.getElementById("cElixir"), step: [700, 3900]},
+    {el: document.getElementById("cDark"),   step: [4, 26]}
+  ];
+  counters.forEach(function(c){ c.val = parseInt(c.el.dataset.base, 10); });
+  function fmt(n){ return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
+  if (!reduced) {
+    setInterval(function(){
+      counters.forEach(function(c){
+        c.val += c.step[0] + Math.floor(Math.random() * (c.step[1] - c.step[0]));
+        c.el.textContent = fmt(c.val);
+        c.el.classList.remove("pop");
+        void c.el.offsetWidth;   // restart the pop animation
+        c.el.classList.add("pop");
+      });
+    }, 1400);
+  }
+
+  // Scroll reveals
+  if (!reduced && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, {threshold: 0.12});
+    document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
