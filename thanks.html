@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Goblins Farm license</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parch:#d7c4ac;--brown:#4a3226;--brown-deep:#38251a;--ink:#2b1d12;
+  --outline:#1f150d;--gold:#ffb800;--green:#6cc94e;--card-edge:#2b1d12;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;
+  background:
+    radial-gradient(1100px 480px at 50% 0%, rgba(255,214,150,.14), transparent 65%),
+    linear-gradient(180deg,#5d4232,var(--brown) 40%,var(--brown-deep));
+  font-family:"Nunito Sans",system-ui,sans-serif;color:#e8dcc9;text-align:center;
+}
+.card{
+  max-width:520px;width:100%;padding:44px 36px;
+  background:linear-gradient(180deg,#fffef9 0%,#faf3e4 70%,#f1e5cf 100%);
+  border:3px solid var(--card-edge);border-radius:20px;color:var(--ink);
+  box-shadow:0 9px 0 rgba(43,29,18,.9), 0 26px 46px rgba(20,12,6,.32);
+}
+h1{
+  font-family:"Lilita One",sans-serif;font-weight:400;font-size:32px;margin:14px 0 10px;
+  color:#fff;-webkit-text-stroke:2.5px var(--outline);paint-order:stroke fill;
+  text-shadow:0 3px 0 var(--outline);
+}
+.logo{width:84px;height:84px;border-radius:50%;border:3px solid var(--gold);
+  box-shadow:0 4px 10px rgba(0,0,0,.3);margin:0 auto}
+p{color:#5c4a38;font-size:15.5px;line-height:1.6}
+.key{
+  margin:24px 0 10px;padding:16px;border-radius:12px;
+  background:#241a10;border:3px solid var(--card-edge);
+  font-family:"Lilita One",sans-serif;font-size:clamp(17px,4.2vw,24px);letter-spacing:.06em;
+  color:var(--gold);user-select:all;
+}
+.btn{
+  display:inline-block;margin-top:14px;cursor:pointer;border:3px solid #14330a;border-radius:12px;
+  font-family:"Lilita One",sans-serif;font-size:17px;color:#fff;padding:12px 26px;
+  background:linear-gradient(180deg,#8ede6f,var(--green) 55%,#4da332);
+  box-shadow:0 5px 0 #14330a;text-shadow:0 2px 0 rgba(20,51,10,.5);
+}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #14330a}
+.steps{text-align:left;margin:22px 0 0;padding:0 0 0 20px;color:#5c4a38;font-size:15px}
+.steps li{margin:6px 0}
+.muted{font-size:13px;color:#9a8567;margin-top:18px}
+.spin{font-size:15px;color:#5c4a38}
+</style>
+</head>
+<body>
+<div class="card">
+  <img class="logo" src="assets/logo.png" alt="">
+  <h1>Payment complete!</h1>
+  <div id="wait">
+    <p class="spin">Fetching your license key…</p>
+  </div>
+  <div id="ready" hidden>
+    <p>This is your license key. It's also linked to your email with us, so it can always be recovered.</p>
+    <div class="key" id="key">GF-….</div>
+    <button class="btn" id="copy">Copy key</button>
+    <ol class="steps">
+      <li>Download Goblins Farm from the <a href="https://github.com/GoblinsFarm/goblinsfarm/releases/latest">releases page</a></li>
+      <li>Run the app and follow the setup wizard</li>
+      <li>Paste this key at the "Activate Your License" step</li>
+    </ol>
+  </div>
+  <div id="fail" hidden>
+    <p>Your payment went through, but the key isn't ready yet. Refresh this page in a minute, or email
+      <a href="mailto:support@goblinsfarm.com">support@goblinsfarm.com</a> with your receipt and we'll send it right over.</p>
+  </div>
+  <p class="muted">Keep this key safe — one device at a time, lifetime updates.</p>
+</div>
+<script>
+(function(){
+  var sid = new URLSearchParams(location.search).get("session_id") || "";
+  var tries = 0;
+  function show(id){ ["wait","ready","fail"].forEach(function(x){
+    document.getElementById(x).hidden = (x !== id); }); }
+  function poll(){
+    if (!sid) { show("fail"); return; }
+    fetch("https://api.goblinsfarm.com/v1/key-for-session?session_id=" + encodeURIComponent(sid))
+      .then(function(r){ return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function(d){
+        document.getElementById("key").textContent = d.license_key;
+        show("ready");
+      })
+      .catch(function(){
+        tries++;
+        if (tries < 10) setTimeout(poll, 2000); else show("fail");
+      });
+  }
+  poll();
+  document.getElementById("copy").addEventListener("click", function(){
+    navigator.clipboard.writeText(document.getElementById("key").textContent).then(function(){
+      document.getElementById("copy").textContent = "Copied!";
+    });
+  });
+})();
+</script>
+</body>
+</html>
