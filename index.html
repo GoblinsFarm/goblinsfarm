@@ -410,6 +410,7 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
         <a href="#how">How it works</a>
         <a href="#features">Features</a>
         <a href="#pricing">Pricing</a>
+        <a href="#download">Download</a>
         <a href="#faq">FAQ</a>
         <a class="btn small" href="#pricing">Get the bot</a>
       </div>
@@ -622,10 +623,27 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
 
 <div class="tear t-parch"></div>
 <div class="brown-sec">
+  <section id="download">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="kicker on-brown">Download</span>
+        <h2 class="outl">Grab the app</h2>
+        <p>Free to download and set up. A license key unlocks farming.</p>
+      </div>
+      <div class="cta-row reveal">
+        <a class="btn" id="dl-mac" href="https://github.com/GoblinsFarm/goblinsfarm/releases/latest">Download for macOS</a>
+        <a class="btn" id="dl-win" href="https://github.com/GoblinsFarm/goblinsfarm/releases/latest">Download for Windows</a>
+      </div>
+      <p style="text-align:center;font-size:13.5px;color:#a08e75;margin-top:6px" id="dl-version"></p>
+    </div>
+  </section>
+</div>
+<div class="tear t-brown flip"></div>
+<div class="parch-sec">
   <section id="faq">
     <div class="wrap">
       <div class="sec-head reveal">
-        <span class="kicker on-brown">FAQ</span>
+        <span class="kicker on-parch">FAQ</span>
         <h2 class="outl">Questions goblins get asked</h2>
       </div>
       <div class="faq reveal">
@@ -688,6 +706,19 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
     }, 1400);
   }
 
+
+  // Resolve direct download links for the latest release assets
+  fetch("https://api.github.com/repos/GoblinsFarm/goblinsfarm/releases/latest")
+    .then(function(r){ return r.json(); })
+    .then(function(rel){
+      (rel.assets || []).forEach(function(a){
+        if (/\.dmg$/.test(a.name)) document.getElementById("dl-mac").href = a.browser_download_url;
+        if (/\.exe$/.test(a.name)) document.getElementById("dl-win").href = a.browser_download_url;
+      });
+      if (rel.tag_name) document.getElementById("dl-version").textContent =
+        "Latest version " + rel.tag_name + " · signed & notarized on macOS";
+    })
+    .catch(function(){});
   // Scroll reveals
   if (!reduced && "IntersectionObserver" in window) {
     var io = new IntersectionObserver(function(entries){
