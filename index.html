@@ -708,15 +708,22 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
 
 
   // Resolve direct download links for the latest release assets
-  fetch("https://api.github.com/repos/GoblinsFarm/goblinsfarm/releases/latest")
+  // Each platform gets the newest release that actually carries its installer.
+  fetch("https://api.github.com/repos/GoblinsFarm/goblinsfarm/releases")
     .then(function(r){ return r.json(); })
-    .then(function(rel){
-      (rel.assets || []).forEach(function(a){
-        if (/\.dmg$/.test(a.name)) document.getElementById("dl-mac").href = a.browser_download_url;
-        if (/\.exe$/.test(a.name)) document.getElementById("dl-win").href = a.browser_download_url;
+    .then(function(rels){
+      var mac = null, win = null, newest = null;
+      (rels || []).forEach(function(rel){
+        if (!newest) newest = rel;
+        (rel.assets || []).forEach(function(a){
+          if (!mac && /\.dmg$/.test(a.name)) mac = a.browser_download_url;
+          if (!win && /\.exe$/.test(a.name)) win = a.browser_download_url;
+        });
       });
-      if (rel.tag_name) document.getElementById("dl-version").textContent =
-        "Version " + rel.tag_name.replace("v","") + " · Windows & macOS";
+      if (mac) document.getElementById("dl-mac").href = mac;
+      if (win) document.getElementById("dl-win").href = win;
+      if (newest) document.getElementById("dl-version").textContent =
+        "Version " + newest.tag_name.replace("v","") + " · Windows & macOS";
     })
     .catch(function(){});
   // Scroll reveals
