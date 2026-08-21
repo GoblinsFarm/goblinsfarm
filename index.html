@@ -34,7 +34,7 @@ body{
   background:var(--parch);
   color:var(--ink);
   font-family:"Nunito Sans",system-ui,sans-serif;
-  font-size:17px;line-height:1.6;
+  font-size:16px;line-height:1.6;
   overflow-x:hidden;
 }
 h1,h2,h3{font-family:"Lilita One",sans-serif;font-weight:400;letter-spacing:.015em}
@@ -47,7 +47,7 @@ h1,h2,h3{font-family:"Lilita One",sans-serif;font-weight:400;letter-spacing:.015
 a{color:inherit}
 img{max-width:100%;height:auto;display:block}
 .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
-section{padding:92px 0}
+section{padding:60px 0}
 :focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
 
 /* section eyebrows — varied type rhythm */
@@ -141,7 +141,7 @@ nav .links a:not(.btn):hover{color:#fff}
 .btn.small{font-size:15px;padding:9px 20px}
 
 /* ── hero ── */
-.hero{position:relative;padding:96px 0 104px;text-align:center;overflow:hidden}
+.hero{position:relative;padding:52px 0 64px;text-align:center;overflow:hidden}
 .hero .wrap{position:relative;z-index:2}
 .float{position:absolute;z-index:1;opacity:.9;filter:drop-shadow(0 6px 6px rgba(0,0,0,.35))}
 .float svg{width:100%;height:100%}
@@ -153,11 +153,11 @@ nav .links a:not(.btn):hover{color:#fff}
 
 .hero .eyebrow{
   font-weight:900;font-size:13px;letter-spacing:.16em;text-transform:uppercase;
-  color:#a5e18b;margin-bottom:18px;text-shadow:0 1px 0 rgba(0,0,0,.5);
+  color:#a5e18b;margin-bottom:12px;text-shadow:0 1px 0 rgba(0,0,0,.5);
 }
-.hero h1{font-size:clamp(40px,6.6vw,74px);line-height:1.06;margin-bottom:22px}
+.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.06;margin-bottom:16px}
 .hero h1 .gold-line{color:var(--gold)}
-.hero p.sub{max-width:560px;margin:0 auto 34px;font-size:19.5px;font-weight:700;color:#d9c8b0}
+.hero p.sub{max-width:560px;margin:0 auto 24px;font-size:17px;font-weight:700;color:#d9c8b0}
 .hero p.sub em{font-style:italic;color:#f5e5c8}
 
 /* load-in sequence */
@@ -181,7 +181,7 @@ nav .links a:not(.btn):hover{color:#fff}
 }
 .pill svg{width:28px;height:28px;flex:none;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
 .pill .num{
-  font-family:"Lilita One",sans-serif;font-size:20px;
+  font-family:"Lilita One",sans-serif;font-size:18px;
   font-variant-numeric:tabular-nums;
   color:#fff;-webkit-text-stroke:1px var(--outline);paint-order:stroke fill;
   text-shadow:0 2px 0 var(--outline);
@@ -192,15 +192,15 @@ nav .links a:not(.btn):hover{color:#fff}
 .pill.gold .num{color:#ffd351}
 .pill.elixir .num{color:#dfb3ff}
 .pill.dark .num{color:#cabce0}
-.loot-caption{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#a08e75;margin-bottom:38px}
+.loot-caption{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#a08e75;margin-bottom:26px}
 .cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
 .trust{font-size:14px;color:#b3a188}
 
 /* ── sections ── */
-.sec-head{text-align:center;max-width:660px;margin:0 auto 54px}
-.sec-head h2{font-size:clamp(30px,4.5vw,46px);margin-bottom:12px}
+.sec-head{text-align:center;max-width:660px;margin:0 auto 34px}
+.sec-head h2{font-size:clamp(26px,3.6vw,38px);margin-bottom:10px}
 .sec-head h2 .hl{color:var(--gold)}
-.sec-head p{font-size:17.5px;font-weight:700}
+.sec-head p{font-size:16px;font-weight:700}
 .parch-sec .sec-head p{color:#6b563e}
 
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -226,7 +226,7 @@ nav .links a:not(.btn):hover{color:#fff}
   width:38px;height:38px;border-radius:50%;
   display:flex;align-items:center;justify-content:center;margin-bottom:16px;
 }
-.step h3{font-size:22px;margin-bottom:8px}
+.step h3{font-size:20px;margin-bottom:6px}
 .step p{font-size:15px;color:#5c4a38}
 
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -274,9 +274,9 @@ nav .links a:not(.btn):hover{color:#fff}
 .shot figcaption{text-align:center;font-size:14.5px;margin-top:22px;color:#2c586e;font-weight:800;font-style:italic}
 
 /* ── phone remote showcase ── */
-.remote{display:grid;grid-template-columns:360px 1fr;gap:60px;align-items:center}
+.remote{display:grid;grid-template-columns:330px 1fr;gap:48px;align-items:center}
 .phone{
-  width:300px;margin:0 auto;
+  width:270px;margin:0 auto;
   background:linear-gradient(180deg,#182031,#0f141f);
   border:4px solid var(--card-edge);border-radius:38px;
   padding:16px 14px 22px;
@@ -303,7 +303,7 @@ nav .links a:not(.btn):hover{color:#fff}
   background:linear-gradient(180deg,#f4f7fc,#e3eaf4);color:#0068c9;border:1.5px solid #c0cede;
   box-shadow:0 1.5px 0 #c0cede;
 }
-.remote-copy h2{font-size:clamp(28px,4vw,42px);margin-bottom:14px}
+.remote-copy h2{font-size:clamp(24px,3.2vw,34px);margin-bottom:10px}
 .remote-copy > p{font-size:17.5px;font-weight:700;color:#6b563e;margin-bottom:8px}
 .remote-copy ul{list-style:none;margin:20px 0 28px}
 .remote-copy li{padding:8px 0;font-size:16px;font-weight:700;color:#5c4a38;display:flex;gap:12px;align-items:flex-start}
@@ -317,7 +317,7 @@ nav .links a:not(.btn):hover{color:#fff}
 
 /* ── pricing: gold burst ── */
 #pricing{overflow:hidden} /* the burst spills wider than small screens */
-.price-wrap{position:relative;max-width:560px;margin:0 auto;padding:40px 0}
+.price-wrap{position:relative;max-width:520px;margin:0 auto;padding:24px 0}
 .burst{
   position:absolute;inset:-60px -140px;pointer-events:none;opacity:.6;
   background:repeating-conic-gradient(from 8deg, rgba(255,184,0,.32) 0deg 9deg, transparent 9deg 18deg);
@@ -331,7 +331,7 @@ nav .links a:not(.btn):hover{color:#fff}
   background:linear-gradient(180deg,#fffef9 0%,#faf3e4 70%,#f1e5cf 100%);
   border:3px solid var(--card-edge);border-radius:20px;
   box-shadow:0 9px 0 rgba(43,29,18,.9), 0 26px 46px rgba(20,12,6,.32), inset 0 2px 0 rgba(255,255,255,.85);
-  padding:40px 36px;
+  padding:30px 32px;
 }
 .price-card .tag{
   display:inline-block;font-weight:900;font-size:12px;letter-spacing:.18em;text-transform:uppercase;
@@ -340,7 +340,7 @@ nav .links a:not(.btn):hover{color:#fff}
   box-shadow:0 2px 0 #5c3d00;
 }
 .price-card .amount{
-  font-family:"Lilita One",sans-serif;font-size:60px;line-height:1;
+  font-family:"Lilita One",sans-serif;font-size:50px;line-height:1;
   color:var(--gold);-webkit-text-stroke:3px var(--outline);paint-order:stroke fill;
   text-shadow:0 4px 0 var(--outline), 0 12px 22px rgba(0,0,0,.25);
 }
