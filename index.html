@@ -716,7 +716,7 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
         if (/\.exe$/.test(a.name)) document.getElementById("dl-win").href = a.browser_download_url;
       });
       if (rel.tag_name) document.getElementById("dl-version").textContent =
-        "Latest version " + rel.tag_name + " · signed & notarized on macOS";
+        "Version " + rel.tag_name.replace("v","") + " · Windows & macOS";
     })
     .catch(function(){});
   // Scroll reveals
