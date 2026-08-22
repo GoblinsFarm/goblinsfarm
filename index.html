@@ -349,6 +349,13 @@ nav .links a:not(.btn):hover{color:#fff}
 .price-card li{padding:9px 0;border-bottom:2px solid #eadfcb;font-size:15.5px}
 .price-card li::before{content:"✓";color:#3f9426;font-weight:900;margin-right:10px}
 .price-card li:last-child{border:0}
+/* three-tier layout */
+.price-grid{position:relative;display:flex;gap:20px;justify-content:center;align-items:stretch;flex-wrap:wrap}
+.price-grid .price-card{flex:1 1 250px;max-width:330px;display:flex;flex-direction:column}
+.price-grid .price-card ul{flex:1}
+.price-card.featured{border-color:#b8860b;
+  box-shadow:0 9px 0 rgba(43,29,18,.9), 0 26px 56px rgba(212,160,23,.45), inset 0 2px 0 rgba(255,255,255,.85)}
+.price-card .amount small{font-size:22px;-webkit-text-stroke:2px var(--outline)}
 
 /* ── faq ── */
 .faq{max-width:680px;margin:0 auto}
@@ -457,7 +464,7 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
       <p class="loot-caption stagger">looted tonight, while you slept</p>
 
       <div class="cta-row stagger">
-        <a class="btn gold" href="https://api.goblinsfarm.com/v1/checkout">Get Goblins Farm for €49.99</a>
+        <a class="btn gold" href="#pricing">Get Goblins Farm from €60</a>
         <a class="btn ghost" href="#how">See how it works</a>
       </div>
       <p class="trust stagger">One-time payment · One device · Windows &amp; macOS</p>
@@ -601,20 +608,48 @@ footer .fbrand{font-family:"Lilita One",sans-serif;color:#fff;font-size:16px}
         <h2 class="outl">One night <span class="hl">pays for itself</span></h2>
         <p>No subscription. No per-month goblin wages.</p>
       </div>
-      <div class="price-wrap reveal">
+      <div class="price-wrap reveal" style="max-width:1080px">
         <div class="burst" aria-hidden="true"></div>
-        <div class="price-card">
-          <span class="tag">Lifetime deal</span>
-          <div class="amount">€49.99</div>
-          <p class="per">one payment, forever</p>
-          <ul>
-            <li>Full farming bot for Windows &amp; macOS</li>
-            <li>Activated on one device, movable anytime</li>
-            <li>Phone notifications &amp; remote control</li>
-            <li>All future updates included</li>
-            <li>License key delivered instantly by email</li>
-          </ul>
-          <a class="btn" id="buy-btn" href="https://api.goblinsfarm.com/v1/checkout">Buy the license</a>
+        <div class="price-grid">
+          <div class="price-card">
+            <span class="tag">Main Base</span>
+            <div class="amount">€60</div>
+            <p class="per">one payment, forever</p>
+            <ul>
+              <li>Main village farming bot</li>
+              <li>Loot targets &amp; auto-stop</li>
+              <li>Phone notifications &amp; remote control</li>
+              <li>All future updates included</li>
+              <li>Key delivered instantly by email</li>
+            </ul>
+            <a class="btn" href="https://api.goblinsfarm.com/v1/checkout?product=main">Buy Main Base</a>
+          </div>
+          <div class="price-card featured">
+            <span class="tag">Best value — both bases</span>
+            <div class="amount">€100 <small>save €20</small></div>
+            <p class="per">one payment, forever</p>
+            <ul>
+              <li>Everything in Main Base</li>
+              <li>Everything in Builder Base</li>
+              <li>One key unlocks the whole app</li>
+              <li>Activated on one device, movable anytime</li>
+              <li>All future updates included</li>
+            </ul>
+            <a class="btn" id="buy-btn" href="https://api.goblinsfarm.com/v1/checkout?product=bundle">Buy the Bundle</a>
+          </div>
+          <div class="price-card">
+            <span class="tag">Builder Base</span>
+            <div class="amount">€60</div>
+            <p class="per">one payment, forever</p>
+            <ul>
+              <li>Builder Base farming bot</li>
+              <li>Attacks both battle stages</li>
+              <li>Auto-claims the elixir cart</li>
+              <li>Stops when storages are full</li>
+              <li>Key delivered instantly by email</li>
+            </ul>
+            <a class="btn" href="https://api.goblinsfarm.com/v1/checkout?product=builder">Buy Builder Base</a>
+          </div>
         </div>
       </div>
     </div>
