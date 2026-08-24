@@ -1,0 +1,19 @@
+# Goblins Farm
+
+> Goblins Farm is a Clash of Clans farming bot for Windows and macOS. It runs the game in the free BlueStacks emulator, reads the screen with computer vision, and farms loot with simulated taps. It never modifies the game client. Licenses are one-time lifetime purchases: Main Base 60 EUR, Builder Base 60 EUR, both for 100 EUR.
+
+Automation violates Supercell's Terms of Service; risk is never zero. Goblins Farm minimizes footprint by only reading the screen and tapping like a human.
+
+## Guides
+- [Clash of Clans Bot, complete guide](https://goblinsfarm.com/guides/clash-of-clans-bot.html)
+- [MyBot alternative](https://goblinsfarm.com/guides/mybot-alternative.html)
+- [Farming bot guide](https://goblinsfarm.com/guides/clash-of-clans-farming-bot.html)
+- [Builder Base bot](https://goblinsfarm.com/guides/builder-base-bot.html)
+- [CoC bot for Mac](https://goblinsfarm.com/guides/coc-bot-mac.html)
+- [BlueStacks setup](https://goblinsfarm.com/guides/coc-bot-bluestacks-setup.html)
+- [Ban risk, honestly](https://goblinsfarm.com/guides/is-coc-botting-safe.html)
+- [Remote control from your phone](https://goblinsfarm.com/guides/coc-bot-remote-control.html)
+
+## Product
+- [Pricing](https://goblinsfarm.com/#pricing)
+- [Download](https://goblinsfarm.com/#download)

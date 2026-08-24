@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clash of Clans Bot for Windows, PC Setup Guide | Goblins Farm</title>
+<meta name="description" content="How to run a Clash of Clans bot on Windows in 2026: BlueStacks setup, installer and ADB auto-detect, overnight farming, and an honest note on Windows Defender flags.">
+<link rel="canonical" href="https://goblinsfarm.com/guides/coc-bot-windows.html">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{--parch:#d7c4ac;--brown:#4a3226;--ink:#2b1d12;--outline:#1f150d;--gold:#ffb800;--edge:#2b1d12}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(180deg,#e6d6c0,var(--parch) 40%,#cbb59a);font-family:"Nunito Sans",system-ui,sans-serif;color:#4a3a28;font-size:15.5px;line-height:1.7;padding:40px 20px 80px}
+.doc{max-width:760px;margin:0 auto;background:linear-gradient(180deg,#fffef9,#faf3e4);border:3px solid var(--edge);border-radius:18px;box-shadow:0 8px 0 rgba(43,29,18,.9),0 24px 40px rgba(20,12,6,.25);padding:44px 46px}
+h1{font-family:"Lilita One",sans-serif;font-weight:400;font-size:32px;color:#fff;-webkit-text-stroke:2.5px var(--outline);paint-order:stroke fill;text-shadow:0 3px 0 var(--outline);margin-bottom:6px}
+h2{font-family:"Lilita One",sans-serif;font-weight:400;font-size:21px;color:var(--ink);margin:30px 0 8px}
+h3{font-size:16px;color:var(--ink);margin:20px 0 6px}
+p,li{color:#5c4a38;margin-bottom:10px}
+ul,ol{padding-left:22px;margin-bottom:12px}
+.updated{font-size:13px;color:#9a8567;margin-bottom:22px}
+a{color:#0068c9}
+strong{color:var(--ink)}
+.home{display:inline-block;margin-bottom:18px;font-weight:800;text-decoration:none;font-size:14px}
+.cta{display:inline-block;background:linear-gradient(180deg,#ffe9a8,#ffd351);border:2.5px solid #5c3d00;border-radius:12px;color:#5c3d00;font-weight:900;padding:12px 22px;text-decoration:none;margin:14px 0;box-shadow:0 3px 0 #5c3d00}
+.related{background:#f4ecdc;border:2px solid #eadfcb;border-radius:12px;padding:16px 20px;margin-top:30px}
+.related h2{margin-top:0;font-size:17px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px}
+th,td{border:2px solid #eadfcb;padding:8px 10px;text-align:left}
+th{background:#f4ecdc;color:var(--ink)}
+@media (max-width:600px){.doc{padding:28px 22px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How do you run a Clash of Clans bot on Windows?","acceptedAnswer":{"@type":"Answer","text":"Install the free BlueStacks emulator, install Clash of Clans inside it and log in with your Supercell ID, then install a desktop bot like Goblins Farm. The bot reads the emulator screen and sends simulated taps through ADB, which Goblins Farm's setup wizard detects automatically."}},
+{"@type":"Question","name":"Why does Windows Defender flag Clash of Clans bots?","acceptedAnswer":{"@type":"Answer","text":"Automation tools that capture the screen and send input look suspicious to heuristic scanners, and unsigned or little-downloaded executables get flagged most. If a download comes from anywhere other than the official site, treat a warning seriously. Only add an exclusion for software whose source you trust."}},
+{"@type":"Question","name":"Can I leave a CoC bot running overnight on my PC?","acceptedAnswer":{"@type":"Answer","text":"Yes, that is the main use case. Disable Windows sleep while the bot runs, set loot targets so the bot stops itself, and use phone notifications to keep an eye on it. Remember that all automation violates Supercell's Terms of Service, so run it on an account where you accept that risk."}}]}
+</script>
+</head>
+<body>
+<div class="doc">
+<a class="home" href="/">&larr; goblinsfarm.com</a>
+<h1>Clash of Clans Bot for Windows, The PC Setup Guide</h1>
+<p class="updated">Updated: 24 August 2026</p>
+
+<p>Windows is where Clash of Clans botting was born. Emulators ran best there, MyBot was Windows-only, and a PC that sits on a desk all night is the natural home for a farming loop. If you searched for a CoC bot for PC, this page walks through how the setup works in 2026, what to expect running it overnight, and one honest note about antivirus warnings that most bot sites skip.</p>
+
+<p>Before any of that: automation violates Supercell's Terms of Service, on Windows and everywhere else. No bot is safe or undetectable, ours included. Screen-reading bots carry less risk than mod clients, but never zero, and you should decide with open eyes. Details on our <a href="is-coc-botting-safe.html">ban risk page</a>.</p>
+
+<h2>Why Windows is the classic botting platform</h2>
+<p>Three practical reasons. Android emulators, BlueStacks above all, are most mature on Windows. Desktop PCs are happy to run 24/7 in a way laptops and phones are not. And nearly every bot ever written for this game targeted Windows first, so the tooling and the collective know-how live there. The historical catch was maintenance, not platform: the classic free Windows bots stopped being updated reliably, which is the gap maintained tools now fill. For the full landscape, see our <a href="best-clash-of-clans-bot.html">2026 bot roundup</a>.</p>
+
+<h2>How the setup works</h2>
+<p>A modern Windows bot does not touch the game itself. The game runs normally inside an emulator, and the bot operates it from outside, like a very patient set of eyes and fingers:</p>
+<ol>
+<li><strong>BlueStacks</strong> runs Android on your PC, and Clash of Clans runs inside it with your normal Supercell ID.</li>
+<li><strong>The bot reads the screen</strong> using template matching and OCR to recognize buttons, loot amounts, and game state.</li>
+<li><strong>The bot sends taps</strong> through ADB, the standard Android debug channel, the same input path your finger would take.</li>
+</ol>
+<p>No memory editing, no modified client, no traffic to Supercell servers beyond what the game itself sends. That architecture is the difference between a bot that behaves like a human and a hack that behaves like a hack.</p>
+
+<h2>Setting up Goblins Farm on Windows</h2>
+<ol>
+<li><strong>Install BlueStacks.</strong> It is free. Install Clash of Clans inside it and log in with your Supercell ID. Our <a href="coc-bot-bluestacks-setup.html">BlueStacks setup guide</a> covers the settings that matter.</li>
+<li><strong>Download the Windows installer</strong> from goblinsfarm.com and run it. Only download from the official site, more on that below.</li>
+<li><strong>Run the setup wizard.</strong> On first launch, Goblins Farm walks you through connecting to BlueStacks, and it <strong>auto-detects ADB</strong>, so there is no path-hunting or command-line work.</li>
+<li><strong>Set your targets.</strong> Choose gold, elixir, and dark elixir goals and a minimum loot threshold, and the bot skips bases below it. When your targets are reached, the bot stops on its own.</li>
+<li><strong>Press start.</strong> Watch the first few raids to see it working, then let it run.</li>
+</ol>
+
+<h2>Running it overnight</h2>
+<p>Overnight farming is the whole point of a PC bot, and a few settings make it uneventful:</p>
+<ul>
+<li><strong>Disable sleep</strong> in Windows power settings while the bot runs. A sleeping PC farms nothing.</li>
+<li><strong>Use stop conditions.</strong> A bot that farms to a loot target and stops is better than one that grinds visibly for 24 hours straight. Goblins Farm stops at your targets by design, and in <a href="builder-base-bot.html">Builder Base mode</a> it stops when storages are full.</li>
+<li><strong>Watch it from bed.</strong> Goblins Farm sends phone notifications and accepts remote Start and Stop commands through the free ntfy.sh service, so you can check progress or shut it down without walking to the PC. <a href="coc-bot-remote-control.html">How remote control works</a>.</li>
+</ul>
+
+<h2>The Windows Defender question, honestly</h2>
+<p>Sooner or later, anyone who downloads automation tools meets a Windows Defender warning, so here is the honest version instead of the hand-wavy one.</p>
+<p>Automation tools do things heuristic scanners are trained to distrust: capture the screen, send synthetic input, talk to other processes. Small-audience executables without an established reputation get flagged most, and unsigned ones more still. That means a warning on a niche bot tool is common and is not, by itself, proof of malware. It is also not proof of innocence: plenty of real malware ships dressed up as game bots, especially through cracked downloads and forum mirrors.</p>
+<p>Our own status, stated plainly: our macOS build is signed and notarized by Apple. On Windows, SmartScreen and Defender may still warn on our installer, as they do for many small publishers, and we would rather tell you that than pretend it cannot happen. The rules we suggest for any bot, ours included: download only from the official site, never from a repack or a "cracked" copy, and if you add a Defender exclusion, scope it to the one folder of a tool whose source you trust. If a warning comes with a download you got anywhere else, believe the warning.</p>
+
+<h2>The bottom line</h2>
+<p>Windows remains the natural home for CoC botting: the best emulator support, always-on hardware, and now maintained tools to run on it. Goblins Farm gives you a modern, actively updated option there, screen reading only, main village farming with loot thresholds and targets, full Builder Base automation, phone remote control, and an auto-updater, for a one-time lifetime license from 60 EUR (Main Base 60 EUR, Builder Base 60 EUR, bundle 100 EUR), one device at a time and movable when you change machines. And if you ever switch platforms, the <a href="coc-bot-mac.html">same bot runs on macOS</a>.</p>
+
+<a class="cta" href="/#pricing">Get Goblins Farm for Windows, lifetime from 60 EUR</a>
+
+<div class="related">
+<h2>Keep reading</h2>
+<ul>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bots, the complete 2026 guide</a></li>
+<li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting</a></li>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot guide, targets, thresholds, and overnight loot</a></li>
+<li><a href="coc-bot-remote-control.html">Remote control from your phone</a></li>
+<li><a href="coc-bot-mac.html">Clash of Clans bot for Mac</a></li>
+<li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
+</ul>
+</div>
+
+<p style="margin-top:26px;font-size:13px;color:#9a8567">Goblins Farm is not affiliated with, endorsed by, or associated with Supercell. Clash of Clans is a trademark of Supercell Oy. Use of automation may violate the game's Terms of Service. Use at your own risk.</p>
+</div>
+</body>
+</html>

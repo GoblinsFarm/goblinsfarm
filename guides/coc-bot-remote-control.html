@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Control Your CoC Bot From Your Phone | Goblins Farm</title>
-<meta name="description" content="How to control a CoC bot from your phone: push notifications for session start, loot summaries, and errors, plus Stop/Start/Status buttons — built on free ntfy.sh, no account needed.">
+<meta name="description" content="How to control a CoC bot from your phone: push notifications for session start, loot summaries, and errors, plus Stop/Start/Status buttons, built on free ntfy.sh, no account needed.">
 <link rel="canonical" href="https://goblinsfarm.com/guides/coc-bot-remote-control.html">
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,9 +34,9 @@ th{background:#f4ecdc;color:var(--ink)}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"Can I control a Clash of Clans bot from my phone?","acceptedAnswer":{"@type":"Answer","text":"Yes. Goblins Farm sends push notifications to your phone via the free ntfy.sh service — session start, loot summaries, errors — and the notifications carry Stop, Start, and Status action buttons that control the bot remotely from anywhere."}},
+{"@type":"Question","name":"Can I control a Clash of Clans bot from my phone?","acceptedAnswer":{"@type":"Answer","text":"Yes. Goblins Farm sends push notifications to your phone via the free ntfy.sh service, session start, loot summaries, errors, and the notifications carry Stop, Start, and Status action buttons that control the bot remotely from anywhere."}},
 {"@type":"Question","name":"Do I need an account or a server for the bot's phone notifications?","acceptedAnswer":{"@type":"Answer","text":"No. ntfy.sh is a free, open pub-sub service that needs no account and no server of your own. Goblins Farm generates a private random notification topic for you; setup is scanning a QR code in the app's Settings with the ntfy app on your phone."}},
-{"@type":"Question","name":"Does remote control work away from home?","acceptedAnswer":{"@type":"Answer","text":"Yes. Messages travel through ntfy.sh over the internet, so the buttons work from anywhere your phone has a connection — no port forwarding, no VPN, no being on the same Wi-Fi as the computer running the bot."}}]}
+{"@type":"Question","name":"Does remote control work away from home?","acceptedAnswer":{"@type":"Answer","text":"Yes. Messages travel through ntfy.sh over the internet, so the buttons work from anywhere your phone has a connection, no port forwarding, no VPN, no being on the same Wi-Fi as the computer running the bot."}}]}
 </script>
 </head>
 <body>
@@ -45,50 +45,50 @@ th{background:#f4ecdc;color:var(--ink)}
 <h1>Control Your CoC Bot From Your Phone</h1>
 <p class="updated">Updated: 24 August 2026</p>
 
-<p>A farming bot runs on a computer at home. You are, most of the day, not at that computer. That gap is where most botting anxiety lives: is it still running? Did it hit the target? Did an update break something at 2 a.m.? Goblins Farm closes the gap by turning your phone into the bot's remote control — push notifications for everything that matters, with <strong>Stop, Start, and Status buttons right inside the notification</strong>. Here's how to <strong>control a CoC bot from your phone</strong>, what you'll actually get pinged about, and how the whole thing works without an account or a server.</p>
+<p>A farming bot runs on a computer at home. You are, most of the day, not at that computer. That gap is where most botting anxiety lives: is it still running? Did it hit the target? Did an update break something at 2 a.m.? Goblins Farm closes the gap by turning your phone into the bot's remote control, push notifications for everything that matters, with <strong>Stop, Start, and Status buttons right inside the notification</strong>. Here's how to <strong>control a CoC bot from your phone</strong>, what you'll actually get pinged about, and how the whole thing works without an account or a server.</p>
 
 <h2>What lands on your phone</h2>
 <p>Once linked, your phone receives <strong>Clash of Clans bot notifications</strong> for the events worth knowing about:</p>
 <ul>
-<li><strong>"Farm started"</strong> — a session kicked off, either from the desktop or from your phone.</li>
-<li><strong>Loot summaries</strong> — what the session collected, so you can watch the gold, elixir, and dark elixir totals climb toward your targets without opening the game.</li>
-<li><strong>Target reached / session stopped</strong> — the bot hit the loot targets you set and stopped itself.</li>
-<li><strong>Errors</strong> — if the emulator disconnects or something else goes wrong, you find out immediately instead of discovering a stalled bot hours later.</li>
+<li><strong>"Farm started"</strong>, a session kicked off, either from the desktop or from your phone.</li>
+<li><strong>Loot summaries</strong>, what the session collected, so you can watch the gold, elixir, and dark elixir totals climb toward your targets without opening the game.</li>
+<li><strong>Target reached / session stopped</strong>, the bot hit the loot targets you set and stopped itself.</li>
+<li><strong>Errors</strong>, if the emulator disconnects or something else goes wrong, you find out immediately instead of discovering a stalled bot hours later.</li>
 </ul>
-<p>Each notification carries action buttons: <strong>Stop</strong> halts the bot, <strong>Start</strong> launches a session, <strong>Status</strong> asks the bot to report what it's doing right now. Tapping a button on your phone controls the app on your computer — from anywhere with an internet connection.</p>
+<p>Each notification carries action buttons: <strong>Stop</strong> halts the bot, <strong>Start</strong> launches a session, <strong>Status</strong> asks the bot to report what it's doing right now. Tapping a button on your phone controls the app on your computer, from anywhere with an internet connection.</p>
 
 <h2>How it works: ntfy.sh, no account, no server</h2>
 <p>The plumbing is <a href="https://ntfy.sh" rel="nofollow">ntfy.sh</a>, a free and open publish-subscribe notification service. The model is simple: messages are published to a named <em>topic</em>, and anything subscribed to that topic receives them as push notifications. No account needed on either end, and nothing for you to host.</p>
-<p>Goblins Farm generates a <strong>private, random topic name</strong> for your installation. The topic name is effectively a shared secret — it isn't listed anywhere, and only devices that know it can read your notifications or send commands. The bot publishes status messages to the topic and listens on it for the Stop/Start/Status commands your phone's buttons send back. That's the whole architecture: no port forwarding on your router, no VPN back into your home network, no third-party dashboard with a login.</p>
+<p>Goblins Farm generates a <strong>private, random topic name</strong> for your installation. The topic name is effectively a shared secret, it isn't listed anywhere, and only devices that know it can read your notifications or send commands. The bot publishes status messages to the topic and listens on it for the Stop/Start/Status commands your phone's buttons send back. That's the whole architecture: no port forwarding on your router, no VPN back into your home network, no third-party dashboard with a login.</p>
 
 <h2>Setup: scan one QR code</h2>
 <ol>
 <li>Install the free <strong>ntfy</strong> app on your phone (Android or iOS).</li>
-<li>Open Goblins Farm's <strong>Settings</strong> on your computer and find the notifications section — the app shows a QR code encoding your private topic.</li>
+<li>Open Goblins Farm's <strong>Settings</strong> on your computer and find the notifications section, the app shows a QR code encoding your private topic.</li>
 <li>Scan the QR code with the ntfy app. Your phone is now subscribed.</li>
 </ol>
-<p>That's it. The next session start will produce your first push. If you ever want a fresh topic — say a device that knew the old one is gone — generate a new one in Settings and re-scan.</p>
+<p>That's it. The next session start will produce your first push. If you ever want a fresh topic, say a device that knew the old one is gone, generate a new one in Settings and re-scan.</p>
 
 <h2>What this looks like day to day</h2>
 <p><strong>Start a session from work.</strong> BlueStacks and Goblins Farm are running at home; you tap Start in a notification on the train, and by the time you're home the <a href="clash-of-clans-farming-bot.html">loot targets</a> are met and the bot has stopped itself.</p>
 <p><strong>Reclaim your village when you want to play.</strong> Feel like an evening of real attacks? Tap Stop from the couch. No walking to the computer, no yanking the emulator out from under a mid-attack bot.</p>
-<p><strong>Get pinged when storages hit target.</strong> Set your gold and elixir targets with the sliders, start the bot, and forget about it — the "target reached" push is your cue to log in and spend the loot on upgrades. The same applies to <a href="builder-base-bot.html">Builder Base sessions</a>, which stop on their own targets or when the night village storages are full.</p>
-<p><strong>Sleep through the errors — but see them at breakfast.</strong> If something breaks overnight, the error push timestamps exactly when, and a Status tap tells you where things stand before you decide whether it needs you at all.</p>
+<p><strong>Get pinged when storages hit target.</strong> Set your gold and elixir targets with the sliders, start the bot, and forget about it, the "target reached" push is your cue to log in and spend the loot on upgrades. The same applies to <a href="builder-base-bot.html">Builder Base sessions</a>, which stop on their own targets or when the night village storages are full.</p>
+<p><strong>Sleep through the errors, but see them at breakfast.</strong> If something breaks overnight, the error push timestamps exactly when, and a Status tap tells you where things stand before you decide whether it needs you at all.</p>
 
 <h2>Why remote control matters more for bots than you'd think</h2>
-<p>There's also a practical botting-hygiene angle. A bot that runs unattended forever because stopping it is inconvenient is a bot that farms long past its targets. Cheap, instant remote stopping means you actually run the bot the way you intended: to a target, then done. It pairs with Goblins Farm's automatic stop conditions to keep sessions bounded. That's no guarantee of anything — <a href="is-coc-botting-safe.html">all automation violates Supercell's ToS and the risk is never zero</a> — but a bot you can supervise from your pocket is a bot you stay in control of.</p>
+<p>There's also a practical botting-hygiene angle. A bot that runs unattended forever because stopping it is inconvenient is a bot that farms long past its targets. Cheap, instant remote stopping means you actually run the bot the way you intended: to a target, then done. It pairs with Goblins Farm's automatic stop conditions to keep sessions bounded. That's no guarantee of anything, <a href="is-coc-botting-safe.html">all automation violates Supercell's ToS and the risk is never zero</a>, but a bot you can supervise from your pocket is a bot you stay in control of.</p>
 
 <h2>Included with the bot</h2>
-<p>Phone notifications and remote control ship with Goblins Farm on both <strong>Windows and macOS</strong> — no add-on, no subscription for the notification layer, since ntfy.sh itself is free. The bot is a one-time lifetime license: Main Base €60, <a href="builder-base-bot.html">Builder Base</a> €60, or both for €100, key by instant email, one device at a time and movable. New to the whole thing? Start with the <a href="coc-bot-bluestacks-setup.html">BlueStacks setup guide</a> — the QR-code step slots in right at the end of it.</p>
+<p>Phone notifications and remote control ship with Goblins Farm on both <strong>Windows and macOS</strong>, no add-on, no subscription for the notification layer, since ntfy.sh itself is free. The bot is a one-time lifetime license: Main Base €60, <a href="builder-base-bot.html">Builder Base</a> €60, or both for €100, key by instant email, one device at a time and movable. New to the whole thing? Start with the <a href="coc-bot-bluestacks-setup.html">BlueStacks setup guide</a>, the QR-code step slots in right at the end of it.</p>
 
-<a class="cta" href="/#pricing">Get Goblins Farm — lifetime from €60</a>
+<a class="cta" href="/#pricing">Get Goblins Farm, lifetime from €60</a>
 
 <div class="related">
 <h2>Related guides</h2>
 <ul>
-<li><a href="clash-of-clans-bot.html">Clash of Clans bot — the complete 2026 guide</a></li>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bot, the complete 2026 guide</a></li>
 <li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting, step by step</a></li>
-<li><a href="clash-of-clans-farming-bot.html">CoC farming bot — targets, thresholds, and overnight loot</a></li>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot, targets, thresholds, and overnight loot</a></li>
 <li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
 </ul>
 </div>

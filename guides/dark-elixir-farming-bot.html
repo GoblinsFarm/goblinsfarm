@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dark Elixir Farming Bot, Fixing the Slowest Grind in CoC | Goblins Farm</title>
+<meta name="description" content="Dark elixir is the late-game bottleneck in Clash of Clans. How a farming bot with a separate DE threshold and a DE target automates the grindiest loop in the game.">
+<link rel="canonical" href="https://goblinsfarm.com/guides/dark-elixir-farming-bot.html">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{--parch:#d7c4ac;--brown:#4a3226;--ink:#2b1d12;--outline:#1f150d;--gold:#ffb800;--edge:#2b1d12}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(180deg,#e6d6c0,var(--parch) 40%,#cbb59a);font-family:"Nunito Sans",system-ui,sans-serif;color:#4a3a28;font-size:15.5px;line-height:1.7;padding:40px 20px 80px}
+.doc{max-width:760px;margin:0 auto;background:linear-gradient(180deg,#fffef9,#faf3e4);border:3px solid var(--edge);border-radius:18px;box-shadow:0 8px 0 rgba(43,29,18,.9),0 24px 40px rgba(20,12,6,.25);padding:44px 46px}
+h1{font-family:"Lilita One",sans-serif;font-weight:400;font-size:32px;color:#fff;-webkit-text-stroke:2.5px var(--outline);paint-order:stroke fill;text-shadow:0 3px 0 var(--outline);margin-bottom:6px}
+h2{font-family:"Lilita One",sans-serif;font-weight:400;font-size:21px;color:var(--ink);margin:30px 0 8px}
+h3{font-size:16px;color:var(--ink);margin:20px 0 6px}
+p,li{color:#5c4a38;margin-bottom:10px}
+ul,ol{padding-left:22px;margin-bottom:12px}
+.updated{font-size:13px;color:#9a8567;margin-bottom:22px}
+a{color:#0068c9}
+strong{color:var(--ink)}
+.home{display:inline-block;margin-bottom:18px;font-weight:800;text-decoration:none;font-size:14px}
+.cta{display:inline-block;background:linear-gradient(180deg,#ffe9a8,#ffd351);border:2.5px solid #5c3d00;border-radius:12px;color:#5c3d00;font-weight:900;padding:12px 22px;text-decoration:none;margin:14px 0;box-shadow:0 3px 0 #5c3d00}
+.related{background:#f4ecdc;border:2px solid #eadfcb;border-radius:12px;padding:16px 20px;margin-top:30px}
+.related h2{margin-top:0;font-size:17px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px}
+th,td{border:2px solid #eadfcb;padding:8px 10px;text-align:left}
+th{background:#f4ecdc;color:var(--ink)}
+@media (max-width:600px){.doc{padding:28px 22px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Can a bot farm dark elixir in Clash of Clans?","acceptedAnswer":{"@type":"Answer","text":"Yes. Goblins Farm reads the loot preview on the search screen, skips bases below the dark elixir threshold you set, attacks the ones worth hitting, and stops automatically when your dark elixir storage reaches the target you chose."}},
+{"@type":"Question","name":"How much dark elixir does a bot farm per hour?","acceptedAnswer":{"@type":"Answer","text":"There is no honest fixed number. Dark elixir per raid varies enormously with your league, trophy range, and how many dead bases are available at that moment. A bot's advantage is volume and patience, not a guaranteed rate."}},
+{"@type":"Question","name":"Is dark elixir farming with a bot safe?","acceptedAnswer":{"@type":"Answer","text":"All automation violates Supercell's Terms of Service and the risk is never zero. Screen-reading bots that only simulate taps, without touching the game client, carry far lower detection risk than mod clients, but no bot can promise safety."}}]}
+</script>
+</head>
+<body>
+<div class="doc">
+<a class="home" href="/">&larr; goblinsfarm.com</a>
+<h1>Dark Elixir Farming Bot, Fixing the Slowest Grind in CoC</h1>
+<p class="updated">Updated: 24 August 2026</p>
+
+<p>Gold and elixir problems solve themselves eventually. Dark elixir does not. It is the late-game bottleneck of Clash of Clans, the currency behind every hero level, and the one resource where manual farming genuinely feels like a second job. This page covers why DE farming is so slow by hand and how a farming bot turns it into something you set up once and forget.</p>
+
+<h2>Why dark elixir is the bottleneck</h2>
+<p>From Town Hall 7 onward, your real progress is measured in hero levels, and heroes eat dark elixir in enormous, ever-growing bites. Meanwhile the game hands DE out in eyedropper doses:</p>
+<ul>
+<li><strong>Drills are slow.</strong> Even maxed drills produce a trickle compared to what a single hero upgrade costs.</li>
+<li><strong>Most bases barely have any.</strong> The majority of bases you see in search offer a token amount of DE, or none at all. The bases actually worth raiding for DE are a small minority.</li>
+<li><strong>It is the best-protected resource.</strong> The dark elixir storage sits in the center of nearly every base layout, so grabbing a full haul usually means committing a real army, not a cheap snipe.</li>
+</ul>
+<p>Put those together and you get the grindiest loop in the game: skip, skip, skip, skip, find one base with meaningful DE, fight for it, retrain, repeat. Doing that for one hero level is tedious. Doing it for a full set of hero upgrades across a Town Hall is hundreds of raids.</p>
+
+<h2>What manual DE farming actually looks like</h2>
+<p>The classic manual routine is well known: run a cheap army, nexting through opponents and spending most of your session staring at the loot preview waiting for a number worth attacking. The skipping is the job. You might tap "next" thirty times before one base justifies a deployment, and each skip costs search gold and a few seconds of your attention. It is exactly the kind of repetitive, judgment-light loop that humans are bad at sustaining and software is built for.</p>
+
+<h2>How a bot farms dark elixir</h2>
+<p>Goblins Farm runs Clash of Clans inside the free BlueStacks emulator on Windows or macOS, reads the screen with computer vision, and simulates taps. It never modifies the game client. For dark elixir specifically, three settings do the work:</p>
+<h3>1. A separate dark elixir threshold</h3>
+<p>You do not set one blended "loot" bar. Gold, elixir, and dark elixir each get their own minimum. Set the DE threshold to a level that means "this base actually has dark elixir worth taking" and the bot will next past everything below it, all night, without getting bored or lowering its standards at 1 a.m. the way a human does. Bases with fat gold but zero DE get skipped too, if DE is what you are hunting.</p>
+<h3>2. A dark elixir target</h3>
+<p>Pick the number you are farming toward, typically the cost of your next hero upgrade, on the target slider. The bot attacks, collects, retrains, and keeps going until your storage hits that number.</p>
+<h3>3. Auto-stop</h3>
+<p>When the target is reached, the bot stops on its own. It does not farm forever and draw attention, and you do not wake up to find it looped through another hundred pointless raids. Start the upgrade, set the next target, go again. You can also monitor and stop it from your phone through <a href="coc-bot-remote-control.html">ntfy.sh remote control</a>.</p>
+
+<h2>Realistic expectations, no invented numbers</h2>
+<p>Any site quoting a fixed "DE per hour" figure is making it up. Dark elixir income per raid varies hugely with your league and trophy range, the time of day, and above all how many dead bases with full drills happen to be in your search pool at that moment. Some sessions you will hit a run of abandoned bases with overflowing drills, other sessions the pool is thin. What a bot changes is not the per-raid number, it is the volume: it runs the skip-and-raid loop for hours at a consistent standard, so the variance averages out and the storage fills while you do literally anything else. Your league choice still matters as much as it does for manual farming, and the trade-offs are covered in our <a href="clash-of-clans-farming-guide.html">general farming guide</a>.</p>
+
+<h2>The honest part</h2>
+<p>Automation violates Supercell's Terms of Service. That applies to every bot, including this one, and the risk of a ban is never zero. Goblins Farm minimizes that risk by reading the screen and simulating human-like taps only, with no client modification, no code injection, and no direct server communication, but minimized is not eliminated. Read the full, marketing-free version on our <a href="is-coc-botting-safe.html">ban risk page</a> before you decide.</p>
+
+<h2>Set a DE target, walk away</h2>
+<p>Goblins Farm is a one-time purchase, not a subscription: lifetime licenses at 60 EUR for main village farming, 60 EUR for <a href="builder-base-bot.html">Builder Base</a>, or 100 EUR for both. It runs on Windows and macOS as a signed, notarized app, with per-resource loot thresholds, gold, elixir, and dark elixir targets, and auto-stop when targets are reached.</p>
+<a class="cta" href="/#pricing">Get Goblins Farm, lifetime from 60 EUR</a>
+
+<div class="related">
+<h2>Keep reading</h2>
+<ul>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bot, the complete 2026 guide</a></li>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot, targets, thresholds, and overnight loot</a></li>
+<li><a href="clash-of-clans-farming-guide.html">Manual farming guide, armies, leagues, dead bases</a></li>
+<li><a href="loot-calculator.html">Loot calculator, how many raids until your next upgrade</a></li>
+<li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
+<li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting</a></li>
+</ul>
+</div>
+
+<p style="margin-top:26px;font-size:13px;color:#9a8567">Goblins Farm is not affiliated with, endorsed by, or associated with Supercell. Clash of Clans is a trademark of Supercell Oy. Use of automation may violate the game's Terms of Service. Use at your own risk.</p>
+</div>
+</body>
+</html>

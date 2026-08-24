@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Builder Base Bot — Automating the Night Village | Goblins Farm</title>
-<meta name="description" content="The only builder base bot guide you need: how Clash of Clans Builder Base automation works — versus battles, both stages, elixir-cart claiming, and storages-full auto-stop.">
+<title>Builder Base Bot, Automating the Night Village | Goblins Farm</title>
+<meta name="description" content="The only builder base bot guide you need: how Clash of Clans Builder Base automation works, versus battles, both stages, elixir-cart claiming, and storages-full auto-stop.">
 <link rel="canonical" href="https://goblinsfarm.com/guides/builder-base-bot.html">
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,25 +36,25 @@ th{background:#f4ecdc;color:var(--ink)}
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Is there a bot that automates the Clash of Clans Builder Base?","acceptedAnswer":{"@type":"Answer","text":"Goblins Farm has a dedicated Builder Base mode: it boats to the night village, attacks every versus match, fights both battle stages including hero abilities, auto-claims the elixir cart, and stops when storages are full or your targets are reached. Legacy bots like MyBot never automated the Builder Base."}},
 {"@type":"Question","name":"Why does a Builder Base bot need to claim the elixir cart?","acceptedAnswer":{"@type":"Answer","text":"Defense rewards accumulate in the elixir cart, which holds up to 1.6M elixir. If nobody claims it, new defensive loot overflows and is lost. Goblins Farm claims the cart automatically during each session so defensive loot keeps flowing into your storages."}},
-{"@type":"Question","name":"Is Builder Base botting allowed by Supercell?","acceptedAnswer":{"@type":"Answer","text":"No. All automation violates Supercell's Terms of Service, and the risk is never zero. Goblins Farm is a screen-reading bot that simulates taps in an emulator — no memory editing, no modified client — which is the lowest-risk approach, but it is still against the rules."}}]}
+{"@type":"Question","name":"Is Builder Base botting allowed by Supercell?","acceptedAnswer":{"@type":"Answer","text":"No. All automation violates Supercell's Terms of Service, and the risk is never zero. Goblins Farm is a screen-reading bot that simulates taps in an emulator, no memory editing, no modified client, which is the lowest-risk approach, but it is still against the rules."}}]}
 </script>
 </head>
 <body>
 <div class="doc">
 <a class="home" href="/">&larr; goblinsfarm.com</a>
-<h1>Builder Base Bot — Automating the Night Village</h1>
+<h1>Builder Base Bot, Automating the Night Village</h1>
 <p class="updated">Updated: 24 August 2026</p>
 
-<p>Search for a <strong>builder base bot</strong> and you'll find a strange gap: every Clash of Clans bot ever built focuses on the main village, and the Builder Base — the night village across the boat — gets ignored entirely. MyBot never supported it. Neither do the current paid bots, with one exception. Goblins Farm ships a dedicated Builder Base mode that automates the whole loop: versus battles, both battle stages, hero abilities, the elixir cart, and a clean stop when your storages are full. This page explains why the night village is actually a great target for automation, and what full <strong>Clash of Clans Builder Base automation</strong> has to handle to work.</p>
+<p>Search for a <strong>builder base bot</strong> and you'll find a strange gap: every Clash of Clans bot ever built focuses on the main village, and the Builder Base, the night village across the boat, gets ignored entirely. MyBot never supported it. Neither do the current paid bots, with one exception. Goblins Farm ships a dedicated Builder Base mode that automates the whole loop: versus battles, both battle stages, hero abilities, the elixir cart, and a clean stop when your storages are full. This page explains why the night village is actually a great target for automation, and what full <strong>Clash of Clans Builder Base automation</strong> has to handle to work.</p>
 
 <h2>Why no other bot does this</h2>
-<p>The Builder Base is mechanically different from the main village, and every difference makes it harder to automate. Versus battles are timed and have two stages. The Battle Machine (and later heroes) must be deployed and their abilities triggered mid-fight. Defensive loot doesn't land in your storages — it accumulates in a cart you have to claim. And the whole thing lives behind a boat ride that the bot has to navigate reliably. Bots built around "find a base, drop troops, collect loot" simply don't have the machinery for any of that, so they skip the mode. That's why "builder base bot" has been a dead-end search for years.</p>
+<p>The Builder Base is mechanically different from the main village, and every difference makes it harder to automate. Versus battles are timed and have two stages. The Battle Machine (and later heroes) must be deployed and their abilities triggered mid-fight. Defensive loot doesn't land in your storages, it accumulates in a cart you have to claim. And the whole thing lives behind a boat ride that the bot has to navigate reliably. Bots built around "find a base, drop troops, collect loot" simply don't have the machinery for any of that, so they skip the mode. That's why "builder base bot" has been a dead-end search for years.</p>
 
 <h2>The night-village economy, briefly</h2>
 <p>To see what a bot has to automate, it helps to understand how Builder Base loot actually flows:</p>
 <ul>
-<li><strong>Versus battles are the engine.</strong> You attack, your opponent's replay attacks you, and rewards flow from wins. Unlike main-village farming, there's no "nexting" — you can't skip an opponent to look for a juicier base. Every match is the match you get, which is exactly why attacking <em>every</em> match is the optimal strategy anyway.</li>
-<li><strong>Two battle stages.</strong> Modern Builder Base fights happen across two stages. An attack that only handles stage one leaves a large share of the available percentage — and loot — on the table.</li>
+<li><strong>Versus battles are the engine.</strong> You attack, your opponent's replay attacks you, and rewards flow from wins. Unlike main-village farming, there's no "nexting", you can't skip an opponent to look for a juicier base. Every match is the match you get, which is exactly why attacking <em>every</em> match is the optimal strategy anyway.</li>
+<li><strong>Two battle stages.</strong> Modern Builder Base fights happen across two stages. An attack that only handles stage one leaves a large share of the available percentage, and loot, on the table.</li>
 <li><strong>Defense rewards go into the elixir cart.</strong> When your base defends, the rewards accumulate in the elixir cart, which caps at 1.6M. If nobody claims it, further defensive loot overflows and is simply lost. An AFK player bleeds resources here without ever noticing.</li>
 <li><strong>Storages cap at 6.5M.</strong> Gold and elixir storages top out at 6.5M each. Farming past full storages is wasted effort.</li>
 </ul>
@@ -63,33 +63,33 @@ th{background:#f4ecdc;color:var(--ink)}
 <h2>How Goblins Farm automates each piece</h2>
 
 <h3>Boating over and setting up the view</h3>
-<p>The bot taps the boat to reach the night village, then auto-zooms the camera out to a known, consistent view. That last step matters more than it sounds: Goblins Farm is a screen-reading bot — computer vision (template matching and OCR) reads the emulator screen and simulated taps do the rest — so a predictable camera position is what keeps detection reliable across hundreds of battles.</p>
+<p>The bot taps the boat to reach the night village, then auto-zooms the camera out to a known, consistent view. That last step matters more than it sounds: Goblins Farm is a screen-reading bot, computer vision (template matching and OCR) reads the emulator screen and simulated taps do the rest, so a predictable camera position is what keeps detection reliable across hundreds of battles.</p>
 
 <h3>Attacking every versus match</h3>
-<p>Since versus battles can't be skipped, the bot doesn't try to be clever about opponent selection — it attacks every match it's given. That's not a compromise; it's the correct play. More matches means more win rewards and more trophies-adjacent progress, and the bot never gets bored or distracted at match forty.</p>
+<p>Since versus battles can't be skipped, the bot doesn't try to be clever about opponent selection, it attacks every match it's given. That's not a compromise; it's the correct play. More matches means more win rewards and more trophies-adjacent progress, and the bot never gets bored or distracted at match forty.</p>
 
 <h3>Both stages, hero first, abilities triggered</h3>
-<p>This is the part that kept other bots out. In each battle, Goblins Farm deploys the hero first, follows with troops, and then re-taps the deployed cards to trigger abilities at the right moment. When stage one ends, it detects the stage-two transition and runs the same deployment logic again on the second stage. Fighting both stages consistently is the difference between mediocre and solid versus results — and it's the thing a human doing chores between attacks tends to fumble.</p>
+<p>This is the part that kept other bots out. In each battle, Goblins Farm deploys the hero first, follows with troops, and then re-taps the deployed cards to trigger abilities at the right moment. When stage one ends, it detects the stage-two transition and runs the same deployment logic again on the second stage. Fighting both stages consistently is the difference between mediocre and solid versus results, and it's the thing a human doing chores between attacks tends to fumble.</p>
 
 <h3>Claiming the elixir cart</h3>
 <p>During each session the bot auto-claims the elixir cart, so defensive rewards never sit at the 1.6M cap overflowing. This is quietly one of the best reasons to automate the Builder Base at all: defensive loot is income you earn while doing nothing, but only if someone actually collects it. The bot makes "someone" permanent.</p>
 
 <h3>Knowing when to stop</h3>
-<p>You set gold and elixir targets, and the bot stops when it reaches them — or when your storages hit their 6.5M caps, whichever comes first. No pointless attacking with nowhere to put the loot, no session running forever. If you have <a href="coc-bot-remote-control.html">phone notifications</a> set up, you get a push when the session ends, with the loot summary.</p>
+<p>You set gold and elixir targets, and the bot stops when it reaches them, or when your storages hit their 6.5M caps, whichever comes first. No pointless attacking with nowhere to put the loot, no session running forever. If you have <a href="coc-bot-remote-control.html">phone notifications</a> set up, you get a push when the session ends, with the loot summary.</p>
 
 <h2>Main village and Builder Base together</h2>
-<p>Goblins Farm licenses the two modes separately or as a bundle: Main Base €60, Builder Base €60, or both for €100 — one-time lifetime licenses, one device at a time, movable when you change machines. The main village side does classic <a href="clash-of-clans-farming-bot.html">loot-threshold farming</a> (skip poor bases, deploy, collect, stop at targets); the Builder Base side is everything on this page. Both run in the free BlueStacks emulator on <strong>Windows and macOS</strong> — the <a href="coc-bot-mac.html">Mac app</a> is signed and notarized — with a <a href="coc-bot-bluestacks-setup.html">setup wizard</a> that auto-detects the emulator.</p>
+<p>Goblins Farm licenses the two modes separately or as a bundle: Main Base €60, Builder Base €60, or both for €100, one-time lifetime licenses, one device at a time, movable when you change machines. The main village side does classic <a href="clash-of-clans-farming-bot.html">loot-threshold farming</a> (skip poor bases, deploy, collect, stop at targets); the Builder Base side is everything on this page. Both run in the free BlueStacks emulator on <strong>Windows and macOS</strong>, the <a href="coc-bot-mac.html">Mac app</a> is signed and notarized, with a <a href="coc-bot-bluestacks-setup.html">setup wizard</a> that auto-detects the emulator.</p>
 
 <h2>The honest part</h2>
-<p>Automation of any kind violates Supercell's Terms of Service, Builder Base included, and no bot can make the risk zero. Goblins Farm keeps the risk as low as it can be kept — it only reads the screen and simulates taps, with no memory editing and no modified client — but "low" is not "none". Read our plain-language take before you decide: <a href="is-coc-botting-safe.html">can you get banned for botting?</a></p>
+<p>Automation of any kind violates Supercell's Terms of Service, Builder Base included, and no bot can make the risk zero. Goblins Farm keeps the risk as low as it can be kept, it only reads the screen and simulates taps, with no memory editing and no modified client, but "low" is not "none". Read our plain-language take before you decide: <a href="is-coc-botting-safe.html">can you get banned for botting?</a></p>
 
-<a class="cta" href="/#pricing">Get Goblins Farm — lifetime from €60</a>
+<a class="cta" href="/#pricing">Get Goblins Farm, lifetime from €60</a>
 
 <div class="related">
 <h2>Related guides</h2>
 <ul>
-<li><a href="clash-of-clans-bot.html">Clash of Clans bot — the complete 2026 guide</a></li>
-<li><a href="clash-of-clans-farming-bot.html">CoC farming bot — main-village targets and thresholds</a></li>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bot, the complete 2026 guide</a></li>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot, main-village targets and thresholds</a></li>
 <li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting, step by step</a></li>
 <li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
 </ul>

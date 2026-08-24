@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Clash of Clans Bot for Mac — A Signed, Notarized macOS Farming Bot | Goblins Farm</title>
-<meta name="description" content="Almost every Clash of Clans bot is Windows-only. Goblins Farm is a native, notarized macOS app that farms CoC through BlueStacks Air — Apple Silicon supported, no Gatekeeper warnings.">
+<title>Clash of Clans Bot for Mac, A Signed, Notarized macOS Farming Bot | Goblins Farm</title>
+<meta name="description" content="Almost every Clash of Clans bot is Windows-only. Goblins Farm is a native, notarized macOS app that farms CoC through BlueStacks Air, Apple Silicon supported, no Gatekeeper warnings.">
 <link rel="canonical" href="https://goblinsfarm.com/guides/coc-bot-mac.html">
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@ th{background:#f4ecdc;color:var(--ink)}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"Is there a Clash of Clans bot that works on Mac?","acceptedAnswer":{"@type":"Answer","text":"Almost every CoC bot ever made is Windows-only. Goblins Farm ships a native macOS app — code-signed and notarized by Apple's process — that automates Clash of Clans inside the free BlueStacks emulator on macOS, including Apple Silicon Macs."}},
+{"@type":"Question","name":"Is there a Clash of Clans bot that works on Mac?","acceptedAnswer":{"@type":"Answer","text":"Almost every CoC bot ever made is Windows-only. Goblins Farm ships a native macOS app, code-signed and notarized by Apple's process, that automates Clash of Clans inside the free BlueStacks emulator on macOS, including Apple Silicon Macs."}},
 {"@type":"Question","name":"Will macOS block a Clash of Clans bot with an unidentified developer warning?","acceptedAnswer":{"@type":"Answer","text":"Unsigned apps trigger Gatekeeper warnings and are increasingly hard to open on modern macOS. Goblins Farm is code-signed and notarized, so it opens like any regular Mac app with no unidentified-developer scare screens."}},
 {"@type":"Question","name":"Does botting on a Mac reduce ban risk?","acceptedAnswer":{"@type":"Answer","text":"No. The platform doesn't change the fundamentals: automation violates Supercell's Terms of Service on Mac exactly as on Windows. Screen-reading bots carry lower risk than mod clients, but the risk is never zero."}}]}
 </script>
@@ -42,32 +42,32 @@ th{background:#f4ecdc;color:var(--ink)}
 <body>
 <div class="doc">
 <a class="home" href="/">&larr; goblinsfarm.com</a>
-<h1>Clash of Clans Bot for Mac — Yes, It Finally Exists</h1>
+<h1>Clash of Clans Bot for Mac, Yes, It Finally Exists</h1>
 <p class="updated">Updated: 24 August 2026</p>
 
-<p>Search for a Clash of Clans bot as a Mac user and you'll find a decade of forum threads that all end the same way: "sorry, Windows only." MyBot? Windows. Practically every legacy bot, script, and tool the community ever built? Windows. Mac players have been told to dual-boot, rent a Windows VPS, or just farm by hand. This page is about the exception: Goblins Farm is a native macOS app — signed, notarized, Apple Silicon ready — that farms Clash of Clans on your Mac.</p>
+<p>Search for a Clash of Clans bot as a Mac user and you'll find a decade of forum threads that all end the same way: "sorry, Windows only." MyBot? Windows. Practically every legacy bot, script, and tool the community ever built? Windows. Mac players have been told to dual-boot, rent a Windows VPS, or just farm by hand. This page is about the exception: Goblins Farm is a native macOS app, signed, notarized, Apple Silicon ready, that farms Clash of Clans on your Mac.</p>
 
 <h2>Why Mac users never had a bot</h2>
 <p>It's not malice, just history. The classic bots were built on Windows-only automation frameworks (MyBot, for example, is written in AutoIt, which simply doesn't exist on macOS) and drove Windows-only emulators. Porting any of them would have meant a rewrite, and volunteer projects don't do rewrites for a minority platform.</p>
-<p>Two things changed. First, BlueStacks shipped <strong>BlueStacks Air</strong>, a proper macOS build of the world's most popular Android emulator, running well on Apple Silicon. Second, Goblins Farm was built cross-platform from day one: the same computer-vision engine — template matching and OCR reading the emulator screen, simulated taps going back in — runs on both Windows and macOS. Nothing about the approach is Windows-specific, so the Mac isn't a port; it's a first-class platform.</p>
+<p>Two things changed. First, BlueStacks shipped <strong>BlueStacks Air</strong>, a proper macOS build of the world's most popular Android emulator, running well on Apple Silicon. Second, Goblins Farm was built cross-platform from day one: the same computer-vision engine, template matching and OCR reading the emulator screen, simulated taps going back in, runs on both Windows and macOS. Nothing about the approach is Windows-specific, so the Mac isn't a port; it's a first-class platform.</p>
 
-<h2>Signed and notarized — why that matters</h2>
-<p>Here's the part that's genuinely rare in this niche. Most bot tooling, when it exists for Mac at all, arrives as an unsigned binary that modern macOS actively fights: Gatekeeper throws the "cannot be opened because the developer cannot be verified" screen, and you're left right-clicking, digging through System Settings, and running <code>xattr</code> commands in Terminal just to launch the thing — while wondering what else an unsigned mystery binary might be doing.</p>
+<h2>Signed and notarized, why that matters</h2>
+<p>Here's the part that's genuinely rare in this niche. Most bot tooling, when it exists for Mac at all, arrives as an unsigned binary that modern macOS actively fights: Gatekeeper throws the "cannot be opened because the developer cannot be verified" screen, and you're left right-clicking, digging through System Settings, and running <code>xattr</code> commands in Terminal just to launch the thing, while wondering what else an unsigned mystery binary might be doing.</p>
 <p>Goblins Farm's macOS app is <strong>code-signed and notarized</strong>: it goes through Apple's developer signing and notarization pipeline, which scans the app before it's cleared to run. In practice that means:</p>
 <ul>
 <li>You open the .dmg and drag the app to Applications like any normal Mac software.</li>
 <li>No "unidentified developer" warnings, no Terminal workarounds.</li>
-<li>The app you run is byte-for-byte the app that was signed — tampering breaks the signature.</li>
+<li>The app you run is byte-for-byte the app that was signed, tampering breaks the signature.</li>
 </ul>
-<p>To be clear about what notarization is <em>not</em>: it's Apple's malware check, not an endorsement of botting, and it says nothing about ban risk (more on that below). But among CoC bots — a space historically full of sketchy unsigned executables — a notarized app is very rare, and it's the difference between software that respects your machine and software that asks you to disable its protections.</p>
+<p>To be clear about what notarization is <em>not</em>: it's Apple's malware check, not an endorsement of botting, and it says nothing about ban risk (more on that below). But among CoC bots, a space historically full of sketchy unsigned executables, a notarized app is very rare, and it's the difference between software that respects your machine and software that asks you to disable its protections.</p>
 
 <h2>Setting it up on your Mac</h2>
 <p>The whole stack is: BlueStacks runs Clash of Clans, and Goblins Farm watches and controls BlueStacks from outside. Outline:</p>
 <ol>
 <li><strong>Install BlueStacks Air</strong> (free) from bluestacks.com and let it finish its first-run setup.</li>
 <li><strong>Install Clash of Clans</strong> inside BlueStacks from the Play Store and sign in to your village.</li>
-<li><strong>Download the Goblins Farm .dmg</strong> from <a href="https://goblinsfarm.com/#download">goblinsfarm.com/#download</a>, open it, and drag the app to Applications. It opens cleanly — see above.</li>
-<li><strong>Run the setup wizard.</strong> On first launch, Goblins Farm walks you through connecting to the emulator and <strong>auto-detects ADB</strong> (the Android Debug Bridge it uses to send taps) — no manual paths or terminal configuration.</li>
+<li><strong>Download the Goblins Farm .dmg</strong> from <a href="https://goblinsfarm.com/#download">goblinsfarm.com/#download</a>, open it, and drag the app to Applications. It opens cleanly, see above.</li>
+<li><strong>Run the setup wizard.</strong> On first launch, Goblins Farm walks you through connecting to the emulator and <strong>auto-detects ADB</strong> (the Android Debug Bridge it uses to send taps), no manual paths or terminal configuration.</li>
 </ol>
 <p>From there it's the same app as on Windows: set loot thresholds and <a href="clash-of-clans-farming-bot.html">farm-to-target sliders</a> for the main village, enable <a href="builder-base-bot.html">Builder Base mode</a> if you have that license, and optionally hook up <a href="coc-bot-remote-control.html">phone notifications and remote start/stop</a> via ntfy.sh. The app auto-updates: it checks for new releases on launch and prompts you when a fix ships.</p>
 
@@ -75,19 +75,19 @@ th{background:#f4ecdc;color:var(--ink)}
 <p>M-series Macs work. BlueStacks Air runs on Apple Silicon, and Goblins Farm drives it there just as it does everywhere else. If your Mac is from the last several years, you're covered.</p>
 
 <h2>The same honest caveat, Mac edition</h2>
-<p>A nicer install experience doesn't change the rules of the game. <strong>Automation violates Supercell's Terms of Service on macOS exactly as it does on Windows</strong>, and the risk of account action is never zero. Goblins Farm only reads the screen and simulates taps — no modified client, no memory editing, no talking to Supercell's servers — which puts it in the lowest-risk category of bot design, but lower risk is not no risk. Don't run any bot on an account you can't afford to lose. Full breakdown here: <a href="is-coc-botting-safe.html">can you get banned for botting?</a></p>
+<p>A nicer install experience doesn't change the rules of the game. <strong>Automation violates Supercell's Terms of Service on macOS exactly as it does on Windows</strong>, and the risk of account action is never zero. Goblins Farm only reads the screen and simulates taps, no modified client, no memory editing, no talking to Supercell's servers, which puts it in the lowest-risk category of bot design, but lower risk is not no risk. Don't run any bot on an account you can't afford to lose. Full breakdown here: <a href="is-coc-botting-safe.html">can you get banned for botting?</a></p>
 
 <h2>Pricing and license</h2>
-<p>One-time lifetime purchase, no subscription: Main Base license €60, Builder Base license €60, or both for €100. Your key arrives instantly by email, activates one device at a time, and moves freely between machines — deactivate on the Mac, activate on a PC, or the other way around. The app works offline for up to two weeks between license checks.</p>
-<a class="cta" href="/#pricing">Get Goblins Farm — lifetime from €60</a>
+<p>One-time lifetime purchase, no subscription: Main Base license €60, Builder Base license €60, or both for €100. Your key arrives instantly by email, activates one device at a time, and moves freely between machines, deactivate on the Mac, activate on a PC, or the other way around. The app works offline for up to two weeks between license checks.</p>
+<a class="cta" href="/#pricing">Get Goblins Farm, lifetime from €60</a>
 
 <div class="related">
 <h2>Keep reading</h2>
 <ul>
-<li><a href="clash-of-clans-bot.html">Clash of Clans bots — the complete 2026 guide</a></li>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bots, the complete 2026 guide</a></li>
 <li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting</a></li>
-<li><a href="mybot-alternative.html">MyBot alternative — what to use in 2026</a></li>
-<li><a href="clash-of-clans-farming-bot.html">CoC farming bot guide — targets, thresholds, and overnight loot</a></li>
+<li><a href="mybot-alternative.html">MyBot alternative, what to use in 2026</a></li>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot guide, targets, thresholds, and overnight loot</a></li>
 </ul>
 </div>
 
