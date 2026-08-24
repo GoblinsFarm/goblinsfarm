@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clash of Clans Farming Bot — How Automated Loot Farming Actually Works | Goblins Farm</title>
+<meta name="description" content="How a Clash of Clans farming bot really works: loot thresholds, skipping dead bases, troop deployment, farm-to-target stop conditions, and overnight farming with phone notifications.">
+<link rel="canonical" href="https://goblinsfarm.com/guides/clash-of-clans-farming-bot.html">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{--parch:#d7c4ac;--brown:#4a3226;--ink:#2b1d12;--outline:#1f150d;--gold:#ffb800;--edge:#2b1d12}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(180deg,#e6d6c0,var(--parch) 40%,#cbb59a);font-family:"Nunito Sans",system-ui,sans-serif;color:#4a3a28;font-size:15.5px;line-height:1.7;padding:40px 20px 80px}
+.doc{max-width:760px;margin:0 auto;background:linear-gradient(180deg,#fffef9,#faf3e4);border:3px solid var(--edge);border-radius:18px;box-shadow:0 8px 0 rgba(43,29,18,.9),0 24px 40px rgba(20,12,6,.25);padding:44px 46px}
+h1{font-family:"Lilita One",sans-serif;font-weight:400;font-size:32px;color:#fff;-webkit-text-stroke:2.5px var(--outline);paint-order:stroke fill;text-shadow:0 3px 0 var(--outline);margin-bottom:6px}
+h2{font-family:"Lilita One",sans-serif;font-weight:400;font-size:21px;color:var(--ink);margin:30px 0 8px}
+h3{font-size:16px;color:var(--ink);margin:20px 0 6px}
+p,li{color:#5c4a38;margin-bottom:10px}
+ul,ol{padding-left:22px;margin-bottom:12px}
+.updated{font-size:13px;color:#9a8567;margin-bottom:22px}
+a{color:#0068c9}
+strong{color:var(--ink)}
+.home{display:inline-block;margin-bottom:18px;font-weight:800;text-decoration:none;font-size:14px}
+.cta{display:inline-block;background:linear-gradient(180deg,#ffe9a8,#ffd351);border:2.5px solid #5c3d00;border-radius:12px;color:#5c3d00;font-weight:900;padding:12px 22px;text-decoration:none;margin:14px 0;box-shadow:0 3px 0 #5c3d00}
+.related{background:#f4ecdc;border:2px solid #eadfcb;border-radius:12px;padding:16px 20px;margin-top:30px}
+.related h2{margin-top:0;font-size:17px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px}
+th,td{border:2px solid #eadfcb;padding:8px 10px;text-align:left}
+th{background:#f4ecdc;color:var(--ink)}
+@media (max-width:600px){.doc{padding:28px 22px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How much loot can a Clash of Clans farming bot get per hour?","acceptedAnswer":{"@type":"Answer","text":"It varies too much for any honest fixed number: your league, army composition, loot thresholds, and the bases the matchmaker serves all change the rate. What a bot changes is consistency — it applies your strategy every attack, for hours, without getting bored."}},
+{"@type":"Question","name":"What is a loot threshold in a farming bot?","acceptedAnswer":{"@type":"Answer","text":"A minimum amount of available gold, elixir, or dark elixir a base must show before the bot attacks it. Bases below the threshold are skipped for the small next-cost, so army and time are only spent on raids worth the investment."}},
+{"@type":"Question","name":"Can a farming bot stop on its own?","acceptedAnswer":{"@type":"Answer","text":"Goblins Farm supports farm-to-target: set gold, elixir, and dark elixir targets with sliders, and the bot stops automatically when they are reached instead of farming forever."}}]}
+</script>
+</head>
+<body>
+<div class="doc">
+<a class="home" href="/">&larr; goblinsfarm.com</a>
+<h1>Clash of Clans Farming Bot — How Loot Farming Actually Works</h1>
+<p class="updated">Updated: 24 August 2026</p>
+
+<p>Farming in Clash of Clans is the least interesting part of the game: press "find a match", eyeball the loot, hit next, next, next, finally attack, collect, retrain, repeat — for hours, because the next upgrade costs millions. A farming bot exists to do exactly that loop for you. This guide walks through what an automated farming session actually looks like, how targets and stop conditions work, and what you can realistically expect.</p>
+
+<h2>Anatomy of a farming session</h2>
+<p>Here's the loop Goblins Farm runs, step by step. It's the same loop you'd run by hand — just tireless.</p>
+<ol>
+<li><strong>Search.</strong> The bot opens the attack menu and starts searching for opponents, reading the screen with computer vision (template matching plus OCR) to know exactly which state the game is in.</li>
+<li><strong>Read the loot.</strong> On each candidate base, it OCRs the available gold, elixir, and dark elixir shown on the scout screen.</li>
+<li><strong>Skip or attack.</strong> If the loot is below your configured thresholds, it hits "next" and pays the small search cost. If the base clears the bar, it attacks. This is the single most important behavior in loot farming — more on it below.</li>
+<li><strong>Deploy.</strong> Troops go down and the battle plays out. Farming attacks aren't about three-starring; they're about extracting loot efficiently with a cheap army.</li>
+<li><strong>Collect and repeat.</strong> Back in the village, the bot collects, waits for the army to retrain, and searches again.</li>
+</ol>
+<p>The whole thing runs inside the free BlueStacks emulator on your PC or Mac. Nothing touches the game client and nothing talks to Supercell's servers — the bot only looks at pixels and simulates taps, like a very patient human. (Setup takes a few minutes; see the <a href="coc-bot-bluestacks-setup.html">BlueStacks setup guide</a>.)</p>
+
+<h2>Loot thresholds: skipping dead bases is the whole game</h2>
+<p>Anyone who has farmed manually knows the temptation to attack a mediocre base just because you're tired of pressing next. Bots don't get tired, which is precisely their edge. Set your thresholds — say, a minimum combined loot that makes an attack worth your army cost and training time — and the bot will skip a hundred dead bases in a row without flinching until one clears the bar.</p>
+<p>Where you set the bar is a real decision:</p>
+<ul>
+<li><strong>Thresholds too low:</strong> you attack constantly but each raid barely pays for itself. Lots of activity, little net loot.</li>
+<li><strong>Thresholds too high:</strong> every raid is juicy, but you burn time and search costs skipping. In leagues where fat bases are rare, you can spend more time nexting than attacking.</li>
+<li><strong>The sweet spot</strong> depends on your league and army cost. Start moderate, watch a session, and adjust the sliders. Because the bot applies the rule perfectly every time, even small tuning changes show up clearly in results.</li>
+</ul>
+
+<h2>Farm to target, then stop</h2>
+<p>Most bots historically ran until you turned them off. Goblins Farm is built around the opposite idea: you tell it what you're farming <em>for</em>.</p>
+<p>Need 8 million gold for the next Town Hall upgrade and 2,000 dark elixir for a hero level? Set those numbers with the target sliders and start the session. The bot farms until your storages hold the targets, then stops on its own — "farm to target, then stop" is a first-class mode, not an afterthought.</p>
+<p>This matters for two reasons. Practically, farming past your target is wasted effort — storages cap out and overflow loot evaporates. And from a risk standpoint, a bot that runs in purposeful sessions and then goes quiet looks a lot more like a human player than one grinding 24 hours a day, every day. It's one of several habits that reduce your footprint — though, to be plain about it, <strong>no habit makes botting safe</strong>. Automation violates Supercell's Terms of Service and carries risk no matter how you run it. We wrote an entire honest page on that: <a href="is-coc-botting-safe.html">ban risk, honestly</a>.</p>
+
+<h2>Realistic expectations: loot per hour</h2>
+<p>Here is where most bot marketing lies to you, so let's not. <strong>We won't quote you a loot-per-hour number, because any fixed number would be made up.</strong> Your actual rate depends on your league (which controls how rich the bases you're offered are), your army composition and training time, your thresholds, and plain luck with the matchmaker. The same bot, same settings, can have a fat hour and a lean hour back to back.</p>
+<p>What a bot genuinely changes is not some magic multiplier — it's <em>consistency</em>. It executes your strategy every single attack, never gets bored, never "just takes" a bad base, and keeps going long after you'd have put the phone down. Loot accumulates because the loop never stops running, not because each raid is superhuman.</p>
+
+<h2>Overnight farming with your phone as the remote</h2>
+<p>The classic use case: set targets before bed, wake up to full storages. Goblins Farm pairs this with phone notifications and remote control via ntfy.sh — no account needed. Your phone gets push updates as the session progresses, and Start, Stop, and Status buttons work remotely, so you can check on the farm from bed or kill it from anywhere. Details in the <a href="coc-bot-remote-control.html">remote control guide</a>.</p>
+<p>If you also play the night village, the same app can farm it: the <a href="builder-base-bot.html">Builder Base mode</a> fights both battle stages, claims the elixir cart so defensive loot never overflows, and stops when the 6.5M storage caps are hit.</p>
+
+<h2>Getting started</h2>
+<p>Goblins Farm runs on Windows and macOS (the <a href="coc-bot-mac.html">Mac app</a> is signed and notarized), drives the free BlueStacks emulator, and is a one-time lifetime purchase — Main Base €60, Builder Base €60, or both for €100. Set your thresholds, set your targets, and let the boring part of the game run itself.</p>
+<a class="cta" href="/#pricing">Get Goblins Farm — lifetime from €60</a>
+
+<div class="related">
+<h2>Keep reading</h2>
+<ul>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bots — the complete 2026 guide</a></li>
+<li><a href="builder-base-bot.html">Builder Base bot — automating the night village</a></li>
+<li><a href="mybot-alternative.html">MyBot alternative — what to use in 2026</a></li>
+<li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
+</ul>
+</div>
+
+<p style="margin-top:26px;font-size:13px;color:#9a8567">Goblins Farm is not affiliated with, endorsed by, or associated with Supercell. Clash of Clans is a trademark of Supercell Oy. Use of automation may violate the game's Terms of Service. Use at your own risk.</p>
+</div>
+</body>
+</html>

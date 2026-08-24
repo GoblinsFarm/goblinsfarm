@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CoC Bot BlueStacks Setup — From Zero to Farming | Goblins Farm</title>
+<meta name="description" content="Step-by-step CoC bot BlueStacks setup: install the emulator, get Clash of Clans running in it, install Goblins Farm on Mac or Windows, run the wizard, press Start. Troubleshooting included.">
+<link rel="canonical" href="https://goblinsfarm.com/guides/coc-bot-bluestacks-setup.html">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{--parch:#d7c4ac;--brown:#4a3226;--ink:#2b1d12;--outline:#1f150d;--gold:#ffb800;--edge:#2b1d12}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(180deg,#e6d6c0,var(--parch) 40%,#cbb59a);font-family:"Nunito Sans",system-ui,sans-serif;color:#4a3a28;font-size:15.5px;line-height:1.7;padding:40px 20px 80px}
+.doc{max-width:760px;margin:0 auto;background:linear-gradient(180deg,#fffef9,#faf3e4);border:3px solid var(--edge);border-radius:18px;box-shadow:0 8px 0 rgba(43,29,18,.9),0 24px 40px rgba(20,12,6,.25);padding:44px 46px}
+h1{font-family:"Lilita One",sans-serif;font-weight:400;font-size:32px;color:#fff;-webkit-text-stroke:2.5px var(--outline);paint-order:stroke fill;text-shadow:0 3px 0 var(--outline);margin-bottom:6px}
+h2{font-family:"Lilita One",sans-serif;font-weight:400;font-size:21px;color:var(--ink);margin:30px 0 8px}
+h3{font-size:16px;color:var(--ink);margin:20px 0 6px}
+p,li{color:#5c4a38;margin-bottom:10px}
+ul,ol{padding-left:22px;margin-bottom:12px}
+.updated{font-size:13px;color:#9a8567;margin-bottom:22px}
+a{color:#0068c9}
+strong{color:var(--ink)}
+.home{display:inline-block;margin-bottom:18px;font-weight:800;text-decoration:none;font-size:14px}
+.cta{display:inline-block;background:linear-gradient(180deg,#ffe9a8,#ffd351);border:2.5px solid #5c3d00;border-radius:12px;color:#5c3d00;font-weight:900;padding:12px 22px;text-decoration:none;margin:14px 0;box-shadow:0 3px 0 #5c3d00}
+.related{background:#f4ecdc;border:2px solid #eadfcb;border-radius:12px;padding:16px 20px;margin-top:30px}
+.related h2{margin-top:0;font-size:17px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px}
+th,td{border:2px solid #eadfcb;padding:8px 10px;text-align:left}
+th{background:#f4ecdc;color:var(--ink)}
+@media (max-width:600px){.doc{padding:28px 22px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Do I need to install ADB or any other tools for a CoC bot?","acceptedAnswer":{"@type":"Answer","text":"Not with Goblins Farm. The app bundles its own ADB, ffmpeg, and Tesseract, and the setup wizard auto-detects BlueStacks and connects to it. You install BlueStacks, Clash of Clans, and Goblins Farm — the wizard handles the rest."}},
+{"@type":"Question","name":"What emulator resolution should I use for a Clash of Clans bot?","acceptedAnswer":{"@type":"Answer","text":"Goblins Farm recommends setting BlueStacks to 2560x1440. The bot reads the screen with computer vision, and this resolution gives its template matching and OCR the most reliable picture."}},
+{"@type":"Question","name":"Does the bot work while BlueStacks is minimized?","acceptedAnswer":{"@type":"Answer","text":"The bot reads the emulator's screen output and sends taps through ADB, so the emulator needs to be running — but you don't need to sit at the computer. Phone notifications with remote Stop/Start buttons let you monitor and control it from anywhere."}}]}
+</script>
+</head>
+<body>
+<div class="doc">
+<a class="home" href="/">&larr; goblinsfarm.com</a>
+<h1>CoC Bot BlueStacks Setup — From Zero to Farming</h1>
+<p class="updated">Updated: 24 August 2026</p>
+
+<p>Every serious <a href="clash-of-clans-bot.html">Clash of Clans bot</a> runs the game inside an Android emulator and controls it from the outside. This tutorial takes you from a bare computer to a farming session in five steps: BlueStacks, Clash of Clans, Goblins Farm, the setup wizard, Start. The honest pitch up front: the old generation of bots made <strong>Clash of Clans bot emulator setup</strong> a weekend project — ADB paths, OCR libraries, resolution profiles, config files. Goblins Farm's setup wizard does all of that automatically, so the manual part of this guide is genuinely short.</p>
+
+<h2>What you need</h2>
+<ul>
+<li>A Windows PC or a Mac (the macOS app is code-signed and notarized, so it opens without security workarounds)</li>
+<li><strong>BlueStacks</strong> — the free Android emulator</li>
+<li>A Clash of Clans account signed into Supercell ID (so you can load your village in the emulator)</li>
+<li><strong>Goblins Farm</strong> — the bot itself</li>
+</ul>
+<p>That's the whole list. Goblins Farm bundles its own ADB, ffmpeg, and Tesseract, so there is nothing else to download, no PATH to edit, no dependencies to hunt down.</p>
+
+<h2>Step 1 — Install BlueStacks</h2>
+<p>Download BlueStacks from its official site and run the installer. It's free. Once it's installed, open it and let it finish its first-run setup.</p>
+<p>One setting worth doing now: open BlueStacks' display settings and set the resolution to <strong>2560x1440</strong>. Goblins Farm reads the emulator screen with computer vision — template matching and OCR — and this is the recommended resolution for reliable detection. The wizard will flag it later if it's off, but setting it now saves a round trip.</p>
+
+<h2>Step 2 — Install Clash of Clans inside BlueStacks</h2>
+<p>Inside BlueStacks, sign into the Google Play Store, search for Clash of Clans, and install it — exactly as you would on a phone.</p>
+
+<h2>Step 3 — Sign into your village</h2>
+<p>Open Clash of Clans in the emulator and sign in with your Supercell ID to load your village. Play a minute or two manually to confirm everything runs smoothly. Two quick checks that help the bot later:</p>
+<ul>
+<li><strong>Game language: English.</strong> The bot's OCR reads on-screen text, and English is what it's trained on.</li>
+<li>Dismiss any one-time popups (events, offers) so the village screen is clean.</li>
+</ul>
+
+<h2>Step 4 — Install Goblins Farm and run the wizard</h2>
+<p>On <strong>macOS</strong>: open the .dmg and drag Goblins Farm to Applications. The app is signed and notarized — no right-click-open dance, no Gatekeeper warnings. On <strong>Windows</strong>: run the installer. Either way, the app checks for updates on every launch, so you're always on the current version without reinstalling.</p>
+<p>First launch starts the <strong>setup wizard</strong>, and this is where the old-bot pain disappears:</p>
+<ol>
+<li>The wizard <strong>auto-detects ADB and your running emulator</strong> — no ports, no paths, no "adb devices" in a terminal.</li>
+<li>It checks the emulator resolution and tells you if it needs the recommended 2560x1440.</li>
+<li>It confirms it can see the game screen and send taps.</li>
+</ol>
+<p>Keep BlueStacks open with Clash of Clans running while the wizard does its checks. When it finishes, the bot is connected.</p>
+
+<h2>Step 5 — Set targets and press Start</h2>
+<p>In the Farm tab, set your loot targets with the sliders — gold, elixir, and dark elixir. The bot searches for bases, skips ones below your loot thresholds, deploys troops, collects, and repeats until the targets are hit, then <strong>stops automatically</strong>. Details on picking good thresholds are in the <a href="clash-of-clans-farming-bot.html">farming bot guide</a>. If you have the Builder Base license, the <a href="builder-base-bot.html">night village mode</a> runs its own loop with its own stop conditions.</p>
+<p>Optional but recommended: open Settings and scan the QR code to link <a href="coc-bot-remote-control.html">phone notifications</a>. You'll get pushes when farming starts, when loot targets are hit, and if anything goes wrong — with Stop/Start/Status buttons right in the notification.</p>
+
+<h2>Troubleshooting</h2>
+
+<h3>Emulator not detected</h3>
+<p>The wizard finds BlueStacks over ADB automatically, so if it can't, the usual cause is that the emulator isn't fully started. Make sure BlueStacks is open and past its loading screen before running the wizard, then retry the detection step. A restart of BlueStacks (fully quit, reopen) clears most one-off ADB glitches. If another Android tool on your machine is holding the ADB connection, close it — Goblins Farm uses its own bundled ADB and just needs the emulator free to talk to.</p>
+
+<h3>Wrong resolution / bot misclicks</h3>
+<p>If the bot taps slightly off-target or fails to find buttons, check the emulator resolution first. Set BlueStacks to <strong>2560x1440</strong> in its display settings, restart the emulator, and run the wizard again so it re-verifies the screen.</p>
+
+<h3>Text not being read / loot amounts wrong</h3>
+<p>Set the game language to English in Clash of Clans' in-game settings. OCR reads the loot numbers and button labels on screen, and other languages change both the fonts and the words it expects.</p>
+
+<h2>The part no setup guide should skip</h2>
+<p>Using any bot violates Supercell's Terms of Service. Goblins Farm is the low-risk kind — it only reads the screen and simulates human-like taps, with no memory editing and no modified game client — but low risk is not zero risk. Read the <a href="is-coc-botting-safe.html">honest ban-risk breakdown</a> before your first overnight session.</p>
+
+<p>Licensing is a one-time lifetime purchase — Main Base €60, Builder Base €60, or both for €100 — with the key delivered instantly by email. One device at a time, movable whenever you switch machines, and two weeks of offline grace if your connection drops.</p>
+
+<a class="cta" href="/#pricing">Get Goblins Farm — lifetime from €60</a>
+
+<div class="related">
+<h2>Related guides</h2>
+<ul>
+<li><a href="clash-of-clans-bot.html">Clash of Clans bot — the complete 2026 guide</a></li>
+<li><a href="coc-bot-mac.html">Clash of Clans bot for Mac</a></li>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot — targets, thresholds, and overnight loot</a></li>
+<li><a href="mybot-alternative.html">MyBot alternative — what to use in 2026</a></li>
+</ul>
+</div>
+
+<p style="margin-top:26px;font-size:13px;color:#9a8567">Goblins Farm is not affiliated with, endorsed by, or associated with Supercell. Clash of Clans is a trademark of Supercell Oy. Use of automation may violate the game's Terms of Service. Use at your own risk.</p>
+</div>
+</body>
+</html>

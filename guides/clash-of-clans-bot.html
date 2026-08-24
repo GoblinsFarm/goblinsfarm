@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clash of Clans Bot — The Complete 2026 Guide | Goblins Farm</title>
+<meta name="description" content="Everything about Clash of Clans bots in 2026: how farming bots work, ban risk, Mac & Windows options, Builder Base automation, and how to pick one that still gets updates.">
+<link rel="canonical" href="https://goblinsfarm.com/guides/clash-of-clans-bot.html">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{--parch:#d7c4ac;--brown:#4a3226;--ink:#2b1d12;--outline:#1f150d;--gold:#ffb800;--edge:#2b1d12}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(180deg,#e6d6c0,var(--parch) 40%,#cbb59a);font-family:"Nunito Sans",system-ui,sans-serif;color:#4a3a28;font-size:15.5px;line-height:1.7;padding:40px 20px 80px}
+.doc{max-width:760px;margin:0 auto;background:linear-gradient(180deg,#fffef9,#faf3e4);border:3px solid var(--edge);border-radius:18px;box-shadow:0 8px 0 rgba(43,29,18,.9),0 24px 40px rgba(20,12,6,.25);padding:44px 46px}
+h1{font-family:"Lilita One",sans-serif;font-weight:400;font-size:32px;color:#fff;-webkit-text-stroke:2.5px var(--outline);paint-order:stroke fill;text-shadow:0 3px 0 var(--outline);margin-bottom:6px}
+h2{font-family:"Lilita One",sans-serif;font-weight:400;font-size:21px;color:var(--ink);margin:30px 0 8px}
+h3{font-size:16px;color:var(--ink);margin:20px 0 6px}
+p,li{color:#5c4a38;margin-bottom:10px}
+ul,ol{padding-left:22px;margin-bottom:12px}
+.updated{font-size:13px;color:#9a8567;margin-bottom:22px}
+a{color:#0068c9}
+strong{color:var(--ink)}
+.home{display:inline-block;margin-bottom:18px;font-weight:800;text-decoration:none;font-size:14px}
+.cta{display:inline-block;background:linear-gradient(180deg,#ffe9a8,#ffd351);border:2.5px solid #5c3d00;border-radius:12px;color:#5c3d00;font-weight:900;padding:12px 22px;text-decoration:none;margin:14px 0;box-shadow:0 3px 0 #5c3d00}
+.related{background:#f4ecdc;border:2px solid #eadfcb;border-radius:12px;padding:16px 20px;margin-top:30px}
+.related h2{margin-top:0;font-size:17px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px}
+th,td{border:2px solid #eadfcb;padding:8px 10px;text-align:left}
+th{background:#f4ecdc;color:var(--ink)}
+@media (max-width:600px){.doc{padding:28px 22px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Are Clash of Clans bots allowed?","acceptedAnswer":{"@type":"Answer","text":"No. All automation violates Supercell's Terms of Service. Screen-reading bots that simulate human taps carry far lower detection risk than mod clients or memory editors, but the risk is never zero."}},
+{"@type":"Question","name":"Do Clash of Clans bots work on Mac?","acceptedAnswer":{"@type":"Answer","text":"Most legacy bots are Windows-only. Goblins Farm ships a signed, notarized macOS app alongside Windows and drives the free BlueStacks emulator on both platforms."}},
+{"@type":"Question","name":"Can a bot farm the Builder Base?","acceptedAnswer":{"@type":"Answer","text":"Goblins Farm automates Builder Base versus battles end to end: it fights both battle stages, auto-claims the elixir cart, and stops when storages are full."}}]}
+</script>
+</head>
+<body>
+<div class="doc">
+<a class="home" href="/">&larr; goblinsfarm.com</a>
+<h1>Clash of Clans Bot — The Complete 2026 Guide</h1>
+<p class="updated">Updated: 24 August 2026</p>
+
+<p>A Clash of Clans bot is a program that plays the grindy part of the game for you — finding matches, deploying troops, collecting loot — so your storages fill while you sleep. This guide covers how modern bots actually work, what happened to the old free bots, the real ban risk, and what to look for if you want one that still works in 2026.</p>
+
+<h2>How modern CoC bots work</h2>
+<p>Every serious bot today runs the game inside an Android emulator (usually <a href="coc-bot-bluestacks-setup.html">BlueStacks</a>) on a PC or Mac and controls it from the outside:</p>
+<ol>
+<li><strong>Screen reading.</strong> The bot takes screenshots of the emulator and uses computer vision — template matching and OCR — to recognize buttons, loot amounts, and game state.</li>
+<li><strong>Simulated input.</strong> It taps and swipes through the emulator's input channel, the same way your finger would.</li>
+<li><strong>A decision loop.</strong> Attack, skip low-loot bases, collect, retrain, repeat — until a target you set is reached.</li>
+</ol>
+<p>What good bots deliberately <em>don't</em> do: modify the game client, inject code, or talk to Supercell's servers directly. Those approaches are trivially detectable and get accounts banned fast. Screen-reading bots look like a very patient human.</p>
+
+<h2>What happened to MyBot and the free bots?</h2>
+<p>For years the default answer was MyBot.run — free, open source, Windows-only. Emulator updates and game UI changes gradually broke it, and community maintenance stalled. That's the trade-off with free bots: nobody is on the hook when this week's game update moves a button. Paid tools live and die by shipping fixes quickly. See our full <a href="mybot-alternative.html">MyBot alternative comparison</a>.</p>
+
+<h2>Is botting safe? The honest answer</h2>
+<p>Automation violates Supercell's Terms of Service. Full stop. Any bot seller who tells you there is zero risk is lying to you. What you can do is minimize risk: use a screen-reading bot (no client modification), keep sessions human-plausible, and ideally farm on an account you could stand to lose. We wrote a dedicated, no-marketing-speak page on this: <a href="is-coc-botting-safe.html">Can you get banned for botting in Clash of Clans?</a></p>
+
+<h2>What to look for in 2026</h2>
+<table>
+<tr><th>Criterion</th><th>Why it matters</th></tr>
+<tr><td>Active updates</td><td>Game UI changes break vision-based bots; a bot without recent releases is already dead.</td></tr>
+<tr><td>Screen-reading only</td><td>No memory editing, no mod client — the difference between low risk and near-certain ban.</td></tr>
+<tr><td>Mac support</td><td>Almost nobody has it. If you're on macOS, your options are one or two tools. <a href="coc-bot-mac.html">Details here</a>.</td></tr>
+<tr><td>Builder Base support</td><td>The night village has its own economy; most bots ignore it entirely. <a href="builder-base-bot.html">See what full support looks like</a>.</td></tr>
+<tr><td>Stop conditions</td><td>A bot should farm to a target and stop — not run forever and draw attention.</td></tr>
+<tr><td>Remote control</td><td>Start, stop, and monitor from your phone while the bot runs at home. <a href="coc-bot-remote-control.html">How that works</a>.</td></tr>
+</table>
+
+<h2>Where Goblins Farm fits</h2>
+<p>Goblins Farm is our answer to that checklist: a screen-reading farming bot for <strong>Windows and macOS</strong> (signed and notarized), with <a href="clash-of-clans-farming-bot.html">loot-target farming</a> for the main village, full <a href="builder-base-bot.html">Builder Base automation</a> — both battle stages, elixir-cart claiming, storages-full stop — phone notifications with remote start/stop, and lifetime licenses from €60. It's a one-time purchase, one device at a time, movable whenever you switch machines.</p>
+<a class="cta" href="/#pricing">Get Goblins Farm — lifetime from €60</a>
+
+<div class="related">
+<h2>Deep dives</h2>
+<ul>
+<li><a href="clash-of-clans-farming-bot.html">CoC farming bot guide — targets, thresholds, and overnight loot</a></li>
+<li><a href="builder-base-bot.html">Builder Base bot — automating the night village</a></li>
+<li><a href="mybot-alternative.html">MyBot alternative — what to use in 2026</a></li>
+<li><a href="coc-bot-mac.html">Clash of Clans bot for Mac</a></li>
+<li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting</a></li>
+<li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
+<li><a href="coc-bot-remote-control.html">Remote control from your phone</a></li>
+</ul>
+</div>
+
+<p style="margin-top:26px;font-size:13px;color:#9a8567">Goblins Farm is not affiliated with, endorsed by, or associated with Supercell. Clash of Clans is a trademark of Supercell Oy. Use of automation may violate the game's Terms of Service. Use at your own risk.</p>
+</div>
+</body>
+</html>
