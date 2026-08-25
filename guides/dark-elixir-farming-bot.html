@@ -35,7 +35,7 @@ th{background:#f4ecdc;color:var(--ink)}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Can a bot farm dark elixir in Clash of Clans?","acceptedAnswer":{"@type":"Answer","text":"Yes. Goblins Farm reads the loot preview on the search screen, skips bases below the dark elixir threshold you set, attacks the ones worth hitting, and stops automatically when your dark elixir storage reaches the target you chose."}},
-{"@type":"Question","name":"How much dark elixir does a bot farm per hour?","acceptedAnswer":{"@type":"Answer","text":"There is no honest fixed number. Dark elixir per raid varies enormously with your league, trophy range, and how many dead bases are available at that moment. A bot's advantage is volume and patience, not a guaranteed rate."}},
+{"@type":"Question","name":"How much dark elixir does a bot farm per hour?","acceptedAnswer":{"@type":"Answer","text":"There is no honest fixed number. Dark elixir per attack varies enormously with your league, trophy range, and how many dead bases are available at that moment. A bot's advantage is volume and patience, not a guaranteed rate."}},
 {"@type":"Question","name":"Is dark elixir farming with a bot safe?","acceptedAnswer":{"@type":"Answer","text":"All automation violates Supercell's Terms of Service and the risk is never zero. Screen-reading bots that only simulate taps, without touching the game client, carry far lower detection risk than mod clients, but no bot can promise safety."}}]}
 </script>
 </head>
@@ -51,10 +51,10 @@ th{background:#f4ecdc;color:var(--ink)}
 <p>From Town Hall 7 onward, your real progress is measured in hero levels, and heroes eat dark elixir in enormous, ever-growing bites. Meanwhile the game hands DE out in eyedropper doses:</p>
 <ul>
 <li><strong>Drills are slow.</strong> Even maxed drills produce a trickle compared to what a single hero upgrade costs.</li>
-<li><strong>Most bases barely have any.</strong> The majority of bases you see in search offer a token amount of DE, or none at all. The bases actually worth raiding for DE are a small minority.</li>
+<li><strong>Most bases barely have any.</strong> The majority of bases you see in search offer a token amount of DE, or none at all. The bases actually worth attacking for DE are a small minority.</li>
 <li><strong>It is the best-protected resource.</strong> The dark elixir storage sits in the center of nearly every base layout, so grabbing a full haul usually means committing a real army, not a cheap snipe.</li>
 </ul>
-<p>Put those together and you get the grindiest loop in the game: skip, skip, skip, skip, find one base with meaningful DE, fight for it, retrain, repeat. Doing that for one hero level is tedious. Doing it for a full set of hero upgrades across a Town Hall is hundreds of raids.</p>
+<p>Put those together and you get the grindiest loop in the game: skip, skip, skip, skip, find one base with meaningful DE, fight for it, retrain, repeat. Doing that for one hero level is tedious. Doing it for a full set of hero upgrades across a Town Hall is hundreds of attacks.</p>
 
 <h2>What manual DE farming actually looks like</h2>
 <p>The classic manual routine is well known: run a cheap army, nexting through opponents and spending most of your session staring at the loot preview waiting for a number worth attacking. The skipping is the job. You might tap "next" thirty times before one base justifies a deployment, and each skip costs search gold and a few seconds of your attention. It is exactly the kind of repetitive, judgment-light loop that humans are bad at sustaining and software is built for.</p>
@@ -66,10 +66,10 @@ th{background:#f4ecdc;color:var(--ink)}
 <h3>2. A dark elixir target</h3>
 <p>Pick the number you are farming toward, typically the cost of your next hero upgrade, on the target slider. The bot attacks, collects, retrains, and keeps going until your storage hits that number.</p>
 <h3>3. Auto-stop</h3>
-<p>When the target is reached, the bot stops on its own. It does not farm forever and draw attention, and you do not wake up to find it looped through another hundred pointless raids. Start the upgrade, set the next target, go again. You can also monitor and stop it from your phone through <a href="coc-bot-remote-control.html">ntfy.sh remote control</a>.</p>
+<p>When the target is reached, the bot stops on its own. It does not farm forever and draw attention, and you do not wake up to find it looped through another hundred pointless attacks. Start the upgrade, set the next target, go again. You can also monitor and stop it from your phone through <a href="coc-bot-remote-control.html">ntfy.sh remote control</a>.</p>
 
 <h2>Realistic expectations, no invented numbers</h2>
-<p>Any site quoting a fixed "DE per hour" figure is making it up. Dark elixir income per raid varies hugely with your league and trophy range, the time of day, and above all how many dead bases with full drills happen to be in your search pool at that moment. Some sessions you will hit a run of abandoned bases with overflowing drills, other sessions the pool is thin. What a bot changes is not the per-raid number, it is the volume: it runs the skip-and-raid loop for hours at a consistent standard, so the variance averages out and the storage fills while you do literally anything else. Your league choice still matters as much as it does for manual farming, and the trade-offs are covered in our <a href="clash-of-clans-farming-guide.html">general farming guide</a>.</p>
+<p>Any site quoting a fixed "DE per hour" figure is making it up. Dark elixir income per attack varies hugely with your league and trophy range, the time of day, and above all how many dead bases with full drills happen to be in your search pool at that moment. Some sessions you will hit a run of abandoned bases with overflowing drills, other sessions the pool is thin. What a bot changes is not the per-attack number, it is the volume: it runs the skip-and-attack loop for hours at a consistent standard, so the variance averages out and the storage fills while you do literally anything else. Your league choice still matters as much as it does for manual farming, and the trade-offs are covered in our <a href="clash-of-clans-farming-guide.html">general farming guide</a>.</p>
 
 <h2>The honest part</h2>
 <p>Automation violates Supercell's Terms of Service. That applies to every bot, including this one, and the risk of a ban is never zero. Goblins Farm minimizes that risk by reading the screen and simulating human-like taps only, with no client modification, no code injection, and no direct server communication, but minimized is not eliminated. Read the full, marketing-free version on our <a href="is-coc-botting-safe.html">ban risk page</a> before you decide.</p>
@@ -84,7 +84,7 @@ th{background:#f4ecdc;color:var(--ink)}
 <li><a href="clash-of-clans-bot.html">Clash of Clans bot, the complete 2026 guide</a></li>
 <li><a href="clash-of-clans-farming-bot.html">CoC farming bot, targets, thresholds, and overnight loot</a></li>
 <li><a href="clash-of-clans-farming-guide.html">Manual farming guide, armies, leagues, dead bases</a></li>
-<li><a href="loot-calculator.html">Loot calculator, how many raids until your next upgrade</a></li>
+<li><a href="loot-calculator.html">Loot calculator, how many attacks until your next upgrade</a></li>
 <li><a href="is-coc-botting-safe.html">Ban risk, honestly</a></li>
 <li><a href="coc-bot-bluestacks-setup.html">BlueStacks setup for CoC botting</a></li>
 </ul>

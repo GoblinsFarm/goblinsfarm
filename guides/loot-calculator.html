@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CoC Loot Calculator, Raids Until Your Next Upgrade | Goblins Farm</title>
-<meta name="description" content="Free Clash of Clans loot calculator: enter an upgrade cost, your average loot per raid, and raids per hour to see how many raids and hours of farming an upgrade really takes.">
+<title>CoC Loot Calculator, Attacks Until Your Next Upgrade | Goblins Farm</title>
+<meta name="description" content="Free Clash of Clans loot calculator: enter an upgrade cost, your average loot per attack, and attacks per hour to see how many attacks and hours of farming an upgrade really takes.">
 <link rel="canonical" href="https://goblinsfarm.com/guides/loot-calculator.html">
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,17 +48,17 @@ th{background:#f4ecdc;color:var(--ink)}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"How much loot do you get per raid in Clash of Clans?","acceptedAnswer":{"@type":"Answer","text":"It varies widely with your league, army, and how many dead bases you find. As a rough example only, many farmers see somewhere in the region of 150k to 400k combined gold and elixir per raid, but there is no fixed number and your own average is the one that matters."}},
-{"@type":"Question","name":"How many raids does an upgrade take?","acceptedAnswer":{"@type":"Answer","text":"Divide the upgrade cost by your average loot per raid. A 12M upgrade at 300k per raid is 40 raids. This calculator does the division and converts it into hours and overnight farming sessions."}}]}
+{"@type":"Question","name":"How much loot do you get per attack in Clash of Clans?","acceptedAnswer":{"@type":"Answer","text":"It varies widely with your league, army, and how many dead bases you find. As a rough example only, many farmers see somewhere in the region of 150k to 400k combined gold and elixir per attack, but there is no fixed number and your own average is the one that matters."}},
+{"@type":"Question","name":"How many attacks does an upgrade take?","acceptedAnswer":{"@type":"Answer","text":"Divide the upgrade cost by your average loot per attack. A 12M upgrade at 300k per attack is 40 attacks. This calculator does the division and converts it into hours and overnight farming sessions."}}]}
 </script>
 </head>
 <body>
 <div class="doc">
 <a class="home" href="/">&larr; goblinsfarm.com</a>
-<h1>CoC Loot Calculator, Raids Until Your Next Upgrade</h1>
+<h1>CoC Loot Calculator, Attacks Until Your Next Upgrade</h1>
 <p class="updated">Updated: 24 August 2026</p>
 
-<p>How many raids does that next upgrade actually cost you? This calculator turns an upgrade price into concrete numbers: how many raids you need, how many hours of farming that is, and how many overnight sessions it would take. Enter your own average loot per raid, yours is the only number that matters, and the results update as you type.</p>
+<p>How many attacks does that next upgrade actually cost you? This calculator turns an upgrade price into concrete numbers: how many attacks you need, how many hours of farming that is, and how many overnight sessions it would take. Enter your own average loot per attack, yours is the only number that matters, and the results update as you type.</p>
 
 <div class="calc">
 <label for="cost">Upgrade cost (gold or elixir)</label>
@@ -71,27 +71,27 @@ th{background:#f4ecdc;color:var(--ink)}
 </div>
 <input type="number" id="cost" min="0" step="100000" placeholder="e.g. 8000000" inputmode="numeric">
 
-<label for="loot">Average loot per raid</label>
-<p class="hint">Rough example only: many farmers see something like 150k to 400k total loot per raid depending on league and dead-base luck. Use your own average.</p>
+<label for="loot">Average loot per attack</label>
+<p class="hint">Rough example only: many farmers see something like 150k to 400k total loot per attack depending on league and dead-base luck. Use your own average.</p>
 <input type="number" id="loot" min="0" step="10000" placeholder="e.g. 250000" inputmode="numeric">
 
-<label for="rph">Raids per hour</label>
+<label for="rph">Attacks per hour</label>
 <p class="hint">Default 8. Search time, battle length, and troop training all vary, adjust to your pace.</p>
 <input type="number" id="rph" min="1" max="60" step="1" value="8" inputmode="numeric">
 
 <div class="results" id="results">
-<div class="empty">Enter an upgrade cost and your average loot per raid to see the numbers.</div>
+<div class="empty">Enter an upgrade cost and your average loot per attack to see the numbers.</div>
 </div>
 </div>
 
 <h2>How the math works</h2>
-<p>No magic: raids needed is the upgrade cost divided by your average loot per raid, rounded up. Hours is raids divided by raids per hour. Nights assumes an 8 hour overnight farming session. The output is only as honest as your input, so track a few real sessions and use your true average rather than a hopeful one. Loot per raid swings a lot with league and dead-base availability, which is exactly why we do not preload a number for you. If you want to raise that average, our <a href="clash-of-clans-farming-guide.html">farming guide</a> covers armies, league choice, and dead base hunting.</p>
+<p>No magic: attacks needed is the upgrade cost divided by your average loot per attack, rounded up. Hours is attacks divided by attacks per hour. Nights assumes an 8 hour overnight farming session. The output is only as honest as your input, so track a few real sessions and use your true average rather than a hopeful one. Loot per attack swings a lot with league and dead-base availability, which is exactly why we do not preload a number for you. If you want to raise that average, our <a href="clash-of-clans-farming-guide.html">farming guide</a> covers armies, league choice, and dead base hunting.</p>
 
 <h2>What the numbers usually reveal</h2>
-<p>Run a late-game upgrade through the calculator and the result is rarely comforting. Big Town Hall upgrades routinely work out to dozens of raids, spread over many hours, and that is for a single upgrade out of the dozens on your to-do list. Multiply by every building, every level, and every hero, and you can see why so many players stall out in the late game. The loot is gettable, the hours are the problem.</p>
+<p>Run a late-game upgrade through the calculator and the result is rarely comforting. Big Town Hall upgrades routinely work out to dozens of attacks, spread over many hours, and that is for a single upgrade out of the dozens on your to-do list. Multiply by every building, every level, and every hero, and you can see why so many players stall out in the late game. The loot is gettable, the hours are the problem.</p>
 
-<h2>Or let the raids run themselves</h2>
-<p>If the calculator just told you your next upgrade is 50 raids away, you have two options: grind them out by hand, or let <strong>Goblins Farm</strong> run them. It plays Clash of Clans inside the free BlueStacks emulator on Windows or macOS, skips bases below your loot thresholds, attacks the ones worth taking, and stops on its own when your gold, elixir, or dark elixir target is reached. Screen reading and simulated taps only, no client modification. Fair warning, stated plainly: automation violates Supercell's Terms of Service and the risk is never zero, details on our <a href="is-coc-botting-safe.html">safety page</a>. Lifetime licenses from 60 EUR, one-time, no subscription.</p>
+<h2>Or let the attacks run themselves</h2>
+<p>If the calculator just told you your next upgrade is 50 attacks away, you have two options: grind them out by hand, or let <strong>Goblins Farm</strong> run them. It plays Clash of Clans inside the free BlueStacks emulator on Windows or macOS, skips bases below your loot thresholds, attacks the ones worth taking, and stops on its own when your gold, elixir, or dark elixir target is reached. Screen reading and simulated taps only, no client modification. Fair warning, stated plainly: automation violates Supercell's Terms of Service and the risk is never zero, details on our <a href="is-coc-botting-safe.html">safety page</a>. Lifetime licenses from 60 EUR, one-time, no subscription.</p>
 <a class="cta" href="/#pricing">Get Goblins Farm, lifetime from 60 EUR</a>
 
 <div class="related">
@@ -129,12 +129,12 @@ function calc(){
       l=parseFloat(loot.value),
       r=parseFloat(rph.value);
   if(!isFinite(c)||c<=0||!isFinite(l)||l<=0){
-    out.innerHTML='<div class="empty">Enter an upgrade cost and your average loot per raid to see the numbers.</div>';
+    out.innerHTML='<div class="empty">Enter an upgrade cost and your average loot per attack to see the numbers.</div>';
     return;
   }
   if(!isFinite(r)||r<=0){r=8;}
-  var raids=Math.ceil(c/l),
-      hours=raids/r,
+  var attacks=Math.ceil(c/l),
+      hours=attacks/r,
       nights=hours/8;
   var hoursTxt=hours<1?'less than an hour':nice(hours,1)+' hour'+(hours>=1.05?'s':''),
       nightsTxt;
@@ -142,8 +142,8 @@ function calc(){
   else if(nights<=1){nightsTxt='about 1 night of overnight farming (8h per night)';}
   else{nightsTxt='about '+nice(nights,1)+' nights of overnight farming (8h per night)';}
   out.innerHTML=
-    '<div class="big">'+fmt(raids)+' raid'+(raids===1?'':'s')+' needed</div>'+
-    '<div class="row">Roughly '+hoursTxt+' of farming at '+nice(r,0)+' raids per hour</div>'+
+    '<div class="big">'+fmt(attacks)+' attack'+(attacks===1?'':'s')+' needed</div>'+
+    '<div class="row">Roughly '+hoursTxt+' of farming at '+nice(r,0)+' attacks per hour</div>'+
     '<div class="row">That is '+nightsTxt+'</div>';
 }
 

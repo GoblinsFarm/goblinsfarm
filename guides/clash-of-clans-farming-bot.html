@@ -35,7 +35,7 @@ th{background:#f4ecdc;color:var(--ink)}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"How much loot can a Clash of Clans farming bot get per hour?","acceptedAnswer":{"@type":"Answer","text":"It varies too much for any honest fixed number: your league, army composition, loot thresholds, and the bases the matchmaker serves all change the rate. What a bot changes is consistency, it applies your strategy every attack, for hours, without getting bored."}},
-{"@type":"Question","name":"What is a loot threshold in a farming bot?","acceptedAnswer":{"@type":"Answer","text":"A minimum amount of available gold, elixir, or dark elixir a base must show before the bot attacks it. Bases below the threshold are skipped for the small next-cost, so army and time are only spent on raids worth the investment."}},
+{"@type":"Question","name":"What is a loot threshold in a farming bot?","acceptedAnswer":{"@type":"Answer","text":"A minimum amount of available gold, elixir, or dark elixir a base must show before the bot attacks it. Bases below the threshold are skipped for the small next-cost, so army and time are only spent on attacks worth the investment."}},
 {"@type":"Question","name":"Can a farming bot stop on its own?","acceptedAnswer":{"@type":"Answer","text":"Goblins Farm supports farm-to-target: set gold, elixir, and dark elixir targets with sliders, and the bot stops automatically when they are reached instead of farming forever."}}]}
 </script>
 </head>
@@ -62,8 +62,8 @@ th{background:#f4ecdc;color:var(--ink)}
 <p>Anyone who has farmed manually knows the temptation to attack a mediocre base just because you're tired of pressing next. Bots don't get tired, which is precisely their edge. Set your thresholds, say, a minimum combined loot that makes an attack worth your army cost and training time, and the bot will skip a hundred dead bases in a row without flinching until one clears the bar.</p>
 <p>Where you set the bar is a real decision:</p>
 <ul>
-<li><strong>Thresholds too low:</strong> you attack constantly but each raid barely pays for itself. Lots of activity, little net loot.</li>
-<li><strong>Thresholds too high:</strong> every raid is juicy, but you burn time and search costs skipping. In leagues where fat bases are rare, you can spend more time nexting than attacking.</li>
+<li><strong>Thresholds too low:</strong> you attack constantly but each attack barely pays for itself. Lots of activity, little net loot.</li>
+<li><strong>Thresholds too high:</strong> every attack is juicy, but you burn time and search costs skipping. In leagues where fat bases are rare, you can spend more time nexting than attacking.</li>
 <li><strong>The sweet spot</strong> depends on your league and army cost. Start moderate, watch a session, and adjust the sliders. Because the bot applies the rule perfectly every time, even small tuning changes show up clearly in results.</li>
 </ul>
 
@@ -74,7 +74,7 @@ th{background:#f4ecdc;color:var(--ink)}
 
 <h2>Realistic expectations: loot per hour</h2>
 <p>Here is where most bot marketing lies to you, so let's not. <strong>We won't quote you a loot-per-hour number, because any fixed number would be made up.</strong> Your actual rate depends on your league (which controls how rich the bases you're offered are), your army composition and training time, your thresholds, and plain luck with the matchmaker. The same bot, same settings, can have a fat hour and a lean hour back to back.</p>
-<p>What a bot genuinely changes is not some magic multiplier, it's <em>consistency</em>. It executes your strategy every single attack, never gets bored, never "just takes" a bad base, and keeps going long after you'd have put the phone down. Loot accumulates because the loop never stops running, not because each raid is superhuman.</p>
+<p>What a bot genuinely changes is not some magic multiplier, it's <em>consistency</em>. It executes your strategy every single attack, never gets bored, never "just takes" a bad base, and keeps going long after you'd have put the phone down. Loot accumulates because the loop never stops running, not because each attack is superhuman.</p>
 
 <h2>Overnight farming with your phone as the remote</h2>
 <p>The classic use case: set targets before bed, wake up to full storages. Goblins Farm pairs this with phone notifications and remote control via ntfy.sh, no account needed. Your phone gets push updates as the session progresses, and Start, Stop, and Status buttons work remotely, so you can check on the farm from bed or kill it from anywhere. Details in the <a href="coc-bot-remote-control.html">remote control guide</a>.</p>
