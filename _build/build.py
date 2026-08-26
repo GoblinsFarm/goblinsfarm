@@ -244,6 +244,39 @@ def verify_links(root: Path) -> list[str]:
     return problems
 
 
+def sync_homepage_entity(root: Path, site: dict) -> bool:
+    """Rewrite the entity @graph in the hand-written homepage from site.json.
+
+    index.html is not generated, so its JSON-LD was a hand-injected snapshot and
+    immediately drifted: the homepage kept declaring an older version of the same
+    @id than the 186 generated pages. Two different declarations of one node is
+    worse than a missing field, so the block is regenerated on every build and
+    divergence is structurally impossible rather than merely noticed.
+    """
+    index = root / "index.html"
+    if not index.exists() or not site.get("organization"):
+        return False
+    markup = index.read_text(encoding="utf-8")
+    graph = compact_json({
+        "@context": "https://schema.org",
+        "@graph": [site["organization"], site["website"]],
+    })
+    block = f'<script type="application/ld+json">{graph}</script>'
+
+    pattern = re.compile(
+        r'<script type="application/ld\+json">\s*\{"@context":"https://schema\.org","@graph":.*?\}\s*</script>',
+        re.S,
+    )
+    if pattern.search(markup):
+        updated = pattern.sub(lambda _: block, markup, count=1)
+    else:
+        updated = markup.replace('<meta name="description"', block + '\n<meta name="description"', 1)
+    if updated != markup:
+        index.write_text(updated, encoding="utf-8")
+        return True
+    return False
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="report unresolved links and TODO cells")
@@ -739,6 +772,9 @@ def main() -> int:
     print(f"  news posts    : {len(posts_meta)}")
     print(f"  sitemap urls  : {len(seen)}")
     print(f"  TODO cells    : {todo_count}")
+    if sync_homepage_entity(ROOT, site):
+        print("  homepage entity graph resynced from site.json")
+
     link_problems = verify_links(ROOT)
     print(f"  broken links  : {len(link_problems)}")
     for problem in link_problems[:10]:
