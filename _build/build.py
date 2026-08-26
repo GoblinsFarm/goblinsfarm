@@ -318,7 +318,9 @@ def main() -> int:
                 "crumbs": crumbs,
                 "show_tool_note": entry.get("show_tool_note", False),
                 "iso_updated": entry.get("iso_updated", site["iso_updated"]),
-                "source": data.get("source"),
+                # entry-level source wins: hand-written collections carry no
+                # collection source, but individual pages may embed generated tables.
+                "source": entry.get("source") or data.get("source"),
                 "has_todo": any(
                     site["todo"] in row
                     for tbl in entry.get("tables", [])
