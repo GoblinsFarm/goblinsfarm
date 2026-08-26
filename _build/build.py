@@ -22,6 +22,7 @@ import argparse
 import html
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from email.utils import format_datetime
@@ -275,6 +276,97 @@ def sync_homepage_entity(root: Path, site: dict) -> bool:
         index.write_text(updated, encoding="utf-8")
         return True
     return False
+
+
+# Hand-written pages the generator does not own, but whose entity markup it does.
+# Bringing only the JSON-LD under build.py keeps the prose hand-crafted while making
+# it impossible for these pages to fall out of the entity graph again.
+STATIC_PAGES = [
+    ("guides/*.html", "TechArticle"),
+    ("privacy.html", "WebPage"),
+    ("terms.html", "WebPage"),
+    ("refunds.html", "WebPage"),
+    ("thanks.html", "WebPage"),
+]
+
+ENTITY_GRAPH_RE = re.compile(
+    r'<script type="application/ld\+json">\s*\{"@context":"https://schema\.org","@graph":.*?\}\s*</script>\n?',
+    re.S,
+)
+
+
+def git_modified(path: Path) -> str | None:
+    """Last commit date for a file, which beats mtime because checkouts reset mtime."""
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%cs", "--", str(path)],
+            cwd=str(ROOT), capture_output=True, text=True, timeout=10,
+        )
+        stamp = out.stdout.strip()
+        return stamp or None
+    except Exception:
+        return None
+
+
+def sync_static_entity(root: Path, site: dict) -> int:
+    """Give hand-written pages the entity graph and a page node bound to it.
+
+    The bot guides carried a FAQPage and nothing else: no publisher, no author, no
+    isPartOf. They are the only pages on the domain with history and the ones an
+    assistant would cite, so every citation was accruing to a page the entity graph
+    did not claim. Absence rather than divergence, but on the pages that matter most.
+    """
+    if not site.get("organization"):
+        return 0
+
+    graph = compact_json({
+        "@context": "https://schema.org",
+        "@graph": [site["organization"], site["website"]],
+    })
+    graph_block = f'<script type="application/ld+json">{graph}</script>\n'
+    updated = 0
+
+    for pattern, node_type in STATIC_PAGES:
+        for page in sorted(root.glob(pattern)):
+            markup = page.read_text(encoding="utf-8")
+            title = re.search(r"<title>(.*?)</title>", markup, re.S)
+            desc = re.search(r'<meta name="description" content="([^"]*)"', markup)
+            canonical = re.search(r'<link rel="canonical" href="([^"]*)"', markup)
+            if not (title and canonical):
+                continue
+
+            node = {
+                "@context": "https://schema.org",
+                "@type": node_type,
+                "@id": canonical.group(1) + "#page",
+                "headline": html.unescape(title.group(1).strip()),
+                "url": canonical.group(1),
+                "isPartOf": {"@id": site["website"]["@id"]},
+                "publisher": {"@id": site["organization"]["@id"]},
+                "inLanguage": "en",
+                "dateModified": git_modified(page) or site["iso_updated"],
+            }
+            if desc:
+                node["description"] = html.unescape(desc.group(1).strip())
+            if node_type == "TechArticle":
+                node["author"] = {"@id": site["organization"]["@id"]}
+                node["about"] = {"@type": "VideoGame", "name": "Clash of Clans", "publisher": "Supercell"}
+
+            page_block = f'<script type="application/ld+json">{compact_json(node)}</script>\n'
+            body = ENTITY_GRAPH_RE.sub("", markup)
+            body = re.sub(
+                r'<script type="application/ld\+json">\s*\{"@context":"https://schema\.org","@type":"(?:TechArticle|WebPage)".*?\}\s*</script>\n?',
+                "", body, flags=re.S,
+            )
+            anchor = '<link rel="canonical"'
+            idx = body.find(anchor)
+            if idx == -1:
+                continue
+            rebuilt = body[:idx] + graph_block + page_block + body[idx:]
+            if rebuilt != markup:
+                page.write_text(rebuilt, encoding="utf-8")
+                updated += 1
+    return updated
 
 
 def main() -> int:
@@ -772,6 +864,10 @@ def main() -> int:
     print(f"  news posts    : {len(posts_meta)}")
     print(f"  sitemap urls  : {len(seen)}")
     print(f"  TODO cells    : {todo_count}")
+    static_synced = sync_static_entity(ROOT, site)
+    if static_synced:
+        print(f"  entity-bound  : {static_synced} hand-written page(s)")
+
     if sync_homepage_entity(ROOT, site):
         print("  homepage entity graph resynced from site.json")
 
