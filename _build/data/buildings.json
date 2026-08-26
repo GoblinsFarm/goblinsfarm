@@ -797,7 +797,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:barracks",
+        "buildings:workshop",
+        "buildings:blacksmith",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -987,7 +992,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:blacksmith",
+        "buildings:army-camp",
+        "buildings:clan-castle",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -1105,7 +1115,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:clan-castle",
+        "buildings:barracks",
+        "buildings:dark-barracks",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -1371,7 +1386,10 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:town-hall",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -1830,7 +1848,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:eagle-artillery",
+        "buildings:cannon",
+        "buildings:firespitter",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -1964,7 +1987,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:dark-spell-factory",
+        "buildings:clan-castle",
+        "buildings:hero-hall",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -2090,7 +2118,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:dark-elixir-storage",
+        "buildings:gold-storage",
+        "buildings:elixir-collector",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -2232,7 +2265,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:elixir-collector",
+        "buildings:dark-elixir-drill",
+        "buildings:elixir-storage",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -2326,7 +2364,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:hero-hall",
+        "buildings:dark-barracks",
+        "buildings:laboratory",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -2624,7 +2667,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:elixir-storage",
+        "buildings:dark-elixir-storage",
+        "buildings:gold-mine",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -2814,7 +2862,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:gold-mine",
+        "buildings:elixir-collector",
+        "buildings:gold-storage",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -3084,7 +3137,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:gold-storage",
+        "buildings:elixir-storage",
+        "buildings:dark-elixir-drill",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -3274,7 +3332,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:dark-elixir-drill",
+        "buildings:gold-mine",
+        "buildings:dark-elixir-storage",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4638,7 +4701,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:spell-factory",
+        "buildings:laboratory",
+        "buildings:workshop",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5060,7 +5128,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:workshop",
+        "buildings:pet-house",
+        "buildings:army-camp",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5295,7 +5368,10 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:builders-hut",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5826,7 +5902,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "buildings:army-camp",
+        "buildings:spell-factory",
+        "buildings:barracks",
+        "mechanics:defence-mechanics"
+      ],
       "priority": "0.6",
       "has_prose": false
     },

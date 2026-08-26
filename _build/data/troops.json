@@ -997,7 +997,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:battle-drill",
+        "troops:wall-wrecker",
+        "troops:flame-flinger",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -1085,7 +1090,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:flame-flinger",
+        "troops:battle-blimp",
+        "troops:log-launcher",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -1985,7 +1995,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:log-launcher",
+        "troops:battle-drill",
+        "troops:siege-barracks",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -2057,7 +2072,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:golem",
+        "troops:druid",
+        "troops:headhunter",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -3285,7 +3305,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:inferno-dragon",
+        "troops:super-yeti",
+        "troops:rocket-balloon",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -3425,7 +3450,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:rocket-balloon",
+        "troops:ice-hound",
+        "troops:sneaky-goblin",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -3647,7 +3677,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:siege-barracks",
+        "troops:flame-flinger",
+        "troops:sky-wagon",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -3711,7 +3746,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:miner",
+        "troops:healer",
+        "troops:pekka",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4353,7 +4393,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:sneaky-goblin",
+        "troops:inferno-dragon",
+        "troops:super-archer",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4545,7 +4590,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:sky-wagon",
+        "troops:log-launcher",
+        "troops:stone-slammer",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4617,7 +4667,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:stone-slammer",
+        "troops:siege-barracks",
+        "troops:troop-launcher",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4709,7 +4764,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-archer",
+        "troops:rocket-balloon",
+        "troops:super-barbarian",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4797,7 +4857,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:troop-launcher",
+        "troops:sky-wagon",
+        "troops:wall-wrecker",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -4921,7 +4986,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-barbarian",
+        "troops:sneaky-goblin",
+        "troops:super-bowler",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5037,7 +5107,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-bowler",
+        "troops:super-archer",
+        "troops:super-dragon",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5161,7 +5236,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-dragon",
+        "troops:super-barbarian",
+        "troops:super-giant",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5293,7 +5373,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-giant",
+        "troops:super-bowler",
+        "troops:super-hog-rider",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5417,7 +5502,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-hog-rider",
+        "troops:super-dragon",
+        "troops:super-miner",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5557,7 +5647,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-miner",
+        "troops:super-giant",
+        "troops:super-minion",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5697,7 +5792,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-minion",
+        "troops:super-hog-rider",
+        "troops:super-valkyrie",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5829,7 +5929,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-valkyrie",
+        "troops:super-miner",
+        "troops:super-wall-breaker",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -5969,7 +6074,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-wall-breaker",
+        "troops:super-minion",
+        "troops:super-witch",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -6093,7 +6203,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-witch",
+        "troops:super-valkyrie",
+        "troops:super-wizard",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -6201,7 +6316,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-wizard",
+        "troops:super-wall-breaker",
+        "troops:super-yeti",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -6325,7 +6445,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:super-yeti",
+        "troops:super-witch",
+        "troops:ice-hound",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -6433,7 +6558,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:ice-hound",
+        "troops:super-wizard",
+        "troops:inferno-dragon",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -6505,7 +6635,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:wall-breaker",
+        "troops:root-rider",
+        "troops:wizard",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -6577,7 +6712,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:wall-wrecker",
+        "troops:stone-slammer",
+        "troops:battle-blimp",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },
@@ -7015,7 +7155,12 @@
           ]
         }
       ],
-      "related": [],
+      "related": [
+        "troops:battle-blimp",
+        "troops:troop-launcher",
+        "troops:battle-drill",
+        "mechanics:troop-targeting-and-ai"
+      ],
       "priority": "0.6",
       "has_prose": false
     },

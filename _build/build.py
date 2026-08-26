@@ -70,6 +70,16 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def trim_title(title: str, brand: str) -> str:
+    """Drop the brand suffix when it pushes the title past the SERP display limit."""
+    if len(title) <= 60:
+        return title
+    for sep in (f" | {brand}", f" — {brand}", f" - {brand}"):
+        if title.endswith(sep):
+            return title[: -len(sep)]
+    return title
+
+
 def rel_prefix(url: str) -> str:
     """Relative path from a page back to the site root, e.g. '../../'.
 
@@ -280,7 +290,11 @@ def main() -> int:
         page.setdefault("iso_updated", site["iso_updated"])
         page.setdefault("updated", site["updated"])
         page.setdefault("description", page.get("summary", "")[:300])
-        page.setdefault("head_title", f"{page['h1']} | {site['name']}")
+        if "head_title" not in page:
+            base = page["h1"]
+            branded = f"{base} | {site['name']}"
+            page["head_title"] = branded if len(branded) <= 60 else base
+        page["head_title"] = trim_title(page["head_title"], site["name"])
         out_path = ROOT / page["url"].lstrip("/")
         if page["url"].endswith("/"):
             out_path = out_path / "index.html"
@@ -657,8 +671,29 @@ def main() -> int:
     llms += ["", "## Product", bullet("/#pricing", "Pricing"), bullet("/#download", "Download"), ""]
     (ROOT / "llms.txt").write_text("\n".join(llms), encoding="utf-8")
 
+    # ---- prune stale output
+    # Entries removed from the data (an event unit newly excluded, a renamed slug)
+    # otherwise leave their old HTML on disk, where it deploys as an orphan page:
+    # live, thin, zero inbound links and absent from the sitemap.
+    kept = {(ROOT / u.lstrip("/")).resolve() for u, _, _ in written}
+    kept |= {(ROOT / u.lstrip("/") / "index.html").resolve() for u, _, _ in written if u.endswith("/")}
+    pruned = []
+    for section in ("wiki", "tutorials", "news"):
+        for stale in (ROOT / section).rglob("*.html"):
+            if stale.resolve() not in kept:
+                stale.unlink()
+                pruned.append(str(stale.relative_to(ROOT)))
+    for section in ("wiki", "tutorials", "news"):
+        for d in sorted((ROOT / section).rglob("*"), reverse=True):
+            if d.is_dir() and not any(d.iterdir()):
+                d.rmdir()
+
     # ---- report
     print(f"built {len(written)} pages")
+    if pruned:
+        print(f"  pruned        : {len(pruned)} stale page(s)")
+        for x in pruned[:10]:
+            print(f"      - {x}")
     print(f"  wiki sections : {len(wiki_groups)}")
     print(f"  tutorials     : {len(tutorials.get('entries', []))}")
     print(f"  news posts    : {len(posts_meta)}")
