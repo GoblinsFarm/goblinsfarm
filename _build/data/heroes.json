@@ -1,13 +1,13 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Heroes",
@@ -42,8 +42,8 @@
       "blurb": "The first hero, the standard funnel opener, and a durable brawler.",
       "summary": "The Barbarian King is a durable ground hero with high hitpoints and solid damage. He is the first hero most players unlock and remains one of the most useful, largely because he is the ideal tool for the funnelling work every ground attack needs.",
       "quick": {
-        "Levels": "105",
-        "Unlocked at": "Town Hall 7",
+        "Levels": "110",
+        "Unlocked at": "Town Hall 4",
         "Upgrade resource": "Dark Elixir",
         "Targets": "Ground only",
         "Equipment slots": "2",
@@ -89,7 +89,7 @@
               "102",
               "—",
               "—",
-              "7"
+              "4"
             ],
             [
               "2",
@@ -922,6 +922,46 @@
               "450,000 Dark Elixir",
               "8 d",
               "18"
+            ],
+            [
+              "106",
+              "12,850",
+              "685",
+              "460,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "107",
+              "12,975",
+              "692",
+              "470,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "108",
+              "13,100",
+              "699",
+              "475,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "109",
+              "13,225",
+              "706",
+              "485,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "110",
+              "13,350",
+              "713",
+              "490,000 Dark Elixir",
+              "8 d",
+              "18"
             ]
           ]
         }
@@ -955,7 +995,7 @@
       "blurb": "The most impactful hero in the game, and the centre of the Queen walk.",
       "summary": "The Archer Queen attacks at long range and deals very high damage, but has far less health than the King. Paired with Healers she becomes the single most reliable attacking tool in Clash of Clans, capable of clearing a substantial part of a base by herself.",
       "quick": {
-        "Levels": "105",
+        "Levels": "110",
         "Unlocked at": "Town Hall 8",
         "Upgrade resource": "Dark Elixir",
         "Targets": "Ground and air",
@@ -1835,6 +1875,46 @@
               "450,000 Dark Elixir",
               "8 d",
               "18"
+            ],
+            [
+              "106",
+              "3,480",
+              "798",
+              "460,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "107",
+              "3,504",
+              "801",
+              "470,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "108",
+              "3,528",
+              "804",
+              "475,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "109",
+              "3,552",
+              "807",
+              "485,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "110",
+              "3,576",
+              "810",
+              "490,000 Dark Elixir",
+              "8 d",
+              "18"
             ]
           ]
         }
@@ -1868,7 +1948,7 @@
       "blurb": "A support hero who makes the rest of the army much harder to kill.",
       "summary": "The Grand Warden does modest damage and provides a continuous aura that strengthens nearby troops. His ability protects the whole army for a few seconds, which makes him the hero whose value is almost entirely about everyone else.",
       "quick": {
-        "Levels": "80",
+        "Levels": "85",
         "Unlocked at": "Town Hall 11",
         "Upgrade resource": "Elixir",
         "Targets": "Ground and air",
@@ -2537,7 +2617,7 @@
               "79",
               "2,567",
               "336",
-              "28,500,000 Elixir",
+              "27,500,000 Elixir",
               "8 d",
               "18"
             ],
@@ -2545,7 +2625,47 @@
               "80",
               "2,584",
               "339",
+              "28,000,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "81",
+              "2,601",
+              "342",
+              "28,500,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "82",
+              "2,618",
+              "345",
+              "29,000,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "83",
+              "2,635",
+              "348",
+              "29,500,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "84",
+              "2,652",
+              "351",
               "30,000,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "85",
+              "2,669",
+              "354",
+              "30,500,000 Elixir",
               "8 d",
               "18"
             ]

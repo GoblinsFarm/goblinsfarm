@@ -1,20 +1,20 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Equipment",
     "h1": "Clash of Clans Hero Equipment",
     "head_title": "Clash of Clans Hero Equipment, Every Level and Ore Cost",
     "description": "Every piece of hero equipment in Clash of Clans with what it does, its per-level stats and the Shiny, Glowy and Starry Ore each upgrade costs.",
-    "summary": "All 41 pieces of hero equipment, grouped by hero, with the ability each one grants and the ore every level costs.",
+    "summary": "All 42 pieces of hero equipment, grouped by hero, with the ability each one grants and the ore every level costs.",
     "groups": [
       {
         "h": "Barbarian King",
@@ -95,6 +95,7 @@
           "Electro Fangs",
           "Fire Heart",
           "Flame Blower",
+          "Revenge Deck",
           "Rocket Backpack",
           "Stun Blaster"
         ]
@@ -1895,119 +1896,119 @@
             ],
             [
               "2",
-              "12",
+              "10",
               "1,200",
               "120 Shiny Ore",
               "1"
             ],
             [
               "3",
-              "14",
+              "12",
               "1,450",
               "240 Shiny Ore + 20 Glowy Ore",
               "1"
             ],
             [
               "4",
-              "16",
+              "12",
               "1,750",
               "400 Shiny Ore",
               "1"
             ],
             [
               "5",
-              "18",
+              "12",
               "2,000",
               "600 Shiny Ore",
               "1"
             ],
             [
               "6",
-              "20",
+              "14",
               "2,300",
               "840 Shiny Ore + 100 Glowy Ore",
               "1"
             ],
             [
               "7",
-              "22",
+              "14",
               "2,600",
               "1,120 Shiny Ore",
               "1"
             ],
             [
               "8",
-              "24",
+              "14",
               "2,850",
               "1,440 Shiny Ore",
               "1"
             ],
             [
               "9",
-              "26",
+              "16",
               "3,150",
               "1,800 Shiny Ore + 200 Glowy Ore",
               "1"
             ],
             [
               "10",
-              "28",
+              "16",
               "3,400",
               "1,900 Shiny Ore",
               "3"
             ],
             [
               "11",
-              "30",
+              "16",
               "3,700",
               "2,000 Shiny Ore",
               "3"
             ],
             [
               "12",
-              "32",
+              "18",
               "4,000",
               "2,100 Shiny Ore + 400 Glowy Ore",
               "3"
             ],
             [
               "13",
-              "34",
+              "18",
               "4,250",
               "2,200 Shiny Ore",
               "5"
             ],
             [
               "14",
-              "36",
+              "18",
               "4,550",
               "2,300 Shiny Ore",
               "5"
             ],
             [
               "15",
-              "38",
+              "20",
               "4,800",
               "2,400 Shiny Ore + 600 Glowy Ore",
               "5"
             ],
             [
               "16",
-              "40",
+              "20",
               "5,100",
               "2,500 Shiny Ore",
               "7"
             ],
             [
               "17",
-              "42",
+              "20",
               "5,450",
               "2,600 Shiny Ore",
               "7"
             ],
             [
               "18",
-              "45",
+              "23",
               "5,600",
               "2,700 Shiny Ore + 600 Glowy Ore",
               "7"
@@ -2018,7 +2019,7 @@
       "related": [
         "equipment:flame-blower",
         "equipment:electro-fangs",
-        "equipment:rocket-backpack",
+        "equipment:revenge-deck",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
@@ -2425,9 +2426,9 @@
         }
       ],
       "related": [
-        "equipment:rocket-backpack",
+        "equipment:revenge-deck",
         "equipment:fire-heart",
-        "equipment:stun-blaster",
+        "equipment:rocket-backpack",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
@@ -6398,6 +6399,242 @@
       "has_prose": false
     },
     {
+      "slug": "revenge-deck",
+      "name": "Revenge Deck",
+      "description": "Revenge Deck stats for every level in Clash of Clans: what the Dragon Duke equipment does, its damage and hitpoints, and the ore each upgrade costs.",
+      "blurb": "Epic Dragon Duke equipment, 27 levels",
+      "summary": "Defenders who strike Dragon Duke are dealt a painful hand",
+      "quick": {
+        "Hero": "Dragon Duke",
+        "Rarity": "Epic",
+        "Max level": "27",
+        "Blacksmith needed": "1",
+        "Ability": "Defenders who strike Dragon Duke are dealt a painful hand"
+      },
+      "tags": [
+        {
+          "label": "Epic",
+          "kind": "dark"
+        },
+        {
+          "label": "Dragon Duke",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Revenge Deck stats by level",
+          "columns": [
+            "Level",
+            "DPS",
+            "Hitpoints",
+            "Upgrade cost",
+            "Blacksmith"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "900",
+              "—",
+              "1"
+            ],
+            [
+              "2",
+              "—",
+              "988",
+              "120 Shiny Ore",
+              "1"
+            ],
+            [
+              "3",
+              "—",
+              "1,077",
+              "240 Shiny Ore + 20 Glowy Ore",
+              "1"
+            ],
+            [
+              "4",
+              "—",
+              "1,165",
+              "400 Shiny Ore",
+              "1"
+            ],
+            [
+              "5",
+              "—",
+              "1,254",
+              "600 Shiny Ore",
+              "1"
+            ],
+            [
+              "6",
+              "—",
+              "1,342",
+              "840 Shiny Ore + 100 Glowy Ore",
+              "1"
+            ],
+            [
+              "7",
+              "—",
+              "1,431",
+              "1,120 Shiny Ore",
+              "1"
+            ],
+            [
+              "8",
+              "—",
+              "1,519",
+              "1,440 Shiny Ore",
+              "1"
+            ],
+            [
+              "9",
+              "—",
+              "1,608",
+              "1,800 Shiny Ore + 200 Glowy Ore + 10 Starry Ore",
+              "1"
+            ],
+            [
+              "10",
+              "—",
+              "1,696",
+              "1,900 Shiny Ore",
+              "1"
+            ],
+            [
+              "11",
+              "—",
+              "1,785",
+              "2,000 Shiny Ore",
+              "1"
+            ],
+            [
+              "12",
+              "—",
+              "1,873",
+              "2,100 Shiny Ore + 400 Glowy Ore + 20 Starry Ore",
+              "1"
+            ],
+            [
+              "13",
+              "—",
+              "1,962",
+              "2,200 Shiny Ore",
+              "3"
+            ],
+            [
+              "14",
+              "—",
+              "2,050",
+              "2,300 Shiny Ore",
+              "3"
+            ],
+            [
+              "15",
+              "—",
+              "2,139",
+              "2,400 Shiny Ore + 600 Glowy Ore + 30 Starry Ore",
+              "3"
+            ],
+            [
+              "16",
+              "—",
+              "2,227",
+              "2,500 Shiny Ore",
+              "5"
+            ],
+            [
+              "17",
+              "—",
+              "2,316",
+              "2,600 Shiny Ore",
+              "5"
+            ],
+            [
+              "18",
+              "—",
+              "2,404",
+              "2,700 Shiny Ore + 600 Glowy Ore + 50 Starry Ore",
+              "5"
+            ],
+            [
+              "19",
+              "—",
+              "2,493",
+              "2,800 Shiny Ore",
+              "7"
+            ],
+            [
+              "20",
+              "—",
+              "2,581",
+              "2,900 Shiny Ore",
+              "7"
+            ],
+            [
+              "21",
+              "—",
+              "2,670",
+              "3,000 Shiny Ore + 600 Glowy Ore + 100 Starry Ore",
+              "7"
+            ],
+            [
+              "22",
+              "—",
+              "2,758",
+              "3,100 Shiny Ore",
+              "8"
+            ],
+            [
+              "23",
+              "—",
+              "2,847",
+              "3,200 Shiny Ore",
+              "8"
+            ],
+            [
+              "24",
+              "—",
+              "2,935",
+              "3,300 Shiny Ore + 600 Glowy Ore + 120 Starry Ore",
+              "8"
+            ],
+            [
+              "25",
+              "—",
+              "3,024",
+              "3,400 Shiny Ore",
+              "9"
+            ],
+            [
+              "26",
+              "—",
+              "3,112",
+              "3,500 Shiny Ore",
+              "9"
+            ],
+            [
+              "27",
+              "—",
+              "3,200",
+              "3,600 Shiny Ore + 600 Glowy Ore + 150 Starry Ore",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "equipment:rocket-backpack",
+        "equipment:flame-blower",
+        "equipment:stun-blaster",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
       "slug": "rocket-backpack",
       "name": "Rocket Backpack",
       "description": "Rocket Backpack stats for every level in Clash of Clans: what the Dragon Duke equipment does, its damage and hitpoints, and the ore each upgrade costs.",
@@ -6626,7 +6863,7 @@
       ],
       "related": [
         "equipment:stun-blaster",
-        "equipment:flame-blower",
+        "equipment:revenge-deck",
         "equipment:electro-fangs",
         "mechanics:hero-equipment"
       ],

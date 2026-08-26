@@ -1,13 +1,13 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Builder Base Troops",
@@ -46,7 +46,7 @@
       "name": "Baby Dragon",
       "description": "Baby Dragon stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
       "blurb": "16 levels, 12 housing space",
-      "summary": "Cute, snuggly and prone to fire-spitting tantrums. Rampant destruction has never been so adorable.",
+      "summary": "Cute, snuggly, and prone to fire-spitting tantrums. Rampant destruction has never been so adorable.",
       "quick": {
         "Housing space": "12",
         "Levels": "16",
@@ -412,7 +412,7 @@
       "name": "Bomber",
       "description": "Bomber stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
       "blurb": "16 levels, 12 housing space",
-      "summary": "With an appetite for destruction and high quality special effects, Bombers blow up anything in sight with bonus damage to Walls!",
+      "summary": "With an appetite for destruction and high quality special effects, Bombers blow up anything in sight with bonus damage to walls!",
       "quick": {
         "Housing space": "12",
         "Levels": "16",
@@ -1143,7 +1143,7 @@
       "name": "Hog Glider",
       "description": "Hog Glider stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
       "blurb": "6 levels, 12 housing space",
-      "summary": "The real riders in the sky. They have a great track record in getting over Walls, but are not very good at avoiding crashes.",
+      "summary": "The real riders in the sky. They have a great track record in getting over walls, but are not very good at avoiding crashes.",
       "quick": {
         "Housing space": "12",
         "Levels": "6",

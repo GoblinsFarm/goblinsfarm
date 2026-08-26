@@ -6,10 +6,10 @@ The wiki and tutorial sections are reference material about the game itself and 
 
 ## Clash of Clans wiki
 - [Wiki index](https://goblinsfarm.com/wiki/)
-- [Troops (57 pages)](https://goblinsfarm.com/wiki/troops/)
-- [Spells (17 pages)](https://goblinsfarm.com/wiki/spells/)
+- [Troops (58 pages)](https://goblinsfarm.com/wiki/troops/)
+- [Spells (18 pages)](https://goblinsfarm.com/wiki/spells/)
 - [Heroes (6 pages)](https://goblinsfarm.com/wiki/heroes/)
-- [Equipment (41 pages)](https://goblinsfarm.com/wiki/equipment/)
+- [Equipment (42 pages)](https://goblinsfarm.com/wiki/equipment/)
 - [Pets (12 pages)](https://goblinsfarm.com/wiki/pets/)
 - [Buildings (41 pages)](https://goblinsfarm.com/wiki/buildings/)
 - [Traps (8 pages)](https://goblinsfarm.com/wiki/traps/)

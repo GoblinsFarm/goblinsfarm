@@ -1,13 +1,13 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Builder Base Buildings",
@@ -56,7 +56,7 @@
         "blurb": "",
         "style": "list",
         "members": [
-          "Master Builder's Hut",
+          "B.O.T.O’s Shack",
           "O.T.T.O's Outpost"
         ]
       },
@@ -487,11 +487,63 @@
       "has_prose": false
     },
     {
+      "slug": "boto-s-shack",
+      "name": "B.O.T.O’s Shack",
+      "description": "B.O.T.O’s Shack stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "1 level, from BH2",
+      "summary": "Master Builder saved this little guy from the scrap heap. Despite a few loose screws, B.O.T.O is eager to help with tasks around Builder Base!",
+      "quick": {
+        "Levels": "1",
+        "Size": "2x2",
+        "Village": "Builder Base",
+        "Category": "Other Building",
+        "Unlocked at": "Builder Hall 2"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "B.O.T.O’s Shack stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "1,000 Gems",
+              "Instant",
+              "2"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:ottos-outpost",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "B.O.T.O’s Shack (Builder Base)",
+      "head_title": "B.O.T.O’s Shack (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
       "slug": "battle-copter",
       "name": "Battle Copter",
       "description": "Battle Copter stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
       "blurb": "1 level, from BH5",
-      "summary": "Get to the Copter! Tired of hammering through Walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful Cannons; or can get up close and personal when using its Bomb Rush ability.",
+      "summary": "Get to the Copter! Tired of hammering through walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful Cannons; or can get up close and personal when using its Bomb Rush ability.",
       "quick": {
         "Levels": "1",
         "Size": "3x3",
@@ -870,7 +922,7 @@
       "name": "Clock Tower",
       "description": "Clock Tower stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
       "blurb": "10 levels, from BH4",
-      "summary": "The Clock Tower makes things happen faster in your Village! Collect resources, research and build faster.",
+      "summary": "The Clock Tower makes things happen faster in your village! Collect resources, research and build faster.",
       "quick": {
         "Levels": "10",
         "Size": "4x4",
@@ -1254,7 +1306,7 @@
       "name": "Elixir Collector",
       "description": "Elixir Collector stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
       "blurb": "10 levels, from BH1",
-      "summary": "Elixir is pumped from Ley Lines coursing underneath your Village. Upgrade your Elixir Collectors to maximize Elixir production.",
+      "summary": "Elixir is pumped from Ley Lines coursing underneath your village. Upgrade your Elixir Collectors to maximize Elixir production.",
       "quick": {
         "Levels": "10",
         "Size": "3x3",
@@ -1380,7 +1432,7 @@
       "name": "Elixir Storage",
       "description": "Elixir Storage stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
       "blurb": "10 levels, from BH3",
-      "summary": "These storages contain the elixir pumped from underground. Upgrade them to increase the maximum amount of elixir you can store.",
+      "summary": "These storages contain the Elixir pumped from underground. Upgrade them to increase the maximum amount of Elixir you can store.",
       "quick": {
         "Levels": "10",
         "Size": "3x3",
@@ -2016,7 +2068,7 @@
       "name": "Gold Storage",
       "description": "Gold Storage stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
       "blurb": "10 levels, from BH3",
-      "summary": "All your precious Gold is stored here. Don't let sneaky Goblins anywhere near! Upgrade the Storage to increase its capacity and durability against attack.",
+      "summary": "All your precious Gold is stored here. Don't let sneaky Goblins anywhere near! Upgrade the storage to increase its capacity and durability against attacks.",
       "quick": {
         "Levels": "10",
         "Size": "3x3",
@@ -2616,58 +2668,6 @@
       "has_prose": false
     },
     {
-      "slug": "master-builders-hut",
-      "name": "Master Builder's Hut",
-      "description": "Master Builder's Hut stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
-      "blurb": "1 level, from BH1000",
-      "summary": "Nothing gets done around here without the Master Builder! You can speed up his work by using green gems.",
-      "quick": {
-        "Levels": "1",
-        "Size": "2x2",
-        "Village": "Builder Base",
-        "Category": "Other Building",
-        "Unlocked at": "Builder Hall 1000"
-      },
-      "tags": [
-        {
-          "label": "Other Building",
-          "kind": ""
-        }
-      ],
-      "sections": [],
-      "tables": [
-        {
-          "caption": "Master Builder's Hut stats by level",
-          "columns": [
-            "Level",
-            "Hitpoints",
-            "DPS or effect",
-            "Build cost",
-            "Build time",
-            "Builder Hall"
-          ],
-          "rows": [
-            [
-              "1",
-              "300",
-              "—",
-              "20,000 Gems",
-              "Instant",
-              "1000"
-            ]
-          ]
-        }
-      ],
-      "related": [
-        "bb_buildings:ottos-outpost",
-        "mechanics:builder-base"
-      ],
-      "priority": "0.6",
-      "h1": "Master Builder's Hut (Builder Base)",
-      "head_title": "Master Builder's Hut (Builder Base) — Clash of Clans Wiki",
-      "has_prose": false
-    },
-    {
       "slug": "mega-tesla",
       "name": "Mega Tesla",
       "description": "Mega Tesla stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
@@ -3041,7 +3041,7 @@
         }
       ],
       "related": [
-        "bb_buildings:master-builders-hut",
+        "bb_buildings:boto-s-shack",
         "mechanics:builder-base"
       ],
       "priority": "0.6",

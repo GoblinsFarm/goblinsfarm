@@ -1,13 +1,13 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Buildings",
@@ -1782,10 +1782,10 @@
       "slug": "builders-hut",
       "name": "Builder's Hut",
       "description": "Builder's Hut stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
-      "blurb": "7 levels, from TH1",
-      "summary": "The Builder's Hut is a Home Village building with 7 levels, first available at Town Hall 1.",
+      "blurb": "8 levels, from TH1",
+      "summary": "The Builder's Hut is a Home Village building with 8 levels, first available at Town Hall 1.",
       "quick": {
-        "Levels": "7",
+        "Levels": "8",
         "Size": "2x2",
         "Category": "Other Building",
         "Unlocked at": "Town Hall 1",
@@ -1865,6 +1865,14 @@
               "15,500,000",
               "7 d",
               "17"
+            ],
+            [
+              "8",
+              "2,100",
+              "180 DPS",
+              "24,000,000",
+              "13 d",
+              "18"
             ]
           ]
         },
@@ -2603,10 +2611,10 @@
       "slug": "dark-barracks",
       "name": "Dark Barracks",
       "description": "Dark Barracks stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
-      "blurb": "12 levels, from TH7",
-      "summary": "The Dark Barracks is a Home Village building with 12 levels, first available at Town Hall 7.",
+      "blurb": "13 levels, from TH7",
+      "summary": "The Dark Barracks is a Home Village building with 13 levels, first available at Town Hall 7.",
       "quick": {
-        "Levels": "12",
+        "Levels": "13",
         "Size": "3x3",
         "Category": "Army Building",
         "Unlocked at": "Town Hall 7",
@@ -2726,6 +2734,14 @@
               "20,000,000 Elixir",
               "9 d",
               "15"
+            ],
+            [
+              "13",
+              "1,100",
+              "—",
+              "23,000,000 Elixir",
+              "10 d",
+              "16"
             ]
           ]
         },
@@ -3194,10 +3210,10 @@
       "slug": "dark-spell-factory",
       "name": "Dark Spell Factory",
       "description": "Dark Spell Factory stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
-      "blurb": "7 levels, from TH8",
-      "summary": "The Dark Spell Factory is a Home Village building with 7 levels, first available at Town Hall 8.",
+      "blurb": "8 levels, from TH8",
+      "summary": "The Dark Spell Factory is a Home Village building with 8 levels, first available at Town Hall 8.",
       "quick": {
-        "Levels": "7",
+        "Levels": "8",
         "Size": "3x3",
         "Category": "Army Building",
         "Unlocked at": "Town Hall 8",
@@ -3277,6 +3293,14 @@
               "11,000,000 Elixir",
               "7 d",
               "14"
+            ],
+            [
+              "8",
+              "1,070",
+              "—",
+              "18,000,000 Elixir",
+              "10 d",
+              "15"
             ]
           ]
         },
@@ -4709,7 +4733,7 @@
         "Levels": "12",
         "Size": "4x4",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 7",
+        "Unlocked at": "Town Hall 4",
         "Most you can place": "1",
         "Role": "Army building, hero management"
       },
@@ -4743,15 +4767,15 @@
           "rows": [
             [
               "1",
-              "2,000",
+              "800",
               "—",
-              "800,000 Elixir",
-              "1 d",
-              "7"
+              "30,000 Elixir",
+              "1 h",
+              "4"
             ],
             [
               "2",
-              "2,400",
+              "1,600",
               "—",
               "1,600,000 Elixir",
               "2 d",
@@ -4759,7 +4783,7 @@
             ],
             [
               "3",
-              "2,800",
+              "2,400",
               "—",
               "2,300,000 Elixir",
               "3 d",
@@ -4846,6 +4870,18 @@
             "Available"
           ],
           "rows": [
+            [
+              "TH4",
+              "1"
+            ],
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "1"
+            ],
             [
               "TH7",
               "1"
@@ -5664,7 +5700,7 @@
       "blurb": "Punishes exactly the units you brought to tank for everyone else.",
       "summary": "The Monolith unlocks at Town Hall 15, covers air and ground at 11 tiles, and deals damage scaled against the target's hitpoints. That makes it the specific answer to the heavy units that heavy armies are built around.",
       "quick": {
-        "Levels": "4",
+        "Levels": "5",
         "Size": "3x3",
         "Category": "Defense",
         "Damage per second": "150",
@@ -5733,6 +5769,14 @@
               "300,000 Dark Elixir",
               "11 d",
               "17"
+            ],
+            [
+              "5",
+              "5,959",
+              "225 DPS",
+              "470,000 Dark Elixir",
+              "15 d",
+              "18"
             ]
           ]
         },
