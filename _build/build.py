@@ -165,8 +165,11 @@ def jsonld_article(site, page, kind="Article"):
         "url": f"{site['base_url']}{page['url']}",
         "dateModified": page.get("iso_updated", site["iso_updated"]),
         "inLanguage": "en",
-        "isPartOf": {"@type": "WebSite", "name": site["name"], "url": site["base_url"] + "/"},
-        "publisher": {"@type": "Organization", "name": site["name"], "url": site["base_url"] + "/"},
+        # Reference the single organization and website nodes declared on the
+        # homepage. Re-declaring them inline on every page mints ~200 anonymous
+        # organisations instead of accumulating weight on one.
+        "isPartOf": {"@id": site["website"]["@id"]},
+        "publisher": {"@id": site["organization"]["@id"]},
         "about": {"@type": "VideoGame", "name": "Clash of Clans", "publisher": "Supercell"},
     }
     if page.get("author"):
@@ -255,6 +258,19 @@ def main() -> int:
             ("has_todo", False), ("stat_only", False),
         ):
             page.setdefault(key, default)
+        # Declare the organization and website nodes on every page, keyed by a
+        # stable @id that Article.publisher references. Consumers process pages
+        # independently, so a bare @id reference would leave publisher dangling and
+        # cost the name and logo that Article rich results expect; an identical @id
+        # on every page is what merges them into one entity.
+        if site.get("organization") and site.get("website"):
+            page["jsonld"] = [
+                compact_json({
+                    "@context": "https://schema.org",
+                    "@graph": [site["organization"], site["website"]],
+                })
+            ] + list(page.get("jsonld") or [])
+
         for group in page["groups"]:
             group.setdefault("blurb", None)
             group.setdefault("style", "cards")
