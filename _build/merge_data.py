@@ -79,6 +79,56 @@ def load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+# A page reachable only from its section hub gets one internal link and ranks like
+# it. Entries without hand-written prose carry no `related`, which was leaving over
+# a hundred pages on a single inbound link. Wire each into a ring of its siblings
+# plus the mechanic that explains its behaviour.
+TOPIC_LINK = {
+    "troops": "mechanics:troop-targeting-and-ai",
+    "spells": "mechanics:spell-mechanics",
+    "heroes": "mechanics:hero-equipment",
+    "buildings": "mechanics:defence-mechanics",
+    "townhalls": "mechanics:upgrade-priority",
+}
+
+
+def autolink(collection: str, data: dict) -> int:
+    """Give every entry without `related` a deterministic set of sibling links."""
+    groups = data.get("hub", {}).get("groups") or []
+    group_of, order = {}, {}
+    for g in groups:
+        for i, name in enumerate(g["members"]):
+            group_of[name] = g["h"]
+            order[name] = i
+    members = {}
+    for g in groups:
+        members[g["h"]] = list(g["members"])
+
+    by_name = {e["name"]: e for e in data["entries"]}
+    filled = 0
+    for entry in data["entries"]:
+        if entry.get("related"):
+            continue
+        siblings = members.get(group_of.get(entry["name"], ""), [])
+        picks = []
+        if len(siblings) > 1:
+            i = siblings.index(entry["name"])
+            # neighbours either side, wrapping, so the group forms a ring rather
+            # than everything pointing at whichever entry sorts first
+            for offset in (1, -1, 2):
+                cand = siblings[(i + offset) % len(siblings)]
+                if cand != entry["name"] and cand in by_name and cand not in picks:
+                    picks.append(cand)
+        related = [f"{collection}:{by_name[n]['slug']}" for n in picks[:3]]
+        topic = TOPIC_LINK.get(collection)
+        if topic:
+            related.append(topic)
+        if related:
+            entry["related"] = related
+            filled += 1
+    return filled
+
+
 def unrecorded_unlock(collection: str, entry: dict) -> bool:
     """True when a unit's unlock Town Hall is missing from the game files.
 
@@ -206,6 +256,8 @@ def main() -> int:
             group["members"] = [m for m in group["members"] if m in names]
         data["hub"]["groups"] = [g for g in data["hub"]["groups"] if g["members"]]
 
+        linked = autolink(name, data)
+
         # hub prose overlay lives under the reserved key "_hub"
         if "_hub" in overlay:
             data["hub"].update(overlay["_hub"])
@@ -213,15 +265,15 @@ def main() -> int:
         (DATA_OUT / f"{name}.json").write_text(
             json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
         )
-        report.append((name, len(kept), with_prose, dropped))
+        report.append((name, len(kept), with_prose, dropped, linked))
 
     injected = inject_mechanics_tables()
     if injected:
         print(f"injected per-Town-Hall loot table ({injected} rows) into loot-mechanics")
 
-    print(f"{'collection':<12}{'pages':>7}{'with prose':>12}{'excluded':>10}")
-    for name, kept, prose, dropped in report:
-        print(f"{name:<12}{kept:>7}{prose:>12}{dropped:>10}")
+    print(f"{'collection':<12}{'pages':>7}{'with prose':>12}{'excluded':>10}{'autolinked':>12}")
+    for name, kept, prose, dropped, linked in report:
+        print(f"{name:<12}{kept:>7}{prose:>12}{dropped:>10}{linked:>12}")
     return 0
 
 
