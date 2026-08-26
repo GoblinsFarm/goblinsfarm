@@ -19,7 +19,9 @@
 {%- else %}
 <div class="grid">
 {%- for it in g.links %}
-<a class="card" href="{{ rel }}{{ it.href }}"><b>{{ it.label }}</b><span>{{ it.blurb }}</span></a>
+<a class="card{% if it.image %} hasart{% endif %}" href="{{ rel }}{{ it.href }}">
+{%- if it.image %}<img class="thumb{% if not it.image.photo %} drawn{% endif %}" src="{{ rel }}{{ it.image.src }}" alt="" width="56" height="56" loading="lazy" decoding="async">{% endif %}
+<span class="cardtext"><b>{{ it.label }}</b><span>{{ it.blurb }}</span></span></a>
 {%- endfor %}
 </div>
 {%- endif %}

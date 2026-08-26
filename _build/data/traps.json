@@ -1,0 +1,1333 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Traps",
+    "h1": "Clash of Clans Traps",
+    "head_title": "Clash of Clans Traps, Damage and Costs",
+    "description": "Every Home Village trap in Clash of Clans with per-level damage, build cost, trigger radius and Town Hall requirement.",
+    "summary": "Every Home Village trap, 12 in total, with what each one triggers on and the full level table, read from the game files.",
+    "groups": [
+      {
+        "h": "Traps",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Air Bomb",
+          "Bomb",
+          "Giant Bomb",
+          "Giga Bomb",
+          "Seeking Air Mine",
+          "Skeleton Trap",
+          "Spring Trap",
+          "Tornado Trap"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.8"
+  },
+  "entries": [
+    {
+      "slug": "air-bomb",
+      "name": "Air Bomb",
+      "description": "Air Bomb stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "13 levels, from TH5",
+      "summary": "Latest invention in the field of flying pest control. This trap can blast multiple air units in a small area.",
+      "quick": {
+        "Levels": "13",
+        "Size": "1x1",
+        "Triggers on": "Air only",
+        "Trigger radius": "4 tiles",
+        "Unlocked at": "Town Hall 5",
+        "Most you can place": "8"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Air Bomb stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "100 damage over 3 tiles",
+              "4,000 Gold",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "120 damage over 3 tiles",
+              "20,000 Gold",
+              "30 m",
+              "5"
+            ],
+            [
+              "3",
+              "144 damage over 3 tiles",
+              "75,000 Gold",
+              "1 h",
+              "7"
+            ],
+            [
+              "4",
+              "173 damage over 3 tiles",
+              "300,000 Gold",
+              "4 h",
+              "9"
+            ],
+            [
+              "5",
+              "208 damage over 3 tiles",
+              "550,000 Gold",
+              "8 h",
+              "11"
+            ],
+            [
+              "6",
+              "232 damage over 3 tiles",
+              "800,000 Gold",
+              "12 h",
+              "12"
+            ],
+            [
+              "7",
+              "252 damage over 3 tiles",
+              "1,000,000 Gold",
+              "14 h",
+              "13"
+            ],
+            [
+              "8",
+              "280 damage over 3 tiles",
+              "1,200,000 Gold",
+              "16 h",
+              "13"
+            ],
+            [
+              "9",
+              "325 damage over 3 tiles",
+              "2,000,000 Gold",
+              "1 d",
+              "14"
+            ],
+            [
+              "10",
+              "350 damage over 3 tiles",
+              "3,000,000 Gold",
+              "1 d 12 h",
+              "15"
+            ],
+            [
+              "11",
+              "375 damage over 3 tiles",
+              "5,000,000 Gold",
+              "2 d",
+              "16"
+            ],
+            [
+              "12",
+              "400 damage over 3 tiles",
+              "9,500,000 Gold",
+              "3 d",
+              "17"
+            ],
+            [
+              "13",
+              "425 damage over 3 tiles",
+              "15,000,000 Gold",
+              "9 d",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Air Bombs you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH5",
+              "2"
+            ],
+            [
+              "TH6",
+              "2"
+            ],
+            [
+              "TH7",
+              "2"
+            ],
+            [
+              "TH8",
+              "4"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "5"
+            ],
+            [
+              "TH11",
+              "5"
+            ],
+            [
+              "TH12",
+              "6"
+            ],
+            [
+              "TH13",
+              "6"
+            ],
+            [
+              "TH14",
+              "7"
+            ],
+            [
+              "TH15",
+              "7"
+            ],
+            [
+              "TH16",
+              "7"
+            ],
+            [
+              "TH17",
+              "7"
+            ],
+            [
+              "TH18",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:bomb",
+        "traps:tornado-trap",
+        "traps:giant-bomb",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "bomb",
+      "name": "Bomb",
+      "description": "Bomb stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "14 levels, from TH3",
+      "summary": "Nothing says 'STAY OUT' quite like a good old-fashioned hidden bomb.",
+      "quick": {
+        "Levels": "14",
+        "Size": "1x1",
+        "Triggers on": "Ground only",
+        "Trigger radius": "1.5 tiles",
+        "Unlocked at": "Town Hall 3",
+        "Most you can place": "8"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Bomb stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "20 damage over 3 tiles",
+              "400 Gold",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "24 damage over 3 tiles",
+              "1,000 Gold",
+              "1 m",
+              "3"
+            ],
+            [
+              "3",
+              "29 damage over 3 tiles",
+              "10,000 Gold",
+              "5 m",
+              "5"
+            ],
+            [
+              "4",
+              "35 damage over 3 tiles",
+              "40,000 Gold",
+              "30 m",
+              "7"
+            ],
+            [
+              "5",
+              "42 damage over 3 tiles",
+              "100,000 Gold",
+              "1 h",
+              "8"
+            ],
+            [
+              "6",
+              "54 damage over 3 tiles",
+              "230,000 Gold",
+              "2 h",
+              "9"
+            ],
+            [
+              "7",
+              "72 damage over 3 tiles",
+              "330,000 Gold",
+              "3 h",
+              "10"
+            ],
+            [
+              "8",
+              "92 damage over 3 tiles",
+              "500,000 Gold",
+              "4 h",
+              "11"
+            ],
+            [
+              "9",
+              "125 damage over 3 tiles",
+              "750,000 Gold",
+              "6 h",
+              "13"
+            ],
+            [
+              "10",
+              "140 damage over 3 tiles",
+              "1,300,000 Gold",
+              "12 h",
+              "14"
+            ],
+            [
+              "11",
+              "155 damage over 3 tiles",
+              "2,500,000 Gold",
+              "18 h",
+              "15"
+            ],
+            [
+              "12",
+              "170 damage over 3 tiles",
+              "4,000,000 Gold",
+              "1 d",
+              "16"
+            ],
+            [
+              "13",
+              "185 damage over 3 tiles",
+              "8,500,000 Gold",
+              "2 d",
+              "17"
+            ],
+            [
+              "14",
+              "200 damage over 3 tiles",
+              "14,000,000 Gold",
+              "8 d",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Bombs you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH3",
+              "2"
+            ],
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "4"
+            ],
+            [
+              "TH6",
+              "4"
+            ],
+            [
+              "TH7",
+              "6"
+            ],
+            [
+              "TH8",
+              "6"
+            ],
+            [
+              "TH9",
+              "6"
+            ],
+            [
+              "TH10",
+              "6"
+            ],
+            [
+              "TH11",
+              "6"
+            ],
+            [
+              "TH12",
+              "6"
+            ],
+            [
+              "TH13",
+              "7"
+            ],
+            [
+              "TH14",
+              "8"
+            ],
+            [
+              "TH15",
+              "8"
+            ],
+            [
+              "TH16",
+              "8"
+            ],
+            [
+              "TH17",
+              "8"
+            ],
+            [
+              "TH18",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:giant-bomb",
+        "traps:air-bomb",
+        "traps:giga-bomb",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "giant-bomb",
+      "name": "Giant Bomb",
+      "description": "Giant Bomb stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "12 levels, from TH6",
+      "summary": "When you're looking for a Big Boom, you need the Giant Bomb.",
+      "quick": {
+        "Levels": "12",
+        "Size": "2x2",
+        "Triggers on": "Ground only",
+        "Trigger radius": "2 tiles",
+        "Unlocked at": "Town Hall 6",
+        "Most you can place": "8"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Giant Bomb stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "175 damage over 3 tiles",
+              "12,500 Gold",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "200 damage over 3.5 tiles",
+              "75,000 Gold",
+              "1 h",
+              "6"
+            ],
+            [
+              "3",
+              "225 damage over 3.5 tiles",
+              "220,000 Gold",
+              "3 h",
+              "8"
+            ],
+            [
+              "4",
+              "250 damage over 4 tiles",
+              "750,000 Gold",
+              "4 h",
+              "10"
+            ],
+            [
+              "5",
+              "275 damage over 4 tiles",
+              "900,000 Gold",
+              "10 h",
+              "11"
+            ],
+            [
+              "6",
+              "325 damage over 4 tiles",
+              "1,300,000 Gold",
+              "11 h",
+              "13"
+            ],
+            [
+              "7",
+              "375 damage over 4 tiles",
+              "1,500,000 Gold",
+              "12 h",
+              "13"
+            ],
+            [
+              "8",
+              "400 damage over 4 tiles",
+              "2,000,000 Gold",
+              "1 d",
+              "14"
+            ],
+            [
+              "9",
+              "425 damage over 4 tiles",
+              "3,200,000 Gold",
+              "2 d",
+              "15"
+            ],
+            [
+              "10",
+              "450 damage over 4 tiles",
+              "5,500,000 Gold",
+              "2 d 12 h",
+              "16"
+            ],
+            [
+              "11",
+              "475 damage over 4 tiles",
+              "10,000,000 Gold",
+              "4 d",
+              "17"
+            ],
+            [
+              "12",
+              "490 damage over 4.2 tiles",
+              "17,000,000 Gold",
+              "10 d 12 h",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Giant Bombs you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH6",
+              "1"
+            ],
+            [
+              "TH7",
+              "2"
+            ],
+            [
+              "TH8",
+              "3"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "5"
+            ],
+            [
+              "TH11",
+              "5"
+            ],
+            [
+              "TH12",
+              "6"
+            ],
+            [
+              "TH13",
+              "6"
+            ],
+            [
+              "TH14",
+              "7"
+            ],
+            [
+              "TH15",
+              "7"
+            ],
+            [
+              "TH16",
+              "7"
+            ],
+            [
+              "TH17",
+              "8"
+            ],
+            [
+              "TH18",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:giga-bomb",
+        "traps:bomb",
+        "traps:seeking-air-mine",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "giga-bomb",
+      "name": "Giga Bomb",
+      "description": "Giga Bomb stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "4 levels, from TH17",
+      "summary": "Villagers didn't want to keep this dangerous weapon inside the Town Hall, so they moved it out! The Giga Bomb pushes enemies back with massive damage. This trap is so deadly, it doesn't need to hide!",
+      "quick": {
+        "Levels": "4",
+        "Size": "2x2",
+        "Triggers on": "Ground and air",
+        "Trigger radius": "3.5 tiles",
+        "Unlocked at": "Town Hall 17",
+        "Most you can place": "1"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Giga Bomb stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,100 damage over 4.5 tiles",
+              "4,500,000 Gold",
+              "Instant",
+              "17"
+            ],
+            [
+              "2",
+              "1,200 damage over 4.5 tiles",
+              "8,500,000 Gold",
+              "4 d",
+              "17"
+            ],
+            [
+              "3",
+              "1,300 damage over 4.5 tiles",
+              "12,500,000 Gold",
+              "5 d",
+              "17"
+            ],
+            [
+              "4",
+              "1,400 damage over 4.5 tiles",
+              "20,000,000 Gold",
+              "13 d",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Giga Bombs you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:seeking-air-mine",
+        "traps:giant-bomb",
+        "traps:skeleton-trap",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "seeking-air-mine",
+      "name": "Seeking Air Mine",
+      "description": "Seeking Air Mine stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "8 levels, from TH7",
+      "summary": "Is it a bird? Is it a plane? Well it makes no difference as the Seeking Air Mine will blow it sky high. This trap does devastating damage to a single air unit.",
+      "quick": {
+        "Levels": "8",
+        "Size": "1x1",
+        "Triggers on": "Air only",
+        "Trigger radius": "4 tiles",
+        "Unlocked at": "Town Hall 7",
+        "Most you can place": "9"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Seeking Air Mine stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500 damage",
+              "12,000 Gold",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "1,800 damage",
+              "600,000 Gold",
+              "6 h",
+              "9"
+            ],
+            [
+              "3",
+              "2,100 damage",
+              "1,200,000 Gold",
+              "12 h",
+              "10"
+            ],
+            [
+              "4",
+              "2,500 damage",
+              "2,500,000 Gold",
+              "1 d 12 h",
+              "13"
+            ],
+            [
+              "5",
+              "2,800 damage",
+              "5,000,000 Gold",
+              "2 d",
+              "15"
+            ],
+            [
+              "6",
+              "3,000 damage",
+              "6,500,000 Gold",
+              "3 d",
+              "16"
+            ],
+            [
+              "7",
+              "3,200 damage",
+              "12,000,000 Gold",
+              "5 d",
+              "17"
+            ],
+            [
+              "8",
+              "3,350 damage",
+              "19,000,000 Gold",
+              "11 d 12 h",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Seeking Air Mines you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "2"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "5"
+            ],
+            [
+              "TH11",
+              "5"
+            ],
+            [
+              "TH12",
+              "6"
+            ],
+            [
+              "TH13",
+              "7"
+            ],
+            [
+              "TH14",
+              "8"
+            ],
+            [
+              "TH15",
+              "8"
+            ],
+            [
+              "TH16",
+              "8"
+            ],
+            [
+              "TH17",
+              "9"
+            ],
+            [
+              "TH18",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:skeleton-trap",
+        "traps:giga-bomb",
+        "traps:spring-trap",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "skeleton-trap",
+      "name": "Skeleton Trap",
+      "description": "Skeleton Trap stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "5 levels, from TH8",
+      "summary": "Ambush and distract unsuspecting foes with a surprise skirmish of short-lived, but sneaky skeleton troops! Skeleton Traps can be configured to pursue either ground or air troops.",
+      "quick": {
+        "Levels": "5",
+        "Size": "1x1",
+        "Triggers on": "Ground only",
+        "Trigger radius": "5 tiles",
+        "Unlocked at": "Town Hall 8",
+        "Most you can place": "4"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Skeleton Trap stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "Spawns 2 Trap Skeleton",
+              "6,000 Gold",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "Spawns 3 Trap Skeleton",
+              "250,000 Gold",
+              "5 h",
+              "8"
+            ],
+            [
+              "3",
+              "Spawns 4 Trap Skeleton",
+              "400,000 Gold",
+              "8 h",
+              "9"
+            ],
+            [
+              "4",
+              "Spawns 5 Trap Skeleton",
+              "1,000,000 Gold",
+              "12 h",
+              "10"
+            ],
+            [
+              "5",
+              "Spawns 5 Trap Skeleton",
+              "18,000,000 Gold",
+              "7 d",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Skeleton Traps you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH8",
+              "2"
+            ],
+            [
+              "TH9",
+              "2"
+            ],
+            [
+              "TH10",
+              "3"
+            ],
+            [
+              "TH11",
+              "3"
+            ],
+            [
+              "TH12",
+              "3"
+            ],
+            [
+              "TH13",
+              "3"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:spring-trap",
+        "traps:seeking-air-mine",
+        "traps:tornado-trap",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "spring-trap",
+      "name": "Spring Trap",
+      "description": "Spring Trap stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "13 levels, from TH4",
+      "summary": "This bouncy little number tosses an unwanted visitor right off your property!",
+      "quick": {
+        "Levels": "13",
+        "Size": "1x1",
+        "Triggers on": "Ground only",
+        "Trigger radius": "1 tiles",
+        "Unlocked at": "Town Hall 4",
+        "Most you can place": "9"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Spring Trap stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "2,000 Gold",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "250 damage",
+              "130,000 Gold",
+              "1 h",
+              "7"
+            ],
+            [
+              "3",
+              "300 damage",
+              "240,000 Gold",
+              "2 h",
+              "8"
+            ],
+            [
+              "4",
+              "350 damage",
+              "350,000 Gold",
+              "3 h",
+              "9"
+            ],
+            [
+              "5",
+              "400 damage",
+              "800,000 Gold",
+              "4 h",
+              "10"
+            ],
+            [
+              "6",
+              "500 damage",
+              "1,000,000 Gold",
+              "6 h",
+              "11"
+            ],
+            [
+              "7",
+              "600 damage",
+              "1,700,000 Gold",
+              "8 h",
+              "12"
+            ],
+            [
+              "8",
+              "750 damage",
+              "2,000,000 Gold",
+              "12 h",
+              "13"
+            ],
+            [
+              "9",
+              "900 damage",
+              "3,000,000 Gold",
+              "18 h",
+              "14"
+            ],
+            [
+              "10",
+              "1,050 damage",
+              "4,000,000 Gold",
+              "1 d",
+              "15"
+            ],
+            [
+              "11",
+              "1,200 damage",
+              "6,000,000 Gold",
+              "2 d",
+              "16"
+            ],
+            [
+              "12",
+              "1,300 damage",
+              "13,000,000 Gold",
+              "3 d",
+              "17"
+            ],
+            [
+              "13",
+              "1,400 damage",
+              "16,000,000 Gold",
+              "11 d",
+              "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Spring Traps you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "2"
+            ],
+            [
+              "TH6",
+              "4"
+            ],
+            [
+              "TH7",
+              "4"
+            ],
+            [
+              "TH8",
+              "6"
+            ],
+            [
+              "TH9",
+              "6"
+            ],
+            [
+              "TH10",
+              "6"
+            ],
+            [
+              "TH11",
+              "6"
+            ],
+            [
+              "TH12",
+              "8"
+            ],
+            [
+              "TH13",
+              "9"
+            ],
+            [
+              "TH14",
+              "9"
+            ],
+            [
+              "TH15",
+              "9"
+            ],
+            [
+              "TH16",
+              "9"
+            ],
+            [
+              "TH17",
+              "9"
+            ],
+            [
+              "TH18",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:tornado-trap",
+        "traps:skeleton-trap",
+        "traps:air-bomb",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "tornado-trap",
+      "name": "Tornado Trap",
+      "description": "Tornado Trap stats for every level in Clash of Clans: damage, build cost, trigger radius and the Town Hall each level needs.",
+      "blurb": "3 levels, from TH11",
+      "summary": "Wind and stones may break some bones, but this trap will definitely confound you. Just place one of these traps down, and the released vortex will draw the enemy troops in, hindering their charge.",
+      "quick": {
+        "Levels": "3",
+        "Size": "1x1",
+        "Triggers on": "Ground and air",
+        "Trigger radius": "3 tiles",
+        "Unlocked at": "Town Hall 11",
+        "Most you can place": "1"
+      },
+      "tags": [
+        {
+          "label": "Trap",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Tornado Trap stats by level",
+          "columns": [
+            "Level",
+            "Damage or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "5s effect",
+              "1,000,000 Gold",
+              "Instant",
+              "11"
+            ],
+            [
+              "2",
+              "6s effect",
+              "2,000,000 Gold",
+              "1 d",
+              "11"
+            ],
+            [
+              "3",
+              "7s effect",
+              "2,500,000 Gold",
+              "2 d",
+              "12"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Tornado Traps you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "traps:air-bomb",
+        "traps:spring-trap",
+        "traps:bomb",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    }
+  ]
+}

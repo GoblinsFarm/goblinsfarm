@@ -5,13 +5,23 @@ Goblins Farm static content generator.
 Reads _build/data/*.json and renders the /wiki, /tutorials and /news sections
 into the repository root, then regenerates sitemap.xml and llms.txt.
 
-    python3 _build/build.py            # build everything
-    python3 _build/build.py --check    # build, then report unresolved links + TODO count
+    python3 _build/merge_data.py       # splice prose over the verified stat layer
+    python3 _build/icons.py            # draw an emblem per entry
+    python3 _build/art.py              # match extracted game art to entries
+    python3 _build/build.py --check    # render, then report unresolved links + TODOs
+
+The three generators before this one are independent of each other and only need
+re-running when their own input changes: merge_data on a data or prose edit,
+icons on a rule change, art after coc-gamefiles/extract_art.py has fetched a
+newer client build.
 
 Design notes
 ------------
 Every page is data, not markup. Adding a troop means adding one object to
 data/troops.json; adding a tutorial means one object in data/tutorials.json.
+Pictures follow the same rule: `artwork()` resolves each entry to extracted game
+art if there is any and to a drawn emblem otherwise, so no page is ever missing
+one and nothing has to be wired up per entry.
 Stat cells set to the string "TODO" render with a distinct style and are
 counted by --check, so unverified numbers are always visible rather than
 silently published.
@@ -40,9 +50,20 @@ WIKI_COLLECTIONS = [
     ("troops", "wiki/troops"),
     ("spells", "wiki/spells"),
     ("heroes", "wiki/heroes"),
+    ("equipment", "wiki/equipment"),
+    ("pets", "wiki/pets"),
     ("buildings", "wiki/buildings"),
+    ("traps", "wiki/traps"),
     ("townhalls", "wiki/town-hall"),
     ("mechanics", "wiki/mechanics"),
+    # The two side villages are nested a level deeper so their sections read as one
+    # place rather than four more entries in a flat list.
+    ("bb_troops", "wiki/builder-base/troops"),
+    ("bb_buildings", "wiki/builder-base/buildings"),
+    ("capital_troops", "wiki/clan-capital/troops"),
+    ("capital_spells", "wiki/clan-capital/spells"),
+    ("capital_buildings", "wiki/clan-capital/buildings"),
+    ("capital_districts", "wiki/clan-capital/districts"),
 ]
 
 # Hand-written pages that live outside the generator but belong in the sitemap.
@@ -98,6 +119,27 @@ def compact_json(obj) -> str:
 
 def strip_tags(markup: str) -> str:
     return html.unescape(re.sub(r"<[^>]+>", "", markup)).strip()
+
+
+
+# --------------------------------------------------------------------------- art
+def artwork(collection: str, slug: str) -> dict | None:
+    """The picture for one entry, preferring the real thing.
+
+    Game art is only available for units -- troops, pets, siege machines and the
+    two side villages' rosters. Buildings, spells, traps and equipment fall back
+    to the drawn emblem, so every page has a picture and none of them has a
+    broken image. `photo` says which it is, because the two want different
+    framing: a portrait fills its box, an emblem sits in one.
+    """
+    folder = collection.replace("_", "-")
+    real = ROOT / "assets" / "art" / folder / f"{slug}.webp"
+    if real.exists():
+        return {"src": f"assets/art/{folder}/{slug}.webp", "photo": True}
+    drawn = ROOT / "assets" / "icons" / folder / f"{slug}.svg"
+    if drawn.exists():
+        return {"src": f"assets/icons/{folder}/{slug}.svg", "photo": False}
+    return None
 
 
 # --------------------------------------------------------------------------- registry
@@ -184,6 +226,8 @@ def jsonld_article(site, page, kind="Article"):
         "about": {"@type": "VideoGame", "name": "Clash of Clans", "publisher": "Supercell"},
     }
     doc["author"] = {"@id": site["organization"]["@id"]}
+    if page.get("image"):
+        doc["image"] = f"{site['base_url']}/{page['image']['src']}"
     return compact_json(doc)
 
 
@@ -428,7 +472,7 @@ def main() -> int:
             ("sections", []), ("tables", None), ("faq", None), ("groups", []),
             ("intro", None), ("steps", None), ("steps_heading", "Step by step"),
             ("sources", None), ("author", None), ("source", None),
-            ("has_todo", False), ("stat_only", False),
+            ("has_todo", False), ("stat_only", False), ("image", None),
         ):
             page.setdefault(key, default)
         # Declare the organization and website nodes on every page, keyed by a
@@ -450,6 +494,7 @@ def main() -> int:
             group.setdefault("links", [])
             for link in group["links"]:
                 link.setdefault("blurb", "")
+                link.setdefault("image", None)
         if page.get("byline") is None and page["section"] in ("wiki", "tutorials"):
             page["byline"] = site["default_byline"]
         page.setdefault("iso_updated", site["iso_updated"])
@@ -511,6 +556,7 @@ def main() -> int:
                 "faq": entry.get("faq"),
                 "related": resolve_related(entry, url),
                 "crumbs": crumbs,
+                "image": artwork(name, entry["slug"]),
                 "show_tool_note": entry.get("show_tool_note", False),
                 "iso_updated": entry.get("iso_updated", site["iso_updated"]),
                 # entry-level source wins: hand-written collections carry no
@@ -535,6 +581,7 @@ def main() -> int:
                 "href": f"{folder}/{e['slug']}.html",
                 "label": e["name"],
                 "blurb": e.get("blurb", e["description"])[:120],
+                "image": artwork(name, e["slug"]),
             }
             for e in entries
         ]

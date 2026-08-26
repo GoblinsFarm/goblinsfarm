@@ -1,0 +1,1314 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Capital Troops",
+    "h1": "Clan Capital Troops",
+    "head_title": "Clash of Clans Clan Capital Troops, Every Level and Stat",
+    "description": "Every Clan Capital troop in Clash of Clans with per-level hitpoints, DPS and housing space, and how many units each squad deploys.",
+    "summary": "All 18 Clan Capital troops used in Raid Weekends, with the full level table for each one.",
+    "groups": [
+      {
+        "h": "Capital Troops",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Battle Ram",
+          "Flying Fortress",
+          "Hog Glider",
+          "Hog Raiders",
+          "Inferno Dragon",
+          "Mega Sparky",
+          "Minion Horde",
+          "Mountain Golem",
+          "Power P.E.K.K.A",
+          "Raid Cart",
+          "Rocket Balloons",
+          "Skeleton Barrels",
+          "Sneaky Archers",
+          "Super Barbarians",
+          "Super Dragon",
+          "Super Giants",
+          "Super Miner",
+          "Super Wizards"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.7"
+  },
+  "entries": [
+    {
+      "slug": "battle-ram",
+      "name": "Battle Ram",
+      "description": "Battle Ram stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 5 housing space",
+      "summary": "Four Barbarians holding a big log race ahead to batter down their target, dealing big bonus damage if they connect; then they fight on with their swords!",
+      "quick": {
+        "Housing space": "5",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "0.75 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Battle Ram stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "625"
+            ],
+            [
+              "2",
+              "900",
+              "815"
+            ],
+            [
+              "3",
+              "1,000",
+              "1,000"
+            ],
+            [
+              "4",
+              "1,100",
+              "1,190"
+            ],
+            [
+              "5",
+              "1,200",
+              "1,375"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:flying-fortress",
+        "capital_troops:super-wizards",
+        "capital_troops:hog-glider",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Battle Ram (Clan Capital)",
+      "head_title": "Battle Ram (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "flying-fortress",
+      "name": "Flying Fortress",
+      "description": "Flying Fortress stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 100 housing space",
+      "summary": "You'd think putting wings on a castle would result in disaster, but those rules don't apply to Flying Fortress. With a payload of Skeleton Gliders, this aerial acropolis delivers punishing bombardments.",
+      "quick": {
+        "Housing space": "100",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground and air",
+        "Range": "4.5 tiles",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Flying Fortress stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "12,000",
+              "300"
+            ],
+            [
+              "2",
+              "13,500",
+              "325"
+            ],
+            [
+              "3",
+              "15,000",
+              "350"
+            ],
+            [
+              "4",
+              "16,500",
+              "375"
+            ],
+            [
+              "5",
+              "18,000",
+              "400"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:hog-glider",
+        "capital_troops:battle-ram",
+        "capital_troops:hog-raiders",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Flying Fortress (Clan Capital)",
+      "head_title": "Flying Fortress (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "hog-glider",
+      "name": "Hog Glider",
+      "description": "Hog Glider stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 5 housing space",
+      "summary": "The real riders in the sky. They have a great track record in getting over Walls, but are not very good at avoiding crashes.",
+      "quick": {
+        "Housing space": "5",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Hog Glider stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "600"
+            ],
+            [
+              "2",
+              "700",
+              "650"
+            ],
+            [
+              "3",
+              "750",
+              "700"
+            ],
+            [
+              "4",
+              "800",
+              "750"
+            ],
+            [
+              "5",
+              "850",
+              "800"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:hog-raiders",
+        "capital_troops:flying-fortress",
+        "capital_troops:inferno-dragon",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Hog Glider (Clan Capital)",
+      "head_title": "Hog Glider (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "hog-raiders",
+      "name": "Hog Raiders",
+      "description": "Hog Raiders stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 15 housing space",
+      "summary": "A beautiful reunion of Riders and Gliders, it's the Hog Raiding Party!",
+      "quick": {
+        "Housing space": "15",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "0.75 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "2",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Hog Raiders stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "880",
+              "130"
+            ],
+            [
+              "2",
+              "960",
+              "145"
+            ],
+            [
+              "3",
+              "1,040",
+              "160"
+            ],
+            [
+              "4",
+              "1,120",
+              "175"
+            ],
+            [
+              "5",
+              "1,200",
+              "190"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:inferno-dragon",
+        "capital_troops:hog-glider",
+        "capital_troops:mega-sparky",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Hog Raiders (Clan Capital)",
+      "head_title": "Hog Raiders (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "inferno-dragon",
+      "name": "Inferno Dragon",
+      "description": "Inferno Dragon stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "4 levels, 15 housing space",
+      "summary": "Not getting upset over being alone anymore, the Inferno Dragon has learned to focus its rage into a very powerful beam that builds up over time!",
+      "quick": {
+        "Housing space": "15",
+        "Levels": "4",
+        "Village": "Clan Capital",
+        "Targets": "Ground and air",
+        "Range": "3 tiles",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Inferno Dragon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,700",
+              "65"
+            ],
+            [
+              "2",
+              "1,900",
+              "70"
+            ],
+            [
+              "3",
+              "2,100",
+              "75"
+            ],
+            [
+              "4",
+              "2,300",
+              "80"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:mega-sparky",
+        "capital_troops:hog-raiders",
+        "capital_troops:minion-horde",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Inferno Dragon (Clan Capital)",
+      "head_title": "Inferno Dragon (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "mega-sparky",
+      "name": "Mega Sparky",
+      "description": "Mega Sparky stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "4 levels, 100 housing space",
+      "summary": "With no fear, this seemingly unstoppable machine, slowly but surely, takes out defenses with thunderous electrical shockwaves. Will the nightmare never end?",
+      "quick": {
+        "Housing space": "100",
+        "Levels": "4",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "4 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mega Sparky stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "10,000",
+              "400"
+            ],
+            [
+              "2",
+              "11,200",
+              "450"
+            ],
+            [
+              "3",
+              "12,400",
+              "500"
+            ],
+            [
+              "4",
+              "13,600",
+              "550"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:minion-horde",
+        "capital_troops:inferno-dragon",
+        "capital_troops:mountain-golem",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Mega Sparky (Clan Capital)",
+      "head_title": "Mega Sparky (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "minion-horde",
+      "name": "Minion Horde",
+      "description": "Minion Horde stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 10 housing space",
+      "summary": "Six fast, unarmored flying attackers. Three's a crowd, six is a horde!",
+      "quick": {
+        "Housing space": "10",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground and air",
+        "Range": "1.5 tiles",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "6",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Minion Horde stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "60",
+              "56"
+            ],
+            [
+              "2",
+              "70",
+              "62"
+            ],
+            [
+              "3",
+              "80",
+              "68"
+            ],
+            [
+              "4",
+              "90",
+              "74"
+            ],
+            [
+              "5",
+              "100",
+              "80"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:mountain-golem",
+        "capital_troops:mega-sparky",
+        "capital_troops:power-pekka",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Minion Horde (Clan Capital)",
+      "head_title": "Minion Horde (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "mountain-golem",
+      "name": "Mountain Golem",
+      "description": "Mountain Golem stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 160 housing space",
+      "summary": "This monstrous mountain may move as slow as molasses, but do not underestimate his mineralized mitts. Mountain Golem mauls his enemies with the might of...well...a mountain. Literally.",
+      "quick": {
+        "Housing space": "160",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "2 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mountain Golem stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "30,000",
+              "800"
+            ],
+            [
+              "2",
+              "33,500",
+              "900"
+            ],
+            [
+              "3",
+              "37,000",
+              "1,000"
+            ],
+            [
+              "4",
+              "40,500",
+              "1,100"
+            ],
+            [
+              "5",
+              "44,000",
+              "1,200"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:power-pekka",
+        "capital_troops:minion-horde",
+        "capital_troops:raid-cart",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Mountain Golem (Clan Capital)",
+      "head_title": "Mountain Golem (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "power-pekka",
+      "name": "Power P.E.K.K.A",
+      "description": "Power P.E.K.K.A stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 40 housing space",
+      "summary": "Unstable energy radiates from this powerful suit of dark armor, waiting to be unleashed!",
+      "quick": {
+        "Housing space": "40",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "0.8 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Power P.E.K.K.A stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "6,800",
+              "680"
+            ],
+            [
+              "2",
+              "7,600",
+              "760"
+            ],
+            [
+              "3",
+              "8,500",
+              "840"
+            ],
+            [
+              "4",
+              "9,400",
+              "920"
+            ],
+            [
+              "5",
+              "10,300",
+              "1,000"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:raid-cart",
+        "capital_troops:mountain-golem",
+        "capital_troops:rocket-balloons",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Power P.E.K.K.A (Clan Capital)",
+      "head_title": "Power P.E.K.K.A (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "raid-cart",
+      "name": "Raid Cart",
+      "description": "Raid Cart stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 30 housing space",
+      "summary": "Another Cannon on wheels?! It might lack the element of surprise, but makes up for it with lots of bulk, added firepower and an escort of rowdy Barbarians!",
+      "quick": {
+        "Housing space": "30",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "3 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "1",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Raid Cart stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,800",
+              "240"
+            ],
+            [
+              "2",
+              "3,100",
+              "280"
+            ],
+            [
+              "3",
+              "3,400",
+              "320"
+            ],
+            [
+              "4",
+              "3,700",
+              "360"
+            ],
+            [
+              "5",
+              "4,000",
+              "400"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:rocket-balloons",
+        "capital_troops:power-pekka",
+        "capital_troops:skeleton-barrels",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Raid Cart (Clan Capital)",
+      "head_title": "Raid Cart (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "rocket-balloons",
+      "name": "Rocket Balloons",
+      "description": "Rocket Balloons stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 15 housing space",
+      "summary": "When terrain is working against you, a swarm of Rocket Balloons can probably get the job done... if their boosters don't run out first.",
+      "quick": {
+        "Housing space": "15",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "2",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Rocket Balloons stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "720",
+              "175"
+            ],
+            [
+              "2",
+              "800",
+              "200"
+            ],
+            [
+              "3",
+              "880",
+              "225"
+            ],
+            [
+              "4",
+              "960",
+              "250"
+            ],
+            [
+              "5",
+              "1,040",
+              "275"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:skeleton-barrels",
+        "capital_troops:raid-cart",
+        "capital_troops:sneaky-archers",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Rocket Balloons (Clan Capital)",
+      "head_title": "Rocket Balloons (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "skeleton-barrels",
+      "name": "Skeleton Barrels",
+      "description": "Skeleton Barrels stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 15 housing space",
+      "summary": "Did someone say Barrel Parade? It's a Skeleton party in the sky, until all the balloons pop... then it's a Skeleton party on the ground!",
+      "quick": {
+        "Housing space": "15",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "3",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Skeleton Barrels stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "700",
+              "324"
+            ],
+            [
+              "2",
+              "800",
+              "486"
+            ],
+            [
+              "3",
+              "950",
+              "594"
+            ],
+            [
+              "4",
+              "1,050",
+              "708"
+            ],
+            [
+              "5",
+              "1,200",
+              "768"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:sneaky-archers",
+        "capital_troops:rocket-balloons",
+        "capital_troops:super-barbarians",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Skeleton Barrels (Clan Capital)",
+      "head_title": "Skeleton Barrels (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "sneaky-archers",
+      "name": "Sneaky Archers",
+      "description": "Sneaky Archers stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 10 housing space",
+      "summary": "A squad of stealthy Archers is a surefire way to take out important targets. Until they get revealed, that is.",
+      "quick": {
+        "Housing space": "10",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground and air",
+        "Range": "2.75 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "5",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Sneaky Archers stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "60"
+            ],
+            [
+              "2",
+              "120",
+              "64"
+            ],
+            [
+              "3",
+              "140",
+              "68"
+            ],
+            [
+              "4",
+              "160",
+              "71"
+            ],
+            [
+              "5",
+              "180",
+              "74"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:super-barbarians",
+        "capital_troops:skeleton-barrels",
+        "capital_troops:super-dragon",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Sneaky Archers (Clan Capital)",
+      "head_title": "Sneaky Archers (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-barbarians",
+      "name": "Super Barbarians",
+      "description": "Super Barbarians stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 20 housing space",
+      "summary": "For any urgent pummeling needs, you can always rely on a gang of Super Barbarians. They're best fresh after being deployed, but maintain a good work ethic even after calming down.",
+      "quick": {
+        "Housing space": "20",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "4",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Barbarians stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "120"
+            ],
+            [
+              "2",
+              "900",
+              "140"
+            ],
+            [
+              "3",
+              "1,000",
+              "160"
+            ],
+            [
+              "4",
+              "1,120",
+              "180"
+            ],
+            [
+              "5",
+              "1,240",
+              "200"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:super-dragon",
+        "capital_troops:sneaky-archers",
+        "capital_troops:super-giants",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Barbarians (Clan Capital)",
+      "head_title": "Super Barbarians (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-dragon",
+      "name": "Super Dragon",
+      "description": "Super Dragon stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 40 housing space",
+      "summary": "Sometimes having a fire inside of you isn't enough. The Super Dragon has fires on the inside, outside, and if he gets to do his thing, all around him!",
+      "quick": {
+        "Housing space": "40",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground and air",
+        "Range": "2.25 tiles",
+        "Moves": "Air",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Dragon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "5,800",
+              "422"
+            ],
+            [
+              "2",
+              "6,300",
+              "462"
+            ],
+            [
+              "3",
+              "6,800",
+              "502"
+            ],
+            [
+              "4",
+              "7,200",
+              "542"
+            ],
+            [
+              "5",
+              "7,600",
+              "583"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:super-giants",
+        "capital_troops:super-barbarians",
+        "capital_troops:super-miner",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Dragon (Clan Capital)",
+      "head_title": "Super Dragon (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-giants",
+      "name": "Super Giants",
+      "description": "Super Giants stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 20 housing space",
+      "summary": "A pair of Super Giants are a true multi-tool: beefy, great at smashing defenses, but also talented at breaking through Walls, when needed!",
+      "quick": {
+        "Housing space": "20",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "0.75 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "2",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Giants stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,000",
+              "100"
+            ],
+            [
+              "2",
+              "3,300",
+              "110"
+            ],
+            [
+              "3",
+              "3,600",
+              "120"
+            ],
+            [
+              "4",
+              "4,000",
+              "130"
+            ],
+            [
+              "5",
+              "4,400",
+              "140"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:super-miner",
+        "capital_troops:super-dragon",
+        "capital_troops:super-wizards",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Giants (Clan Capital)",
+      "head_title": "Super Giants (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-miner",
+      "name": "Super Miner",
+      "description": "Super Miner stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "4 levels, 25 housing space",
+      "summary": "Armed with a powerful drill and a magnificent moustache, Super Miner is ready to undermine any rival Village!",
+      "quick": {
+        "Housing space": "25",
+        "Levels": "4",
+        "Village": "Clan Capital",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Miner stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,300",
+              "160"
+            ],
+            [
+              "2",
+              "3,500",
+              "170"
+            ],
+            [
+              "3",
+              "3,700",
+              "180"
+            ],
+            [
+              "4",
+              "3,900",
+              "190"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:super-wizards",
+        "capital_troops:super-giants",
+        "capital_troops:battle-ram",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Miner (Clan Capital)",
+      "head_title": "Super Miner (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-wizards",
+      "name": "Super Wizards",
+      "description": "Super Wizards stats for every level in the Clash of Clans Clan Capital: hitpoints, damage per second and housing space.",
+      "blurb": "5 levels, 30 housing space",
+      "summary": "Did you know a group of Super Wizards is called an \\qego\\q? Great at blasting away buildings placed close together, but not as tough as they'd like to think!",
+      "quick": {
+        "Housing space": "30",
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Targets": "Ground and air",
+        "Range": "2.5 tiles",
+        "Moves": "Ground",
+        "Levelled by": "Upgrading its district Barracks",
+        "Units per deploy": "3",
+        "Stats shown": "Per unit, not per squad"
+      },
+      "tags": [
+        {
+          "label": "Clan Capital",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Wizards stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "160"
+            ],
+            [
+              "2",
+              "700",
+              "180"
+            ],
+            [
+              "3",
+              "800",
+              "200"
+            ],
+            [
+              "4",
+              "900",
+              "220"
+            ],
+            [
+              "5",
+              "1,000",
+              "240"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_troops:battle-ram",
+        "capital_troops:super-miner",
+        "capital_troops:flying-fortress",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Wizards (Clan Capital)",
+      "head_title": "Super Wizards (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    }
+  ]
+}

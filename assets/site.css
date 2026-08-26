@@ -115,3 +115,29 @@ ol.steps>li>b{display:block;color:var(--ink);font-size:16px;margin-bottom:3px}
   .quick dl{grid-template-columns:1fr;gap:0 0}
   .quick dd{margin-bottom:7px}
 }
+
+/* Entry header: the unit's own artwork beside the title. Game art is a portrait
+   with its own silhouette, so it sits on the parchment unframed; the drawn
+   emblems are already a shape, so they get no panel either -- a frame around
+   both made the emblems read as double-bordered. */
+.pagehead{display:flex;align-items:center;gap:18px;margin:0 0 4px}
+.pagehead-text{min-width:0}
+.pagehead h1{margin:0}
+.pagehead .tagrow{margin:8px 0 0}
+.portrait{flex:0 0 auto;width:112px;height:112px;display:grid;place-items:center;
+  background:var(--panel);border:2px solid var(--panel-edge);border-radius:16px}
+.portrait img{max-width:96px;max-height:96px;width:auto;height:auto;display:block}
+.portrait.drawn{background:none;border:0}
+.portrait.drawn img{max-width:104px;max-height:104px}
+
+/* Hub cards: thumbnail left, text right. */
+.card.hasart{display:flex;align-items:center;gap:12px}
+.card .thumb{flex:0 0 auto;width:56px;height:56px;object-fit:contain}
+.card .cardtext{display:block;min-width:0}
+
+@media(max-width:560px){
+  .pagehead{gap:12px}
+  .portrait{width:84px;height:84px;border-radius:12px}
+  .portrait img{max-width:70px;max-height:70px}
+  .portrait.drawn img{max-width:78px;max-height:78px}
+}

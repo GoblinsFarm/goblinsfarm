@@ -1,0 +1,459 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Capital Spells",
+    "h1": "Clan Capital Spells",
+    "head_title": "Clash of Clans Clan Capital Spells and Upgrade Costs",
+    "description": "Every Clan Capital spell in Clash of Clans with what it does at each level and how much housing space it takes.",
+    "summary": "All 7 Clan Capital spells, with the effect each level gives.",
+    "groups": [
+      {
+        "h": "Capital Spells",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Endless Haste Spell",
+          "Frost Spell",
+          "Graveyard Spell",
+          "Healing Spell",
+          "Jump Spell",
+          "Lightning Spell",
+          "Rage Spell"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.7"
+  },
+  "entries": [
+    {
+      "slug": "endless-haste-spell",
+      "name": "Endless Haste Spell",
+      "description": "Endless Haste Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "4 levels",
+      "summary": "Speed your Troops up  forever with this Spell!\\n\\nCast this Spell to create a Ring of Haste. Units who walk through the ring are sped up for the rest of the fight!",
+      "quick": {
+        "Levels": "4",
+        "Village": "Clan Capital",
+        "Housing space": "3",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Endless Haste Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "+7% speed"
+            ],
+            [
+              "2",
+              "+8% speed"
+            ],
+            [
+              "3",
+              "+9% speed"
+            ],
+            [
+              "4",
+              "+10% speed"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:frost-spell",
+        "capital_spells:rage-spell",
+        "capital_spells:graveyard-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Endless Haste Spell (Clan Capital)",
+      "head_title": "Endless Haste Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "frost-spell",
+      "name": "Frost Spell",
+      "description": "Frost Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "5 levels",
+      "summary": "In the heat of battle it's important to stay frosty!\\n\\nUse the Frost Spell to slow down defenses and defenders or to create an ice bridge over water.",
+      "quick": {
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Housing space": "3",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Frost Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "4.2 tile radius"
+            ],
+            [
+              "2",
+              "4.4 tile radius"
+            ],
+            [
+              "3",
+              "4.6 tile radius"
+            ],
+            [
+              "4",
+              "4.8 tile radius"
+            ],
+            [
+              "5",
+              "5 tile radius"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:graveyard-spell",
+        "capital_spells:endless-haste-spell",
+        "capital_spells:healing-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Frost Spell (Clan Capital)",
+      "head_title": "Frost Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "graveyard-spell",
+      "name": "Graveyard Spell",
+      "description": "Graveyard Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "4 levels",
+      "summary": "Seriously spooky magic allows this Spell to raise the fallen!\\n\\nWhen any Troop falls on the battlefield this spell summons a number of Skeletons based on its housing space. Flying Troops result in flying Skeletons.",
+      "quick": {
+        "Levels": "4",
+        "Village": "Clan Capital",
+        "Housing space": "2",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Graveyard Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "63 housing space of skeletons"
+            ],
+            [
+              "2",
+              "72 housing space of skeletons"
+            ],
+            [
+              "3",
+              "81 housing space of skeletons"
+            ],
+            [
+              "4",
+              "87 housing space of skeletons"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:healing-spell",
+        "capital_spells:frost-spell",
+        "capital_spells:jump-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Graveyard Spell (Clan Capital)",
+      "head_title": "Graveyard Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "healing-spell",
+      "name": "Healing Spell",
+      "description": "Healing Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "5 levels",
+      "summary": "Heal your Troops to keep them in the fight!\\n\\nCast this Spell to create a Ring of Healing. Your units will be healed while they are inside this ring.",
+      "quick": {
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Housing space": "3",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Healing Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "Heals 24 every 0.3s"
+            ],
+            [
+              "2",
+              "Heals 28 every 0.3s"
+            ],
+            [
+              "3",
+              "Heals 32 every 0.3s"
+            ],
+            [
+              "4",
+              "Heals 36 every 0.3s"
+            ],
+            [
+              "5",
+              "Heals 40 every 0.3s"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:jump-spell",
+        "capital_spells:graveyard-spell",
+        "capital_spells:lightning-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Healing Spell (Clan Capital)",
+      "head_title": "Healing Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "jump-spell",
+      "name": "Jump Spell",
+      "description": "Jump Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "5 levels",
+      "summary": "Walls and Water in your way? Cast this Spell over them to create a route straight over. Your Troops will jump over like there was nothing in their way!",
+      "quick": {
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Housing space": "1",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Jump Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "3.2 tile radius"
+            ],
+            [
+              "2",
+              "3.4 tile radius"
+            ],
+            [
+              "3",
+              "3.6 tile radius"
+            ],
+            [
+              "4",
+              "3.8 tile radius"
+            ],
+            [
+              "5",
+              "4 tile radius"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:lightning-spell",
+        "capital_spells:healing-spell",
+        "capital_spells:rage-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Jump Spell (Clan Capital)",
+      "head_title": "Jump Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "lightning-spell",
+      "name": "Lightning Spell",
+      "description": "Lightning Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "5 levels",
+      "summary": "Electrocute your enemies with a bolt of lightning!\\n\\nCast this Spell at the enemy Village to damage and stun Buildings and units inside a small area.",
+      "quick": {
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Housing space": "1",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Lightning Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "275 damage"
+            ],
+            [
+              "2",
+              "325 damage"
+            ],
+            [
+              "3",
+              "375 damage"
+            ],
+            [
+              "4",
+              "425 damage"
+            ],
+            [
+              "5",
+              "475 damage"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:rage-spell",
+        "capital_spells:jump-spell",
+        "capital_spells:endless-haste-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Lightning Spell (Clan Capital)",
+      "head_title": "Lightning Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "rage-spell",
+      "name": "Rage Spell",
+      "description": "Rage Spell in the Clash of Clans Clan Capital: what it does at every level and how much housing space it takes.",
+      "blurb": "5 levels",
+      "summary": "Enrage your units to make them bigger, faster and stronger!\\n\\nCast this to create a Ring of Rage! Your units will gain speed and attack power while they are inside this ring.",
+      "quick": {
+        "Levels": "5",
+        "Village": "Clan Capital",
+        "Housing space": "3",
+        "Levelled by": "Upgrading its district Spell Factory"
+      },
+      "tags": [
+        {
+          "label": "Capital Spell",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Rage Spell effect by level",
+          "columns": [
+            "Level",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "+70% damage, +10% speed"
+            ],
+            [
+              "2",
+              "+80% damage, +12% speed"
+            ],
+            [
+              "3",
+              "+90% damage, +14% speed"
+            ],
+            [
+              "4",
+              "+100% damage, +16% speed"
+            ],
+            [
+              "5",
+              "+110% damage, +18% speed"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_spells:endless-haste-spell",
+        "capital_spells:lightning-spell",
+        "capital_spells:frost-spell",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Rage Spell (Clan Capital)",
+      "head_title": "Rage Spell (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    }
+  ]
+}

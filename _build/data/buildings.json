@@ -112,6 +112,7 @@
         "Targets": "Air only",
         "Range": "10 tiles",
         "Unlocked at": "Town Hall 4",
+        "Most you can place": "4",
         "Role": "Anti-air defence, air only"
       },
       "tags": [
@@ -271,6 +272,75 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Air Defenses you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH4",
+              "1"
+            ],
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "2"
+            ],
+            [
+              "TH7",
+              "3"
+            ],
+            [
+              "TH8",
+              "3"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "4"
+            ],
+            [
+              "TH13",
+              "4"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
+            ]
+          ]
         }
       ],
       "related": [
@@ -305,6 +375,7 @@
         "Size": "2x2",
         "Category": "Defense",
         "Unlocked at": "Town Hall 6",
+        "Most you can place": "2",
         "Role": "Support defence, air only, no damage"
       },
       "tags": [
@@ -392,6 +463,67 @@
               "11"
             ]
           ]
+        },
+        {
+          "caption": "How many Air Sweepers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH6",
+              "1"
+            ],
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "2"
+            ],
+            [
+              "TH10",
+              "2"
+            ],
+            [
+              "TH11",
+              "2"
+            ],
+            [
+              "TH12",
+              "2"
+            ],
+            [
+              "TH13",
+              "2"
+            ],
+            [
+              "TH14",
+              "2"
+            ],
+            [
+              "TH15",
+              "2"
+            ],
+            [
+              "TH16",
+              "2"
+            ],
+            [
+              "TH17",
+              "2"
+            ],
+            [
+              "TH18",
+              "2"
+            ]
+          ]
         }
       ],
       "related": [
@@ -429,6 +561,7 @@
         "Targets": "Ground and air",
         "Range": "10 tiles",
         "Unlocked at": "Town Hall 2",
+        "Most you can place": "9",
         "Role": "Single-target defence, air and ground"
       },
       "tags": [
@@ -628,6 +761,83 @@
               "15"
             ]
           ]
+        },
+        {
+          "caption": "How many Archer Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH2",
+              "1"
+            ],
+            [
+              "TH3",
+              "1"
+            ],
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "3"
+            ],
+            [
+              "TH6",
+              "3"
+            ],
+            [
+              "TH7",
+              "4"
+            ],
+            [
+              "TH8",
+              "5"
+            ],
+            [
+              "TH9",
+              "6"
+            ],
+            [
+              "TH10",
+              "7"
+            ],
+            [
+              "TH11",
+              "8"
+            ],
+            [
+              "TH12",
+              "8"
+            ],
+            [
+              "TH13",
+              "8"
+            ],
+            [
+              "TH14",
+              "8"
+            ],
+            [
+              "TH15",
+              "8"
+            ],
+            [
+              "TH16",
+              "8"
+            ],
+            [
+              "TH17",
+              "9"
+            ],
+            [
+              "TH18",
+              "9"
+            ]
+          ]
         }
       ],
       "related": [
@@ -661,7 +871,8 @@
         "Levels": "14",
         "Size": "4x4",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "4"
       },
       "tags": [
         {
@@ -795,6 +1006,87 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Army Camps you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "1"
+            ],
+            [
+              "TH3",
+              "2"
+            ],
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "3"
+            ],
+            [
+              "TH6",
+              "3"
+            ],
+            [
+              "TH7",
+              "4"
+            ],
+            [
+              "TH8",
+              "4"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "4"
+            ],
+            [
+              "TH13",
+              "4"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
+            ]
+          ]
         }
       ],
       "related": [
@@ -816,7 +1108,8 @@
         "Levels": "19",
         "Size": "3x3",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -990,6 +1283,87 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Barrackss you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "1"
+            ],
+            [
+              "TH3",
+              "1"
+            ],
+            [
+              "TH4",
+              "1"
+            ],
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "1"
+            ],
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1011,7 +1385,8 @@
         "Levels": "10",
         "Size": "3x3",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 8"
+        "Unlocked at": "Town Hall 8",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -1113,6 +1488,59 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Blacksmiths you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1138,6 +1566,7 @@
         "Targets": "Ground only",
         "Range": "6 tiles",
         "Unlocked at": "Town Hall 8",
+        "Most you can place": "2",
         "Role": "Splash defence, ground only"
       },
       "tags": [
@@ -1273,6 +1702,59 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Bomb Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "2"
+            ],
+            [
+              "TH11",
+              "2"
+            ],
+            [
+              "TH12",
+              "2"
+            ],
+            [
+              "TH13",
+              "2"
+            ],
+            [
+              "TH14",
+              "2"
+            ],
+            [
+              "TH15",
+              "2"
+            ],
+            [
+              "TH16",
+              "2"
+            ],
+            [
+              "TH17",
+              "2"
+            ],
+            [
+              "TH18",
+              "2"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1306,7 +1788,8 @@
         "Levels": "7",
         "Size": "2x2",
         "Category": "Other Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "5"
       },
       "tags": [
         {
@@ -1331,7 +1814,7 @@
               "1",
               "250",
               "—",
-              "0 Diamonds",
+              "0 Gems",
               "Instant",
               "1"
             ],
@@ -1384,6 +1867,87 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Builder's Huts you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "5"
+            ],
+            [
+              "TH2",
+              "5"
+            ],
+            [
+              "TH3",
+              "5"
+            ],
+            [
+              "TH4",
+              "5"
+            ],
+            [
+              "TH5",
+              "5"
+            ],
+            [
+              "TH6",
+              "5"
+            ],
+            [
+              "TH7",
+              "5"
+            ],
+            [
+              "TH8",
+              "5"
+            ],
+            [
+              "TH9",
+              "5"
+            ],
+            [
+              "TH10",
+              "5"
+            ],
+            [
+              "TH11",
+              "5"
+            ],
+            [
+              "TH12",
+              "5"
+            ],
+            [
+              "TH13",
+              "5"
+            ],
+            [
+              "TH14",
+              "5"
+            ],
+            [
+              "TH15",
+              "5"
+            ],
+            [
+              "TH16",
+              "5"
+            ],
+            [
+              "TH17",
+              "5"
+            ],
+            [
+              "TH18",
+              "5"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1407,6 +1971,7 @@
         "Targets": "Ground only",
         "Range": "9 tiles",
         "Unlocked at": "Town Hall 1",
+        "Most you can place": "7",
         "Role": "Single-target defence, ground only"
       },
       "tags": [
@@ -1606,6 +2171,87 @@
               "15"
             ]
           ]
+        },
+        {
+          "caption": "How many Cannons you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "2"
+            ],
+            [
+              "TH3",
+              "2"
+            ],
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "3"
+            ],
+            [
+              "TH6",
+              "3"
+            ],
+            [
+              "TH7",
+              "5"
+            ],
+            [
+              "TH8",
+              "5"
+            ],
+            [
+              "TH9",
+              "5"
+            ],
+            [
+              "TH10",
+              "6"
+            ],
+            [
+              "TH11",
+              "7"
+            ],
+            [
+              "TH12",
+              "7"
+            ],
+            [
+              "TH13",
+              "7"
+            ],
+            [
+              "TH14",
+              "7"
+            ],
+            [
+              "TH15",
+              "7"
+            ],
+            [
+              "TH16",
+              "7"
+            ],
+            [
+              "TH17",
+              "7"
+            ],
+            [
+              "TH18",
+              "7"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1640,6 +2286,7 @@
         "Size": "3x3",
         "Category": "Army Building",
         "Unlocked at": "Town Hall 3",
+        "Most you can place": "1",
         "Role": "Clan building, offensive and defensive"
       },
       "tags": [
@@ -1783,6 +2430,87 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Clan Castles you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "1"
+            ],
+            [
+              "TH3",
+              "1"
+            ],
+            [
+              "TH4",
+              "1"
+            ],
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "1"
+            ],
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1816,7 +2544,8 @@
         "Levels": "1",
         "Size": "3x3",
         "Category": "Defense",
-        "Unlocked at": "Town Hall 17"
+        "Unlocked at": "Town Hall 17",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -1846,6 +2575,19 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Crafting Stations you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -1867,7 +2609,8 @@
         "Levels": "12",
         "Size": "3x3",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 7"
+        "Unlocked at": "Town Hall 7",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -1985,6 +2728,63 @@
               "15"
             ]
           ]
+        },
+        {
+          "caption": "How many Dark Barrackss you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2006,7 +2806,8 @@
         "Levels": "11",
         "Size": "3x3",
         "Category": "Resource Building",
-        "Unlocked at": "Town Hall 7"
+        "Unlocked at": "Town Hall 7",
+        "Most you can place": "3"
       },
       "tags": [
         {
@@ -2116,6 +2917,63 @@
               "16"
             ]
           ]
+        },
+        {
+          "caption": "How many Dark Elixir Drills you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "2"
+            ],
+            [
+              "TH9",
+              "3"
+            ],
+            [
+              "TH10",
+              "3"
+            ],
+            [
+              "TH11",
+              "3"
+            ],
+            [
+              "TH12",
+              "3"
+            ],
+            [
+              "TH13",
+              "3"
+            ],
+            [
+              "TH14",
+              "3"
+            ],
+            [
+              "TH15",
+              "3"
+            ],
+            [
+              "TH16",
+              "3"
+            ],
+            [
+              "TH17",
+              "3"
+            ],
+            [
+              "TH18",
+              "3"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2137,7 +2995,8 @@
         "Levels": "13",
         "Size": "3x3",
         "Category": "Resource Building",
-        "Unlocked at": "Town Hall 7"
+        "Unlocked at": "Town Hall 7",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -2263,6 +3122,63 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Dark Elixir Storages you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2284,7 +3200,8 @@
         "Levels": "7",
         "Size": "3x3",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 8"
+        "Unlocked at": "Town Hall 8",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -2362,6 +3279,59 @@
               "14"
             ]
           ]
+        },
+        {
+          "caption": "How many Dark Spell Factorys you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2387,6 +3357,7 @@
         "Targets": "Ground and air",
         "Range": "50 tiles",
         "Unlocked at": "Town Hall 11",
+        "Most you can place": "1",
         "Role": "Long-range splash defence, activates on deployment"
       },
       "tags": [
@@ -2474,6 +3445,47 @@
               "16"
             ]
           ]
+        },
+        {
+          "caption": "How many Eagle Artillerys you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2507,7 +3519,8 @@
         "Levels": "17",
         "Size": "3x3",
         "Category": "Resource Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "7"
       },
       "tags": [
         {
@@ -2665,6 +3678,87 @@
               "16"
             ]
           ]
+        },
+        {
+          "caption": "How many Elixir Collectors you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "2"
+            ],
+            [
+              "TH3",
+              "3"
+            ],
+            [
+              "TH4",
+              "4"
+            ],
+            [
+              "TH5",
+              "5"
+            ],
+            [
+              "TH6",
+              "6"
+            ],
+            [
+              "TH7",
+              "6"
+            ],
+            [
+              "TH8",
+              "6"
+            ],
+            [
+              "TH9",
+              "7"
+            ],
+            [
+              "TH10",
+              "7"
+            ],
+            [
+              "TH11",
+              "7"
+            ],
+            [
+              "TH12",
+              "7"
+            ],
+            [
+              "TH13",
+              "7"
+            ],
+            [
+              "TH14",
+              "7"
+            ],
+            [
+              "TH15",
+              "7"
+            ],
+            [
+              "TH16",
+              "7"
+            ],
+            [
+              "TH17",
+              "7"
+            ],
+            [
+              "TH18",
+              "7"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2686,7 +3780,8 @@
         "Levels": "19",
         "Size": "3x3",
         "Category": "Resource Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "4"
       },
       "tags": [
         {
@@ -2860,6 +3955,87 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Elixir Storages you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "1"
+            ],
+            [
+              "TH3",
+              "2"
+            ],
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "2"
+            ],
+            [
+              "TH6",
+              "2"
+            ],
+            [
+              "TH7",
+              "2"
+            ],
+            [
+              "TH8",
+              "3"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "4"
+            ],
+            [
+              "TH13",
+              "4"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2885,6 +4061,7 @@
         "Targets": "Ground and air",
         "Range": "16 tiles",
         "Unlocked at": "Town Hall 17",
+        "Most you can place": "2",
         "Role": "Long-range defence, air and ground"
       },
       "tags": [
@@ -2944,6 +4121,23 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Firespitters you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH17",
+              "2"
+            ],
+            [
+              "TH18",
+              "2"
+            ]
+          ]
         }
       ],
       "related": [
@@ -2977,7 +4171,8 @@
         "Levels": "17",
         "Size": "3x3",
         "Category": "Resource Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "7"
       },
       "tags": [
         {
@@ -3135,6 +4330,87 @@
               "16"
             ]
           ]
+        },
+        {
+          "caption": "How many Gold Mines you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "2"
+            ],
+            [
+              "TH3",
+              "3"
+            ],
+            [
+              "TH4",
+              "4"
+            ],
+            [
+              "TH5",
+              "5"
+            ],
+            [
+              "TH6",
+              "6"
+            ],
+            [
+              "TH7",
+              "6"
+            ],
+            [
+              "TH8",
+              "6"
+            ],
+            [
+              "TH9",
+              "7"
+            ],
+            [
+              "TH10",
+              "7"
+            ],
+            [
+              "TH11",
+              "7"
+            ],
+            [
+              "TH12",
+              "7"
+            ],
+            [
+              "TH13",
+              "7"
+            ],
+            [
+              "TH14",
+              "7"
+            ],
+            [
+              "TH15",
+              "7"
+            ],
+            [
+              "TH16",
+              "7"
+            ],
+            [
+              "TH17",
+              "7"
+            ],
+            [
+              "TH18",
+              "7"
+            ]
+          ]
         }
       ],
       "related": [
@@ -3156,7 +4432,8 @@
         "Levels": "19",
         "Size": "3x3",
         "Category": "Resource Building",
-        "Unlocked at": "Town Hall 1"
+        "Unlocked at": "Town Hall 1",
+        "Most you can place": "4"
       },
       "tags": [
         {
@@ -3330,6 +4607,87 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Gold Storages you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "1"
+            ],
+            [
+              "TH2",
+              "1"
+            ],
+            [
+              "TH3",
+              "2"
+            ],
+            [
+              "TH4",
+              "2"
+            ],
+            [
+              "TH5",
+              "2"
+            ],
+            [
+              "TH6",
+              "2"
+            ],
+            [
+              "TH7",
+              "2"
+            ],
+            [
+              "TH8",
+              "3"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "4"
+            ],
+            [
+              "TH13",
+              "4"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
+            ]
+          ]
         }
       ],
       "related": [
@@ -3352,6 +4710,7 @@
         "Size": "4x4",
         "Category": "Army Building",
         "Unlocked at": "Town Hall 7",
+        "Most you can place": "1",
         "Role": "Army building, hero management"
       },
       "tags": [
@@ -3479,6 +4838,63 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Hero Halls you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -3516,6 +4932,7 @@
         "Targets": "Ground and air",
         "Range": "7 tiles",
         "Unlocked at": "Town Hall 7",
+        "Most you can place": "5",
         "Role": "Concealed defence, air and ground"
       },
       "tags": [
@@ -3683,6 +5100,63 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Hidden Teslas you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH7",
+              "2"
+            ],
+            [
+              "TH8",
+              "3"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "5"
+            ],
+            [
+              "TH13",
+              "5"
+            ],
+            [
+              "TH14",
+              "5"
+            ],
+            [
+              "TH15",
+              "5"
+            ],
+            [
+              "TH16",
+              "5"
+            ],
+            [
+              "TH17",
+              "5"
+            ],
+            [
+              "TH18",
+              "5"
+            ]
+          ]
         }
       ],
       "related": [
@@ -3720,6 +5194,7 @@
         "Targets": "Ground and air",
         "Range": "9 tiles",
         "Unlocked at": "Town Hall 10",
+        "Most you can place": "3",
         "Role": "High-damage defence, air and ground, switchable mode"
       },
       "tags": [
@@ -3847,6 +5322,51 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Inferno Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH10",
+              "2"
+            ],
+            [
+              "TH11",
+              "2"
+            ],
+            [
+              "TH12",
+              "3"
+            ],
+            [
+              "TH13",
+              "3"
+            ],
+            [
+              "TH14",
+              "3"
+            ],
+            [
+              "TH15",
+              "3"
+            ],
+            [
+              "TH16",
+              "3"
+            ],
+            [
+              "TH17",
+              "3"
+            ],
+            [
+              "TH18",
+              "3"
+            ]
+          ]
         }
       ],
       "related": [
@@ -3881,6 +5401,7 @@
         "Size": "3x3",
         "Category": "Army Building",
         "Unlocked at": "Town Hall 3",
+        "Most you can place": "1",
         "Role": "Army building, research"
       },
       "tags": [
@@ -4040,6 +5561,79 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Laboratorys you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH3",
+              "1"
+            ],
+            [
+              "TH4",
+              "1"
+            ],
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "1"
+            ],
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4077,6 +5671,7 @@
         "Targets": "Ground and air",
         "Range": "11 tiles",
         "Unlocked at": "Town Hall 15",
+        "Most you can place": "1",
         "Role": "Defence, air and ground"
       },
       "tags": [
@@ -4140,6 +5735,31 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Monoliths you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4177,6 +5797,7 @@
         "Targets": "Ground only",
         "Range": "11 tiles",
         "Unlocked at": "Town Hall 3",
+        "Most you can place": "4",
         "Role": "Splash defence, ground only"
       },
       "tags": [
@@ -4352,6 +5973,79 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Mortars you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH3",
+              "1"
+            ],
+            [
+              "TH4",
+              "1"
+            ],
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "2"
+            ],
+            [
+              "TH7",
+              "3"
+            ],
+            [
+              "TH8",
+              "4"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "4"
+            ],
+            [
+              "TH13",
+              "4"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4389,6 +6083,7 @@
         "Targets": "Ground and air",
         "Range": "10 tiles",
         "Unlocked at": "Town Hall 16",
+        "Most you can place": "3",
         "Role": "Multi-target defence, air and ground"
       },
       "tags": [
@@ -4452,6 +6147,27 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Multi-Archer Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH16",
+              "2"
+            ],
+            [
+              "TH17",
+              "3"
+            ],
+            [
+              "TH18",
+              "3"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4489,6 +6205,7 @@
         "Targets": "Ground and air",
         "Range": "12 tiles",
         "Unlocked at": "Town Hall 17",
+        "Most you can place": "1",
         "Role": "Defence, air and ground"
       },
       "tags": [
@@ -4548,6 +6265,23 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Multi-Gear Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4581,7 +6315,8 @@
         "Levels": "12",
         "Size": "3x3",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 14"
+        "Unlocked at": "Town Hall 14",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -4699,6 +6434,35 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Pet Houses you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4724,6 +6488,7 @@
         "Targets": "Ground and air",
         "Range": "11 tiles",
         "Unlocked at": "Town Hall 18",
+        "Most you can place": "1",
         "Role": "Defence, air and ground"
       },
       "tags": [
@@ -4775,6 +6540,19 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Revenge Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4812,6 +6590,7 @@
         "Targets": "Ground only",
         "Range": "9 tiles",
         "Unlocked at": "Town Hall 16",
+        "Most you can place": "3",
         "Role": "Defence, ground only"
       },
       "tags": [
@@ -4875,6 +6654,27 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Ricochet Cannons you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH16",
+              "2"
+            ],
+            [
+              "TH17",
+              "3"
+            ],
+            [
+              "TH18",
+              "3"
+            ]
+          ]
         }
       ],
       "related": [
@@ -4912,6 +6712,7 @@
         "Targets": "Ground and air",
         "Range": "10 tiles",
         "Unlocked at": "Town Hall 13",
+        "Most you can place": "2",
         "Role": "Heavy splash defence, air and ground"
       },
       "tags": [
@@ -4999,6 +6800,39 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Scattershots you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH13",
+              "2"
+            ],
+            [
+              "TH14",
+              "2"
+            ],
+            [
+              "TH15",
+              "2"
+            ],
+            [
+              "TH16",
+              "2"
+            ],
+            [
+              "TH17",
+              "2"
+            ],
+            [
+              "TH18",
+              "2"
+            ]
+          ]
         }
       ],
       "related": [
@@ -5032,7 +6866,8 @@
         "Levels": "9",
         "Size": "3x3",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 5"
+        "Unlocked at": "Town Hall 5",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -5126,6 +6961,71 @@
               "16"
             ]
           ]
+        },
+        {
+          "caption": "How many Spell Factorys you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "1"
+            ],
+            [
+              "TH7",
+              "1"
+            ],
+            [
+              "TH8",
+              "1"
+            ],
+            [
+              "TH9",
+              "1"
+            ],
+            [
+              "TH10",
+              "1"
+            ],
+            [
+              "TH11",
+              "1"
+            ],
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -5148,6 +7048,7 @@
         "Size": "2x2",
         "Category": "Defense",
         "Unlocked at": "Town Hall 15",
+        "Most you can place": "2",
         "Role": "Defence, spell effect"
       },
       "tags": [
@@ -5215,6 +7116,31 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Spell Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH15",
+              "2"
+            ],
+            [
+              "TH16",
+              "2"
+            ],
+            [
+              "TH17",
+              "2"
+            ],
+            [
+              "TH18",
+              "2"
+            ]
+          ]
         }
       ],
       "related": [
@@ -5252,6 +7178,7 @@
         "Targets": "Ground and air",
         "Range": "8 tiles",
         "Unlocked at": "Town Hall 18",
+        "Most you can place": "2",
         "Role": "Merged splash defence, air and ground"
       },
       "tags": [
@@ -5301,6 +7228,19 @@
               "30,000,000 Gold",
               "14 d",
               "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many Super Wizard Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH18",
+              "2"
             ]
           ]
         }
@@ -5386,6 +7326,7 @@
         "Size": "1x1",
         "Category": "Wall",
         "Unlocked at": "Town Hall 2",
+        "Most you can place": "325",
         "Role": "Barrier, redirects ground troops"
       },
       "tags": [
@@ -5569,6 +7510,83 @@
               "18"
             ]
           ]
+        },
+        {
+          "caption": "How many Walls you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH2",
+              "25"
+            ],
+            [
+              "TH3",
+              "50"
+            ],
+            [
+              "TH4",
+              "75"
+            ],
+            [
+              "TH5",
+              "100"
+            ],
+            [
+              "TH6",
+              "125"
+            ],
+            [
+              "TH7",
+              "175"
+            ],
+            [
+              "TH8",
+              "225"
+            ],
+            [
+              "TH9",
+              "250"
+            ],
+            [
+              "TH10",
+              "275"
+            ],
+            [
+              "TH11",
+              "300"
+            ],
+            [
+              "TH12",
+              "300"
+            ],
+            [
+              "TH13",
+              "300"
+            ],
+            [
+              "TH14",
+              "325"
+            ],
+            [
+              "TH15",
+              "325"
+            ],
+            [
+              "TH16",
+              "325"
+            ],
+            [
+              "TH17",
+              "325"
+            ],
+            [
+              "TH18",
+              "325"
+            ]
+          ]
         }
       ],
       "related": [
@@ -5606,6 +7624,7 @@
         "Targets": "Ground and air",
         "Range": "7 tiles",
         "Unlocked at": "Town Hall 5",
+        "Most you can place": "6",
         "Role": "Splash defence, air and ground"
       },
       "tags": [
@@ -5773,6 +7792,71 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Wizard Towers you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH5",
+              "1"
+            ],
+            [
+              "TH6",
+              "2"
+            ],
+            [
+              "TH7",
+              "2"
+            ],
+            [
+              "TH8",
+              "3"
+            ],
+            [
+              "TH9",
+              "4"
+            ],
+            [
+              "TH10",
+              "4"
+            ],
+            [
+              "TH11",
+              "5"
+            ],
+            [
+              "TH12",
+              "5"
+            ],
+            [
+              "TH13",
+              "5"
+            ],
+            [
+              "TH14",
+              "5"
+            ],
+            [
+              "TH15",
+              "5"
+            ],
+            [
+              "TH16",
+              "5"
+            ],
+            [
+              "TH17",
+              "5"
+            ],
+            [
+              "TH18",
+              "6"
+            ]
+          ]
         }
       ],
       "related": [
@@ -5806,7 +7890,8 @@
         "Levels": "9",
         "Size": "4x4",
         "Category": "Army Building",
-        "Unlocked at": "Town Hall 12"
+        "Unlocked at": "Town Hall 12",
+        "Most you can place": "1"
       },
       "tags": [
         {
@@ -5900,6 +7985,43 @@
               "17"
             ]
           ]
+        },
+        {
+          "caption": "How many Workshops you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH12",
+              "1"
+            ],
+            [
+              "TH13",
+              "1"
+            ],
+            [
+              "TH14",
+              "1"
+            ],
+            [
+              "TH15",
+              "1"
+            ],
+            [
+              "TH16",
+              "1"
+            ],
+            [
+              "TH17",
+              "1"
+            ],
+            [
+              "TH18",
+              "1"
+            ]
+          ]
         }
       ],
       "related": [
@@ -5925,6 +8047,7 @@
         "Targets": "Ground only",
         "Range": "14 tiles",
         "Unlocked at": "Town Hall 9",
+        "Most you can place": "4",
         "Role": "Long-range defence, mode-dependent targeting"
       },
       "tags": [
@@ -6058,6 +8181,55 @@
               "26,000,000 Gold",
               "13 d 12 h",
               "18"
+            ]
+          ]
+        },
+        {
+          "caption": "How many X-Bows you may place at each Town Hall",
+          "columns": [
+            "Town Hall",
+            "Available"
+          ],
+          "rows": [
+            [
+              "TH9",
+              "2"
+            ],
+            [
+              "TH10",
+              "3"
+            ],
+            [
+              "TH11",
+              "4"
+            ],
+            [
+              "TH12",
+              "4"
+            ],
+            [
+              "TH13",
+              "4"
+            ],
+            [
+              "TH14",
+              "4"
+            ],
+            [
+              "TH15",
+              "4"
+            ],
+            [
+              "TH16",
+              "4"
+            ],
+            [
+              "TH17",
+              "4"
+            ],
+            [
+              "TH18",
+              "4"
             ]
           ]
         }
