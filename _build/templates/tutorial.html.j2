@@ -1,0 +1,38 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p class="lede">{{ page.summary }}</p>
+
+{%- if page.quick %}
+<div class="quick">
+<dl>
+{%- for k, v in page.quick.items() %}
+<dt>{{ k }}</dt><dd>{{ v }}</dd>
+{%- endfor %}
+</dl>
+</div>
+{%- endif %}
+
+{%- if page.intro %}{{ page.intro }}{% endif %}
+
+{%- if page.steps %}
+<h2 id="steps">{{ page.steps_heading|default('Step by step') }}</h2>
+<ol class="steps">
+{%- for st in page.steps %}
+<li><b>{{ st.h }}</b>{{ st.body }}</li>
+{%- endfor %}
+</ol>
+{%- endif %}
+
+{%- for s in page.sections %}
+<h2 id="{{ s.id }}">{{ s.h }}</h2>
+{{ s.body }}
+{%- endfor %}
+
+{%- if page.faq %}
+<h2 id="faq">Frequently asked</h2>
+{%- for f in page.faq %}
+<h3>{{ f.q }}</h3>
+<p>{{ f.a }}</p>
+{%- endfor %}
+{%- endif %}
+{% endblock %}

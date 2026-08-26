@@ -1,0 +1,1024 @@
+{
+  "hub": {
+    "h1": "Clash of Clans Tutorials",
+    "head_title": "Clash of Clans Tutorials — Step-by-Step Guides for Every Stage",
+    "description": "Step-by-step Clash of Clans tutorials: getting started, farming efficiently, your first war attack, base building, upgrade order and hero management.",
+    "summary": "Walkthroughs rather than reference. Each one is a routine you can follow the first time and then stop needing, which is what a tutorial should be. If you want to know how something works rather than what to do about it, the <a href='../wiki/'>wiki</a> is the other half of this site.",
+    "groups": [
+      {
+        "h": "Starting out",
+        "blurb": "If you are new, or coming back after a long break, start here.",
+        "members": [
+          "Getting started",
+          "Finding a good clan",
+          "How not to rush",
+          "Getting started on the Builder Base"
+        ]
+      },
+      {
+        "h": "Farming and economy",
+        "blurb": "Getting resources, and keeping them.",
+        "members": [
+          "The farming loop",
+          "Farming armies",
+          "Farming dark elixir",
+          "What to upgrade next",
+          "Keeping heroes upgrading"
+        ]
+      },
+      {
+        "h": "Attacking",
+        "blurb": "Routines that make attacks work, in the order you should learn them.",
+        "members": [
+          "Your first war attack",
+          "Luring the Clan Castle",
+          "The dragon attack"
+        ]
+      },
+      {
+        "h": "Defending",
+        "blurb": "Building a base and finding out why it fails.",
+        "members": [
+          "Building a base from scratch",
+          "Reading your defence replays"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which tutorial should I read first?",
+        "a": "If you are new, getting started, then finding a good clan. If your attacks are failing, your first war attack followed by luring the Clan Castle. If you are short of resources, the farming loop. If your base keeps losing, reading your defence replays."
+      },
+      {
+        "q": "Are these tutorials up to date?",
+        "a": "The routines described here are built on game mechanics that have been stable for years rather than on current balance numbers, so they do not go stale with each patch. Where a page cites specific figures it links to the wiki, where the data vintage is stated openly."
+      }
+    ],
+    "related": [
+      {
+        "href": "wiki/",
+        "label": "The wiki — how everything works, in reference form"
+      },
+      {
+        "href": "news/",
+        "label": "News — update coverage and balance breakdowns"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "slug": "getting-started",
+      "name": "Getting started",
+      "h1": "Clash of Clans for Beginners: Your First Week",
+      "head_title": "Clash of Clans for Beginners: Your First Week | Goblins Farm",
+      "description": "A first-week Clash of Clans guide: what to build, why joining a clan immediately matters most, and the beginner mistakes that cost months.",
+      "blurb": "What to do in your first seven days, and the two mistakes that cost the most.",
+      "summary": "Clash of Clans is generous to new players and unforgiving of a few specific early habits. This walks through the first week in the order that matters, and explains which advice you will read elsewhere is genuinely important and which is noise.",
+      "quick": {
+        "Time needed": "Ten minutes a day",
+        "Difficulty": "None",
+        "Applies to": "Town Hall 1 to 4"
+      },
+      "intro": "<p>The good news: nothing you do in the first week is unrecoverable. The one exception is gems, which are genuinely scarce and genuinely wasted by beginners. Everything else can be fixed by playing.</p>",
+      "steps": [
+        {
+          "h": "Follow the tutorial, then stop following it",
+          "body": "<p>The in-game tutorial teaches the interface correctly. Once it ends, its suggestions become less useful, because it optimises for engagement rather than for your progress. From that point, use the order below.</p>"
+        },
+        {
+          "h": "Join a clan today, not later",
+          "body": "<p>This is the highest-value action available to a new account, and most players delay it. Clan donations give you troops you have not unlocked, in every attack, for free. Build the Clan Castle as soon as it appears, join any active clan, and request troops before every attack. If the clan is dead, leave and join another; there are thousands.</p>"
+        },
+        {
+          "h": "Keep every builder busy",
+          "body": "<p>An idle builder is the only resource in the game you can waste without noticing. Even a cheap, boring upgrade beats an empty builder. Check this every time you log in, before anything else.</p>"
+        },
+        {
+          "h": "Build army camps before defences",
+          "body": "<p>More troops per attack improves every attack you will make at this level. A new cannon improves one defence. Camps first, every time.</p>"
+        },
+        {
+          "h": "Start the laboratory early",
+          "body": "<p>Research applies permanently to every future copy of a troop. It is the most compounding investment in the game and it costs nothing but a timer you were not using.</p>"
+        },
+        {
+          "h": "Spend your loot before you log off",
+          "body": "<p>Resources in storage can be stolen. Resources in an upgrade cannot. Get into the habit now, while the amounts are small, and it will be automatic later when they are not.</p>"
+        },
+        {
+          "h": "Do not spend gems",
+          "body": "<p>Save them. The best purchase in the game is additional builders, and that is what your gems are for. Gems spent skipping a two-minute timer are gone forever.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The two mistakes that actually matter",
+          "body": "<p>Everything else is recoverable. These two are expensive:</p><ul><li><strong>Spending gems on timers.</strong> Free accounts accumulate gems slowly. Every gem spent on a short timer is a fraction of a builder you will not have. Builders compound over the entire life of the account.</li><li><strong>Rushing the Town Hall.</strong> The upgrade button being available does not mean you should press it. Moving up with weak troops and heroes puts you against opponents you cannot beat, and digging out takes months. See <a href='avoid-rushing.html'>how not to rush</a>.</li></ul>"
+        },
+        {
+          "h": "What to ignore",
+          "body": "<p>You will read a lot of advice about optimal trophy ranges, war weight and base layouts copied from screenshots. None of it matters in your first week. Join a clan, keep builders busy, do not spend gems. That is the whole list.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I do first in Clash of Clans?",
+          "a": "Join a clan. Clan donations give you troops you have not unlocked yet, in every attack, at no cost, and it is the single largest boost available to a new account. Build the Clan Castle as soon as it appears and request troops before every attack."
+        },
+        {
+          "q": "Should I spend gems in Clash of Clans?",
+          "a": "Save them toward additional builders, which is the best purchase in the game. Gems spent skipping short timers are permanently gone and produce almost nothing, while an extra builder compounds across the entire life of the account."
+        }
+      ],
+      "related": [
+        "tutorials:choosing-a-clan",
+        "tutorials:upgrade-order",
+        "tutorials:avoid-rushing",
+        "mechanics:upgrade-priority"
+      ],
+      "priority": "0.9",
+      "show_tool_note": false
+    },
+    {
+      "slug": "farming-loop",
+      "name": "The farming loop",
+      "h1": "How to Farm Efficiently in Clash of Clans",
+      "head_title": "How to Farm Efficiently in Clash of Clans | Goblins Farm",
+      "description": "A repeatable Clash of Clans farming routine: cheap armies, loot minimums, skip discipline, and spending down before you log off.",
+      "blurb": "A repeatable session structure that turns random attacking into steady income.",
+      "summary": "Farming is not about finding one great base. It is about running a loop that produces steady loot per hour with minimal effort, and never leaving that loot where someone can take it. This is the loop.",
+      "quick": {
+        "Time needed": "20 to 40 minutes per session",
+        "Difficulty": "Low",
+        "Best for": "Any Town Hall"
+      },
+      "intro": "<p>Almost all farming advice reduces to four things: what you demand from a base before attacking, how fast you skip, how quickly you get back into the next attack, and how much loot you leave in storage when you close the game. Get those right and the rest is detail.<div class='note'><p><b>One thing has changed since most farming guides were written.</b> Troops cost nothing to train and there is no training queue any more, so an attack has no army cost to earn back. The only things an attack actually spends are the search fee and your time, which changes what a good farming army even means. See <a href='barch-farming.html'>farming armies</a>.</p></div></p>",
+      "steps": [
+        {
+          "h": "Set your loot minimum before you start",
+          "body": "<p>Decide the number now, while you are calm, and hold to it. Deciding base by base is how you talk yourself into a mediocre attack at minute twenty. Since armies are free, there is no cost to earn back, so anchor the number on what you are saving for instead: take the upgrade you want, divide by the number of attacks you are willing to spend on it, and make that your floor. Adjust once you see what your trophy range actually offers.</p>"
+        },
+        {
+          "h": "Build a fast, disposable army",
+          "body": "<p>Armies are free, so the test is no longer cost, it is speed and reach: how quickly this army takes the loot that is actually exposed, and how little you care about losing it. Barbarians, Archers and Goblins remain the classic answer, not because they are cheap any more, but because they deploy quickly, spread well and reach perimeter collectors without ceremony. See <a href='barch-farming.html'>farming armies</a>.</p>"
+        },
+        {
+          "h": "Collect everything, including the loot cart",
+          "body": "<p>Collectors, mines, drills, and the loot cart from any defence you took. The cart is easy to miss behind a building and it is free money.</p>"
+        },
+        {
+          "h": "Search while the army trains",
+          "body": "<p>Never sit on the search screen with an empty queue. The army should always be cooking while you look.</p>"
+        },
+        {
+          "h": "Judge each base in three seconds",
+          "body": "<p>Loot preview, collector state, Town Hall position. Below your minimum, skip. Do not study bases you are not going to attack.</p>"
+        },
+        {
+          "h": "Attack the outside, not the core",
+          "body": "<p>On most farming targets the loot is in the collectors on the perimeter. That is where a cheap army wants to go anyway. Only commit into the core when the preview genuinely justifies it, per <a href='../wiki/mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+        },
+        {
+          "h": "Refill and go again",
+          "body": "<p>Armies fill instantly, so nothing stops you starting the next search the moment the attack ends. The constraint on attacks per hour is entirely your own attention, which is exactly why a fixed loot minimum and fast skipping matter so much.</p>"
+        },
+        {
+          "h": "Spend everything before you log off",
+          "body": "<p>Queue upgrades, and dump whatever is left into walls. Walls take unlimited resources instantly with no builder. Log off with empty storages and you are not worth attacking.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Where most sessions go wrong",
+          "body": "<ul><li><strong>No loot minimum.</strong> Without a number, you attack out of impatience.</li><li><strong>Overbuilt army.</strong> Since armies are free, the cost of bringing a heavy one is not resources, it is the extra seconds per attack and the temptation to commit to bases you should have skipped.</li><li><strong>Studying every base.</strong> Three seconds. Skip or attack.</li><li><strong>Logging off rich.</strong> This undoes an entire session in one defence.</li></ul>"
+        },
+        {
+          "h": "Where you sit matters too",
+          "body": "<p>The league you farm in changes what the loop produces. Lower leagues offer more abandoned bases and weaker opposition but a small league bonus; higher leagues offer a large bonus if you reliably win. Test both for a week each and compare actual loot per hour rather than trusting a rule of thumb. See <a href='../wiki/mechanics/trophies-and-leagues.html'>trophies and leagues</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best farming army in Clash of Clans?",
+          "a": "Whichever army takes the exposed loot fastest, which in practice usually means Barbarians, Archers and Goblins. Note that the old advice about cheap armies is out of date in one important way: troops no longer cost anything to train, so there is no army cost to earn back. What you are optimising now is loot per minute of your own time, not loot minus expenses."
+        },
+        {
+          "q": "How do I stop losing my loot?",
+          "a": "Spend it before you log off. Resources committed to an upgrade cannot be stolen, and walls accept unlimited amounts instantly with no builder and no timer, so they are the perfect place for whatever is left over."
+        }
+      ],
+      "related": [
+        "tutorials:barch-farming",
+        "mechanics:loot-mechanics",
+        "mechanics:shields-and-village-guard",
+        "tutorials:dark-elixir-farming"
+      ],
+      "priority": "0.9",
+      "show_tool_note": true
+    },
+    {
+      "slug": "barch-farming",
+      "name": "Farming armies",
+      "h1": "Farming Armies: Barch, Goblins and What Actually Matters Now",
+      "head_title": "Barch and Cheap Farming Armies Explained | Goblins Farm",
+      "description": "How to build and use Clash of Clans farming armies now that troops are free to train: barch, goblin variants, deployment, and what replaced army cost as the thing to optimise.",
+      "blurb": "What a farming army is for now that troops cost nothing to train.",
+      "summary": "A farming army used to be defined by what it cost. Troops are free to train now, so that definition is dead, and a lot of farming advice still online is quietly wrong because of it. What a farming army is for today is taking exposed loot fast enough that you can do it many times without getting bored.",
+      "quick": {
+        "Training cost": "None, troops are free",
+        "What it costs you": "The search fee and your time",
+        "Best against": "Bases with exposed collectors"
+      },
+      "intro": "<p>Most farming guides you will find, including ones written recently, still price armies in elixir. That stopped being true when Supercell removed troop training costs: nothing you put in an army camp costs anything, and there is no training queue to wait out. Resources now go into laboratory research instead, which is permanent.</p><p>What survives from the old advice is the conclusion, for a different reason. A heavy army still cannot take more loot than the base is offering, and it still tempts you into attacks you should have skipped. So you bring the army that strips exposed collectors quickly, and you stop thinking about what it is worth.</p>",
+      "steps": [
+        {
+          "h": "Start with barch",
+          "body": "<p>Barbarians and Archers, roughly balanced. Barbarians engage first and absorb damage, Archers shoot over walls at collectors from behind. It deploys quickly, spreads well and works at nearly every Town Hall, which is what makes it durable advice long after the elixir argument for it disappeared.</p>"
+        },
+        {
+          "h": "Add Goblins for collector-heavy bases",
+          "body": "<p>Goblins deal bonus damage to resource buildings and move fast. Against a base with full mines on the perimeter, a goblin-heavy army strips it in seconds. Be aware they will run into the core once the outer collectors are gone.</p>"
+        },
+        {
+          "h": "Deploy in a spread line, never a stack",
+          "body": "<p>This is the single most common execution error. Troops dropped on one tile die to one splash shell. Spread along the side you are attacking so more of them engage buildings and fewer die at once.</p>"
+        },
+        {
+          "h": "Send Barbarians a beat before Archers",
+          "body": "<p>Let the Barbarians take the first shots, then drop Archers behind them. Same rhythm as a Giant push, at a fraction of the cost.</p>"
+        },
+        {
+          "h": "Do not chase the core",
+          "body": "<p>If the loot is in the storages behind walls, that is not a barch target. Skip it. Surface armies farm surfaces, and the base after this one is free to look at.</p>"
+        },
+        {
+          "h": "Go straight back in",
+          "body": "<p>There is no training wait, so the next search can start the moment the attack ends. What limits your attacks per hour is how long you spend admiring the last one.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "When to move on from surface armies",
+          "body": "<p>Change the composition when the loot you need stops being on the outside. Dark elixir in particular usually sits in drills inside the base, which cheap surface armies cannot reach reliably, so dark elixir farming often justifies a slightly more expensive setup. See <a href='dark-elixir-farming.html'>farming dark elixir</a>.</p><p>Otherwise, simple wins. No army makes a poor base richer, and since none of them cost anything, the only thing a heavier army buys you is time spent, which is the one resource farming actually consumes.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is barch in Clash of Clans?",
+          "a": "A farming army of mostly Barbarians and Archers. Barbarians absorb the first damage while Archers shoot over walls at collectors. It was originally popular because it was cheap; troops are free to train now, so what keeps it in use is that it deploys fast and strips exposed collectors with no fuss."
+        },
+        {
+          "q": "Should I use Goblins for farming?",
+          "a": "On bases with plenty of exposed collectors, yes, since Goblins move fast and deal bonus damage to resource buildings. Be aware they target resource buildings specifically, so once the outer collectors are gone they will run into the core after the storages and die."
+        }
+      ],
+      "related": [
+        "tutorials:farming-loop",
+        "troops:barbarian",
+        "troops:goblin",
+        "mechanics:loot-mechanics"
+      ],
+      "priority": "0.8",
+      "show_tool_note": true
+    },
+    {
+      "slug": "dark-elixir-farming",
+      "name": "Farming dark elixir",
+      "h1": "How to Farm Dark Elixir in Clash of Clans",
+      "head_title": "How to Farm Dark Elixir in Clash of Clans | Goblins Farm",
+      "description": "How to farm dark elixir efficiently: drill sniping, when to commit to the storage, league bonuses, and protecting what you earn.",
+      "blurb": "The resource that gates your heroes, and three ways to get it.",
+      "summary": "Dark elixir decides how fast your heroes grow, and heroes decide how good your attacks are. It is also the hardest resource to accumulate, which makes farming it deliberately one of the highest-value habits in the game.",
+      "quick": {
+        "Unlocked at": "Town Hall 7",
+        "Main use": "Hero upgrades",
+        "Difficulty": "Medium"
+      },
+      "intro": "<p>Most players acquire dark elixir accidentally and wonder why their heroes are behind. The players whose heroes are not behind farm it on purpose, using one of three approaches.</p>",
+      "steps": [
+        {
+          "h": "Decide which approach you are using today",
+          "body": "<p>Drill sniping, full storage attacks, or league bonus farming. Mixing them randomly within a session is how you end up with an expensive army attacking a cheap target.</p>"
+        },
+        {
+          "h": "For drill sniping, set a hard minimum and skip fast",
+          "body": "<p>Look for drills placed loosely, near the edge or in a weak compartment. Take only the drills with a small cheap force. Yield per attack is low; yield per hour is high if your skip discipline holds.</p>"
+        },
+        {
+          "h": "For storage attacks, check the preview against the clock",
+          "body": "<p>Reaching the Dark Elixir Storage means going into the core, which takes a full attack and most of the timer. The army is free; the minutes are not. Only commit when the preview justifies spending them, and remember you will not take all of it.</p>"
+        },
+        {
+          "h": "For league bonus farming, be honest about your win rate",
+          "body": "<p>Higher leagues pay a substantial dark elixir bonus for winning. That is only income if you actually win reliably. If you are losing half your attacks up there, the bonus is theoretical.</p>"
+        },
+        {
+          "h": "Collect your own drills every session",
+          "body": "<p>Dark elixir sitting in a full drill is the most stealable dark elixir on your base.</p>"
+        },
+        {
+          "h": "Start a hero upgrade before you log off",
+          "body": "<p>Dark elixir committed to a hero cannot be stolen. This single habit is the difference between heroes that progress and heroes that do not.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Protecting what you earn",
+          "body": "<p>Put the Dark Elixir Storage in your most protected compartment, deeper than gold and elixir. Farmers will happily give up gold to reach dark elixir, so it needs to be the hardest thing on your base to get to. More on this in <a href='../wiki/mechanics/dark-elixir.html'>dark elixir</a> and <a href='base-building.html'>base building</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the fastest way to farm dark elixir?",
+          "a": "Usually drill sniping with a small cheap force and a strict skip minimum, because drills hold a large stealable share and are far cheaper to reach than the core storage. In higher leagues the league bonus becomes a large and much more predictable source, provided you win reliably."
+        },
+        {
+          "q": "Why is my dark elixir always low?",
+          "a": "Most often because it is being stolen from full drills or a shallow storage, or because it sits in storage overnight instead of being committed to a hero upgrade. Collect drills every session and start a hero upgrade before closing the game."
+        }
+      ],
+      "related": [
+        "mechanics:dark-elixir",
+        "tutorials:hero-management",
+        "tutorials:farming-loop",
+        "guides:dark-elixir-bot"
+      ],
+      "priority": "0.8",
+      "show_tool_note": true
+    },
+    {
+      "slug": "first-war-attack",
+      "name": "Your first war attack",
+      "h1": "How to Do Your First Clan War Attack",
+      "head_title": "How to Do Your First Clan War Attack | Goblins Farm",
+      "description": "A step-by-step guide to your first Clash of Clans war attack: scouting, luring the Clan Castle, funnelling, and war etiquette.",
+      "blurb": "Scout, lure, funnel, attack — in that order, every time.",
+      "summary": "War attacks fail for predictable reasons, and almost all of them happen before a single troop is deployed. This is the routine that avoids them.",
+      "quick": {
+        "When": "Battle day",
+        "Attacks": "Two per member",
+        "Difficulty": "Medium"
+      },
+      "intro": "<p>The difference between a war attack and a farming attack is that you are trying to destroy the base rather than profit from it, and that someone else is depending on the result. Both change how you prepare.</p>",
+      "steps": [
+        {
+          "h": "Scout during preparation day, not thirty seconds before",
+          "body": "<p>Look at your likely targets while there is no time pressure. Note the Clan Castle position, where the splash defences are, and which side has the fewest outside buildings.</p>"
+        },
+        {
+          "h": "Ask your clan which base to take",
+          "body": "<p>Most clans expect you to attack your mirror, the base at your own position on the enemy map, or one or two above it. Attacking far below your position early takes a target away from someone else and wins nothing. Call your target in chat before you start.</p>"
+        },
+        {
+          "h": "Request everything you need, early",
+          "body": "<p>Clan Castle troops, a siege machine, spells. Donations are not instant, and leaving it until the last hour is how attacks get made with the wrong army.</p>"
+        },
+        {
+          "h": "Lure the Clan Castle first",
+          "body": "<p>Drop one cheap troop near the base edge until the garrison fires. Then drop another cheap troop far from the base and let them chase it into open ground, where you kill them with a poison spell or a handful of troops. Never attack into a live defensive Castle.</p>"
+        },
+        {
+          "h": "Build the funnel",
+          "body": "<p>Clear the outside buildings on both shoulders of your entry point with heroes or a few cheap troops, so the main army paths inward rather than around the perimeter. This step is skipped constantly and it is why attacks stall at 50 per cent.</p>"
+        },
+        {
+          "h": "Send the main army into the gap",
+          "body": "<p>Tank first, spread in a line, damage troops behind. Not a stack, and not all at once from one tile.</p>"
+        },
+        {
+          "h": "Hold your spells",
+          "body": "<p>Spells go down when the army is engaged with something that matters, usually around the sixty-second mark, not in the first fifteen seconds because it feels productive.</p>"
+        },
+        {
+          "h": "Post the result honestly",
+          "body": "<p>If it failed, say what happened. Someone else has to clean up that base and they need to know what beat you.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The war rules that matter most",
+          "body": "<ul><li><strong>Use both attacks.</strong> An unused attack is a star the clan can never recover, and it is the most common reason players are removed from clans.</li><li><strong>Fill your own war Clan Castle.</strong> An empty one is a free star for the enemy.</li><li><strong>Only the best result on each base counts.</strong> Matching a teammate's two stars contributes nothing. Read <a href='../wiki/mechanics/clan-wars.html'>Clan Wars</a> before your first war.</li></ul>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which base should I attack in a clan war?",
+          "a": "Usually your mirror, the base at your own position on the enemy map, or one or two above it, then use your second attack on whatever the clan still needs. Ask your clan first, since conventions vary, and always call your target in chat so two people do not attack the same base."
+        },
+        {
+          "q": "Why do my war attacks stall halfway?",
+          "a": "Almost always a missing funnel or an unlured Clan Castle. Without a funnel your army walks around the outside of the base, and a live defensive Castle eats the push mid-attack. Both are fixed before you deploy your main army, not during."
+        }
+      ],
+      "related": [
+        "mechanics:clan-wars",
+        "mechanics:clan-castle-troops",
+        "mechanics:funnelling",
+        "tutorials:clan-castle-lure"
+      ],
+      "priority": "0.9",
+      "show_tool_note": false
+    },
+    {
+      "slug": "clan-castle-lure",
+      "name": "Luring the Clan Castle",
+      "h1": "How to Lure Clan Castle Troops",
+      "head_title": "How to Lure Clan Castle Troops | Goblins Farm",
+      "description": "A step-by-step method for luring defending Clan Castle troops in Clash of Clans, and killing them cheaply in open ground.",
+      "blurb": "Ninety seconds that decide whether your attack works.",
+      "summary": "The defending Clan Castle is the only thing on a base that comes after you. Pulling it out and killing it in open ground costs a fraction of what fighting it inside the base costs, and the routine takes under two minutes.",
+      "quick": {
+        "Cost": "Two cheap troops and often one spell",
+        "Time": "About 90 seconds",
+        "Skip it": "Never, in war"
+      },
+      "intro": "<p>Attacking into a live Clan Castle is the most common self-inflicted defeat in Clash of Clans. It is also entirely avoidable with a routine that becomes automatic after a dozen attacks.</p>",
+      "steps": [
+        {
+          "h": "Check whether the Castle is filled",
+          "body": "<p>The scouting screen shows this. If it is empty, skip this whole routine and attack.</p>"
+        },
+        {
+          "h": "Find the trigger radius",
+          "body": "<p>Drop a single cheap troop near the edge of the base. If nothing happens, drop another slightly closer. One Barbarian at a time. The radius is larger than most players expect.</p>"
+        },
+        {
+          "h": "Wait for the garrison to commit",
+          "body": "<p>Once troops emerge, let them start chasing. Do not panic and deploy your army.</p>"
+        },
+        {
+          "h": "Pull them into open ground",
+          "body": "<p>Drop another cheap troop well away from the base, in a corner or an empty stretch. Defending troops chase across the whole map, so they will follow.</p>"
+        },
+        {
+          "h": "Kill them there",
+          "body": "<p>Away from the defences, surround them with a few cheap troops and drop a poison spell on the clump. Ramping damage plus bodies to hold them is the standard answer, and it is cheap.</p>"
+        },
+        {
+          "h": "Now start your real attack",
+          "body": "<p>The base is passive apart from heroes. Deploy the army you actually planned.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Common mistakes",
+          "body": "<ul><li><strong>Luring with the main army.</strong> The whole point is to spend almost nothing. Cheap troops only.</li><li><strong>Luring next to the base.</strong> If the fight happens within range of the defences, you have not moved the problem, you have joined it.</li><li><strong>Assuming the Castle is empty because nothing came out.</strong> You may not have reached the radius yet. Probe properly.</li><li><strong>Skipping it to save time.</strong> The ninety seconds you save costs you the attack.</li></ul>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I know if a base has Clan Castle troops?",
+          "a": "The scouting screen shows whether the Clan Castle is filled. If it is, probe the trigger radius with single cheap troops before committing anything else, since the radius is usually larger than players expect."
+        },
+        {
+          "q": "What is the best way to kill lured Clan Castle troops?",
+          "a": "Pull them well away from the base into open ground, surround them with a few cheap troops to hold them in place, and drop a Poison Spell on the clump. The ramping damage does the work for very little cost."
+        }
+      ],
+      "related": [
+        "mechanics:clan-castle-troops",
+        "spells:poison-spell",
+        "tutorials:first-war-attack",
+        "mechanics:clan-wars"
+      ],
+      "priority": "0.8",
+      "show_tool_note": false
+    },
+    {
+      "slug": "dragon-attack",
+      "name": "The dragon attack",
+      "h1": "How to Do a Dragon Attack in Clash of Clans",
+      "head_title": "How to Do a Dragon Attack in Clash of Clans | Goblins Farm",
+      "description": "A step-by-step dragon attack guide: picking the weakest anti-air side, deployment, spell timing, and why air attacks are so forgiving.",
+      "blurb": "The most forgiving strong attack in the mid game, step by step.",
+      "summary": "Dragon attacks work because they remove the hardest part of attacking. Air troops ignore walls and pathing, so instead of managing a funnel you make one good decision: which side has the weakest anti-air.",
+      "quick": {
+        "Best at": "Town Hall 7 and up",
+        "Difficulty": "Low",
+        "Key decision": "Which side to attack"
+      },
+      "intro": "<p>If your ground attacks keep stalling at 50 per cent, switching to air for a while is not a retreat. It removes pathing from the equation entirely and lets you practise deployment and spell timing without also fighting the base layout.</p>",
+      "steps": [
+        {
+          "h": "Find the Air Defenses",
+          "body": "<p>Before anything else. Scout the base and locate every Air Defense. This decides the entire attack.</p>"
+        },
+        {
+          "h": "Pick the side with the weakest anti-air coverage",
+          "body": "<p>Not the side nearest the Town Hall. Not the side that looks open. The side where the fewest Air Defenses can reach your dragons at once.</p>"
+        },
+        {
+          "h": "Deal with the Clan Castle",
+          "body": "<p>Defending troops will come for your dragons too. Lure and kill them first if the Castle is filled.</p>"
+        },
+        {
+          "h": "Deploy in a spread line, all at once",
+          "body": "<p>Dragons work as a wave. Trickling them in one at a time feeds them to the defences individually. Spread them so a single air splash defence cannot hit the whole group.</p>"
+        },
+        {
+          "h": "Send a Baby Dragon down each flank if you have them",
+          "body": "<p>Kept away from the main group they enrage and clear the outside buildings quickly, which keeps the main wave heading inward.</p>"
+        },
+        {
+          "h": "Rage as they engage the first Air Defense",
+          "body": "<p>The attack is decided by how fast the anti-air dies. That is where the spell goes, not on the walk in.</p>"
+        },
+        {
+          "h": "Save one spell for the second Air Defense",
+          "body": "<p>The first is usually fine. It is the second and third that kill the wave, so do not spend everything early.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why this works and when it stops",
+          "body": "<p>It works because walls, compartments and troop pathing, the three things that make ground attacks hard, are all irrelevant to air units. It stops working when bases start carrying enough well-spread anti-air and air-targeting splash that a wave cannot survive long enough to clear it, which is exactly what higher Town Halls build for. At that point the skills you practised, deployment spread and spell timing, carry over to whatever you switch to.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do my dragon attacks fail?",
+          "a": "Nearly always because the wave was deployed into the strongest anti-air side, or trickled in a few at a time instead of as one spread group. Scout every Air Defense before deploying and commit to the side where the fewest can reach you at once."
+        },
+        {
+          "q": "Are dragon attacks good for farming?",
+          "a": "Not especially. Dragons are expensive and slow to train, and they attack whatever is nearest rather than seeking loot, so they spend the attack destroying buildings that hold nothing. They are a war and trophy army, not a farming one."
+        }
+      ],
+      "related": [
+        "troops:dragon",
+        "troops:baby-dragon",
+        "buildings:air-defense",
+        "spells:rage-spell"
+      ],
+      "priority": "0.8",
+      "show_tool_note": false
+    },
+    {
+      "slug": "base-building",
+      "name": "Building a base from scratch",
+      "h1": "How to Build a Clash of Clans Base From Scratch",
+      "head_title": "How to Build a Clash of Clans Base From Scratch | Goblins Farm",
+      "description": "A step-by-step method for designing a Clash of Clans base: choosing a purpose, building compartments, placing splash and anti-air, and testing with replays.",
+      "blurb": "Design one yourself instead of copying a screenshot that no longer fits.",
+      "summary": "Copied layouts are built for someone else's defence levels and a meta that has moved on. Building your own from principles takes twenty minutes and produces something you can actually fix when it fails.",
+      "quick": {
+        "Time needed": "20 minutes, plus a few days of replays",
+        "Difficulty": "Medium",
+        "Redo it": "After every Town Hall"
+      },
+      "intro": "<p>You do not need to be creative. You need to answer five questions in order, and then watch what happens.</p>",
+      "steps": [
+        {
+          "h": "Decide what the base is for",
+          "body": "<p>Farming, trophies or war. A farming base protects storages and dark elixir and cheerfully gives up the Town Hall. A trophy base does the opposite. A war base protects everything. Trying to do all three produces a base that does none.</p>"
+        },
+        {
+          "h": "Place the core first",
+          "body": "<p>Put the Clan Castle centrally, so its radius covers every approach and cannot be triggered from safety. Then the Town Hall or the storages, depending on step one.</p>"
+        },
+        {
+          "h": "Build compartments, not a ring",
+          "body": "<p>Divide the interior into many small walled cells. One ring around everything is a single door. Use storages as compartment walls; they have large hitpoints and slow attackers who stop to hit them.</p>"
+        },
+        {
+          "h": "Centre the splash damage",
+          "body": "<p>Splash defences cover the compartments attackers must enter. On the perimeter they cover ground the attacker can ignore.</p>"
+        },
+        {
+          "h": "Spread the anti-air, deep",
+          "body": "<p>Never two Air Defenses close enough that one spell radius reaches both. Across three or four sides, inside the base, covered by other defences.</p>"
+        },
+        {
+          "h": "Tidy the perimeter",
+          "body": "<p>Loose buildings outside the walls give attackers free funnelling and free destruction percentage. Bring them in or accept what they cost you.</p>"
+        },
+        {
+          "h": "Sweep for gaps",
+          "body": "<p>One missing wall tile is a door, and pathing finds it instantly. Walk the whole perimeter after every change.</p>"
+        },
+        {
+          "h": "Play it for a few days, then watch every replay",
+          "body": "<p>This is the step everyone skips and it is the only one that produces information. Note where attackers deploy and which compartment falls first.</p>"
+        },
+        {
+          "h": "Change one thing",
+          "body": "<p>Move a single defence or reshape one compartment, then watch again. Changing five things at once teaches you nothing.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the replays will tell you",
+          "body": "<p>Three attackers entering from the same side is not bad luck, it is a design fact. A defence that dies first every time is either too far forward or not covered. An army that walks straight to your storages means your compartments are not doing their job. The principles behind all of this are in <a href='../wiki/mechanics/base-building-principles.html'>base building principles</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is it better to copy a base layout or build my own?",
+          "a": "Start from a good layout if you like, but adapt it and then iterate from your own defence replays. A copied screenshot reflects someone else's defence levels and the attack meta when it was made, and you cannot fix what you do not understand."
+        },
+        {
+          "q": "Should I protect my Town Hall or my storages?",
+          "a": "It depends on the base's purpose. A farming base protects storages and dark elixir and gives up the Town Hall, since losing a star costs far less than losing loot. A trophy base does the reverse. Decide this before you place a single building."
+        }
+      ],
+      "related": [
+        "mechanics:base-building-principles",
+        "mechanics:defence-mechanics",
+        "mechanics:walls-and-pathing",
+        "tutorials:reading-replays"
+      ],
+      "priority": "0.8",
+      "show_tool_note": false
+    },
+    {
+      "slug": "reading-replays",
+      "name": "Reading your defence replays",
+      "h1": "How to Read Defence Replays and Fix Your Base",
+      "head_title": "How to Read Defence Replays and Fix Your Base | Goblins Farm",
+      "description": "How to use Clash of Clans defence replays to find real weaknesses in your base, and the changes worth making as a result.",
+      "blurb": "The only honest feedback your base will ever get.",
+      "summary": "You cannot evaluate a base by looking at it. You can only evaluate it by watching it lose, repeatedly, and noticing the pattern. Almost nobody does this, which is why almost everybody has a base with an obvious hole.",
+      "quick": {
+        "Time needed": "Five minutes a day",
+        "Difficulty": "Low",
+        "Payoff": "High"
+      },
+      "intro": "<p>The game hands you a complete recording of every defeat and most players never open one. Three replays will tell you more about your layout than any amount of theory.</p>",
+      "steps": [
+        {
+          "h": "Watch the whole replay, not the result",
+          "body": "<p>The percentage is not the information. Where the attacker deployed, what they deployed, and what died first is the information.</p>"
+        },
+        {
+          "h": "Note the deployment side",
+          "body": "<p>Write it down, mentally or otherwise, for several attacks. If three different attackers all chose the same side, that side is the weakness, not a coincidence.</p>"
+        },
+        {
+          "h": "Note which defence died first, every time",
+          "body": "<p>A building that always dies early is either too far forward or not covered by anything else. Both are fixable.</p>"
+        },
+        {
+          "h": "Note what actually killed your defenders",
+          "body": "<p>Did splash damage clear a swarm, or did nothing reach it? Did your Air Defenses fire at all before dying? Did the Clan Castle even trigger?</p>"
+        },
+        {
+          "h": "Check whether the Clan Castle was full",
+          "body": "<p>An empty Castle during a defence is not a layout problem, it is a habit problem, and it is extremely common.</p>"
+        },
+        {
+          "h": "Change one thing",
+          "body": "<p>One defence moved, or one compartment reshaped. Then watch the next few replays to see whether it worked.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What most people find",
+          "body": "<p>The three most common findings, in order: anti-air clustered so one spell removes it all; splash damage sitting on the perimeter where attacks never go; and a Clan Castle placed near an edge so attackers lure it safely. All three are ten-second fixes once you have seen them happen.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I know if my base is bad?",
+          "a": "Watch several defence replays and look for repetition. If different attackers keep entering from the same side, or the same defence dies first every time, that is a design fact rather than bad luck, and it tells you exactly what to move."
+        },
+        {
+          "q": "How often should I change my base?",
+          "a": "Change one thing at a time and give it several defences before judging. Changing multiple things at once produces a base you cannot diagnose, because you no longer know which change caused the result."
+        }
+      ],
+      "related": [
+        "tutorials:base-building",
+        "mechanics:base-building-principles",
+        "mechanics:defence-mechanics",
+        "buildings:air-defense"
+      ],
+      "priority": "0.7",
+      "show_tool_note": false
+    },
+    {
+      "slug": "upgrade-order",
+      "name": "What to upgrade next",
+      "h1": "What to Upgrade Next in Clash of Clans",
+      "head_title": "What to Upgrade Next in Clash of Clans | Goblins Farm",
+      "description": "A practical framework for deciding what to upgrade next in Clash of Clans at any Town Hall, and the checklist to run before moving up.",
+      "blurb": "One framework that answers the question at every Town Hall.",
+      "summary": "The specific answer changes at every Town Hall. The method does not. Four things should never be idle, and within that there is a reliable ordering.",
+      "quick": {
+        "Applies to": "Every Town Hall",
+        "Difficulty": "Low",
+        "Check it": "Every login"
+      },
+      "intro": "<p>Progress in Clash of Clans is measured in parallel timers, not in resources. Loot sitting in a storage is doing nothing except attracting attackers. The question is never really what to upgrade, it is what is currently not running.</p>",
+      "steps": [
+        {
+          "h": "Check the four things that should never be idle",
+          "body": "<p>The laboratory, a hero, every builder, and your defensive Clan Castle. If any of those is empty, that is your answer and you can stop reading.</p>"
+        },
+        {
+          "h": "Army camps first at a new Town Hall",
+          "body": "<p>More troops per attack improves every attack you make at this level. This is almost always the best first purchase after moving up.</p>"
+        },
+        {
+          "h": "Laboratory, then the research you actually use",
+          "body": "<p>Research the troops in the army you genuinely run, not the ones you might one day try. It applies permanently to every future attack.</p>"
+        },
+        {
+          "h": "Storages next",
+          "body": "<p>If your storages cannot hold the cost of the next upgrade, you physically cannot buy it, and this confuses people for days.</p>"
+        },
+        {
+          "h": "Close defence category gaps",
+          "body": "<p>A missing Air Defense is a hole; a fourth Cannon is a decoration. Fix the category you do not have before adding depth to one you do.</p>"
+        },
+        {
+          "h": "Walls, continuously, with surplus",
+          "body": "<p>Never a priority. Always the sink. No builder, no timer, unlimited capacity.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Before you press the Town Hall upgrade button",
+          "body": "<p>Run this checklist honestly:</p><ol><li>Are my heroes within a reasonable range of this Town Hall's cap?</li><li>Is the laboratory maxed for this level, and are the troops I use researched?</li><li>Are army camps maxed?</li><li>Is any defence category, especially anti-air, still weak?</li><li>Will I have builders free for the next level's queue?</li></ol><p>Four yeses means go. Two means you are rushing, which is a choice rather than a mistake, but you should know you are making it. See <a href='avoid-rushing.html'>how not to rush</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I upgrade first in Clash of Clans?",
+          "a": "Whatever is currently idle. The laboratory, a hero and every builder should always be running, and if one is not, that is your answer. At a new Town Hall, army camps and laboratory research come first because they improve every attack you make at that level."
+        },
+        {
+          "q": "Should I upgrade walls?",
+          "a": "Yes, but only with surplus, and never before defences, heroes or research. Walls need no builder and no timer and accept unlimited resources, which makes them the ideal place to spend loot you would otherwise leave in a storage where it can be stolen."
+        }
+      ],
+      "related": [
+        "mechanics:upgrade-priority",
+        "tutorials:avoid-rushing",
+        "tutorials:hero-management",
+        "townhalls:index"
+      ],
+      "priority": "0.9",
+      "show_tool_note": false
+    },
+    {
+      "slug": "avoid-rushing",
+      "name": "How not to rush",
+      "h1": "Rushing Your Town Hall: What It Costs and How to Avoid It",
+      "head_title": "Rushing Your Town Hall: What It Costs and How to Avoid It | Goblins Farm",
+      "description": "What rushing means in Clash of Clans, what it actually costs, how to tell if you have rushed, and how to recover if you have.",
+      "blurb": "What rushing actually costs, and how to dig out if you already did.",
+      "summary": "Rushing is not forbidden and it is not always wrong. It is a trade, and most players make it without knowing what they are trading. This explains the exchange rate and what to do if you have already made it.",
+      "quick": {
+        "Applies to": "Every Town Hall",
+        "Difficulty": "Low",
+        "Recoverable": "Yes, slowly"
+      },
+      "intro": "<p>Rushing means upgrading the Town Hall while the base beneath it is far from complete. The Town Hall upgrade button being available is not a recommendation.</p>",
+      "steps": [
+        {
+          "h": "Understand what you gain",
+          "body": "<p>Access to new buildings, troops and levels sooner. That is genuinely worth something, particularly if you find new content motivating.</p>"
+        },
+        {
+          "h": "Understand what you pay",
+          "body": "<p>Your defences are several tiers behind the players you now meet, so you lose more defences. Your army is behind the bases you are offered, so you win less. War matchmaking looks at what you own rather than whether it is upgraded, so your war matchups get harder. The result is a village that looks advanced and performs badly.</p>"
+        },
+        {
+          "h": "Check whether you have already rushed",
+          "body": "<p>Heroes far below the cap for your level, laboratory research several tiers behind, and defences that die instantly are the symptoms. If war feels impossible and farming feels unprofitable, that is usually why.</p>"
+        },
+        {
+          "h": "If you have rushed, fix heroes first",
+          "body": "<p>Hero levels are the largest contributor to attacking power and the slowest to recover, so they go first. Keep one upgrading permanently from now on.</p>"
+        },
+        {
+          "h": "Then fix laboratory research",
+          "body": "<p>Research improves every attack forever, and rushed accounts are usually badly behind here.</p>"
+        },
+        {
+          "h": "Then close defence category gaps",
+          "body": "<p>Not every building. The categories you are missing entirely, especially anti-air.</p>"
+        },
+        {
+          "h": "Stop moving up until those three are reasonable",
+          "body": "<p>The dig-out only works if you stop digging.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The moderate position",
+          "body": "<p>Most experienced players do not max everything and do not skip categories either. Get heroes, research, army camps and the key defences to a sensible level for the Town Hall, leave some decorative buildings behind, and move on. Leaving a few walls unupgraded is fine. Leaving your heroes ten levels behind is not.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is rushing bad in Clash of Clans?",
+          "a": "It is a trade rather than a mistake. You get new content sooner and pay with weaker defences, a weaker army relative to opponents and harder war matchups. The problem is that most players make the trade without realising they are making it."
+        },
+        {
+          "q": "How do I fix a rushed base?",
+          "a": "Heroes first, because they contribute most and recover slowest, then laboratory research, then whichever defence categories you are missing entirely. And stop upgrading the Town Hall until those three are reasonable for your level."
+        }
+      ],
+      "related": [
+        "tutorials:upgrade-order",
+        "mechanics:upgrade-priority",
+        "mechanics:war-weight",
+        "tutorials:hero-management"
+      ],
+      "priority": "0.8",
+      "show_tool_note": false
+    },
+    {
+      "slug": "hero-management",
+      "name": "Keeping heroes upgrading",
+      "h1": "Hero Upgrade Management in Clash of Clans",
+      "head_title": "Hero Upgrade Management in Clash of Clans | Goblins Farm",
+      "description": "How to keep Clash of Clans heroes upgrading continuously, why the downtime is worth it, and how to schedule around wars.",
+      "blurb": "The habit that decides how fast your account actually progresses.",
+      "summary": "Hero upgrades have the longest timers in the game, which means the only way to finish them is to always have one running. Most players do the opposite, waiting for a convenient moment that never arrives.",
+      "quick": {
+        "Resource": "Dark elixir",
+        "Downtime": "Real, and worth it",
+        "Check it": "Every login"
+      },
+      "intro": "<p>The maths is simple and unpleasant. If a hero upgrade takes two weeks and you only run one when it is convenient, you will complete a fraction of the upgrades of a player who simply always has one going. Skill does not close that gap.</p>",
+      "steps": [
+        {
+          "h": "Accept the downtime as the cost of progress",
+          "body": "<p>You will attack without that hero for days. Everyone does. The alternative is being permanently several levels behind, which costs more in every attack for months.</p>"
+        },
+        {
+          "h": "Stagger heroes rather than upgrading them together",
+          "body": "<p>Where you have several, keep one upgrading while the others are available. Upgrading two at once leaves you with no heroes at all, which genuinely does hurt.</p>"
+        },
+        {
+          "h": "Schedule around war, not around convenience",
+          "body": "<p>If your clan wars on a fixed schedule, start long hero upgrades just after a war ends rather than the day before one starts.</p>"
+        },
+        {
+          "h": "Farm dark elixir deliberately",
+          "body": "<p>Idle heroes for lack of dark elixir is the most common bottleneck in the mid to late game. See <a href='dark-elixir-farming.html'>farming dark elixir</a>.</p>"
+        },
+        {
+          "h": "Start the upgrade before you log off",
+          "body": "<p>Dark elixir committed to a hero cannot be stolen. Dark elixir in your storage overnight frequently is.</p>"
+        },
+        {
+          "h": "Save your Books of Heroes for the longest upgrade available",
+          "body": "<p>Books do not expire. Using one on a two-day upgrade instead of a fourteen-day one wastes most of its value for no reason. See <a href='../wiki/mechanics/magic-items.html'>magic items</a>.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What about hero equipment?",
+          "body": "<p>Equipment is a separate track, upgraded with ores rather than dark elixir, so it does not compete for the same resource. The rule there is to concentrate ores on the few pieces you actually equip rather than spreading them thin. Details in <a href='../wiki/mechanics/hero-equipment.html'>hero equipment</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I upgrade heroes if I cannot attack with them?",
+          "a": "Yes. Hero timers are the longest in the game, so the only way to finish them is to keep one running continuously. A few days attacking without a hero costs far less than being permanently several levels behind in every attack for months."
+        },
+        {
+          "q": "Should I upgrade two heroes at once?",
+          "a": "Generally no, unless you can spare both. Stagger them so one is always available, since having no heroes at all for a long stretch genuinely damages your attacks and your defence."
+        }
+      ],
+      "related": [
+        "mechanics:dark-elixir",
+        "mechanics:hero-equipment",
+        "tutorials:dark-elixir-farming",
+        "mechanics:upgrade-priority"
+      ],
+      "priority": "0.8",
+      "show_tool_note": false
+    },
+    {
+      "slug": "choosing-a-clan",
+      "name": "Finding a good clan",
+      "h1": "How to Find a Good Clan in Clash of Clans",
+      "head_title": "How to Find a Good Clan in Clash of Clans | Goblins Farm",
+      "description": "How to find and evaluate a Clash of Clans clan: what to look for, the warning signs, and the questions to ask before joining.",
+      "blurb": "The largest free upgrade available to your account.",
+      "summary": "A good clan gives you troops you have not unlocked, war experience, and people who answer questions. A dead clan gives you a badge. The difference is enormous and it costs nothing to switch.",
+      "quick": {
+        "Cost": "Nothing",
+        "Difficulty": "Low",
+        "Switch freely": "Yes"
+      },
+      "intro": "<p>New players treat leaving a clan as rude. It is not. Clans expect turnover, and staying in a dead clan out of politeness costs you months of donations.</p>",
+      "steps": [
+        {
+          "h": "Check whether donations actually happen",
+          "body": "<p>Open the clan chat. If requests sit unfilled for hours, the clan is dead regardless of how many members it has.</p>"
+        },
+        {
+          "h": "Check whether they war, and whether they finish",
+          "body": "<p>The war log shows this. A clan with a long record of wars where members used both attacks is worth far more than one with a good win rate and half the roster inactive.</p>"
+        },
+        {
+          "h": "Read the description honestly",
+          "body": "<p>Trophy requirements, war expectations, donation ratios. If the requirements do not fit you today, that is fine, it just means look elsewhere for now.</p>"
+        },
+        {
+          "h": "Ask one question in chat before deciding",
+          "body": "<p>Anything. How they handle war target calling, or what they want in a defensive Clan Castle. A clan that answers is a clan that will help you later.</p>"
+        },
+        {
+          "h": "Donate before you ask",
+          "body": "<p>The fastest way to be treated well in a new clan is to fill other people's requests immediately. Most clans track this.</p>"
+        },
+        {
+          "h": "Leave without drama if it is not working",
+          "body": "<p>No explanation needed. Clans expect it.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Warning signs",
+          "body": "<ul><li><strong>Unfilled requests in chat.</strong> The clearest signal there is.</li><li><strong>Wars started with half the roster inactive.</strong> You will lose every war and it will not be your fault.</li><li><strong>Leadership that is never online.</strong> Nothing gets organised, including war rosters.</li><li><strong>Rules about trophies but none about war attacks.</strong> Usually a sign of a clan that cares about appearance rather than participation.</li></ul>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I know if a clan is good?",
+          "a": "Open the chat and see whether donation requests are actually being filled, then check the war log for whether members use both attacks. An active donating clan with a mediocre win rate is worth far more to you than a dormant clan with a good one."
+        },
+        {
+          "q": "Is it rude to leave a clan?",
+          "a": "No. Clans expect turnover and most will not think twice about it. Staying in an inactive clan out of politeness costs you months of free donations, which is the largest free upgrade available to your account."
+        }
+      ],
+      "related": [
+        "mechanics:clan-wars",
+        "mechanics:clan-castle-troops",
+        "tutorials:getting-started",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.8",
+      "show_tool_note": false
+    },
+    {
+      "slug": "builder-base-start",
+      "name": "Getting started on the Builder Base",
+      "h1": "Builder Base for Beginners: The Daily Routine",
+      "head_title": "Builder Base for Beginners: The Daily Routine | Goblins Farm",
+      "description": "How to get started with the Clash of Clans Builder Base: versus battles, the daily reward rhythm, and what it unlocks for your main village.",
+      "blurb": "Five minutes a day, and it feeds your main village.",
+      "summary": "The Builder Base is a separate village with its own economy and its own attack mode. Most players ignore it, which is a mistake, because the rewards it unlocks apply to the main village you actually care about.",
+      "quick": {
+        "Time needed": "Five minutes a day",
+        "Difficulty": "Low",
+        "Feeds back": "Yes, into the main village"
+      },
+      "intro": "<p>The key structural fact: full rewards come from a limited number of attacks per day. That makes consistency worth far more than volume, and it makes the Builder Base the least demanding source of progress in the game.</p>",
+      "steps": [
+        {
+          "h": "Understand that versus battles are a comparison",
+          "body": "<p>You and an opponent attack the same base, and the better result wins. You are not stealing loot from the defender, so there is no point scouting for rich targets.</p>"
+        },
+        {
+          "h": "Log in, collect, attack, upgrade, leave",
+          "body": "<p>The whole routine. Collect the mines and the Gem Mine, take your rewarded attacks in one sitting, start upgrades with everything you earned, close the game.</p>"
+        },
+        {
+          "h": "Do it every day rather than in bursts",
+          "body": "<p>Because rewards are capped per day, thirty attacks on Saturday produces far less than a handful daily. This is the opposite of the main village.</p>"
+        },
+        {
+          "h": "Prioritise Builder Hall progression early",
+          "body": "<p>The rewards it unlocks for your main village, including additional building capacity, compound over the entire life of your account. Reaching those milestones early is worth more than optimising anything else here.</p>"
+        },
+        {
+          "h": "Do not try to move resources between villages",
+          "body": "<p>You cannot. The economies are entirely separate, by design.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why bother at all",
+          "body": "<p>Because it is not a side game. Builder Hall progression unlocks things that benefit your main village permanently, and it asks for about five minutes of attention a day. Judged on return per minute spent, it is the best deal in Clash of Clans. More detail in <a href='../wiki/mechanics/builder-base.html'>Builder Base</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the Builder Base worth playing?",
+          "a": "Yes, mainly for what it unlocks for your main village, including extra building capacity. It asks for roughly five minutes a day, and because daily rewards are capped, consistency matters far more than how long you play."
+        },
+        {
+          "q": "Can I transfer resources from the Builder Base to my main village?",
+          "a": "No. The two villages have completely separate economies. The connection between them is the rewards and unlocks that Builder Hall progression grants to your main village."
+        }
+      ],
+      "related": [
+        "mechanics:builder-base",
+        "guides:builder-base-bot",
+        "tutorials:upgrade-order",
+        "mechanics:upgrade-priority"
+      ],
+      "priority": "0.7",
+      "show_tool_note": true
+    }
+  ]
+}

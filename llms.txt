@@ -1,18 +1,54 @@
 # Goblins Farm
 
-> Goblins Farm is a Clash of Clans farming bot for Windows and macOS. It runs the game in the free BlueStacks emulator, reads the screen with computer vision, and farms loot with simulated taps. It never modifies the game client. Licenses are one-time lifetime purchases: Main Base 60 EUR, Builder Base 60 EUR, both for 100 EUR.
+> Goblins Farm publishes a free, independent Clash of Clans wiki and tutorial library covering troops, spells, heroes, defences, Town Hall progression and game mechanics. It also sells Goblins Farm, a screen-reading Clash of Clans farming bot for Windows and macOS that runs the game inside the free BlueStacks emulator. Licences are one-time lifetime purchases: Main Base 60 EUR, Builder Base 60 EUR, both for 100 EUR.
 
-Automation violates Supercell's Terms of Service; risk is never zero. Goblins Farm minimizes footprint by only reading the screen and tapping like a human.
+The wiki and tutorial sections are reference material about the game itself and are free to read with no account. They are unofficial fan content and not affiliated with Supercell. The bot is a separate paid product; automating the game violates Supercell's Terms of Service and carries account risk that is never zero.
 
-## Guides
-- [Clash of Clans Bot, complete guide](https://goblinsfarm.com/guides/clash-of-clans-bot.html)
+## Clash of Clans wiki
+- [Wiki index](https://goblinsfarm.com/wiki/)
+- [Troops (57 pages)](https://goblinsfarm.com/wiki/troops/)
+- [Spells (17 pages)](https://goblinsfarm.com/wiki/spells/)
+- [Heroes (6 pages)](https://goblinsfarm.com/wiki/heroes/)
+- [Buildings (41 pages)](https://goblinsfarm.com/wiki/buildings/)
+- [Town Halls (18 pages)](https://goblinsfarm.com/wiki/town-hall/)
+- [Mechanics (23 pages)](https://goblinsfarm.com/wiki/mechanics/)
+
+## Tutorials
+- [Tutorial index](https://goblinsfarm.com/tutorials/)
+- [Getting started](https://goblinsfarm.com/tutorials/getting-started.html)
+- [The farming loop](https://goblinsfarm.com/tutorials/farming-loop.html)
+- [Farming armies](https://goblinsfarm.com/tutorials/barch-farming.html)
+- [Farming dark elixir](https://goblinsfarm.com/tutorials/dark-elixir-farming.html)
+- [Your first war attack](https://goblinsfarm.com/tutorials/first-war-attack.html)
+- [Luring the Clan Castle](https://goblinsfarm.com/tutorials/clan-castle-lure.html)
+- [The dragon attack](https://goblinsfarm.com/tutorials/dragon-attack.html)
+- [Building a base from scratch](https://goblinsfarm.com/tutorials/base-building.html)
+- [Reading your defence replays](https://goblinsfarm.com/tutorials/reading-replays.html)
+- [What to upgrade next](https://goblinsfarm.com/tutorials/upgrade-order.html)
+- [How not to rush](https://goblinsfarm.com/tutorials/avoid-rushing.html)
+- [Keeping heroes upgrading](https://goblinsfarm.com/tutorials/hero-management.html)
+- [Finding a good clan](https://goblinsfarm.com/tutorials/choosing-a-clan.html)
+- [Getting started on the Builder Base](https://goblinsfarm.com/tutorials/builder-base-start.html)
+
+## News
+- [News index](https://goblinsfarm.com/news/)
+- [RSS feed](https://goblinsfarm.com/news/feed.xml)
+
+## Bot guides
+- [Clash of Clans bot, the complete guide](https://goblinsfarm.com/guides/clash-of-clans-bot.html)
 - [MyBot alternative](https://goblinsfarm.com/guides/mybot-alternative.html)
-- [Farming bot guide](https://goblinsfarm.com/guides/clash-of-clans-farming-bot.html)
+- [CoC farming bot, targets and thresholds](https://goblinsfarm.com/guides/clash-of-clans-farming-bot.html)
 - [Builder Base bot](https://goblinsfarm.com/guides/builder-base-bot.html)
 - [CoC bot for Mac](https://goblinsfarm.com/guides/coc-bot-mac.html)
-- [BlueStacks setup](https://goblinsfarm.com/guides/coc-bot-bluestacks-setup.html)
+- [CoC bot for Windows](https://goblinsfarm.com/guides/coc-bot-windows.html)
+- [BlueStacks setup for botting](https://goblinsfarm.com/guides/coc-bot-bluestacks-setup.html)
 - [Ban risk, honestly](https://goblinsfarm.com/guides/is-coc-botting-safe.html)
 - [Remote control from your phone](https://goblinsfarm.com/guides/coc-bot-remote-control.html)
+- [Best Clash of Clans bot, compared](https://goblinsfarm.com/guides/best-clash-of-clans-bot.html)
+- [Free Clash of Clans bots](https://goblinsfarm.com/guides/clash-of-clans-bot-free.html)
+- [Dark elixir farming bot](https://goblinsfarm.com/guides/dark-elixir-farming-bot.html)
+- [Clash of Clans farming guide](https://goblinsfarm.com/guides/clash-of-clans-farming-guide.html)
+- [Loot calculator](https://goblinsfarm.com/guides/loot-calculator.html)
 
 ## Product
 - [Pricing](https://goblinsfarm.com/#pricing)

@@ -1,0 +1,1895 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Spells",
+    "h1": "Clash of Clans Spells",
+    "head_title": "Clash of Clans Spells, Every Level and Cost",
+    "description": "Every Home Village spell in Clash of Clans with per-level research cost, research time and Town Hall requirement.",
+    "summary": "Every Home Village spell, 17 in total, with the full level table for each one, read from the game files.",
+    "groups": [
+      {
+        "h": "Dark Elixir Spells",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Bat Spell",
+          "Earthquake Spell",
+          "Haste Spell",
+          "Ice Block Spell",
+          "Overgrowth Spell",
+          "Poison Spell",
+          "Skeleton Spell"
+        ]
+      },
+      {
+        "h": "Elixir Spells",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Clone Spell",
+          "Freeze Spell",
+          "Healing Spell",
+          "Invisibility Spell",
+          "Jump Spell",
+          "Lightning Spell",
+          "Rage Spell",
+          "Recall Spell",
+          "Revive Spell",
+          "Totem Spell"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.8"
+  },
+  "entries": [
+    {
+      "slug": "bat-spell",
+      "name": "Bat Spell",
+      "description": "The Bat Spell in Clash of Clans: summoning a swarm of bats, and why air defences erase them.",
+      "blurb": "A swarm of flying attackers from a cheap dark spell.",
+      "summary": "The Bat Spell spawns a swarm of bats that attack buildings. They deal real damage in numbers and die to any air splash instantly, which makes them a burst tool for a base whose anti-air is already dealt with.",
+      "quick": {
+        "Levels": "8",
+        "Housing space": "1",
+        "Radius": "2.25 tiles",
+        "Role": "Dark spell, summon"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>A group of bats appears at the target point and attacks nearby buildings. They are fragile air units, so their lifespan against live anti-air is measured in seconds, and their output against a base whose air defences are down is substantial.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>After the anti-air is gone,</strong> as a finisher on the remaining buildings.</li><li><strong>On a specific compartment</strong> where a lot of buildings sit close together.</li><li><strong>Never as an opener</strong> against live Air Defences, which remove the entire swarm.</li></ul><p>Because it is a dark spell, the spell housing cost is low, which is what makes it viable as a situational finisher rather than a core plan.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Bat Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "13,000 Dark Elixir",
+              "18 h",
+              "10"
+            ],
+            [
+              "3",
+              "25,500 Dark Elixir",
+              "1 d 12 h",
+              "10"
+            ],
+            [
+              "4",
+              "35,000 Dark Elixir",
+              "2 d 6 h",
+              "11"
+            ],
+            [
+              "5",
+              "47,500 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "6",
+              "140,000 Dark Elixir",
+              "7 d",
+              "15"
+            ],
+            [
+              "7",
+              "220,000 Dark Elixir",
+              "8 d 12 h",
+              "17"
+            ],
+            [
+              "8",
+              "300,000 Dark Elixir",
+              "13 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:skeleton-spell",
+        "troops:minion",
+        "mechanics:defence-mechanics",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Bat Spell — Clash of Clans",
+      "head_title": "Bat Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "When should I use the Bat Spell?",
+          "a": "After the anti-air on that side of the base is destroyed, as a finisher on the remaining buildings. Used while Air Defences are alive, the whole swarm is removed almost immediately."
+        },
+        {
+          "q": "Is the Bat Spell good?",
+          "a": "Situationally. It is cheap in spell housing and produces real damage against a base whose air defence is already handled, but it contributes almost nothing against live anti-air, so it belongs in a plan rather than in every loadout."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "clone-spell",
+      "name": "Clone Spell",
+      "description": "The Clone Spell in Clash of Clans: duplicating troops that enter its radius, and the housing space limit.",
+      "blurb": "Copies the troops that walk into it, up to a capacity limit.",
+      "summary": "Clone creates temporary duplicates of friendly troops that enter its circle, up to a housing space limit. The copies are short-lived, so the spell is about creating a burst of damage at a specific moment rather than doubling your army.",
+      "quick": {
+        "Levels": "9",
+        "Housing space": "3",
+        "Radius": "3.5 tiles",
+        "Role": "Elixir spell, duplication"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Troops entering the radius are duplicated until the spell's capacity is used up. The clones expire after a short time, so they are a spike rather than a reinforcement.</p><p>Because capacity is measured in housing space, cloning a few expensive units produces very few copies, while cloning cheap units produces many. That is the main strategic decision.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>Cloning a group of medium-cost damage troops</strong> at the moment they reach the core, so a compartment falls in seconds.</li><li><strong>Not for tanks.</strong> Clones expire quickly; using capacity on units that exist to absorb damage wastes it.</li><li><strong>Placement matters more than timing.</strong> The spell copies what enters, so it goes where your army is heading, not where it currently is.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Clone Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "1,500,000 Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "3",
+              "2,500,000 Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "4",
+              "3,000,000 Elixir",
+              "2 d 6 h",
+              "11"
+            ],
+            [
+              "5",
+              "4,000,000 Elixir",
+              "2 d 12 h",
+              "11"
+            ],
+            [
+              "6",
+              "5,000,000 Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "7",
+              "8,000,000 Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "8",
+              "9,000,000 Elixir",
+              "7 d",
+              "15"
+            ],
+            [
+              "9",
+              "26,000,000 Elixir",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:rage-spell",
+        "troops:wizard",
+        "mechanics:spell-mechanics",
+        "troops:balloon"
+      ],
+      "priority": "0.6",
+      "h1": "Clone Spell — Clash of Clans",
+      "head_title": "Clone Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How does the Clone Spell work?",
+          "a": "It duplicates friendly troops that walk into its radius, up to a housing space capacity, and the copies expire after a short time. It creates a burst of damage at a chosen point rather than permanently adding to your army."
+        },
+        {
+          "q": "What should I clone?",
+          "a": "Medium-cost damage troops, because capacity is measured in housing space, so cheap units produce more copies while expensive ones produce very few. Cloning tanks is poor value since the copies expire before they finish absorbing much."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "earthquake-spell",
+      "name": "Earthquake Spell",
+      "description": "The Earthquake Spell in Clash of Clans: percentage damage to buildings and extra damage to walls.",
+      "blurb": "Percentage-based damage that is unusually brutal to walls.",
+      "summary": "Earthquake deals damage as a proportion of a building's maximum hitpoints and hits walls especially hard. That makes it a wall-opening tool and a softener, rather than a killer.",
+      "quick": {
+        "Levels": "8",
+        "Housing space": "1",
+        "Radius": "3.5 tiles",
+        "Role": "Dark spell, wall damage"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Because its damage is proportional rather than flat, it is equally effective against a fresh building at any level, and it is disproportionately effective against walls. Repeated Earthquakes on the same target have diminishing returns, so stacking them on one wall is less efficient than it looks.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>Opening walls</strong> without spending housing space on Wall Breakers, which suits armies that are already full.</li><li><strong>Softening a building before Lightning,</strong> so fewer Lightning spells are needed to finish an Air Defence.</li><li><strong>As cheap utility,</strong> since it is a dark spell and takes little spell housing.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Earthquake Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "6,000 Dark Elixir",
+              "12 h",
+              "8"
+            ],
+            [
+              "3",
+              "12,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "4",
+              "25,500 Dark Elixir",
+              "3 d",
+              "10"
+            ],
+            [
+              "5",
+              "42,000 Dark Elixir",
+              "3 d 12 h",
+              "11"
+            ],
+            [
+              "6",
+              "120,000 Dark Elixir",
+              "8 d",
+              "14"
+            ],
+            [
+              "7",
+              "200,000 Dark Elixir",
+              "9 d",
+              "16"
+            ],
+            [
+              "8",
+              "330,000 Dark Elixir",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:lightning-spell",
+        "troops:wall-breaker",
+        "mechanics:walls-and-pathing",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Earthquake Spell — Clash of Clans",
+      "head_title": "Earthquake Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Does the Earthquake Spell destroy walls?",
+          "a": "It deals heavy proportional damage to walls, which is its main use, though whether it destroys them outright depends on the levels involved. Stacking several on one wall has diminishing returns, so spreading them is usually better."
+        },
+        {
+          "q": "Why pair Earthquake with Lightning?",
+          "a": "Earthquake softens a building by a proportion of its maximum health, which can reduce the number of Lightning Spells needed to finish off a key defence such as an Air Defence."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "freeze-spell",
+      "name": "Freeze Spell",
+      "description": "The Freeze Spell in Clash of Clans: disabling defences temporarily, and why it is a reactive spell.",
+      "blurb": "Turns off the one defence that is destroying your army.",
+      "summary": "Freeze disables defences inside its radius for a short period. It is the most reactive spell in the game: you do not plan where it goes, you hold it until a specific defence starts shredding your push, and then you drop it there.",
+      "quick": {
+        "Levels": "8",
+        "Housing space": "1",
+        "Radius": "3.5 tiles",
+        "Role": "Elixir spell, control"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Defences inside the circle stop firing for the duration. Since it is a short, surgical effect, its value comes entirely from which defence you catch and when.</p>"
+        },
+        {
+          "h": "When to drop it",
+          "body": "<p>The classic targets are the defences that ramp up or hit an area hard: an Inferno Tower burning through a Golem, a Scattershot clearing your damage line, an Eagle Artillery ranging in on the push.</p><ul><li><strong>Hold it.</strong> A Freeze in your hand is an answer to a problem you have not met yet. A Freeze spent early is nothing.</li><li><strong>Catch more than one if you can,</strong> but do not delay to try; a well-timed single-defence freeze beats a late double.</li><li><strong>Freeze the defence, not the troops.</strong> Aim at the building, since that is what the radius needs to cover.</li></ul>"
+        },
+        {
+          "h": "What it pairs with",
+          "body": "<p>Freeze is what makes slow, expensive units viable. P.E.K.K.A, Golem and Electro Titan armies all live or die on whether the single-target burst defence is disabled at the right moment. If your heavy pushes keep dying at the same building every time, that is the building the Freeze is for.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Freeze Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "9"
+            ],
+            [
+              "2",
+              "1,200,000 Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "3",
+              "1,700,000 Elixir",
+              "1 d 12 h",
+              "10"
+            ],
+            [
+              "4",
+              "3,000,000 Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "5",
+              "4,200,000 Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "6",
+              "6,000,000 Elixir",
+              "3 d 12 h",
+              "11"
+            ],
+            [
+              "7",
+              "7,000,000 Elixir",
+              "5 d",
+              "12"
+            ],
+            [
+              "8",
+              "28,000,000 Elixir",
+              "15 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:rage-spell",
+        "troops:pekka",
+        "mechanics:spell-mechanics",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Freeze Spell — Clash of Clans",
+      "head_title": "Freeze Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "When should I use a Freeze Spell?",
+          "a": "Reactively, at the moment a specific defence starts destroying your army, most often an Inferno Tower or a heavy splash defence. Holding a Freeze until that moment is far more valuable than planning where it goes in advance."
+        },
+        {
+          "q": "Does Freeze work on Clan Castle troops and heroes?",
+          "a": "The spell's purpose in practice is disabling defences during the critical seconds of a push. Plan your Clan Castle answer with a lure and poison rather than counting on Freeze to solve defending troops."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "haste-spell",
+      "name": "Haste Spell",
+      "description": "The Haste Spell in Clash of Clans: cheap movement speed for troops, and how it differs from Rage.",
+      "blurb": "Rage's cheaper cousin: speed without the damage boost.",
+      "summary": "Haste increases movement speed for troops in its radius but does not increase damage. It costs far less spell housing than Rage, which makes it the efficient choice whenever the problem is the clock rather than the damage.",
+      "quick": {
+        "Levels": "7",
+        "Housing space": "1",
+        "Radius": "4 tiles",
+        "Role": "Dark spell, mobility"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Troops inside the circle move faster for the duration. No damage bonus. Because it is a dark spell, it takes much less spell housing than Rage, so you can carry several.</p>"
+        },
+        {
+          "h": "When to use it instead of Rage",
+          "body": "<p>Ask what actually failed in your last attack.</p><ul><li><strong>Ran out of time with troops alive?</strong> Haste. Your army was working, it was just slow.</li><li><strong>Troops died before finishing?</strong> Not Haste. That is healing or Rage.</li><li><strong>Slow air army crossing a big base?</strong> Haste, and several of them, because it is cheap enough to chain.</li></ul><p>Balloon armies are the classic customer: Balloons are slow, and a chain of Haste spells turns a push that times out into one that finishes.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Haste Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "8,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "3",
+              "17,000 Dark Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "4",
+              "30,000 Dark Elixir",
+              "3 d",
+              "10"
+            ],
+            [
+              "5",
+              "38,500 Dark Elixir",
+              "4 d",
+              "11"
+            ],
+            [
+              "6",
+              "200,000 Dark Elixir",
+              "9 d",
+              "17"
+            ],
+            [
+              "7",
+              "320,000 Dark Elixir",
+              "12 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:rage-spell",
+        "troops:balloon",
+        "mechanics:spell-mechanics",
+        "mechanics:dark-elixir"
+      ],
+      "priority": "0.6",
+      "h1": "Haste Spell — Clash of Clans",
+      "head_title": "Haste Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What is the difference between Haste and Rage?",
+          "a": "Haste only increases movement speed, while Rage increases both speed and damage. Haste is a dark spell and takes far less spell housing, so it is the efficient answer when your attacks are running out of time rather than failing to kill things."
+        },
+        {
+          "q": "Is Haste good for Balloons?",
+          "a": "Yes, it is one of the standard pairings. Balloons are slow, so several cheap Haste spells chained across a push often convert an attack that would have timed out into a completed one."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "healing-spell",
+      "name": "Healing Spell",
+      "description": "The Healing Spell in Clash of Clans: sustained healing in an area, timing, and what it cannot heal.",
+      "blurb": "Keeps a ground push alive through the part of the base that kills it.",
+      "summary": "Healing restores hitpoints to friendly troops standing in its circle, over time rather than instantly. It is the difference between a push that reaches the core and one that dies at the second compartment.",
+      "quick": {
+        "Levels": "12",
+        "Housing space": "2",
+        "Radius": "5 tiles",
+        "Role": "Elixir spell, sustain"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Troops inside the radius regain health continuously for the duration. Because it heals over time rather than in a burst, a Healing Spell dropped after your troops are already dead achieves nothing, and one dropped where they will not remain heals empty ground.</p>"
+        },
+        {
+          "h": "When to drop it",
+          "body": "<ul><li><strong>When damage is already landing,</strong> not preemptively. Healing a full-health group wastes most of the duration.</li><li><strong>Where the troops will stay.</strong> A group that is about to move on leaves the circle behind. Aim at the compartment they are working on, not where they are standing.</li><li><strong>On the group, not the tank.</strong> The tank has hitpoints to spare; the fragile troops behind it are what the spell is really protecting.</li></ul><p>Hog Rider and Miner armies are the classic customers, because they take steady damage over a long run rather than a single burst.</p>"
+        },
+        {
+          "h": "What it will not fix",
+          "body": "<p>Healing counters sustained damage. It does not counter burst damage, so it will not save troops from a single large hit, and it does nothing about the clock. If your attacks fail because you ran out of time rather than out of troops, the answer is rage or a better funnel, not more healing.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Healing Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "4"
+            ],
+            [
+              "2",
+              "75,000 Elixir",
+              "3 h",
+              "4"
+            ],
+            [
+              "3",
+              "150,000 Elixir",
+              "6 h",
+              "6"
+            ],
+            [
+              "4",
+              "300,000 Elixir",
+              "12 h",
+              "7"
+            ],
+            [
+              "5",
+              "900,000 Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "6",
+              "1,800,000 Elixir",
+              "1 d 12 h",
+              "9"
+            ],
+            [
+              "7",
+              "3,000,000 Elixir",
+              "3 d",
+              "10"
+            ],
+            [
+              "8",
+              "6,000,000 Elixir",
+              "5 d",
+              "13"
+            ],
+            [
+              "9",
+              "11,000,000 Elixir",
+              "6 d 12 h",
+              "15"
+            ],
+            [
+              "10",
+              "14,000,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "11",
+              "19,000,000 Elixir",
+              "10 d 12 h",
+              "17"
+            ],
+            [
+              "12",
+              "29,000,000 Elixir",
+              "15 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:rage-spell",
+        "troops:hog-rider",
+        "troops:miner",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Healing Spell — Clash of Clans",
+      "head_title": "Healing Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "When should I drop a Healing Spell?",
+          "a": "Once damage is already landing on your troops and where they will remain for the duration, since healing works over time rather than instantly. Dropped early or on a group that immediately moves on, most of it is wasted."
+        },
+        {
+          "q": "Does the Healing Spell heal air troops?",
+          "a": "The spell heals troops standing in its area; the Healer troop, by contrast, can only heal ground units. If your attack is air-based, plan around that difference when building the spell loadout."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "ice-block-spell",
+      "name": "Ice Block Spell",
+      "description": "The Ice Block Spell in Clash of Clans: six levels, one housing space, five tile radius.",
+      "blurb": "One housing space, five tile radius, six levels.",
+      "summary": "The Ice Block Spell takes a single spell housing space and affects a five tile radius across six levels. That combination, very cheap in housing and a modest area, marks it as a surgical spell rather than a push-wide one.",
+      "quick": {
+        "Levels": "6",
+        "Housing space": "1",
+        "Radius": "5 tiles",
+        "Role": "Spell"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>One housing space is the important figure. Spells that cost a single slot are carried for one specific job, the way <a href='poison-spell.html'>Poison</a> is carried for the defending Clan Castle, because including one costs you almost nothing from the rest of the loadout.</p><p>A five tile radius covers a compartment or a clump, not a whole push. Read together, this is a spell you drop on one problem at one moment.</p>"
+        },
+        {
+          "h": "What we have not verified",
+          "body": "<div class='note warn'><p><b>Effect not yet described.</b> The level data above is read from the game files and is reliable. What this spell actually does to troops or buildings is not something the files state in a form we are willing to paraphrase, and inventing a mechanic would undermine the point of this wiki. If you use it regularly, <a href='mailto:support@goblinsfarm.com'>tell us what it does</a> and you will be credited.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Ice Block Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "140,000 Dark Elixir",
+              "10 d",
+              "14"
+            ],
+            [
+              "3",
+              "200,000 Dark Elixir",
+              "11 d",
+              "15"
+            ],
+            [
+              "4",
+              "280,000 Dark Elixir",
+              "12 d",
+              "16"
+            ],
+            [
+              "5",
+              "320,000 Dark Elixir",
+              "14 d",
+              "17"
+            ],
+            [
+              "6",
+              "380,000 Dark Elixir",
+              "16 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:spell-mechanics",
+        "spells:poison-spell",
+        "spells:freeze-spell",
+        "spells:rage-spell"
+      ],
+      "priority": "0.6",
+      "h1": "Ice Block Spell — Clash of Clans",
+      "head_title": "Ice Block Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How much housing space does the Ice Block Spell use?",
+          "a": "One spell housing space, with a five tile radius. That makes it cheap to include alongside larger spells such as Rage or Healing rather than competing with them for room."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "invisibility-spell",
+      "name": "Invisibility Spell",
+      "description": "The Invisibility Spell in Clash of Clans: making troops untargetable briefly, and creative defensive uses.",
+      "blurb": "Troops in the circle cannot be targeted, which is stranger and better than it sounds.",
+      "summary": "Invisibility makes troops inside its radius untargetable by defences for a short window. It is one of the few spells that lets a fragile army walk through a part of the base it could never survive.",
+      "quick": {
+        "Levels": "4",
+        "Housing space": "1",
+        "Radius": "4 tiles",
+        "Role": "Elixir spell, control"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Defences cannot target troops inside the circle for the duration. The troops themselves keep attacking, so it is not a retreat, it is a period of free damage.</p><p>It also affects buildings inside the radius in useful ways: an invisible building cannot be attacked either, which sounds like a drawback until you use it to stop your army from being distracted by something you do not want destroyed yet.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>Pushing heroes through a dangerous stretch</strong> without losing them.</li><li><strong>Protecting a fragile damage line</strong> during the exact seconds a splash defence would clear it.</li><li><strong>Redirecting attention</strong> by hiding a building your troops would otherwise walk toward.</li></ul><p>Because the window is short and the applications are precise, it rewards players who have already worked out where their attacks fail.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Invisibility Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "5,000,000 Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "3",
+              "6,000,000 Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "4",
+              "7,000,000 Elixir",
+              "5 d",
+              "13"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:freeze-spell",
+        "heroes:archer-queen",
+        "mechanics:spell-mechanics",
+        "mechanics:troop-targeting-and-ai"
+      ],
+      "priority": "0.6",
+      "h1": "Invisibility Spell — Clash of Clans",
+      "head_title": "Invisibility Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Invisibility Spell do?",
+          "a": "It makes troops inside its radius untargetable by defences for a short window while they continue attacking, which lets a fragile army cross a stretch of base it could not otherwise survive."
+        },
+        {
+          "q": "Can Invisibility be used on buildings?",
+          "a": "Yes, and it has practical uses. A hidden building cannot be attacked, so it can be used to stop your own troops being distracted by a structure you do not want them walking toward."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "jump-spell",
+      "name": "Jump Spell",
+      "description": "The Jump Spell in Clash of Clans: creating a temporary path through walls for ground troops.",
+      "blurb": "A temporary door through your wall problem.",
+      "summary": "Jump creates a crossing that ground troops use to pass over walls inside its radius for the duration. It converts a compartment maze into open ground, which is exactly what slow ground armies need.",
+      "quick": {
+        "Levels": "5",
+        "Housing space": "2",
+        "Radius": "3.5 tiles",
+        "Role": "Elixir spell, mobility"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Ground troops inside the radius cross walls instead of walking around or breaking through. The effect lasts for a set period, after which the walls block again, so the timing matters: troops still outside when it expires are back to walking the long way.</p>"
+        },
+        {
+          "h": "When to drop it",
+          "body": "<ul><li><strong>Before the troops arrive,</strong> not as they bunch at the wall, because the crossing takes a moment to establish.</li><li><strong>On the line you want them to take,</strong> usually straight toward the core rather than sideways into another compartment.</li><li><strong>On heavily compartmented bases,</strong> where its value is highest. On an open base it does very little.</li></ul>"
+        },
+        {
+          "h": "Jump versus Wall Breakers",
+          "body": "<p>Both open a route; they cost different things. Wall Breakers cost housing space and are fragile, but they permanently remove the wall. Jump costs spell space, is guaranteed to work, but is temporary and only helps troops inside the radius. Slow heavy armies usually prefer Jump because a guaranteed corridor matters more than a permanent one; cheap fast armies usually prefer Wall Breakers because spell space is precious.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Jump Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "6"
+            ],
+            [
+              "2",
+              "1,000,000 Elixir",
+              "1 d",
+              "7"
+            ],
+            [
+              "3",
+              "2,000,000 Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "4",
+              "5,000,000 Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "5",
+              "8,000,000 Elixir",
+              "5 d",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "troops:wall-breaker",
+        "mechanics:walls-and-pathing",
+        "troops:pekka",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Jump Spell — Clash of Clans",
+      "head_title": "Jump Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How long does a Jump Spell last?",
+          "a": "For a set duration, after which the walls block ground troops again. That makes placement timing important, since troops that have not crossed by the time it expires are back to walking around."
+        },
+        {
+          "q": "Jump Spell or Wall Breakers?",
+          "a": "Jump for slow heavy armies that need a guaranteed corridor and can spare the spell space; Wall Breakers for cheaper armies where spell slots are more valuable than housing space. Jump is temporary but reliable; Wall Breakers are permanent but fragile."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "lightning-spell",
+      "name": "Lightning Spell",
+      "description": "The Lightning Spell in Clash of Clans: direct damage to a small area, and the classic Air Defence removal.",
+      "blurb": "Direct damage in a small circle, usually spent removing one defence.",
+      "summary": "Lightning deals damage to whatever is in a small radius. Unlike every other spell it does not help your troops, it simply destroys something itself, which makes it the tool for removing one specific building before the attack begins.",
+      "quick": {
+        "Levels": "13",
+        "Housing space": "1",
+        "Radius": "2 tiles",
+        "Role": "Elixir spell, direct damage"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>It strikes a small area for direct damage. Because the radius is tight and the damage is fixed, its use is arithmetic: can enough Lightning kill the building you need dead, and is that worth the spell space?</p>"
+        },
+        {
+          "h": "The classic use",
+          "body": "<p><strong>Removing an Air Defence before an air attack.</strong> A Dragon or Balloon army lives or dies on anti-air, so spending spell slots to delete one Air Defence outright frequently pays for itself several times over.</p><ul><li><strong>Check the arithmetic first.</strong> A partially damaged Air Defence still shoots. If you cannot kill it, do not start.</li><li><strong>Consider pairing with Earthquake,</strong> which softens a building so fewer Lightning are needed.</li><li><strong>Use it before deploying,</strong> so the survivors of your army never meet that defence at all.</li></ul>"
+        },
+        {
+          "h": "Other uses",
+          "body": "<p>Lightning is also used to clear a defending Clan Castle when a lure is impractical, and to finish a stubborn building at the end of an attack when a single structure is standing between you and another star. Both are legitimate, and both are situational rather than default.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Lightning Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "50,000 Elixir",
+              "2 h",
+              "3"
+            ],
+            [
+              "3",
+              "100,000 Elixir",
+              "4 h",
+              "4"
+            ],
+            [
+              "4",
+              "200,000 Elixir",
+              "6 h",
+              "5"
+            ],
+            [
+              "5",
+              "600,000 Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "6",
+              "1,500,000 Elixir",
+              "1 d 12 h",
+              "9"
+            ],
+            [
+              "7",
+              "2,500,000 Elixir",
+              "3 d",
+              "10"
+            ],
+            [
+              "8",
+              "4,200,000 Elixir",
+              "3 d 12 h",
+              "11"
+            ],
+            [
+              "9",
+              "6,300,000 Elixir",
+              "5 d",
+              "12"
+            ],
+            [
+              "10",
+              "10,000,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "11",
+              "13,500,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "12",
+              "18,500,000 Elixir",
+              "10 d",
+              "17"
+            ],
+            [
+              "13",
+              "27,000,000 Elixir",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:earthquake-spell",
+        "troops:dragon",
+        "troops:balloon",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Lightning Spell — Clash of Clans",
+      "head_title": "Lightning Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How many Lightning Spells does it take to destroy an Air Defence?",
+          "a": "It depends on the levels of both the spell and the defence, so check the numbers before committing, since a partially damaged Air Defence still fires. If you cannot remove it outright, the spell space is better spent elsewhere."
+        },
+        {
+          "q": "Is Lightning worth using?",
+          "a": "When it removes a specific building that would otherwise end your attack, most often an Air Defence before an air army goes in, yes. As general damage it is poor value compared with spells that make your whole army better."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "overgrowth-spell",
+      "name": "Overgrowth Spell",
+      "description": "The Overgrowth Spell in Clash of Clans: encasing buildings so they cannot fire or be attacked.",
+      "blurb": "Wraps buildings in growth so they stop firing and stop distracting your troops.",
+      "summary": "Overgrowth encases buildings in its radius, taking them out of the fight temporarily. Unlike Freeze, which only stops defences shooting, encased buildings also stop being valid targets, which changes how your army paths.",
+      "quick": {
+        "Levels": "5",
+        "Housing space": "2",
+        "Radius": "6 tiles",
+        "Role": "Elixir spell, control"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Buildings inside the radius are covered and disabled for a period. They neither attack nor can be attacked, so they are effectively removed from the battlefield for the duration.</p><p>That second property is the interesting one. Because encased buildings are not valid targets, your troops path past them, which means Overgrowth can be used as a steering tool rather than purely a defensive one.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>Disabling a cluster of defences</strong> at the moment your army crosses their coverage.</li><li><strong>Steering an army</strong> by removing the buildings that would otherwise pull it off course.</li><li><strong>Buying time on a heavy push</strong> that needs to survive one dangerous stretch.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Overgrowth Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "62,500 Dark Elixir",
+              "5 d",
+              "12"
+            ],
+            [
+              "3",
+              "125,000 Dark Elixir",
+              "8 d 12 h",
+              "14"
+            ],
+            [
+              "4",
+              "175,000 Dark Elixir",
+              "10 d",
+              "16"
+            ],
+            [
+              "5",
+              "360,000 Dark Elixir",
+              "16 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:freeze-spell",
+        "mechanics:troop-targeting-and-ai",
+        "mechanics:funnelling",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Overgrowth Spell — Clash of Clans",
+      "head_title": "Overgrowth Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How is Overgrowth different from Freeze?",
+          "a": "Freeze stops defences firing but they remain valid targets. Overgrowth encases buildings so they neither fire nor can be attacked, which additionally changes how your troops path, since an encased building is not something they will walk toward."
+        },
+        {
+          "q": "Can Overgrowth be used to steer troops?",
+          "a": "Yes, and that is one of its more interesting uses. Because encased buildings stop being valid targets, covering the buildings that would pull your army off course effectively redirects the push."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "poison-spell",
+      "name": "Poison Spell",
+      "description": "The Poison Spell in Clash of Clans: damaging and slowing defending troops, and its role in the Clan Castle lure.",
+      "blurb": "The standard answer to defending Clan Castle troops.",
+      "summary": "Poison damages and slows enemy troops in its area, ramping up the longer they stay in it. It does nothing to buildings, which makes it a pure answer to the one thing on a base that chases you: the defending Clan Castle.",
+      "quick": {
+        "Levels": "12",
+        "Housing space": "1",
+        "Radius": "4 tiles",
+        "Role": "Dark spell, anti-troop"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Enemy troops inside the circle take increasing damage over time and attack more slowly. It has no effect on buildings at all, so the entire value of the spell is measured against defending troops and heroes.</p>"
+        },
+        {
+          "h": "When to drop it",
+          "body": "<p>During the lure, not during the attack.</p><ol class='steps'><li><b>Pull the Castle out.</b>Standard lure with a cheap troop, as in <a href='../mechanics/clan-castle-troops.html'>Clan Castle troops</a>.</li><li><b>Wait for them to clump.</b>Defending troops chase, so they arrive together.</li><li><b>Drop the poison on the clump.</b>The ramping damage does the work while your cheap troops hold them.</li><li><b>Then attack.</b>The base is now passive, and you spent one cheap dark spell instead of half an army.</li></ol>"
+        },
+        {
+          "h": "Why it is worth a slot",
+          "body": "<p>Dark spells take little spell housing, so a Poison costs you very little of the loadout. Against a filled war Clan Castle it is the highest-value spell in the game, because the alternative is losing a chunk of your army to troops you could have killed in open ground for almost nothing.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Poison Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "5,000 Dark Elixir",
+              "6 h",
+              "8"
+            ],
+            [
+              "3",
+              "10,000 Dark Elixir",
+              "18 h",
+              "9"
+            ],
+            [
+              "4",
+              "21,500 Dark Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "5",
+              "35,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "6",
+              "55,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "7",
+              "77,500 Dark Elixir",
+              "5 d",
+              "13"
+            ],
+            [
+              "8",
+              "100,000 Dark Elixir",
+              "6 d 12 h",
+              "14"
+            ],
+            [
+              "9",
+              "135,000 Dark Elixir",
+              "7 d",
+              "15"
+            ],
+            [
+              "10",
+              "175,000 Dark Elixir",
+              "8 d",
+              "16"
+            ],
+            [
+              "11",
+              "230,000 Dark Elixir",
+              "9 d 16 h",
+              "17"
+            ],
+            [
+              "12",
+              "350,000 Dark Elixir",
+              "14 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:clan-castle-troops",
+        "spells:skeleton-spell",
+        "mechanics:spell-mechanics",
+        "mechanics:clan-wars"
+      ],
+      "priority": "0.6",
+      "h1": "Poison Spell — Clash of Clans",
+      "head_title": "Poison Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What is the Poison Spell used for?",
+          "a": "Killing defending Clan Castle troops after you have lured them out. It damages and slows enemy troops with damage that ramps the longer they stay in it, and it has no effect on buildings at all."
+        },
+        {
+          "q": "Should I always bring a Poison Spell to war?",
+          "a": "Against a filled defensive Clan Castle it is usually the best value slot in the loadout, because dark spells take little spell housing and the alternative is losing part of your army to troops you could have killed cheaply in open ground."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "rage-spell",
+      "name": "Rage Spell",
+      "description": "The Rage Spell in Clash of Clans: damage and movement boost, radius, timing, and why stacking does not double it.",
+      "blurb": "Faster and harder-hitting troops, for a few seconds, in a circle.",
+      "summary": "Rage increases the damage and movement speed of your troops inside its radius. It is the spell that converts a push which is nearly working into one that finishes, and it is wasted more often than any other spell in the game through simple mistiming.",
+      "quick": {
+        "Levels": "7",
+        "Housing space": "2",
+        "Radius": "5 tiles",
+        "Role": "Elixir spell, offensive boost"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Troops inside the circle deal more damage and move faster for the duration. The effect applies to whatever is inside at the time, so troops walking out of the circle stop benefiting immediately.</p><p>Rage does not stack usefully. Two Rage spells on the same group do not double the boost; overlapping them extends the covered area or the covered time, which is a different and much narrower use.</p>"
+        },
+        {
+          "h": "When to drop it",
+          "body": "<p>The rule is <strong>engaged, not walking</strong>. A Rage over troops crossing open ground is spent on movement you did not need.</p><ul><li><strong>Drop it slightly ahead of the group</strong> so they move into the circle rather than out of it.</li><li><strong>Drop it when the target matters.</strong> Raging a group killing a hut is money burnt; raging one hitting an Inferno Tower wins the attack.</li><li><strong>Drop it when the group is large.</strong> Value scales with the number of troops covered, so a Rage over three survivors is not a rescue.</li></ul>"
+        },
+        {
+          "h": "Common mistakes",
+          "body": "<ul><li><strong>Using it in the first fifteen seconds.</strong> Attacks are lost at the sixty-second mark, and that is where the spell should still be.</li><li><strong>Raging troops that are about to die anyway.</strong> Rage adds damage, not survivability. If the problem is that your troops are dying, the answer is healing.</li><li><strong>Doubling up out of panic.</strong> The second Rage is only worth it if the group needs a longer window, not a stronger one.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Rage Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "5"
+            ],
+            [
+              "2",
+              "400,000 Elixir",
+              "6 h",
+              "5"
+            ],
+            [
+              "3",
+              "800,000 Elixir",
+              "12 h",
+              "6"
+            ],
+            [
+              "4",
+              "1,000,000 Elixir",
+              "1 d",
+              "7"
+            ],
+            [
+              "5",
+              "2,000,000 Elixir",
+              "2 d",
+              "8"
+            ],
+            [
+              "6",
+              "5,000,000 Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "7",
+              "26,000,000 Elixir",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:healing-spell",
+        "spells:freeze-spell",
+        "mechanics:spell-mechanics",
+        "mechanics:funnelling"
+      ],
+      "priority": "0.6",
+      "h1": "Rage Spell — Clash of Clans",
+      "head_title": "Rage Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Do Rage Spells stack?",
+          "a": "Not in strength. Two Rage spells on the same troops do not double the boost. Overlapping them only helps if you need a bigger covered area or a longer covered window, such as when a push must travel a long way through a base."
+        },
+        {
+          "q": "When should I use a Rage Spell?",
+          "a": "When your troops are already engaged with something worth killing quickly, and slightly ahead of them so they move into the circle. Rage dropped while an army is walking across open ground is largely wasted."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "recall-spell",
+      "name": "Recall Spell",
+      "description": "The Recall Spell in Clash of Clans: returning troops to your hand for redeployment.",
+      "blurb": "Takes troops back so you can drop them somewhere better.",
+      "summary": "Recall returns troops inside its radius to your hand, letting you redeploy them elsewhere. It is the only spell that fixes a mistake after you have made it, which is a rarer property than it sounds.",
+      "quick": {
+        "Levels": "7",
+        "Housing space": "2",
+        "Radius": "5 tiles",
+        "Role": "Elixir spell, utility"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Troops in the circle are returned and can be deployed again. That turns a group walking the wrong way, or one stranded on the far side of a base, back into usable army.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>Rescuing a wandering group</strong> after the defences are dead and your troops have reverted to nearest-target behaviour, which is described in <a href='../mechanics/troop-targeting-and-ai.html'>troop targeting</a>.</li><li><strong>Repositioning a Queen walk</strong> once it has done its funnel work, so the hero joins the main push instead of continuing around the edge.</li><li><strong>Recovering from a bad deployment,</strong> which is the use most players discover first and the least strategic one.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Recall Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "7,500,000 Elixir",
+              "7 d",
+              "13"
+            ],
+            [
+              "3",
+              "8,000,000 Elixir",
+              "7 d 12 h",
+              "14"
+            ],
+            [
+              "4",
+              "9,000,000 Elixir",
+              "8 d",
+              "15"
+            ],
+            [
+              "5",
+              "13,000,000 Elixir",
+              "9 d",
+              "16"
+            ],
+            [
+              "6",
+              "19,000,000 Elixir",
+              "11 d",
+              "17"
+            ],
+            [
+              "7",
+              "29,000,000 Elixir",
+              "16 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:troop-targeting-and-ai",
+        "heroes:archer-queen",
+        "mechanics:funnelling",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Recall Spell — Clash of Clans",
+      "head_title": "Recall Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Recall Spell do?",
+          "a": "It returns troops inside its radius to your hand so you can deploy them again elsewhere. It is the only spell that lets you correct a deployment after the fact."
+        },
+        {
+          "q": "When is Recall most useful?",
+          "a": "Usually to rescue troops that have started wandering after all defences are destroyed, and to reposition a hero or group that has finished its funnelling job so it can rejoin the main push rather than walking around the perimeter."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "revive-spell",
+      "name": "Revive Spell",
+      "description": "The Revive Spell in Clash of Clans: bringing a fallen hero or unit back into the attack.",
+      "blurb": "Brings something back that you had already lost.",
+      "summary": "Revive returns a fallen unit to the battlefield, which changes the arithmetic of committing an expensive hero or unit early. Knowing you have a second chance makes aggressive openings viable.",
+      "quick": {
+        "Levels": "5",
+        "Housing space": "2",
+        "Radius": "Melee",
+        "Role": "Elixir spell, utility"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>The spell restores a lost unit to the attack. Because the units worth reviving are the expensive ones, its practical effect is that a hero or heavy unit can be committed to a risky opening rather than held back.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>After committing a hero to funnel work</strong> that was always likely to kill them.</li><li><strong>As insurance on an aggressive opening,</strong> which lets you take a line you would otherwise avoid.</li><li><strong>Not as a habit.</strong> Spell slots are scarce, and a revive that saves a unit which was not going to matter is a wasted slot.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Revive Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "18,000,000 Elixir",
+              "7 d",
+              "15"
+            ],
+            [
+              "3",
+              "19,000,000 Elixir",
+              "8 d",
+              "16"
+            ],
+            [
+              "4",
+              "20,000,000 Elixir",
+              "11 d 12 h",
+              "17"
+            ],
+            [
+              "5",
+              "29,500,000 Elixir",
+              "16 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "heroes:barbarian-king",
+        "heroes:archer-queen",
+        "mechanics:spell-mechanics",
+        "mechanics:funnelling"
+      ],
+      "priority": "0.6",
+      "h1": "Revive Spell — Clash of Clans",
+      "head_title": "Revive Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Revive Spell do?",
+          "a": "It returns a fallen unit to the battlefield, which mainly matters for heroes and expensive units. Its real effect is strategic: knowing a second chance exists makes aggressive openings worth taking."
+        },
+        {
+          "q": "Is the Revive Spell worth a slot?",
+          "a": "When your attack plan deliberately risks a hero early, yes. As a general safety net it is poor value, because spell slots are scarce and reviving a unit that was not going to change the outcome achieves nothing."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "skeleton-spell",
+      "name": "Skeleton Spell",
+      "description": "The Skeleton Spell in Clash of Clans: spawning a group of skeletons as a distraction or a lure.",
+      "blurb": "A pile of free bodies, most useful as a distraction.",
+      "summary": "The Skeleton Spell spawns a group of skeletons where it lands. They are weak and short-lived, which is precisely the point: they are a cheap, disposable distraction you can place anywhere on the map.",
+      "quick": {
+        "Levels": "8",
+        "Housing space": "1",
+        "Radius": "2.25 tiles",
+        "Role": "Dark spell, summon"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Skeletons appear at the target point and attack nearby buildings or troops. Individually they are negligible; collectively they absorb defensive fire and occupy defending troops for several valuable seconds.</p>"
+        },
+        {
+          "h": "How it is used",
+          "body": "<ul><li><strong>Clan Castle luring.</strong> Drop it on the defending troops you have pulled out, and the skeletons hold them while your poison works.</li><li><strong>Distracting a single-target defence</strong> such as an Inferno Tower during a critical window.</li><li><strong>Cheap chip damage</strong> on the last few buildings when the timer is short.</li></ul><p>Its value comes from being usable anywhere, instantly, without deployment position mattering. Very few things in an attack offer that.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Skeleton Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "11,000 Dark Elixir",
+              "12 h",
+              "10"
+            ],
+            [
+              "3",
+              "17,000 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "4",
+              "25,000 Dark Elixir",
+              "2 d",
+              "11"
+            ],
+            [
+              "5",
+              "40,000 Dark Elixir",
+              "2 d 12 h",
+              "12"
+            ],
+            [
+              "6",
+              "50,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "7",
+              "75,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "8",
+              "135,000 Dark Elixir",
+              "6 d",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:poison-spell",
+        "mechanics:clan-castle-troops",
+        "troops:witch",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Skeleton Spell — Clash of Clans",
+      "head_title": "Skeleton Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What is the Skeleton Spell used for?",
+          "a": "Mostly as a disposable distraction. Dropped on lured Clan Castle troops it holds them in place while poison does the damage, and dropped near a single-target defence it buys your real army several seconds."
+        },
+        {
+          "q": "Are the skeletons strong?",
+          "a": "No, individually they are negligible and short-lived. Their value is that they can be placed instantly anywhere on the map to absorb fire or occupy defending troops, which no other cheap option does."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "totem-spell",
+      "name": "Totem Spell",
+      "description": "The Totem Spell in Clash of Clans: four levels, one housing space, five tile radius.",
+      "blurb": "One housing space, five tile radius, four levels.",
+      "summary": "The Totem Spell occupies one spell housing space with a five tile radius across four levels. Like the other single-slot spells it is built to solve a specific problem cheaply rather than to improve an entire attack.",
+      "quick": {
+        "Levels": "4",
+        "Housing space": "1",
+        "Radius": "5 tiles",
+        "Role": "Spell"
+      },
+      "tags": [
+        {
+          "label": "Elixir",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>The single housing space means it competes with the dark spells for a slot rather than with Rage or Healing, so bringing one costs you very little of the loadout. The five tile radius means its effect lands on a group in one place, not on a push spread across a base.</p><p>As with every spell, the right question is which failure mode you are answering, as set out in <a href='../mechanics/spell-mechanics.html'>spell mechanics</a>: watch the replay of the attack that failed, and bring the spell that addresses what actually went wrong.</p>"
+        },
+        {
+          "h": "What we have not verified",
+          "body": "<div class='note warn'><p><b>Effect not yet described.</b> The level data above is read from the game files and is reliable. What this spell actually does to troops or buildings is not something the files state in a form we are willing to paraphrase, and inventing a mechanic would undermine the point of this wiki. If you use it regularly, <a href='mailto:support@goblinsfarm.com'>tell us what it does</a> and you will be credited.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Totem Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "21,000,000 Elixir",
+              "12 d",
+              "16"
+            ],
+            [
+              "3",
+              "22,000,000 Elixir",
+              "14 d",
+              "17"
+            ],
+            [
+              "4",
+              "23,000,000 Elixir",
+              "16 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:spell-mechanics",
+        "spells:poison-spell",
+        "spells:freeze-spell",
+        "spells:rage-spell"
+      ],
+      "priority": "0.6",
+      "h1": "Totem Spell — Clash of Clans",
+      "head_title": "Totem Spell | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How much housing space does the Totem Spell use?",
+          "a": "One spell housing space, with a five tile radius. That makes it cheap to include alongside larger spells such as Rage or Healing rather than competing with them for room."
+        }
+      ],
+      "has_prose": true
+    }
+  ]
+}

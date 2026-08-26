@@ -1,0 +1,275 @@
+{
+  "barbarian-king": {
+    "slug": "barbarian-king",
+    "name": "Barbarian King",
+    "h1": "Barbarian King — Clash of Clans",
+    "head_title": "Barbarian King | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Barbarian King in Clash of Clans: the first hero, his ability, and why he is the standard funnelling tool.",
+    "blurb": "The first hero, the standard funnel opener, and a durable brawler.",
+    "summary": "The Barbarian King is a durable ground hero with high hitpoints and solid damage. He is the first hero most players unlock and remains one of the most useful, largely because he is the ideal tool for the funnelling work every ground attack needs.",
+    "quick": {
+      "Role": "Ground hero, durable brawler",
+      "Upgraded with": "Dark elixir",
+      "While upgrading": "Unavailable for attack and defence"
+    },
+    "sections": [
+      {
+        "h": "What he does",
+        "body": "<p>He fights as a very durable ground troop with no preferred target, and has an ability that increases his survivability and damage when activated. He also defends your village, waking when an attacker comes near his altar.</p><p>Because he is durable and returns after every attack, he is effectively a free unit you can spend recklessly, which is exactly what funnel work requires.</p>"
+      },
+      {
+        "h": "How to use him",
+        "body": "<ul><li><strong>Send him down a flank</strong> to clear the shoulder buildings and open the corridor for your main army. See <a href='../mechanics/funnelling.html'>funnelling</a>.</li><li><strong>Activate the ability before he dies,</strong> not after. An unactivated ability is the most common waste in the game.</li><li><strong>Do not send him into the core alone.</strong> Durable is not immortal, and a King grinding through a defended compartment on his own dies slowly and pointlessly.</li></ul>"
+      },
+      {
+        "h": "Upgrading him",
+        "body": "<p>He is upgraded with dark elixir, and he is unavailable while upgrading, on offence and on defence. That is a real cost, and it is still worth paying continuously. Hero levels are the largest single contributor to attacking power over time, and the only way to finish upgrades with timers this long is to always have one running. See <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p><div class='note'><p><b>On hero data.</b> The level tables below come from an extracted game-file snapshot, and hero records in particular could not be cross-checked against a published reference the way troop and building records were. Treat hero figures as a notch less certain than the rest of the wiki and confirm in game before planning around them.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should I upgrade heroes even though I cannot attack with them?",
+        "a": "Yes. Hero upgrades have the longest timers in the game, so the only way to finish them is to keep one running continuously. Attacking without a hero for a few days costs far less than being permanently several levels behind."
+      },
+      {
+        "q": "What is the Barbarian King used for?",
+        "a": "Most often funnelling, sent down a flank to clear the outside buildings so the main army paths into the core. He is durable, hits hard and returns after every attack, which makes him the ideal unit to spend on work that would kill anything else."
+      }
+    ],
+    "related": [
+      "heroes:archer-queen",
+      "mechanics:funnelling",
+      "mechanics:hero-equipment",
+      "mechanics:dark-elixir"
+    ],
+    "show_tool_note": false
+  },
+  "archer-queen": {
+    "slug": "archer-queen",
+    "name": "Archer Queen",
+    "h1": "Archer Queen — Clash of Clans",
+    "head_title": "Archer Queen | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Archer Queen in Clash of Clans: ranged hero, the Queen walk, and why she is the most valuable hero to upgrade.",
+    "blurb": "The most impactful hero in the game, and the centre of the Queen walk.",
+    "summary": "The Archer Queen attacks at long range and deals very high damage, but has far less health than the King. Paired with Healers she becomes the single most reliable attacking tool in Clash of Clans, capable of clearing a substantial part of a base by herself.",
+    "quick": {
+      "Role": "Ranged hero, high damage",
+      "Upgraded with": "Dark elixir",
+      "While upgrading": "Unavailable for attack and defence"
+    },
+    "sections": [
+      {
+        "h": "What she does",
+        "body": "<p>She attacks from range with high damage output and has an ability that combines a burst of power with survivability. Her low hitpoints mean she cannot brawl, but her range means she often does not have to.</p>"
+      },
+      {
+        "h": "The Queen walk",
+        "body": "<p>The technique that defines her: deploy the Queen with a group of Healers behind her and let her advance slowly, killing defences from range while the Healers keep her alive. Done properly she can clear a flank, kill a key defence, or do the entire funnel on her own before the main army goes in.</p><ul><li><strong>Deploy the Healers once she is engaged,</strong> so they immediately have something to heal.</li><li><strong>Plan for anti-air.</strong> Healers die to Air Defences, and the moment they die the walk ends. Route her away from anti-air, or remove it first.</li><li><strong>Know when to stop.</strong> A Queen walk that has done its job should not be allowed to wander into the core; that is what a Recall Spell is for.</li></ul>"
+      },
+      {
+        "h": "Upgrading her",
+        "body": "<p>If you can only upgrade one hero, most players get more out of levelling the Archer Queen than anything else, because the Queen walk scales directly with her level and appears in a huge proportion of successful attacks. She is upgraded with dark elixir and is unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero level tables here come from an extracted game-file snapshot that could not be cross-checked against a published reference the way troop tables were. Confirm figures in game before planning upgrades around them.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a Queen walk?",
+        "a": "Deploying the Archer Queen with several Healers behind her so she advances slowly and safely, killing defences from range. It is used to clear a flank, remove a key defence, or create the funnel before the main army goes in, and it is one of the most reliable openers in the game."
+      },
+      {
+        "q": "Which hero should I upgrade first?",
+        "a": "Most players get the most out of the Archer Queen, because the Queen walk scales directly with her level and features in a very large share of successful attacks. Whichever you choose, the important thing is that one hero is always upgrading."
+      }
+    ],
+    "related": [
+      "troops:healer",
+      "heroes:barbarian-king",
+      "mechanics:funnelling",
+      "mechanics:hero-equipment"
+    ],
+    "show_tool_note": false
+  },
+  "grand-warden": {
+    "slug": "grand-warden",
+    "name": "Grand Warden",
+    "h1": "Grand Warden — Clash of Clans",
+    "head_title": "Grand Warden | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Grand Warden in Clash of Clans: the support hero, ground and air modes, and the Eternal Tome.",
+    "blurb": "A support hero who makes the rest of the army much harder to kill.",
+    "summary": "The Grand Warden does modest damage and provides a continuous aura that strengthens nearby troops. His ability protects the whole army for a few seconds, which makes him the hero whose value is almost entirely about everyone else.",
+    "quick": {
+      "Role": "Support hero, ground or air",
+      "Upgraded with": "Dark elixir",
+      "While upgrading": "Unavailable for attack and defence"
+    },
+    "sections": [
+      {
+        "h": "What he does",
+        "body": "<p>He provides a passive boost to nearby friendly troops and has an ability that shields the army briefly. Crucially he can be set to <strong>ground or air mode</strong>, which determines whether he walks with a ground push or flies with an air one.</p><p>Setting the wrong mode is one of the most common and most costly mistakes in the game: a Warden in ground mode with an air army is a Warden who walks alone into the base and dies.</p>"
+      },
+      {
+        "h": "How to use him",
+        "body": "<ul><li><strong>Check the mode before every attack.</strong> Every time. It is the single most frequent unforced error.</li><li><strong>Keep him behind the front line,</strong> since his aura reaches the group and he does not survive contact.</li><li><strong>Save the ability for the killing moment,</strong> typically as the army crosses into the range of the defence that would otherwise wipe it.</li></ul>"
+      },
+      {
+        "h": "Upgrading him",
+        "body": "<p>His contribution is multiplicative rather than additive: he makes the whole army more durable, so his value scales with how expensive your army is. In heavy war compositions he is often the difference between a two and a three star. Upgraded with dark elixir, unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero tables come from an extracted snapshot that could not be verified against a published reference. Confirm in game before planning around them.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should the Grand Warden be in ground or air mode?",
+        "a": "Match the mode to your army. Ground mode for a ground push, air mode for an air army. Getting this wrong is one of the most common mistakes in the game, because a mismatched Warden walks or flies away from the troops he is meant to be supporting."
+      },
+      {
+        "q": "When should I use the Grand Warden's ability?",
+        "a": "At the moment the army enters the range of whatever would otherwise destroy it, rather than early. The ability protects the whole group briefly, so its value depends entirely on how many troops it covers and what they are surviving."
+      }
+    ],
+    "related": [
+      "troops:apprentice-warden",
+      "heroes:royal-champion",
+      "mechanics:hero-equipment",
+      "mechanics:spell-mechanics"
+    ],
+    "show_tool_note": false
+  },
+  "royal-champion": {
+    "slug": "royal-champion",
+    "name": "Royal Champion",
+    "h1": "Royal Champion — Clash of Clans",
+    "head_title": "Royal Champion | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Royal Champion in Clash of Clans: a defence-targeting hero who jumps walls.",
+    "blurb": "Targets defences, jumps walls, and goes where you point her.",
+    "summary": "The Royal Champion attacks defences specifically and leaps over walls to reach them. That combination makes her the most self-directing hero: she goes to the buildings that matter without needing a funnel built for her.",
+    "quick": {
+      "Role": "Ranged hero, targets defences",
+      "Upgraded with": "Dark elixir",
+      "While upgrading": "Unavailable for attack and defence"
+    },
+    "sections": [
+      {
+        "h": "What she does",
+        "body": "<p>She prefers defences, moves at range, and jumps walls rather than pathing around them. Her ability delivers a burst of damage to a target. Because she seeks defences, she can be sent into a base with a clear expectation of where she will go, which is unusual.</p>"
+      },
+      {
+        "h": "How to use her",
+        "body": "<ul><li><strong>Send her at a defensive cluster,</strong> since she will move between defences directly.</li><li><strong>Support her.</strong> She is durable but not a tank, and a Royal Champion alone in the core dies to concentrated fire.</li><li><strong>Time the ability on a high-value defence,</strong> not on whatever she happens to be hitting.</li></ul>"
+      },
+      {
+        "h": "Upgrading her",
+        "body": "<p>Because she targets defences and ignores walls, her contribution is very consistent across different base layouts, which makes her levels reliably valuable rather than situationally so. Upgraded with dark elixir, unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero tables come from an extracted snapshot that could not be cross-checked against a published reference. Verify in game before planning upgrades.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the Royal Champion jump walls?",
+        "a": "Yes. She leaps over walls to reach defences rather than pathing around them, which means base compartmentalisation does very little to slow her down and she needs much less funnelling than other heroes."
+      },
+      {
+        "q": "What does the Royal Champion target?",
+        "a": "Defences specifically. She moves from one defence to the next and ignores other buildings until the defences are gone, which makes her unusually predictable and easy to plan around."
+      }
+    ],
+    "related": [
+      "heroes:grand-warden",
+      "troops:hog-rider",
+      "mechanics:hero-equipment",
+      "mechanics:walls-and-pathing"
+    ],
+    "show_tool_note": false
+  },
+  "minion-prince": {
+    "slug": "minion-prince",
+    "name": "Minion Prince",
+    "h1": "Minion Prince — Clash of Clans",
+    "head_title": "Minion Prince | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Minion Prince in Clash of Clans: a flying hero and what a hero that ignores walls changes.",
+    "blurb": "A flying hero, which changes what a hero can be sent to do.",
+    "summary": "The Minion Prince is a hero who flies, and that single property makes him behave unlike the ground heroes. Walls, compartments and pathing do not apply, so he can be sent directly at whatever you need dealt with.",
+    "quick": {
+      "Role": "Air hero",
+      "Upgraded with": "Dark elixir",
+      "While upgrading": "Unavailable for attack and defence"
+    },
+    "sections": [
+      {
+        "h": "What he does",
+        "body": "<p>He attacks from the air with hero-level durability and damage, and carries an ability like the other heroes. Because he flies, none of the geometry that constrains the Barbarian King or Archer Queen applies to him.</p>"
+      },
+      {
+        "h": "How to use him",
+        "body": "<ul><li><strong>Send him at things that are hard to reach on the ground,</strong> since the walls that would stop a ground hero are irrelevant.</li><li><strong>Mind the anti-air.</strong> His weakness is the same as every air unit's, and a hero flown into concentrated Air Defence coverage dies as reliably as a Balloon.</li><li><strong>Pair him with air armies,</strong> where his movement matches the rest of the push.</li></ul>"
+      },
+      {
+        "h": "Upgrading him",
+        "body": "<p>Like every hero he is upgraded with dark elixir and unavailable while upgrading. Where he fits in your upgrade order depends on whether you attack primarily with air or ground, since a flying hero adds most to an air-based attack plan.</p><div class='note'><p><b>On hero data.</b> Hero tables here come from an extracted game-file snapshot that could not be verified against a published reference the way troop and building data was. Treat the figures as provisional.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What makes the Minion Prince different from other heroes?",
+        "a": "He flies, so walls, compartments and ground pathing do not apply to him. That lets him be sent directly at targets a ground hero would have to walk around the base to reach, at the cost of being vulnerable to anti-air."
+      },
+      {
+        "q": "Is the Minion Prince worth upgrading?",
+        "a": "It depends on how you attack. A flying hero adds most to an air-based attack plan, so if your armies are primarily ground-based, other heroes may return more per dark elixir spent."
+      }
+    ],
+    "related": [
+      "heroes:grand-warden",
+      "troops:minion",
+      "mechanics:hero-equipment",
+      "mechanics:defence-mechanics"
+    ],
+    "show_tool_note": false
+  },
+  "dragon-duke": {
+    "slug": "dragon-duke",
+    "name": "Dragon Duke",
+    "h1": "Dragon Duke — Clash of Clans",
+    "head_title": "Dragon Duke | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Dragon Duke in Clash of Clans: a Town Hall 15 hero with 25 levels, targeting ground and air, and where he fits in your upgrade order.",
+    "blurb": "A Town Hall 15 hero with a lot of hitpoints and two equipment slots.",
+    "summary": "The Dragon Duke unlocks at Town Hall 15 and runs to 25 levels. He targets both ground and air and starts at 9,100 hitpoints and 304 damage per second at level one, which puts him among the most durable units you can deploy.",
+    "quick": {
+      "Role": "Hero",
+      "Upgraded with": "Dark elixir",
+      "While upgrading": "Unavailable for attack and defence"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>Twenty-five levels, unlocking at Town Hall 15, upgraded with dark elixir, two equipment slots, and targeting both ground and air. At level one he already carries 9,100 hitpoints and 304 damage per second.</p><p>That opening durability is the striking part. It puts him in a different category from the Barbarian King at equivalent progress, and it suggests a hero meant to be sent somewhere dangerous rather than protected.</p>"
+      },
+      {
+        "h": "Where he fits in the upgrade queue",
+        "body": "<p>By Town Hall 15 you are running several heroes, and dark elixir is the constraint on all of them, as set out in <a href='../mechanics/dark-elixir.html'>dark elixir</a>. Adding a hero does not add dark elixir income, it adds another queue competing for it.</p><p>The rule from <a href='../mechanics/upgrade-priority.html'>upgrade priority</a> still decides this: stagger them so one is always upgrading and you always have the others available. A new hero is a reason to farm dark elixir harder, not a reason to leave an existing hero idle.</p>"
+      },
+      {
+        "h": "Equipment",
+        "body": "<p>Two slots, which are swappable freely between attacks. The standing advice applies: concentrate ores on the pieces you actually equip rather than levelling everything you own, and remember that whatever loadout you leave on is what defends your base. See <a href='../mechanics/hero-equipment.html'>hero equipment</a>.</p>"
+      },
+      {
+        "h": "A note on confidence",
+        "body": "<p>The Dragon Duke was absent entirely from the data source this wiki originally launched on, which is part of why we replaced it. The figures here are read from the game files and are as reliable as anything else on the site. What we have not done is play enough at Town Hall 15 with him to describe his ability and behaviour from experience, so this page deliberately stops at what the data supports. <a href='mailto:support@goblinsfarm.com'>Corrections welcome.</a></p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When do you unlock the Dragon Duke?",
+        "a": "At Town Hall 15. He runs to 25 levels, is upgraded with dark elixir like every hero, and carries two equipment slots."
+      },
+      {
+        "q": "Should I upgrade the Dragon Duke before my other heroes?",
+        "a": "Not at the expense of leaving another hero idle. Dark elixir is the constraint at this stage, so stagger upgrades to keep one hero always improving while the others stay available, rather than adding a fourth or fifth queue and finishing none of them."
+      }
+    ],
+    "related": [
+      "heroes:barbarian-king",
+      "heroes:minion-prince",
+      "mechanics:dark-elixir",
+      "mechanics:hero-equipment"
+    ]
+  }
+}

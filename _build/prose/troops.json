@@ -1,0 +1,1292 @@
+{
+  "barbarian": {
+    "slug": "barbarian",
+    "name": "Barbarian",
+    "h1": "Barbarian — Clash of Clans",
+    "head_title": "Barbarian | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Barbarian in Clash of Clans: role, targeting, how to use it in farming armies and what counters it.",
+    "blurb": "Cheap, dumb, and still one of the best value troops in the game.",
+    "summary": "The first troop you ever train and, remarkably, still one of the most cost-efficient in the game. The Barbarian has no preferred target, no special ability and no tricks. It walks to the nearest building and hits it, cheaply, and in numbers that is a real strategy.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>The Barbarian follows plain nearest-target logic: it walks toward whatever building is closest and attacks it. No preference for defences, no preference for resources. That simplicity is the point, because it makes the Barbarian entirely predictable, and predictable troops are steerable troops.</p><p>Its value is what it destroys per housing space. Barbarians were once prized for being nearly free to train; troops cost nothing at all now, so what keeps them relevant is that a wave of them clears exposed buildings on a sloppy base faster than anything you would feel bad about losing. Where they fail is against splash damage, which is the eternal answer to any massed cheap troop.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Two roles, both durable across every version of the game.</p><ul><li><strong>Farming, in bulk.</strong> Paired with Archers, the classic barch army strips collectors from inactive bases in a fraction of the time a heavier army takes. See the <a href='../../tutorials/farming-loop.html'>farming loop</a>.</li><li><strong>Utility.</strong> One Barbarian is the standard tool for finding a Clan Castle radius, for pulling defending troops into open ground, and for triggering a trap you suspect is there. Nothing else does those jobs so cheaply.</li></ul><p>Deploy in a spread line, never a stack. A stack of Barbarians is one Mortar shell away from being nothing.</p>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage, centrally placed, is the whole answer. Mortars, Wizard Towers and any area-damage defence delete massed Barbarians faster than they can chew through a wall. A base that keeps its splash coverage central and its storages behind compartments is functionally immune to Barbarian-led attacks, which is why they are a farming troop rather than a war one.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are Barbarians still worth using?",
+        "a": "For farming, absolutely. Their damage per housing space against undefended and lightly defended buildings remains among the best in the game, and they are the standard tool for luring Clan Castle troops, which costs you nothing now that troops are free. For war attacks against real defences, no, because splash damage removes them faster than they can do work."
+      },
+      {
+        "q": "What is a barch army?",
+        "a": "A farming army of mostly Barbarians and Archers, designed to strip exposed collectors from inactive bases rather than destroy a base outright. It is often still described as cheap, which is out of date: troops are free to train, so what recommends it is speed of deployment rather than price."
+      }
+    ],
+    "related": [
+      "troops:archer",
+      "troops:goblin",
+      "mechanics:troop-targeting-and-ai",
+      "mechanics:loot-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "archer": {
+    "slug": "archer",
+    "name": "Archer",
+    "h1": "Archer — Clash of Clans",
+    "head_title": "Archer | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Archer in Clash of Clans: ranged attacks over walls, farming use, and the defences that counter her.",
+    "blurb": "Shoots over walls, dies to a stiff breeze, and farms beautifully.",
+    "summary": "The Archer trades the Barbarian's hitpoints for range, and range changes everything. She shoots over walls, which means she can strip buildings without ever entering a compartment, and that single property makes her the other half of the most-used farming army in the game.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, ranged"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Archers attack at range and, critically, that range lets them hit buildings on the other side of a wall without breaking it. Against a base whose collectors sit just inside the outer wall, a line of Archers takes them all without a single Wall Breaker.</p><p>The cost is fragility. Archers have very low hitpoints and die to almost anything that hits an area, so their survival depends entirely on not being where the damage is.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Archers work behind something, or behind a wall.</p><ul><li><strong>Behind Barbarians or Giants.</strong> Let the tank engage first, drop Archers a moment later, and they shoot past it while it absorbs the fire.</li><li><strong>Along a wall line.</strong> Spread them so they engage buildings inside without pathing around the base. This is the core of barch farming.</li><li><strong>As clean-up.</strong> A few held back finish the exposed buildings your main push left standing.</li></ul><p>The universal rule: never drop Archers into open ground in front of a live splash defence, and never stack them.</p>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Any splash defence, and specifically splash coverage that reaches the outer ring where Archers stand. A base whose Mortars and Wizard Towers only cover the core will lose its perimeter collectors to Archers repeatedly. Pushing collectors inside a compartment, or making sure splash coverage extends outward, is the fix.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can Archers shoot over walls?",
+        "a": "Yes. Their range allows them to attack buildings on the other side of a wall without breaking through, which is exactly why they are so effective at stripping collectors placed just inside the outer wall of a base."
+      },
+      {
+        "q": "Why do my Archers die so quickly?",
+        "a": "Almost always because they were deployed in a stack or in open ground within range of a splash defence. Archers have very low hitpoints and need to be spread out and deployed behind something that absorbs damage."
+      }
+    ],
+    "related": [
+      "troops:barbarian",
+      "troops:giant",
+      "mechanics:walls-and-pathing",
+      "mechanics:loot-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "goblin": {
+    "slug": "goblin",
+    "name": "Goblin",
+    "h1": "Goblin — Clash of Clans",
+    "head_title": "Goblin | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Goblin in Clash of Clans: bonus damage to resource buildings, farming strategy, and why they run into the core.",
+    "blurb": "Fast, greedy, and the best loot-per-elixir troop in the game when used correctly.",
+    "summary": "The Goblin ignores nearest-target logic entirely and sprints for the nearest resource building, dealing bonus damage when it gets there. On an inactive base with full collectors that is devastating. On a defended base it is a fast, expensive way to lose troops.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, fast"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": "gold"
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Goblins have a preferred target: resource buildings, meaning mines, collectors, drills and storages, plus the Town Hall. They will run past a cannon that is shooting them to reach a gold mine, and they deal bonus damage to those buildings once they arrive.</p><p>They are also very fast, which is what makes them useful and dangerous in equal measure. A Goblin reaches the loot before the defences have finished turning, and it also reaches the core before you wanted it to.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Goblins are a precision farming tool, not a general troop. Being free to train, a wave of them is worth spending on any base showing collectors on the perimeter.</p><ul><li><strong>On inactive bases,</strong> drop them along the side with the most exposed collectors. They will strip the perimeter in seconds.</li><li><strong>Never lead with them into a defended base.</strong> Once the outer resource buildings are gone, the remaining ones are storages in the core, and your Goblins will run straight into every defence you own to reach them.</li><li><strong>Pair with a tank</strong> if you must go deeper: Giants pull defensive fire while the Goblins do the actual work.</li></ul><p>Their bonus damage against resource buildings makes them the fastest way to strip exposed loot in the game, which is exactly the situation described in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>. They used to be described as the best loot per elixir spent; since troops became free to train, the comparison is simply loot per second.</p>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Do not leave resource buildings on the perimeter. A base that keeps collectors inside walled compartments forces Goblins to path through defences, at which point their fragility ends the attack. Splash damage anywhere near the collector ring finishes the job.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why do my Goblins run into the middle of the base?",
+        "a": "Because they target resource buildings specifically, and once the outer collectors are destroyed the nearest remaining resource buildings are the storages in the core. They will run past every defence to reach them, which is why Goblins are best used on bases with plenty of exposed collectors."
+      },
+      {
+        "q": "Do Goblins do extra damage to storages?",
+        "a": "Yes. Goblins deal bonus damage to resource buildings, including collectors, mines, drills and storages, which is what makes them the most loot-efficient troop in the game when the loot is reachable."
+      }
+    ],
+    "related": [
+      "troops:barbarian",
+      "troops:archer",
+      "mechanics:loot-mechanics",
+      "guides:farming-guide"
+    ],
+    "priority": "0.6"
+  },
+  "giant": {
+    "slug": "giant",
+    "name": "Giant",
+    "h1": "Giant — Clash of Clans",
+    "head_title": "Giant | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Giant in Clash of Clans: defence targeting, tanking for damage troops, and what stops a Giant push.",
+    "blurb": "The original tank. Slow, tough, and targets defences only.",
+    "summary": "The Giant walks past everything to reach the nearest defence, absorbs an enormous amount of fire on the way, and hits slowly once it arrives. It is the game's first and most important lesson in the idea that some troops exist to be shot at.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, slow"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Giants prefer defences, so they ignore collectors, huts and storages and march toward cannons, towers and mortars. They have high hitpoints and low damage output, which makes them poor at killing things and excellent at not dying while other troops kill things.</p><p>The corollary from <a href='../mechanics/troop-targeting-and-ai.html'>troop targeting</a> applies with full force: once every defence is destroyed, Giants revert to nearest-target behaviour and wander toward whatever is closest, which at that point is usually a hut in a corner.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Giants are never the whole army. They are the front half of one.</p><ol class='steps'><li><b>Send Giants first.</b>Drop a spread line at the side you intend to attack, several seconds before anything else.</li><li><b>Let the defences engage them.</b>Wait for the defences to commit their fire.</li><li><b>Drop the damage behind.</b>Archers, Wizards or whatever your damage dealer is, behind the Giants and out of splash range.</li><li><b>Wall Breakers when the Giants stall.</b>The moment they bunch at a wall, that is the compartment you need opened.</li></ol><p>Deploy them spread out. Giants stacked together die to splash as reliably as anything else, they just take longer about it.</p>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Giants are slow and predictable, so the counters are structural. Splash damage placed where Giants will cluster, walls arranged so they path the long way round, and traps on the routes your compartments create. Because Giants only target defences, a base that keeps its defences deep forces them to walk a long, exposed path to reach anything at all.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do Giants target defences only?",
+        "a": "They prefer defences and will walk past every other building to reach one. Once all defences are destroyed they revert to normal nearest-target behaviour and start attacking whatever building is closest, which is a common cause of attacks stalling at 99 per cent."
+      },
+      {
+        "q": "How many Giants should I use?",
+        "a": "Enough to absorb the fire of the defences covering your entry point, which usually means a spread line rather than a precise count. What matters more is deploying them several seconds ahead of your damage troops and spreading them so splash damage cannot hit the whole group."
+      }
+    ],
+    "related": [
+      "troops:wall-breaker",
+      "troops:archer",
+      "troops:healer",
+      "mechanics:funnelling"
+    ],
+    "priority": "0.6"
+  },
+  "wall-breaker": {
+    "slug": "wall-breaker",
+    "name": "Wall Breaker",
+    "h1": "Wall Breaker — Clash of Clans",
+    "head_title": "Wall Breaker | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Wall Breaker in Clash of Clans: how wall targeting works, deployment timing, and why they die before arriving.",
+    "blurb": "One job, done once, at the exact moment you need it.",
+    "summary": "The Wall Breaker exists to solve one problem: your army is outside and the loot is inside. It runs at the wall protecting the nearest thing it has not reached and detonates. Everything about using it well is about making sure it survives the ten seconds before that happens.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, fast"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Wall Breakers target walls, specifically walls that stand between them and something they have not yet reached, and deal enormous damage to that wall while doing very little to anything else. They have almost no hitpoints.</p><p>That combination makes them the most timing-sensitive troop in the game. A Wall Breaker deployed at the right second turns a stalled push into a core breach. Deployed at the wrong second it is elixir you set on fire.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>The rule is simple and constantly ignored: <strong>Wall Breakers go in behind a tank, never in front of one</strong>.</p><ul><li><strong>Wait for the Giants to engage.</strong> While defences are shooting Giants, they are not shooting Wall Breakers.</li><li><strong>Send more than you think.</strong> Splash damage kills them in groups, and a wall that is nearly broken is a wall.</li><li><strong>Spread them slightly.</strong> Two dropped on the same tile die to one shell.</li><li><strong>Aim at the compartment, not the wall.</strong> They path to the wall protecting the nearest unreached building, so the deployment point determines which compartment they open.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage covering the wall line, and traps that catch fast-moving ground troops. Because Wall Breakers are fragile and predictable, a single well-placed splash defence covering the most attractive breach point ruins most attacks that depend on them. This is also why double walls are a waste, as covered in <a href='../mechanics/walls-and-pathing.html'>walls and pathing</a>: one charge opens both.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why do my Wall Breakers die before reaching the wall?",
+        "a": "Because they were deployed before the defences were distracted. Wall Breakers have almost no hitpoints and must go in after a tank such as Giants has engaged, so that defences are shooting something else when they run."
+      },
+      {
+        "q": "How many Wall Breakers do I need?",
+        "a": "More than the arithmetic suggests, because splash damage kills them in groups and a partly damaged wall still blocks. Send a surplus and spread them slightly so a single shell cannot remove the whole group."
+      }
+    ],
+    "related": [
+      "troops:giant",
+      "mechanics:walls-and-pathing",
+      "mechanics:funnelling",
+      "troops:archer"
+    ],
+    "priority": "0.6"
+  },
+  "balloon": {
+    "slug": "balloon",
+    "name": "Balloon",
+    "h1": "Balloon — Clash of Clans",
+    "head_title": "Balloon | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Balloon in Clash of Clans: air defence targeting, why Balloons are slow, and how to counter them.",
+    "blurb": "Flies over everything, kills defences, dies to Air Defences.",
+    "summary": "A Balloon is a Giant that flies and hits much harder. It targets defences, ignores walls entirely, and deals heavy damage when it arrives. It is also slow and helpless against anti-air, which is the entire balance of the unit.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Air, slow"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Balloons prefer defences and travel by air, which means walls, compartments and the entire discipline of base layout are irrelevant to them. They deal high damage to the buildings they reach and continue to damage the ground beneath them when destroyed.</p><p>The price is speed and vulnerability. Balloons move slowly, so a base with well-spread Air Defences gets several seconds of free fire on them before they reach anything.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Balloon attacks are about removing anti-air fast enough to matter.</p><ul><li><strong>Go where the anti-air is not.</strong> Identify the side with the thinnest Air Defence coverage and commit there rather than attacking the front door.</li><li><strong>Group them, but not under one shot.</strong> Balloons need mass to kill defences quickly, but clustering them under a single air-splash defence is how a Balloon army evaporates.</li><li><strong>Bring support.</strong> Rage to speed up the kill, healing to survive the approach, or freeze to disable the one defence that is doing the damage. See <a href='../mechanics/spell-mechanics.html'>spell mechanics</a>.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Spread anti-air, and never let two Air Defences sit under one spell radius. Balloons are slow enough that adequate, well-distributed anti-air simply shoots them down before they arrive. A base with clustered Air Defences, by contrast, hands the attacker a single point of failure.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What counters Balloons in Clash of Clans?",
+        "a": "Air Defences, particularly when they are spread across different sides of the base so they cannot all be removed by one spell and a single stack of Balloons. Air-targeting splash defences are especially effective because Balloons tend to travel in groups."
+      },
+      {
+        "q": "Are Balloons good for farming?",
+        "a": "Rarely. They are slow, cost a lot of housing space and target defences rather than resource buildings, so they spend the attack killing things that hold no loot. Goblins and Archers are far better value for stripping collectors."
+      }
+    ],
+    "related": [
+      "troops:dragon",
+      "troops:minion",
+      "mechanics:defence-mechanics",
+      "mechanics:spell-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "wizard": {
+    "slug": "wizard",
+    "name": "Wizard",
+    "h1": "Wizard — Clash of Clans",
+    "head_title": "Wizard | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Wizard in Clash of Clans: ranged splash damage, use behind tanks, and what kills a Wizard line.",
+    "blurb": "Ranged splash damage. Devastating behind a tank, useless in front of one.",
+    "summary": "The Wizard is the damage dealer that makes Giant-based armies actually destroy things. Ranged, splash, and hits hard enough to clear buildings quickly, with hitpoints that mean he must never be the first thing a defence sees.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, ranged splash"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Wizards attack at range and deal splash damage, which means a line of them clears clustered buildings extremely quickly. They have no preferred target, so they hit whatever is nearest, and they die fast if anything reaches them.</p><p>Their splash is what makes them different from Archers: against a compartment full of buildings, a small number of Wizards outperforms a much larger number of Archers.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Behind the tank, always, and spread.</p><ul><li><strong>Deploy after the Giants have engaged.</strong> Same rhythm as Archers, but Wizards are more valuable, so the timing discipline matters more.</li><li><strong>Spread the line.</strong> Wizards clumped together are a single Mortar shell away from a failed attack, and they cost four housing space each.</li><li><strong>Use them on clusters.</strong> Aim their approach at parts of the base where buildings are packed, since that is where splash pays off.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Anything that reaches them. Wizards are ranged but not fast, so defending Clan Castle troops and heroes that get among them end the push immediately. Splash defences work too, particularly against players who deploy Wizards in a tight group, which most do.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are Wizards better than Archers?",
+        "a": "For destroying clustered buildings, yes, because their splash damage hits several at once. For cheap collector farming, no, because they cost four housing space each and Archers strip perimeter buildings for a fraction of the price."
+      },
+      {
+        "q": "Why do my Wizards die immediately?",
+        "a": "Usually because they were deployed too early or too close together. Wizards need a tank to absorb defensive fire first and must be spread along a line, since a single splash shell can remove an entire clumped group."
+      }
+    ],
+    "related": [
+      "troops:giant",
+      "troops:archer",
+      "troops:dragon",
+      "mechanics:defence-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "healer": {
+    "slug": "healer",
+    "name": "Healer",
+    "h1": "Healer — Clash of Clans",
+    "head_title": "Healer | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Healer in Clash of Clans: how healing works, pairing with the Archer Queen, and why Air Defences end her.",
+    "blurb": "No damage, pure sustain, and completely helpless against anti-air.",
+    "summary": "The Healer does no damage at all. She follows ground troops and heals them, which turns a durable push into an almost unkillable one, right up until an Air Defence notices her.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Air, support"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Healers fly, target friendly ground troops, and restore their hitpoints continuously. They cannot heal air units and they cannot attack anything. Their entire contribution is keeping something else alive.</p><p>Because they are air units, every anti-air defence on the map is a hard counter, and because they cost a great deal of housing space, losing one early is a serious loss.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>The classic and still dominant use is <strong>pairing Healers with the Archer Queen</strong>, a combination durable enough to walk through a substantial portion of a base on its own. The technique, usually called a Queen walk, is to send the Queen in with a group of Healers behind her and let her clear a path slowly and safely, doing funnel work or killing a specific defence.</p><ul><li><strong>Deploy Healers after the target is engaged</strong>, so they immediately have something to heal.</li><li><strong>Clear the anti-air on that side first</strong>, or accept that the Healers will die when they drift into range.</li><li><strong>Watch the drift.</strong> Healers follow their target, so if the Queen walks toward an Air Defence, so do they.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Air Defences positioned so that a ground push toward your core inevitably brings Healers into range. Because Healers do no damage, killing them does not just reduce incoming damage, it removes the sustain that the entire attack was built on, and the push usually collapses immediately afterwards.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can Healers heal air troops?",
+        "a": "No. Healers can only heal ground troops, which is why they pair with the Archer Queen and ground-based pushes rather than with Dragons or Balloons."
+      },
+      {
+        "q": "What is a Queen walk?",
+        "a": "Sending the Archer Queen into a base with several Healers supporting her, so she survives long enough to clear a path, create a funnel or destroy a specific defence before the main army goes in. It is one of the most reliable attack openers in the game."
+      }
+    ],
+    "related": [
+      "heroes:archer-queen",
+      "troops:giant",
+      "mechanics:defence-mechanics",
+      "mechanics:funnelling"
+    ],
+    "priority": "0.6"
+  },
+  "dragon": {
+    "slug": "dragon",
+    "name": "Dragon",
+    "h1": "Dragon — Clash of Clans",
+    "head_title": "Dragon | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Dragon in Clash of Clans: why dragon attacks are so reliable, splash damage from the air, and the anti-air counter.",
+    "blurb": "The most forgiving strong army in the mid game, and it is not close.",
+    "summary": "The Dragon is the answer to the question every mid-game player asks: what army actually works without a lot of skill? It flies, it splashes, it has a lot of hitpoints, and it ignores every wall you will ever meet. Its weakness is exactly one thing.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Air, splash"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Dragons are air units with high hitpoints and splash damage, with no preferred target. They fly straight toward the nearest building and destroy it and its neighbours. Because they fly, the entire discipline of walls, compartments and pathing simply does not apply to them.</p><p>That is why dragon attacks are recommended so often to players who are struggling: they remove the hardest part of attacking, which is controlling where a ground army goes.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Deceptively simple, with two decisions that matter.</p><ul><li><strong>Pick the side with the least anti-air.</strong> This is the whole strategy. Scout the Air Defences before deploying anything.</li><li><strong>Deploy in a spread line, all at once.</strong> Dragons work as a wave. Trickling them in one at a time feeds them to the defences individually.</li><li><strong>Save spells for the anti-air.</strong> Rage over the group as they engage the first Air Defence, or lightning to remove one before you start.</li></ul><p>The most common failure is deploying into the strongest anti-air side because it looked closer to the Town Hall.</p>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Spread, high-level Air Defences, plus air-targeting splash. A base with three Air Defences clustered on one side is a free three star for a dragon army; the same three spread across three sides is a serious problem. This is the single most important defensive lesson at mid Town Halls, and it is covered in <a href='../mechanics/defence-mechanics.html'>defence mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why are dragon attacks so popular?",
+        "a": "Because they remove the hardest part of attacking. Air troops ignore walls and pathing entirely, so a dragon army needs only one good decision, which side has the weakest anti-air, rather than the funnelling and timing a ground army demands."
+      },
+      {
+        "q": "What counters Dragons?",
+        "a": "Air Defences, spread across multiple sides of the base rather than clustered, plus any air-targeting splash defence. Dragons travel in a group, so splash damage that reaches air units is disproportionately effective against them."
+      }
+    ],
+    "related": [
+      "troops:balloon",
+      "troops:baby-dragon",
+      "troops:electro-dragon",
+      "mechanics:defence-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "pekka": {
+    "slug": "pekka",
+    "name": "P.E.K.K.A",
+    "h1": "P.E.K.K.A — Clash of Clans",
+    "head_title": "P.E.K.K.A | Clash of Clans Wiki | Goblins Farm",
+    "description": "P.E.K.K.A in Clash of Clans: enormous hitpoints and damage, the housing cost, and why splash defences are not the counter.",
+    "blurb": "Enormous damage, enormous hitpoints, enormous housing cost.",
+    "summary": "P.E.K.K.A hits harder and survives longer than anything else in the standard barracks, and costs a fortune in housing space to do it. She is a single point of overwhelming force, with all the fragility that implies about putting your army in one basket.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, slow, heavy"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>P.E.K.K.A has the highest hitpoints and damage of the elixir troops, no preferred target, and moves slowly. She destroys buildings in very few hits, including walls when she chooses to attack them, and she shrugs off single-target defences that would delete anything else.</p><p>The counter-intuitive part: <strong>splash damage is not her weakness</strong>. Splash defences exist to punish many cheap units, and P.E.K.K.A is one expensive one. What actually kills her is concentrated single-target damage and time.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Her housing cost means an army built around her contains very few units, so every one of them has to matter.</p><ul><li><strong>Give her a path.</strong> P.E.K.K.A moving through a maze of compartments spends the whole attack walking. Use Wall Breakers or a Jump Spell to open a route.</li><li><strong>Give her support.</strong> Fast, cheap troops behind her clear the buildings she walks past, since she is too slow to clean up.</li><li><strong>Protect her from single-target burst.</strong> An Inferno Tower in single-target mode is her genuine nightmare, and freeze is the standard answer.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Concentrated single-target damage, especially anything that ramps up over time against one target. Compartmented layouts also work well, not by killing her but by wasting her time, since a slow troop that spends ninety seconds walking has been defeated by the clock. Defending Clan Castle troops and heroes add the sustained damage needed to finish the job.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best counter to P.E.K.K.A?",
+        "a": "Concentrated single-target damage rather than splash, since splash defences are designed to punish many weak troops and P.E.K.K.A is one very strong one. Highly compartmented bases also work, because they waste the time of a slow, expensive unit."
+      },
+      {
+        "q": "Is P.E.K.K.A good for farming?",
+        "a": "No. Her housing cost and training expense mean an army built around her is far too expensive to run repeatedly for collector loot. She belongs in war attacks where the goal is destruction rather than profit."
+      }
+    ],
+    "related": [
+      "troops:golem",
+      "troops:wizard",
+      "mechanics:walls-and-pathing",
+      "mechanics:spell-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "baby-dragon": {
+    "slug": "baby-dragon",
+    "name": "Baby Dragon",
+    "h1": "Baby Dragon — Clash of Clans",
+    "head_title": "Baby Dragon | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Baby Dragon in Clash of Clans: the enrage mechanic when isolated from other air troops, and how to use it for funnelling.",
+    "blurb": "Stronger when it flies alone, which is the opposite of how most players use it.",
+    "summary": "The Baby Dragon has one genuinely unusual property: it gets angry when it is alone. Kept away from other air units it becomes substantially stronger, which turns it from a small dragon into one of the best funnelling tools in the game.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Air, splash"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>The Baby Dragon is a small air unit with splash damage, and it has an enrage mechanic: when no other air troops are nearby, it becomes noticeably more powerful. Surround it with other air units and it reverts to ordinary.</p><p>This is the rare troop whose optimal use is written into its mechanic and almost universally ignored, because players instinctively deploy troops in groups.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p><strong>Send it alone, on a flank.</strong> One Baby Dragon on each side of a base, well away from the main air group, clears the outside buildings quickly while enraged and creates the corridor described in <a href='../mechanics/funnelling.html'>funnelling</a>.</p><ul><li><strong>Do not fold it into a Dragon stack.</strong> Inside the group it loses its bonus and becomes an expensive small Dragon.</li><li><strong>Use it as a funnel opener</strong> alongside heroes, then let the main army follow into the gap.</li><li><strong>Watch where it drifts.</strong> Like all air units it goes to the nearest building, so a flank that curves back toward the group defeats the purpose.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Standard anti-air, plus a tidy perimeter. Because the Baby Dragon's main job is clearing the outside buildings that would otherwise distract a ground army, a base with few loose perimeter buildings gives it much less to do. Anti-air positioned to cover the flanks, not just the core, punishes the lone-flyer approach directly.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How does the Baby Dragon's rage work?",
+        "a": "It becomes significantly stronger when there are no other air troops near it. That means a Baby Dragon flown alone on a flank is far more effective than one deployed inside a group of Dragons or Balloons, where the bonus is lost."
+      },
+      {
+        "q": "What is the Baby Dragon used for?",
+        "a": "Most often funnelling. Sent alone down each side of a base it clears the outside buildings quickly while enraged, creating the corridor that steers the main army into the core."
+      }
+    ],
+    "related": [
+      "troops:dragon",
+      "mechanics:funnelling",
+      "troops:electro-dragon",
+      "mechanics:troop-targeting-and-ai"
+    ],
+    "priority": "0.6"
+  },
+  "miner": {
+    "slug": "miner",
+    "name": "Miner",
+    "h1": "Miner — Clash of Clans",
+    "head_title": "Miner | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Miner in Clash of Clans: tunnelling underground, untargetable movement, and why layout barely slows them.",
+    "blurb": "Goes under the walls instead of over them, and cannot be shot while travelling.",
+    "summary": "Miners travel underground and cannot be targeted while doing so, surfacing next to their target, attacking, then burrowing again. They ignore walls without flying, which makes them the answer to bases built specifically to stop air.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, tunnels"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Miners tunnel between targets. While underground they are untargetable, so defences cannot damage them in transit, and walls do not affect their path at all. They surface, attack, and burrow again toward the next nearest building.</p><p>Functionally this gives them the wall-ignoring property of air troops while remaining ground units, meaning Air Defences cannot touch them either. What they lack is hitpoints once surfaced.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Miners work as a mass, moving through a base in a wave.</p><ul><li><strong>Deploy them as a group along one side</strong> so they surface together and overwhelm the defences in one compartment at a time.</li><li><strong>Bring healing.</strong> Miners take damage in bursts when surfaced, and healing keeps the wave alive through the middle of the base, which is where attacks with them are won or lost.</li><li><strong>Ignore the layout.</strong> Unlike almost every other ground army, you do not need to plan around compartments. Plan around where the splash damage is.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage placed centrally, plus traps that catch ground troops as they surface. Because Miners ignore walls, a compartmented base offers little resistance, so the defensive answer is damage rather than geometry. Defences that hit hard in an area where Miners must surface are the practical counter.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can Miners be attacked while underground?",
+        "a": "No. Miners are untargetable while tunnelling and can only be damaged once they surface to attack. That is what lets them cross a base that would shred an ordinary ground army."
+      },
+      {
+        "q": "Do walls stop Miners?",
+        "a": "Not at all. Miners tunnel under walls entirely, which makes heavily compartmented bases a poor defence against them. Splash damage placed where they must surface is the real counter."
+      }
+    ],
+    "related": [
+      "troops:hog-rider",
+      "mechanics:walls-and-pathing",
+      "mechanics:defence-mechanics",
+      "mechanics:spell-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "electro-dragon": {
+    "slug": "electro-dragon",
+    "name": "Electro Dragon",
+    "h1": "Electro Dragon — Clash of Clans",
+    "head_title": "Electro Dragon | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Electro Dragon in Clash of Clans: chain lightning damage, slow attack speed, and how it clears packed bases.",
+    "blurb": "Chain lightning that punishes tightly packed bases.",
+    "summary": "The Electro Dragon attacks with chain lightning that arcs from its target to nearby buildings, so a single strike can damage a whole cluster. It attacks slowly, which makes it a very different unit from the standard Dragon despite the similar silhouette.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Air, chain lightning"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Its attack chains from the primary target to nearby buildings, dealing damage down the chain. Against a base with buildings packed close together, that means one Electro Dragon is damaging four or five structures at once. Against a spread-out base, the chain finds nothing and the unit is simply a slow Dragon.</p><p>Its attack rate is slow, which matters more than players expect: it means the damage arrives in large, infrequent bursts, and any defence that kills it between bursts gets a great deal of value.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Scout for density before committing.</p><ul><li><strong>Attack the packed side.</strong> Chain damage is worth several times more against clustered buildings than against a spread perimeter.</li><li><strong>Bring sustain.</strong> Because it kills slowly, it needs to survive longer, so healing and rage both pay off well.</li><li><strong>Mind the housing cost.</strong> At thirty spaces each, an army is very few units, so losing one early is a large fraction of the attack.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Spread the base out, and invest in anti-air that kills between attack cycles. Because the Electro Dragon's value depends on buildings being close together, a layout with genuine spacing removes most of its advantage, and its slow attack speed means every second of survival costs the attacker disproportionately.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How does the Electro Dragon's chain lightning work?",
+        "a": "Its attack arcs from the primary target to nearby buildings, damaging several at once. That makes it very strong against tightly packed bases and much weaker against layouts with real spacing between buildings."
+      },
+      {
+        "q": "Is the Electro Dragon better than the Dragon?",
+        "a": "Different rather than better. It deals more total damage against clustered buildings thanks to the chain, but attacks slowly and costs considerably more housing space, so a standard Dragon army is often more reliable against spread-out layouts."
+      }
+    ],
+    "related": [
+      "troops:dragon",
+      "troops:baby-dragon",
+      "mechanics:defence-mechanics",
+      "mechanics:spell-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "yeti": {
+    "slug": "yeti",
+    "name": "Yeti",
+    "h1": "Yeti — Clash of Clans",
+    "head_title": "Yeti | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Yeti in Clash of Clans: spawning Yetimites, durability, and its role in ground armies.",
+    "blurb": "A tank that spawns its own support as it takes damage.",
+    "summary": "The Yeti is a durable ground troop that releases small Yetimites as it takes damage, so it brings its own swarm with it. That combination of a tank and a supply of expendable damage makes it unusually self-sufficient.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, spawns Yetimites"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>The Yeti has substantial hitpoints and deals solid damage, and as it is damaged it releases Yetimites, small fast units that attack independently. Effectively the Yeti converts incoming damage into additional attackers.</p><p>That makes it strong against single-target defences, which spend their fire on the Yeti while the Yetimites work freely, and weaker against splash, which clears the Yetimites as fast as they appear.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Yetis anchor a ground push rather than leading one alone.</p><ul><li><strong>Use them to break into a compartment</strong> and let the Yetimites clean up inside while the Yeti moves on.</li><li><strong>Pair with healing.</strong> Keeping a Yeti alive longer means more Yetimites, so sustain compounds.</li><li><strong>Do not stack them under splash.</strong> The Yetimites are fragile, and area damage removes the entire secondary force in one hit.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage, centrally placed. The Yetimites are what make the unit dangerous, and they die to area damage almost instantly. A base whose splash coverage reaches the compartments a Yeti must break into neutralises most of its value while the single-target defences handle the parent unit.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are Yetimites?",
+        "a": "Small fast units the Yeti releases as it takes damage. They attack independently, which means the Yeti effectively converts the damage it absorbs into extra attackers, and they are removed very quickly by splash defences."
+      },
+      {
+        "q": "What counters the Yeti?",
+        "a": "Splash damage placed where a Yeti has to break in, because area damage clears the Yetimites almost as fast as they spawn and removes most of what makes the unit dangerous."
+      }
+    ],
+    "related": [
+      "troops:golem",
+      "troops:pekka",
+      "mechanics:defence-mechanics",
+      "mechanics:spell-mechanics"
+    ],
+    "priority": "0.6"
+  },
+  "dragon-rider": {
+    "slug": "dragon-rider",
+    "name": "Dragon Rider",
+    "h1": "Dragon Rider — Clash of Clans",
+    "head_title": "Dragon Rider | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Dragon Rider in Clash of Clans: air unit that targets defences, and how it differs from the Dragon.",
+    "blurb": "An air troop that goes for defences rather than whatever is nearest.",
+    "summary": "A Dragon Rider is an air unit that targets defences specifically, which makes it behave far more like a flying Giant than like a Dragon. That targeting preference is the whole point of the unit.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Air"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Unlike the Dragon, which attacks whatever is closest, the Dragon Rider prefers defences and will fly past collectors, huts and storages to reach them. Combined with air movement, that produces a unit which flies directly toward the things that matter, ignoring both walls and distractions.</p><p>The usual corollary applies: once every defence is destroyed, it reverts to nearest-target behaviour like anything else.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Because they self-direct toward defences, Dragon Riders need much less steering than most armies.</p><ul><li><strong>Deploy as a group toward the defensive core</strong> rather than trying to funnel them.</li><li><strong>Support with spells for the anti-air.</strong> Their weakness is the same as every air unit's, and rage or freeze on the key Air Defence is usually what decides the attack.</li><li><strong>Bring clean-up.</strong> Since they ignore non-defensive buildings until the end, an army of only Dragon Riders can leave a scatter of huts standing.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Strong, well-spread anti-air, and defensive Clan Castle troops that can engage air units. Because Dragon Riders go straight for defences, a base that keeps its anti-air deep and mutually covering forces them to fly through sustained fire to reach anything.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How is the Dragon Rider different from the Dragon?",
+        "a": "The Dragon Rider targets defences specifically, while the Dragon attacks whatever building is nearest. That makes Dragon Riders far more self-directing, since they fly straight to the defences instead of eating the perimeter first."
+      },
+      {
+        "q": "Do Dragon Riders need a funnel?",
+        "a": "Much less than a ground army, because they fly and they seek defences directly. What they do need is a plan for the anti-air, which is what actually stops them."
+      }
+    ],
+    "related": [
+      "troops:dragon",
+      "troops:balloon",
+      "mechanics:defence-mechanics",
+      "mechanics:funnelling"
+    ],
+    "priority": "0.6"
+  },
+  "electro-titan": {
+    "slug": "electro-titan",
+    "name": "Electro Titan",
+    "h1": "Electro Titan — Clash of Clans",
+    "head_title": "Electro Titan | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Electro Titan in Clash of Clans: chain damage aura, high durability, and its role as a heavy ground unit.",
+    "blurb": "A heavy ground unit that damages everything around it while it fights.",
+    "summary": "The Electro Titan is a heavy ground unit that damages targets with a chaining electric attack and continues to deal damage around it while it fights. It is expensive in housing space and correspondingly powerful.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, chain aura"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>It combines very high hitpoints with a chaining electrical attack that spreads damage between nearby targets. In practice that means an Electro Titan grinding through a compartment is damaging several buildings at once, and any defending troops that come near take damage simply for being close.</p><p>It is slow and enormously expensive in housing space, so armies containing one contain very little else.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Treat it as the centrepiece rather than as support.</p><ul><li><strong>Open a route for it.</strong> Like every slow heavy unit, its worst enemy is the clock, so remove walls in its path rather than letting it grind through them.</li><li><strong>Bring freeze for the burst defences.</strong> Sustained single-target damage is what actually kills it.</li><li><strong>Follow it in.</strong> The corridor it clears is the funnel for the rest of the army.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Sustained single-target damage plus geometry. Defences that ramp their damage against a single target are the direct counter, and a heavily compartmented base wastes the time of a slow unit, which is functionally the same as defeating it. Keeping defending troops away from its aura also matters, since they take damage passively near it.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Electro Titan's aura do?",
+        "a": "Its chaining electrical attack spreads damage to nearby targets while it fights, so it damages several buildings at once and harms defending troops that come near it rather than only its primary target."
+      },
+      {
+        "q": "Is the Electro Titan worth the housing space?",
+        "a": "Only in armies built deliberately around it, since at that cost you can field very little else. It is a war unit for breaking into a defended core, not a farming unit."
+      }
+    ],
+    "related": [
+      "troops:pekka",
+      "troops:golem",
+      "mechanics:spell-mechanics",
+      "mechanics:walls-and-pathing"
+    ],
+    "priority": "0.6"
+  },
+  "root-rider": {
+    "slug": "root-rider",
+    "name": "Root Rider",
+    "h1": "Root Rider — Clash of Clans",
+    "head_title": "Root Rider | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Root Rider in Clash of Clans: a durable defence-targeting ground unit that destroys walls in its path.",
+    "blurb": "Targets defences and walks through walls, which is a rare combination.",
+    "summary": "The Root Rider targets defences and destroys walls simply by walking through them, which removes the two things that usually break a ground attack: distraction and geometry.",
+    "quick": {
+      "Role": "Elixir troop",
+      "Movement": "Ground, breaks walls while moving"
+    },
+    "tags": [
+      {
+        "label": "Elixir troop",
+        "kind": ""
+      }
+    ],
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Two properties matter. It prefers defences, so it self-directs toward the buildings that matter rather than eating the perimeter. And it destroys walls in its path as it moves, so compartmentalisation, the main defensive tool against ground armies, does much less against it.</p><p>Combined with high hitpoints, that makes it one of the most self-sufficient ground units in the game: it needs less funnelling and fewer Wall Breakers than almost anything else.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Deploy as a group toward the defensive core and support them.</p><ul><li><strong>Spend the saved housing on spells and support</strong> rather than on Wall Breakers you no longer need.</li><li><strong>Watch for splash.</strong> Durability is not immunity, and a group moving together is a group under one shell.</li><li><strong>Bring clean-up troops</strong> for the non-defensive buildings they ignore until the end.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Since walls and funnelling matter less, defence against Root Riders is about raw damage in the right places: splash coverage on the routes into the core, and single-target damage sustained enough to wear down high hitpoints. Traps positioned on the direct line to the defensive core also perform well, because the unit takes the direct line by design.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do walls stop Root Riders?",
+        "a": "Not meaningfully. Root Riders destroy walls in their path as they move, so heavily compartmented layouts provide much less protection against them than against ordinary ground troops."
+      },
+      {
+        "q": "Do Root Riders need Wall Breakers?",
+        "a": "No, which is a large part of their appeal. Because they break through walls themselves and target defences directly, an army built around them can spend the housing space usually reserved for Wall Breakers on spells or support instead."
+      }
+    ],
+    "related": [
+      "troops:hog-rider",
+      "troops:miner",
+      "mechanics:walls-and-pathing",
+      "mechanics:funnelling"
+    ],
+    "priority": "0.6"
+  },
+  "minion": {
+    "slug": "minion",
+    "name": "Minion",
+    "h1": "Minion — Clash of Clans",
+    "head_title": "Minion | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Minion in Clash of Clans: cheap fast air troop, low hitpoints, and where it fits in an army.",
+    "blurb": "The cheapest way to put damage in the air.",
+    "summary": "Minions are fast, cheap flying attackers with very little health. They are the air equivalent of Archers: excellent value when something else is absorbing the damage, and gone in an instant when it is not.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Minions fly, attack at short range, and cost very little dark elixir. They have no preferred target, so they hit the nearest building, and they move quickly enough to cross a base in seconds.</p><p>Their hitpoints are extremely low. Any air-targeting splash defence removes a group of Minions almost instantly, which is the single fact that governs how they are used.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Minions are support and clean-up, not a spearhead.</p><ul><li><strong>Behind a tank.</strong> Lava Hounds and Dragons soak air defence fire while Minions do damage from behind. This pairing is the backbone of a great many air armies.</li><li><strong>Clean-up.</strong> A handful held back finishes surviving buildings quickly at the end of an attack, because they are fast.</li><li><strong>Spread them.</strong> Never a stack. One air splash shot should not be able to remove your whole damage output.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Air-targeting splash defences, positioned so they cover the approaches rather than only the core. Because Minions are fast, defences that need time to acquire targets get less value; because Minions are fragile, anything that lands an area hit gets a great deal.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are Minions good on their own?",
+        "a": "No. Their hitpoints are too low to survive contact with air defences, so a pure Minion army evaporates. They perform well behind something durable, most commonly a Lava Hound, which absorbs the air defence fire while the Minions deal the damage."
+      },
+      {
+        "q": "Why do all my Minions die at once?",
+        "a": "Because they were deployed in a stack within range of an air-targeting splash defence. Spread them along a line so a single area hit cannot remove the whole group."
+      }
+    ],
+    "related": [
+      "troops:lava-hound",
+      "troops:dragon",
+      "mechanics:defence-mechanics",
+      "mechanics:dark-elixir"
+    ],
+    "quick": {}
+  },
+  "hog-rider": {
+    "slug": "hog-rider",
+    "name": "Hog Rider",
+    "h1": "Hog Rider — Clash of Clans",
+    "head_title": "Hog Rider | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Hog Rider in Clash of Clans: jumping walls, targeting defences, and why traps are the real counter.",
+    "blurb": "Jumps walls, targets defences, and ignores your entire base layout.",
+    "summary": "The Hog Rider goes over walls rather than through them and heads straight for defences. That combination makes compartmentalisation, the main defensive tool against ground armies, almost irrelevant, which is why bases are specifically designed to punish him in other ways.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Hog Riders prefer defences and jump over walls natively, so they move directly from one defence to the next in a straight line regardless of layout. They are fast and reasonably durable individually, and they attack quickly.</p><p>Because they take the direct route between defences, their path is highly predictable, and predictable is exactly what a defender wants.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Hogs work as a wave, and the wave has to survive the middle of the base.</p><ul><li><strong>Deploy them together</strong> so they hit each defence as a group rather than being picked off in sequence.</li><li><strong>Bring healing.</strong> Heal spells on a hog wave are close to mandatory, because the damage arrives steadily rather than in a burst.</li><li><strong>Deal with the Clan Castle first.</strong> A defending Castle in the middle of a hog run ends it, so lure properly, as in <a href='../mechanics/clan-castle-troops.html'>Clan Castle troops</a>.</li><li><strong>Watch for the trap layout.</strong> If the defences are arranged in a neat ring with suspicious gaps, there are giant bombs in those gaps.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Traps, not walls. Because hogs jump walls and path predictably between defences, the standard defensive answer is to place ground-damaging traps on the routes between defences, where a hog wave is guaranteed to pass. Clustering defences so that traps cover several approach lines at once is the whole idea behind anti-hog design.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do walls stop Hog Riders?",
+        "a": "No. Hog Riders jump over walls, so compartmentalisation does very little against them. The effective counter is placing ground traps on the predictable routes they take between defences."
+      },
+      {
+        "q": "Why does my hog attack keep failing in the middle of the base?",
+        "a": "Usually either the defending Clan Castle, which must be lured out first, or giant bombs placed between clustered defences, which are specifically designed to kill a grouped hog wave."
+      }
+    ],
+    "related": [
+      "troops:miner",
+      "troops:valkyrie",
+      "mechanics:walls-and-pathing",
+      "mechanics:clan-castle-troops"
+    ],
+    "quick": {}
+  },
+  "valkyrie": {
+    "slug": "valkyrie",
+    "name": "Valkyrie",
+    "h1": "Valkyrie — Clash of Clans",
+    "head_title": "Valkyrie | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Valkyrie in Clash of Clans: circular splash damage, compartment clearing, and pathing quirks.",
+    "blurb": "Swings in a circle, which makes packed compartments her ideal home.",
+    "summary": "The Valkyrie deals splash damage in a circle around herself, so she is at her best standing between several buildings at once. Getting her into that position is the entire skill of using her.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Her attack damages everything in a circle around her rather than a single target, which means her damage output scales with how many buildings she is standing among. She is durable enough to survive in a compartment and fast enough to move between them.</p><p>She has no preferred target, so she attacks whatever is nearest, and that is exactly where her pathing quirk bites: a Valkyrie standing between two compartments may pick the target that pulls her away from the cluster you wanted her to clear.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Get her inside, then let her work.</p><ul><li><strong>Open a compartment for her.</strong> Wall Breakers or a Jump Spell first. A Valkyrie walking around the outside of a base is worth a fraction of one inside it.</li><li><strong>Use them in small groups</strong> so several compartments are being cleared at once and no single splash defence can hit them all.</li><li><strong>Rage inside the core.</strong> Her damage is already area-wide, so a damage boost while she stands among four buildings is exceptional value.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage that reaches into your compartments, and layouts that do not pack many buildings into a single cell. Because her value depends on standing among multiple structures, a base with genuinely separated compartments gives her far less to hit at once.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How does Valkyrie splash damage work?",
+        "a": "She damages everything in a circle around her rather than one target, so her effectiveness depends on standing among several buildings at once. That makes opening a compartment for her far more important than the raw number you deploy."
+      },
+      {
+        "q": "Why does my Valkyrie walk the wrong way?",
+        "a": "She has no preferred target and simply attacks whatever is nearest, so a Valkyrie standing on a compartment boundary may be pulled toward a building outside the cluster you wanted cleared. Opening a specific compartment for her makes her behaviour far more predictable."
+      }
+    ],
+    "related": [
+      "troops:pekka",
+      "troops:hog-rider",
+      "mechanics:walls-and-pathing",
+      "mechanics:spell-mechanics"
+    ],
+    "quick": {}
+  },
+  "golem": {
+    "slug": "golem",
+    "name": "Golem",
+    "h1": "Golem — Clash of Clans",
+    "head_title": "Golem | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Golem in Clash of Clans: the primary tank, splitting into Golemites, and why it targets defences.",
+    "blurb": "The main tank of the dark elixir roster, and it splits when it dies.",
+    "summary": "The Golem exists to be shot at. It has the highest effective durability of any dark troop, targets defences, moves slowly, and splits into smaller Golemites when destroyed, so it keeps absorbing damage even after it dies.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Golems prefer defences, have enormous hitpoints and deal very little damage. When destroyed they split into Golemites, which continue moving and attacking, so the total damage a base must deal to fully remove one is considerably higher than its listed health suggests.</p><p>They are slow. Very slow. An army built around Golems is an army that needs the clock managed carefully.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Golems lead, everything else follows.</p><ul><li><strong>Deploy first and spread.</strong> Two Golems on separate lines pull fire from two directions and protect a wider front.</li><li><strong>Put the damage behind them.</strong> Witches, Wizards, Valkyries, whatever your army is built on, goes in after the defences have committed.</li><li><strong>Mind the timer.</strong> Golem armies are slow by nature, so a poor funnel does not just reduce damage, it runs out the clock.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Sustained single-target damage, especially anything that ramps up against one target, plus geometry that wastes time. Splash damage is largely wasted on a Golem itself but is excellent against the fragile troops walking behind it, which is usually the more productive target.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are Golemites?",
+        "a": "The smaller units a Golem splits into when destroyed. They keep moving and attacking, which means the base has to spend considerably more damage to fully remove a Golem than its listed hitpoints imply."
+      },
+      {
+        "q": "How many Golems should I use?",
+        "a": "Usually one or two, deployed on separate lines so they pull fire from more than one direction. More than that consumes housing space that would be better spent on the troops actually doing damage behind them."
+      }
+    ],
+    "related": [
+      "troops:pekka",
+      "troops:witch",
+      "troops:yeti",
+      "mechanics:funnelling"
+    ],
+    "quick": {}
+  },
+  "witch": {
+    "slug": "witch",
+    "name": "Witch",
+    "h1": "Witch — Clash of Clans",
+    "head_title": "Witch | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Witch in Clash of Clans: summoning skeletons continuously, and why splash damage counters her.",
+    "blurb": "Summons a continuous stream of skeletons, which is more valuable than her own damage.",
+    "summary": "The Witch's own attack is unremarkable. What matters is that she continuously summons skeletons, which act as free, endlessly renewing distractions. A protected Witch generates a small army by herself.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Witches summon skeletons on a timer, and those skeletons attack independently and absorb defensive fire. The longer a Witch survives, the more of them exist, so her value compounds with her survival time in a way most troops' does not.</p><p>The skeletons are extremely fragile, so the entire package is defeated by area damage.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Keep her alive and keep her behind something.</p><ul><li><strong>Behind Golems.</strong> The standard pairing: the Golem takes the fire, the Witch keeps generating skeletons that swarm defences.</li><li><strong>Spread them out.</strong> Witches clumped together die to one splash shell, and losing two Witches at once removes most of the army's sustained output.</li><li><strong>Protect from splash first.</strong> If the base has heavy central splash coverage, plan to remove or freeze it before the Witches arrive.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage, centrally placed, which clears skeletons as fast as they are summoned and kills the fragile Witches behind them. A base with strong central area damage neutralises Witch-based armies almost completely, which is why they are so sensitive to layout.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What makes the Witch strong?",
+        "a": "Not her own attack, but the continuous stream of skeletons she summons. They absorb defensive fire for free and their number grows the longer she survives, so protecting a Witch is worth far more than adding another one."
+      },
+      {
+        "q": "What counters Witches?",
+        "a": "Splash damage placed centrally. It clears the summoned skeletons as fast as they appear and kills the Witches themselves, which are fragile. Witch armies are unusually sensitive to how much area damage a base has in the core."
+      }
+    ],
+    "related": [
+      "troops:golem",
+      "troops:bowler",
+      "mechanics:defence-mechanics",
+      "mechanics:spell-mechanics"
+    ],
+    "quick": {}
+  },
+  "lava-hound": {
+    "slug": "lava-hound",
+    "name": "Lava Hound",
+    "h1": "Lava Hound — Clash of Clans",
+    "head_title": "Lava Hound | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Lava Hound in Clash of Clans: air tank that targets Air Defences and splits into Lava Pups.",
+    "blurb": "An air tank that hunts Air Defences and splits when it dies.",
+    "summary": "The Lava Hound is the air equivalent of the Golem, with one crucial difference: it specifically targets Air Defences. It deals almost no damage, absorbs an enormous amount, and bursts into Lava Pups when destroyed.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>It prefers Air Defences, flies slowly, has very high hitpoints and negligible damage output. When destroyed it splits into Lava Pups, small fast air units that continue attacking.</p><p>Because it seeks Air Defences specifically, it flies directly at the buildings that threaten the rest of your air army, which is precisely the job you want a tank to do.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>The classic lavaloon composition pairs Lava Hounds with Balloons: the Hounds absorb Air Defence fire, the Balloons destroy the defences.</p><ul><li><strong>Send Hounds first,</strong> several seconds ahead, on the side you intend to attack.</li><li><strong>Follow with Balloons or Minions</strong> once the Air Defences are committed to shooting the Hounds.</li><li><strong>Do not rely on Hound damage.</strong> They are a shield, not a weapon. If your army has no damage behind them, nothing dies.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Air-targeting splash, and Air Defences spread widely enough that a Hound cannot cover them all. Since the Hound itself deals almost no damage, killing it is less urgent than killing what follows it, so defences that damage the whole air group are worth more than ones that focus the tank.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Lava Hound target?",
+        "a": "Air Defences specifically. It flies past everything else to reach them, which makes it an ideal tank for an air army because it draws exactly the fire that would otherwise kill your Balloons and Minions."
+      },
+      {
+        "q": "What is a lavaloon attack?",
+        "a": "An air army combining Lava Hounds and Balloons. The Hounds absorb Air Defence fire while the Balloons, which target defences, destroy them. It is one of the longest-standing and most reliable air compositions in the game."
+      }
+    ],
+    "related": [
+      "troops:balloon",
+      "troops:minion",
+      "troops:dragon",
+      "mechanics:defence-mechanics"
+    ],
+    "quick": {}
+  },
+  "bowler": {
+    "slug": "bowler",
+    "name": "Bowler",
+    "h1": "Bowler — Clash of Clans",
+    "head_title": "Bowler | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Bowler in Clash of Clans: bouncing boulder attacks that damage two buildings, and how to use them behind a tank.",
+    "blurb": "Throws a boulder that bounces, hitting the building behind the one it aimed at.",
+    "summary": "The Bowler's attack bounces past its target and damages a second building behind it. That means a line of Bowlers standing at the edge of a compartment is damaging buildings they are not even touching, which is exactly as good as it sounds.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Its boulder damages the primary target and then bounces onward to hit a building behind it. Against layouts where buildings are lined up, that effectively doubles output, and it lets Bowlers damage the interior of a compartment from outside it.</p><p>They are moderately durable but slow, and they need something in front of them.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Bowlers belong in a line behind a tank.</p><ul><li><strong>Behind Golems or a Battle Blimp-style delivery,</strong> so they can stand still and throw.</li><li><strong>Angle matters.</strong> Position them so the bounce travels deeper into the base rather than out toward empty ground.</li><li><strong>Rage over the line.</strong> Because every attack hits twice, a damage boost on Bowlers is worth more than on most troops.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage that reaches the ring just outside your compartments, where Bowlers stand, and layouts that avoid long straight lines of buildings which the bounce can exploit. Getting defending troops among them also works well, since they are slow and their attack is aimed forward.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How does the Bowler's bounce work?",
+        "a": "Its boulder damages the target it hits and then continues on to damage a building behind it. That lets a line of Bowlers hurt the inside of a compartment while standing outside it, and it makes their positioning unusually important."
+      },
+      {
+        "q": "What should Bowlers go in with?",
+        "a": "Something that tanks for them, most commonly Golems, so they can stand and throw rather than being targeted. They are slow and their damage is directional, so they need a stable front line."
+      }
+    ],
+    "related": [
+      "troops:golem",
+      "troops:witch",
+      "mechanics:spell-mechanics",
+      "mechanics:walls-and-pathing"
+    ],
+    "quick": {}
+  },
+  "ice-golem": {
+    "slug": "ice-golem",
+    "name": "Ice Golem",
+    "h1": "Ice Golem — Clash of Clans",
+    "head_title": "Ice Golem | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Ice Golem in Clash of Clans: a cheap tank that freezes defences when it dies.",
+    "blurb": "A cheap tank whose death freezes the defences around it.",
+    "summary": "The Ice Golem is a budget tank with a genuinely useful death effect: when destroyed it freezes nearby defences briefly. That turns a cheap unit into a free, self-timing freeze spell delivered exactly where the fighting is.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>It has solid hitpoints for its cost, slows what it attacks, and on death releases a freezing burst that briefly disables defences around it. Because it dies where the damage is heaviest, the freeze lands exactly where it is most needed, without you having to time anything.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Cheap enough to include almost anywhere.</p><ul><li><strong>Lead a push with one or two,</strong> so their death freeze covers the moment your main army arrives at the defensive core.</li><li><strong>Use them to protect fragile follow-up troops,</strong> since the freeze buys several seconds where nothing is shooting.</li><li><strong>Do not over-invest.</strong> Their damage output is minimal; they are a utility unit, not a damage one.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>There is no direct counter to the death freeze, so defence is about not needing those seconds: overlapping defensive coverage means a brief freeze on one cluster does not open the whole base. Defending troops and heroes, which are not affected the same way as buildings, also keep pressure on while defences are down.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What happens when an Ice Golem dies?",
+        "a": "It releases a freezing burst that briefly disables nearby defences. Because it dies where defensive fire is heaviest, the freeze automatically lands where the attack needs it most."
+      },
+      {
+        "q": "Is the Ice Golem a damage troop?",
+        "a": "No. Its damage output is minimal. It is a cheap tank and a utility unit whose value is the death freeze and the slowing effect, not the damage it deals."
+      }
+    ],
+    "related": [
+      "troops:golem",
+      "troops:hog-rider",
+      "mechanics:spell-mechanics",
+      "mechanics:defence-mechanics"
+    ],
+    "quick": {}
+  },
+  "headhunter": {
+    "slug": "headhunter",
+    "name": "Headhunter",
+    "h1": "Headhunter — Clash of Clans",
+    "head_title": "Headhunter | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Headhunter in Clash of Clans: a specialist that hunts heroes and slows them.",
+    "blurb": "A specialist that ignores buildings and hunts heroes.",
+    "summary": "The Headhunter is one of the few genuinely single-purpose troops in the game. She seeks out defending heroes and Clan Castle troops, slows them, and kills them. Against a base with no heroes awake she is close to useless, which is the trade.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>She prioritises defending heroes and Clan Castle troops over buildings, moves quickly, and applies a slowing effect to what she attacks. A small number of Headhunters can neutralise a defending Archer Queen, which is frequently the single most dangerous thing on a base.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Bring them for a specific problem.</p><ul><li><strong>Against high-level defending heroes,</strong> which otherwise wreck ground pushes.</li><li><strong>During the Clan Castle lure,</strong> where they add fast damage to the troops you have pulled out.</li><li><strong>Not as general damage.</strong> Once heroes and Castle troops are dead, they are ordinary fragile units.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage near your hero altars, since Headhunters travel in small groups and are fragile. Positioning heroes so they wake up covered by area damage means attackers cannot cheaply remove them with a handful of specialists.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What do Headhunters target?",
+        "a": "Defending heroes and Clan Castle troops, in preference to buildings, and they slow what they attack. They are brought specifically to neutralise a dangerous defending hero rather than to deal general damage."
+      },
+      {
+        "q": "Are Headhunters worth the housing space?",
+        "a": "Against bases with strong defending heroes, yes, because an awake Archer Queen can end a ground push on her own. Against a base with weak or no heroes they contribute very little."
+      }
+    ],
+    "related": [
+      "heroes:archer-queen",
+      "mechanics:clan-castle-troops",
+      "troops:minion",
+      "mechanics:dark-elixir"
+    ],
+    "quick": {}
+  },
+  "apprentice-warden": {
+    "slug": "apprentice-warden",
+    "name": "Apprentice Warden",
+    "h1": "Apprentice Warden — Clash of Clans",
+    "head_title": "Apprentice Warden | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Apprentice Warden in Clash of Clans: a support unit that boosts nearby troops like a miniature Grand Warden.",
+    "blurb": "A small, deployable version of the Grand Warden's support aura.",
+    "summary": "The Apprentice Warden brings a scaled-down version of the Grand Warden's support to the rest of your army, which matters because the Warden himself can only be in one place at a time.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>It provides a support effect to nearby friendly troops, functioning as a mobile buff rather than a damage dealer. In practice it lets a second group of troops operate with support while the actual Grand Warden covers the main push.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Split your support coverage.</p><ul><li><strong>Attach one to a secondary push</strong> so both halves of your army have support rather than only the one the Warden is with.</li><li><strong>Keep it behind the front line.</strong> It is a support unit and dies quickly if it walks into defensive fire.</li><li><strong>Value scales with the group.</strong> An Apprentice Warden supporting two troops is wasted; supporting a full push is excellent.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Kill it, which means splash damage reaching the second rank of an attacking army rather than only the front. Because it is a support unit with modest hitpoints, defences that damage the whole group rather than the leading tank remove it quickly.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Apprentice Warden do?",
+        "a": "It provides a smaller version of the Grand Warden's support effect to nearby troops, which lets you give a second group of your army support while the Grand Warden himself covers the main push."
+      },
+      {
+        "q": "Where should I deploy an Apprentice Warden?",
+        "a": "Behind the front line of a secondary push, where it covers a full group of troops. Its value scales with how many troops are inside its support radius, so attaching it to a small group wastes it."
+      }
+    ],
+    "related": [
+      "heroes:grand-warden",
+      "troops:golem",
+      "mechanics:spell-mechanics",
+      "mechanics:dark-elixir"
+    ],
+    "quick": {}
+  },
+  "druid": {
+    "slug": "druid",
+    "name": "Druid",
+    "h1": "Druid — Clash of Clans",
+    "head_title": "Druid | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Druid in Clash of Clans: a dark elixir troop that alternates between healing support and a heavier attacking form.",
+    "blurb": "Switches between healing your troops and fighting alongside them.",
+    "summary": "The Druid is a hybrid: it supports nearby troops with healing and shifts into a stronger attacking form, which makes it both sustain and damage in a single housing cost.",
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>It heals nearby friendly troops in one state and transforms into a more aggressive form in another, so a single unit provides both sustain and damage across an attack. That dual role makes it awkward to counter, since removing it costs you both.</p><p>Note that the stored damage value for the healing state reads as negative in extracted game data, because a heal is modelled as negative damage. That is a data artefact, not a bug in the game.</p>"
+      },
+      {
+        "h": "How to use it",
+        "body": "<p>Treat it as sustain that also fights.</p><ul><li><strong>Keep it with the group.</strong> Its healing only helps troops near it, so a Druid trailing behind the push contributes nothing.</li><li><strong>Protect it early.</strong> Its value compounds over the attack, so losing one in the first ten seconds is worse than losing an ordinary troop.</li><li><strong>Reduce your spell load.</strong> A Druid providing sustain may let you carry a utility spell instead of a heal.</li></ul>"
+      },
+      {
+        "h": "How to beat it",
+        "body": "<p>Splash damage reaching the middle of an attacking group, since the Druid must stay near the troops it supports. Removing sustain early causes the rest of the push to collapse against defences it would otherwise have survived.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does the Druid show negative damage in stat tables?",
+        "a": "Because healing is stored as negative damage in the extracted game data. The figure represents the heal rate rather than damage dealt, which is the same convention the Healer's data uses."
+      },
+      {
+        "q": "Is the Druid a healer or an attacker?",
+        "a": "Both, in different states. It supports nearby troops with healing and shifts into a stronger attacking form, which is what makes it unusually efficient for its housing space and unusually costly to lose early."
+      }
+    ],
+    "related": [
+      "troops:healer",
+      "troops:witch",
+      "mechanics:dark-elixir",
+      "mechanics:spell-mechanics"
+    ],
+    "quick": {}
+  }
+}

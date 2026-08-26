@@ -1,0 +1,934 @@
+{
+  "cannon": {
+    "slug": "cannon",
+    "name": "Cannon",
+    "h1": "Cannon — Clash of Clans",
+    "head_title": "Cannon | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Cannon in Clash of Clans: ground-only single-target defence, placement and what it stops.",
+    "blurb": "Ground only, single target, and the first defence you ever build.",
+    "summary": "The Cannon is the simplest defence in the game: it shoots one ground unit at a time and cannot touch air at all. Cheap, reliable, and completely helpless against the air attacks that dominate the mid game.",
+    "quick": {
+      "Role": "Single-target defence, ground only"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Fires at one ground target at a time for solid damage. It cannot target air units under any circumstances, which is the fact that decides its placement and its limits.</p><p>Because it is single-target, it is good against a few large ground units and poor against a swarm of cheap ones, per <a href='../mechanics/defence-mechanics.html'>defence mechanics</a>.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>Use them as compartment filler and outer defence,</strong> not as your core protection. They are cheap enough to spread widely.</li><li><strong>Never rely on Cannons for coverage.</strong> A base whose ground defence is mostly Cannons falls to any swarm, and its air defence is nonexistent.</li><li><strong>Place them so their circles overlap</strong> with splash defences, so a swarm entering their range is also under area damage.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can Cannons attack air troops?",
+        "a": "No. Cannons target ground units only, which is why a base defended largely by Cannons is completely open to Dragon and Balloon attacks."
+      },
+      {
+        "q": "Are Cannons worth upgrading?",
+        "a": "Yes, but never in preference to a missing category. A fourth Cannon adds far less than a first Air Defence, so close category gaps before adding depth to ground single-target coverage."
+      }
+    ],
+    "related": [
+      "buildings:archer-tower",
+      "buildings:mortar",
+      "mechanics:defence-mechanics",
+      "mechanics:base-building-principles"
+    ]
+  },
+  "archer-tower": {
+    "slug": "archer-tower",
+    "name": "Archer Tower",
+    "h1": "Archer Tower — Clash of Clans",
+    "head_title": "Archer Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Archer Tower in Clash of Clans: single-target defence that hits both air and ground.",
+    "blurb": "Hits both air and ground, which makes it the most flexible early defence.",
+    "summary": "The Archer Tower is the first defence that covers both movement types. It deals single-target damage at good range to air and ground alike, which makes it the most generally useful building in an early base.",
+    "quick": {
+      "Role": "Single-target defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Attacks one target at a time at longer range than a Cannon, and crucially it can hit air units. In the early game it is often the only thing standing between your base and a small air attack.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>Spread them.</strong> Because they cover both air and ground, clustering them wastes their flexibility.</li><li><strong>Cover your Air Defences.</strong> An Archer Tower positioned so that an attacker going for an Air Defence is under fire from it makes air pushes much more expensive.</li><li><strong>Do not treat them as anti-air on their own.</strong> Single-target damage does not stop a group of Dragons; it only slows one.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do Archer Towers hit air troops?",
+        "a": "Yes, they target both air and ground, which makes them the most flexible defence available early. They are not a substitute for dedicated anti-air, since single-target damage does little against a group of air units."
+      },
+      {
+        "q": "Archer Tower or Cannon?",
+        "a": "Archer Towers, generally, because they cover both movement types while Cannons cover only ground. Cannons are cheaper, so a base usually has both, with Archer Towers positioned where air coverage matters most."
+      }
+    ],
+    "related": [
+      "buildings:cannon",
+      "buildings:air-defense",
+      "mechanics:defence-mechanics",
+      "buildings:hidden-tesla"
+    ]
+  },
+  "mortar": {
+    "slug": "mortar",
+    "name": "Mortar",
+    "h1": "Mortar — Clash of Clans",
+    "head_title": "Mortar | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Mortar in Clash of Clans: splash damage against ground swarms, and the minimum-range blind spot.",
+    "blurb": "Ground splash damage, with a blind spot right underneath it.",
+    "summary": "The Mortar is the first splash defence most players get, and it is the direct answer to massed cheap troops. It has one famous flaw: a minimum range, meaning it cannot hit anything standing directly next to it.",
+    "quick": {
+      "Role": "Splash defence, ground only"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Lobs shells that damage an area, which makes it devastating against groups of Barbarians, Archers, Goblins and Wall Breakers. It is slow to fire and cannot target air.</p><p>Its minimum range creates a dead zone directly around it. Attackers exploit this deliberately, so a Mortar standing alone is a Mortar that gets neutralised by a single troop parked underneath it.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>Centre them.</strong> Splash coverage belongs where attackers must go, not where they can ignore it.</li><li><strong>Cover the blind spot.</strong> Put something else in range of the ground immediately around each Mortar.</li><li><strong>Do not cluster with other splash.</strong> Two splash defences under one Rage or one Lightning barrage is a single point of failure.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why can't my Mortar hit troops next to it?",
+        "a": "Mortars have a minimum range and cannot damage units standing directly beside them. Attackers use this on purpose, so always cover a Mortar's immediate surroundings with another defence."
+      },
+      {
+        "q": "What is the Mortar good against?",
+        "a": "Massed cheap ground troops. Its splash damage clears groups of Barbarians, Archers, Goblins and Wall Breakers very efficiently, and it is nearly useless against a small number of large units or anything airborne."
+      }
+    ],
+    "related": [
+      "buildings:wizard-tower",
+      "buildings:bomb-tower",
+      "mechanics:defence-mechanics",
+      "troops:barbarian"
+    ]
+  },
+  "air-defense": {
+    "slug": "air-defense",
+    "name": "Air Defense",
+    "h1": "Air Defense — Clash of Clans",
+    "head_title": "Air Defense | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Air Defense in Clash of Clans: the primary anti-air building, and why spreading them matters more than upgrading them.",
+    "blurb": "The building that decides whether air attacks work on your base.",
+    "summary": "The Air Defense deals heavy single-target damage to air units and cannot touch the ground at all. It is the most important building in a mid-game base, and the most commonly misplaced.",
+    "quick": {
+      "Role": "Anti-air defence, air only"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>High damage to a single air target, no ground capability whatsoever. Dragons, Balloons, Lava Hounds and Minions are all built around either avoiding it or removing it, which tells you how central it is.</p>"
+      },
+      {
+        "h": "Placement is the whole game",
+        "body": "<p>More air attacks are beaten by placement than by levels.</p><ul><li><strong>Never two under one spell radius.</strong> If a single Rage or a stack of Balloons can reach two Air Defenses at once, you have one Air Defense.</li><li><strong>Spread across sides.</strong> Coverage on three or four sides forces an attacker to deal with each one separately.</li><li><strong>Place them deep.</strong> An Air Defense on the perimeter is removed by a handful of Lightning Spells or a few Balloons before the attack even starts.</li><li><strong>Cover them with Archer Towers and air splash,</strong> so an attacker going for one takes fire from several buildings.</li></ul><p>A base with three well-spread Air Defenses defeats air attacks that a base with three clustered ones loses to every time.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where should I place Air Defenses?",
+        "a": "Deep inside the base and spread across different sides, never close enough together that one spell radius or one group of Balloons can reach two of them. Placement matters more than level: three spread Air Defenses beat three clustered ones decisively."
+      },
+      {
+        "q": "Can Air Defenses hit ground troops?",
+        "a": "No, they target air units exclusively. That is why a base needs ground coverage from other defences even when its anti-air is strong."
+      }
+    ],
+    "related": [
+      "troops:dragon",
+      "troops:balloon",
+      "mechanics:defence-mechanics",
+      "buildings:air-sweeper"
+    ]
+  },
+  "wizard-tower": {
+    "slug": "wizard-tower",
+    "name": "Wizard Tower",
+    "h1": "Wizard Tower — Clash of Clans",
+    "head_title": "Wizard Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Wizard Tower in Clash of Clans: splash damage against both air and ground.",
+    "blurb": "Splash damage that hits air as well as ground.",
+    "summary": "The Wizard Tower deals area damage to both air and ground units, which makes it the most valuable splash defence in most bases: it answers ground swarms and air groups with the same building.",
+    "quick": {
+      "Role": "Splash defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Area damage at moderate range against both movement types. Against grouped Minions, grouped Balloons or a wave of cheap ground troops it is exceptional; against a single large unit it does very little.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>Centre them,</strong> covering the compartments an attacker must enter.</li><li><strong>Cover Air Defenses with them.</strong> Air units that group up to kill an Air Defense are exactly what a Wizard Tower punishes.</li><li><strong>Spread them.</strong> Two Wizard Towers under one Rage is a much easier problem for the attacker than two that must be dealt with separately.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is the Wizard Tower better than the Mortar?",
+        "a": "For most bases yes, because it damages air as well as ground, so it answers two threat categories with one building. Mortars remain useful as additional ground splash, particularly in the early game."
+      },
+      {
+        "q": "What is the Wizard Tower good against?",
+        "a": "Any group of units, air or ground. It punishes Minions and Balloons that cluster to kill an Air Defense, and it clears waves of cheap ground troops. Against a single large unit it contributes very little."
+      }
+    ],
+    "related": [
+      "buildings:mortar",
+      "buildings:air-defense",
+      "mechanics:defence-mechanics",
+      "troops:minion"
+    ]
+  },
+  "hidden-tesla": {
+    "slug": "hidden-tesla",
+    "name": "Hidden Tesla",
+    "h1": "Hidden Tesla — Clash of Clans",
+    "head_title": "Hidden Tesla | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Hidden Tesla in Clash of Clans: a concealed defence that surprises attackers mid-push.",
+    "blurb": "Invisible until it fires, which is worth more than its damage.",
+    "summary": "The Hidden Tesla stays concealed until an attacker comes close or the base takes enough damage, then appears and attacks air and ground. Its value is the surprise: attack plans are made from a scouting screen that does not show it.",
+    "quick": {
+      "Role": "Concealed defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Remains hidden during scouting and reveals itself once an attacker gets close enough or the base is sufficiently damaged. It then fires at air or ground targets with strong single-target damage.</p><p>Because attackers plan from what they can see, a Tesla in an unexpected place invalidates the plan rather than merely adding damage.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>Put them where a plan would assume safety,</strong> such as a compartment that looks empty on the scouting screen.</li><li><strong>Near your storages and Town Hall,</strong> so a Goblin or hero push that expected a clean run does not get one.</li><li><strong>Do not cluster them.</strong> Two Teslas together are one surprise; two apart are two.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When does a Hidden Tesla appear?",
+        "a": "When an attacker comes within its trigger range or the base has taken enough damage. Because it is invisible on the scouting screen, its main value is invalidating an attack plan rather than the damage itself."
+      },
+      {
+        "q": "Where should I put Hidden Teslas?",
+        "a": "In places an attacker's plan would assume are safe, such as apparently empty compartments or next to storages, and spread apart so each one is a separate surprise rather than a single one."
+      }
+    ],
+    "related": [
+      "buildings:archer-tower",
+      "mechanics:base-building-principles",
+      "mechanics:defence-mechanics",
+      "buildings:bomb-tower"
+    ]
+  },
+  "inferno-tower": {
+    "slug": "inferno-tower",
+    "name": "Inferno Tower",
+    "h1": "Inferno Tower — Clash of Clans",
+    "head_title": "Inferno Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Inferno Tower in Clash of Clans: single and multi-target modes, ramping damage, and the freeze counter.",
+    "blurb": "Two modes: burn one thing to ash, or sweep a crowd.",
+    "summary": "The Inferno Tower is the defence that kills tanks. In single-target mode its damage ramps up the longer it burns one unit, which melts Golems, P.E.K.K.As and heroes; in multi-target mode it sprays weaker damage across several units instead.",
+    "quick": {
+      "Role": "High-damage defence, air and ground, switchable mode"
+    },
+    "sections": [
+      {
+        "h": "The two modes",
+        "body": "<p><strong>Single target</strong> ramps damage against one unit over time, which makes it the hardest counter in the game to expensive tanks and heroes. <strong>Multi target</strong> spreads weaker damage across several attackers, which suits bases that expect swarms.</p><p>Choosing between them is a real decision, and it should follow what is actually attacking you. Watch your defence replays: if you are losing to heavy single units, go single; if you are losing to masses, go multi.</p>"
+      },
+      {
+        "h": "Attacking and defending it",
+        "body": "<p>On defence, place it centrally and cover it, because attackers will spend their entire spell loadout removing it. On offence, the Inferno Tower is the standard reason to carry a <a href='../wiki/spells/freeze-spell.html'>Freeze Spell</a>: freezing it during the critical seconds is what lets a heavy push survive.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should my Inferno Tower be single or multi target?",
+        "a": "Follow your defence replays. Single target melts expensive tanks and heroes by ramping damage on one unit; multi target spreads weaker damage across a swarm. Set it to counter what is actually beating your base."
+      },
+      {
+        "q": "How do attackers counter Inferno Towers?",
+        "a": "Usually a Freeze Spell dropped at the moment the tower starts burning the tank, which stops the damage ramp during the seconds that decide the attack. That is why Freeze appears in almost every heavy war army."
+      }
+    ],
+    "related": [
+      "spells:freeze-spell",
+      "troops:golem",
+      "troops:pekka",
+      "mechanics:defence-mechanics"
+    ]
+  },
+  "x-bow": {
+    "slug": "x-bow",
+    "name": "X-Bow",
+    "h1": "X-Bow — Clash of Clans",
+    "head_title": "X-Bow | Clash of Clans Wiki | Goblins Farm",
+    "description": "The X-Bow in Clash of Clans: long-range rapid fire, and the ground or air targeting choice.",
+    "blurb": "Long range, rapid fire, and a targeting mode you have to choose.",
+    "summary": "The X-Bow fires quickly at long range and can be set to target ground only or both ground and air, with different range depending on the mode. It covers a large area, which makes its placement unusually consequential.",
+    "quick": {
+      "Role": "Long-range defence, mode-dependent targeting"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Rapid single-target fire over a long distance. Its targeting mode determines whether it hits air as well as ground, and the two modes come with different coverage, so the choice is about which threat you actually face rather than which sounds better.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>Centre it.</strong> Its range means a centrally placed X-Bow covers most of the base; a corner one covers empty ground.</li><li><strong>Match the mode to your weakness.</strong> If your base loses to air, the extra air coverage is worth more than the extra range.</li><li><strong>Remember it needs loading.</strong> An X-Bow out of ammunition is a decoration, and forgetting to refill is a genuinely common way to lose defences.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should my X-Bow target ground or air?",
+        "a": "Set it against whatever is actually beating your base, since the two modes trade coverage differently. If air attacks are the problem, the air-capable mode is worth more than the extra ground range."
+      },
+      {
+        "q": "Do X-Bows need to be reloaded?",
+        "a": "Yes, and forgetting is a common cause of lost defences. An unloaded X-Bow does nothing at all, so check it whenever you log in."
+      }
+    ],
+    "related": [
+      "buildings:inferno-tower",
+      "buildings:eagle-artillery",
+      "mechanics:defence-mechanics",
+      "mechanics:base-building-principles"
+    ]
+  },
+  "eagle-artillery": {
+    "slug": "eagle-artillery",
+    "name": "Eagle Artillery",
+    "h1": "Eagle Artillery — Clash of Clans",
+    "head_title": "Eagle Artillery | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Eagle Artillery in Clash of Clans: base-wide splash damage that activates after enough troops are deployed.",
+    "blurb": "Covers almost the whole base, once it wakes up.",
+    "summary": "The Eagle Artillery fires powerful splash shots across nearly the entire base, but only activates after the attacker has deployed a certain amount of troops. That delay is deliberate and it is what makes small probing attacks safe.",
+    "quick": {
+      "Role": "Long-range splash defence, activates on deployment"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Once active, it targets groups anywhere within its very large radius and deals heavy area damage, including to air units. Before activation it does nothing, which is why a lure with a single Barbarian does not wake it.</p>"
+      },
+      {
+        "h": "Attacking and defending it",
+        "body": "<p>On defence, its coverage is so wide that placement is less about range and more about protection: it should sit deep, behind compartments, because attackers will prioritise it. On offence, plan for it. An attack that ignores the Eagle takes repeated area damage across the whole push, and a heavy army that clusters is exactly what it punishes.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When does the Eagle Artillery activate?",
+        "a": "After the attacker has deployed enough troops. That is why single-troop lures and small probing attacks do not trigger it, and why it does nothing at all in the opening seconds of an attack."
+      },
+      {
+        "q": "How do I deal with the Eagle Artillery when attacking?",
+        "a": "Either destroy it early with a dedicated push, or avoid clustering your army, since it punishes groups with heavy area damage across nearly the whole base. Ignoring it entirely usually means taking that damage repeatedly through the attack."
+      }
+    ],
+    "related": [
+      "buildings:inferno-tower",
+      "buildings:scattershot",
+      "mechanics:defence-mechanics",
+      "mechanics:clan-wars"
+    ]
+  },
+  "scattershot": {
+    "slug": "scattershot",
+    "name": "Scattershot",
+    "h1": "Scattershot — Clash of Clans",
+    "head_title": "Scattershot | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Scattershot in Clash of Clans: heavy splash damage that shreds grouped troops.",
+    "blurb": "Heavy splash that punishes any army travelling in a group.",
+    "summary": "The Scattershot fires a heavy area attack that hits both air and ground, and it is specifically brutal against troops moving together. It is one of the main reasons late-game attacks spread out.",
+    "quick": {
+      "Role": "Heavy splash defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Deals substantial area damage covering a wide footprint, against both movement types. Where a Wizard Tower discourages grouping, a Scattershot punishes it outright, removing whole ranks of support troops in a shot.</p>"
+      },
+      {
+        "h": "Attacking and defending it",
+        "body": "<p>On defence, centre it and cover it, since it is a priority target for every serious attacker. On offence, it is the second most common reason to carry a Freeze Spell after the Inferno Tower: freezing a Scattershot as your damage line crosses its coverage is frequently what decides a war attack.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What counters the Scattershot when attacking?",
+        "a": "Spreading your army so a single shot cannot hit the whole group, and carrying a Freeze Spell for the moment your damage line crosses its coverage. It is one of the two defences that most often justify a freeze."
+      },
+      {
+        "q": "Where should the Scattershot go?",
+        "a": "Centrally and covered by other defences, since attackers prioritise it. Its value comes from hitting armies that must pass through the core, so placing it on the perimeter wastes most of its coverage."
+      }
+    ],
+    "related": [
+      "spells:freeze-spell",
+      "buildings:eagle-artillery",
+      "mechanics:defence-mechanics",
+      "buildings:wizard-tower"
+    ]
+  },
+  "air-sweeper": {
+    "slug": "air-sweeper",
+    "name": "Air Sweeper",
+    "h1": "Air Sweeper — Clash of Clans",
+    "head_title": "Air Sweeper | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Air Sweeper in Clash of Clans: pushing air troops back, direction, and why it is not a damage building.",
+    "blurb": "Deals no damage. Pushes air troops backwards, which is often better.",
+    "summary": "The Air Sweeper does no damage at all. It blows air units back in one direction, delaying them and disrupting timing. It faces one way, and pointing it at the wrong side is the single most common thing players get wrong about it.",
+    "quick": {
+      "Role": "Support defence, air only, no damage"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Pushes air troops away in the direction it faces, repeatedly. That buys your Air Defenses seconds of extra fire and pushes healing air support out of position, which matters far more than a damage number would suggest.</p>"
+      },
+      {
+        "h": "Direction is everything",
+        "body": "<ul><li><strong>Point it at the side attackers actually use.</strong> Your defence replays tell you which side that is.</li><li><strong>Two Sweepers should cover different approaches,</strong> not the same one.</li><li><strong>Re-check it after every layout change.</strong> Rotating a Sweeper is free and forgetting to is common.</li></ul><p>A correctly aimed Air Sweeper meaningfully improves your anti-air; a badly aimed one is a building that does nothing whatsoever.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the Air Sweeper do damage?",
+        "a": "None at all. It pushes air troops backwards in the direction it faces, which delays them, disrupts attack timing and gives your Air Defenses extra seconds of fire."
+      },
+      {
+        "q": "Which way should my Air Sweeper face?",
+        "a": "Toward the side attackers actually come from, which you find by watching your defence replays. Rotating it is free, so re-check the direction after every layout change."
+      }
+    ],
+    "related": [
+      "buildings:air-defense",
+      "troops:dragon",
+      "troops:balloon",
+      "mechanics:base-building-principles"
+    ]
+  },
+  "bomb-tower": {
+    "slug": "bomb-tower",
+    "name": "Bomb Tower",
+    "h1": "Bomb Tower — Clash of Clans",
+    "head_title": "Bomb Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Bomb Tower in Clash of Clans: ground splash damage plus a death explosion.",
+    "blurb": "Ground splash that explodes again when destroyed.",
+    "summary": "The Bomb Tower deals area damage to ground units and detonates when destroyed, damaging whatever killed it. That death explosion makes it particularly awkward for the cheap swarms it is designed to counter.",
+    "quick": {
+      "Role": "Splash defence, ground only"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Area damage against ground troops while alive, plus a substantial explosion on destruction. The explosion frequently kills the fragile troops that had just finished it off, which is why swarm armies lose momentum around it.</p>"
+      },
+      {
+        "h": "Placement",
+        "body": "<ul><li><strong>In compartments swarms must enter,</strong> so both the splash and the death explosion land on a group.</li><li><strong>Alongside single-target defences,</strong> which handle the large units it cannot.</li><li><strong>Not on the perimeter,</strong> where it is destroyed cheaply and its explosion catches nothing important.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What happens when a Bomb Tower is destroyed?",
+        "a": "It explodes, damaging nearby ground troops. That often kills the fragile swarm units that just destroyed it, which is what makes it particularly effective against cheap massed armies."
+      },
+      {
+        "q": "Is the Bomb Tower good against air?",
+        "a": "No, it targets ground only. Pair it with anti-air coverage rather than treating it as general splash protection."
+      }
+    ],
+    "related": [
+      "buildings:mortar",
+      "buildings:wizard-tower",
+      "mechanics:defence-mechanics",
+      "troops:barbarian"
+    ]
+  },
+  "wall": {
+    "slug": "wall",
+    "name": "Wall",
+    "h1": "Wall — Clash of Clans",
+    "head_title": "Wall | Clash of Clans Wiki | Goblins Farm",
+    "description": "Walls in Clash of Clans: what they do to pathing, compartments, and why they are the best place to dump surplus loot.",
+    "blurb": "Not a barrier. A delay, and the best loot sink in the game.",
+    "summary": "Walls do not stop troops. They force ground units to take a longer route, which they spend under fire. They also consume unlimited resources instantly with no builder and no timer, which makes them the ideal place to put loot you cannot otherwise spend.",
+    "quick": {
+      "Role": "Barrier, redirects ground troops"
+    },
+    "sections": [
+      {
+        "h": "What they actually do",
+        "body": "<p>Ground troops path around walls unless breaking through is genuinely faster, so a wall converts distance into time spent under your defences. Air troops ignore them completely, and several ground units jump, tunnel or smash through.</p><p>The full mechanics are in <a href='../mechanics/walls-and-pathing.html'>walls and pathing</a>.</p>"
+      },
+      {
+        "h": "Upgrading them",
+        "body": "<ul><li><strong>Never a priority, always a sink.</strong> Defences, heroes and research come first; walls take whatever is left.</li><li><strong>No builder, no timer.</strong> You tap and it is done, which is exactly why surplus belongs here.</li><li><strong>Loot in a wall cannot be stolen.</strong> Spending down to nothing before you log off is the single best defensive habit in the game.</li><li><strong>Do not double-wall.</strong> Two adjacent segments cost twice as much and break to the same charge.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are walls worth upgrading in Clash of Clans?",
+        "a": "Yes, but only with surplus. They need no builder and no timer and accept unlimited resources, which makes them the ideal place to dump loot before logging off, since resources spent on a wall cannot be stolen. They should never come before defences, heroes or research."
+      },
+      {
+        "q": "Do walls stop troops?",
+        "a": "No. They force ground troops to take a longer path, which they spend under fire, and they do nothing at all against air troops, wall-jumpers or tunnelling units."
+      }
+    ],
+    "related": [
+      "mechanics:walls-and-pathing",
+      "mechanics:base-building-principles",
+      "troops:wall-breaker",
+      "mechanics:upgrade-priority"
+    ]
+  },
+  "clan-castle": {
+    "slug": "clan-castle",
+    "name": "Clan Castle",
+    "h1": "Clan Castle — Clash of Clans",
+    "head_title": "Clan Castle | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Clan Castle in Clash of Clans: donated troops on offence, defending troops on defence.",
+    "blurb": "The only building that fights back and chases you.",
+    "summary": "The Clan Castle carries donated troops into your attacks and, on defence, deploys them to hunt attackers across the map. It is the most disruptive single building in the game and the one attackers must plan around first.",
+    "quick": {
+      "Role": "Clan building, offensive and defensive"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>On offence it carries donated troops, spells and siege machines into your attack. On defence it deploys its garrison when an attacker enters its radius, and those troops chase aggressively rather than defending a position.</p><p>Full detail, including how to lure a defending Castle, is in <a href='../mechanics/clan-castle-troops.html'>Clan Castle troops</a>.</p>"
+      },
+      {
+        "h": "Placement and habits",
+        "body": "<ul><li><strong>Place it centrally,</strong> so its radius covers every likely approach and cannot be triggered from safety.</li><li><strong>Keep it filled.</strong> An empty Castle on defence is a free star, and this is the most commonly forgotten thing in the entire game.</li><li><strong>Keep separate offensive and defensive requests,</strong> since the troops you want attacking are not the ones you want defending.</li></ul>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where should I put my Clan Castle?",
+        "a": "Centrally, so its trigger radius covers the approaches an attacker would take and cannot be lured safely from the edge. A Clan Castle in a corner effectively lures itself."
+      },
+      {
+        "q": "Why is my Clan Castle empty?",
+        "a": "Because it must be refilled by clan donation after every use, and it is not automatic. An empty Clan Castle on defence gives attackers a free run, which makes checking it one of the highest-value habits when you log in."
+      }
+    ],
+    "related": [
+      "mechanics:clan-castle-troops",
+      "mechanics:clan-wars",
+      "mechanics:siege-machines",
+      "mechanics:base-building-principles"
+    ]
+  },
+  "laboratory": {
+    "slug": "laboratory",
+    "name": "Laboratory",
+    "h1": "Laboratory — Clash of Clans",
+    "head_title": "Laboratory | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Laboratory in Clash of Clans: troop and spell research, and why it should never sit idle.",
+    "blurb": "Research applies to every future attack, forever. Never leave it idle.",
+    "summary": "The Laboratory upgrades your troops and spells permanently. Unlike a building upgrade, which improves one structure, research improves every copy of that troop in every attack you ever make, which makes an idle lab the most expensive idleness in the game.",
+    "quick": {
+      "Role": "Army building, research"
+    },
+    "sections": [
+      {
+        "h": "Why it comes first",
+        "body": "<p>A defence upgrade improves one building. A troop research improves every one of those troops, in every attack, permanently. The compounding is enormous, and it is the reason experienced players treat an idle laboratory as an emergency.</p>"
+      },
+      {
+        "h": "What to research",
+        "body": "<ul><li><strong>Troops you actually use,</strong> not troops you might use. Researching a unit that never appears in your army is pure waste.</li><li><strong>Your farming army first,</strong> because it runs constantly and small gains compound across hundreds of attacks.</li><li><strong>Spells early.</strong> Spell research is often cheaper than troop research and affects every attack just as much.</li><li><strong>Upgrade the lab itself promptly</strong> at a new Town Hall, since it gates everything else.</li></ul><p>How this fits the wider schedule is covered in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I research first in the Laboratory?",
+        "a": "The troops and spells in the army you actually use most, starting with your farming army, since research applies permanently to every future attack and a farming army runs hundreds of times. Researching units you never deploy is wasted."
+      },
+      {
+        "q": "Is the Laboratory more important than defences?",
+        "a": "For progression, generally yes. Research improves every attack you will ever make, while a defence upgrade improves one building, so an idle laboratory costs more over time than a slightly weaker base."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "troops:index",
+      "spells:index",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "super-wizard-tower": {
+    "slug": "super-wizard-tower",
+    "name": "Super Wizard Tower",
+    "h1": "Super Wizard Tower — Clash of Clans",
+    "head_title": "Super Wizard Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Super Wizard Tower in Clash of Clans: a Town Hall 18 defence built by merging two Wizard Towers, with short range and heavy damage.",
+    "blurb": "Two Wizard Towers merged into one much angrier building.",
+    "summary": "The Super Wizard Tower is one of two defences that arrive with Town Hall 18. It is created by merging a pair of Wizard Towers, which means adopting it costs you two defensive footprints and gives back one, and the numbers explain why you would accept that trade.",
+    "quick": {
+      "Role": "Merged splash defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>290 damage per second against both air and ground, over a range of 8 tiles, across 2 levels. Two things stand out.</p><p>First, that damage figure is in a different class to the Wizard Towers it replaces, which is the entire argument for merging. Second, <strong>8 tiles is short</strong>, shorter than almost anything else at this Town Hall, so it only covers what is close to it.</p><p>Together those say: this is a core defence, not a perimeter one. Placed on the edge it will contribute very little before it dies, because attackers simply will not walk into an 8 tile circle they can see. Placed in the middle, where an attacker has to come to it, that damage lands on whatever is doing the actual work.</p>"
+      },
+      {
+        "h": "The merge decision",
+        "body": "<p>Merging removes a building from your base. Two Wizard Towers covered two areas; one Super Wizard Tower covers one, harder. That is a straightforward concentration trade and it follows the usual rule from <a href='../mechanics/defence-mechanics.html'>defence mechanics</a>: concentration is good when attackers must pass one place, and bad when it leaves a side uncovered.</p><p>Before merging, tap both Wizard Towers and look at what their circles cover that nothing else does. If the answer is 'a side of the base', you are about to open that side.</p>"
+      },
+      {
+        "h": "What we have not verified",
+        "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do you get a Super Wizard Tower?",
+        "a": "By merging two Wizard Towers at Town Hall 18. That means the building costs you a defensive footprint as well as resources, since two structures become one."
+      },
+      {
+        "q": "Is the Super Wizard Tower worth merging for?",
+        "a": "It trades coverage for concentrated damage, so it depends on your layout. Its range is only 8 tiles, which is short, so it needs to sit where attackers are forced to come to it. If your two Wizard Towers are currently the only cover on separate sides, merging opens a hole."
+      }
+    ],
+    "related": [
+      "buildings:wizard-tower",
+      "buildings:revenge-tower",
+      "townhalls:town-hall-18",
+      "mechanics:defence-mechanics"
+    ]
+  },
+  "revenge-tower": {
+    "slug": "revenge-tower",
+    "name": "Revenge Tower",
+    "h1": "Revenge Tower — Clash of Clans",
+    "head_title": "Revenge Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Revenge Tower in Clash of Clans: a Town Hall 18 defence with modest listed damage and long range.",
+    "blurb": "A Town Hall 18 defence whose damage number does not tell the story.",
+    "summary": "The Revenge Tower arrives with Town Hall 18. Its listed damage is low and its range is long, a combination that never describes a straightforward gun, so the interesting part of this building is not in the stat line.",
+    "quick": {
+      "Role": "Defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>50 damage per second against both air and ground, 11 tiles of range, 2 levels. For context, the Super Wizard Tower that unlocks alongside it lists 290.</p><p>A defence with a fifth of the damage and half again the reach is not competing on damage. Long range plus low damage almost always signals a building whose contribution is something other than raw output, and the name points the same way.</p>"
+      },
+      {
+        "h": "Placing it",
+        "body": "<p>Until the mechanic is pinned down, the safe reading is the one the range gives you: 11 tiles covers a lot of base, so it wants to be somewhere central where its circle overlaps the compartments attackers must enter. Do not displace a high-damage defence for it, and do not count it as your damage on that side.</p>"
+      },
+      {
+        "h": "What we have not verified",
+        "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Revenge Tower do?",
+        "a": "It unlocks at Town Hall 18 and covers both air and ground at 11 tiles for a listed 50 damage per second. That damage is far below other defences at the same Town Hall, which strongly suggests its value lies in a special behaviour rather than output, and we have not verified that behaviour in game yet."
+      },
+      {
+        "q": "Is the Revenge Tower a good defence?",
+        "a": "Its raw damage is low, so it should not replace a heavy hitter in your core. Treat it as supplementary coverage until its actual mechanic is confirmed."
+      }
+    ],
+    "related": [
+      "buildings:super-wizard-tower",
+      "townhalls:town-hall-18",
+      "mechanics:defence-mechanics",
+      "buildings:monolith"
+    ]
+  },
+  "firespitter": {
+    "slug": "firespitter",
+    "name": "Firespitter",
+    "h1": "Firespitter — Clash of Clans",
+    "head_title": "Firespitter | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Firespitter in Clash of Clans: the longest-ranged defence in the game, unlocked at Town Hall 17.",
+    "blurb": "16 tiles of range and heavy damage. Reach is the whole point.",
+    "summary": "The Firespitter unlocks at Town Hall 17 and has the longest reach of any defence in the game at 16 tiles, paired with damage that is not a consolation prize either. A defence that can hit most of your base from one position changes how attacks have to be planned.",
+    "quick": {
+      "Role": "Long-range defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>411 damage per second against air and ground, 16 tiles of range, 3 levels. That range is the headline. Most defences cover a compartment; this one covers a neighbourhood.</p><p>The practical consequence for an attacker is that there is no safe side. An army entering anywhere within 16 tiles is under fire from it, which means it cannot be avoided by choosing an approach the way an Inferno Tower or a Scattershot can. It has to be destroyed, distracted, or endured.</p>"
+      },
+      {
+        "h": "Placing it",
+        "body": "<p>Deep, and covered. A defence with this reach loses nothing by sitting in the middle of the base, because the middle is still within range of the edges. Putting it forward gains you no coverage you did not already have and hands the attacker an early kill on your most valuable building.</p><p>Because it covers so much, it also pairs badly with itself: two Firespitters close together duplicate coverage rather than extending it.</p>"
+      },
+      {
+        "h": "Attacking into one",
+        "body": "<p>Assume it is firing from the moment you deploy. Spread your army so the sustained damage is not concentrated on the units you cannot replace, and plan a freeze for it if your push has to stand still anywhere inside its circle.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the longest range defence in Clash of Clans?",
+        "a": "The Firespitter, at 16 tiles, unlocked at Town Hall 17. That reach means it covers most of a base from a central position and cannot be avoided by choosing a different approach."
+      },
+      {
+        "q": "Where should I place the Firespitter?",
+        "a": "Centrally and protected. Its 16 tile range already reaches the perimeter from the middle, so placing it forward adds no coverage and only makes it easier to destroy early."
+      }
+    ],
+    "related": [
+      "buildings:inferno-tower",
+      "buildings:scattershot",
+      "mechanics:defence-mechanics",
+      "spells:freeze-spell"
+    ]
+  },
+  "multi-gear-tower": {
+    "slug": "multi-gear-tower",
+    "name": "Multi-Gear Tower",
+    "h1": "Multi-Gear Tower — Clash of Clans",
+    "head_title": "Multi-Gear Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Multi-Gear Tower in Clash of Clans: a Town Hall 17 defence covering air and ground at long range.",
+    "blurb": "Long reach, high damage, both movement types. A genuine all-rounder.",
+    "summary": "The Multi-Gear Tower unlocks at Town Hall 17 with 350 damage per second, 12 tiles of range and coverage of both air and ground. Very few defences are strong on all three axes at once, which makes this one awkward to plan around.",
+    "quick": {
+      "Role": "Defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>350 damage per second, 12 tiles, air and ground, 3 levels. The point is that it has no obvious hole. Most defences give you an angle: they cannot hit air, or they cannot reach, or they only hurt one unit at a time. This one covers both movement types at long range for real damage.</p>"
+      },
+      {
+        "h": "Placing it",
+        "body": "<p>Central, overlapping with your other heavy defences. A building that answers both air and ground should be covering the compartments where you cannot predict which one is coming. Do not waste that flexibility on a corner where only one kind of attack ever arrives.</p>"
+      },
+      {
+        "h": "What we have not verified",
+        "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Multi-Gear Tower target?",
+        "a": "Both ground and air, at 12 tiles of range for 350 damage per second, from Town Hall 17. Covering both movement types at long range with real damage makes it unusually hard to plan around as an attacker."
+      },
+      {
+        "q": "Where should the Multi-Gear Tower go?",
+        "a": "Centrally, overlapping your other heavy defences, since its value is answering whichever threat type arrives. Placing it where only one kind of attack ever comes wastes its flexibility."
+      }
+    ],
+    "related": [
+      "buildings:firespitter",
+      "buildings:ricochet-cannon",
+      "mechanics:defence-mechanics",
+      "buildings:scattershot"
+    ]
+  },
+  "ricochet-cannon": {
+    "slug": "ricochet-cannon",
+    "name": "Ricochet Cannon",
+    "h1": "Ricochet Cannon — Clash of Clans",
+    "head_title": "Ricochet Cannon | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Ricochet Cannon in Clash of Clans: a Town Hall 16 ground defence whose shots bounce between targets.",
+    "blurb": "A cannon whose shot carries on to a second target.",
+    "summary": "The Ricochet Cannon unlocks at Town Hall 16 and hits ground only, for 360 damage per second at 9 tiles. The name describes the mechanic: its fire continues past the first target, which is why its effective output against a group is higher than the listed figure suggests.",
+    "quick": {
+      "Role": "Defence, ground only"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>360 damage per second, 9 tiles, ground only, 4 levels. That is heavy damage at moderate range, with the usual ground-only caveat: it contributes nothing at all against an air attack.</p><p>Because the shot ricochets, its value rises with how tightly the attacking army is packed, in the same way the <a href='../troops/bowler.html'>Bowler</a> punishes buildings that are lined up. An army deployed in a stack takes considerably more from it than the same army spread out.</p>"
+      },
+      {
+        "h": "Placing it",
+        "body": "<p>Where ground armies funnel. Its damage is high enough to matter in the core, and its bounce rewards positions where attacking troops are forced to bunch, such as a compartment entrance or the gap a Jump Spell would open.</p><p>Pair it with anti-air coverage rather than other ground-only defences, since a cluster of ground-only buildings is an invitation to fly over them.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the Ricochet Cannon hit air troops?",
+        "a": "No, it targets ground only. It needs to be paired with anti-air coverage, since a base leaning on ground-only defences is straightforward to attack from the air."
+      },
+      {
+        "q": "What is the Ricochet Cannon good against?",
+        "a": "Grouped ground troops, because its shots continue past the first target. An army deployed in a tight stack takes far more from it than one spread along a line."
+      }
+    ],
+    "related": [
+      "buildings:cannon",
+      "troops:bowler",
+      "mechanics:defence-mechanics",
+      "buildings:multi-gear-tower"
+    ]
+  },
+  "multi-archer-tower": {
+    "slug": "multi-archer-tower",
+    "name": "Multi-Archer Tower",
+    "h1": "Multi-Archer Tower — Clash of Clans",
+    "head_title": "Multi-Archer Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Multi-Archer Tower in Clash of Clans: a Town Hall 16 defence that engages several targets at once.",
+    "blurb": "Shoots several things at once instead of one thing hard.",
+    "summary": "The Multi-Archer Tower unlocks at Town Hall 16 and lists 60 damage per second across 10 tiles, hitting air and ground. That low figure is per target: the building's job is engaging several attackers simultaneously rather than deleting one.",
+    "quick": {
+      "Role": "Multi-target defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>60 damage per second, 10 tiles, air and ground, 4 levels. Read alongside the Ricochet Cannon's 360, the number looks poor until you account for what it is doing with it, which is splitting attention across multiple attackers.</p><p>That makes it a swarm answer rather than a tank answer, the same role splash damage plays, arrived at differently. Against a single Golem it is close to irrelevant; against a wave of Minions or Barbarians it is working on all of them at once.</p>"
+      },
+      {
+        "h": "Placing it",
+        "body": "<p>Where swarms arrive, which usually means covering the outer compartments rather than the innermost one, since cheap massed troops rarely reach the core. Overlap it with splash damage so a swarm entering that area is taking area damage and multi-target fire together.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is the Multi-Archer Tower's damage so low?",
+        "a": "Because the figure is per target and the building engages several attackers at once. Its total output against a group is far higher than the listed number suggests, while against a single large unit it contributes very little."
+      },
+      {
+        "q": "What is the Multi-Archer Tower good against?",
+        "a": "Swarms of cheap troops, air or ground, since it splits fire across several attackers simultaneously. It is a poor answer to a small number of high-hitpoint units."
+      }
+    ],
+    "related": [
+      "buildings:archer-tower",
+      "buildings:wizard-tower",
+      "mechanics:defence-mechanics",
+      "troops:minion"
+    ]
+  },
+  "monolith": {
+    "slug": "monolith",
+    "name": "Monolith",
+    "h1": "Monolith — Clash of Clans",
+    "head_title": "Monolith | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Monolith in Clash of Clans: a Town Hall 15 defence that hits hardest against high-hitpoint troops.",
+    "blurb": "Punishes exactly the units you brought to tank for everyone else.",
+    "summary": "The Monolith unlocks at Town Hall 15, covers air and ground at 11 tiles, and deals damage scaled against the target's hitpoints. That makes it the specific answer to the heavy units that heavy armies are built around.",
+    "quick": {
+      "Role": "Defence, air and ground"
+    },
+    "sections": [
+      {
+        "h": "What the numbers say",
+        "body": "<p>150 damage per second listed, 11 tiles, air and ground, 4 levels. The listed figure understates it against exactly the targets it is designed for, because its damage scales with how much health the target has.</p><p>The consequence is a clean inversion of the usual rule. Splash defences punish many weak units; single-target defences punish few strong ones; the Monolith punishes <em>durable</em> ones specifically. Golems, P.E.K.K.As, Electro Titans and heroes are all worse against it than their hitpoints suggest.</p>"
+      },
+      {
+        "h": "Attacking into one",
+        "body": "<p>Do not lead with your tank and hope. The standard answers are the standard answers: destroy it before the heavy units arrive, freeze it during the window your tank has to survive, or attack from a direction its 11 tiles do not cover. Bringing more hitpoints into its range is the one response that makes things worse.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Monolith counter?",
+        "a": "High-hitpoint troops, because its damage scales with the target's health. Golems, P.E.K.K.As and heroes take disproportionately more from it than its listed damage per second suggests."
+      },
+      {
+        "q": "How do I counter the Monolith when attacking?",
+        "a": "Destroy it before your heavy units enter its range, freeze it during the critical window, or route the attack outside its 11 tile coverage. Sending more hitpoints at it is precisely the wrong response."
+      }
+    ],
+    "related": [
+      "troops:golem",
+      "troops:pekka",
+      "spells:freeze-spell",
+      "mechanics:defence-mechanics"
+    ]
+  },
+  "spell-tower": {
+    "slug": "spell-tower",
+    "name": "Spell Tower",
+    "h1": "Spell Tower — Clash of Clans",
+    "head_title": "Spell Tower | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Spell Tower in Clash of Clans: a Town Hall 15 defence that casts a chosen spell on attacking troops.",
+    "blurb": "A defence that casts a spell at your army instead of shooting it.",
+    "summary": "The Spell Tower unlocks at Town Hall 15 and does something no other building does: rather than dealing damage, it applies a spell effect to attacking troops, and you choose which. That makes it the only defence whose behaviour changes based on a setting you control.",
+    "quick": {
+      "Role": "Defence, spell effect"
+    },
+    "sections": [
+      {
+        "h": "What it does",
+        "body": "<p>Four levels, a 2x2 footprint, and no damage-per-second figure in the files, because damage is not what it does. It applies an effect to attackers in range, selected by you from the available options.</p><p>Strategically this matters because it is <strong>configurable defence</strong>, in the same way an Inferno Tower's mode is. The right setting is not a preference, it is a response to what is actually beating your base, which you learn by watching <a href='../../tutorials/reading-replays.html'>defence replays</a>.</p>"
+      },
+      {
+        "h": "Placing it",
+        "body": "<p>Where attacking armies concentrate, since an effect applied to two stray troops is wasted and one applied to a full push can decide the attack. That normally means covering the core compartments rather than the perimeter.</p>"
+      },
+      {
+        "h": "What we have not verified",
+        "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Spell Tower do?",
+        "a": "Instead of dealing damage it applies a spell effect to attacking troops in range, and you select which effect it uses. That makes it the only defence whose behaviour you configure directly, alongside the Inferno Tower's targeting mode."
+      },
+      {
+        "q": "Which spell should my Spell Tower use?",
+        "a": "Whichever counters what is actually beating your base, which you find by watching your own defence replays rather than by picking the one that sounds strongest."
+      }
+    ],
+    "related": [
+      "buildings:inferno-tower",
+      "tutorials:reading-replays",
+      "mechanics:defence-mechanics",
+      "mechanics:spell-mechanics"
+    ]
+  },
+  "hero-hall": {
+    "slug": "hero-hall",
+    "name": "Hero Hall",
+    "h1": "Hero Hall — Clash of Clans",
+    "head_title": "Hero Hall | Clash of Clans Wiki | Goblins Farm",
+    "description": "The Hero Hall in Clash of Clans: the building that manages heroes and their equipment.",
+    "blurb": "Where heroes and their equipment are managed.",
+    "summary": "The Hero Hall unlocks at Town Hall 7, the same point the first hero arrives, and runs to 12 levels. It is the administrative centre for heroes and hero equipment, which makes it a gate on progression rather than a source of power in itself.",
+    "quick": {
+      "Role": "Army building, hero management"
+    },
+    "sections": [
+      {
+        "h": "Why its level matters",
+        "body": "<p>Buildings that gate other upgrades are easy to deprioritise because they do nothing visible. That is a mistake here for the same reason it is a mistake with the Laboratory: if the Hero Hall is behind, the hero upgrades it governs are behind too, and hero levels are the largest single contributor to attacking power over time.</p><p>Treat it the way you treat storages. It is not exciting, and being short of it stops you spending on the things that are.</p>"
+      },
+      {
+        "h": "Equipment",
+        "body": "<p>Hero equipment is managed here, and the guidance on that is covered in <a href='../mechanics/hero-equipment.html'>hero equipment</a>: concentrate ores on the few pieces you actually equip rather than spreading them across everything you own.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does the Hero Hall do?",
+        "a": "It manages your heroes and their equipment, unlocking at Town Hall 7 alongside the first hero and running to 12 levels. It grants no direct combat power but gates hero progression, which does."
+      },
+      {
+        "q": "Should I prioritise the Hero Hall?",
+        "a": "Yes, in the same unglamorous way you prioritise storages. It produces nothing itself, but leaving it behind holds back hero upgrades, and hero levels contribute more to attacking strength than almost anything else."
+      }
+    ],
+    "related": [
+      "heroes:index",
+      "mechanics:hero-equipment",
+      "mechanics:upgrade-priority",
+      "mechanics:dark-elixir"
+    ]
+  }
+}
