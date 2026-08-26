@@ -1,0 +1,4200 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Heroes",
+    "h1": "Clash of Clans Heroes",
+    "head_title": "Clash of Clans Heroes, Every Level and Upgrade Cost",
+    "description": "Every Home Village hero in Clash of Clans with per-level hitpoints, damage, upgrade cost and upgrade time.",
+    "summary": "All 6 Home Village heroes with the full level table for each one, read from the game files.",
+    "groups": [
+      {
+        "h": "Home Village Heroes",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Barbarian King",
+          "Archer Queen",
+          "Grand Warden",
+          "Royal Champion",
+          "Minion Prince",
+          "Dragon Duke"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.8"
+  },
+  "entries": [
+    {
+      "slug": "barbarian-king",
+      "name": "Barbarian King",
+      "description": "The Barbarian King in Clash of Clans: the first hero, his ability, and why he is the standard funnelling tool.",
+      "blurb": "The first hero, the standard funnel opener, and a durable brawler.",
+      "summary": "The Barbarian King is a durable ground hero with high hitpoints and solid damage. He is the first hero most players unlock and remains one of the most useful, largely because he is the ideal tool for the funnelling work every ground attack needs.",
+      "quick": {
+        "Levels": "105",
+        "Unlocked at": "Town Hall 7",
+        "Upgrade resource": "Dark Elixir",
+        "Targets": "Ground only",
+        "Equipment slots": "2",
+        "Role": "Ground hero, durable brawler",
+        "Upgraded with": "Dark elixir",
+        "While upgrading": "Unavailable for attack and defence"
+      },
+      "tags": [
+        {
+          "label": "Hero",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What he does",
+          "body": "<p>He fights as a very durable ground troop with no preferred target, and has an ability that increases his survivability and damage when activated. He also defends your village, waking when an attacker comes near his altar.</p><p>Because he is durable and returns after every attack, he is effectively a free unit you can spend recklessly, which is exactly what funnel work requires.</p>"
+        },
+        {
+          "h": "How to use him",
+          "body": "<ul><li><strong>Send him down a flank</strong> to clear the shoulder buildings and open the corridor for your main army. See <a href='../mechanics/funnelling.html'>funnelling</a>.</li><li><strong>Activate the ability before he dies,</strong> not after. An unactivated ability is the most common waste in the game.</li><li><strong>Do not send him into the core alone.</strong> Durable is not immortal, and a King grinding through a defended compartment on his own dies slowly and pointlessly.</li></ul>"
+        },
+        {
+          "h": "Upgrading him",
+          "body": "<p>He is upgraded with dark elixir, and he is unavailable while upgrading, on offence and on defence. That is a real cost, and it is still worth paying continuously. Hero levels are the largest single contributor to attacking power over time, and the only way to finish upgrades with timers this long is to always have one running. See <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p><div class='note'><p><b>On hero data.</b> The level tables below come from an extracted game-file snapshot, and hero records in particular could not be cross-checked against a published reference the way troop and building records were. Treat hero figures as a notch less certain than the rest of the wiki and confirm in game before planning around them.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Barbarian King stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,445",
+              "102",
+              "—",
+              "—",
+              "7"
+            ],
+            [
+              "2",
+              "1,481",
+              "104",
+              "5,000 Dark Elixir",
+              "2 h",
+              "7"
+            ],
+            [
+              "3",
+              "1,518",
+              "105",
+              "5,500 Dark Elixir",
+              "4 h",
+              "7"
+            ],
+            [
+              "4",
+              "1,556",
+              "108",
+              "6,000 Dark Elixir",
+              "8 h",
+              "7"
+            ],
+            [
+              "5",
+              "1,595",
+              "110",
+              "6,500 Dark Elixir",
+              "10 h",
+              "7"
+            ],
+            [
+              "6",
+              "1,635",
+              "112",
+              "7,000 Dark Elixir",
+              "12 h",
+              "7"
+            ],
+            [
+              "7",
+              "1,675",
+              "115",
+              "7,500 Dark Elixir",
+              "14 h",
+              "7"
+            ],
+            [
+              "8",
+              "1,717",
+              "116",
+              "8,000 Dark Elixir",
+              "16 h",
+              "7"
+            ],
+            [
+              "9",
+              "1,760",
+              "119",
+              "8,500 Dark Elixir",
+              "18 h",
+              "7"
+            ],
+            [
+              "10",
+              "1,805",
+              "122",
+              "10,000 Dark Elixir",
+              "20 h",
+              "7"
+            ],
+            [
+              "11",
+              "1,850",
+              "124",
+              "10,500 Dark Elixir",
+              "22 h",
+              "8"
+            ],
+            [
+              "12",
+              "1,896",
+              "127",
+              "11,000 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "13",
+              "1,943",
+              "129",
+              "11,500 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "14",
+              "1,992",
+              "132",
+              "12,000 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "15",
+              "2,042",
+              "134",
+              "12,500 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "16",
+              "2,093",
+              "137",
+              "13,000 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "17",
+              "2,145",
+              "139",
+              "13,500 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "18",
+              "2,198",
+              "143",
+              "14,000 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "19",
+              "2,253",
+              "145",
+              "14,500 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "20",
+              "2,309",
+              "148",
+              "15,000 Dark Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "21",
+              "2,367",
+              "151",
+              "17,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "22",
+              "2,427",
+              "154",
+              "19,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "23",
+              "2,487",
+              "157",
+              "21,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "24",
+              "2,549",
+              "161",
+              "23,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "25",
+              "2,613",
+              "164",
+              "25,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "26",
+              "2,678",
+              "167",
+              "27,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "27",
+              "2,746",
+              "170",
+              "29,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "28",
+              "2,814",
+              "173",
+              "31,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "29",
+              "2,885",
+              "177",
+              "33,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "30",
+              "2,956",
+              "181",
+              "35,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "31",
+              "3,030",
+              "184",
+              "37,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "32",
+              "3,107",
+              "188",
+              "39,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "33",
+              "3,184",
+              "192",
+              "41,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "34",
+              "3,264",
+              "196",
+              "43,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "35",
+              "3,346",
+              "200",
+              "45,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "36",
+              "3,429",
+              "203",
+              "47,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "37",
+              "3,515",
+              "207",
+              "49,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "38",
+              "3,602",
+              "212",
+              "51,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "39",
+              "3,692",
+              "216",
+              "53,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "40",
+              "3,785",
+              "220",
+              "55,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "41",
+              "3,879",
+              "234",
+              "58,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "42",
+              "3,976",
+              "239",
+              "61,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "43",
+              "4,076",
+              "244",
+              "64,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "44",
+              "4,178",
+              "249",
+              "67,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "45",
+              "4,282",
+              "254",
+              "70,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "46",
+              "4,389",
+              "259",
+              "73,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "47",
+              "4,499",
+              "265",
+              "76,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "48",
+              "4,611",
+              "270",
+              "79,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "49",
+              "4,727",
+              "276",
+              "82,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "50",
+              "4,845",
+              "282",
+              "85,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "51",
+              "4,967",
+              "288",
+              "86,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "52",
+              "5,092",
+              "294",
+              "87,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "53",
+              "5,219",
+              "300",
+              "88,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "54",
+              "5,350",
+              "307",
+              "89,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "55",
+              "5,484",
+              "314",
+              "90,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "56",
+              "5,622",
+              "320",
+              "93,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "57",
+              "5,763",
+              "327",
+              "96,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "58",
+              "5,908",
+              "334",
+              "99,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "59",
+              "6,055",
+              "341",
+              "102,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "60",
+              "6,208",
+              "349",
+              "105,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "61",
+              "6,363",
+              "355",
+              "107,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "62",
+              "6,522",
+              "362",
+              "109,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "63",
+              "6,685",
+              "370",
+              "111,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "64",
+              "6,853",
+              "377",
+              "113,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "65",
+              "7,024",
+              "385",
+              "115,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "66",
+              "7,200",
+              "393",
+              "117,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "67",
+              "7,378",
+              "400",
+              "119,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "68",
+              "7,557",
+              "408",
+              "121,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "69",
+              "7,735",
+              "417",
+              "123,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "70",
+              "7,905",
+              "425",
+              "125,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "71",
+              "8,075",
+              "434",
+              "130,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "72",
+              "8,245",
+              "442",
+              "135,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "73",
+              "8,415",
+              "451",
+              "140,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "74",
+              "8,585",
+              "459",
+              "145,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "75",
+              "8,755",
+              "468",
+              "150,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "76",
+              "8,917",
+              "475",
+              "155,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "77",
+              "9,078",
+              "483",
+              "160,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "78",
+              "9,240",
+              "490",
+              "165,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "79",
+              "9,401",
+              "498",
+              "170,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "80",
+              "9,563",
+              "506",
+              "175,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "81",
+              "9,690",
+              "513",
+              "180,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "82",
+              "9,818",
+              "519",
+              "185,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "83",
+              "9,945",
+              "526",
+              "190,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "84",
+              "10,073",
+              "533",
+              "195,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "85",
+              "10,200",
+              "540",
+              "200,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "86",
+              "10,328",
+              "547",
+              "215,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "87",
+              "10,455",
+              "553",
+              "225,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "88",
+              "10,583",
+              "560",
+              "235,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "89",
+              "10,710",
+              "567",
+              "245,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "90",
+              "10,838",
+              "574",
+              "255,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "91",
+              "10,965",
+              "581",
+              "280,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "92",
+              "11,093",
+              "587",
+              "290,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "93",
+              "11,220",
+              "594",
+              "300,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "94",
+              "11,348",
+              "601",
+              "310,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "95",
+              "11,475",
+              "608",
+              "320,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "96",
+              "11,600",
+              "615",
+              "340,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "97",
+              "11,725",
+              "622",
+              "350,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "98",
+              "11,850",
+              "629",
+              "360,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "99",
+              "11,975",
+              "636",
+              "370,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "100",
+              "12,100",
+              "643",
+              "380,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "101",
+              "12,225",
+              "650",
+              "400,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "102",
+              "12,350",
+              "657",
+              "410,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "103",
+              "12,475",
+              "664",
+              "420,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "104",
+              "12,600",
+              "671",
+              "430,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "105",
+              "12,725",
+              "678",
+              "450,000 Dark Elixir",
+              "8 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "heroes:archer-queen",
+        "mechanics:funnelling",
+        "mechanics:hero-equipment",
+        "mechanics:dark-elixir"
+      ],
+      "priority": "0.7",
+      "h1": "Barbarian King — Clash of Clans",
+      "head_title": "Barbarian King | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Should I upgrade heroes even though I cannot attack with them?",
+          "a": "Yes. Hero upgrades have the longest timers in the game, so the only way to finish them is to keep one running continuously. Attacking without a hero for a few days costs far less than being permanently several levels behind."
+        },
+        {
+          "q": "What is the Barbarian King used for?",
+          "a": "Most often funnelling, sent down a flank to clear the outside buildings so the main army paths into the core. He is durable, hits hard and returns after every attack, which makes him the ideal unit to spend on work that would kill anything else."
+        }
+      ],
+      "show_tool_note": false,
+      "has_prose": true
+    },
+    {
+      "slug": "archer-queen",
+      "name": "Archer Queen",
+      "description": "The Archer Queen in Clash of Clans: ranged hero, the Queen walk, and why she is the most valuable hero to upgrade.",
+      "blurb": "The most impactful hero in the game, and the centre of the Queen walk.",
+      "summary": "The Archer Queen attacks at long range and deals very high damage, but has far less health than the King. Paired with Healers she becomes the single most reliable attacking tool in Clash of Clans, capable of clearing a substantial part of a base by herself.",
+      "quick": {
+        "Levels": "105",
+        "Unlocked at": "Town Hall 8",
+        "Upgrade resource": "Dark Elixir",
+        "Targets": "Ground and air",
+        "Equipment slots": "2",
+        "Role": "Ranged hero, high damage",
+        "Upgraded with": "Dark elixir",
+        "While upgrading": "Unavailable for attack and defence"
+      },
+      "tags": [
+        {
+          "label": "Hero",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What she does",
+          "body": "<p>She attacks from range with high damage output and has an ability that combines a burst of power with survivability. Her low hitpoints mean she cannot brawl, but her range means she often does not have to.</p>"
+        },
+        {
+          "h": "The Queen walk",
+          "body": "<p>The technique that defines her: deploy the Queen with a group of Healers behind her and let her advance slowly, killing defences from range while the Healers keep her alive. Done properly she can clear a flank, kill a key defence, or do the entire funnel on her own before the main army goes in.</p><ul><li><strong>Deploy the Healers once she is engaged,</strong> so they immediately have something to heal.</li><li><strong>Plan for anti-air.</strong> Healers die to Air Defences, and the moment they die the walk ends. Route her away from anti-air, or remove it first.</li><li><strong>Know when to stop.</strong> A Queen walk that has done its job should not be allowed to wander into the core; that is what a Recall Spell is for.</li></ul>"
+        },
+        {
+          "h": "Upgrading her",
+          "body": "<p>If you can only upgrade one hero, most players get more out of levelling the Archer Queen than anything else, because the Queen walk scales directly with her level and appears in a huge proportion of successful attacks. She is upgraded with dark elixir and is unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero level tables here come from an extracted game-file snapshot that could not be cross-checked against a published reference the way troop tables were. Confirm figures in game before planning upgrades around them.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Archer Queen stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "580",
+              "136",
+              "—",
+              "—",
+              "8"
+            ],
+            [
+              "2",
+              "592",
+              "139",
+              "5,000 Dark Elixir",
+              "2 h",
+              "8"
+            ],
+            [
+              "3",
+              "604",
+              "143",
+              "5,500 Dark Elixir",
+              "4 h",
+              "8"
+            ],
+            [
+              "4",
+              "617",
+              "146",
+              "6,000 Dark Elixir",
+              "8 h",
+              "8"
+            ],
+            [
+              "5",
+              "630",
+              "150",
+              "6,500 Dark Elixir",
+              "10 h",
+              "8"
+            ],
+            [
+              "6",
+              "643",
+              "154",
+              "7,000 Dark Elixir",
+              "12 h",
+              "8"
+            ],
+            [
+              "7",
+              "657",
+              "157",
+              "7,500 Dark Elixir",
+              "14 h",
+              "8"
+            ],
+            [
+              "8",
+              "670",
+              "162",
+              "8,000 Dark Elixir",
+              "16 h",
+              "8"
+            ],
+            [
+              "9",
+              "685",
+              "165",
+              "8,500 Dark Elixir",
+              "18 h",
+              "8"
+            ],
+            [
+              "10",
+              "699",
+              "169",
+              "10,000 Dark Elixir",
+              "20 h",
+              "8"
+            ],
+            [
+              "11",
+              "714",
+              "173",
+              "10,500 Dark Elixir",
+              "22 h",
+              "9"
+            ],
+            [
+              "12",
+              "729",
+              "178",
+              "11,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "13",
+              "744",
+              "183",
+              "11,500 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "14",
+              "759",
+              "187",
+              "12,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "15",
+              "775",
+              "192",
+              "12,500 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "16",
+              "792",
+              "196",
+              "13,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "17",
+              "808",
+              "201",
+              "13,500 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "18",
+              "826",
+              "207",
+              "14,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "19",
+              "842",
+              "212",
+              "14,500 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "20",
+              "861",
+              "217",
+              "15,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "21",
+              "878",
+              "223",
+              "17,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "22",
+              "897",
+              "228",
+              "19,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "23",
+              "916",
+              "234",
+              "21,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "24",
+              "935",
+              "240",
+              "23,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "25",
+              "954",
+              "246",
+              "25,000 Dark Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "26",
+              "974",
+              "252",
+              "27,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "27",
+              "995",
+              "258",
+              "29,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "28",
+              "1,016",
+              "264",
+              "31,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "29",
+              "1,038",
+              "271",
+              "33,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "30",
+              "1,059",
+              "278",
+              "35,000 Dark Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "31",
+              "1,082",
+              "285",
+              "37,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "32",
+              "1,104",
+              "292",
+              "39,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "33",
+              "1,127",
+              "299",
+              "41,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "34",
+              "1,151",
+              "307",
+              "43,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "35",
+              "1,175",
+              "315",
+              "45,000 Dark Elixir",
+              "2 d 6 h",
+              "10"
+            ],
+            [
+              "36",
+              "1,200",
+              "322",
+              "47,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "37",
+              "1,226",
+              "331",
+              "49,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "38",
+              "1,251",
+              "338",
+              "51,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "39",
+              "1,278",
+              "347",
+              "53,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "40",
+              "1,304",
+              "356",
+              "55,000 Dark Elixir",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "41",
+              "1,331",
+              "365",
+              "58,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "42",
+              "1,359",
+              "374",
+              "61,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "43",
+              "1,388",
+              "383",
+              "64,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "44",
+              "1,417",
+              "393",
+              "67,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "45",
+              "1,447",
+              "403",
+              "70,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "46",
+              "1,478",
+              "413",
+              "73,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "47",
+              "1,508",
+              "423",
+              "76,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "48",
+              "1,540",
+              "434",
+              "79,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "49",
+              "1,572",
+              "445",
+              "82,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "50",
+              "1,606",
+              "456",
+              "85,000 Dark Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "51",
+              "1,646",
+              "465",
+              "86,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "52",
+              "1,688",
+              "474",
+              "87,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "53",
+              "1,730",
+              "485",
+              "88,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "54",
+              "1,774",
+              "495",
+              "89,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "55",
+              "1,819",
+              "505",
+              "90,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "56",
+              "1,865",
+              "515",
+              "93,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "57",
+              "1,912",
+              "526",
+              "96,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "58",
+              "1,960",
+              "537",
+              "99,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "59",
+              "2,010",
+              "548",
+              "102,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "60",
+              "2,060",
+              "559",
+              "105,000 Dark Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "61",
+              "2,111",
+              "570",
+              "107,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "62",
+              "2,164",
+              "581",
+              "109,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "63",
+              "2,218",
+              "593",
+              "111,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "64",
+              "2,274",
+              "605",
+              "113,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "65",
+              "2,330",
+              "617",
+              "115,000 Dark Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "66",
+              "2,384",
+              "628",
+              "117,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "67",
+              "2,432",
+              "638",
+              "119,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "68",
+              "2,476",
+              "648",
+              "121,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "69",
+              "2,516",
+              "656",
+              "123,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "70",
+              "2,552",
+              "664",
+              "125,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "71",
+              "2,584",
+              "671",
+              "130,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "72",
+              "2,616",
+              "677",
+              "135,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "73",
+              "2,648",
+              "682",
+              "140,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "74",
+              "2,680",
+              "687",
+              "145,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "75",
+              "2,712",
+              "692",
+              "150,000 Dark Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "76",
+              "2,740",
+              "697",
+              "155,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "77",
+              "2,768",
+              "701",
+              "160,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "78",
+              "2,796",
+              "706",
+              "165,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "79",
+              "2,824",
+              "710",
+              "170,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "80",
+              "2,852",
+              "714",
+              "175,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "81",
+              "2,880",
+              "717",
+              "180,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "82",
+              "2,904",
+              "721",
+              "185,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "83",
+              "2,928",
+              "724",
+              "190,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "84",
+              "2,952",
+              "728",
+              "195,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "85",
+              "2,976",
+              "731",
+              "200,000 Dark Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "86",
+              "3,000",
+              "734",
+              "215,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "87",
+              "3,024",
+              "738",
+              "225,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "88",
+              "3,048",
+              "741",
+              "235,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "89",
+              "3,072",
+              "745",
+              "245,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "90",
+              "3,096",
+              "748",
+              "255,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "91",
+              "3,120",
+              "751",
+              "280,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "92",
+              "3,144",
+              "755",
+              "290,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "93",
+              "3,168",
+              "758",
+              "300,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "94",
+              "3,192",
+              "762",
+              "310,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "95",
+              "3,216",
+              "765",
+              "320,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "96",
+              "3,240",
+              "768",
+              "340,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "97",
+              "3,264",
+              "771",
+              "350,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "98",
+              "3,288",
+              "774",
+              "360,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "99",
+              "3,312",
+              "777",
+              "370,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "100",
+              "3,336",
+              "780",
+              "380,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "101",
+              "3,360",
+              "783",
+              "400,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "102",
+              "3,384",
+              "786",
+              "410,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "103",
+              "3,408",
+              "789",
+              "420,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "104",
+              "3,432",
+              "792",
+              "430,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "105",
+              "3,456",
+              "795",
+              "450,000 Dark Elixir",
+              "8 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "troops:healer",
+        "heroes:barbarian-king",
+        "mechanics:funnelling",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "h1": "Archer Queen — Clash of Clans",
+      "head_title": "Archer Queen | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What is a Queen walk?",
+          "a": "Deploying the Archer Queen with several Healers behind her so she advances slowly and safely, killing defences from range. It is used to clear a flank, remove a key defence, or create the funnel before the main army goes in, and it is one of the most reliable openers in the game."
+        },
+        {
+          "q": "Which hero should I upgrade first?",
+          "a": "Most players get the most out of the Archer Queen, because the Queen walk scales directly with her level and features in a very large share of successful attacks. Whichever you choose, the important thing is that one hero is always upgrading."
+        }
+      ],
+      "show_tool_note": false,
+      "has_prose": true
+    },
+    {
+      "slug": "grand-warden",
+      "name": "Grand Warden",
+      "description": "The Grand Warden in Clash of Clans: the support hero, ground and air modes, and the Eternal Tome.",
+      "blurb": "A support hero who makes the rest of the army much harder to kill.",
+      "summary": "The Grand Warden does modest damage and provides a continuous aura that strengthens nearby troops. His ability protects the whole army for a few seconds, which makes him the hero whose value is almost entirely about everyone else.",
+      "quick": {
+        "Levels": "80",
+        "Unlocked at": "Town Hall 11",
+        "Upgrade resource": "Elixir",
+        "Targets": "Ground and air",
+        "Equipment slots": "2",
+        "Role": "Support hero, ground or air",
+        "Upgraded with": "Dark elixir",
+        "While upgrading": "Unavailable for attack and defence"
+      },
+      "tags": [
+        {
+          "label": "Hero",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What he does",
+          "body": "<p>He provides a passive boost to nearby friendly troops and has an ability that shields the army briefly. Crucially he can be set to <strong>ground or air mode</strong>, which determines whether he walks with a ground push or flies with an air one.</p><p>Setting the wrong mode is one of the most common and most costly mistakes in the game: a Warden in ground mode with an air army is a Warden who walks alone into the base and dies.</p>"
+        },
+        {
+          "h": "How to use him",
+          "body": "<ul><li><strong>Check the mode before every attack.</strong> Every time. It is the single most frequent unforced error.</li><li><strong>Keep him behind the front line,</strong> since his aura reaches the group and he does not survive contact.</li><li><strong>Save the ability for the killing moment,</strong> typically as the army crosses into the range of the defence that would otherwise wipe it.</li></ul>"
+        },
+        {
+          "h": "Upgrading him",
+          "body": "<p>His contribution is multiplicative rather than additive: he makes the whole army more durable, so his value scales with how expensive your army is. In heavy war compositions he is often the difference between a two and a three star. Upgraded with dark elixir, unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero tables come from an extracted snapshot that could not be verified against a published reference. Confirm in game before planning around them.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Grand Warden stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "850",
+              "43",
+              "—",
+              "—",
+              "11"
+            ],
+            [
+              "2",
+              "868",
+              "44",
+              "1,000,000 Elixir",
+              "2 h",
+              "11"
+            ],
+            [
+              "3",
+              "886",
+              "46",
+              "1,100,000 Elixir",
+              "4 h",
+              "11"
+            ],
+            [
+              "4",
+              "904",
+              "48",
+              "1,200,000 Elixir",
+              "8 h",
+              "11"
+            ],
+            [
+              "5",
+              "923",
+              "49",
+              "1,400,000 Elixir",
+              "10 h",
+              "11"
+            ],
+            [
+              "6",
+              "942",
+              "51",
+              "1,500,000 Elixir",
+              "12 h",
+              "11"
+            ],
+            [
+              "7",
+              "961",
+              "54",
+              "1,700,000 Elixir",
+              "14 h",
+              "11"
+            ],
+            [
+              "8",
+              "982",
+              "56",
+              "1,800,000 Elixir",
+              "16 h",
+              "11"
+            ],
+            [
+              "9",
+              "1,003",
+              "59",
+              "2,000,000 Elixir",
+              "18 h",
+              "11"
+            ],
+            [
+              "10",
+              "1,025",
+              "61",
+              "2,300,000 Elixir",
+              "20 h",
+              "11"
+            ],
+            [
+              "11",
+              "1,048",
+              "64",
+              "2,700,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "12",
+              "1,072",
+              "66",
+              "3,000,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "13",
+              "1,097",
+              "70",
+              "3,400,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "14",
+              "1,122",
+              "73",
+              "3,700,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "15",
+              "1,148",
+              "77",
+              "4,100,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "16",
+              "1,173",
+              "80",
+              "4,400,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "17",
+              "1,199",
+              "83",
+              "4,800,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "18",
+              "1,224",
+              "87",
+              "5,100,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "19",
+              "1,250",
+              "90",
+              "5,500,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "20",
+              "1,275",
+              "94",
+              "6,000,000 Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "21",
+              "1,301",
+              "98",
+              "6,100,000 Elixir",
+              "1 d",
+              "12"
+            ],
+            [
+              "22",
+              "1,327",
+              "102",
+              "6,200,000 Elixir",
+              "1 d",
+              "12"
+            ],
+            [
+              "23",
+              "1,354",
+              "106",
+              "6,300,000 Elixir",
+              "1 d",
+              "12"
+            ],
+            [
+              "24",
+              "1,381",
+              "111",
+              "6,400,000 Elixir",
+              "1 d",
+              "12"
+            ],
+            [
+              "25",
+              "1,409",
+              "116",
+              "6,500,000 Elixir",
+              "1 d",
+              "12"
+            ],
+            [
+              "26",
+              "1,438",
+              "121",
+              "6,600,000 Elixir",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "27",
+              "1,467",
+              "126",
+              "6,700,000 Elixir",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "28",
+              "1,497",
+              "131",
+              "6,800,000 Elixir",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "29",
+              "1,527",
+              "137",
+              "6,900,000 Elixir",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "30",
+              "1,558",
+              "143",
+              "7,000,000 Elixir",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "31",
+              "1,590",
+              "149",
+              "7,100,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "32",
+              "1,622",
+              "155",
+              "7,200,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "33",
+              "1,655",
+              "162",
+              "7,300,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "34",
+              "1,688",
+              "168",
+              "7,400,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "35",
+              "1,722",
+              "175",
+              "7,500,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "36",
+              "1,757",
+              "183",
+              "7,600,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "37",
+              "1,793",
+              "190",
+              "7,700,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "38",
+              "1,829",
+              "198",
+              "7,800,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "39",
+              "1,867",
+              "207",
+              "7,900,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "40",
+              "1,904",
+              "215",
+              "8,000,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "41",
+              "1,921",
+              "221",
+              "8,300,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "42",
+              "1,938",
+              "226",
+              "8,600,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "43",
+              "1,955",
+              "230",
+              "8,900,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "44",
+              "1,972",
+              "234",
+              "9,200,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "45",
+              "1,989",
+              "237",
+              "9,500,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "46",
+              "2,006",
+              "241",
+              "9,800,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "47",
+              "2,023",
+              "244",
+              "10,100,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "48",
+              "2,040",
+              "247",
+              "10,400,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "49",
+              "2,057",
+              "251",
+              "10,700,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "50",
+              "2,074",
+              "254",
+              "11,000,000 Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "51",
+              "2,091",
+              "258",
+              "11,400,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "52",
+              "2,108",
+              "261",
+              "11,800,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "53",
+              "2,125",
+              "264",
+              "12,200,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "54",
+              "2,142",
+              "268",
+              "12,600,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "55",
+              "2,159",
+              "271",
+              "13,000,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "56",
+              "2,176",
+              "274",
+              "13,400,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "57",
+              "2,193",
+              "276",
+              "13,800,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "58",
+              "2,210",
+              "279",
+              "14,200,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "59",
+              "2,227",
+              "281",
+              "14,600,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "60",
+              "2,244",
+              "284",
+              "15,000,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "61",
+              "2,261",
+              "286",
+              "15,500,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "62",
+              "2,278",
+              "289",
+              "16,000,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "63",
+              "2,295",
+              "292",
+              "16,500,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "64",
+              "2,312",
+              "294",
+              "17,000,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "65",
+              "2,329",
+              "297",
+              "17,500,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "66",
+              "2,346",
+              "299",
+              "18,000,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "67",
+              "2,363",
+              "302",
+              "18,500,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "68",
+              "2,380",
+              "304",
+              "19,000,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "69",
+              "2,397",
+              "307",
+              "19,500,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "70",
+              "2,414",
+              "309",
+              "20,000,000 Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "71",
+              "2,431",
+              "312",
+              "20,500,000 Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "72",
+              "2,448",
+              "315",
+              "21,000,000 Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "73",
+              "2,465",
+              "318",
+              "21,500,000 Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "74",
+              "2,482",
+              "321",
+              "22,000,000 Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "75",
+              "2,499",
+              "324",
+              "22,500,000 Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "76",
+              "2,516",
+              "327",
+              "24,000,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "77",
+              "2,533",
+              "330",
+              "25,500,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "78",
+              "2,550",
+              "333",
+              "27,000,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "79",
+              "2,567",
+              "336",
+              "28,500,000 Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "80",
+              "2,584",
+              "339",
+              "30,000,000 Elixir",
+              "8 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "troops:apprentice-warden",
+        "heroes:royal-champion",
+        "mechanics:hero-equipment",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.7",
+      "h1": "Grand Warden — Clash of Clans",
+      "head_title": "Grand Warden | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Should the Grand Warden be in ground or air mode?",
+          "a": "Match the mode to your army. Ground mode for a ground push, air mode for an air army. Getting this wrong is one of the most common mistakes in the game, because a mismatched Warden walks or flies away from the troops he is meant to be supporting."
+        },
+        {
+          "q": "When should I use the Grand Warden's ability?",
+          "a": "At the moment the army enters the range of whatever would otherwise destroy it, rather than early. The ability protects the whole group briefly, so its value depends entirely on how many troops it covers and what they are surviving."
+        }
+      ],
+      "show_tool_note": false,
+      "has_prose": true
+    },
+    {
+      "slug": "royal-champion",
+      "name": "Royal Champion",
+      "description": "The Royal Champion in Clash of Clans: a defence-targeting hero who jumps walls.",
+      "blurb": "Targets defences, jumps walls, and goes where you point her.",
+      "summary": "The Royal Champion attacks defences specifically and leaps over walls to reach them. That combination makes her the most self-directing hero: she goes to the buildings that matter without needing a funnel built for her.",
+      "quick": {
+        "Levels": "55",
+        "Unlocked at": "Town Hall 13",
+        "Upgrade resource": "Dark Elixir",
+        "Targets": "Ground and air",
+        "Equipment slots": "2",
+        "Role": "Ranged hero, targets defences",
+        "Upgraded with": "Dark elixir",
+        "While upgrading": "Unavailable for attack and defence"
+      },
+      "tags": [
+        {
+          "label": "Hero",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What she does",
+          "body": "<p>She prefers defences, moves at range, and jumps walls rather than pathing around them. Her ability delivers a burst of damage to a target. Because she seeks defences, she can be sent into a base with a clear expectation of where she will go, which is unusual.</p>"
+        },
+        {
+          "h": "How to use her",
+          "body": "<ul><li><strong>Send her at a defensive cluster,</strong> since she will move between defences directly.</li><li><strong>Support her.</strong> She is durable but not a tank, and a Royal Champion alone in the core dies to concentrated fire.</li><li><strong>Time the ability on a high-value defence,</strong> not on whatever she happens to be hitting.</li></ul>"
+        },
+        {
+          "h": "Upgrading her",
+          "body": "<p>Because she targets defences and ignores walls, her contribution is very consistent across different base layouts, which makes her levels reliably valuable rather than situationally so. Upgraded with dark elixir, unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero tables come from an extracted snapshot that could not be cross-checked against a published reference. Verify in game before planning upgrades.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Royal Champion stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,508",
+              "340",
+              "—",
+              "—",
+              "13"
+            ],
+            [
+              "2",
+              "2,550",
+              "350",
+              "10,000 Dark Elixir",
+              "4 h",
+              "13"
+            ],
+            [
+              "3",
+              "2,593",
+              "360",
+              "15,000 Dark Elixir",
+              "10 h",
+              "13"
+            ],
+            [
+              "4",
+              "2,635",
+              "370",
+              "20,000 Dark Elixir",
+              "12 h",
+              "13"
+            ],
+            [
+              "5",
+              "2,678",
+              "375",
+              "25,000 Dark Elixir",
+              "20 h",
+              "13"
+            ],
+            [
+              "6",
+              "2,720",
+              "380",
+              "30,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "7",
+              "2,763",
+              "385",
+              "35,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "8",
+              "2,805",
+              "390",
+              "40,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "9",
+              "2,848",
+              "396",
+              "45,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "10",
+              "2,890",
+              "402",
+              "50,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "11",
+              "2,933",
+              "408",
+              "53,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "12",
+              "2,975",
+              "414",
+              "56,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "13",
+              "3,018",
+              "420",
+              "59,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "14",
+              "3,060",
+              "426",
+              "62,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "15",
+              "3,103",
+              "432",
+              "65,000 Dark Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "16",
+              "3,145",
+              "438",
+              "70,000 Dark Elixir",
+              "1 d 12 h",
+              "13"
+            ],
+            [
+              "17",
+              "3,188",
+              "444",
+              "75,000 Dark Elixir",
+              "1 d 12 h",
+              "13"
+            ],
+            [
+              "18",
+              "3,230",
+              "448",
+              "80,000 Dark Elixir",
+              "1 d 12 h",
+              "13"
+            ],
+            [
+              "19",
+              "3,273",
+              "452",
+              "85,000 Dark Elixir",
+              "1 d 12 h",
+              "13"
+            ],
+            [
+              "20",
+              "3,315",
+              "456",
+              "90,000 Dark Elixir",
+              "1 d 12 h",
+              "13"
+            ],
+            [
+              "21",
+              "3,349",
+              "460",
+              "95,000 Dark Elixir",
+              "2 d",
+              "13"
+            ],
+            [
+              "22",
+              "3,383",
+              "465",
+              "100,000 Dark Elixir",
+              "2 d",
+              "13"
+            ],
+            [
+              "23",
+              "3,417",
+              "470",
+              "105,000 Dark Elixir",
+              "2 d",
+              "13"
+            ],
+            [
+              "24",
+              "3,451",
+              "474",
+              "110,000 Dark Elixir",
+              "2 d",
+              "13"
+            ],
+            [
+              "25",
+              "3,485",
+              "477",
+              "115,000 Dark Elixir",
+              "2 d",
+              "13"
+            ],
+            [
+              "26",
+              "3,519",
+              "480",
+              "120,000 Dark Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "27",
+              "3,553",
+              "483",
+              "125,000 Dark Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "28",
+              "3,587",
+              "486",
+              "130,000 Dark Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "29",
+              "3,621",
+              "489",
+              "135,000 Dark Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "30",
+              "3,655",
+              "492",
+              "140,000 Dark Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "31",
+              "3,681",
+              "495",
+              "145,000 Dark Elixir",
+              "4 d",
+              "15"
+            ],
+            [
+              "32",
+              "3,706",
+              "498",
+              "150,000 Dark Elixir",
+              "4 d",
+              "15"
+            ],
+            [
+              "33",
+              "3,732",
+              "502",
+              "155,000 Dark Elixir",
+              "4 d",
+              "15"
+            ],
+            [
+              "34",
+              "3,757",
+              "506",
+              "160,000 Dark Elixir",
+              "4 d",
+              "15"
+            ],
+            [
+              "35",
+              "3,783",
+              "510",
+              "165,000 Dark Elixir",
+              "4 d",
+              "15"
+            ],
+            [
+              "36",
+              "3,808",
+              "514",
+              "170,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "37",
+              "3,834",
+              "518",
+              "175,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "38",
+              "3,859",
+              "522",
+              "180,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "39",
+              "3,885",
+              "526",
+              "200,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "40",
+              "3,910",
+              "530",
+              "220,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "41",
+              "3,936",
+              "533",
+              "240,000 Dark Elixir",
+              "5 d",
+              "16"
+            ],
+            [
+              "42",
+              "3,961",
+              "536",
+              "260,000 Dark Elixir",
+              "6 d",
+              "16"
+            ],
+            [
+              "43",
+              "3,987",
+              "539",
+              "280,000 Dark Elixir",
+              "6 d 12 h",
+              "16"
+            ],
+            [
+              "44",
+              "4,012",
+              "542",
+              "300,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "45",
+              "4,038",
+              "545",
+              "320,000 Dark Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "46",
+              "4,064",
+              "548",
+              "340,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "47",
+              "4,090",
+              "551",
+              "350,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "48",
+              "4,116",
+              "554",
+              "360,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "49",
+              "4,142",
+              "557",
+              "370,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "50",
+              "4,168",
+              "560",
+              "380,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "51",
+              "4,194",
+              "563",
+              "400,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "52",
+              "4,220",
+              "566",
+              "410,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "53",
+              "4,246",
+              "569",
+              "420,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "54",
+              "4,272",
+              "572",
+              "430,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "55",
+              "4,298",
+              "575",
+              "450,000 Dark Elixir",
+              "8 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "heroes:grand-warden",
+        "troops:hog-rider",
+        "mechanics:hero-equipment",
+        "mechanics:walls-and-pathing"
+      ],
+      "priority": "0.7",
+      "h1": "Royal Champion — Clash of Clans",
+      "head_title": "Royal Champion | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Does the Royal Champion jump walls?",
+          "a": "Yes. She leaps over walls to reach defences rather than pathing around them, which means base compartmentalisation does very little to slow her down and she needs much less funnelling than other heroes."
+        },
+        {
+          "q": "What does the Royal Champion target?",
+          "a": "Defences specifically. She moves from one defence to the next and ignores other buildings until the defences are gone, which makes her unusually predictable and easy to plan around."
+        }
+      ],
+      "show_tool_note": false,
+      "has_prose": true
+    },
+    {
+      "slug": "minion-prince",
+      "name": "Minion Prince",
+      "description": "The Minion Prince in Clash of Clans: a flying hero and what a hero that ignores walls changes.",
+      "blurb": "A flying hero, which changes what a hero can be sent to do.",
+      "summary": "The Minion Prince is a hero who flies, and that single property makes him behave unlike the ground heroes. Walls, compartments and pathing do not apply, so he can be sent directly at whatever you need dealt with.",
+      "quick": {
+        "Levels": "95",
+        "Unlocked at": "Town Hall 9",
+        "Upgrade resource": "Dark Elixir",
+        "Targets": "Ground and air",
+        "Equipment slots": "2",
+        "Role": "Air hero",
+        "Upgraded with": "Dark elixir",
+        "While upgrading": "Unavailable for attack and defence"
+      },
+      "tags": [
+        {
+          "label": "Hero",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What he does",
+          "body": "<p>He attacks from the air with hero-level durability and damage, and carries an ability like the other heroes. Because he flies, none of the geometry that constrains the Barbarian King or Archer Queen applies to him.</p>"
+        },
+        {
+          "h": "How to use him",
+          "body": "<ul><li><strong>Send him at things that are hard to reach on the ground,</strong> since the walls that would stop a ground hero are irrelevant.</li><li><strong>Mind the anti-air.</strong> His weakness is the same as every air unit's, and a hero flown into concentrated Air Defence coverage dies as reliably as a Balloon.</li><li><strong>Pair him with air armies,</strong> where his movement matches the rest of the push.</li></ul>"
+        },
+        {
+          "h": "Upgrading him",
+          "body": "<p>Like every hero he is upgraded with dark elixir and unavailable while upgrading. Where he fits in your upgrade order depends on whether you attack primarily with air or ground, since a flying hero adds most to an air-based attack plan.</p><div class='note'><p><b>On hero data.</b> Hero tables here come from an extracted game-file snapshot that could not be verified against a published reference the way troop and building data was. Treat the figures as provisional.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Minion Prince stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "200",
+              "173",
+              "—",
+              "—",
+              "9"
+            ],
+            [
+              "2",
+              "242",
+              "177",
+              "5,000 Dark Elixir",
+              "2 h",
+              "9"
+            ],
+            [
+              "3",
+              "284",
+              "181",
+              "5,500 Dark Elixir",
+              "4 h",
+              "9"
+            ],
+            [
+              "4",
+              "326",
+              "187",
+              "6,000 Dark Elixir",
+              "8 h",
+              "9"
+            ],
+            [
+              "5",
+              "368",
+              "191",
+              "6,500 Dark Elixir",
+              "10 h",
+              "9"
+            ],
+            [
+              "6",
+              "410",
+              "196",
+              "7,000 Dark Elixir",
+              "12 h",
+              "9"
+            ],
+            [
+              "7",
+              "452",
+              "201",
+              "7,500 Dark Elixir",
+              "14 h",
+              "9"
+            ],
+            [
+              "8",
+              "494",
+              "206",
+              "8,000 Dark Elixir",
+              "16 h",
+              "9"
+            ],
+            [
+              "9",
+              "536",
+              "211",
+              "8,500 Dark Elixir",
+              "18 h",
+              "9"
+            ],
+            [
+              "10",
+              "578",
+              "216",
+              "10,000 Dark Elixir",
+              "20 h",
+              "9"
+            ],
+            [
+              "11",
+              "620",
+              "222",
+              "10,500 Dark Elixir",
+              "22 h",
+              "10"
+            ],
+            [
+              "12",
+              "662",
+              "227",
+              "11,000 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "13",
+              "704",
+              "233",
+              "11,500 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "14",
+              "746",
+              "238",
+              "12,000 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "15",
+              "788",
+              "244",
+              "12,500 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "16",
+              "830",
+              "251",
+              "13,000 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "17",
+              "872",
+              "257",
+              "13,500 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "18",
+              "914",
+              "263",
+              "14,000 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "19",
+              "956",
+              "270",
+              "14,500 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "20",
+              "998",
+              "277",
+              "15,000 Dark Elixir",
+              "1 d",
+              "10"
+            ],
+            [
+              "21",
+              "1,040",
+              "284",
+              "17,000 Dark Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "22",
+              "1,082",
+              "290",
+              "19,000 Dark Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "23",
+              "1,124",
+              "298",
+              "21,000 Dark Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "24",
+              "1,166",
+              "305",
+              "23,000 Dark Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "25",
+              "1,208",
+              "313",
+              "25,000 Dark Elixir",
+              "1 d",
+              "11"
+            ],
+            [
+              "26",
+              "1,250",
+              "321",
+              "27,000 Dark Elixir",
+              "1 d 12 h",
+              "11"
+            ],
+            [
+              "27",
+              "1,292",
+              "329",
+              "29,000 Dark Elixir",
+              "1 d 12 h",
+              "11"
+            ],
+            [
+              "28",
+              "1,334",
+              "337",
+              "31,000 Dark Elixir",
+              "1 d 12 h",
+              "11"
+            ],
+            [
+              "29",
+              "1,376",
+              "345",
+              "33,000 Dark Elixir",
+              "1 d 12 h",
+              "11"
+            ],
+            [
+              "30",
+              "1,418",
+              "354",
+              "35,000 Dark Elixir",
+              "1 d 12 h",
+              "11"
+            ],
+            [
+              "31",
+              "1,460",
+              "363",
+              "36,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "32",
+              "1,502",
+              "372",
+              "37,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "33",
+              "1,544",
+              "381",
+              "38,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "34",
+              "1,586",
+              "391",
+              "39,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "35",
+              "1,628",
+              "401",
+              "40,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "36",
+              "1,670",
+              "411",
+              "41,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "37",
+              "1,712",
+              "419",
+              "42,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "38",
+              "1,754",
+              "427",
+              "43,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "39",
+              "1,796",
+              "437",
+              "44,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "40",
+              "1,838",
+              "446",
+              "45,000 Dark Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "41",
+              "1,880",
+              "455",
+              "50,000 Dark Elixir",
+              "2 d 6 h",
+              "13"
+            ],
+            [
+              "42",
+              "1,922",
+              "464",
+              "55,000 Dark Elixir",
+              "2 d 6 h",
+              "13"
+            ],
+            [
+              "43",
+              "1,964",
+              "474",
+              "60,000 Dark Elixir",
+              "2 d 6 h",
+              "13"
+            ],
+            [
+              "44",
+              "2,006",
+              "484",
+              "65,000 Dark Elixir",
+              "2 d 6 h",
+              "13"
+            ],
+            [
+              "45",
+              "2,048",
+              "494",
+              "70,000 Dark Elixir",
+              "2 d 6 h",
+              "13"
+            ],
+            [
+              "46",
+              "2,090",
+              "504",
+              "75,000 Dark Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "47",
+              "2,132",
+              "513",
+              "80,000 Dark Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "48",
+              "2,174",
+              "523",
+              "85,000 Dark Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "49",
+              "2,216",
+              "534",
+              "90,000 Dark Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "50",
+              "2,258",
+              "545",
+              "95,000 Dark Elixir",
+              "3 d",
+              "13"
+            ],
+            [
+              "51",
+              "2,300",
+              "556",
+              "100,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "52",
+              "2,342",
+              "566",
+              "105,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "53",
+              "2,384",
+              "575",
+              "110,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "54",
+              "2,426",
+              "584",
+              "115,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "55",
+              "2,468",
+              "591",
+              "120,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "56",
+              "2,510",
+              "598",
+              "125,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "57",
+              "2,552",
+              "604",
+              "130,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "58",
+              "2,594",
+              "610",
+              "135,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "59",
+              "2,636",
+              "614",
+              "140,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "60",
+              "2,678",
+              "619",
+              "145,000 Dark Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "61",
+              "2,720",
+              "623",
+              "150,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "62",
+              "2,762",
+              "628",
+              "155,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "63",
+              "2,804",
+              "631",
+              "160,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "64",
+              "2,846",
+              "636",
+              "165,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "65",
+              "2,888",
+              "639",
+              "170,000 Dark Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "66",
+              "2,930",
+              "643",
+              "175,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "67",
+              "2,972",
+              "646",
+              "180,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "68",
+              "3,014",
+              "649",
+              "185,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "69",
+              "3,056",
+              "652",
+              "190,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "70",
+              "3,098",
+              "656",
+              "195,000 Dark Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "71",
+              "3,161",
+              "658",
+              "200,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "72",
+              "3,224",
+              "661",
+              "205,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "73",
+              "3,287",
+              "665",
+              "210,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "74",
+              "3,350",
+              "670",
+              "220,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "75",
+              "3,413",
+              "675",
+              "230,000 Dark Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "76",
+              "3,476",
+              "680",
+              "240,000 Dark Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "77",
+              "3,539",
+              "685",
+              "250,000 Dark Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "78",
+              "3,602",
+              "690",
+              "260,000 Dark Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "79",
+              "3,665",
+              "695",
+              "270,000 Dark Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "80",
+              "3,728",
+              "700",
+              "280,000 Dark Elixir",
+              "7 d 12 h",
+              "16"
+            ],
+            [
+              "81",
+              "3,791",
+              "705",
+              "290,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "82",
+              "3,854",
+              "710",
+              "300,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "83",
+              "3,917",
+              "715",
+              "310,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "84",
+              "3,980",
+              "720",
+              "320,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "85",
+              "4,043",
+              "725",
+              "330,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "86",
+              "4,106",
+              "730",
+              "340,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "87",
+              "4,169",
+              "735",
+              "350,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "88",
+              "4,232",
+              "740",
+              "360,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "89",
+              "4,295",
+              "745",
+              "370,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "90",
+              "4,358",
+              "750",
+              "380,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "91",
+              "4,390",
+              "753",
+              "400,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "92",
+              "4,420",
+              "756",
+              "410,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "93",
+              "4,450",
+              "759",
+              "420,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "94",
+              "4,480",
+              "762",
+              "430,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "95",
+              "4,510",
+              "765",
+              "450,000 Dark Elixir",
+              "8 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "heroes:grand-warden",
+        "troops:minion",
+        "mechanics:hero-equipment",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.7",
+      "h1": "Minion Prince — Clash of Clans",
+      "head_title": "Minion Prince | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What makes the Minion Prince different from other heroes?",
+          "a": "He flies, so walls, compartments and ground pathing do not apply to him. That lets him be sent directly at targets a ground hero would have to walk around the base to reach, at the cost of being vulnerable to anti-air."
+        },
+        {
+          "q": "Is the Minion Prince worth upgrading?",
+          "a": "It depends on how you attack. A flying hero adds most to an air-based attack plan, so if your armies are primarily ground-based, other heroes may return more per dark elixir spent."
+        }
+      ],
+      "show_tool_note": false,
+      "has_prose": true
+    },
+    {
+      "slug": "dragon-duke",
+      "name": "Dragon Duke",
+      "description": "The Dragon Duke in Clash of Clans: a Town Hall 15 hero with 25 levels, targeting ground and air, and where he fits in your upgrade order.",
+      "blurb": "A Town Hall 15 hero with a lot of hitpoints and two equipment slots.",
+      "summary": "The Dragon Duke unlocks at Town Hall 15 and runs to 25 levels. He targets both ground and air and starts at 9,100 hitpoints and 304 damage per second at level one, which puts him among the most durable units you can deploy.",
+      "quick": {
+        "Levels": "25",
+        "Unlocked at": "Town Hall 15",
+        "Upgrade resource": "Dark Elixir",
+        "Targets": "Ground and air",
+        "Equipment slots": "2",
+        "Role": "Hero",
+        "Upgraded with": "Dark elixir",
+        "While upgrading": "Unavailable for attack and defence"
+      },
+      "tags": [
+        {
+          "label": "Hero",
+          "kind": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>Twenty-five levels, unlocking at Town Hall 15, upgraded with dark elixir, two equipment slots, and targeting both ground and air. At level one he already carries 9,100 hitpoints and 304 damage per second.</p><p>That opening durability is the striking part. It puts him in a different category from the Barbarian King at equivalent progress, and it suggests a hero meant to be sent somewhere dangerous rather than protected.</p>"
+        },
+        {
+          "h": "Where he fits in the upgrade queue",
+          "body": "<p>By Town Hall 15 you are running several heroes, and dark elixir is the constraint on all of them, as set out in <a href='../mechanics/dark-elixir.html'>dark elixir</a>. Adding a hero does not add dark elixir income, it adds another queue competing for it.</p><p>The rule from <a href='../mechanics/upgrade-priority.html'>upgrade priority</a> still decides this: stagger them so one is always upgrading and you always have the others available. A new hero is a reason to farm dark elixir harder, not a reason to leave an existing hero idle.</p>"
+        },
+        {
+          "h": "Equipment",
+          "body": "<p>Two slots, which are swappable freely between attacks. The standing advice applies: concentrate ores on the pieces you actually equip rather than levelling everything you own, and remember that whatever loadout you leave on is what defends your base. See <a href='../mechanics/hero-equipment.html'>hero equipment</a>.</p>"
+        },
+        {
+          "h": "A note on confidence",
+          "body": "<p>The Dragon Duke was absent entirely from the data source this wiki originally launched on, which is part of why we replaced it. The figures here are read from the game files and are as reliable as anything else on the site. What we have not done is play enough at Town Hall 15 with him to describe his ability and behaviour from experience, so this page deliberately stops at what the data supports. <a href='mailto:support@goblinsfarm.com'>Corrections welcome.</a></p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Dragon Duke stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "9,100",
+              "304",
+              "—",
+              "—",
+              "15"
+            ],
+            [
+              "2",
+              "9,175",
+              "308",
+              "50,000 Dark Elixir",
+              "6 h",
+              "15"
+            ],
+            [
+              "3",
+              "9,250",
+              "312",
+              "60,000 Dark Elixir",
+              "12 h",
+              "15"
+            ],
+            [
+              "4",
+              "9,325",
+              "316",
+              "70,000 Dark Elixir",
+              "1 d",
+              "15"
+            ],
+            [
+              "5",
+              "9,400",
+              "320",
+              "80,000 Dark Elixir",
+              "1 d",
+              "15"
+            ],
+            [
+              "6",
+              "9,475",
+              "324",
+              "90,000 Dark Elixir",
+              "2 d",
+              "15"
+            ],
+            [
+              "7",
+              "9,550",
+              "328",
+              "100,000 Dark Elixir",
+              "2 d",
+              "15"
+            ],
+            [
+              "8",
+              "9,625",
+              "332",
+              "110,000 Dark Elixir",
+              "2 d",
+              "15"
+            ],
+            [
+              "9",
+              "9,700",
+              "336",
+              "120,000 Dark Elixir",
+              "3 d",
+              "15"
+            ],
+            [
+              "10",
+              "9,775",
+              "340",
+              "130,000 Dark Elixir",
+              "3 d",
+              "15"
+            ],
+            [
+              "11",
+              "9,850",
+              "344",
+              "150,000 Dark Elixir",
+              "4 d",
+              "16"
+            ],
+            [
+              "12",
+              "9,925",
+              "348",
+              "175,000 Dark Elixir",
+              "5 d",
+              "16"
+            ],
+            [
+              "13",
+              "10,000",
+              "352",
+              "200,000 Dark Elixir",
+              "5 d",
+              "16"
+            ],
+            [
+              "14",
+              "10,075",
+              "356",
+              "225,000 Dark Elixir",
+              "6 d",
+              "16"
+            ],
+            [
+              "15",
+              "10,150",
+              "360",
+              "250,000 Dark Elixir",
+              "6 d",
+              "16"
+            ],
+            [
+              "16",
+              "10,225",
+              "364",
+              "275,000 Dark Elixir",
+              "7 d",
+              "17"
+            ],
+            [
+              "17",
+              "10,300",
+              "368",
+              "300,000 Dark Elixir",
+              "7 d",
+              "17"
+            ],
+            [
+              "18",
+              "10,375",
+              "372",
+              "325,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "19",
+              "10,450",
+              "376",
+              "350,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "20",
+              "10,525",
+              "380",
+              "375,000 Dark Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "21",
+              "10,600",
+              "384",
+              "400,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "22",
+              "10,675",
+              "388",
+              "420,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "23",
+              "10,750",
+              "392",
+              "440,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "24",
+              "10,825",
+              "396",
+              "460,000 Dark Elixir",
+              "8 d",
+              "18"
+            ],
+            [
+              "25",
+              "10,900",
+              "400",
+              "480,000 Dark Elixir",
+              "8 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "heroes:barbarian-king",
+        "heroes:minion-prince",
+        "mechanics:dark-elixir",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "h1": "Dragon Duke — Clash of Clans",
+      "head_title": "Dragon Duke | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "When do you unlock the Dragon Duke?",
+          "a": "At Town Hall 15. He runs to 25 levels, is upgraded with dark elixir like every hero, and carries two equipment slots."
+        },
+        {
+          "q": "Should I upgrade the Dragon Duke before my other heroes?",
+          "a": "Not at the expense of leaving another hero idle. Dark elixir is the constraint at this stage, so stagger upgrades to keep one hero always improving while the others stay available, rather than adding a fourth or fifth queue and finishing none of them."
+        }
+      ],
+      "has_prose": true
+    }
+  ]
+}

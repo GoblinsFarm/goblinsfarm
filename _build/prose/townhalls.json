@@ -1,0 +1,780 @@
+{
+  "town-hall-1": {
+    "slug": "town-hall-1",
+    "name": "Town Hall 1",
+    "h1": "Town Hall 1: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 1 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 1 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH1, and the mistakes that slow players down at this level.",
+    "blurb": "The tutorial village.",
+    "summary": "Town Hall 1 exists to teach you which buildings are which. There is almost nothing to decide here, and that is the point.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>You have a handful of buildings, one builder and no meaningful choices. Everything unlocked here is a prerequisite for something later.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Follow the in-game prompts, they are correct at this stage.</li><li>Build the resource buildings as soon as they appear.</li><li>Move up as soon as you can afford to.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>The only real mistake at Town Hall 1 is spending gems. Gems are the scarcest thing a free account will ever have, and spending them here on a two-minute timer is spending them on nothing. Save them, ideally toward a fourth and fifth builder, which is the single best gem purchase in the game.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 1 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 1?",
+        "a": "Follow the tutorial prompts and move up quickly. Nothing at Town Hall 1 is worth optimising, and the only lasting mistake available to you is spending gems on trivial timers instead of saving them toward extra builders."
+      },
+      {
+        "q": "How long does Town Hall 1 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-2": {
+    "slug": "town-hall-2",
+    "name": "Town Hall 2",
+    "h1": "Town Hall 2: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 2 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 2 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH2, and the mistakes that slow players down at this level.",
+    "blurb": "Still tutorial, with more buildings.",
+    "summary": "Town Hall 2 adds a few buildings and the first hint of choice. It still goes by fast, and it should.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>More collectors, more storage, the first proper defences. You are still in the phase where almost every upgrade is worth doing and the order barely matters.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Resource buildings first, since everything else is paid for by them.</li><li>Barracks next, so you have troops to attack with.</li><li>Defences last, and do not agonise over placement yet.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Spending gems, again. And joining no clan. Clan donations are the single largest power boost available to a new account, and there is no reason to wait: join a clan as soon as you can build the Clan Castle, and ask for troops in every attack.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 2 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 2?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 2 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-3": {
+    "slug": "town-hall-3",
+    "name": "Town Hall 3",
+    "h1": "Town Hall 3: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 3 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 3 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH3, and the mistakes that slow players down at this level.",
+    "blurb": "The first real base.",
+    "summary": "Town Hall 3 is where the game starts. You get more defence types, a real army, and the first chance to build a base rather than a pile of buildings.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>You now have enough defence types to think about coverage rather than count, and enough troop types to build an actual army composition instead of a wave of Barbarians.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Army camps first. More troops per attack improves everything you do.</li><li>Laboratory as soon as it is available, then research your farming troops.</li><li>Storages, so upgrades stop being blocked by capacity.</li><li>Defences, spreading coverage rather than clustering.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Rushing to the next Town Hall because the button is available. Also, ignoring the laboratory, which at this stage is cheap and pays out over every attack for the rest of the account's life.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 3 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 3?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 3 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-4": {
+    "slug": "town-hall-4",
+    "name": "Town Hall 4",
+    "h1": "Town Hall 4: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 4 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 4 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH4, and the mistakes that slow players down at this level.",
+    "blurb": "Giants, Wall Breakers and the first real attacks.",
+    "summary": "Town Hall 4 unlocks the troops that let you actually break into a base rather than nibble at its edges. This is where attacking becomes a skill.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>Giants and Wall Breakers change what an attack is. You now have a tank and a way through walls, which means the whole tank-first, damage-behind rhythm described in <a href='../mechanics/troop-targeting-and-ai.html'>troop targeting</a> starts to matter.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Army camps, then laboratory research on Giants and your farming troops.</li><li>Air Defense as soon as it is available; air attacks start appearing against you around here.</li><li>Storages and collectors.</li><li>Defences, then walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Deploying Wall Breakers before the Giants have engaged. It is the classic beginner error and it wastes the entire attack. Send the tank, wait for the defences to commit, then send the Wall Breakers.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 4 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 4?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 4 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-5": {
+    "slug": "town-hall-5",
+    "name": "Town Hall 5",
+    "h1": "Town Hall 5: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 5 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 5 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH5, and the mistakes that slow players down at this level.",
+    "blurb": "Dragons appear on the other side of the table.",
+    "summary": "Town Hall 5 is where air defence stops being optional, because the players attacking you are unlocking air troops.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>You gain more defence variety, and crucially the attacks coming at you begin to include air. A base without adequate anti-air from this point is a base that loses every defence.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Air Defense, and place it deep rather than on the perimeter.</li><li>Army camps and laboratory research.</li><li>Splash damage, since massed cheap troops are the common attack at this range.</li><li>Storages, defences, then walls.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Treating Archer Towers as anti-air. They can hit air units, but single-target damage does not stop a group of Dragons. You need dedicated Air Defense, and you need it placed where an attacker cannot remove it cheaply from the edge.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 5 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 5?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 5 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-6": {
+    "slug": "town-hall-6",
+    "name": "Town Hall 6",
+    "h1": "Town Hall 6: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 6 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 6 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH6, and the mistakes that slow players down at this level.",
+    "blurb": "Consolidation, and the first serious walls.",
+    "summary": "Town Hall 6 is a consolidation level. Few dramatic unlocks, a lot of catching up, and the point where wall costs start to feel real.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The unlocks are incremental rather than transformative. What changes is the economy: everything costs noticeably more, so farming efficiency starts to matter in a way it did not before.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Laboratory research, which is now expensive enough to need planning.</li><li>Army camps.</li><li>Defence categories you are missing, especially splash and anti-air.</li><li>Walls continuously with surplus, since they now absorb a great deal.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Sitting on loot. From Town Hall 6 onward, resources left in storage overnight are resources you are inviting someone to take. Spend before you log off, walls included.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 6 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 6?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 6 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-7": {
+    "slug": "town-hall-7",
+    "name": "Town Hall 7",
+    "h1": "Town Hall 7: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 7 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 7 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH7, and the mistakes that slow players down at this level.",
+    "blurb": "Dragons, dark elixir and the Barbarian King.",
+    "summary": "Town Hall 7 is one of the biggest jumps in the game. Dragons, the Dark Elixir Drill and your first hero all arrive together.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>Three things change at once. <strong>Dragons</strong> give you a genuinely strong army that needs little skill to use, as covered on the <a href='../troops/dragon.html'>Dragon page</a>. <strong>Dark elixir</strong> becomes a resource you have to farm. And the <strong>Barbarian King</strong> arrives, which means the hero upgrade treadmill starts and never stops.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Barbarian King, and keep him upgrading from now on essentially forever.</li><li>Army camps and Dragon research, since Dragons will carry you through this level.</li><li>Dark Elixir Drill and the Dark Elixir Storage, placed deep.</li><li>Air Defense, because everyone else just unlocked Dragons too.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Not upgrading the King because you want to attack with him. Hero timers are long and the only way to finish them is to always have one running. The second common mistake is leaving the Dark Elixir Storage near the edge, where it is stripped every night.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 7 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 7?",
+        "a": "The Barbarian King, then army camps and Dragon research. Town Hall 7 is where hero upgrades begin, and since hero timers are the longest in the game, starting the habit of always having one running here saves months later."
+      },
+      {
+        "q": "How long does Town Hall 7 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-8": {
+    "slug": "town-hall-8",
+    "name": "Town Hall 8",
+    "h1": "Town Hall 8: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 8 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 8 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH8, and the mistakes that slow players down at this level.",
+    "blurb": "Golems, Wizard Towers and proper war attacks.",
+    "summary": "Town Hall 8 is a long level and a fondly remembered one. Your armies become genuinely varied and clan war participation starts to be taken seriously.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>You gain the Dark Barracks troops that define mid-game attacking, along with stronger splash defence. This is the level where players usually learn funnelling properly, because armies are now expensive enough that wasting them hurts.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Barbarian King, continuously.</li><li>Laboratory research on whichever army you are actually running.</li><li>Army camps.</li><li>Splash defence and anti-air, spread rather than clustered.</li><li>Dark Elixir Drill levels, because dark elixir is now your bottleneck.</li><li>Walls with surplus, and there will be a lot of surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Skipping the Clan Castle lure. At Town Hall 8 war bases start carrying serious defensive Clan Castle troops, and attacking into one costs you the attack. Learn the lure routine in <a href='../mechanics/clan-castle-troops.html'>Clan Castle troops</a> and do it every single time.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 8 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 8?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 8 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-9": {
+    "slug": "town-hall-9",
+    "name": "Town Hall 9",
+    "h1": "Town Hall 9: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 9 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 9 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH9, and the mistakes that slow players down at this level.",
+    "blurb": "The Archer Queen, and the level that separates players.",
+    "summary": "Town Hall 9 is where the game gets serious. The Archer Queen arrives, the content is enormous, and rushing past it is the most common way to ruin an account.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The <a href='../heroes/archer-queen.html'>Archer Queen</a> is the headline, and she is the most impactful hero in the game because of the Queen walk. You also gain significant defensive upgrades and a very large amount of content, which is why Town Hall 9 takes most players a long time.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Archer Queen, immediately and continuously. She matters more than anything else at this level.</li><li>Barbarian King in parallel where you can afford it.</li><li>Laboratory research, which is now a serious investment.</li><li>Air Defense and splash coverage.</li><li>Walls, continuously, with everything left over.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Rushing to Town Hall 10 with low heroes. This is the single most damaging progression mistake in the game, because hero levels do not catch up quickly and every level above you assumes you have them. Get the Queen to a reasonable level before you move, even if the defences lag.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 9 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 9?",
+        "a": "The Archer Queen, without hesitation. Her levels drive the Queen walk, which appears in a very large share of successful attacks, and hero upgrades take longer than anything else, so starting her early at Town Hall 9 determines how the rest of the account goes."
+      },
+      {
+        "q": "How long does Town Hall 9 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-10": {
+    "slug": "town-hall-10",
+    "name": "Town Hall 10",
+    "h1": "Town Hall 10: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 10 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 10 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH10, and the mistakes that slow players down at this level.",
+    "blurb": "Inferno Towers and the Grand Warden.",
+    "summary": "Town Hall 10 introduces the defences that punish heavy armies and the hero who protects them.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The <a href='../buildings/inferno-tower.html'>Inferno Tower</a> arrives on defence, which changes what attacks work against you, and the <a href='../heroes/grand-warden.html'>Grand Warden</a> arrives on offence, which changes what your army can survive. Freeze Spells become a standard part of attacking from here.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Grand Warden, and keep all available heroes cycling.</li><li>Laboratory research on your war army.</li><li>Inferno Towers, placed centrally and covered.</li><li>Air Defense levels and spacing.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Forgetting to set the Grand Warden's mode. Ground mode with an air army, or air mode with a ground army, wastes the hero entirely and it happens constantly. Check it before every attack.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 10 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 10?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 10 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-11": {
+    "slug": "town-hall-11",
+    "name": "Town Hall 11",
+    "h1": "Town Hall 11: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 11 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 11 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH11, and the mistakes that slow players down at this level.",
+    "blurb": "The Eagle Artillery and the Royal Champion era begins.",
+    "summary": "Town Hall 11 adds base-wide defensive pressure and continues the hero expansion. Attacks now need a plan rather than a composition.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The <a href='../buildings/eagle-artillery.html'>Eagle Artillery</a> covers nearly the whole base once activated, which means armies that cluster take repeated area damage. Attacking well from here requires spreading out and planning around specific buildings.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes, all of them, continuously. This is now the dominant constraint on your progress.</li><li>Laboratory research.</li><li>Eagle Artillery and Inferno Tower levels.</li><li>Anti-air spacing, which matters more as air armies get stronger.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Letting a hero sit idle because you want to use it. At this point hero timers are measured in weeks, and an account with three heroes and no active upgrade is losing serious ground every day.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 11 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 11?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 11 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-12": {
+    "slug": "town-hall-12",
+    "name": "Town Hall 12",
+    "h1": "Town Hall 12: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 12 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 12 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH12, and the mistakes that slow players down at this level.",
+    "blurb": "Siege machines and the Workshop.",
+    "summary": "Town Hall 12 introduces siege machines, which change how Clan Castle troops reach the core.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The Workshop unlocks <a href='../mechanics/siege-machines.html'>siege machines</a>, which carry your donated Clan Castle troops into the middle of a base rather than making them walk. This is a substantial change to how war attacks are built.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes, continuously, still the main constraint.</li><li>Workshop and siege machine research.</li><li>Laboratory research on your war army.</li><li>Defence levels, prioritising the categories your replays show failing.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Not requesting a siege machine. They are donatable, they cost your clanmates little, and attacking without one at this level is voluntarily giving up the value of your Clan Castle troops.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 12 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 12?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 12 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-13": {
+    "slug": "town-hall-13",
+    "name": "Town Hall 13",
+    "h1": "Town Hall 13: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 13 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 13 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH13, and the mistakes that slow players down at this level.",
+    "blurb": "The Royal Champion and Scattershots.",
+    "summary": "Town Hall 13 adds a fourth hero and defences that punish grouped armies hard.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The <a href='../heroes/royal-champion.html'>Royal Champion</a> joins the roster, and <a href='../buildings/scattershot.html'>Scattershots</a> arrive on defence. Between the Scattershot and the Inferno Tower, carrying Freeze Spells becomes close to mandatory in war attacks.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes, all four, continuously. Dark elixir is now the hard limit on your progress.</li><li>Laboratory research.</li><li>Scattershots and Inferno Towers.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Under-farming dark elixir. With four heroes to upgrade, dark elixir income becomes the thing that decides how fast the account moves. If your heroes are idle for lack of dark elixir, farming it deliberately is the highest-value thing you can do, as set out in <a href='../mechanics/dark-elixir.html'>dark elixir</a>.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 13 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 13?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 13 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-14": {
+    "slug": "town-hall-14",
+    "name": "Town Hall 14",
+    "h1": "Town Hall 14: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 14 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 14 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH14, and the mistakes that slow players down at this level.",
+    "blurb": "Pets, and another layer of hero customisation.",
+    "summary": "Town Hall 14 attaches pets to heroes, adding another progression track on top of the hero treadmill.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>Heroes gain pet companions, which is a further dark elixir sink and a meaningful boost to how heroes perform. The progression problem at this level is that you now have more things worth upgrading than resources to upgrade them with.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes, continuously, still first.</li><li>Pets, which meaningfully improve hero performance.</li><li>Laboratory research on your main war army.</li><li>Defence levels guided by your defence replays.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Spreading resources thin across every new system at once. At Town Hall 14 and above, the correct approach is to finish things rather than start everything, because a half-upgraded hero and a half-upgraded pet contribute less than one finished upgrade.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 14 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 14?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 14 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-15": {
+    "slug": "town-hall-15",
+    "name": "Town Hall 15",
+    "h1": "Town Hall 15: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 15 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 15 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH15, and the mistakes that slow players down at this level.",
+    "blurb": "Hero Equipment and the Monolith.",
+    "summary": "Town Hall 15 introduces equipment, which turns heroes from fixed units into configurable ones.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p><a href='../mechanics/hero-equipment.html'>Hero Equipment</a> lets you change what each hero does by fitting different pieces, upgraded with ores rather than resources. The Monolith arrives on defence. Attacking becomes more about loadout choices than about army composition alone.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes and equipment, concentrating ores on the pieces you actually use.</li><li>Laboratory research.</li><li>Defence levels by replay evidence.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Spreading ores across every piece of equipment you own. Ores are scarce, you can only equip a few pieces at a time, and a handful of well-levelled pieces beats a broad shelf of weak ones.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 15 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 15?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 15 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-16": {
+    "slug": "town-hall-16",
+    "name": "Town Hall 16",
+    "h1": "Town Hall 16: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 16 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 16 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH16, and the mistakes that slow players down at this level.",
+    "blurb": "More systems, the same discipline.",
+    "summary": "Town Hall 16 continues the pattern: more defences, more equipment, and the same underlying constraint of hero and research timers.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>New defensive buildings and further equipment options arrive. The strategic picture does not change: your progress is gated by hero levels, laboratory research and how consistently you keep them running.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes and equipment, continuously.</li><li>Laboratory research on the army you actually use in war.</li><li>New defences, then levels on the categories your replays show failing.</li><li>Walls with surplus.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Chasing every newly released piece of content instead of finishing what is already started. At this level nothing is quick, so switching targets repeatedly means arriving at the next Town Hall with a village full of half-done upgrades.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 16 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 16?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 16 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-17": {
+    "slug": "town-hall-17",
+    "name": "Town Hall 17",
+    "h1": "Town Hall 17: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 17 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 17 guide for Clash of Clans: what to upgrade first, what the loot tables look like at TH17, and the mistakes that slow players down at this level.",
+    "blurb": "The last level before the current ceiling.",
+    "summary": "Town Hall 17 is a consolidation level in a part of the game where nothing is quick. Everything is expensive, everything is slow, and the difference between accounts is consistency rather than knowledge.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>At the top of the tree the game is about optimisation rather than unlocks. The notable additions are the <a href='../buildings/firespitter.html'>Firespitter</a>, which has the longest range of any defence in the game at 16 tiles, and the <a href='../buildings/multi-gear-tower.html'>Multi-Gear Tower</a>, which covers air and ground at long range for heavy damage. Both are central defences rather than perimeter ones.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change between Town Halls, only the specifics. Keep the laboratory running, keep a hero upgrading where you have one, and keep every builder busy. Within that:</p><ul><li>Heroes and equipment, continuously and forever.</li><li>Laboratory research, which at this level takes weeks per item.</li><li>Defence levels driven by replay evidence rather than by preference.</li><li>Walls with surplus, which at this point is a very large amount.</li></ul><p>The general reasoning behind this ordering is set out in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p>Playing without a plan. At this level the only lever left is not wasting timers, so the accounts that progress are the ones where a hero, the laboratory and every builder are running every day.</p><p>The other one is placing your new long-range defences forward. A 16 tile Firespitter already covers the perimeter from the middle of the base, so pushing it outward gains nothing and gets it killed early.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 17 village: the share of your storages that is available and the cap per attack. That is the number that decides whether you are worth attacking, and it is why spending down before you log off works. The building table shows what you can own at this level and what is new.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What should I upgrade first at Town Hall 17?",
+        "a": "Army camps and laboratory research before anything else, since they improve every attack you make at this level, then storages so you can afford later upgrades, then whichever defence category is weakest. Walls last, using surplus."
+      },
+      {
+        "q": "How long does Town Hall 17 take to complete?",
+        "a": "It depends entirely on how consistently you keep builders, the laboratory and a hero running rather than on how much you play. Players who never leave a builder idle finish a Town Hall in a fraction of the time of players who log in twice a week, regardless of skill."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "tutorials:upgrade-order",
+      "mechanics:dark-elixir"
+    ]
+  },
+  "town-hall-18": {
+    "slug": "town-hall-18",
+    "name": "Town Hall 18",
+    "h1": "Town Hall 18: Upgrade Order, Priorities and Common Mistakes",
+    "head_title": "Town Hall 18 Guide — Upgrade Order and Priorities | Goblins Farm",
+    "description": "A Town Hall 18 guide for Clash of Clans: cost and time, what unlocks, the TH18 loot table, upgrade priorities and the mistakes that stall accounts at the top level.",
+    "blurb": "The current ceiling. 25,000,000 gold and twelve days to get in.",
+    "summary": "Town Hall 18 is the highest level in the game. It costs 25,000,000 gold and twelve days, carries 10,800 hitpoints, and raises your storages to five million gold and elixir. It unlocks two new defences, and past that it is a level about finishing things rather than starting them.",
+    "sections": [
+      {
+        "h": "What changes at this level",
+        "body": "<p>The headline numbers first. The upgrade is <strong>25,000,000 gold over twelve days</strong>, the Town Hall itself has 10,800 hitpoints, and your storages rise to <strong>five million</strong> gold and elixir and 50,000 dark elixir.</p><p>Two defences unlock. The <a href='../buildings/super-wizard-tower.html'>Super Wizard Tower</a> is built by merging two Wizard Towers, trading two defensive footprints for one that hits far harder over a short 8 tile radius. The <a href='../buildings/revenge-tower.html'>Revenge Tower</a> lists low damage over long range, a combination that points at a special behaviour rather than raw output.</p><p>The other change is economic and easy to miss: <strong>the attack search fee rises to 1,700 gold</strong>. Since troops cost nothing to train, that fee and your time are now literally the only things an attack spends, which makes skip discipline the whole of farming efficiency at this level.</p>"
+      },
+      {
+        "h": "Upgrade order",
+        "body": "<p>The framework does not change at the top, it just gets slower. Keep the laboratory running, keep a hero upgrading, keep every builder busy. Within that:</p><ul><li><strong>Heroes and equipment, continuously.</strong> With six heroes available by this point, dark elixir is the binding constraint on the entire account. One hero should always be improving.</li><li><strong>Laboratory research</strong>, which now runs to weeks per item. Research the army you actually use in war, not the one you might try.</li><li><strong>Storages early.</strong> Five million capacity is not decoration; at this level several upgrades cost more than lower-tier storages can physically hold.</li><li><strong>Defence levels driven by replay evidence</strong> rather than preference. You have too many buildings to upgrade on instinct.</li><li><strong>Walls with surplus</strong>, which at this point is a very large amount.</li></ul><p>The reasoning is in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+      },
+      {
+        "h": "Mistakes that cost you weeks here",
+        "body": "<p><strong>Merging Wizard Towers without checking coverage.</strong> The Super Wizard Tower removes a building from your base. If your two Wizard Towers are currently the only splash cover on separate sides, merging them opens a side. Tap both and look at what their circles cover before you commit.</p><p><strong>Spreading dark elixir across every hero at once.</strong> Six heroes and one income stream means finishing nothing. Stagger them.</p><p><strong>Farming without a loot minimum.</strong> At 1,700 gold per search and multi-million upgrade costs, attacks that return less than a rounding error are a genuine waste of the only two things you spend.</p>"
+      },
+      {
+        "h": "Reading the tables below",
+        "body": "<p>The loot table shows what an attacker can take from a Town Hall 18 village: <strong>14 per cent of your gold and elixir storages, capped at 1,750,000 per attack</strong>, and 5 per cent of dark elixir capped at 10,100. Those caps are why spending down before you log off still matters at the top of the game, and why an attacker who scouts empty storages presses next.</p><p>How available loot is calculated in general is covered in <a href='../mechanics/loot-mechanics.html'>loot mechanics</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much does Town Hall 18 cost?",
+        "a": "25,000,000 gold and twelve days to upgrade. The Town Hall itself has 10,800 hitpoints and raises storage capacity to five million gold and elixir, and 50,000 dark elixir."
+      },
+      {
+        "q": "What unlocks at Town Hall 18?",
+        "a": "Two defences: the Super Wizard Tower, created by merging two Wizard Towers, and the Revenge Tower. The attack search fee also rises to 1,700 gold, which alongside your time is now the only thing an attack costs, since troops are free to train."
+      },
+      {
+        "q": "How much loot can be stolen from a Town Hall 18 base?",
+        "a": "14 per cent of your gold and elixir storages, capped at 1,750,000 per attack, and 5 per cent of your dark elixir capped at 10,100. Committing resources to upgrades before logging off remains the most effective defence, because loot in an upgrade cannot be taken."
+      }
+    ],
+    "related": [
+      "mechanics:upgrade-priority",
+      "mechanics:loot-mechanics",
+      "buildings:super-wizard-tower",
+      "mechanics:dark-elixir"
+    ]
+  }
+}

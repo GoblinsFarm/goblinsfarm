@@ -1,0 +1,6006 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Buildings",
+    "h1": "Clash of Clans Buildings",
+    "head_title": "Clash of Clans Buildings, Costs and Levels",
+    "description": "Every Home Village building in Clash of Clans with per-level build cost, build time, hitpoints and Town Hall requirement.",
+    "summary": "Every Home Village building, 60 in total, with the full level table for each one, read from the game files.",
+    "groups": [
+      {
+        "h": "Army Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Army Camp",
+          "Barracks",
+          "Blacksmith",
+          "Clan Castle",
+          "Dark Barracks",
+          "Dark Spell Factory",
+          "Hero Hall",
+          "Laboratory",
+          "Pet House",
+          "Spell Factory",
+          "Workshop"
+        ]
+      },
+      {
+        "h": "Defenses",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Air Defense",
+          "Air Sweeper",
+          "Archer Tower",
+          "Bomb Tower",
+          "Cannon",
+          "Crafting Station",
+          "Eagle Artillery",
+          "Firespitter",
+          "Hidden Tesla",
+          "Inferno Tower",
+          "Monolith",
+          "Mortar",
+          "Multi-Archer Tower",
+          "Multi-Gear Tower",
+          "Revenge Tower",
+          "Ricochet Cannon",
+          "Scattershot",
+          "Spell Tower",
+          "Super Wizard Tower",
+          "Wizard Tower",
+          "X-Bow"
+        ]
+      },
+      {
+        "h": "Other Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Builder's Hut",
+          "Town Hall"
+        ]
+      },
+      {
+        "h": "Resource Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Dark Elixir Drill",
+          "Dark Elixir Storage",
+          "Elixir Collector",
+          "Elixir Storage",
+          "Gold Mine",
+          "Gold Storage"
+        ]
+      },
+      {
+        "h": "Walls",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Wall"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.8"
+  },
+  "entries": [
+    {
+      "slug": "air-defense",
+      "name": "Air Defense",
+      "description": "The Air Defense in Clash of Clans: the primary anti-air building, and why spreading them matters more than upgrading them.",
+      "blurb": "The building that decides whether air attacks work on your base.",
+      "summary": "The Air Defense deals heavy single-target damage to air units and cannot touch the ground at all. It is the most important building in a mid-game base, and the most commonly misplaced.",
+      "quick": {
+        "Levels": "16",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "80",
+        "Targets": "Air only",
+        "Range": "10 tiles",
+        "Unlocked at": "Town Hall 4",
+        "Role": "Anti-air defence, air only"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>High damage to a single air target, no ground capability whatsoever. Dragons, Balloons, Lava Hounds and Minions are all built around either avoiding it or removing it, which tells you how central it is.</p>"
+        },
+        {
+          "h": "Placement is the whole game",
+          "body": "<p>More air attacks are beaten by placement than by levels.</p><ul><li><strong>Never two under one spell radius.</strong> If a single Rage or a stack of Balloons can reach two Air Defenses at once, you have one Air Defense.</li><li><strong>Spread across sides.</strong> Coverage on three or four sides forces an attacker to deal with each one separately.</li><li><strong>Place them deep.</strong> An Air Defense on the perimeter is removed by a handful of Lightning Spells or a few Balloons before the attack even starts.</li><li><strong>Cover them with Archer Towers and air splash,</strong> so an attacker going for one takes fire from several buildings.</li></ul><p>A base with three well-spread Air Defenses defeats air attacks that a base with three clustered ones loses to every time.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Air Defense stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "80 DPS",
+              "22,000 Gold",
+              "1 h",
+              "4"
+            ],
+            [
+              "2",
+              "850",
+              "110 DPS",
+              "90,000 Gold",
+              "2 h",
+              "4"
+            ],
+            [
+              "3",
+              "900",
+              "140 DPS",
+              "210,000 Gold",
+              "6 h",
+              "5"
+            ],
+            [
+              "4",
+              "950",
+              "160 DPS",
+              "500,000 Gold",
+              "12 h",
+              "6"
+            ],
+            [
+              "5",
+              "1,000",
+              "190 DPS",
+              "800,000 Gold",
+              "18 h",
+              "7"
+            ],
+            [
+              "6",
+              "1,050",
+              "230 DPS",
+              "1,000,000 Gold",
+              "1 d",
+              "8"
+            ],
+            [
+              "7",
+              "1,100",
+              "280 DPS",
+              "1,750,000 Gold",
+              "2 d",
+              "9"
+            ],
+            [
+              "8",
+              "1,210",
+              "320 DPS",
+              "2,300,000 Gold",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "9",
+              "1,300",
+              "360 DPS",
+              "3,400,000 Gold",
+              "3 d",
+              "11"
+            ],
+            [
+              "10",
+              "1,400",
+              "400 DPS",
+              "5,000,000 Gold",
+              "4 d",
+              "12"
+            ],
+            [
+              "11",
+              "1,500",
+              "440 DPS",
+              "5,600,000 Gold",
+              "4 d 12 h",
+              "13"
+            ],
+            [
+              "12",
+              "1,650",
+              "500 DPS",
+              "6,500,000 Gold",
+              "5 d",
+              "14"
+            ],
+            [
+              "13",
+              "1,750",
+              "540 DPS",
+              "8,000,000 Gold",
+              "6 d",
+              "15"
+            ],
+            [
+              "14",
+              "1,850",
+              "600 DPS",
+              "9,000,000 Gold",
+              "6 d 12 h",
+              "16"
+            ],
+            [
+              "15",
+              "1,950",
+              "650 DPS",
+              "15,000,000 Gold",
+              "7 d",
+              "17"
+            ],
+            [
+              "16",
+              "2,000",
+              "700 DPS",
+              "26,000,000 Gold",
+              "13 d 6 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "troops:dragon",
+        "troops:balloon",
+        "mechanics:defence-mechanics",
+        "buildings:air-sweeper"
+      ],
+      "priority": "0.6",
+      "h1": "Air Defense — Clash of Clans",
+      "head_title": "Air Defense | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Where should I place Air Defenses?",
+          "a": "Deep inside the base and spread across different sides, never close enough together that one spell radius or one group of Balloons can reach two of them. Placement matters more than level: three spread Air Defenses beat three clustered ones decisively."
+        },
+        {
+          "q": "Can Air Defenses hit ground troops?",
+          "a": "No, they target air units exclusively. That is why a base needs ground coverage from other defences even when its anti-air is strong."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "air-sweeper",
+      "name": "Air Sweeper",
+      "description": "The Air Sweeper in Clash of Clans: pushing air troops back, direction, and why it is not a damage building.",
+      "blurb": "Deals no damage. Pushes air troops backwards, which is often better.",
+      "summary": "The Air Sweeper does no damage at all. It blows air units back in one direction, delaying them and disrupting timing. It faces one way, and pointing it at the wrong side is the single most common thing players get wrong about it.",
+      "quick": {
+        "Levels": "7",
+        "Size": "2x2",
+        "Category": "Defense",
+        "Unlocked at": "Town Hall 6",
+        "Role": "Support defence, air only, no damage"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Pushes air troops away in the direction it faces, repeatedly. That buys your Air Defenses seconds of extra fire and pushes healing air support out of position, which matters far more than a damage number would suggest.</p>"
+        },
+        {
+          "h": "Direction is everything",
+          "body": "<ul><li><strong>Point it at the side attackers actually use.</strong> Your defence replays tell you which side that is.</li><li><strong>Two Sweepers should cover different approaches,</strong> not the same one.</li><li><strong>Re-check it after every layout change.</strong> Rotating a Sweeper is free and forgetting to is common.</li></ul><p>A correctly aimed Air Sweeper meaningfully improves your anti-air; a badly aimed one is a building that does nothing whatsoever.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Air Sweeper stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "750",
+              "—",
+              "200,000 Gold",
+              "4 h",
+              "6"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "300,000 Gold",
+              "6 h",
+              "6"
+            ],
+            [
+              "3",
+              "850",
+              "—",
+              "450,000 Gold",
+              "8 h",
+              "7"
+            ],
+            [
+              "4",
+              "900",
+              "—",
+              "800,000 Gold",
+              "12 h",
+              "8"
+            ],
+            [
+              "5",
+              "950",
+              "—",
+              "1,200,000 Gold",
+              "1 d",
+              "9"
+            ],
+            [
+              "6",
+              "1,000",
+              "—",
+              "1,900,000 Gold",
+              "2 d",
+              "10"
+            ],
+            [
+              "7",
+              "1,050",
+              "—",
+              "3,400,000 Gold",
+              "3 d",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:air-defense",
+        "troops:dragon",
+        "troops:balloon",
+        "mechanics:base-building-principles"
+      ],
+      "priority": "0.6",
+      "h1": "Air Sweeper — Clash of Clans",
+      "head_title": "Air Sweeper | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Does the Air Sweeper do damage?",
+          "a": "None at all. It pushes air troops backwards in the direction it faces, which delays them, disrupts attack timing and gives your Air Defenses extra seconds of fire."
+        },
+        {
+          "q": "Which way should my Air Sweeper face?",
+          "a": "Toward the side attackers actually come from, which you find by watching your defence replays. Rotating it is free, so re-check the direction after every layout change."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "archer-tower",
+      "name": "Archer Tower",
+      "description": "The Archer Tower in Clash of Clans: single-target defence that hits both air and ground.",
+      "blurb": "Hits both air and ground, which makes it the most flexible early defence.",
+      "summary": "The Archer Tower is the first defence that covers both movement types. It deals single-target damage at good range to air and ground alike, which makes it the most generally useful building in an early base.",
+      "quick": {
+        "Levels": "21",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "11",
+        "Targets": "Ground and air",
+        "Range": "10 tiles",
+        "Unlocked at": "Town Hall 2",
+        "Role": "Single-target defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Attacks one target at a time at longer range than a Cannon, and crucially it can hit air units. In the early game it is often the only thing standing between your base and a small air attack.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>Spread them.</strong> Because they cover both air and ground, clustering them wastes their flexibility.</li><li><strong>Cover your Air Defences.</strong> An Archer Tower positioned so that an attacker going for an Air Defence is under fire from it makes air pushes much more expensive.</li><li><strong>Do not treat them as anti-air on their own.</strong> Single-target damage does not stop a group of Dragons; it only slows one.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Archer Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "380",
+              "11 DPS",
+              "1,000 Gold",
+              "15 s",
+              "2"
+            ],
+            [
+              "2",
+              "420",
+              "15 DPS",
+              "2,000 Gold",
+              "2 m",
+              "2"
+            ],
+            [
+              "3",
+              "460",
+              "19 DPS",
+              "5,000 Gold",
+              "20 m",
+              "3"
+            ],
+            [
+              "4",
+              "500",
+              "25 DPS",
+              "20,000 Gold",
+              "1 h",
+              "4"
+            ],
+            [
+              "5",
+              "540",
+              "30 DPS",
+              "70,000 Gold",
+              "1 h 30 m",
+              "5"
+            ],
+            [
+              "6",
+              "580",
+              "35 DPS",
+              "80,000 Gold",
+              "2 h",
+              "5"
+            ],
+            [
+              "7",
+              "630",
+              "42 DPS",
+              "150,000 Gold",
+              "3 h",
+              "6"
+            ],
+            [
+              "8",
+              "690",
+              "48 DPS",
+              "200,000 Gold",
+              "4 h",
+              "7"
+            ],
+            [
+              "9",
+              "750",
+              "56 DPS",
+              "400,000 Gold",
+              "5 h",
+              "8"
+            ],
+            [
+              "10",
+              "810",
+              "63 DPS",
+              "460,000 Gold",
+              "6 h",
+              "8"
+            ],
+            [
+              "11",
+              "890",
+              "70 DPS",
+              "600,000 Gold",
+              "7 h",
+              "9"
+            ],
+            [
+              "12",
+              "970",
+              "74 DPS",
+              "700,000 Gold",
+              "8 h",
+              "10"
+            ],
+            [
+              "13",
+              "1,050",
+              "78 DPS",
+              "1,000,000 Gold",
+              "10 h",
+              "10"
+            ],
+            [
+              "14",
+              "1,130",
+              "82 DPS",
+              "1,100,000 Gold",
+              "11 h",
+              "11"
+            ],
+            [
+              "15",
+              "1,230",
+              "85 DPS",
+              "1,300,000 Gold",
+              "12 h",
+              "11"
+            ],
+            [
+              "16",
+              "1,310",
+              "90 DPS",
+              "1,600,000 Gold",
+              "16 h",
+              "12"
+            ],
+            [
+              "17",
+              "1,390",
+              "100 DPS",
+              "1,800,000 Gold",
+              "20 h",
+              "12"
+            ],
+            [
+              "18",
+              "1,510",
+              "110 DPS",
+              "2,000,000 Gold",
+              "1 d",
+              "13"
+            ],
+            [
+              "19",
+              "1,600",
+              "120 DPS",
+              "2,200,000 Gold",
+              "1 d 6 h",
+              "13"
+            ],
+            [
+              "20",
+              "1,700",
+              "135 DPS",
+              "3,000,000 Gold",
+              "1 d 12 h",
+              "14"
+            ],
+            [
+              "21",
+              "1,800",
+              "145 DPS",
+              "4,000,000 Gold",
+              "2 d",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:cannon",
+        "buildings:air-defense",
+        "mechanics:defence-mechanics",
+        "buildings:hidden-tesla"
+      ],
+      "priority": "0.6",
+      "h1": "Archer Tower — Clash of Clans",
+      "head_title": "Archer Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Do Archer Towers hit air troops?",
+          "a": "Yes, they target both air and ground, which makes them the most flexible defence available early. They are not a substitute for dedicated anti-air, since single-target damage does little against a group of air units."
+        },
+        {
+          "q": "Archer Tower or Cannon?",
+          "a": "Archer Towers, generally, because they cover both movement types while Cannons cover only ground. Cannons are cheaper, so a base usually has both, with Archer Towers positioned where air coverage matters most."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "army-camp",
+      "name": "Army Camp",
+      "description": "Army Camp stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "14 levels, from TH1",
+      "summary": "The Army Camp is a Home Village building with 14 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "14",
+        "Size": "4x4",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Army Camp stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "—",
+              "200 Elixir",
+              "1 m",
+              "1"
+            ],
+            [
+              "2",
+              "150",
+              "—",
+              "2,000 Elixir",
+              "5 m",
+              "2"
+            ],
+            [
+              "3",
+              "200",
+              "—",
+              "10,000 Elixir",
+              "30 m",
+              "3"
+            ],
+            [
+              "4",
+              "250",
+              "—",
+              "100,000 Elixir",
+              "2 h",
+              "4"
+            ],
+            [
+              "5",
+              "300",
+              "—",
+              "250,000 Elixir",
+              "6 h",
+              "5"
+            ],
+            [
+              "6",
+              "330",
+              "—",
+              "500,000 Elixir",
+              "12 h",
+              "6"
+            ],
+            [
+              "7",
+              "400",
+              "—",
+              "1,500,000 Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "8",
+              "500",
+              "—",
+              "2,500,000 Elixir",
+              "3 d",
+              "10"
+            ],
+            [
+              "9",
+              "600",
+              "—",
+              "4,200,000 Elixir",
+              "3 d 12 h",
+              "11"
+            ],
+            [
+              "10",
+              "700",
+              "—",
+              "4,500,000 Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "11",
+              "800",
+              "—",
+              "7,500,000 Elixir",
+              "5 d",
+              "13"
+            ],
+            [
+              "12",
+              "850",
+              "—",
+              "10,000,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "13",
+              "900",
+              "—",
+              "17,000,000 Elixir",
+              "7 d 12 h",
+              "17"
+            ],
+            [
+              "14",
+              "950",
+              "—",
+              "26,000,000 Elixir",
+              "15 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "barracks",
+      "name": "Barracks",
+      "description": "Barracks stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "19 levels, from TH1",
+      "summary": "The Barracks is a Home Village building with 19 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "19",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "—",
+              "100 Elixir",
+              "10 s",
+              "1"
+            ],
+            [
+              "2",
+              "200",
+              "—",
+              "500 Elixir",
+              "15 s",
+              "2"
+            ],
+            [
+              "3",
+              "250",
+              "—",
+              "2,500 Elixir",
+              "2 m",
+              "2"
+            ],
+            [
+              "4",
+              "300",
+              "—",
+              "5,000 Elixir",
+              "30 m",
+              "2"
+            ],
+            [
+              "5",
+              "360",
+              "—",
+              "20,000 Elixir",
+              "2 h",
+              "3"
+            ],
+            [
+              "6",
+              "420",
+              "—",
+              "120,000 Elixir",
+              "4 h",
+              "4"
+            ],
+            [
+              "7",
+              "500",
+              "—",
+              "270,000 Elixir",
+              "6 h",
+              "5"
+            ],
+            [
+              "8",
+              "575",
+              "—",
+              "600,000 Elixir",
+              "12 h",
+              "6"
+            ],
+            [
+              "9",
+              "650",
+              "—",
+              "1,000,000 Elixir",
+              "1 d",
+              "7"
+            ],
+            [
+              "10",
+              "730",
+              "—",
+              "1,400,000 Elixir",
+              "1 d 12 h",
+              "8"
+            ],
+            [
+              "11",
+              "810",
+              "—",
+              "2,600,000 Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "12",
+              "900",
+              "—",
+              "3,700,000 Elixir",
+              "4 d",
+              "10"
+            ],
+            [
+              "13",
+              "980",
+              "—",
+              "6,000,000 Elixir",
+              "5 d",
+              "11"
+            ],
+            [
+              "14",
+              "1,050",
+              "—",
+              "7,000,000 Elixir",
+              "6 d",
+              "12"
+            ],
+            [
+              "15",
+              "1,150",
+              "—",
+              "9,000,000 Elixir",
+              "7 d",
+              "13"
+            ],
+            [
+              "16",
+              "1,250",
+              "—",
+              "11,000,000 Elixir",
+              "7 d 12 h",
+              "14"
+            ],
+            [
+              "17",
+              "1,350",
+              "—",
+              "12,600,000 Elixir",
+              "8 d",
+              "15"
+            ],
+            [
+              "18",
+              "1,450",
+              "—",
+              "15,000,000 Elixir",
+              "9 d",
+              "16"
+            ],
+            [
+              "19",
+              "1,520",
+              "—",
+              "26,000,000 Elixir",
+              "10 d 12 h",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "blacksmith",
+      "name": "Blacksmith",
+      "description": "Blacksmith stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "10 levels, from TH8",
+      "summary": "The Blacksmith is a Home Village building with 10 levels, first available at Town Hall 8.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 8"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Blacksmith stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "700",
+              "—",
+              "600,000 Elixir",
+              "12 h",
+              "8"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "1,200,000 Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "3",
+              "900",
+              "—",
+              "2,300,000 Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "4",
+              "1,000",
+              "—",
+              "3,000,000 Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "5",
+              "1,100",
+              "—",
+              "5,000,000 Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "6",
+              "1,200",
+              "—",
+              "6,200,000 Elixir",
+              "4 d 12 h",
+              "13"
+            ],
+            [
+              "7",
+              "1,300",
+              "—",
+              "9,200,000 Elixir",
+              "5 d",
+              "14"
+            ],
+            [
+              "8",
+              "1,400",
+              "—",
+              "10,000,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "9",
+              "1,500",
+              "—",
+              "11,000,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "10",
+              "1,600",
+              "—",
+              "18,000,000 Elixir",
+              "10 d",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "bomb-tower",
+      "name": "Bomb Tower",
+      "description": "The Bomb Tower in Clash of Clans: ground splash damage plus a death explosion.",
+      "blurb": "Ground splash that explodes again when destroyed.",
+      "summary": "The Bomb Tower deals area damage to ground units and detonates when destroyed, damaging whatever killed it. That death explosion makes it particularly awkward for the cheap swarms it is designed to counter.",
+      "quick": {
+        "Levels": "13",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "24",
+        "Targets": "Ground only",
+        "Range": "6 tiles",
+        "Unlocked at": "Town Hall 8",
+        "Role": "Splash defence, ground only"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Area damage against ground troops while alive, plus a substantial explosion on destruction. The explosion frequently kills the fragile troops that had just finished it off, which is why swarm armies lose momentum around it.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>In compartments swarms must enter,</strong> so both the splash and the death explosion land on a group.</li><li><strong>Alongside single-target defences,</strong> which handle the large units it cannot.</li><li><strong>Not on the perimeter,</strong> where it is destroyed cheaply and its explosion catches nothing important.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Bomb Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "24 DPS",
+              "700,000 Gold",
+              "12 h",
+              "8"
+            ],
+            [
+              "2",
+              "700",
+              "28 DPS",
+              "1,000,000 Gold",
+              "18 h",
+              "8"
+            ],
+            [
+              "3",
+              "750",
+              "32 DPS",
+              "1,300,000 Gold",
+              "1 d",
+              "9"
+            ],
+            [
+              "4",
+              "850",
+              "40 DPS",
+              "1,800,000 Gold",
+              "1 d 12 h",
+              "10"
+            ],
+            [
+              "5",
+              "1,050",
+              "48 DPS",
+              "1,900,000 Gold",
+              "1 d 18 h",
+              "11"
+            ],
+            [
+              "6",
+              "1,300",
+              "56 DPS",
+              "2,000,000 Gold",
+              "2 d",
+              "11"
+            ],
+            [
+              "7",
+              "1,600",
+              "64 DPS",
+              "4,000,000 Gold",
+              "3 d",
+              "12"
+            ],
+            [
+              "8",
+              "1,900",
+              "72 DPS",
+              "5,000,000 Gold",
+              "3 d 12 h",
+              "13"
+            ],
+            [
+              "9",
+              "2,300",
+              "84 DPS",
+              "6,000,000 Gold",
+              "4 d",
+              "14"
+            ],
+            [
+              "10",
+              "2,500",
+              "94 DPS",
+              "7,000,000 Gold",
+              "4 d 12 h",
+              "15"
+            ],
+            [
+              "11",
+              "2,700",
+              "104 DPS",
+              "8,500,000 Gold",
+              "5 d",
+              "16"
+            ],
+            [
+              "12",
+              "2,900",
+              "114 DPS",
+              "14,500,000 Gold",
+              "7 d",
+              "17"
+            ],
+            [
+              "13",
+              "3,050",
+              "122 DPS",
+              "25,000,000 Gold",
+              "13 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:mortar",
+        "buildings:wizard-tower",
+        "mechanics:defence-mechanics",
+        "troops:barbarian"
+      ],
+      "priority": "0.6",
+      "h1": "Bomb Tower — Clash of Clans",
+      "head_title": "Bomb Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What happens when a Bomb Tower is destroyed?",
+          "a": "It explodes, damaging nearby ground troops. That often kills the fragile swarm units that just destroyed it, which is what makes it particularly effective against cheap massed armies."
+        },
+        {
+          "q": "Is the Bomb Tower good against air?",
+          "a": "No, it targets ground only. Pair it with anti-air coverage rather than treating it as general splash protection."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "builders-hut",
+      "name": "Builder's Hut",
+      "description": "Builder's Hut stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "7 levels, from TH1",
+      "summary": "The Builder's Hut is a Home Village building with 7 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "7",
+        "Size": "2x2",
+        "Category": "Other Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Builder's Hut stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "250",
+              "—",
+              "0 Diamonds",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "1,000",
+              "80 DPS",
+              "3,000,000 Gold",
+              "2 d",
+              "14"
+            ],
+            [
+              "3",
+              "1,300",
+              "100 DPS",
+              "4,000,000",
+              "3 d",
+              "14"
+            ],
+            [
+              "4",
+              "1,600",
+              "120 DPS",
+              "6,000,000",
+              "4 d",
+              "14"
+            ],
+            [
+              "5",
+              "1,800",
+              "135 DPS",
+              "7,000,000",
+              "5 d",
+              "15"
+            ],
+            [
+              "6",
+              "1,900",
+              "150 DPS",
+              "8,000,000",
+              "5 d 12 h",
+              "16"
+            ],
+            [
+              "7",
+              "2,000",
+              "165 DPS",
+              "15,500,000",
+              "7 d",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "cannon",
+      "name": "Cannon",
+      "description": "The Cannon in Clash of Clans: ground-only single-target defence, placement and what it stops.",
+      "blurb": "Ground only, single target, and the first defence you ever build.",
+      "summary": "The Cannon is the simplest defence in the game: it shoots one ground unit at a time and cannot touch air at all. Cheap, reliable, and completely helpless against the air attacks that dominate the mid game.",
+      "quick": {
+        "Levels": "21",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "7",
+        "Targets": "Ground only",
+        "Range": "9 tiles",
+        "Unlocked at": "Town Hall 1",
+        "Role": "Single-target defence, ground only"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Fires at one ground target at a time for solid damage. It cannot target air units under any circumstances, which is the fact that decides its placement and its limits.</p><p>Because it is single-target, it is good against a few large ground units and poor against a swarm of cheap ones, per <a href='../mechanics/defence-mechanics.html'>defence mechanics</a>.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>Use them as compartment filler and outer defence,</strong> not as your core protection. They are cheap enough to spread widely.</li><li><strong>Never rely on Cannons for coverage.</strong> A base whose ground defence is mostly Cannons falls to any swarm, and its air defence is nonexistent.</li><li><strong>Place them so their circles overlap</strong> with splash defences, so a swarm entering their range is also under area damage.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "7 DPS",
+              "250 Gold",
+              "5 s",
+              "1"
+            ],
+            [
+              "2",
+              "360",
+              "10 DPS",
+              "1,000 Gold",
+              "30 s",
+              "2"
+            ],
+            [
+              "3",
+              "420",
+              "13 DPS",
+              "4,000 Gold",
+              "2 m",
+              "2"
+            ],
+            [
+              "4",
+              "500",
+              "17 DPS",
+              "16,000 Gold",
+              "20 m",
+              "3"
+            ],
+            [
+              "5",
+              "600",
+              "23 DPS",
+              "50,000 Gold",
+              "30 m",
+              "4"
+            ],
+            [
+              "6",
+              "660",
+              "30 DPS",
+              "60,000 Gold",
+              "1 h",
+              "5"
+            ],
+            [
+              "7",
+              "730",
+              "40 DPS",
+              "100,000 Gold",
+              "2 h",
+              "6"
+            ],
+            [
+              "8",
+              "800",
+              "48 DPS",
+              "160,000 Gold",
+              "3 h",
+              "7"
+            ],
+            [
+              "9",
+              "880",
+              "56 DPS",
+              "250,000 Gold",
+              "3 h 30 m",
+              "8"
+            ],
+            [
+              "10",
+              "960",
+              "64 DPS",
+              "330,000 Gold",
+              "4 h",
+              "8"
+            ],
+            [
+              "11",
+              "1,060",
+              "74 DPS",
+              "500,000 Gold",
+              "4 h 30 m",
+              "9"
+            ],
+            [
+              "12",
+              "1,160",
+              "85 DPS",
+              "600,000 Gold",
+              "5 h",
+              "10"
+            ],
+            [
+              "13",
+              "1,260",
+              "95 DPS",
+              "660,000 Gold",
+              "6 h",
+              "10"
+            ],
+            [
+              "14",
+              "1,380",
+              "100 DPS",
+              "1,000,000 Gold",
+              "8 h",
+              "11"
+            ],
+            [
+              "15",
+              "1,500",
+              "105 DPS",
+              "1,200,000 Gold",
+              "10 h",
+              "11"
+            ],
+            [
+              "16",
+              "1,620",
+              "110 DPS",
+              "1,300,000 Gold",
+              "11 h",
+              "12"
+            ],
+            [
+              "17",
+              "1,740",
+              "115 DPS",
+              "1,500,000 Gold",
+              "12 h",
+              "12"
+            ],
+            [
+              "18",
+              "1,870",
+              "125 DPS",
+              "1,800,000 Gold",
+              "16 h",
+              "13"
+            ],
+            [
+              "19",
+              "2,000",
+              "135 DPS",
+              "2,000,000 Gold",
+              "20 h",
+              "13"
+            ],
+            [
+              "20",
+              "2,150",
+              "150 DPS",
+              "2,600,000 Gold",
+              "1 d",
+              "14"
+            ],
+            [
+              "21",
+              "2,250",
+              "160 DPS",
+              "3,000,000 Gold",
+              "1 d 12 h",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:archer-tower",
+        "buildings:mortar",
+        "mechanics:defence-mechanics",
+        "mechanics:base-building-principles"
+      ],
+      "priority": "0.6",
+      "h1": "Cannon — Clash of Clans",
+      "head_title": "Cannon | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Can Cannons attack air troops?",
+          "a": "No. Cannons target ground units only, which is why a base defended largely by Cannons is completely open to Dragon and Balloon attacks."
+        },
+        {
+          "q": "Are Cannons worth upgrading?",
+          "a": "Yes, but never in preference to a missing category. A fourth Cannon adds far less than a first Air Defence, so close category gaps before adding depth to ground single-target coverage."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "clan-castle",
+      "name": "Clan Castle",
+      "description": "The Clan Castle in Clash of Clans: donated troops on offence, defending troops on defence.",
+      "blurb": "The only building that fights back and chases you.",
+      "summary": "The Clan Castle carries donated troops into your attacks and, on defence, deploys them to hunt attackers across the map. It is the most disruptive single building in the game and the one attackers must plan around first.",
+      "quick": {
+        "Levels": "14",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 3",
+        "Role": "Clan building, offensive and defensive"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>On offence it carries donated troops, spells and siege machines into your attack. On defence it deploys its garrison when an attacker enters its radius, and those troops chase aggressively rather than defending a position.</p><p>Full detail, including how to lure a defending Castle, is in <a href='../mechanics/clan-castle-troops.html'>Clan Castle troops</a>.</p>"
+        },
+        {
+          "h": "Placement and habits",
+          "body": "<ul><li><strong>Place it centrally,</strong> so its radius covers every likely approach and cannot be triggered from safety.</li><li><strong>Keep it filled.</strong> An empty Castle on defence is a free star, and this is the most commonly forgotten thing in the entire game.</li><li><strong>Keep separate offensive and defensive requests,</strong> since the troops you want attacking are not the ones you want defending.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Clan Castle stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "—",
+              "10,000 Elixir",
+              "Instant",
+              "3"
+            ],
+            [
+              "2",
+              "1,200",
+              "—",
+              "50,000 Elixir",
+              "2 h",
+              "4"
+            ],
+            [
+              "3",
+              "1,800",
+              "—",
+              "600,000 Elixir",
+              "12 h",
+              "6"
+            ],
+            [
+              "4",
+              "2,600",
+              "—",
+              "1,200,000 Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "5",
+              "3,000",
+              "—",
+              "2,000,000 Elixir",
+              "1 d 12 h",
+              "9"
+            ],
+            [
+              "6",
+              "3,400",
+              "—",
+              "3,000,000 Elixir",
+              "2 d",
+              "10"
+            ],
+            [
+              "7",
+              "4,000",
+              "—",
+              "5,000,000 Elixir",
+              "3 d",
+              "11"
+            ],
+            [
+              "8",
+              "4,400",
+              "—",
+              "5,000,000 Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "9",
+              "4,800",
+              "—",
+              "8,000,000 Elixir",
+              "6 d",
+              "13"
+            ],
+            [
+              "10",
+              "5,200",
+              "—",
+              "10,000,000 Elixir",
+              "7 d",
+              "14"
+            ],
+            [
+              "11",
+              "5,400",
+              "—",
+              "12,000,000 Elixir",
+              "8 d",
+              "15"
+            ],
+            [
+              "12",
+              "5,600",
+              "—",
+              "14,500,000 Elixir",
+              "9 d",
+              "16"
+            ],
+            [
+              "13",
+              "5,800",
+              "—",
+              "19,000,000 Elixir",
+              "10 d",
+              "17"
+            ],
+            [
+              "14",
+              "6,000",
+              "—",
+              "28,000,000 Elixir",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:clan-castle-troops",
+        "mechanics:clan-wars",
+        "mechanics:siege-machines",
+        "mechanics:base-building-principles"
+      ],
+      "priority": "0.6",
+      "h1": "Clan Castle — Clash of Clans",
+      "head_title": "Clan Castle | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Where should I put my Clan Castle?",
+          "a": "Centrally, so its trigger radius covers the approaches an attacker would take and cannot be lured safely from the edge. A Clan Castle in a corner effectively lures itself."
+        },
+        {
+          "q": "Why is my Clan Castle empty?",
+          "a": "Because it must be refilled by clan donation after every use, and it is not automatic. An empty Clan Castle on defence gives attackers a free run, which makes checking it one of the highest-value habits when you log in."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "crafting-station",
+      "name": "Crafting Station",
+      "description": "Crafting Station stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "1 level, from TH17",
+      "summary": "The Crafting Station is a Home Village building with 1 level, first available at Town Hall 17.",
+      "quick": {
+        "Levels": "1",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Unlocked at": "Town Hall 17"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Crafting Station stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "0 Gold",
+              "Instant",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "dark-barracks",
+      "name": "Dark Barracks",
+      "description": "Dark Barracks stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "12 levels, from TH7",
+      "summary": "The Dark Barracks is a Home Village building with 12 levels, first available at Town Hall 7.",
+      "quick": {
+        "Levels": "12",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 7"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Dark Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "—",
+              "200,000 Elixir",
+              "8 h",
+              "7"
+            ],
+            [
+              "2",
+              "550",
+              "—",
+              "600,000 Elixir",
+              "1 d",
+              "7"
+            ],
+            [
+              "3",
+              "600",
+              "—",
+              "1,000,000 Elixir",
+              "1 d 12 h",
+              "8"
+            ],
+            [
+              "4",
+              "650",
+              "—",
+              "1,600,000 Elixir",
+              "2 d",
+              "8"
+            ],
+            [
+              "5",
+              "700",
+              "—",
+              "2,200,000 Elixir",
+              "2 d 12 h",
+              "9"
+            ],
+            [
+              "6",
+              "750",
+              "—",
+              "2,900,000 Elixir",
+              "3 d",
+              "9"
+            ],
+            [
+              "7",
+              "800",
+              "—",
+              "4,000,000 Elixir",
+              "5 d",
+              "10"
+            ],
+            [
+              "8",
+              "850",
+              "—",
+              "7,000,000 Elixir",
+              "6 d",
+              "11"
+            ],
+            [
+              "9",
+              "900",
+              "—",
+              "7,200,000 Elixir",
+              "7 d",
+              "12"
+            ],
+            [
+              "10",
+              "950",
+              "—",
+              "10,000,000 Elixir",
+              "7 d 12 h",
+              "13"
+            ],
+            [
+              "11",
+              "1,000",
+              "—",
+              "12,000,000 Elixir",
+              "8 d",
+              "14"
+            ],
+            [
+              "12",
+              "1,050",
+              "—",
+              "20,000,000 Elixir",
+              "9 d",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "dark-elixir-drill",
+      "name": "Dark Elixir Drill",
+      "description": "Dark Elixir Drill stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "11 levels, from TH7",
+      "summary": "The Dark Elixir Drill is a Home Village building with 11 levels, first available at Town Hall 7.",
+      "quick": {
+        "Levels": "11",
+        "Size": "3x3",
+        "Category": "Resource Building",
+        "Unlocked at": "Town Hall 7"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Dark Elixir Drill stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "—",
+              "180,000 Elixir",
+              "4 h",
+              "7"
+            ],
+            [
+              "2",
+              "860",
+              "—",
+              "270,000 Elixir",
+              "6 h",
+              "7"
+            ],
+            [
+              "3",
+              "920",
+              "—",
+              "540,000 Elixir",
+              "12 h",
+              "7"
+            ],
+            [
+              "4",
+              "980",
+              "—",
+              "900,000 Elixir",
+              "18 h",
+              "9"
+            ],
+            [
+              "5",
+              "1,060",
+              "—",
+              "1,200,000 Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "6",
+              "1,160",
+              "—",
+              "1,800,000 Elixir",
+              "1 d 12 h",
+              "9"
+            ],
+            [
+              "7",
+              "1,280",
+              "—",
+              "2,100,000 Elixir",
+              "1 d 18 h",
+              "10"
+            ],
+            [
+              "8",
+              "1,380",
+              "—",
+              "2,400,000 Elixir",
+              "2 d",
+              "11"
+            ],
+            [
+              "9",
+              "1,480",
+              "—",
+              "3,700,000 Elixir",
+              "2 d 12 h",
+              "12"
+            ],
+            [
+              "10",
+              "1,550",
+              "—",
+              "5,300,000 Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "11",
+              "1,600",
+              "—",
+              "12,000,000 Elixir",
+              "6 d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "dark-elixir-storage",
+      "name": "Dark Elixir Storage",
+      "description": "Dark Elixir Storage stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "13 levels, from TH7",
+      "summary": "The Dark Elixir Storage is a Home Village building with 13 levels, first available at Town Hall 7.",
+      "quick": {
+        "Levels": "13",
+        "Size": "3x3",
+        "Category": "Resource Building",
+        "Unlocked at": "Town Hall 7"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Dark Elixir Storage stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,000",
+              "Holds 10,000 dark elixir",
+              "250,000 Elixir",
+              "8 h",
+              "7"
+            ],
+            [
+              "2",
+              "2,200",
+              "Holds 17,500 dark elixir",
+              "500,000 Elixir",
+              "16 h",
+              "7"
+            ],
+            [
+              "3",
+              "2,400",
+              "Holds 40,000 dark elixir",
+              "1,000,000 Elixir",
+              "1 d",
+              "8"
+            ],
+            [
+              "4",
+              "2,600",
+              "Holds 75,000 dark elixir",
+              "1,500,000 Elixir",
+              "1 d 12 h",
+              "8"
+            ],
+            [
+              "5",
+              "2,900",
+              "Holds 140,000 dark elixir",
+              "2,000,000 Elixir",
+              "1 d 16 h",
+              "9"
+            ],
+            [
+              "6",
+              "3,200",
+              "Holds 180,000 dark elixir",
+              "2,400,000 Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "7",
+              "3,500",
+              "Holds 220,000 dark elixir",
+              "3,800,000 Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "8",
+              "3,800",
+              "Holds 280,000 dark elixir",
+              "5,400,000 Elixir",
+              "3 d 12 h",
+              "13"
+            ],
+            [
+              "9",
+              "4,100",
+              "Holds 330,000 dark elixir",
+              "6,600,000 Elixir",
+              "4 d",
+              "14"
+            ],
+            [
+              "10",
+              "4,300",
+              "Holds 360,000 dark elixir",
+              "8,000,000 Elixir",
+              "4 d 12 h",
+              "15"
+            ],
+            [
+              "11",
+              "4,500",
+              "Holds 390,000 dark elixir",
+              "10,000,000 Elixir",
+              "5 d",
+              "16"
+            ],
+            [
+              "12",
+              "4,700",
+              "Holds 420,000 dark elixir",
+              "16,000,000 Elixir",
+              "7 d",
+              "17"
+            ],
+            [
+              "13",
+              "4,800",
+              "Holds 450,000 dark elixir",
+              "25,000,000 Elixir",
+              "13 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "dark-spell-factory",
+      "name": "Dark Spell Factory",
+      "description": "Dark Spell Factory stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "7 levels, from TH8",
+      "summary": "The Dark Spell Factory is a Home Village building with 7 levels, first available at Town Hall 8.",
+      "quick": {
+        "Levels": "7",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 8"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Dark Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "—",
+              "130,000 Elixir",
+              "6 h",
+              "8"
+            ],
+            [
+              "2",
+              "660",
+              "—",
+              "260,000 Elixir",
+              "12 h",
+              "8"
+            ],
+            [
+              "3",
+              "720",
+              "—",
+              "600,000 Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "4",
+              "780",
+              "—",
+              "1,200,000 Elixir",
+              "3 d",
+              "9"
+            ],
+            [
+              "5",
+              "840",
+              "—",
+              "2,500,000 Elixir",
+              "5 d",
+              "10"
+            ],
+            [
+              "6",
+              "950",
+              "—",
+              "4,000,000 Elixir",
+              "6 d",
+              "12"
+            ],
+            [
+              "7",
+              "1,010",
+              "—",
+              "11,000,000 Elixir",
+              "7 d",
+              "14"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "eagle-artillery",
+      "name": "Eagle Artillery",
+      "description": "The Eagle Artillery in Clash of Clans: base-wide splash damage that activates after enough troops are deployed.",
+      "blurb": "Covers almost the whole base, once it wakes up.",
+      "summary": "The Eagle Artillery fires powerful splash shots across nearly the entire base, but only activates after the attacker has deployed a certain amount of troops. That delay is deliberate and it is what makes small probing attacks safe.",
+      "quick": {
+        "Levels": "7",
+        "Size": "4x4",
+        "Category": "Defense",
+        "Damage per second": "20",
+        "Targets": "Ground and air",
+        "Range": "50 tiles",
+        "Unlocked at": "Town Hall 11",
+        "Role": "Long-range splash defence, activates on deployment"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Once active, it targets groups anywhere within its very large radius and deals heavy area damage, including to air units. Before activation it does nothing, which is why a lure with a single Barbarian does not wake it.</p>"
+        },
+        {
+          "h": "Attacking and defending it",
+          "body": "<p>On defence, its coverage is so wide that placement is less about range and more about protection: it should sit deep, behind compartments, because attackers will prioritise it. On offence, plan for it. An attack that ignores the Eagle takes repeated area damage across the whole push, and a heavy army that clusters is exactly what it punishes.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Eagle Artillery stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,000",
+              "20 DPS",
+              "5,000,000 Gold",
+              "4 d",
+              "11"
+            ],
+            [
+              "2",
+              "4,400",
+              "25 DPS",
+              "6,000,000 Gold",
+              "5 d",
+              "11"
+            ],
+            [
+              "3",
+              "4,800",
+              "30 DPS",
+              "9,000,000 Gold",
+              "7 d",
+              "12"
+            ],
+            [
+              "4",
+              "5,200",
+              "35 DPS",
+              "10,000,000 Gold",
+              "7 d 12 h",
+              "13"
+            ],
+            [
+              "5",
+              "5,600",
+              "40 DPS",
+              "12,000,000 Gold",
+              "8 d",
+              "14"
+            ],
+            [
+              "6",
+              "5,900",
+              "45 DPS",
+              "13,000,000 Gold",
+              "9 d",
+              "15"
+            ],
+            [
+              "7",
+              "6,200",
+              "50 DPS",
+              "14,000,000 Gold",
+              "9 d 12 h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:inferno-tower",
+        "buildings:scattershot",
+        "mechanics:defence-mechanics",
+        "mechanics:clan-wars"
+      ],
+      "priority": "0.6",
+      "h1": "Eagle Artillery — Clash of Clans",
+      "head_title": "Eagle Artillery | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "When does the Eagle Artillery activate?",
+          "a": "After the attacker has deployed enough troops. That is why single-troop lures and small probing attacks do not trigger it, and why it does nothing at all in the opening seconds of an attack."
+        },
+        {
+          "q": "How do I deal with the Eagle Artillery when attacking?",
+          "a": "Either destroy it early with a dedicated push, or avoid clustering your army, since it punishes groups with heavy area damage across nearly the whole base. Ignoring it entirely usually means taking that damage repeatedly through the attack."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "elixir-collector",
+      "name": "Elixir Collector",
+      "description": "Elixir Collector stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "17 levels, from TH1",
+      "summary": "The Elixir Collector is a Home Village building with 17 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "17",
+        "Size": "3x3",
+        "Category": "Resource Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Elixir Collector stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "75",
+              "—",
+              "150 Gold",
+              "5 s",
+              "1"
+            ],
+            [
+              "2",
+              "150",
+              "—",
+              "300 Gold",
+              "15 s",
+              "2"
+            ],
+            [
+              "3",
+              "300",
+              "—",
+              "700 Gold",
+              "1 m",
+              "2"
+            ],
+            [
+              "4",
+              "400",
+              "—",
+              "1,400 Gold",
+              "2 m",
+              "2"
+            ],
+            [
+              "5",
+              "500",
+              "—",
+              "3,000 Gold",
+              "5 m",
+              "3"
+            ],
+            [
+              "6",
+              "550",
+              "—",
+              "7,000 Gold",
+              "15 m",
+              "3"
+            ],
+            [
+              "7",
+              "600",
+              "—",
+              "14,000 Gold",
+              "30 m",
+              "4"
+            ],
+            [
+              "8",
+              "660",
+              "—",
+              "28,000 Gold",
+              "1 h",
+              "4"
+            ],
+            [
+              "9",
+              "720",
+              "—",
+              "56,000 Gold",
+              "1 h 30 m",
+              "5"
+            ],
+            [
+              "10",
+              "780",
+              "—",
+              "75,000 Gold",
+              "2 h",
+              "5"
+            ],
+            [
+              "11",
+              "860",
+              "—",
+              "85,000 Gold",
+              "3 h",
+              "7"
+            ],
+            [
+              "12",
+              "960",
+              "—",
+              "170,000 Gold",
+              "4 h",
+              "8"
+            ],
+            [
+              "13",
+              "1,080",
+              "—",
+              "400,000 Gold",
+              "5 h",
+              "10"
+            ],
+            [
+              "14",
+              "1,180",
+              "—",
+              "800,000 Gold",
+              "6 h",
+              "11"
+            ],
+            [
+              "15",
+              "1,280",
+              "—",
+              "1,200,000 Gold",
+              "10 h",
+              "12"
+            ],
+            [
+              "16",
+              "1,350",
+              "—",
+              "2,000,000 Gold",
+              "1 d",
+              "14"
+            ],
+            [
+              "17",
+              "1,400",
+              "—",
+              "8,000,000 Gold",
+              "2 d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "elixir-storage",
+      "name": "Elixir Storage",
+      "description": "Elixir Storage stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "19 levels, from TH1",
+      "summary": "The Elixir Storage is a Home Village building with 19 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "19",
+        "Size": "3x3",
+        "Category": "Resource Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Elixir Storage stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "150",
+              "Holds 1,500 elixir",
+              "300 Gold",
+              "10 s",
+              "1"
+            ],
+            [
+              "2",
+              "300",
+              "Holds 3,000 elixir",
+              "750 Gold",
+              "2 m",
+              "2"
+            ],
+            [
+              "3",
+              "450",
+              "Holds 6,000 elixir",
+              "1,500 Gold",
+              "5 m",
+              "2"
+            ],
+            [
+              "4",
+              "600",
+              "Holds 12,000 elixir",
+              "3,000 Gold",
+              "15 m",
+              "3"
+            ],
+            [
+              "5",
+              "800",
+              "Holds 25,000 elixir",
+              "6,000 Gold",
+              "30 m",
+              "3"
+            ],
+            [
+              "6",
+              "1,000",
+              "Holds 45,000 elixir",
+              "12,000 Gold",
+              "1 h",
+              "3"
+            ],
+            [
+              "7",
+              "1,250",
+              "Holds 100,000 elixir",
+              "25,000 Gold",
+              "2 h",
+              "4"
+            ],
+            [
+              "8",
+              "1,500",
+              "Holds 225,000 elixir",
+              "50,000 Gold",
+              "3 h",
+              "4"
+            ],
+            [
+              "9",
+              "1,700",
+              "Holds 450,000 elixir",
+              "100,000 Gold",
+              "4 h",
+              "5"
+            ],
+            [
+              "10",
+              "1,900",
+              "Holds 850,000 elixir",
+              "250,000 Gold",
+              "5 h",
+              "6"
+            ],
+            [
+              "11",
+              "2,100",
+              "Holds 1,750,000 elixir",
+              "500,000 Gold",
+              "6 h",
+              "7"
+            ],
+            [
+              "12",
+              "2,500",
+              "Holds 2,000,000 elixir",
+              "1,000,000 Gold",
+              "12 h",
+              "11"
+            ],
+            [
+              "13",
+              "2,900",
+              "Holds 3,000,000 elixir",
+              "1,800,000 Gold",
+              "18 h",
+              "12"
+            ],
+            [
+              "14",
+              "3,300",
+              "Holds 4,000,000 elixir",
+              "2,800,000 Gold",
+              "1 d",
+              "13"
+            ],
+            [
+              "15",
+              "3,700",
+              "Holds 4,500,000 elixir",
+              "3,000,000 Gold",
+              "2 d",
+              "14"
+            ],
+            [
+              "16",
+              "3,900",
+              "Holds 5,000,000 elixir",
+              "4,000,000 Gold",
+              "3 d",
+              "15"
+            ],
+            [
+              "17",
+              "4,050",
+              "Holds 5,500,000 elixir",
+              "5,500,000 Gold",
+              "4 d",
+              "16"
+            ],
+            [
+              "18",
+              "4,200",
+              "Holds 6,000,000 elixir",
+              "10,000,000 Gold",
+              "5 d",
+              "17"
+            ],
+            [
+              "19",
+              "4,300",
+              "Holds 6,500,000 elixir",
+              "18,000,000 Gold",
+              "12 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "firespitter",
+      "name": "Firespitter",
+      "description": "The Firespitter in Clash of Clans: the longest-ranged defence in the game, unlocked at Town Hall 17.",
+      "blurb": "16 tiles of range and heavy damage. Reach is the whole point.",
+      "summary": "The Firespitter unlocks at Town Hall 17 and has the longest reach of any defence in the game at 16 tiles, paired with damage that is not a consolation prize either. A defence that can hit most of your base from one position changes how attacks have to be planned.",
+      "quick": {
+        "Levels": "3",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "411",
+        "Targets": "Ground and air",
+        "Range": "16 tiles",
+        "Unlocked at": "Town Hall 17",
+        "Role": "Long-range defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>411 damage per second against air and ground, 16 tiles of range, 3 levels. That range is the headline. Most defences cover a compartment; this one covers a neighbourhood.</p><p>The practical consequence for an attacker is that there is no safe side. An army entering anywhere within 16 tiles is under fire from it, which means it cannot be avoided by choosing an approach the way an Inferno Tower or a Scattershot can. It has to be destroyed, distracted, or endured.</p>"
+        },
+        {
+          "h": "Placing it",
+          "body": "<p>Deep, and covered. A defence with this reach loses nothing by sitting in the middle of the base, because the middle is still within range of the edges. Putting it forward gains you no coverage you did not already have and hands the attacker an early kill on your most valuable building.</p><p>Because it covers so much, it also pairs badly with itself: two Firespitters close together duplicate coverage rather than extending it.</p>"
+        },
+        {
+          "h": "Attacking into one",
+          "body": "<p>Assume it is firing from the moment you deploy. Spread your army so the sustained damage is not concentrated on the units you cannot replace, and plan a freeze for it if your push has to stand still anywhere inside its circle.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Firespitter stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,500",
+              "411 DPS",
+              "17,000,000 Gold",
+              "8 d 12 h",
+              "17"
+            ],
+            [
+              "2",
+              "5,000",
+              "438 DPS",
+              "18,000,000 Gold",
+              "10 d",
+              "17"
+            ],
+            [
+              "3",
+              "5,300",
+              "456 DPS",
+              "29,000,000 Gold",
+              "15 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:inferno-tower",
+        "buildings:scattershot",
+        "mechanics:defence-mechanics",
+        "spells:freeze-spell"
+      ],
+      "priority": "0.6",
+      "h1": "Firespitter — Clash of Clans",
+      "head_title": "Firespitter | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What is the longest range defence in Clash of Clans?",
+          "a": "The Firespitter, at 16 tiles, unlocked at Town Hall 17. That reach means it covers most of a base from a central position and cannot be avoided by choosing a different approach."
+        },
+        {
+          "q": "Where should I place the Firespitter?",
+          "a": "Centrally and protected. Its 16 tile range already reaches the perimeter from the middle, so placing it forward adds no coverage and only makes it easier to destroy early."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "gold-mine",
+      "name": "Gold Mine",
+      "description": "Gold Mine stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "17 levels, from TH1",
+      "summary": "The Gold Mine is a Home Village building with 17 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "17",
+        "Size": "3x3",
+        "Category": "Resource Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Gold Mine stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "75",
+              "—",
+              "150 Elixir",
+              "5 s",
+              "1"
+            ],
+            [
+              "2",
+              "150",
+              "—",
+              "300 Elixir",
+              "15 s",
+              "2"
+            ],
+            [
+              "3",
+              "300",
+              "—",
+              "700 Elixir",
+              "1 m",
+              "2"
+            ],
+            [
+              "4",
+              "400",
+              "—",
+              "1,400 Elixir",
+              "2 m",
+              "2"
+            ],
+            [
+              "5",
+              "500",
+              "—",
+              "3,000 Elixir",
+              "5 m",
+              "3"
+            ],
+            [
+              "6",
+              "550",
+              "—",
+              "7,000 Elixir",
+              "15 m",
+              "3"
+            ],
+            [
+              "7",
+              "600",
+              "—",
+              "14,000 Elixir",
+              "30 m",
+              "4"
+            ],
+            [
+              "8",
+              "660",
+              "—",
+              "28,000 Elixir",
+              "1 h",
+              "4"
+            ],
+            [
+              "9",
+              "720",
+              "—",
+              "56,000 Elixir",
+              "1 h 30 m",
+              "5"
+            ],
+            [
+              "10",
+              "780",
+              "—",
+              "75,000 Elixir",
+              "2 h",
+              "5"
+            ],
+            [
+              "11",
+              "860",
+              "—",
+              "85,000 Elixir",
+              "3 h",
+              "7"
+            ],
+            [
+              "12",
+              "960",
+              "—",
+              "170,000 Elixir",
+              "4 h",
+              "8"
+            ],
+            [
+              "13",
+              "1,080",
+              "—",
+              "400,000 Elixir",
+              "5 h",
+              "10"
+            ],
+            [
+              "14",
+              "1,180",
+              "—",
+              "800,000 Elixir",
+              "6 h",
+              "11"
+            ],
+            [
+              "15",
+              "1,280",
+              "—",
+              "1,200,000 Elixir",
+              "10 h",
+              "12"
+            ],
+            [
+              "16",
+              "1,350",
+              "—",
+              "2,000,000 Elixir",
+              "1 d",
+              "14"
+            ],
+            [
+              "17",
+              "1,400",
+              "—",
+              "8,000,000 Elixir",
+              "2 d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "gold-storage",
+      "name": "Gold Storage",
+      "description": "Gold Storage stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "19 levels, from TH1",
+      "summary": "The Gold Storage is a Home Village building with 19 levels, first available at Town Hall 1.",
+      "quick": {
+        "Levels": "19",
+        "Size": "3x3",
+        "Category": "Resource Building",
+        "Unlocked at": "Town Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Gold Storage stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "150",
+              "Holds 1,500 gold",
+              "300 Elixir",
+              "10 s",
+              "1"
+            ],
+            [
+              "2",
+              "300",
+              "Holds 3,000 gold",
+              "750 Elixir",
+              "2 m",
+              "2"
+            ],
+            [
+              "3",
+              "450",
+              "Holds 6,000 gold",
+              "1,500 Elixir",
+              "5 m",
+              "2"
+            ],
+            [
+              "4",
+              "600",
+              "Holds 12,000 gold",
+              "3,000 Elixir",
+              "15 m",
+              "3"
+            ],
+            [
+              "5",
+              "800",
+              "Holds 25,000 gold",
+              "6,000 Elixir",
+              "30 m",
+              "3"
+            ],
+            [
+              "6",
+              "1,000",
+              "Holds 45,000 gold",
+              "12,000 Elixir",
+              "1 h",
+              "3"
+            ],
+            [
+              "7",
+              "1,250",
+              "Holds 100,000 gold",
+              "25,000 Elixir",
+              "2 h",
+              "4"
+            ],
+            [
+              "8",
+              "1,500",
+              "Holds 225,000 gold",
+              "50,000 Elixir",
+              "3 h",
+              "4"
+            ],
+            [
+              "9",
+              "1,700",
+              "Holds 450,000 gold",
+              "100,000 Elixir",
+              "4 h",
+              "5"
+            ],
+            [
+              "10",
+              "1,900",
+              "Holds 850,000 gold",
+              "250,000 Elixir",
+              "5 h",
+              "6"
+            ],
+            [
+              "11",
+              "2,100",
+              "Holds 1,750,000 gold",
+              "500,000 Elixir",
+              "6 h",
+              "7"
+            ],
+            [
+              "12",
+              "2,500",
+              "Holds 2,000,000 gold",
+              "1,000,000 Elixir",
+              "12 h",
+              "11"
+            ],
+            [
+              "13",
+              "2,900",
+              "Holds 3,000,000 gold",
+              "1,800,000 Elixir",
+              "18 h",
+              "12"
+            ],
+            [
+              "14",
+              "3,300",
+              "Holds 4,000,000 gold",
+              "2,800,000 Elixir",
+              "1 d",
+              "13"
+            ],
+            [
+              "15",
+              "3,700",
+              "Holds 4,500,000 gold",
+              "3,000,000 Elixir",
+              "2 d",
+              "14"
+            ],
+            [
+              "16",
+              "3,900",
+              "Holds 5,000,000 gold",
+              "4,000,000 Elixir",
+              "3 d",
+              "15"
+            ],
+            [
+              "17",
+              "4,050",
+              "Holds 5,500,000 gold",
+              "5,500,000 Elixir",
+              "4 d",
+              "16"
+            ],
+            [
+              "18",
+              "4,200",
+              "Holds 6,000,000 gold",
+              "10,000,000 Elixir",
+              "5 d",
+              "17"
+            ],
+            [
+              "19",
+              "4,300",
+              "Holds 6,500,000 gold",
+              "18,000,000 Elixir",
+              "12 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "hero-hall",
+      "name": "Hero Hall",
+      "description": "The Hero Hall in Clash of Clans: the building that manages heroes and their equipment.",
+      "blurb": "Where heroes and their equipment are managed.",
+      "summary": "The Hero Hall unlocks at Town Hall 7, the same point the first hero arrives, and runs to 12 levels. It is the administrative centre for heroes and hero equipment, which makes it a gate on progression rather than a source of power in itself.",
+      "quick": {
+        "Levels": "12",
+        "Size": "4x4",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 7",
+        "Role": "Army building, hero management"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why its level matters",
+          "body": "<p>Buildings that gate other upgrades are easy to deprioritise because they do nothing visible. That is a mistake here for the same reason it is a mistake with the Laboratory: if the Hero Hall is behind, the hero upgrades it governs are behind too, and hero levels are the largest single contributor to attacking power over time.</p><p>Treat it the way you treat storages. It is not exciting, and being short of it stops you spending on the things that are.</p>"
+        },
+        {
+          "h": "Equipment",
+          "body": "<p>Hero equipment is managed here, and the guidance on that is covered in <a href='../mechanics/hero-equipment.html'>hero equipment</a>: concentrate ores on the few pieces you actually equip rather than spreading them across everything you own.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Hero Hall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,000",
+              "—",
+              "800,000 Elixir",
+              "1 d",
+              "7"
+            ],
+            [
+              "2",
+              "2,400",
+              "—",
+              "1,600,000 Elixir",
+              "2 d",
+              "8"
+            ],
+            [
+              "3",
+              "2,800",
+              "—",
+              "2,300,000 Elixir",
+              "3 d",
+              "9"
+            ],
+            [
+              "4",
+              "3,200",
+              "—",
+              "2,500,000 Elixir",
+              "4 d",
+              "10"
+            ],
+            [
+              "5",
+              "3,600",
+              "—",
+              "4,500,000 Elixir",
+              "4 d 12 h",
+              "11"
+            ],
+            [
+              "6",
+              "3,800",
+              "—",
+              "5,500,000 Elixir",
+              "5 d",
+              "12"
+            ],
+            [
+              "7",
+              "4,200",
+              "—",
+              "8,500,000 Elixir",
+              "6 d",
+              "13"
+            ],
+            [
+              "8",
+              "4,600",
+              "—",
+              "9,500,000 Elixir",
+              "6 d 12 h",
+              "14"
+            ],
+            [
+              "9",
+              "5,000",
+              "—",
+              "11,000,000 Elixir",
+              "7 d",
+              "15"
+            ],
+            [
+              "10",
+              "5,400",
+              "—",
+              "13,000,000 Elixir",
+              "8 d",
+              "16"
+            ],
+            [
+              "11",
+              "5,800",
+              "—",
+              "17,000,000 Elixir",
+              "9 d",
+              "17"
+            ],
+            [
+              "12",
+              "6,000",
+              "—",
+              "26,000,000 Elixir",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "heroes:index",
+        "mechanics:hero-equipment",
+        "mechanics:upgrade-priority",
+        "mechanics:dark-elixir"
+      ],
+      "priority": "0.6",
+      "h1": "Hero Hall — Clash of Clans",
+      "head_title": "Hero Hall | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Hero Hall do?",
+          "a": "It manages your heroes and their equipment, unlocking at Town Hall 7 alongside the first hero and running to 12 levels. It grants no direct combat power but gates hero progression, which does."
+        },
+        {
+          "q": "Should I prioritise the Hero Hall?",
+          "a": "Yes, in the same unglamorous way you prioritise storages. It produces nothing itself, but leaving it behind holds back hero upgrades, and hero levels contribute more to attacking strength than almost anything else."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "hidden-tesla",
+      "name": "Hidden Tesla",
+      "description": "The Hidden Tesla in Clash of Clans: a concealed defence that surprises attackers mid-push.",
+      "blurb": "Invisible until it fires, which is worth more than its damage.",
+      "summary": "The Hidden Tesla stays concealed until an attacker comes close or the base takes enough damage, then appears and attacks air and ground. Its value is the surprise: attack plans are made from a scouting screen that does not show it.",
+      "quick": {
+        "Levels": "17",
+        "Size": "2x2",
+        "Category": "Defense",
+        "Damage per second": "34",
+        "Targets": "Ground and air",
+        "Range": "7 tiles",
+        "Unlocked at": "Town Hall 7",
+        "Role": "Concealed defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Remains hidden during scouting and reveals itself once an attacker gets close enough or the base is sufficiently damaged. It then fires at air or ground targets with strong single-target damage.</p><p>Because attackers plan from what they can see, a Tesla in an unexpected place invalidates the plan rather than merely adding damage.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>Put them where a plan would assume safety,</strong> such as a compartment that looks empty on the scouting screen.</li><li><strong>Near your storages and Town Hall,</strong> so a Goblin or hero push that expected a clean run does not get one.</li><li><strong>Do not cluster them.</strong> Two Teslas together are one surprise; two apart are two.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Hidden Tesla stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "34 DPS",
+              "250,000 Gold",
+              "2 h",
+              "7"
+            ],
+            [
+              "2",
+              "630",
+              "40 DPS",
+              "350,000 Gold",
+              "3 h",
+              "7"
+            ],
+            [
+              "3",
+              "660",
+              "48 DPS",
+              "500,000 Gold",
+              "4 h",
+              "7"
+            ],
+            [
+              "4",
+              "690",
+              "55 DPS",
+              "600,000 Gold",
+              "6 h",
+              "8"
+            ],
+            [
+              "5",
+              "730",
+              "64 DPS",
+              "800,000 Gold",
+              "12 h",
+              "8"
+            ],
+            [
+              "6",
+              "770",
+              "75 DPS",
+              "1,200,000 Gold",
+              "1 d",
+              "8"
+            ],
+            [
+              "7",
+              "810",
+              "87 DPS",
+              "1,400,000 Gold",
+              "1 d 6 h",
+              "9"
+            ],
+            [
+              "8",
+              "850",
+              "99 DPS",
+              "1,600,000 Gold",
+              "1 d 12 h",
+              "10"
+            ],
+            [
+              "9",
+              "900",
+              "110 DPS",
+              "2,100,000 Gold",
+              "1 d 18 h",
+              "11"
+            ],
+            [
+              "10",
+              "980",
+              "120 DPS",
+              "3,000,000 Gold",
+              "2 d",
+              "12"
+            ],
+            [
+              "11",
+              "1,100",
+              "130 DPS",
+              "3,100,000 Gold",
+              "2 d 12 h",
+              "13"
+            ],
+            [
+              "12",
+              "1,200",
+              "140 DPS",
+              "3,700,000 Gold",
+              "3 d",
+              "13"
+            ],
+            [
+              "13",
+              "1,350",
+              "150 DPS",
+              "5,100,000 Gold",
+              "3 d 12 h",
+              "14"
+            ],
+            [
+              "14",
+              "1,450",
+              "160 DPS",
+              "6,500,000 Gold",
+              "4 d",
+              "15"
+            ],
+            [
+              "15",
+              "1,550",
+              "170 DPS",
+              "8,200,000 Gold",
+              "5 d",
+              "16"
+            ],
+            [
+              "16",
+              "1,650",
+              "180 DPS",
+              "15,000,000 Gold",
+              "7 d",
+              "17"
+            ],
+            [
+              "17",
+              "1,750",
+              "190 DPS",
+              "25,000,000 Gold",
+              "13 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:archer-tower",
+        "mechanics:base-building-principles",
+        "mechanics:defence-mechanics",
+        "buildings:bomb-tower"
+      ],
+      "priority": "0.6",
+      "h1": "Hidden Tesla — Clash of Clans",
+      "head_title": "Hidden Tesla | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "When does a Hidden Tesla appear?",
+          "a": "When an attacker comes within its trigger range or the base has taken enough damage. Because it is invisible on the scouting screen, its main value is invalidating an attack plan rather than the damage itself."
+        },
+        {
+          "q": "Where should I put Hidden Teslas?",
+          "a": "In places an attacker's plan would assume are safe, such as apparently empty compartments or next to storages, and spread apart so each one is a separate surprise rather than a single one."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "inferno-tower",
+      "name": "Inferno Tower",
+      "description": "The Inferno Tower in Clash of Clans: single and multi-target modes, ramping damage, and the freeze counter.",
+      "blurb": "Two modes: burn one thing to ash, or sweep a crowd.",
+      "summary": "The Inferno Tower is the defence that kills tanks. In single-target mode its damage ramps up the longer it burns one unit, which melts Golems, P.E.K.K.As and heroes; in multi-target mode it sprays weaker damage across several units instead.",
+      "quick": {
+        "Levels": "12",
+        "Size": "2x2",
+        "Category": "Defense",
+        "Damage per second": "30",
+        "Targets": "Ground and air",
+        "Range": "9 tiles",
+        "Unlocked at": "Town Hall 10",
+        "Role": "High-damage defence, air and ground, switchable mode"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "The two modes",
+          "body": "<p><strong>Single target</strong> ramps damage against one unit over time, which makes it the hardest counter in the game to expensive tanks and heroes. <strong>Multi target</strong> spreads weaker damage across several attackers, which suits bases that expect swarms.</p><p>Choosing between them is a real decision, and it should follow what is actually attacking you. Watch your defence replays: if you are losing to heavy single units, go single; if you are losing to masses, go multi.</p>"
+        },
+        {
+          "h": "Attacking and defending it",
+          "body": "<p>On defence, place it centrally and cover it, because attackers will spend their entire spell loadout removing it. On offence, the Inferno Tower is the standard reason to carry a <a href='../wiki/spells/freeze-spell.html'>Freeze Spell</a>: freezing it during the critical seconds is what lets a heavy push survive.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Inferno Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "30 DPS",
+              "1,000,000 Gold",
+              "12 h",
+              "10"
+            ],
+            [
+              "2",
+              "1,800",
+              "35 DPS",
+              "1,200,000 Gold",
+              "1 d",
+              "10"
+            ],
+            [
+              "3",
+              "2,100",
+              "40 DPS",
+              "2,400,000 Gold",
+              "2 d",
+              "10"
+            ],
+            [
+              "4",
+              "2,400",
+              "45 DPS",
+              "3,400,000 Gold",
+              "2 d 12 h",
+              "11"
+            ],
+            [
+              "5",
+              "2,700",
+              "50 DPS",
+              "4,000,000 Gold",
+              "3 d",
+              "11"
+            ],
+            [
+              "6",
+              "3,000",
+              "55 DPS",
+              "6,000,000 Gold",
+              "4 d",
+              "12"
+            ],
+            [
+              "7",
+              "3,300",
+              "65 DPS",
+              "8,000,000 Gold",
+              "5 d",
+              "13"
+            ],
+            [
+              "8",
+              "3,700",
+              "80 DPS",
+              "9,500,000 Gold",
+              "6 d",
+              "14"
+            ],
+            [
+              "9",
+              "4,000",
+              "100 DPS",
+              "10,000,000 Gold",
+              "6 d 12 h",
+              "15"
+            ],
+            [
+              "10",
+              "4,400",
+              "120 DPS",
+              "11,000,000 Gold",
+              "7 d",
+              "16"
+            ],
+            [
+              "11",
+              "4,800",
+              "140 DPS",
+              "16,000,000 Gold",
+              "8 d",
+              "17"
+            ],
+            [
+              "12",
+              "5,100",
+              "155 DPS",
+              "26,500,000 Gold",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:freeze-spell",
+        "troops:golem",
+        "troops:pekka",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Inferno Tower — Clash of Clans",
+      "head_title": "Inferno Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Should my Inferno Tower be single or multi target?",
+          "a": "Follow your defence replays. Single target melts expensive tanks and heroes by ramping damage on one unit; multi target spreads weaker damage across a swarm. Set it to counter what is actually beating your base."
+        },
+        {
+          "q": "How do attackers counter Inferno Towers?",
+          "a": "Usually a Freeze Spell dropped at the moment the tower starts burning the tank, which stops the damage ramp during the seconds that decide the attack. That is why Freeze appears in almost every heavy war army."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "laboratory",
+      "name": "Laboratory",
+      "description": "The Laboratory in Clash of Clans: troop and spell research, and why it should never sit idle.",
+      "blurb": "Research applies to every future attack, forever. Never leave it idle.",
+      "summary": "The Laboratory upgrades your troops and spells permanently. Unlike a building upgrade, which improves one structure, research improves every copy of that troop in every attack you ever make, which makes an idle lab the most expensive idleness in the game.",
+      "quick": {
+        "Levels": "16",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 3",
+        "Role": "Army building, research"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why it comes first",
+          "body": "<p>A defence upgrade improves one building. A troop research improves every one of those troops, in every attack, permanently. The compounding is enormous, and it is the reason experienced players treat an idle laboratory as an emergency.</p>"
+        },
+        {
+          "h": "What to research",
+          "body": "<ul><li><strong>Troops you actually use,</strong> not troops you might use. Researching a unit that never appears in your army is pure waste.</li><li><strong>Your farming army first,</strong> because it runs constantly and small gains compound across hundreds of attacks.</li><li><strong>Spells early.</strong> Spell research is often cheaper than troop research and affects every attack just as much.</li><li><strong>Upgrade the lab itself promptly</strong> at a new Town Hall, since it gates everything else.</li></ul><p>How this fits the wider schedule is covered in <a href='../mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Laboratory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "—",
+              "5,000 Elixir",
+              "1 m",
+              "3"
+            ],
+            [
+              "2",
+              "550",
+              "—",
+              "25,000 Elixir",
+              "30 m",
+              "4"
+            ],
+            [
+              "3",
+              "600",
+              "—",
+              "50,000 Elixir",
+              "2 h",
+              "5"
+            ],
+            [
+              "4",
+              "650",
+              "—",
+              "100,000 Elixir",
+              "4 h",
+              "6"
+            ],
+            [
+              "5",
+              "700",
+              "—",
+              "200,000 Elixir",
+              "8 h",
+              "7"
+            ],
+            [
+              "6",
+              "750",
+              "—",
+              "400,000 Elixir",
+              "16 h",
+              "8"
+            ],
+            [
+              "7",
+              "830",
+              "—",
+              "800,000 Elixir",
+              "1 d",
+              "9"
+            ],
+            [
+              "8",
+              "950",
+              "—",
+              "1,300,000 Elixir",
+              "1 d 18 h",
+              "10"
+            ],
+            [
+              "9",
+              "1,070",
+              "—",
+              "2,100,000 Elixir",
+              "2 d 18 h",
+              "11"
+            ],
+            [
+              "10",
+              "1,140",
+              "—",
+              "3,800,000 Elixir",
+              "4 d",
+              "12"
+            ],
+            [
+              "11",
+              "1,210",
+              "—",
+              "5,500,000 Elixir",
+              "6 d",
+              "13"
+            ],
+            [
+              "12",
+              "1,280",
+              "—",
+              "8,100,000 Elixir",
+              "7 d",
+              "14"
+            ],
+            [
+              "13",
+              "1,350",
+              "—",
+              "10,800,000 Elixir",
+              "8 d",
+              "15"
+            ],
+            [
+              "14",
+              "1,400",
+              "—",
+              "13,000,000 Elixir",
+              "9 d",
+              "16"
+            ],
+            [
+              "15",
+              "1,450",
+              "—",
+              "18,000,000 Elixir",
+              "10 d",
+              "17"
+            ],
+            [
+              "16",
+              "1,500",
+              "—",
+              "27,000,000 Elixir",
+              "16 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:upgrade-priority",
+        "troops:index",
+        "spells:index",
+        "mechanics:dark-elixir"
+      ],
+      "priority": "0.6",
+      "h1": "Laboratory — Clash of Clans",
+      "head_title": "Laboratory | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What should I research first in the Laboratory?",
+          "a": "The troops and spells in the army you actually use most, starting with your farming army, since research applies permanently to every future attack and a farming army runs hundreds of times. Researching units you never deploy is wasted."
+        },
+        {
+          "q": "Is the Laboratory more important than defences?",
+          "a": "For progression, generally yes. Research improves every attack you will ever make, while a defence upgrade improves one building, so an idle laboratory costs more over time than a slightly weaker base."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "monolith",
+      "name": "Monolith",
+      "description": "The Monolith in Clash of Clans: a Town Hall 15 defence that hits hardest against high-hitpoint troops.",
+      "blurb": "Punishes exactly the units you brought to tank for everyone else.",
+      "summary": "The Monolith unlocks at Town Hall 15, covers air and ground at 11 tiles, and deals damage scaled against the target's hitpoints. That makes it the specific answer to the heavy units that heavy armies are built around.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "150",
+        "Targets": "Ground and air",
+        "Range": "11 tiles",
+        "Unlocked at": "Town Hall 15",
+        "Role": "Defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>150 damage per second listed, 11 tiles, air and ground, 4 levels. The listed figure understates it against exactly the targets it is designed for, because its damage scales with how much health the target has.</p><p>The consequence is a clean inversion of the usual rule. Splash defences punish many weak units; single-target defences punish few strong ones; the Monolith punishes <em>durable</em> ones specifically. Golems, P.E.K.K.As, Electro Titans and heroes are all worse against it than their hitpoints suggest.</p>"
+        },
+        {
+          "h": "Attacking into one",
+          "body": "<p>Do not lead with your tank and hope. The standard answers are the standard answers: destroy it before the heavy units arrive, freeze it during the window your tank has to survive, or attack from a direction its 11 tiles do not cover. Bringing more hitpoints into its range is the one response that makes things worse.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Monolith stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,747",
+              "150 DPS",
+              "200,000 Dark Elixir",
+              "7 d",
+              "15"
+            ],
+            [
+              "2",
+              "5,050",
+              "175 DPS",
+              "250,000 Dark Elixir",
+              "8 d",
+              "15"
+            ],
+            [
+              "3",
+              "5,353",
+              "193 DPS",
+              "260,000 Dark Elixir",
+              "9 d",
+              "16"
+            ],
+            [
+              "4",
+              "5,656",
+              "209 DPS",
+              "300,000 Dark Elixir",
+              "11 d",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "troops:golem",
+        "troops:pekka",
+        "spells:freeze-spell",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Monolith — Clash of Clans",
+      "head_title": "Monolith | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Monolith counter?",
+          "a": "High-hitpoint troops, because its damage scales with the target's health. Golems, P.E.K.K.As and heroes take disproportionately more from it than its listed damage per second suggests."
+        },
+        {
+          "q": "How do I counter the Monolith when attacking?",
+          "a": "Destroy it before your heavy units enter its range, freeze it during the critical window, or route the attack outside its 11 tile coverage. Sending more hitpoints at it is precisely the wrong response."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "mortar",
+      "name": "Mortar",
+      "description": "The Mortar in Clash of Clans: splash damage against ground swarms, and the minimum-range blind spot.",
+      "blurb": "Ground splash damage, with a blind spot right underneath it.",
+      "summary": "The Mortar is the first splash defence most players get, and it is the direct answer to massed cheap troops. It has one famous flaw: a minimum range, meaning it cannot hit anything standing directly next to it.",
+      "quick": {
+        "Levels": "18",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "4",
+        "Targets": "Ground only",
+        "Range": "11 tiles",
+        "Unlocked at": "Town Hall 3",
+        "Role": "Splash defence, ground only"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Lobs shells that damage an area, which makes it devastating against groups of Barbarians, Archers, Goblins and Wall Breakers. It is slow to fire and cannot target air.</p><p>Its minimum range creates a dead zone directly around it. Attackers exploit this deliberately, so a Mortar standing alone is a Mortar that gets neutralised by a single troop parked underneath it.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>Centre them.</strong> Splash coverage belongs where attackers must go, not where they can ignore it.</li><li><strong>Cover the blind spot.</strong> Put something else in range of the ground immediately around each Mortar.</li><li><strong>Do not cluster with other splash.</strong> Two splash defences under one Rage or one Lightning barrage is a single point of failure.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Mortar stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "4 DPS",
+              "5,000 Gold",
+              "30 m",
+              "3"
+            ],
+            [
+              "2",
+              "450",
+              "5 DPS",
+              "25,000 Gold",
+              "1 h",
+              "4"
+            ],
+            [
+              "3",
+              "500",
+              "6 DPS",
+              "90,000 Gold",
+              "2 h",
+              "5"
+            ],
+            [
+              "4",
+              "550",
+              "7 DPS",
+              "180,000 Gold",
+              "3 h",
+              "6"
+            ],
+            [
+              "5",
+              "600",
+              "9 DPS",
+              "300,000 Gold",
+              "6 h",
+              "7"
+            ],
+            [
+              "6",
+              "650",
+              "11 DPS",
+              "500,000 Gold",
+              "8 h",
+              "8"
+            ],
+            [
+              "7",
+              "700",
+              "15 DPS",
+              "900,000 Gold",
+              "12 h",
+              "9"
+            ],
+            [
+              "8",
+              "800",
+              "20 DPS",
+              "1,200,000 Gold",
+              "18 h",
+              "10"
+            ],
+            [
+              "9",
+              "950",
+              "25 DPS",
+              "1,600,000 Gold",
+              "20 h",
+              "11"
+            ],
+            [
+              "10",
+              "1,100",
+              "30 DPS",
+              "1,800,000 Gold",
+              "1 d",
+              "11"
+            ],
+            [
+              "11",
+              "1,300",
+              "35 DPS",
+              "2,300,000 Gold",
+              "1 d 6 h",
+              "12"
+            ],
+            [
+              "12",
+              "1,500",
+              "38 DPS",
+              "2,400,000 Gold",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "13",
+              "1,700",
+              "42 DPS",
+              "2,800,000 Gold",
+              "2 d",
+              "13"
+            ],
+            [
+              "14",
+              "1,950",
+              "48 DPS",
+              "4,300,000 Gold",
+              "2 d 12 h",
+              "14"
+            ],
+            [
+              "15",
+              "2,150",
+              "54 DPS",
+              "5,000,000 Gold",
+              "3 d",
+              "15"
+            ],
+            [
+              "16",
+              "2,300",
+              "60 DPS",
+              "7,000,000 Gold",
+              "4 d",
+              "16"
+            ],
+            [
+              "17",
+              "2,450",
+              "66 DPS",
+              "13,000,000 Gold",
+              "5 d",
+              "17"
+            ],
+            [
+              "18",
+              "2,550",
+              "72 DPS",
+              "21,000,000 Gold",
+              "12 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:wizard-tower",
+        "buildings:bomb-tower",
+        "mechanics:defence-mechanics",
+        "troops:barbarian"
+      ],
+      "priority": "0.6",
+      "h1": "Mortar — Clash of Clans",
+      "head_title": "Mortar | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Why can't my Mortar hit troops next to it?",
+          "a": "Mortars have a minimum range and cannot damage units standing directly beside them. Attackers use this on purpose, so always cover a Mortar's immediate surroundings with another defence."
+        },
+        {
+          "q": "What is the Mortar good against?",
+          "a": "Massed cheap ground troops. Its splash damage clears groups of Barbarians, Archers, Goblins and Wall Breakers very efficiently, and it is nearly useless against a small number of large units or anything airborne."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "multi-archer-tower",
+      "name": "Multi-Archer Tower",
+      "description": "The Multi-Archer Tower in Clash of Clans: a Town Hall 16 defence that engages several targets at once.",
+      "blurb": "Shoots several things at once instead of one thing hard.",
+      "summary": "The Multi-Archer Tower unlocks at Town Hall 16 and lists 60 damage per second across 10 tiles, hitting air and ground. That low figure is per target: the building's job is engaging several attackers simultaneously rather than deleting one.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "60",
+        "Targets": "Ground and air",
+        "Range": "10 tiles",
+        "Unlocked at": "Town Hall 16",
+        "Role": "Multi-target defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>60 damage per second, 10 tiles, air and ground, 4 levels. Read alongside the Ricochet Cannon's 360, the number looks poor until you account for what it is doing with it, which is splitting attention across multiple attackers.</p><p>That makes it a swarm answer rather than a tank answer, the same role splash damage plays, arrived at differently. Against a single Golem it is close to irrelevant; against a wave of Minions or Barbarians it is working on all of them at once.</p>"
+        },
+        {
+          "h": "Placing it",
+          "body": "<p>Where swarms arrive, which usually means covering the outer compartments rather than the innermost one, since cheap massed troops rarely reach the core. Overlap it with splash damage so a swarm entering that area is taking area damage and multi-target fire together.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Multi-Archer Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "5,000",
+              "60 DPS",
+              "12,000,000 Gold",
+              "7 d",
+              "16"
+            ],
+            [
+              "2",
+              "5,200",
+              "65 DPS",
+              "13,000,000 Gold",
+              "8 d",
+              "16"
+            ],
+            [
+              "3",
+              "5,400",
+              "70 DPS",
+              "17,500,000 Gold",
+              "9 d",
+              "17"
+            ],
+            [
+              "4",
+              "5,500",
+              "73 DPS",
+              "27,000,000 Gold",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:archer-tower",
+        "buildings:wizard-tower",
+        "mechanics:defence-mechanics",
+        "troops:minion"
+      ],
+      "priority": "0.6",
+      "h1": "Multi-Archer Tower — Clash of Clans",
+      "head_title": "Multi-Archer Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Why is the Multi-Archer Tower's damage so low?",
+          "a": "Because the figure is per target and the building engages several attackers at once. Its total output against a group is far higher than the listed number suggests, while against a single large unit it contributes very little."
+        },
+        {
+          "q": "What is the Multi-Archer Tower good against?",
+          "a": "Swarms of cheap troops, air or ground, since it splits fire across several attackers simultaneously. It is a poor answer to a small number of high-hitpoint units."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "multi-gear-tower",
+      "name": "Multi-Gear Tower",
+      "description": "The Multi-Gear Tower in Clash of Clans: a Town Hall 17 defence covering air and ground at long range.",
+      "blurb": "Long reach, high damage, both movement types. A genuine all-rounder.",
+      "summary": "The Multi-Gear Tower unlocks at Town Hall 17 with 350 damage per second, 12 tiles of range and coverage of both air and ground. Very few defences are strong on all three axes at once, which makes this one awkward to plan around.",
+      "quick": {
+        "Levels": "3",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "350",
+        "Targets": "Ground and air",
+        "Range": "12 tiles",
+        "Unlocked at": "Town Hall 17",
+        "Role": "Defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>350 damage per second, 12 tiles, air and ground, 3 levels. The point is that it has no obvious hole. Most defences give you an angle: they cannot hit air, or they cannot reach, or they only hurt one unit at a time. This one covers both movement types at long range for real damage.</p>"
+        },
+        {
+          "h": "Placing it",
+          "body": "<p>Central, overlapping with your other heavy defences. A building that answers both air and ground should be covering the compartments where you cannot predict which one is coming. Do not waste that flexibility on a corner where only one kind of attack ever arrives.</p>"
+        },
+        {
+          "h": "What we have not verified",
+          "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Multi-Gear Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,000",
+              "350 DPS",
+              "17,000,000 Gold",
+              "8 d",
+              "17"
+            ],
+            [
+              "2",
+              "4,200",
+              "370 DPS",
+              "18,000,000 Gold",
+              "9 d",
+              "17"
+            ],
+            [
+              "3",
+              "4,350",
+              "390 DPS",
+              "28,000,000 Gold",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:firespitter",
+        "buildings:ricochet-cannon",
+        "mechanics:defence-mechanics",
+        "buildings:scattershot"
+      ],
+      "priority": "0.6",
+      "h1": "Multi-Gear Tower — Clash of Clans",
+      "head_title": "Multi-Gear Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Multi-Gear Tower target?",
+          "a": "Both ground and air, at 12 tiles of range for 350 damage per second, from Town Hall 17. Covering both movement types at long range with real damage makes it unusually hard to plan around as an attacker."
+        },
+        {
+          "q": "Where should the Multi-Gear Tower go?",
+          "a": "Centrally, overlapping your other heavy defences, since its value is answering whichever threat type arrives. Placing it where only one kind of attack ever comes wastes its flexibility."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "pet-house",
+      "name": "Pet House",
+      "description": "Pet House stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "12 levels, from TH14",
+      "summary": "The Pet House is a Home Village building with 12 levels, first available at Town Hall 14.",
+      "quick": {
+        "Levels": "12",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 14"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Pet House stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "700",
+              "—",
+              "3,000,000 Elixir",
+              "1 d",
+              "14"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "4,000,000 Elixir",
+              "2 d",
+              "14"
+            ],
+            [
+              "3",
+              "900",
+              "—",
+              "5,000,000 Elixir",
+              "3 d",
+              "14"
+            ],
+            [
+              "4",
+              "1,000",
+              "—",
+              "6,000,000 Elixir",
+              "3 d 12 h",
+              "14"
+            ],
+            [
+              "5",
+              "1,050",
+              "—",
+              "7,000,000 Elixir",
+              "4 d",
+              "15"
+            ],
+            [
+              "6",
+              "1,100",
+              "—",
+              "8,000,000 Elixir",
+              "4 d 12 h",
+              "15"
+            ],
+            [
+              "7",
+              "1,150",
+              "—",
+              "9,000,000 Elixir",
+              "5 d",
+              "15"
+            ],
+            [
+              "8",
+              "1,200",
+              "—",
+              "10,000,000 Elixir",
+              "5 d 12 h",
+              "15"
+            ],
+            [
+              "9",
+              "1,250",
+              "—",
+              "11,000,000 Elixir",
+              "6 d",
+              "16"
+            ],
+            [
+              "10",
+              "1,300",
+              "—",
+              "12,000,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "11",
+              "1,350",
+              "—",
+              "16,500,000 Elixir",
+              "8 d",
+              "17"
+            ],
+            [
+              "12",
+              "1,400",
+              "—",
+              "25,500,000 Elixir",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "revenge-tower",
+      "name": "Revenge Tower",
+      "description": "The Revenge Tower in Clash of Clans: a Town Hall 18 defence with modest listed damage and long range.",
+      "blurb": "A Town Hall 18 defence whose damage number does not tell the story.",
+      "summary": "The Revenge Tower arrives with Town Hall 18. Its listed damage is low and its range is long, a combination that never describes a straightforward gun, so the interesting part of this building is not in the stat line.",
+      "quick": {
+        "Levels": "2",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "50",
+        "Targets": "Ground and air",
+        "Range": "11 tiles",
+        "Unlocked at": "Town Hall 18",
+        "Role": "Defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>50 damage per second against both air and ground, 11 tiles of range, 2 levels. For context, the Super Wizard Tower that unlocks alongside it lists 290.</p><p>A defence with a fifth of the damage and half again the reach is not competing on damage. Long range plus low damage almost always signals a building whose contribution is something other than raw output, and the name points the same way.</p>"
+        },
+        {
+          "h": "Placing it",
+          "body": "<p>Until the mechanic is pinned down, the safe reading is the one the range gives you: 11 tiles covers a lot of base, so it wants to be somewhere central where its circle overlaps the compartments attackers must enter. Do not displace a high-damage defence for it, and do not count it as your damage on that side.</p>"
+        },
+        {
+          "h": "What we have not verified",
+          "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Revenge Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "5,800",
+              "50 DPS",
+              "430,000 Dark Elixir",
+              "13 d 5 s",
+              "18"
+            ],
+            [
+              "2",
+              "6,200",
+              "60 DPS",
+              "460,000 Dark Elixir",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:super-wizard-tower",
+        "townhalls:town-hall-18",
+        "mechanics:defence-mechanics",
+        "buildings:monolith"
+      ],
+      "priority": "0.6",
+      "h1": "Revenge Tower — Clash of Clans",
+      "head_title": "Revenge Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Revenge Tower do?",
+          "a": "It unlocks at Town Hall 18 and covers both air and ground at 11 tiles for a listed 50 damage per second. That damage is far below other defences at the same Town Hall, which strongly suggests its value lies in a special behaviour rather than output, and we have not verified that behaviour in game yet."
+        },
+        {
+          "q": "Is the Revenge Tower a good defence?",
+          "a": "Its raw damage is low, so it should not replace a heavy hitter in your core. Treat it as supplementary coverage until its actual mechanic is confirmed."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "ricochet-cannon",
+      "name": "Ricochet Cannon",
+      "description": "The Ricochet Cannon in Clash of Clans: a Town Hall 16 ground defence whose shots bounce between targets.",
+      "blurb": "A cannon whose shot carries on to a second target.",
+      "summary": "The Ricochet Cannon unlocks at Town Hall 16 and hits ground only, for 360 damage per second at 9 tiles. The name describes the mechanic: its fire continues past the first target, which is why its effective output against a group is higher than the listed figure suggests.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "360",
+        "Targets": "Ground only",
+        "Range": "9 tiles",
+        "Unlocked at": "Town Hall 16",
+        "Role": "Defence, ground only"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>360 damage per second, 9 tiles, ground only, 4 levels. That is heavy damage at moderate range, with the usual ground-only caveat: it contributes nothing at all against an air attack.</p><p>Because the shot ricochets, its value rises with how tightly the attacking army is packed, in the same way the <a href='../troops/bowler.html'>Bowler</a> punishes buildings that are lined up. An army deployed in a stack takes considerably more from it than the same army spread out.</p>"
+        },
+        {
+          "h": "Placing it",
+          "body": "<p>Where ground armies funnel. Its damage is high enough to matter in the core, and its bounce rewards positions where attacking troops are forced to bunch, such as a compartment entrance or the gap a Jump Spell would open.</p><p>Pair it with anti-air coverage rather than other ground-only defences, since a cluster of ground-only buildings is an invitation to fly over them.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Ricochet Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "5,400",
+              "360 DPS",
+              "12,000,000 Gold",
+              "7 d",
+              "16"
+            ],
+            [
+              "2",
+              "5,700",
+              "390 DPS",
+              "13,000,000 Gold",
+              "8 d",
+              "16"
+            ],
+            [
+              "3",
+              "6,000",
+              "405 DPS",
+              "17,500,000 Gold",
+              "9 d",
+              "17"
+            ],
+            [
+              "4",
+              "6,100",
+              "412 DPS",
+              "26,500,000 Gold",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:cannon",
+        "troops:bowler",
+        "mechanics:defence-mechanics",
+        "buildings:multi-gear-tower"
+      ],
+      "priority": "0.6",
+      "h1": "Ricochet Cannon — Clash of Clans",
+      "head_title": "Ricochet Cannon | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Does the Ricochet Cannon hit air troops?",
+          "a": "No, it targets ground only. It needs to be paired with anti-air coverage, since a base leaning on ground-only defences is straightforward to attack from the air."
+        },
+        {
+          "q": "What is the Ricochet Cannon good against?",
+          "a": "Grouped ground troops, because its shots continue past the first target. An army deployed in a tight stack takes far more from it than one spread along a line."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "scattershot",
+      "name": "Scattershot",
+      "description": "The Scattershot in Clash of Clans: heavy splash damage that shreds grouped troops.",
+      "blurb": "Heavy splash that punishes any army travelling in a group.",
+      "summary": "The Scattershot fires a heavy area attack that hits both air and ground, and it is specifically brutal against troops moving together. It is one of the main reasons late-game attacks spread out.",
+      "quick": {
+        "Levels": "7",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "125",
+        "Targets": "Ground and air",
+        "Range": "10 tiles",
+        "Unlocked at": "Town Hall 13",
+        "Role": "Heavy splash defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Deals substantial area damage covering a wide footprint, against both movement types. Where a Wizard Tower discourages grouping, a Scattershot punishes it outright, removing whole ranks of support troops in a shot.</p>"
+        },
+        {
+          "h": "Attacking and defending it",
+          "body": "<p>On defence, centre it and cover it, since it is a priority target for every serious attacker. On offence, it is the second most common reason to carry a Freeze Spell after the Inferno Tower: freezing a Scattershot as your damage line crosses its coverage is frequently what decides a war attack.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Scattershot stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,600",
+              "125 DPS",
+              "8,000,000 Gold",
+              "5 d",
+              "13"
+            ],
+            [
+              "2",
+              "4,200",
+              "150 DPS",
+              "9,000,000 Gold",
+              "7 d",
+              "13"
+            ],
+            [
+              "3",
+              "4,800",
+              "170 DPS",
+              "11,000,000 Gold",
+              "7 d 12 h",
+              "14"
+            ],
+            [
+              "4",
+              "5,100",
+              "175 DPS",
+              "11,500,000 Gold",
+              "8 d",
+              "15"
+            ],
+            [
+              "5",
+              "5,410",
+              "180 DPS",
+              "12,000,000 Gold",
+              "8 d 12 h",
+              "16"
+            ],
+            [
+              "6",
+              "5,600",
+              "185 DPS",
+              "16,500,000 Gold",
+              "9 d",
+              "17"
+            ],
+            [
+              "7",
+              "5,800",
+              "190 DPS",
+              "26,500,000 Gold",
+              "15 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:freeze-spell",
+        "buildings:eagle-artillery",
+        "mechanics:defence-mechanics",
+        "buildings:wizard-tower"
+      ],
+      "priority": "0.6",
+      "h1": "Scattershot — Clash of Clans",
+      "head_title": "Scattershot | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What counters the Scattershot when attacking?",
+          "a": "Spreading your army so a single shot cannot hit the whole group, and carrying a Freeze Spell for the moment your damage line crosses its coverage. It is one of the two defences that most often justify a freeze."
+        },
+        {
+          "q": "Where should the Scattershot go?",
+          "a": "Centrally and covered by other defences, since attackers prioritise it. Its value comes from hitting armies that must pass through the core, so placing it on the perimeter wastes most of its coverage."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "spell-factory",
+      "name": "Spell Factory",
+      "description": "Spell Factory stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "9 levels, from TH5",
+      "summary": "The Spell Factory is a Home Village building with 9 levels, first available at Town Hall 5.",
+      "quick": {
+        "Levels": "9",
+        "Size": "3x3",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 5"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "425",
+              "—",
+              "150,000 Elixir",
+              "6 h",
+              "5"
+            ],
+            [
+              "2",
+              "470",
+              "—",
+              "300,000 Elixir",
+              "12 h",
+              "6"
+            ],
+            [
+              "3",
+              "520",
+              "—",
+              "600,000 Elixir",
+              "1 d",
+              "7"
+            ],
+            [
+              "4",
+              "600",
+              "—",
+              "1,200,000 Elixir",
+              "2 d",
+              "9"
+            ],
+            [
+              "5",
+              "720",
+              "—",
+              "2,000,000 Elixir",
+              "3 d",
+              "10"
+            ],
+            [
+              "6",
+              "840",
+              "—",
+              "3,500,000 Elixir",
+              "5 d",
+              "11"
+            ],
+            [
+              "7",
+              "960",
+              "—",
+              "9,000,000 Elixir",
+              "7 d",
+              "13"
+            ],
+            [
+              "8",
+              "1,080",
+              "—",
+              "14,000,000 Elixir",
+              "8 d",
+              "15"
+            ],
+            [
+              "9",
+              "1,150",
+              "—",
+              "24,000,000 Elixir",
+              "9 d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "spell-tower",
+      "name": "Spell Tower",
+      "description": "The Spell Tower in Clash of Clans: a Town Hall 15 defence that casts a chosen spell on attacking troops.",
+      "blurb": "A defence that casts a spell at your army instead of shooting it.",
+      "summary": "The Spell Tower unlocks at Town Hall 15 and does something no other building does: rather than dealing damage, it applies a spell effect to attacking troops, and you choose which. That makes it the only defence whose behaviour changes based on a setting you control.",
+      "quick": {
+        "Levels": "4",
+        "Size": "2x2",
+        "Category": "Defense",
+        "Unlocked at": "Town Hall 15",
+        "Role": "Defence, spell effect"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Four levels, a 2x2 footprint, and no damage-per-second figure in the files, because damage is not what it does. It applies an effect to attackers in range, selected by you from the available options.</p><p>Strategically this matters because it is <strong>configurable defence</strong>, in the same way an Inferno Tower's mode is. The right setting is not a preference, it is a response to what is actually beating your base, which you learn by watching <a href='../../tutorials/reading-replays.html'>defence replays</a>.</p>"
+        },
+        {
+          "h": "Placing it",
+          "body": "<p>Where attacking armies concentrate, since an effect applied to two stray troops is wasted and one applied to a full push can decide the attack. That normally means covering the core compartments rather than the perimeter.</p>"
+        },
+        {
+          "h": "What we have not verified",
+          "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Spell Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,500",
+              "—",
+              "9,000,000 Gold",
+              "7 d",
+              "15"
+            ],
+            [
+              "2",
+              "2,800",
+              "—",
+              "11,000,000 Gold",
+              "8 d",
+              "15"
+            ],
+            [
+              "3",
+              "3,100",
+              "—",
+              "12,000,000 Gold",
+              "8 d 12 h",
+              "15"
+            ],
+            [
+              "4",
+              "3,200",
+              "—",
+              "27,000,000 Gold",
+              "10 d",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:inferno-tower",
+        "tutorials:reading-replays",
+        "mechanics:defence-mechanics",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Spell Tower — Clash of Clans",
+      "head_title": "Spell Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "What does the Spell Tower do?",
+          "a": "Instead of dealing damage it applies a spell effect to attacking troops in range, and you select which effect it uses. That makes it the only defence whose behaviour you configure directly, alongside the Inferno Tower's targeting mode."
+        },
+        {
+          "q": "Which spell should my Spell Tower use?",
+          "a": "Whichever counters what is actually beating your base, which you find by watching your own defence replays rather than by picking the one that sounds strongest."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "super-wizard-tower",
+      "name": "Super Wizard Tower",
+      "description": "The Super Wizard Tower in Clash of Clans: a Town Hall 18 defence built by merging two Wizard Towers, with short range and heavy damage.",
+      "blurb": "Two Wizard Towers merged into one much angrier building.",
+      "summary": "The Super Wizard Tower is one of two defences that arrive with Town Hall 18. It is created by merging a pair of Wizard Towers, which means adopting it costs you two defensive footprints and gives back one, and the numbers explain why you would accept that trade.",
+      "quick": {
+        "Levels": "2",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "290",
+        "Targets": "Ground and air",
+        "Range": "8 tiles",
+        "Unlocked at": "Town Hall 18",
+        "Role": "Merged splash defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What the numbers say",
+          "body": "<p>290 damage per second against both air and ground, over a range of 8 tiles, across 2 levels. Two things stand out.</p><p>First, that damage figure is in a different class to the Wizard Towers it replaces, which is the entire argument for merging. Second, <strong>8 tiles is short</strong>, shorter than almost anything else at this Town Hall, so it only covers what is close to it.</p><p>Together those say: this is a core defence, not a perimeter one. Placed on the edge it will contribute very little before it dies, because attackers simply will not walk into an 8 tile circle they can see. Placed in the middle, where an attacker has to come to it, that damage lands on whatever is doing the actual work.</p>"
+        },
+        {
+          "h": "The merge decision",
+          "body": "<p>Merging removes a building from your base. Two Wizard Towers covered two areas; one Super Wizard Tower covers one, harder. That is a straightforward concentration trade and it follows the usual rule from <a href='../mechanics/defence-mechanics.html'>defence mechanics</a>: concentration is good when attackers must pass one place, and bad when it leaves a side uncovered.</p><p>Before merging, tap both Wizard Towers and look at what their circles cover that nothing else does. If the answer is 'a side of the base', you are about to open that side.</p>"
+        },
+        {
+          "h": "What we have not verified",
+          "body": "<div class='note warn'><p><b>Behaviour not yet verified in game.</b> The figures above are read from the game files, so they are solid. The special behaviour of this building is not something the files state plainly, and we would rather leave a gap here than invent a mechanic. If you play at this level and can describe what it actually does, <a href='mailto:support@goblinsfarm.com'>tell us</a> and you will be credited.</p></div>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Super Wizard Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "6,000",
+              "290 DPS",
+              "29,000,000 Gold",
+              "13 d",
+              "18"
+            ],
+            [
+              "2",
+              "6,300",
+              "320 DPS",
+              "30,000,000 Gold",
+              "14 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:wizard-tower",
+        "buildings:revenge-tower",
+        "townhalls:town-hall-18",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.6",
+      "h1": "Super Wizard Tower — Clash of Clans",
+      "head_title": "Super Wizard Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "How do you get a Super Wizard Tower?",
+          "a": "By merging two Wizard Towers at Town Hall 18. That means the building costs you a defensive footprint as well as resources, since two structures become one."
+        },
+        {
+          "q": "Is the Super Wizard Tower worth merging for?",
+          "a": "It trades coverage for concentrated damage, so it depends on your layout. Its range is only 8 tiles, which is short, so it needs to sit where attackers are forced to come to it. If your two Wizard Towers are currently the only cover on separate sides, merging opens a hole."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "town-hall",
+      "name": "Town Hall",
+      "description": "Town Hall stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "1 level, from TH17",
+      "summary": "The Town Hall is a Home Village building with 1 level, first available at Town Hall 17.",
+      "quick": {
+        "Levels": "1",
+        "Size": "4x4",
+        "Category": "Other Building",
+        "Unlocked at": "Town Hall 17"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Town Hall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "—",
+              "0 Gold",
+              "Instant",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "wall",
+      "name": "Wall",
+      "description": "Walls in Clash of Clans: what they do to pathing, compartments, and why they are the best place to dump surplus loot.",
+      "blurb": "Not a barrier. A delay, and the best loot sink in the game.",
+      "summary": "Walls do not stop troops. They force ground units to take a longer route, which they spend under fire. They also consume unlimited resources instantly with no builder and no timer, which makes them the ideal place to put loot you cannot otherwise spend.",
+      "quick": {
+        "Levels": "19",
+        "Size": "1x1",
+        "Category": "Wall",
+        "Unlocked at": "Town Hall 2",
+        "Role": "Barrier, redirects ground troops"
+      },
+      "tags": [
+        {
+          "label": "Wall",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What they actually do",
+          "body": "<p>Ground troops path around walls unless breaking through is genuinely faster, so a wall converts distance into time spent under your defences. Air troops ignore them completely, and several ground units jump, tunnel or smash through.</p><p>The full mechanics are in <a href='../mechanics/walls-and-pathing.html'>walls and pathing</a>.</p>"
+        },
+        {
+          "h": "Upgrading them",
+          "body": "<ul><li><strong>Never a priority, always a sink.</strong> Defences, heroes and research come first; walls take whatever is left.</li><li><strong>No builder, no timer.</strong> You tap and it is done, which is exactly why surplus belongs here.</li><li><strong>Loot in a wall cannot be stolen.</strong> Spending down to nothing before you log off is the single best defensive habit in the game.</li><li><strong>Do not double-wall.</strong> Two adjacent segments cost twice as much and break to the same charge.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Wall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "100",
+              "—",
+              "0 Gold",
+              "Instant",
+              "2"
+            ],
+            [
+              "2",
+              "200",
+              "—",
+              "1,000 Gold",
+              "Instant",
+              "2"
+            ],
+            [
+              "3",
+              "400",
+              "—",
+              "5,000 Gold",
+              "Instant",
+              "3"
+            ],
+            [
+              "4",
+              "800",
+              "—",
+              "10,000 Gold",
+              "Instant",
+              "4"
+            ],
+            [
+              "5",
+              "1,200",
+              "—",
+              "20,000 Gold",
+              "Instant",
+              "5"
+            ],
+            [
+              "6",
+              "1,800",
+              "—",
+              "30,000 Gold",
+              "Instant",
+              "6"
+            ],
+            [
+              "7",
+              "2,400",
+              "—",
+              "50,000 Gold",
+              "Instant",
+              "7"
+            ],
+            [
+              "8",
+              "3,000",
+              "—",
+              "75,000 Gold",
+              "Instant",
+              "8"
+            ],
+            [
+              "9",
+              "3,500",
+              "—",
+              "100,000 Gold",
+              "Instant",
+              "9"
+            ],
+            [
+              "10",
+              "4,000",
+              "—",
+              "200,000 Gold",
+              "Instant",
+              "9"
+            ],
+            [
+              "11",
+              "5,000",
+              "—",
+              "500,000 Gold",
+              "Instant",
+              "10"
+            ],
+            [
+              "12",
+              "7,000",
+              "—",
+              "1,000,000 Gold",
+              "Instant",
+              "11"
+            ],
+            [
+              "13",
+              "8,000",
+              "—",
+              "1,500,000 Gold",
+              "Instant",
+              "12"
+            ],
+            [
+              "14",
+              "9,000",
+              "—",
+              "2,000,000 Gold",
+              "Instant",
+              "13"
+            ],
+            [
+              "15",
+              "10,000",
+              "—",
+              "3,000,000 Gold",
+              "Instant",
+              "14"
+            ],
+            [
+              "16",
+              "11,000",
+              "—",
+              "4,000,000 Gold",
+              "Instant",
+              "15"
+            ],
+            [
+              "17",
+              "12,000",
+              "—",
+              "5,000,000 Gold",
+              "Instant",
+              "16"
+            ],
+            [
+              "18",
+              "13,000",
+              "—",
+              "7,000,000 Gold",
+              "Instant",
+              "17"
+            ],
+            [
+              "19",
+              "14,000",
+              "—",
+              "10,000,000 Gold",
+              "Instant",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:walls-and-pathing",
+        "mechanics:base-building-principles",
+        "troops:wall-breaker",
+        "mechanics:upgrade-priority"
+      ],
+      "priority": "0.6",
+      "h1": "Wall — Clash of Clans",
+      "head_title": "Wall | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Are walls worth upgrading in Clash of Clans?",
+          "a": "Yes, but only with surplus. They need no builder and no timer and accept unlimited resources, which makes them the ideal place to dump loot before logging off, since resources spent on a wall cannot be stolen. They should never come before defences, heroes or research."
+        },
+        {
+          "q": "Do walls stop troops?",
+          "a": "No. They force ground troops to take a longer path, which they spend under fire, and they do nothing at all against air troops, wall-jumpers or tunnelling units."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "wizard-tower",
+      "name": "Wizard Tower",
+      "description": "The Wizard Tower in Clash of Clans: splash damage against both air and ground.",
+      "blurb": "Splash damage that hits air as well as ground.",
+      "summary": "The Wizard Tower deals area damage to both air and ground units, which makes it the most valuable splash defence in most bases: it answers ground swarms and air groups with the same building.",
+      "quick": {
+        "Levels": "17",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "11",
+        "Targets": "Ground and air",
+        "Range": "7 tiles",
+        "Unlocked at": "Town Hall 5",
+        "Role": "Splash defence, air and ground"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Area damage at moderate range against both movement types. Against grouped Minions, grouped Balloons or a wave of cheap ground troops it is exceptional; against a single large unit it does very little.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>Centre them,</strong> covering the compartments an attacker must enter.</li><li><strong>Cover Air Defenses with them.</strong> Air units that group up to kill an Air Defense are exactly what a Wizard Tower punishes.</li><li><strong>Spread them.</strong> Two Wizard Towers under one Rage is a much easier problem for the attacker than two that must be dealt with separately.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "Wizard Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "620",
+              "11 DPS",
+              "100,000 Gold",
+              "1 h",
+              "5"
+            ],
+            [
+              "2",
+              "650",
+              "13 DPS",
+              "150,000 Gold",
+              "1 h 30 m",
+              "5"
+            ],
+            [
+              "3",
+              "680",
+              "16 DPS",
+              "250,000 Gold",
+              "4 h",
+              "6"
+            ],
+            [
+              "4",
+              "730",
+              "20 DPS",
+              "400,000 Gold",
+              "8 h",
+              "7"
+            ],
+            [
+              "5",
+              "840",
+              "24 DPS",
+              "550,000 Gold",
+              "10 h",
+              "8"
+            ],
+            [
+              "6",
+              "960",
+              "32 DPS",
+              "660,000 Gold",
+              "12 h",
+              "8"
+            ],
+            [
+              "7",
+              "1,200",
+              "40 DPS",
+              "1,000,000 Gold",
+              "18 h",
+              "9"
+            ],
+            [
+              "8",
+              "1,440",
+              "45 DPS",
+              "1,100,000 Gold",
+              "20 h",
+              "10"
+            ],
+            [
+              "9",
+              "1,600",
+              "50 DPS",
+              "1,300,000 Gold",
+              "1 d",
+              "10"
+            ],
+            [
+              "10",
+              "1,900",
+              "62 DPS",
+              "2,000,000 Gold",
+              "1 d 6 h",
+              "11"
+            ],
+            [
+              "11",
+              "2,120",
+              "70 DPS",
+              "2,500,000 Gold",
+              "1 d 12 h",
+              "12"
+            ],
+            [
+              "12",
+              "2,240",
+              "78 DPS",
+              "2,600,000 Gold",
+              "1 d 18 h",
+              "13"
+            ],
+            [
+              "13",
+              "2,500",
+              "84 DPS",
+              "3,000,000 Gold",
+              "2 d",
+              "13"
+            ],
+            [
+              "14",
+              "2,800",
+              "90 DPS",
+              "4,500,000 Gold",
+              "3 d",
+              "14"
+            ],
+            [
+              "15",
+              "3,000",
+              "95 DPS",
+              "5,500,000 Gold",
+              "4 d",
+              "15"
+            ],
+            [
+              "16",
+              "3,150",
+              "102 DPS",
+              "8,000,000 Gold",
+              "4 d 12 h",
+              "16"
+            ],
+            [
+              "17",
+              "3,300",
+              "110 DPS",
+              "14,000,000 Gold",
+              "5 d 12 h",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:mortar",
+        "buildings:air-defense",
+        "mechanics:defence-mechanics",
+        "troops:minion"
+      ],
+      "priority": "0.6",
+      "h1": "Wizard Tower — Clash of Clans",
+      "head_title": "Wizard Tower | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Is the Wizard Tower better than the Mortar?",
+          "a": "For most bases yes, because it damages air as well as ground, so it answers two threat categories with one building. Mortars remain useful as additional ground splash, particularly in the early game."
+        },
+        {
+          "q": "What is the Wizard Tower good against?",
+          "a": "Any group of units, air or ground. It punishes Minions and Balloons that cluster to kill an Air Defense, and it clears waves of cheap ground troops. Against a single large unit it contributes very little."
+        }
+      ],
+      "has_prose": true
+    },
+    {
+      "slug": "workshop",
+      "name": "Workshop",
+      "description": "Workshop stats for every level in Clash of Clans: build cost, build time, hitpoints and the Town Hall each level needs.",
+      "blurb": "9 levels, from TH12",
+      "summary": "The Workshop is a Home Village building with 9 levels, first available at Town Hall 12.",
+      "quick": {
+        "Levels": "9",
+        "Size": "4x4",
+        "Category": "Army Building",
+        "Unlocked at": "Town Hall 12"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Workshop stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "2,400,000 Elixir",
+              "2 d",
+              "12"
+            ],
+            [
+              "2",
+              "1,100",
+              "—",
+              "3,700,000 Elixir",
+              "3 d",
+              "12"
+            ],
+            [
+              "3",
+              "1,200",
+              "—",
+              "5,000,000 Elixir",
+              "3 d 12 h",
+              "12"
+            ],
+            [
+              "4",
+              "1,300",
+              "—",
+              "8,700,000 Elixir",
+              "4 d",
+              "13"
+            ],
+            [
+              "5",
+              "1,400",
+              "—",
+              "9,000,000 Elixir",
+              "5 d",
+              "13"
+            ],
+            [
+              "6",
+              "1,500",
+              "—",
+              "10,000,000 Elixir",
+              "5 d 12 h",
+              "14"
+            ],
+            [
+              "7",
+              "1,600",
+              "—",
+              "11,000,000 Elixir",
+              "6 d",
+              "15"
+            ],
+            [
+              "8",
+              "1,700",
+              "—",
+              "13,000,000 Elixir",
+              "7 d",
+              "16"
+            ],
+            [
+              "9",
+              "1,800",
+              "—",
+              "26,000,000 Elixir",
+              "13 d 12 h",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "related": [],
+      "priority": "0.6",
+      "has_prose": false
+    },
+    {
+      "slug": "x-bow",
+      "name": "X-Bow",
+      "description": "The X-Bow in Clash of Clans: long-range rapid fire, and the ground or air targeting choice.",
+      "blurb": "Long range, rapid fire, and a targeting mode you have to choose.",
+      "summary": "The X-Bow fires quickly at long range and can be set to target ground only or both ground and air, with different range depending on the mode. It covers a large area, which makes its placement unusually consequential.",
+      "quick": {
+        "Levels": "13",
+        "Size": "3x3",
+        "Category": "Defense",
+        "Damage per second": "60",
+        "Targets": "Ground only",
+        "Range": "14 tiles",
+        "Unlocked at": "Town Hall 9",
+        "Role": "Long-range defence, mode-dependent targeting"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it does",
+          "body": "<p>Rapid single-target fire over a long distance. Its targeting mode determines whether it hits air as well as ground, and the two modes come with different coverage, so the choice is about which threat you actually face rather than which sounds better.</p>"
+        },
+        {
+          "h": "Placement",
+          "body": "<ul><li><strong>Centre it.</strong> Its range means a centrally placed X-Bow covers most of the base; a corner one covers empty ground.</li><li><strong>Match the mode to your weakness.</strong> If your base loses to air, the extra air coverage is worth more than the extra range.</li><li><strong>Remember it needs loading.</strong> An X-Bow out of ammunition is a decoration, and forgetting to refill is a genuinely common way to lose defences.</li></ul>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "X-Bow stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "60 DPS",
+              "1,000,000 Gold",
+              "12 h",
+              "9"
+            ],
+            [
+              "2",
+              "1,900",
+              "70 DPS",
+              "1,200,000 Gold",
+              "1 d",
+              "9"
+            ],
+            [
+              "3",
+              "2,300",
+              "80 DPS",
+              "2,400,000 Gold",
+              "2 d",
+              "9"
+            ],
+            [
+              "4",
+              "2,700",
+              "85 DPS",
+              "2,500,000 Gold",
+              "2 d 12 h",
+              "10"
+            ],
+            [
+              "5",
+              "3,100",
+              "95 DPS",
+              "3,900,000 Gold",
+              "3 d",
+              "11"
+            ],
+            [
+              "6",
+              "3,400",
+              "110 DPS",
+              "5,000,000 Gold",
+              "3 d 12 h",
+              "12"
+            ],
+            [
+              "7",
+              "3,700",
+              "130 DPS",
+              "6,000,000 Gold",
+              "4 d",
+              "13"
+            ],
+            [
+              "8",
+              "4,000",
+              "155 DPS",
+              "7,000,000 Gold",
+              "4 d 12 h",
+              "13"
+            ],
+            [
+              "9",
+              "4,200",
+              "185 DPS",
+              "9,000,000 Gold",
+              "5 d",
+              "14"
+            ],
+            [
+              "10",
+              "4,400",
+              "205 DPS",
+              "9,500,000 Gold",
+              "5 d 12 h",
+              "15"
+            ],
+            [
+              "11",
+              "4,600",
+              "225 DPS",
+              "10,000,000 Gold",
+              "6 d",
+              "16"
+            ],
+            [
+              "12",
+              "4,800",
+              "235 DPS",
+              "16,000,000 Gold",
+              "8 d",
+              "17"
+            ],
+            [
+              "13",
+              "5,000",
+              "245 DPS",
+              "26,000,000 Gold",
+              "13 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "buildings:inferno-tower",
+        "buildings:eagle-artillery",
+        "mechanics:defence-mechanics",
+        "mechanics:base-building-principles"
+      ],
+      "priority": "0.6",
+      "h1": "X-Bow — Clash of Clans",
+      "head_title": "X-Bow | Clash of Clans Wiki | Goblins Farm",
+      "faq": [
+        {
+          "q": "Should my X-Bow target ground or air?",
+          "a": "Set it against whatever is actually beating your base, since the two modes trade coverage differently. If air attacks are the problem, the air-capable mode is worth more than the extra ground range."
+        },
+        {
+          "q": "Do X-Bows need to be reloaded?",
+          "a": "Yes, and forgetting is a common cause of lost defences. An unloaded X-Bow does nothing at all, so check it whenever you log in."
+        }
+      ],
+      "has_prose": true
+    }
+  ]
+}

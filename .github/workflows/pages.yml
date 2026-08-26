@@ -23,6 +23,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Strip non-public sources from the artifact
+        # upload-pages-artifact publishes the path verbatim with no Jekyll step, so
+        # anything left here is served at goblinsfarm.com. The generator inputs and
+        # the content strategy stay in git but must not be public: _build/prose/*.json
+        # is the entire wiki as clean structured JSON, which is exactly what we do not
+        # want handed to a scraper.
+        run: rm -rf _build CONTENT-PLAN.md
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .

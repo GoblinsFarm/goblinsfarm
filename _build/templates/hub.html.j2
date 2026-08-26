@@ -1,0 +1,35 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p class="lede">{{ page.summary }}</p>
+
+{%- for s in page.sections %}
+<h2 id="{{ s.id }}">{{ s.h }}</h2>
+{{ s.body }}
+{%- endfor %}
+
+{%- for g in page.groups %}
+<h2 id="{{ g.id }}">{{ g.h }}</h2>
+{%- if g.blurb %}<p>{{ g.blurb }}</p>{% endif %}
+{%- if g.style == 'list' %}
+<ul class="linklist">
+{%- for it in g.links %}
+<li><a href="{{ rel }}{{ it.href }}">{{ it.label }}</a></li>
+{%- endfor %}
+</ul>
+{%- else %}
+<div class="grid">
+{%- for it in g.links %}
+<a class="card" href="{{ rel }}{{ it.href }}"><b>{{ it.label }}</b><span>{{ it.blurb }}</span></a>
+{%- endfor %}
+</div>
+{%- endif %}
+{%- endfor %}
+
+{%- if page.faq %}
+<h2 id="faq">Frequently asked</h2>
+{%- for f in page.faq %}
+<h3>{{ f.q }}</h3>
+<p>{{ f.a }}</p>
+{%- endfor %}
+{%- endif %}
+{% endblock %}

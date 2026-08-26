@@ -1,0 +1,71 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p class="lede">{{ page.summary }}</p>
+{%- if page.stat_only %}
+<div class="note"><p><b>Reference page.</b> This entry carries verified level data but does not yet have a written strategy section. Behaviour and counter notes are being added across the wiki; the tables below are as complete as the source snapshot allows.</p></div>
+{%- endif %}
+
+{%- if page.quick %}
+<div class="quick">
+<dl>
+{%- for k, v in page.quick.items() %}
+<dt>{{ k }}</dt><dd{% if v == site.todo %} class="todo"{% endif %}>{{ v }}</dd>
+{%- endfor %}
+</dl>
+</div>
+{%- endif %}
+
+{%- if page.sections|length > 2 %}
+<div class="toc">
+<h2>On this page</h2>
+<ol>
+{%- for s in page.sections %}
+<li><a href="#{{ s.id }}">{{ s.h }}</a></li>
+{%- endfor %}
+{%- if page.tables %}<li><a href="#stats">Stats by level</a></li>{% endif %}
+{%- if page.faq %}<li><a href="#faq">Frequently asked</a></li>{% endif %}
+</ol>
+</div>
+{%- endif %}
+
+{%- for s in page.sections %}
+<h2 id="{{ s.id }}">{{ s.h }}</h2>
+{{ s.body }}
+{%- endfor %}
+
+{%- if page.tables %}
+<h2 id="stats">Stats by level</h2>
+{%- for t in page.tables %}
+<div class="tablewrap">
+<table>
+{%- if t.caption %}<caption>{{ t.caption }}</caption>{% endif %}
+<thead><tr>{% for c in t.columns %}<th>{{ c }}</th>{% endfor %}</tr></thead>
+<tbody>
+{%- for row in t.rows %}
+<tr>{% for cell in row %}<td{% if cell == site.todo %} class="todo"{% endif %}>{{ cell }}</td>{% endfor %}</tr>
+{%- endfor %}
+</tbody>
+</table>
+</div>
+{%- endfor %}
+<div class="note">
+{%- if page.source %}
+<p><b>Where these numbers come from.</b> {% if page.source.game_version %}Read from <a href="{{ page.source.url }}" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>{{ page.source.game_version }}</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.{% else %}{{ page.source.caption }}. Source: <a href="{{ page.source.url }}" rel="nofollow noopener" target="_blank">{{ page.source.name }}</a>.{% endif %}</p>
+{%- else %}
+<p><b>Numbers pending verification.</b> Supercell rebalances troops, defences and costs in most updates, so figures here are filled from the live game rather than guessed.</p>
+{%- endif %}
+{%- if page.has_todo %}
+<p>Cells marked <span class="todo">{{ site.todo }}</span> are values the source snapshot does not contain. They are left blank deliberately rather than estimated. A dash means the field does not apply, which is a different thing.</p>
+{%- endif %}
+{%- if page.source %}<p style="font-size:13px;color:#9a8567;margin-bottom:0">{{ page.source.attribution }}</p>{% endif %}
+</div>
+{%- endif %}
+
+{%- if page.faq %}
+<h2 id="faq">Frequently asked</h2>
+{%- for f in page.faq %}
+<h3>{{ f.q }}</h3>
+<p>{{ f.a }}</p>
+{%- endfor %}
+{%- endif %}
+{% endblock %}

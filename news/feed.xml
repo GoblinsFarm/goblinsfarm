@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Goblins Farm — Clash of Clans news</title>
+<link>https://goblinsfarm.com/news/</link>
+<atom:link href="https://goblinsfarm.com/news/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Clash of Clans update coverage, balance change breakdowns and community news, written for players who want the mechanics explained rather than the patch notes copy-pasted.</description>
+<language>en</language>
+<item>
+<title>How we source the numbers in this wiki</title>
+<link>https://goblinsfarm.com/news/how-we-source-wiki-numbers.html</link>
+<guid isPermaLink="true">https://goblinsfarm.com/news/how-we-source-wiki-numbers.html</guid>
+<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+<description>Where the stat tables in this Clash of Clans wiki come from, why we threw away the first data source, what is deliberately left blank, and the training-cost correction it turned up.</description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,32 @@
+{
+  "name": "Goblins Farm",
+  "base_url": "https://goblinsfarm.com",
+  "updated": "25 August 2026",
+  "iso_updated": "2026-08-25",
+  "todo": "TODO",
+  "news_description": "Clash of Clans update coverage, balance change breakdowns and community news, written for players who want the mechanics explained rather than the patch notes copy-pasted.",
+  "llms_summary": "Goblins Farm publishes a free, independent Clash of Clans wiki and tutorial library covering troops, spells, heroes, defences, Town Hall progression and game mechanics. It also sells Goblins Farm, a screen-reading Clash of Clans farming bot for Windows and macOS that runs the game inside the free BlueStacks emulator. Licences are one-time lifetime purchases: Main Base 60 EUR, Builder Base 60 EUR, both for 100 EUR.",
+  "llms_note": "The wiki and tutorial sections are reference material about the game itself and are free to read with no account. They are unofficial fan content and not affiliated with Supercell. The bot is a separate paid product; automating the game violates Supercell's Terms of Service and carries account risk that is never zero.",
+  "nav": [
+    {"label": "Wiki", "href": "wiki/", "section": "wiki"},
+    {"label": "Tutorials", "href": "tutorials/", "section": "tutorials"},
+    {"label": "News", "href": "news/", "section": "news"},
+    {"label": "Bot", "href": "#pricing", "section": "product"}
+  ],
+  "guides": [
+    {"slug": "coc-bot", "href": "/guides/clash-of-clans-bot.html", "label": "Clash of Clans bot, the complete guide", "priority": "0.9"},
+    {"slug": "mybot-alternative", "href": "/guides/mybot-alternative.html", "label": "MyBot alternative", "priority": "0.8"},
+    {"slug": "farming-bot", "href": "/guides/clash-of-clans-farming-bot.html", "label": "CoC farming bot, targets and thresholds", "priority": "0.8"},
+    {"slug": "builder-base-bot", "href": "/guides/builder-base-bot.html", "label": "Builder Base bot", "priority": "0.8"},
+    {"slug": "coc-bot-mac", "href": "/guides/coc-bot-mac.html", "label": "CoC bot for Mac", "priority": "0.8"},
+    {"slug": "coc-bot-windows", "href": "/guides/coc-bot-windows.html", "label": "CoC bot for Windows", "priority": "0.7"},
+    {"slug": "bluestacks-setup", "href": "/guides/coc-bot-bluestacks-setup.html", "label": "BlueStacks setup for botting", "priority": "0.7"},
+    {"slug": "botting-safe", "href": "/guides/is-coc-botting-safe.html", "label": "Ban risk, honestly", "priority": "0.7"},
+    {"slug": "remote-control", "href": "/guides/coc-bot-remote-control.html", "label": "Remote control from your phone", "priority": "0.7"},
+    {"slug": "best-bot", "href": "/guides/best-clash-of-clans-bot.html", "label": "Best Clash of Clans bot, compared", "priority": "0.7"},
+    {"slug": "free-bot", "href": "/guides/clash-of-clans-bot-free.html", "label": "Free Clash of Clans bots", "priority": "0.7"},
+    {"slug": "dark-elixir-bot", "href": "/guides/dark-elixir-farming-bot.html", "label": "Dark elixir farming bot", "priority": "0.7"},
+    {"slug": "farming-guide", "href": "/guides/clash-of-clans-farming-guide.html", "label": "Clash of Clans farming guide", "priority": "0.7"},
+    {"slug": "loot-calculator", "href": "/guides/loot-calculator.html", "label": "Loot calculator", "priority": "0.7"}
+  ]
+}

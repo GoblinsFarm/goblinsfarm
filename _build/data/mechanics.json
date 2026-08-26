@@ -1,0 +1,1685 @@
+{
+  "hub": {
+    "nav_label": "Mechanics",
+    "h1": "Clash of Clans Mechanics",
+    "head_title": "Clash of Clans Mechanics Explained — Loot, Shields, Matchmaking, AI",
+    "description": "How Clash of Clans actually works underneath: loot availability, shields and Village Guard, matchmaking, troop AI and pathing, war scoring, and the rules the game never spells out.",
+    "summary": "The rules the game does not print. Loot percentages, shield timers, why your Giants walked around the wall you built for them, how war matchmaking decides your opponent, and what the search screen is really doing while you press next. These are the pages that make every other page make sense.",
+    "groups": [
+      {
+        "h": "Loot, shields and the farming loop",
+        "blurb": "Everything that determines how much you gain per attack and how much you lose per defence.",
+        "members": [
+          "Loot mechanics",
+          "Shields and Village Guard",
+          "Matchmaking and the search screen",
+          "Trophies and leagues",
+          "Dark elixir"
+        ]
+      },
+      {
+        "h": "Combat",
+        "blurb": "How troops choose targets, how walls really work, and why attacks fail.",
+        "members": [
+          "Troop targeting and AI",
+          "Walls and pathing",
+          "Clan Castle troops",
+          "Spell mechanics",
+          "Funnelling",
+          "Siege machines"
+        ]
+      },
+      {
+        "h": "Defence and base building",
+        "members": [
+          "Defence mechanics",
+          "Base building principles"
+        ]
+      },
+      {
+        "h": "Clan game modes",
+        "members": [
+          "Clan Wars",
+          "Clan War Leagues",
+          "Clan Capital and Raid Weekends",
+          "War weight"
+        ]
+      },
+      {
+        "h": "Progression systems",
+        "members": [
+          "Builder Base",
+          "Super Troops",
+          "Hero Equipment",
+          "Magic items",
+          "Season Challenges and the Gold Pass",
+          "Upgrade priority"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do these mechanics change with updates?",
+        "a": "The systems described here are stable across years; the numbers attached to them are not. Supercell has adjusted loot percentages, shield durations and league bonuses many times, but the underlying rules, that collectors hold a larger stealable share than storages, that damage grants a shield, that troops pick the nearest valid target, have held throughout."
+      },
+      {
+        "q": "Where should I start?",
+        "a": "If you are farming, read loot mechanics, then shields and Village Guard, then matchmaking. If your attacks keep failing, read troop targeting and AI, then walls and pathing, then funnelling, in that order."
+      }
+    ],
+    "related": [
+      {
+        "href": "tutorials/",
+        "label": "Tutorials — apply these mechanics step by step"
+      },
+      {
+        "href": "wiki/",
+        "label": "Wiki index"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "slug": "loot-mechanics",
+      "name": "Loot mechanics",
+      "h1": "Loot Mechanics: How Much You Can Actually Steal",
+      "head_title": "Clash of Clans Loot Mechanics — Collectors, Storages and Available Loot",
+      "description": "How Clash of Clans decides how much gold, elixir and dark elixir is available in an attack: collector share versus storage share, Town Hall loot, the loot cart, and league bonuses.",
+      "blurb": "Why the loot preview says 340k when the defender has three million in the bank.",
+      "summary": "The number on the search screen is not the defender's bank balance. It is a calculated slice, and the slice is calculated very differently depending on where the resources are sitting. Understanding that one distinction is the single biggest jump in farming efficiency most players ever make.",
+      "quick": {
+        "Applies to": "Multiplayer attacks on the main village",
+        "Two loot pools": "Collectors and mines, versus storages",
+        "Key rule": "A far larger share of collector loot is stealable than storage loot",
+        "Also stealable": "Town Hall contents, and the Clan Castle in some modes",
+        "Not stealable": "Loot already spent on an upgrade in progress"
+      },
+      "tags": [
+        {
+          "label": "Farming",
+          "kind": "gold"
+        },
+        {
+          "label": "Core mechanic"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The two loot pools",
+          "body": "<p>Every base you attack holds resources in two fundamentally different places, and the game treats them under different rules.</p><p><strong>Collector loot</strong> lives in gold mines, elixir collectors and dark elixir drills. These buildings generate resources continuously and hold them until the owner taps to collect. A large proportion of whatever is sitting in them is available to you. This is why an inactive base is such a prize: the owner has not logged in to empty the collectors, so they are capped and full, and almost all of that is yours if you can destroy the buildings.</p><p><strong>Storage loot</strong> lives in gold storages, elixir storages and the dark elixir storage. Only a modest percentage of what is in storage is available, and that percentage falls as the defender's Town Hall level rises relative to yours. A player sitting on three million gold is not offering you three million gold; they are offering you a fraction, and the loot preview shows you that fraction before you commit.</p><p>The practical consequence is that two bases showing the same loot preview can be worth wildly different amounts of effort. One has the loot spread across eight lightly defended collectors on the perimeter. The other has it locked in two storages behind the core. Same number, completely different attack.</p>"
+        },
+        {
+          "h": "Reading the loot preview",
+          "body": "<p>The preview on the search screen tells you the total available, not where it is. Learning to guess the split at a glance is the core farming skill:</p><ul><li><strong>Collectors visibly full</strong>, gold piled high on the mines, drills glowing: most of that preview is surface loot. A cheap army takes it without ever touching a wall.</li><li><strong>Collectors empty but a big preview number</strong>: the loot is in storages, in the core, behind defences. That is a real attack, and you need to decide whether the haul justifies the army.</li><li><strong>Preview number close to your minimum</strong>: remember that you will not get one hundred per cent of it. Troops die, timers expire, buildings survive. Budget for taking sixty to eighty per cent of the preview on a good attack.</li></ul><p>The other half of the calculation used to be what your army cost to train. It no longer is: troops are free and there is no training queue, so an attack has nothing to earn back before it turns a profit. What an attack still costs you is the <strong>search fee</strong>, a fixed gold charge per attack set by your Town Hall level, and your time. That makes the decision simpler than it used to be. Any base above your minimum is worth attacking, and the skill is entirely in setting the minimum and skipping quickly, as covered in the <a href='../../tutorials/farming-loop.html'>farming loop tutorial</a>.</p>"
+        },
+        {
+          "h": "Town Hall loot and the Town Hall snipe",
+          "body": "<p>The Town Hall itself holds a small stash of resources, and destroying it awards that stash plus a star plus, historically, a shield. This created the classic <em>Town Hall snipe</em>: find a base whose Town Hall sits outside the walls, drop one or two cheap troops on it, take the loot and the star, and walk away in thirty seconds.</p><p>Supercell has adjusted this repeatedly over the years, and modern versions of the game are much less generous to snipers than early ones were. The general shape survives, though: an exposed Town Hall is free value, and burying your own Town Hall inside your walls is basic self-defence. If you see a Town Hall sitting outside the wall on a base with full collectors, you are looking at one of the cheapest attacks in the game.</p>"
+        },
+        {
+          "h": "The loot cart",
+          "body": "<p>When your own village is attacked, a portion of what the attacker stole from you reappears in a loot cart on your map. Tapping it returns those resources to you for free. It is small, it is easy to miss behind a building, and it is pure profit.</p><p>The habit worth building: every single time you open the game, sweep the map for the cart before you do anything else. Over months, a player who always collects the cart is meaningfully ahead of one who does not, and it costs nothing but attention.</p>"
+        },
+        {
+          "h": "League bonuses",
+          "body": "<p>Stolen loot is not the only income from an attack. Winning an attack also pays a <strong>league bonus</strong>, a flat award of gold, elixir and dark elixir determined by the league you are currently in. Higher leagues pay dramatically more.</p><p>This is the counterweight to the classic advice to drop trophies for easier bases. Low leagues offer weak opposition and plentiful inactive bases but nearly no bonus; high leagues offer a bonus that can rival the stolen loot itself but demand an army that reliably wins. There is no universal correct answer, only a break-even point that depends on your win rate and how much skipping you will tolerate. The full trade-off is laid out in <a href='trophies-and-leagues.html'>trophies and leagues</a>.</p>"
+        },
+        {
+          "h": "Protecting your own loot",
+          "body": "<p>Defence in Clash of Clans is not mainly about winning defences. It is about being unprofitable to attack. Three habits do most of the work:</p><ul><li><strong>Never log off rich.</strong> Loot committed to an upgrade cannot be stolen. Before you close the game, dump surplus into whatever upgrade you can afford, walls included. Walls are the perfect sink because they consume any amount at any time.</li><li><strong>Collect your collectors, or do not.</strong> Full collectors are a magnet, but resources in collectors that you never collect are also resources you are not using. Collect and spend, in one motion.</li><li><strong>Bury your storages.</strong> Storages on the perimeter are surface loot. Storages in separate walled compartments in the core force an attacker to commit a real army for each one. See <a href='base-building-principles.html'>base building principles</a>.</li></ul><p>An attacker who scouts you, sees empty storages and a maxed-out upgrade queue will press next, and pressing next is exactly what you want them to do.</p>"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "How much a single attack can take from a village at each Town Hall level, and what the attacker pays to search. Percentages are of the defender's current storage contents.",
+          "columns": [
+            "Town Hall",
+            "Storage loot",
+            "Max per attack",
+            "Dark elixir",
+            "Max dark elixir",
+            "Search fee"
+          ],
+          "rows": [
+            [
+              "TH1",
+              "20%",
+              "200,000",
+              "6%",
+              "2,000",
+              "5"
+            ],
+            [
+              "TH2",
+              "20%",
+              "200,000",
+              "6%",
+              "2,000",
+              "10"
+            ],
+            [
+              "TH3",
+              "20%",
+              "200,000",
+              "6%",
+              "2,000",
+              "50"
+            ],
+            [
+              "TH4",
+              "20%",
+              "200,000",
+              "6%",
+              "2,000",
+              "100"
+            ],
+            [
+              "TH5",
+              "20%",
+              "200,000",
+              "6%",
+              "2,000",
+              "150"
+            ],
+            [
+              "TH6",
+              "20%",
+              "200,000",
+              "6%",
+              "2,000",
+              "250"
+            ],
+            [
+              "TH7",
+              "18%",
+              "360,000",
+              "6%",
+              "2,000",
+              "350"
+            ],
+            [
+              "TH8",
+              "16%",
+              "480,000",
+              "6%",
+              "2,400",
+              "550"
+            ],
+            [
+              "TH9",
+              "14%",
+              "560,000",
+              "5%",
+              "4,700",
+              "750"
+            ],
+            [
+              "TH10",
+              "14%",
+              "595,000",
+              "5%",
+              "5,000",
+              "900"
+            ],
+            [
+              "TH11",
+              "14%",
+              "700,000",
+              "5%",
+              "5,500",
+              "1,000"
+            ],
+            [
+              "TH12",
+              "14%",
+              "980,000",
+              "5%",
+              "6,000",
+              "1,100"
+            ],
+            [
+              "TH13",
+              "14%",
+              "1,260,000",
+              "5%",
+              "7,500",
+              "1,200"
+            ],
+            [
+              "TH14",
+              "14%",
+              "1,400,000",
+              "5%",
+              "8,700",
+              "1,300"
+            ],
+            [
+              "TH15",
+              "14%",
+              "1,540,000",
+              "5%",
+              "9,200",
+              "1,400"
+            ],
+            [
+              "TH16",
+              "14%",
+              "1,610,000",
+              "5%",
+              "9,500",
+              "1,500"
+            ],
+            [
+              "TH17",
+              "14%",
+              "1,680,000",
+              "5%",
+              "9,800",
+              "1,600"
+            ],
+            [
+              "TH18",
+              "14%",
+              "1,750,000",
+              "5%",
+              "10,100",
+              "1,700"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why can I only steal a small part of someone's gold?",
+          "a": "Because storage loot is deliberately capped. Only a set percentage of what a defender holds in storages is available to an attacker, and that percentage shrinks further when the defender's Town Hall is lower than yours. Collector loot is not capped the same way, which is why inactive bases with full mines are far more profitable than active bases with fat storages."
+        },
+        {
+          "q": "What is the loot cart?",
+          "a": "A cart that appears on your own village after you are attacked, holding a share of the resources the attacker took. Tapping it returns those resources to you at no cost. It is easy to overlook behind buildings, so check for it every time you log in."
+        },
+        {
+          "q": "Is it better to farm collectors or storages?",
+          "a": "Collectors, most of the time, because a much larger share of collector loot is stealable and collectors are usually the easiest buildings on the map to reach. Commit to a storage attack only when the loot preview is large enough to justify a full army and the losses that come with going into the core."
+        }
+      ],
+      "related": [
+        "mechanics:shields-and-village-guard",
+        "mechanics:matchmaking-and-search",
+        "mechanics:trophies-and-leagues",
+        "mechanics:dark-elixir",
+        "guides:loot-calculator"
+      ],
+      "show_tool_note": true,
+      "priority": "0.8",
+      "source": {
+        "name": "Supercell game files (official asset CDN)",
+        "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+        "snapshot_date": "18.350.7",
+        "game_version": "18.350.7",
+        "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+        "fetched": "2026-08-26",
+        "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+        "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+      }
+    },
+    {
+      "slug": "shields-and-village-guard",
+      "name": "Shields and Village Guard",
+      "h1": "Shields and Village Guard Explained",
+      "head_title": "Clash of Clans Shields and Village Guard — How They Really Work",
+      "description": "How shields are earned and broken in Clash of Clans, what Village Guard does, how attacking under a shield costs you time, and how farmers use the shield cycle deliberately.",
+      "blurb": "The timer that decides when you can be attacked, and how to use it on purpose.",
+      "summary": "A shield stops other players attacking your village. Village Guard does the same thing for a shorter window without the restrictions. Together they set the rhythm of the game: when you are safe, when you are exposed, and when your loot is at risk. Most players treat shields as something that happens to them. Efficient players treat them as a resource to spend.",
+      "quick": {
+        "What a shield does": "Prevents other players from attacking your village",
+        "How you get one": "Automatically, when an attacker does enough damage to your base",
+        "Shield strength": "Scales with the damage percentage the attacker achieved",
+        "Village Guard": "A shorter protected window with no attack penalty",
+        "Cost of attacking": "Attacking under a shield reduces its remaining time"
+      },
+      "tags": [
+        {
+          "label": "Farming",
+          "kind": "gold"
+        },
+        {
+          "label": "Defence"
+        }
+      ],
+      "sections": [
+        {
+          "h": "How you get a shield",
+          "body": "<p>You are awarded a shield when someone attacks your village and does enough damage. The more damage they do, the longer the shield: a scrape gives you nothing, a partial destruction gives you a short shield, and a full wipe gives you the longest one. The exact thresholds and durations are Supercell's to change and have moved several times over the years, but the shape is constant, <strong>more damage taken means more protection granted</strong>.</p><p>This produces a counterintuitive truth that trips up new players: <em>losing a defence is not necessarily bad</em>. If your storages are empty because you spent everything before logging off, an attacker who flattens your base has taken almost nothing from you and handed you hours of free, protected farming time. You have effectively traded trophies you did not need for safety you did.</p>"
+        },
+        {
+          "h": "Village Guard",
+          "body": "<p>Village Guard is a short protected period, typically measured in tens of minutes to a few hours, during which you cannot be attacked. It appears in several situations: after a shield expires, after certain attacks, and as a reward from various parts of the game.</p><p>The critical difference from a shield is that <strong>attacking during Village Guard does not consume it</strong>. Under a shield, going on the offensive costs you protection. Under Guard, it does not. That makes Guard the single best window in the game to farm aggressively: you can attack repeatedly, stack up loot, and remain untouchable while you do it.</p><p>The mistake almost everyone makes is letting Guard tick away while they are at work or asleep. Guard is only worth what you do with it. If you see Guard time on the clock, that is the moment to train an army and go.</p>"
+        },
+        {
+          "h": "Attacking while shielded",
+          "body": "<p>You can attack while holding a shield, but it costs you. Each attack reduces the shield's remaining duration, and after a limited number of attacks the shield ends entirely. The game tells you this before you commit, with a warning on the attack button.</p><p>How to think about it: a shield is a stock of protected hours, and each attack spends some of that stock. Spend it deliberately. Three high-value attacks that fund a hero upgrade are a good use of a shield. Five aimless attacks that net you nothing and end your protection early are not.</p><ul><li><strong>Scout before you spend.</strong> If you are going to burn shield time, make it count. Skip harder and set a higher loot minimum than you would normally.</li><li><strong>Empty your storages first.</strong> The instant your shield ends you are exposed. Enter that moment with nothing worth taking.</li><li><strong>Watch the queue.</strong> There is no point ending your shield to gather loot you have nowhere to spend. Have upgrades ready to start.</li></ul>"
+        },
+        {
+          "h": "The farmer's shield cycle",
+          "body": "<p>Experienced farmers run a repeating loop rather than playing at random:</p><ol><li>Log in, collect the loot cart and the collectors.</li><li>Immediately queue upgrades so storages sit low.</li><li>Fill an army, which is instant and free, and attack through whatever shield or Guard time is available rather than hoarding it.</li><li>Spend the returns before logging off, walls absorbing whatever is left over.</li><li>Get attacked while offline, be worth almost nothing to the attacker, and receive a fresh shield for the trouble.</li></ol><p>Run consistently, this converts the thing that feels like a punishment, being raided, into a scheduling tool. You are never protecting a pile of loot, because there is never a pile of loot to protect.</p><div class='note'><p><b>A note on purchased protection.</b> Shields have historically been buyable with gems. Whether that is ever worth it depends entirely on what you are protecting. If your storages are full and a hero upgrade is one attack away, maybe. If you follow the cycle above, you will almost never need to, which is rather the point.</p></div>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does attacking break my shield in Clash of Clans?",
+          "a": "Not immediately. Attacking while shielded reduces the shield's remaining time, and the shield ends after a limited number of attacks. Village Guard is different: attacking during Guard does not consume it at all, which makes Guard the best window to farm aggressively."
+        },
+        {
+          "q": "Is losing a defence bad?",
+          "a": "Often it is actively good. If your storages are empty, an attacker who destroys your base takes almost nothing and you receive a shield in exchange. Farmers deliberately keep storages low precisely so that defeats cost them little and buy them protected time."
+        },
+        {
+          "q": "What is the difference between a shield and Village Guard?",
+          "a": "Both prevent other players from attacking you. A shield is longer and is spent when you attack; Village Guard is shorter but is not consumed by attacking, so you can farm freely underneath it."
+        }
+      ],
+      "related": [
+        "mechanics:loot-mechanics",
+        "mechanics:trophies-and-leagues",
+        "mechanics:matchmaking-and-search",
+        "tutorials:farming-loop"
+      ],
+      "show_tool_note": true,
+      "priority": "0.8"
+    },
+    {
+      "slug": "matchmaking-and-search",
+      "name": "Matchmaking and the search screen",
+      "h1": "Matchmaking and the Search Screen",
+      "head_title": "Clash of Clans Matchmaking — How the Search Screen Picks Your Opponent",
+      "description": "How multiplayer matchmaking works in Clash of Clans: trophy-based opponent selection, what nexting costs, why you see the bases you see, and how to search efficiently.",
+      "blurb": "What the game is doing while you press next, and how to press it less.",
+      "summary": "Multiplayer matchmaking pairs you with an opponent based principally on trophies, not on Town Hall level, base strength or how much loot they are holding. That single fact explains most of what players find frustrating about searching, and points directly at how to search better.",
+      "quick": {
+        "Primary matching factor": "Trophy count",
+        "Not matched on": "Town Hall level, hero levels, base layout quality",
+        "Search cost": "A small gold fee per skip, rising the longer you search",
+        "Search widens": "The longer the game looks, the further from your trophy range it goes",
+        "You cannot": "Search for a specific player or a specific resource"
+      },
+      "tags": [
+        {
+          "label": "Farming",
+          "kind": "gold"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Trophies decide who you meet",
+          "body": "<p>When you tap Attack, the game looks for a village near your trophy count that is currently attackable, meaning it is not shielded, not under Guard and not currently being attacked by someone else. It does not filter by Town Hall level, and it does not care whether the base is a maxed fortress or an abandoned wreck.</p><p>Everything downstream follows from this. If you have pushed trophies well beyond your base's actual strength, matchmaking will keep handing you bases that outclass your army, because trophies are the only thing it is matching on. Conversely, if you deliberately drop trophies, you will meet weaker, poorer opponents, more of whom have quit. This is the trophy-versus-loot trade-off in a single sentence, and it is explored properly in <a href='trophies-and-leagues.html'>trophies and leagues</a>.</p>"
+        },
+        {
+          "h": "What nexting costs you",
+          "body": "<p>Skipping a base charges a small gold fee, and that fee escalates the longer you keep skipping within a single search session. In pure resource terms it is trivial next to the loot you are hunting.</p><p>The real cost of nexting is <strong>time</strong>, and, if you are honest about it, <strong>attention</strong>. Twenty minutes of tapping next to find one good base is twenty minutes you did not spend doing anything else, and the tenth base looks a lot like the second when you have stopped paying attention. Search discipline matters more than search cost:</p><ul><li><strong>Set a number before you start.</strong> Decide your minimum acceptable loot before the first base appears, and hold to it. Deciding case by case is how you end up attacking a mediocre base out of impatience.</li><li><strong>Train while you search.</strong> Never sit on the search screen with an empty queue. The army should always be cooking.</li><li><strong>Judge in three seconds.</strong> Loot preview, collector state, Town Hall position. If it fails, next. Do not study bases you are not going to attack.</li></ul>"
+        },
+        {
+          "h": "Why the same bases keep appearing",
+          "body": "<p>Two reasons, usually. First, at unusual trophy ranges, or at odd hours in your region, the pool of attackable villages near your trophy count is genuinely small, so you cycle through it. Second, the search widens its range the longer it looks, which is why the twentieth base often looks nothing like the first.</p><p>If you are seeing the same handful of bases, you have two levers: move your trophy count to enter a different pool, or search at a different time of day when a different part of the world is online and unshielded.</p>"
+        },
+        {
+          "h": "What you cannot control",
+          "body": "<p>It is worth being clear about the limits, because a lot of folk wisdom claims otherwise:</p><ul><li>You cannot search for a specific resource. Dark elixir hunting is not a search filter; it is skipping until you find drills worth hitting.</li><li>You cannot search for a specific player or revenge someone who has not attacked you.</li><li>You cannot make inactive bases appear more often. They are simply villages in your trophy range whose owners stopped playing, and pushing into ranges those players occupied is the only lever you have.</li><li>Base layout quality is not a matchmaking input. A perfectly designed base and a random pile of buildings at the same trophy count are equally likely to be offered to you.</li></ul><p>What you can control is your trophy range, the time you search, your loot minimum, and how quickly you make the skip-or-attack call. That is the whole game on the search screen.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Town Hall level affect who I am matched against?",
+          "a": "Not for multiplayer matchmaking, which pairs you primarily on trophies. Town Hall level does affect how much storage loot is available to you when there is a mismatch, and it matters a great deal in war matchmaking, which uses an entirely different system."
+        },
+        {
+          "q": "Does skipping bases cost anything?",
+          "a": "Yes, a small gold fee per skip that escalates during a long search session. It is negligible compared to the loot you are looking for. The genuine cost of nexting is your time."
+        },
+        {
+          "q": "How do I find inactive bases?",
+          "a": "There is no filter for them. Inactive bases are simply villages in your trophy range whose owners quit, so the practical approach is to sit in a trophy range where more players have stopped playing and to skip quickly with a firm loot minimum."
+        }
+      ],
+      "related": [
+        "mechanics:loot-mechanics",
+        "mechanics:trophies-and-leagues",
+        "mechanics:shields-and-village-guard",
+        "tutorials:farming-loop"
+      ],
+      "show_tool_note": true,
+      "priority": "0.8"
+    },
+    {
+      "slug": "trophies-and-leagues",
+      "name": "Trophies and leagues",
+      "h1": "Trophies and Leagues: The Farming Trade-off",
+      "head_title": "Clash of Clans Trophies and Leagues — Pushing vs Farming",
+      "description": "How trophies and leagues work in Clash of Clans, what league bonuses pay, why farmers deliberately drop trophies, and how to decide where to sit.",
+      "blurb": "Why good players sometimes throw defences on purpose.",
+      "summary": "Trophies measure competitive standing and decide who you are matched against. Leagues, which are bands of trophy count, decide how large a bonus you collect for winning an attack. The two pull in opposite directions for anyone who cares about resources, and choosing where to sit is one of the few genuinely strategic decisions in the game.",
+      "quick": {
+        "Trophies gained": "By winning attacks, and by successfully defending",
+        "Trophies lost": "By losing attacks, and by being successfully attacked",
+        "League": "A band of trophy count, re-evaluated as you move",
+        "League bonus": "A flat resource award for winning an attack, larger in higher leagues",
+        "Season reset": "Trophies above a threshold are reduced at the end of a season"
+      },
+      "tags": [
+        {
+          "label": "Progression"
+        },
+        {
+          "label": "Farming",
+          "kind": "gold"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What trophies actually do",
+          "body": "<p>Trophies do two jobs. They are the game's ladder, so they determine your league and your standing. And they are the input to multiplayer matchmaking, so they determine who you meet, as covered in <a href='matchmaking-and-search.html'>matchmaking and the search screen</a>.</p><p>The second job is the one that matters for resources. Your trophy count is a dial that sets the difficulty and the wealth of the opponents the game offers you. Turn it up and you meet stronger, richer, more active players. Turn it down and you meet weaker, poorer, more frequently abandoned ones.</p>"
+        },
+        {
+          "h": "The league bonus, and why it complicates everything",
+          "body": "<p>If leagues only gated matchmaking, the answer would be simple: drop as low as tolerable and farm inactive bases forever. But winning an attack also pays a <strong>league bonus</strong>, a flat award of gold, elixir and dark elixir that scales steeply with league. In the highest leagues, the bonus alone can be worth more than the loot you steal.</p><p>So the decision becomes an actual calculation:</p><ul><li><strong>Low leagues.</strong> Cheap opposition, many inactive bases with full collectors, minimal bonus. Income comes almost entirely from stolen collector loot. Works brilliantly with the cheapest possible armies, and tolerates a low win rate because you were not counting on the bonus anyway.</li><li><strong>High leagues.</strong> Strong opposition, few inactive bases, large bonus per win. Income depends on <em>winning</em>, and since the army itself is free, what a failed attack costs you is the search fee and several minutes. Profitable only if your win rate is genuinely high.</li></ul><p>The break-even sits wherever your win rate and your patience say it does, and it moves as your base grows. A player who can three-star reliably belongs higher than one who cannot, regardless of Town Hall level.</p>"
+        },
+        {
+          "h": "Deliberate trophy dropping",
+          "body": "<p>Dropping trophies on purpose, sometimes by dropping a single troop and quitting, is a long-established farming tactic. It works because it moves you into a matchmaking pool with more abandoned bases and cheaper opposition, and because trophies you are not using are not doing anything for you.</p><p>Some caveats worth knowing before you do it:</p><ul><li><strong>It is slow.</strong> Getting down takes many deliberate losses, and the game will keep handing you trophies for successful defences on the way.</li><li><strong>It is reversible but tedious.</strong> Climbing back up costs real attacks.</li><li><strong>It affects your clan.</strong> Some clans have trophy requirements, and low trophy counts can affect where you sit in clan listings.</li><li><strong>It does not help war.</strong> War matchmaking does not use trophies, so dropping does nothing for your war matchups.</li></ul>"
+        },
+        {
+          "h": "Season resets and where to settle",
+          "body": "<p>At the end of each competitive season, trophy counts above a threshold are pulled back down, and rewards are handed out based on the league you finished in. This mostly concerns players near the top of the ladder; if you are farming in the middle, resets barely register.</p><p>For everyone else, the practical advice is boring and correct: <strong>settle at the highest league where you still win comfortably with a cheap army</strong>. If you are skipping endlessly because nothing has loot, move up. If your cheap army keeps failing against real defences, move down. Test it deliberately for a week rather than guessing, and let the actual loot per hour decide.</p>"
+        },
+        {
+          "h": "Why there is no league table on this page",
+          "body": "<p>Every other stat table on this wiki is read from Clash of Clans' own game files. League trophy thresholds and bonus values are not in the files we read, so publishing a table of them would mean transcribing numbers from somewhere else and presenting them with the same confidence as the verified ones.</p><p>We would rather say that plainly. The trade-off described above does not depend on the exact figures, and the current bonus for your league is shown in game on the league badge, which is both authoritative and up to date.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I drop trophies to farm?",
+          "a": "Only if you are struggling to find profitable bases where you are. Dropping puts you among weaker, poorer, more frequently abandoned opponents, which suits very cheap armies. It also costs you the league bonus, which in higher leagues can exceed the loot you steal, so it is a trade rather than a free win."
+        },
+        {
+          "q": "What is the best league for farming?",
+          "a": "The highest one where a cheap army still wins comfortably. That is a different league for different players and it changes as your base grows, so test it: farm a week in one league, a week in the next, and compare actual resources gained per hour rather than trusting a rule of thumb."
+        },
+        {
+          "q": "Do trophies affect clan war matchmaking?",
+          "a": "No. War matchmaking uses an entirely separate system based on the composition and strength of the participating rosters, so trophy dropping has no effect on the wars your clan is given."
+        }
+      ],
+      "related": [
+        "mechanics:matchmaking-and-search",
+        "mechanics:loot-mechanics",
+        "mechanics:shields-and-village-guard",
+        "mechanics:clan-wars"
+      ],
+      "show_tool_note": true,
+      "priority": "0.8"
+    },
+    {
+      "slug": "troop-targeting-and-ai",
+      "name": "Troop targeting and AI",
+      "h1": "Troop Targeting and AI: Why Your Troops Do That",
+      "head_title": "Clash of Clans Troop AI — Targeting Rules and Pathing Explained",
+      "description": "How Clash of Clans troops choose targets: preferred targets, nearest-target logic, air versus ground, and why your Giants ignored the cannon right next to them.",
+      "blurb": "Nearest valid target, every time, with a short list of exceptions.",
+      "summary": "Clash of Clans troops are not clever. They follow a small set of rules with total consistency, and almost every attack that fails does so because the attacker expected intelligence where there was only a rule. Learn the rules and you stop being surprised.",
+      "quick": {
+        "Default behaviour": "Move to and attack the nearest valid target",
+        "Preferred targets": "Some troops ignore the default in favour of a building type",
+        "When preferred targets are gone": "The troop reverts to nearest-target behaviour",
+        "Air and ground": "Ground troops walk and are blocked by walls; air troops fly over everything",
+        "Defending troops": "Clan Castle troops and heroes actively chase attackers"
+      },
+      "tags": [
+        {
+          "label": "Combat"
+        },
+        {
+          "label": "Core mechanic"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Rule one: nearest target",
+          "body": "<p>Unless a troop has a preferred target, it walks toward whatever building is closest to it and attacks that. Not the most dangerous building. Not the building you want it to attack. The closest one.</p><p>This is why deployment position is the most important decision in an attack. A troop dropped at the corner of a base will attack the corner. A troop dropped next to a wall with a storage on the other side will, more often than not, walk <em>around</em> the wall to reach a building that is easier to get to, because it is looking for a path to the nearest target and the wall is not on the way.</p><p>Everything else in this page is an exception to this rule.</p>"
+        },
+        {
+          "h": "Rule two: preferred targets",
+          "body": "<p>Some troops ignore nearest-target logic and instead seek out one category of building, walking past everything else to reach it, taking damage the entire way. These are the units that make or break attacks:</p><ul><li><strong>Giants</strong> prefer defences. They will march past storages and huts to reach a cannon.</li><li><strong>Goblins</strong> prefer resource buildings, and deal bonus damage to them. Dropped in the wrong place they sprint into the core after a storage and die.</li><li><strong>Wall Breakers</strong> prefer walls, specifically walls that protect something they have not yet reached.</li><li><strong>Hog Riders</strong> prefer defences and jump walls rather than breaking them.</li><li><strong>Balloons</strong> prefer defences, from the air.</li><li><strong>Miners</strong> travel underground and are untargetable while doing so.</li></ul><p class='crit'><strong>The critical corollary:</strong> once every building of a troop's preferred type is destroyed, it reverts to plain nearest-target behaviour. Giants that have flattened every defence will happily wander off to punch a builder's hut on the far side of the map while the timer runs out. This single behaviour is responsible for an enormous number of failed 99% attacks.</p>"
+        },
+        {
+          "h": "Air versus ground",
+          "body": "<p>The other hard division is movement type. <strong>Ground troops</strong> walk, are stopped by walls, and can be hit by every defence except pure anti-air. <strong>Air troops</strong> fly in a straight line over walls, buildings and traps, and can only be hit by defences that target air.</p><p>Two practical consequences. First, walls are worth nothing against air; a base with beautiful compartments and one Air Defence is a free win for Dragons. Second, air attacks are far more predictable, because you have removed pathing from the equation entirely, which is exactly why they are the standard recommendation for newer players.</p><p>A handful of troops sit in between: some ground units jump walls, some travel underground, and some switch behaviour when damaged. Those exceptions are noted on each unit's own page.</p>"
+        },
+        {
+          "h": "What defends actively",
+          "body": "<p>Most of the base is passive: buildings sit still and shoot whatever comes near. Three things are not passive, and they will come to you.</p><ul><li><strong>Clan Castle troops</strong> deploy when an attacker enters their radius and then chase, aggressively and across the whole map. Dealing with them is a skill of its own, covered in <a href='clan-castle-troops.html'>Clan Castle troops</a>.</li><li><strong>Defending heroes</strong> wake up when an attacker comes within range of their altar and then fight like a troop, pursuing targets.</li><li><strong>Skeleton and similar traps</strong> spawn units that behave like troops rather than dealing instant damage.</li></ul><p>The pattern for all three is the same: pull them out to somewhere harmless, kill them there, then attack the base you actually wanted to attack. An attack that walks into a defending Castle with the main army is an attack that has already gone wrong.</p>"
+        },
+        {
+          "h": "Using the rules on purpose",
+          "body": "<p>Once you accept that troops are simple, you can steer them:</p><ul><li><strong>Clear the outside first.</strong> Ground troops only path inward when there is nothing left outside. Destroying the perimeter buildings on a side is what forces the army in, and it is the whole idea behind <a href='funnelling.html'>funnelling</a>.</li><li><strong>Deploy in a line, not a pile.</strong> Troops dropped on top of each other die to a single splash defence. Spread along a side, they engage more buildings and survive longer.</li><li><strong>Send the tank first.</strong> Whatever soaks damage goes down several seconds before whatever deals it, so the defences are already busy when the fragile units arrive.</li><li><strong>Watch for the revert.</strong> When the last defence falls and your Giants pause, that is the moment to drop clean-up troops on the buildings you still need, because the Giants are about to wander.</li></ul>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do my Giants ignore the nearby cannon?",
+          "a": "They are not ignoring it, they are pathing to the nearest defence they can actually reach. If a wall blocks the direct route, the game routes them around it toward whichever defence has a walkable path, which is frequently not the one you had in mind. Break the wall, or deploy where the route you want is the shortest one."
+        },
+        {
+          "q": "Do troops attack walls?",
+          "a": "Only when a wall blocks the path to their target and going around would take significantly longer, or when the troop is a Wall Breaker, which targets walls deliberately. Most ground troops prefer to walk around, which is why wall compartments funnel attacks rather than stopping them."
+        },
+        {
+          "q": "What happens when all the defences are destroyed?",
+          "a": "Troops with a defence preference revert to normal nearest-target behaviour and start attacking whatever building is closest, including huts and decorations at the far edge of the map. This is a common cause of failed attacks that end at 99 per cent with the timer expired."
+        }
+      ],
+      "related": [
+        "mechanics:walls-and-pathing",
+        "mechanics:funnelling",
+        "mechanics:clan-castle-troops",
+        "troops:index"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "walls-and-pathing",
+      "name": "Walls and pathing",
+      "h1": "Walls and Pathing: What Walls Actually Do",
+      "head_title": "Clash of Clans Walls and Pathing — Compartments, Ring Bases, Wall Breakers",
+      "description": "How walls affect troop pathing in Clash of Clans: why walls redirect rather than stop, what compartments achieve, and how attackers get through them.",
+      "blurb": "Walls do not stop troops. They redirect them, which is more useful.",
+      "summary": "New players build walls to keep troops out. Walls do not keep troops out. They make troops take a longer route, and that longer route is spent under fire. Understanding walls as a delay-and-redirect tool rather than a barrier changes how you build and how you attack.",
+      "quick": {
+        "Effect on ground troops": "Blocks direct movement, forcing a longer path",
+        "Effect on air troops": "None at all",
+        "Broken by": "Wall Breakers, and by troops that choose to attack the wall",
+        "Ignored by": "Wall-jumping troops, tunnelling troops, and Jump Spells",
+        "Upgrade cost": "Consumes gold and elixir in very large quantities"
+      },
+      "tags": [
+        {
+          "label": "Base building"
+        },
+        {
+          "label": "Combat"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Redirect, do not block",
+          "body": "<p>When a ground troop wants to reach a target and a wall is in the way, the game evaluates whether walking around is cheaper than breaking through. Usually it is, so the troop walks around. That is the entire mechanic, and it is far more useful to a defender than an impassable barrier would be.</p><p>A troop walking around your wall is a troop spending several extra seconds inside the range of your defences, not attacking anything, taking damage. Time is the resource walls take away from an attacker. A wall that adds four seconds to every troop's route across a base defended by four splash defences has done more work than a wall that stops a single Giant.</p>"
+        },
+        {
+          "h": "Compartments are the real design unit",
+          "body": "<p>A single ring of wall around everything is close to worthless: attackers break one segment and the entire interior is open. What matters is <strong>compartmentalisation</strong>, dividing the interior into many small walled cells so that breaking in gives access to one building, not the whole base.</p><ul><li><strong>Every compartment breached is a separate decision</strong> for the attacker, and separate Wall Breakers, and separate time.</li><li><strong>Storages make excellent compartment walls</strong> because they have large hitpoints and are worth taking, so they slow troops that stop to attack them.</li><li><strong>Do not double-wall.</strong> Two wall segments side by side cost twice as much and are broken by the same charge. Use the saved segments to add another compartment instead.</li><li><strong>Leave no gaps.</strong> A single missing segment is a door, and pathing will find it instantly. Check your layout for one-tile openings, especially where a building was moved.</li></ul><p>More layout theory lives in <a href='base-building-principles.html'>base building principles</a>.</p>"
+        },
+        {
+          "h": "How attackers get through",
+          "body": "<p>Four methods, in rough order of cost:</p><ol><li><strong>Walk around.</strong> Free. Works whenever the base has an easier route, which most badly designed bases do.</li><li><strong>Wall Breakers.</strong> Cheap, fragile, and targeted specifically at walls that protect something new. A handful turns a surface attack into a core attack. They die instantly to splash damage, so they go in behind a tank.</li><li><strong>Jump over.</strong> Hog Riders jump walls natively; a Jump Spell creates a temporary crossing for any ground troop. Both convert a compartment maze into open ground, which is exactly why heavily compartmented bases are vulnerable to hog-based attacks.</li><li><strong>Go under or over.</strong> Miners tunnel and ignore walls entirely; every air troop ignores them by definition.</li></ol><p>The design conclusion for defenders is that walls must be part of a system. A base compartmented to defeat Giants is a base that Hog Riders find comfortable; a base built to defeat air is a base with more anti-air than walls. You cannot be strong against everything, and choosing what to be weak to is what base design is.</p>"
+        },
+        {
+          "h": "Walls as an economic sink",
+          "body": "<p>Walls are the most expensive thing in the game by total cost, and there is no research, no builder occupied, and no timer. You tap, you pay, it is instantly upgraded.</p><p>That makes walls the perfect place to dump surplus. Any gold or elixir left over when you log off should go into walls, because loot in a wall cannot be stolen and loot in a storage can. Do not, however, prioritise walls over defences or heroes. Walls buy you seconds; a missing Air Defence loses you the whole base. Walls are what you do with money you have nowhere better to put, which, at most stages of the game, is a lot of money.</p><div class='note'><p><b>Practical rule.</b> Upgrade walls from the outside in and from the core out at the same time, meeting in the middle, rather than doing one ring at a time. Mixed wall levels are ugly but functionally fine; a fully upgraded outer ring around an unupgraded core is not.</p></div>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do walls actually stop troops in Clash of Clans?",
+          "a": "No. Walls block direct movement, so ground troops path around them unless breaking through is genuinely faster. The value of a wall is the extra seconds an attacker spends walking under fire, not any ability to keep troops out."
+        },
+        {
+          "q": "Should I double-wall my base?",
+          "a": "No. Two adjacent wall segments cost double and are opened by the same Wall Breaker charge. Spend those segments on additional compartments instead, which forces the attacker to make and pay for more separate breaches."
+        },
+        {
+          "q": "Are walls worth upgrading?",
+          "a": "Yes, but never before defences, heroes or army research. Walls are instant, need no builder and accept unlimited amounts of loot, which makes them the ideal place to spend surplus resources you would otherwise leave sitting in a storage where they can be stolen."
+        }
+      ],
+      "related": [
+        "mechanics:troop-targeting-and-ai",
+        "mechanics:base-building-principles",
+        "mechanics:funnelling",
+        "mechanics:defence-mechanics"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "clan-castle-troops",
+      "name": "Clan Castle troops",
+      "h1": "Clan Castle Troops: Donations, Luring and Defending",
+      "head_title": "Clash of Clans Clan Castle — Donations, Luring and Defensive Troops",
+      "description": "How the Clan Castle works in Clash of Clans: requesting and donating troops, defensive Clan Castle behaviour, and how to lure and kill a defending Castle.",
+      "blurb": "The one part of a base that fights back and follows you home.",
+      "summary": "The Clan Castle is the only building that puts an active, mobile opponent on the field. On offence it is free reinforcement from your clanmates. On defence it is the single most disruptive thing in a base. Handling it, in both directions, separates players who win attacks from players who nearly win attacks.",
+      "quick": {
+        "Offensive use": "Carries donated troops, spells and siege machines into your attacks",
+        "Defensive use": "Deploys its troops automatically when an attacker enters its radius",
+        "Trigger": "Proximity, the radius is larger than most players expect",
+        "Behaviour once out": "Actively chases attacking troops anywhere on the map",
+        "Refill": "By clan donation only, and it is not automatic"
+      },
+      "tags": [
+        {
+          "label": "Clan"
+        },
+        {
+          "label": "Combat"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Donations, and why they matter more than they look",
+          "body": "<p>Members request troops in clan chat and other members fill the request. The donor pays nothing meaningful and gains clan XP and donation credit; the receiver gets troops they may not even have unlocked, for free.</p><p>For a new player this is enormous. A Town Hall 5 player in a good clan can carry a Dragon into every attack. It is the fastest legitimate power boost in the game, and it costs nothing but being in a clan that donates.</p><ul><li><strong>Ask specifically.</strong> Type what you want and why. \"Any troops\" gets you whatever someone had spare, which is usually the cheapest thing they had spare.</li><li><strong>Donate back.</strong> Most clans track ratios, and the clans worth being in remove people who only take. Donating is also how you get clan XP.</li><li><strong>Keep a separate defensive request.</strong> The troops you want defending your base are not the ones you want attacking with, and swapping between them is a normal part of play.</li></ul>"
+        },
+        {
+          "h": "The defensive Clan Castle",
+          "body": "<p>When an attacker's troops come within the Castle's radius, the garrison deploys and immediately goes hunting. It does not defend a position; it chases. A single strong defensive Castle troop can eat an entire wave of fragile attackers before it dies.</p><p>What makes it so disruptive is that the radius is generous and the trigger is invisible until it fires. Attackers who deploy their main army along a side, expecting a clean run, frequently discover the Castle mid-attack, at which point their army is committed and scattered and the Castle is already among them.</p><p>What to put in your own Castle, in general terms: something with high hitpoints that survives long enough to matter, or something with splash damage that punishes massed cheap troops. What not to put in it: anything fragile, and anything that dies to a single spell. Clans usually have a house preference; ask.</p>"
+        },
+        {
+          "h": "Luring: the routine that wins attacks",
+          "body": "<p>The counter to a defensive Castle is always the same four-step routine, and it should become automatic:</p><ol class='steps'><li><b>Find the radius.</b>Drop a single cheap troop near the edge of the base, one tile at a time, until the Castle fires. One Barbarian is enough. This costs you almost nothing and tells you everything.</li><li><b>Pull them out.</b>Once the garrison is out and chasing, drop another cheap troop far from the base, in open ground or at a corner. Defending troops chase, so they will come to it.</li><li><b>Kill them there.</b>Away from the base, away from the defences, surround them with cheap troops or drop a spell on the clump. Killing a Castle in open ground costs a fraction of what killing it inside the base costs.</li><li><b>Then attack.</b>Only now do you deploy the army you actually planned. The base is now passive, apart from heroes.</li></ol><p>Skipping the lure to save ninety seconds is the most common self-inflicted defeat in the game. The lure is not optional; it is part of the attack.</p>"
+        },
+        {
+          "h": "Clan Castle in war",
+          "body": "<p>In Clan Wars the Castle matters more than anywhere else, because war bases are designed around it. A war Castle is typically filled with the strongest defensive troops the clan can donate, and its radius is deliberately positioned so that it covers the approaches an attacker would naturally take.</p><p>Two war-specific habits:</p><ul><li><strong>Scout the Castle before planning.</strong> The war map shows whether a Castle is filled. Plan the lure before you plan the attack, not after.</li><li><strong>Fill your own, early.</strong> An empty war Castle on defence is a free star for the enemy. Request as soon as war starts, not five minutes before battle day ends.</li></ul><p>More on war structure in <a href='clan-wars.html'>Clan Wars</a>."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I lure Clan Castle troops?",
+          "a": "Drop one cheap troop near the base edge to find the Castle's trigger radius, then, once the garrison deploys, drop another cheap troop well away from the base. Defending troops chase, so they will follow it into open ground where you can kill them cheaply before starting your real attack."
+        },
+        {
+          "q": "What is the best troop to put in a defensive Clan Castle?",
+          "a": "Something durable enough to survive a lure attempt, or something with splash damage that punishes the clumps of cheap troops attackers use to bait it. Fragile single-target troops die instantly and give the attacker a free run. Most clans have a preferred defensive donation, so ask before guessing."
+        },
+        {
+          "q": "Do Clan Castle troops chase attackers?",
+          "a": "Yes, aggressively and across the entire map. That is precisely why luring works: you can pull the garrison far from the base's defences and kill it somewhere it gets no support."
+        }
+      ],
+      "related": [
+        "mechanics:troop-targeting-and-ai",
+        "mechanics:clan-wars",
+        "mechanics:funnelling",
+        "tutorials:first-war-attack"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "spell-mechanics",
+      "name": "Spell mechanics",
+      "h1": "Spell Mechanics: Radius, Timing and Stacking",
+      "head_title": "Clash of Clans Spell Mechanics — Radius, Duration, Stacking and Timing",
+      "description": "How spells work in Clash of Clans: area of effect, duration, whether spells stack, dark versus regular spell factory, and when to drop each type.",
+      "blurb": "Where you drop it and when matters more than which one you brought.",
+      "summary": "Spells are the smallest part of an army by housing space and the largest part by outcome. A correctly timed Rage turns a stalled push into a three-star; the same spell dropped four seconds early does nothing at all. The mechanics that govern them are simple, and almost nobody reads them.",
+      "quick": {
+        "Two factories": "Spell Factory for regular spells, Dark Spell Factory for dark spells",
+        "Housing": "Spells occupy separate spell housing, not troop housing",
+        "Area of effect": "Circular, centred where you tap, fixed radius per spell",
+        "Duration": "Timed, and the timer starts the moment it lands",
+        "Stacking": "Most same-type effects do not stack usefully; overlapping radii extend coverage, not power"
+      },
+      "tags": [
+        {
+          "label": "Combat"
+        },
+        {
+          "label": "Core mechanic"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The two spell families",
+          "body": "<p>Regular spells come from the Spell Factory and are paid for in elixir. Dark spells come from the Dark Spell Factory and are paid for in dark elixir. They share the same spell housing space, but dark spells occupy less of it, which is why a mixed set is usually better value than a pure one.</p><p>Broadly, regular spells do the big, expensive things: mass healing, mass damage boosts, opening walls, freezing defences. Dark spells do the small, cheap, surgical things: poisoning defending troops, disabling a single defence, speeding up a push, spawning a distraction. A well-built army usually carries a couple of large regular spells and one or two cheap dark ones for a specific job.</p>"
+        },
+        {
+          "h": "Radius and placement",
+          "body": "<p>Every spell affects a circle centred exactly where you tap, with a fixed radius. Three consequences that decide most attacks:</p><ul><li><strong>Drop ahead of the army, not on it.</strong> Troops move. A Rage centred on your troops right now is centred behind them two seconds from now. Aim where the front of the push will be.</li><li><strong>Cover the group, not the star player.</strong> A spell that covers eight troops is worth four times one that covers two. If the army has spread out, the spell is already partly wasted, which is another reason to deploy in a controlled line.</li><li><strong>Overlapping does not multiply.</strong> Two Rage spells on the same troops do not double the effect. Overlapping is for extending the covered <em>area</em> or the <em>duration</em>, when a push must cross a long stretch of base.</li></ul>"
+        },
+        {
+          "h": "Timing",
+          "body": "<p>The duration clock starts on impact, not on first effect, so a spell dropped before the troops arrive is a spell partly spent on empty ground. The general timing rules:</p><ul><li><strong>Rage</strong> goes down when the troops are already engaged with something worth killing quickly, not while they are walking.</li><li><strong>Heal</strong> goes down when the damage is already happening, ideally where the army will remain for the full duration. Healing a group that is about to walk out of the circle wastes most of it.</li><li><strong>Freeze</strong> is reactive, not planned. You hold it for the moment a specific defence starts shredding your army, most often an Inferno Tower or a Scattershot, and you drop it then.</li><li><strong>Jump</strong> goes down before the troops reach the wall, because it takes a moment to open and the army does not wait.</li><li><strong>Poison</strong> goes on defending Clan Castle troops as soon as they are clumped, during the lure, not during the main attack.</li></ul><p>The habit that improves attacks fastest: hold your spells. New players dump every spell in the first fifteen seconds because it feels productive. Attacks are lost at the sixty-second mark, and that is when the spells should still be in your hand.</p>"
+        },
+        {
+          "h": "Building the spell loadout",
+          "body": "<p>Work backwards from the failure mode of your army, not forwards from a list.</p><ul><li>If the army <em>dies to splash damage</em>, bring healing.</li><li>If the army <em>survives but runs out of time</em>, bring haste or rage.</li><li>If the army <em>stalls at a specific defence every time</em>, bring the counter to that defence, usually freeze.</li><li>If the army <em>cannot get into the core</em>, bring jump or more wall breakers.</li><li>If the army <em>dies to the defending Castle</em>, bring poison and lure properly.</li></ul><p>Then, and this is the part people skip, watch the replay of the attack that failed and check which of those five it actually was. The right spell is a diagnostic result, not a preference.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do spells stack in Clash of Clans?",
+          "a": "Not usefully in terms of power. Two of the same spell on the same troops do not double the effect. What overlapping achieves is a larger covered area or a longer covered window, which is what you want when a push has to travel across a wide base."
+        },
+        {
+          "q": "When should I drop a Rage spell?",
+          "a": "When the troops are already engaged and the extra damage will land on something that matters, and slightly ahead of them so they move into the circle rather than out of it. Rage dropped while an army is walking across open ground is mostly wasted."
+        },
+        {
+          "q": "Are dark spells better than regular spells?",
+          "a": "They are different tools. Dark spells cost dark elixir and take less spell housing, which suits cheap, surgical jobs such as poisoning a defending Castle. Regular spells do the heavy lifting. Most strong armies carry a mix rather than committing to one factory."
+        }
+      ],
+      "related": [
+        "spells:index",
+        "mechanics:clan-castle-troops",
+        "mechanics:troop-targeting-and-ai",
+        "mechanics:funnelling"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "funnelling",
+      "name": "Funnelling",
+      "h1": "Funnelling: Steering an Army Into the Core",
+      "head_title": "Clash of Clans Funnelling Explained — How to Steer Your Army",
+      "description": "What funnelling means in Clash of Clans, why armies drift around the outside of a base, and how to build a funnel so your main force goes through the core.",
+      "blurb": "The single technique that separates 50 per cent attacks from three stars.",
+      "summary": "Funnelling is the practice of destroying specific outside buildings before the main army goes in, so that the path of least resistance runs through the middle of the base rather than around its edge. It is not an advanced trick. It is the basic requirement for any ground attack, and skipping it is why most attacks stall.",
+      "quick": {
+        "Problem it solves": "Ground troops walking around the base instead of into it",
+        "Cause of the problem": "Nearest-target pathing plus buildings on the outside",
+        "How it works": "Clear the outside buildings on two sides so the only nearby targets are inward",
+        "Cost": "A small share of the army, spent deliberately",
+        "Applies to": "Every ground attack, and most mixed attacks"
+      },
+      "tags": [
+        {
+          "label": "Combat"
+        },
+        {
+          "label": "Attacking"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why armies drift",
+          "body": "<p>Ground troops go to the nearest reachable target. On a typical base, the nearest reachable targets from any deployment point are the outside buildings: army camps, huts, collectors, a spare barracks. So the army eats the outside of the base, working its way around the ring, while the timer runs and the core sits untouched.</p><p>You have seen the result: 51 per cent, two stars, every defence in the middle still standing. The army did not fail. It did exactly what it was told, which was nothing, because nobody told it anything.</p>"
+        },
+        {
+          "h": "Building the funnel",
+          "body": "<p>A funnel is a cleared corridor. You destroy the outside buildings on either side of your intended entry point, so that when the main army lands, the closest remaining targets are inward, and the pathing carries the whole force into the core together.</p><ol class='steps'><li><b>Pick your side.</b>Choose the approach with the fewest outside buildings to clear and, ideally, the most valuable defences on the way in. Look at the base for five seconds before you deploy anything, every time.</li><li><b>Clear the shoulders.</b>Use a small, cheap portion of the army, or a hero, to destroy the outside buildings to the left and right of the entry point. Not the whole side, just the shoulders of the corridor.</li><li><b>Check the gap.</b>Before committing, confirm there is nothing left outside on those two flanks that could pull troops sideways. A single surviving hut ruins a funnel.</li><li><b>Send the main army into the gap.</b>Deploy in a controlled line at the mouth of the corridor, tank first, damage behind, and it will go inward because inward is now nearest.</li><li><b>Support with spells.</b>Once the force is engaged in the core, spells go down. Not before.</li></ol>"
+        },
+        {
+          "h": "What to funnel with",
+          "body": "<p>Whatever you can afford to lose. The classic tools:</p><ul><li><strong>Heroes.</strong> The Barbarian King and Archer Queen are excellent funnellers because they are durable, hit hard, and you get them back after the attack. Sending a hero down each shoulder is the standard opening for a great many attacks.</li><li><strong>A handful of cheap troops.</strong> A few Barbarians or Archers per side, dropped on the outside buildings, does the job for almost nothing.</li><li><strong>One or two heavy units.</strong> A Baby Dragon or similar on each flank clears the shoulders quickly and keeps up with the main push afterwards.</li></ul><p>What you should not funnel with is your main damage. If you send the whole army in to clear the outside, you have not funnelled, you have just attacked the outside.</p>"
+        },
+        {
+          "h": "When funnelling matters less",
+          "body": "<p>Two cases. <strong>Pure air attacks</strong> care much less, because air troops fly straight over the buildings that would have distracted a ground army; they still drift toward the nearest target, but the geometry is far more predictable. And <strong>farming attacks on inactive bases</strong> often do not need a funnel at all, because you are not trying to reach the core, you are trying to strip the collectors on the outside, which is where the army wants to go anyway.</p><p>That second case is worth stating plainly, because it is a real distinction between farming and war. In farming, the army drifting to the outside is frequently exactly what you want. In war, it is the thing that costs you the star.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does funnelling mean in Clash of Clans?",
+          "a": "Destroying selected buildings on the outside of a base before committing your main army, so that the nearest remaining targets lead inward and the army paths into the core instead of wandering around the perimeter."
+        },
+        {
+          "q": "Do I need to funnel for every attack?",
+          "a": "For essentially every ground attack in war, yes. For farming attacks aimed at collectors on the outside of an inactive base, usually not, because the outside is where you want the troops to go anyway."
+        },
+        {
+          "q": "What should I use to funnel?",
+          "a": "Heroes first, because they are durable and you get them back, then a small number of cheap troops. Never use your main damage dealers to clear the outside; the point of the funnel is to preserve the main army for the core."
+        }
+      ],
+      "related": [
+        "mechanics:troop-targeting-and-ai",
+        "mechanics:walls-and-pathing",
+        "mechanics:spell-mechanics",
+        "tutorials:first-war-attack"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "siege-machines",
+      "name": "Siege machines",
+      "h1": "Siege Machines: Getting Your Army Into the Core",
+      "head_title": "Clash of Clans Siege Machines — What They Do and When to Use Them",
+      "description": "How siege machines work in Clash of Clans: what they carry, how they deliver Clan Castle troops into a base, and how to choose between the wall-breaking and flying options.",
+      "blurb": "The delivery vehicle for your Clan Castle troops, and a funnel on wheels.",
+      "summary": "A siege machine is not really a troop. It is a delivery system: it carries your Clan Castle troops toward the middle of the base and releases them there, solving the oldest problem in attacking, which is that the good troops arrive at the core already dead. Choosing one is choosing how you want to get in.",
+      "quick": {
+        "Unlocked by": "The Workshop, at a mid-game Town Hall",
+        "Carries": "Your Clan Castle troops into the attack",
+        "Used from": "The Clan Castle slot in the army screen",
+        "If it dies early": "The Castle troops deploy on the spot",
+        "Donatable": "Yes, clanmates can donate siege machines"
+      },
+      "tags": [
+        {
+          "label": "Combat"
+        },
+        {
+          "label": "Attacking"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The problem they solve",
+          "body": "<p>Before siege machines existed, Clan Castle troops walked in with everything else, which meant they spent the first half of the attack on the outside of the base fighting huts, and arrived at the core with a fraction of their health. Your best donated troops did their least useful work.</p><p>A siege machine changes that. It moves toward the centre under its own power, absorbing damage on the way, and releases the Castle troops when it arrives or when it dies. In effect you are teleporting your reinforcements past the boring part of the base.</p><p>The secondary benefit is just as valuable: while the siege machine is rolling in, it is destroying buildings and eating defence fire, which does a great deal of <a href='funnelling.html'>funnelling</a> work for free.</p>"
+        },
+        {
+          "h": "The two shapes of siege",
+          "body": "<p>Every siege machine is one of two things, and the choice is really about what your army needs.</p><ul><li><strong>Ground siege that breaks through.</strong> Rolls toward the core, smashing walls and buildings in a straight line. Creates a physical corridor that the rest of your ground army follows. Vulnerable to being destroyed early by concentrated defence fire, in which case the Castle troops pop out wherever it fell.</li><li><strong>Flying siege that goes over.</strong> Ignores walls entirely and drops the Castle troops in the middle. Cannot be stopped by layout, only by anti-air. Delivers reinforcements precisely but does not open a path for your ground army.</li></ul><p>There are also siege options that behave more like static support, sitting where deployed and providing continuous value rather than travelling. Each machine's own page covers the specifics; the strategic choice is nearly always corridor versus delivery.</p>"
+        },
+        {
+          "h": "Choosing one",
+          "body": "<p>Work from the base you are looking at, not from habit:</p><ul><li><strong>Heavily compartmented base, ground army.</strong> Take the breaker. You need a corridor, and walking your army around three wall layers is how attacks time out.</li><li><strong>Open base, or an air army.</strong> Take the flier. There is nothing to break through; you want the Castle troops in the middle immediately.</li><li><strong>Strong anti-air, ground army.</strong> Take the breaker. A flier that dies over the outer ring has delivered nothing.</li><li><strong>Anti-ground core with heavy splash.</strong> Take the flier. A ground siege parked in front of a Scattershot is a very expensive firework.</li></ul>"
+        },
+        {
+          "h": "Common mistakes",
+          "body": "<ul><li><strong>Deploying it last.</strong> The siege should usually go early, so it is soaking damage and clearing a route while the army follows, not arriving after the army has already died.</li><li><strong>Deploying it into the strongest side.</strong> It is durable, not invincible. Send it in where the defences are thinnest, and let the corridor it opens dictate where the rest of the army goes.</li><li><strong>Forgetting what is inside it.</strong> The siege machine is only as good as the Castle troops it is carrying. An empty Castle in a siege machine is a very slow wall breaker.</li><li><strong>Not requesting one.</strong> Siege machines are donatable. If you have not unlocked the Workshop yet, ask.</li></ul>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What happens if my siege machine is destroyed before it reaches the core?",
+          "a": "The Clan Castle troops it was carrying deploy immediately at the point where it was destroyed. You do not lose them, but you lose the delivery, so they arrive wherever the machine happened to die rather than where you wanted them."
+        },
+        {
+          "q": "Do I need a siege machine for every attack?",
+          "a": "For war attacks, almost always, because getting Castle troops into the core at full health is worth far more than anything else you could put in that slot. For cheap farming attacks on collectors, usually not."
+        },
+        {
+          "q": "Can siege machines be donated?",
+          "a": "Yes. Clanmates can donate siege machines the same way they donate troops, which means you can use one before you have built the Workshop yourself."
+        }
+      ],
+      "related": [
+        "mechanics:clan-castle-troops",
+        "mechanics:funnelling",
+        "mechanics:clan-wars",
+        "mechanics:walls-and-pathing"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "defence-mechanics",
+      "name": "Defence mechanics",
+      "h1": "Defence Mechanics: Splash, Single Target, Air and Ground",
+      "head_title": "Clash of Clans Defence Mechanics — Splash vs Single Target Explained",
+      "description": "How defences work in Clash of Clans: single-target versus splash damage, air and ground targeting, range and blind spots, and how to build a balanced defensive set.",
+      "blurb": "What each category of defence is for, and what it cannot touch.",
+      "summary": "Every defence in the game sits somewhere on two axes: what it can shoot at, and whether it hits one thing hard or many things a little. A base that is strong on one axis and empty on the other is not a strong base, it is a base with an obvious answer, and every attacker will find it.",
+      "quick": {
+        "Axis one": "Targets ground only, air only, or both",
+        "Axis two": "Single-target damage, or splash damage over an area",
+        "Range": "Fixed per defence, and some have a minimum range or blind spot",
+        "Priority": "Defences fire at whatever enters range, with per-building rules",
+        "Key weakness": "Any base missing one whole category has a free counter"
+      },
+      "tags": [
+        {
+          "label": "Defence"
+        },
+        {
+          "label": "Base building"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Single target versus splash",
+          "body": "<p><strong>Single-target defences</strong> pick one unit and shoot it until it dies. They deal high damage per shot and are the correct answer to a small number of large, expensive units: a Golem, a hero, a Dragon. They are close to useless against thirty Barbarians, because they kill one at a time while the other twenty-nine chew through the building.</p><p><strong>Splash defences</strong> deal damage over an area. Each individual hit is weaker, but it lands on everything in the circle. They are the correct answer to masses of cheap troops, and they are what makes swarm strategies fail. Against a single Golem, they are a rounding error.</p><p>This is the entire defensive balance problem in one line: <em>you need both, because the attacker chooses which one you will face</em>. A base packed with single-target defences dies to swarms. A base packed with splash dies to a handful of heavy units. The attacker gets to look at your base before deciding, so any hole you leave is the hole they will attack through.</p>"
+        },
+        {
+          "h": "Air, ground, and both",
+          "body": "<p>The second axis is targeting. Ground-only defences cannot touch a single air unit; air-only defences cannot touch a single ground unit; some defences hit both.</p><p>The failure mode here is more common and more brutal than the splash one, because air attacks are the default recommendation for newer players. A base with one Air Defence, however well compartmented, is a base that Dragons walk through, and walls contribute exactly nothing to stopping them. Conversely, a base that over-invests in anti-air while leaving thin ground coverage gets flattened by hogs and miners.</p><p><strong>Rule of thumb for placement:</strong> anti-air belongs deep, spread apart, and never all on one side. Air Defences clustered together die to one Rage and a stack of Balloons; spread across the base, each one has to be dealt with separately.</p>"
+        },
+        {
+          "h": "Range, coverage and blind spots",
+          "body": "<p>Each defence has a fixed range, drawn as a circle when you tap it in edit mode. Two things matter about those circles:</p><ul><li><strong>Overlap is the point.</strong> A defence standing alone gets destroyed alone. Defences whose circles overlap cover each other, so an attacker who commits to one is being shot by three. Layout is really the art of arranging overlapping circles.</li><li><strong>Some defences have a minimum range.</strong> The Mortar is the classic example: it cannot hit anything standing directly on top of it. Attackers exploit this deliberately, and defenders counter it by making sure something else covers that dead zone.</li></ul><p>When you have finished a layout, tap each defence in turn and look at what its circle does not cover. Wherever two circles fail to meet is where the attack will come.</p>"
+        },
+        {
+          "h": "Building a balanced set",
+          "body": "<p>The checklist that catches most bad bases:</p><ol><li>Is there splash damage covering the core, and is it centred rather than on the edge?</li><li>Is anti-air spread across at least three sides of the base?</li><li>Does any single Rage-sized circle contain two or more of your key defences? If so, move one.</li><li>Are the highest-value defences inside walls, or are they sitting on the perimeter where cheap troops reach them first?</li><li>Is the Clan Castle radius covering the approaches, rather than tucked in a corner?</li></ol><p>Then, and this matters more than any checklist, <strong>watch your defence replays</strong>. The game shows you exactly how you lost. Three replays will tell you more about your base's weakness than any amount of theory. Layout principles are covered in <a href='base-building-principles.html'>base building principles</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between splash and single-target defences?",
+          "a": "Single-target defences shoot one unit at a time for high damage, which suits killing large expensive troops and heroes. Splash defences damage everything in an area for less per hit, which suits killing masses of cheap troops. You need both, because the attacker looks at your base and picks whichever one you are missing."
+        },
+        {
+          "q": "Why do my Air Defences keep dying at once?",
+          "a": "Almost certainly because they are close enough together to sit under a single spell. Anti-air should be spread across different sides of the base and placed deep, so an attacker has to make a separate effort for each one rather than removing them all with one Rage and a stack of Balloons."
+        },
+        {
+          "q": "Do Mortars have a blind spot?",
+          "a": "Yes. Mortars have a minimum range and cannot hit units standing directly next to them. Attackers use this on purpose, so make sure another defence covers the ground immediately around each Mortar."
+        }
+      ],
+      "related": [
+        "mechanics:base-building-principles",
+        "mechanics:walls-and-pathing",
+        "buildings:index",
+        "mechanics:troop-targeting-and-ai"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "base-building-principles",
+      "name": "Base building principles",
+      "h1": "Base Building Principles That Actually Hold Up",
+      "head_title": "Clash of Clans Base Building — Principles, Compartments and Layout",
+      "description": "How to design a Clash of Clans base: compartments, centralised storages, spread anti-air, Clan Castle coverage, and the difference between war, farming and trophy layouts.",
+      "blurb": "Why copying a layout screenshot rarely works, and what to do instead.",
+      "summary": "Copied base layouts get you a base that was good against last season's meta, built by someone whose defence levels are not yours. The principles underneath them travel much better. There are perhaps eight of them, and they explain why every good layout looks the way it does.",
+      "quick": {
+        "First question": "What is this base for? War, farming, or trophies?",
+        "Core idea": "Many small compartments, not one big ring",
+        "Storages": "Are structural, use them as walls",
+        "Anti-air": "Spread wide, never clustered",
+        "Test method": "Watch your own defence replays"
+      },
+      "tags": [
+        {
+          "label": "Base building"
+        },
+        {
+          "label": "Defence"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Decide what the base is for",
+          "body": "<p>The three jobs pull in different directions and no layout does all three well.</p><ul><li><strong>A farming base</strong> protects storages and dark elixir above all else and is entirely willing to give up the Town Hall and the trophies that go with it. If an attacker can take your Town Hall for one star and leave with nothing, you have won that exchange.</li><li><strong>A trophy base</strong> protects the Town Hall above all else, because losing it costs the star and the trophies. Storages can sit further out.</li><li><strong>A war base</strong> protects everything, because war scoring is about total destruction percentage, and it is specifically designed to make three-starring expensive.</li></ul><p>Pick one, honestly, based on what you are actually doing this month. A base that half-protects everything protects nothing.</p>"
+        },
+        {
+          "h": "Compartments, not rings",
+          "body": "<p>One ring of wall around the whole base is a single door. Break one segment, everything is open. Many small walled cells mean each breach yields one building.</p><p>Practical rules:</p><ul><li><strong>Use storages as compartment walls.</strong> They have big hitpoints, they are worth attacking, and every second a troop spends chewing a storage is a second under fire.</li><li><strong>No double walls.</strong> Two segments side by side cost twice as much and break to the same charge. Spend the segments on another compartment.</li><li><strong>Check for gaps.</strong> One missing tile is a free path and pathing finds it instantly. Sweep the whole perimeter after any change.</li><li><strong>Do not wall single buildings on the outside.</strong> A lone walled hut on the perimeter is a wall segment doing nothing.</li></ul><p>More on how walls behave in <a href='walls-and-pathing.html'>walls and pathing</a>.</p>"
+        },
+        {
+          "h": "Placement rules that matter",
+          "body": "<ul><li><strong>Splash damage goes central.</strong> It needs to cover the compartments an attacker must enter, not the edge they can ignore.</li><li><strong>Anti-air goes wide and deep.</strong> Never two Air Defences under one spell radius.</li><li><strong>The Clan Castle goes central.</strong> Its radius should cover every likely approach, so attackers cannot lure it from safety. A corner Castle is a Castle that lures itself.</li><li><strong>Heroes near the core.</strong> Defending heroes are among your best defenders; put their altars where they wake up in time to matter.</li><li><strong>Traps where troops path, not where you like them.</strong> Traps belong on the routes created by your own compartments. Your defence replays show you exactly where troops walk.</li><li><strong>Keep a tidy perimeter.</strong> Spare buildings scattered outside give attackers free funnel work and free percentage.</li></ul>"
+        },
+        {
+          "h": "Testing and iterating",
+          "body": "<p>You cannot evaluate a base by looking at it. You evaluate it by watching it lose.</p><ol class='steps'><li><b>Play the layout for a few days.</b>Give it enough defences to gather real data rather than one unlucky attack.</li><li><b>Watch every defence replay.</b>Note where the attacker deployed, which compartment fell first, and what killed which troops.</li><li><b>Look for the repeat.</b>If three different attackers all entered from the same side, that side is the problem, not the attackers.</li><li><b>Change one thing.</b>Move one defence or reshape one compartment, then watch again. Changing five things teaches you nothing.</li></ol><div class='note'><p><b>On copied layouts.</b> There is nothing wrong with starting from a good design, but understand that a screenshot is a snapshot of someone else's defence levels against a meta that has moved on. Copy the structure, then adapt it to what you actually have, and iterate from your own replays.</p></div>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I protect my Town Hall or my storages?",
+          "a": "It depends what the base is for. A farming base protects storages and dark elixir and happily gives up the Town Hall, since losing a star costs little compared to losing loot. A trophy base does the opposite. Deciding this first is the most important base building decision."
+        },
+        {
+          "q": "Are copied base layouts a good idea?",
+          "a": "As a starting point, yes; as a finished answer, no. A copied layout reflects someone else's defence levels and the attack meta at the time it was made. Use the structure, then adapt it and iterate based on your own defence replays."
+        },
+        {
+          "q": "Where should traps go?",
+          "a": "On the paths your own compartments create, which you find by watching defence replays rather than by guessing. Traps placed where troops actually walk are worth several times traps placed where they look sensible."
+        }
+      ],
+      "related": [
+        "mechanics:defence-mechanics",
+        "mechanics:walls-and-pathing",
+        "mechanics:clan-castle-troops",
+        "tutorials:base-building"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "dark-elixir",
+      "name": "Dark elixir",
+      "h1": "Dark Elixir: The Late-Game Bottleneck",
+      "head_title": "Clash of Clans Dark Elixir — Farming, Drills and What It Is For",
+      "description": "What dark elixir is used for in Clash of Clans, how drills work, why it becomes the main bottleneck in the late game, and how to farm it efficiently.",
+      "blurb": "The resource that decides how fast your heroes grow, which is to say everything.",
+      "summary": "Gold and elixir buy buildings. Dark elixir buys heroes, and heroes are the difference between an army that works and an army that nearly works. From the moment it unlocks, dark elixir is the resource that gates your real progress, and it is the hardest one to get.",
+      "quick": {
+        "Unlocked at": "The Town Hall level that introduces the Dark Elixir Drill",
+        "Produced by": "Dark Elixir Drills, slowly",
+        "Spent on": "Heroes, dark troops, dark spells, and some upgrades",
+        "Stored in": "A single Dark Elixir Storage",
+        "Why it is scarce": "Drills produce slowly and raids yield small amounts"
+      },
+      "tags": [
+        {
+          "label": "Farming",
+          "kind": "dark"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it is actually for",
+          "body": "<p>Dark elixir funds three things, in descending order of importance:</p><ol><li><strong>Heroes.</strong> The Barbarian King, Archer Queen and their successors are all upgraded with dark elixir, and hero levels contribute to attacking power more than almost any other upgrade in the game. They are also the upgrades with the longest timers, which means every day you are not upgrading a hero is a day permanently lost.</li><li><strong>Dark troops.</strong> Hog Riders, Valkyries, Witches, Golems and the rest are trained with dark elixir, so a dark-troop army has a running cost as well as a research cost.</li><li><strong>Dark spells and assorted upgrades.</strong> Cheaper, but they add up.</li></ol><p>Because heroes sit at the top of that list and heroes cannot be attacked with while they are upgrading, dark elixir management is really schedule management, which is covered in <a href='upgrade-priority.html'>upgrade priority</a>.</p>"
+        },
+        {
+          "h": "Why it is so scarce",
+          "body": "<p>Three reasons compound. Drills produce it far more slowly than mines produce gold. Storages hold a small stealable share, so raiding rich players yields little. And the drills themselves are usually placed inside the base, so you cannot strip them with a surface army the way you strip collectors.</p><p>The result is a resource where the difference between a good farming approach and a bad one is enormous. Players who farm dark elixir deliberately upgrade heroes continuously; players who pick it up incidentally spend most of the game with heroes several levels behind.</p>"
+        },
+        {
+          "h": "How to farm it",
+          "body": "<p>Three approaches, and most players end up mixing them.</p><ul><li><strong>Drill sniping.</strong> Find bases with drills placed loosely, near the edge or in a poorly defended compartment, and take just the drills with a small cheap force. Fast, cheap, low-yield per attack, high yield per hour if you skip well.</li><li><strong>Full attacks on storage.</strong> Commit a real army to reach the Dark Elixir Storage in the core. Higher yield per attack, much higher cost, and only worth it when the loot preview justifies it.</li><li><strong>League bonus farming.</strong> In higher leagues the bonus includes a meaningful dark elixir component, paid for winning regardless of what you steal. If you win reliably, this is often the most consistent source.</li></ul><p>What ties all three together is <strong>the skip discipline</strong>. Dark elixir farming is a search problem more than a combat problem: set a hard minimum, skip fast, and do not talk yourself into a marginal base because you have been searching for a while.</p>"
+        },
+        {
+          "h": "Protecting your own",
+          "body": "<ul><li><strong>Bury the storage.</strong> The Dark Elixir Storage belongs in the most protected compartment you have, deeper than gold and elixir.</li><li><strong>Do not leave drills full.</strong> Collect them every time you log in. Dark elixir sitting in a drill is the most stealable dark elixir on your base.</li><li><strong>Spend it immediately.</strong> A hero upgrade in progress cannot be stolen. If you have enough for a hero level, start it before you close the game.</li></ul><p>The last point is the one that separates players. Dark elixir left in storage overnight is an invitation; dark elixir committed to a hero is progress you keep.</p><p>Drill production rates, capacities and costs for every level are on the <a href='../buildings/dark-elixir-drill.html'>Dark Elixir Drill</a> page, read from the game files rather than reproduced here.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is dark elixir used for?",
+          "a": "Primarily heroes, which are the single biggest contributor to attacking strength, plus dark troops such as Hog Riders and Golems and the dark spells. Because hero upgrades take the longest and matter the most, dark elixir effectively sets the pace of your late-game progress."
+        },
+        {
+          "q": "What is the fastest way to farm dark elixir?",
+          "a": "Usually drill sniping with a small cheap force combined with a strict skip minimum, since drills hold a large share of stealable dark elixir and are far cheaper to reach than the core storage. In higher leagues the league bonus becomes a large and much more predictable source."
+        },
+        {
+          "q": "Why do I keep losing my dark elixir?",
+          "a": "Almost always because it is sitting in full drills or in a storage that is not deep enough in the base, or because you logged off holding it. Collect drills every session, keep the Dark Elixir Storage in your most protected compartment, and start a hero upgrade before closing the game."
+        }
+      ],
+      "related": [
+        "mechanics:loot-mechanics",
+        "mechanics:upgrade-priority",
+        "heroes:index",
+        "guides:dark-elixir-bot"
+      ],
+      "show_tool_note": true,
+      "priority": "0.8"
+    },
+    {
+      "slug": "upgrade-priority",
+      "name": "Upgrade priority",
+      "h1": "Upgrade Priority: What to Build Next",
+      "head_title": "Clash of Clans Upgrade Priority — What to Upgrade First at Any Town Hall",
+      "description": "A durable framework for deciding what to upgrade next in Clash of Clans: laboratory first, heroes always, why rushing hurts, and how to keep builders busy.",
+      "blurb": "One framework that answers the question at every Town Hall level.",
+      "summary": "The specific answer changes every Town Hall. The framework does not. Keep the laboratory running, keep a hero upgrading, keep every builder busy, and never let the Town Hall run ahead of what is underneath it. Almost every progression mistake in the game is a violation of one of those four.",
+      "quick": {
+        "Never idle": "Laboratory, heroes, and every builder",
+        "First priority": "Army research and camp capacity, which apply to every attack",
+        "Second priority": "Defences that cover a whole category, especially anti-air",
+        "Last priority": "Walls and cosmetic buildings",
+        "Cardinal sin": "Upgrading the Town Hall before the base under it is ready"
+      },
+      "tags": [
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The four things that should never be idle",
+          "body": "<p>Progress in Clash of Clans is measured in parallel timers, not in resources. Resources sitting in a storage do nothing except attract attackers. The four parallel tracks:</p><ul><li><strong>The laboratory.</strong> Research applies to every troop of that type forever, in every future attack. An idle lab is the most expensive idleness in the game.</li><li><strong>A hero.</strong> Hero upgrades take the longest, so the only way to get them done is to always have one running. Yes, that means attacking without that hero for a while. Do it anyway.</li><li><strong>Every builder.</strong> A free builder is a timer you are not running. Even a cheap, low-value upgrade beats an idle builder.</li><li><strong>The Clan Castle, on defence.</strong> Free, and forgotten constantly.</li></ul><p>If you check nothing else when you log in, check these.</p>"
+        },
+        {
+          "h": "Ordering within a Town Hall level",
+          "body": "<p>When you arrive at a new Town Hall, the shopping list is enormous and the temptation is to build the shiny new defence. A more reliable order:</p><ol><li><strong>Army camps and barracks.</strong> More troops per attack improves every single attack you will make at this Town Hall. This is almost always the highest-value first purchase.</li><li><strong>Laboratory, then research.</strong> Upgrade the lab early so the research queue can start on the troops you actually use.</li><li><strong>Storages.</strong> Because if your storages cannot hold the cost of the next upgrade, you physically cannot buy it, and you will spend days confused about why.</li><li><strong>Defences that close a category gap.</strong> A missing Air Defence is a hole; a fourth Cannon is a decoration. Read <a href='defence-mechanics.html'>defence mechanics</a> for what a category gap looks like.</li><li><strong>Everything else.</strong></li><li><strong>Walls, continuously, with surplus.</strong> Never as a priority, always as a sink.</li></ol>"
+        },
+        {
+          "h": "Rushing, and what it actually costs",
+          "body": "<p>Rushing means upgrading the Town Hall while the base beneath it is far from complete. It is not forbidden and it is not always wrong, but it is widely misunderstood, so be clear about the trade:</p><p><strong>What you gain:</strong> access to new buildings, troops and levels sooner.</p><p><strong>What you pay:</strong> your defences are now several tiers behind the players you meet, so you lose more defences; your army is behind the bases you are offered, so you win fewer attacks; and your war matchups get harder because war matchmaking looks at what you own, not at whether it is upgraded. The result is a village that looks advanced and performs badly, and digging out takes months.</p><p>The moderate position most experienced players land on: <strong>do not max everything, but do not skip categories.</strong> Get heroes, army research, camps and the key defences to a reasonable level for the Town Hall, then move up. Leaving a few decorative buildings behind is fine; leaving your heroes ten levels behind is not.</p>"
+        },
+        {
+          "h": "A checklist before pressing Town Hall upgrade",
+          "body": "<ol><li>Are my heroes within a reasonable range of the cap for this Town Hall?</li><li>Is the laboratory maxed for this level, and are the troops I actually use researched?</li><li>Are army camps maxed?</li><li>Is there a defence category, especially anti-air, that is still weak?</li><li>Do I have enough builders free that the next Town Hall's queue will not stall?</li></ol><p>Four yeses and a plan for the fifth means go. Two yeses means you are about to rush, and you should know that is what you are doing.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I upgrade first in Clash of Clans?",
+          "a": "Army camps and laboratory research before anything else, because they improve every attack you will ever make at that Town Hall level, then storages so you can actually afford later upgrades, then any defence category you are missing. Walls last, always, using surplus."
+        },
+        {
+          "q": "Is rushing your Town Hall bad?",
+          "a": "It is a trade rather than a mistake. You get access to new content sooner and pay for it with weaker defences, a weaker army relative to your opponents and harder war matchups. The workable middle ground is to keep heroes, research, camps and key defences reasonable for your level, and not worry about maxing decorative buildings."
+        },
+        {
+          "q": "Should I upgrade heroes even though I cannot use them?",
+          "a": "Yes. Hero upgrades have the longest timers in the game, so the only way to finish them is to always have one running. Attacking without a hero for a few days is a small cost; being permanently behind on hero levels is a large one."
+        }
+      ],
+      "related": [
+        "mechanics:dark-elixir",
+        "townhalls:index",
+        "mechanics:defence-mechanics",
+        "tutorials:upgrade-order"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "clan-wars",
+      "name": "Clan Wars",
+      "h1": "Clan Wars: Scoring, Attacks and Etiquette",
+      "head_title": "Clash of Clans Clan Wars Explained — Stars, Percentages and Strategy",
+      "description": "How Clan Wars work in Clash of Clans: preparation and battle day, star and percentage scoring, tiebreakers, mirror discipline, and the unwritten rules clans expect you to follow.",
+      "blurb": "Two attacks, two days, and a scoring system that rewards patience.",
+      "summary": "Clan Wars are the most structured part of Clash of Clans and the part most new players get quietly wrong, not because the attacks are hard but because the scoring and the etiquette are unfamiliar. Both are learnable in ten minutes and will make you welcome in any decent clan.",
+      "quick": {
+        "Structure": "Preparation day, then battle day",
+        "Attacks per member": "Two",
+        "Scoring": "Stars first, then total destruction percentage as tiebreaker",
+        "Stars from a base": "Only the best result on that base counts, ever",
+        "Matchmaking": "Roster-based, not trophy-based"
+      },
+      "tags": [
+        {
+          "label": "Clan"
+        },
+        {
+          "label": "War"
+        }
+      ],
+      "sections": [
+        {
+          "h": "How a war runs",
+          "body": "<p>A clan leader starts a search, matchmaking finds an opposing clan with a comparable roster, and the war enters <strong>preparation day</strong>. During prep nobody attacks. You set your war base, donate defensive Clan Castle troops to teammates, scout the enemy map and agree who is attacking whom.</p><p>Then <strong>battle day</strong> begins and each member gets <strong>two attacks</strong>. When the clock runs out, the clan with more stars wins; if stars are level, the clan with the higher total destruction percentage wins.</p><p>The single most important scoring rule: <strong>only the best result on each enemy base counts</strong>. If a teammate already took two stars on base seven and you take two stars as well, your attack contributed nothing. If you take three, you contributed exactly one new star. This is why coordination matters so much more in war than anywhere else in the game.</p>"
+        },
+        {
+          "h": "Mirror discipline and target choice",
+          "body": "<p>War maps are ordered by strength, and your position on your map is your <strong>mirror</strong>, the equivalently ranked base on theirs. Most clans expect you to attack your mirror first, or something close to it, for a simple reason: if everyone attacks down for easy stars, the top of the enemy map never gets touched and the war is lost with a hundred per cent destruction on the bottom half.</p><p>The usual convention, which varies by clan:</p><ul><li><strong>First attack:</strong> your mirror, or one or two above it. Try for three stars.</li><li><strong>Second attack:</strong> whatever the clan needs. Late in the war that usually means cleaning up a base sitting on one or two stars, not hunting a fresh three-star for personal satisfaction.</li><li><strong>Never</strong> attack far below your position early. It takes a base out of the pool for the teammate who was meant to handle it, and it wins nothing.</li></ul><p>Ask your clan what their convention is. Every clan has one, and being the person who attacked base fourteen from position three is a fast way to be removed from the war roster.</p>"
+        },
+        {
+          "h": "Preparing an attack properly",
+          "body": "<ol class='steps'><li><b>Scout before prep ends.</b>Look at your likely targets on preparation day, not thirty seconds before you attack. Note the Clan Castle, the defence layout and the compartments.</li><li><b>Plan the Castle lure.</b>Decide where you will pull the defending Castle and what will kill it. See <a href='clan-castle-troops.html'>Clan Castle troops</a>.</li><li><b>Plan the funnel.</b>Pick the side, identify the shoulder buildings you need to clear, decide what clears them. See <a href='funnelling.html'>funnelling</a>.</li><li><b>Request what you need.</b>Castle troops, siege machine, spells. Ask early; donations are not instant.</li><li><b>Attack with time to spare.</b>Do not leave both attacks to the last hour. Clans lose wars to time zones far more often than to skill.</li></ol>"
+        },
+        {
+          "h": "The etiquette nobody writes down",
+          "body": "<ul><li><strong>Use both attacks.</strong> An unused attack is a star the clan cannot get. This is the number one reason players are removed from clans.</li><li><strong>Fill your war base's Clan Castle.</strong> An empty war Castle is a free star for the enemy.</li><li><strong>Do not change your war base mid-war</strong> unless your clan asks you to.</li><li><strong>Call your target in chat</strong> before attacking so two people do not burn attacks on the same base.</li><li><strong>Post the result honestly.</strong> If you failed, say what happened; someone else needs to clean it up.</li></ul><p>None of this requires skill. All of it makes the difference between a clan that wins wars and a clan that argues about them.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Clan War scoring work?",
+          "a": "Stars decide the war, and total destruction percentage breaks a tie. Crucially, only the best result on each enemy base counts, so attacking a base that already has three stars adds nothing at all, and matching a teammate's two stars adds nothing either."
+        },
+        {
+          "q": "Which base should I attack in war?",
+          "a": "Convention in most clans is to take your mirror, the base at your own position on the enemy map, or one or two above it with your first attack, then use your second attack on whatever the clan still needs. Attacking far below your position early wastes a target another member was meant to handle."
+        },
+        {
+          "q": "What happens if I do not use my war attacks?",
+          "a": "The clan permanently loses the stars those attacks could have earned, and there is no way to recover them. Unused attacks are the most common reason players are dropped from war rosters or removed from clans entirely."
+        }
+      ],
+      "related": [
+        "mechanics:clan-war-leagues",
+        "mechanics:clan-castle-troops",
+        "mechanics:funnelling",
+        "mechanics:war-weight",
+        "tutorials:first-war-attack"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "slug": "clan-war-leagues",
+      "name": "Clan War Leagues",
+      "h1": "Clan War Leagues: The Monthly Tournament",
+      "head_title": "Clash of Clans Clan War Leagues (CWL) Explained",
+      "description": "How Clan War Leagues work in Clash of Clans: the seven-war format, one attack per war, promotion and relegation, league medals and roster strategy.",
+      "blurb": "Seven wars, one attack each, and rewards that dwarf regular war.",
+      "summary": "Clan War Leagues run once a month as a round-robin tournament between eight clans. The format is different enough from regular war to catch people out, and the rewards are large enough that being caught out is expensive.",
+      "quick": {
+        "Frequency": "Once per month, for a limited signup window",
+        "Format": "Seven consecutive wars against seven different clans",
+        "Attacks per war": "One, not two",
+        "Roster": "Fixed size, chosen by leadership, can be rotated between wars",
+        "Rewards": "League medals, spent in a dedicated shop"
+      },
+      "tags": [
+        {
+          "label": "Clan"
+        },
+        {
+          "label": "War"
+        }
+      ],
+      "sections": [
+        {
+          "h": "One attack changes everything",
+          "body": "<p>In regular war you get two attacks, which means you can afford an experiment and then a clean-up. In Clan War Leagues you get <strong>one</strong>. There is no second chance, no correcting a bad funnel, no fixing a misjudged Castle lure.</p><p>Practical consequences:</p><ul><li><strong>Take the attack you are confident in</strong>, not the attack you have been meaning to practise. CWL is not the place to try a new army for the first time.</li><li><strong>Scout properly.</strong> With one attack, five minutes of scouting is cheap.</li><li><strong>Clean-up is a team decision.</strong> Because nobody has a spare attack, whoever is assigned a base has to finish it. Communication matters even more than in regular war.</li></ul>"
+        },
+        {
+          "h": "Promotion, relegation and the roster",
+          "body": "<p>Clans are placed in a league tier and play seven wars. Performance across those wars decides whether the clan is promoted, held or relegated for next season, and the tier determines how many medals everyone earns.</p><p>Because the roster is a fixed size and leadership chooses it per war, CWL creates a genuine selection problem. Two common approaches:</p><ul><li><strong>Compete:</strong> field the strongest available roster every war, prioritise promotion, accept that weaker members sit out some wars.</li><li><strong>Rotate:</strong> give everyone participation across the seven wars so all members earn medals, accept a lower finish.</li></ul><p>Neither is wrong, but a clan that has not decided which one it is doing will have an argument about it in week two. If you are joining a clan for CWL, ask which it is before signing up.</p>"
+        },
+        {
+          "h": "Medals and what to buy",
+          "body": "<p>League medals are earned based on the clan's tier and your own participation, and are spent in a dedicated shop that typically stocks hero-relevant items, resources and boosts.</p><p>The general spending advice: <strong>buy the things that are otherwise scarce</strong>. Resources you can farm. Time you cannot. Items that shorten hero upgrades or advance research are worth more than an equivalent value in gold, because your bottleneck is almost never gold, it is the timers described in <a href='upgrade-priority.html'>upgrade priority</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many attacks do you get in Clan War Leagues?",
+          "a": "One per war, across seven wars. That is the key difference from regular Clan Wars, where you get two, and it means CWL attacks should be conservative and well scouted rather than experimental."
+        },
+        {
+          "q": "Do I have to participate in every CWL war?",
+          "a": "No. Leadership picks the roster for each of the seven wars and can rotate members between them. Whether your clan rotates everyone through for medals or fields its strongest roster to chase promotion is a clan policy decision worth asking about before you sign up."
+        },
+        {
+          "q": "What should I spend league medals on?",
+          "a": "Items that save time rather than items that save resources. Resources can be farmed; hero and research timers cannot be, so anything that shortens them is worth more than its face value in gold or elixir."
+        }
+      ],
+      "related": [
+        "mechanics:clan-wars",
+        "mechanics:magic-items",
+        "mechanics:upgrade-priority",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "clan-capital-and-raid-weekends",
+      "name": "Clan Capital and Raid Weekends",
+      "h1": "Clan Capital and Raid Weekends",
+      "head_title": "Clash of Clans Clan Capital and Raid Weekends Explained",
+      "description": "How the Clan Capital works in Clash of Clans: capital gold, districts, contributing to upgrades, Raid Weekend attack mechanics and raid medals.",
+      "blurb": "A second, shared village that the whole clan builds together.",
+      "summary": "The Clan Capital is a separate, collectively owned village made of districts, funded by capital gold that every member contributes. Raid Weekends are the attack mode built on top of it, and they run on rules that are unlike anything else in the game.",
+      "quick": {
+        "Owned by": "The clan, collectively",
+        "Currency": "Capital gold, which cannot be converted to or from village resources",
+        "Structure": "A capital peak plus unlockable districts",
+        "Raid Weekend": "A weekend event where clans attack other clans' capitals",
+        "Rewards": "Raid medals, spent in a dedicated shop"
+      },
+      "tags": [
+        {
+          "label": "Clan"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Capital gold and contribution",
+          "body": "<p>Capital gold is earned separately from your village economy and can only be spent on the Clan Capital. You cannot convert village gold into capital gold or the other way round, which means capital progress is genuinely a collective effort rather than something one rich member can carry.</p><p>Members contribute capital gold to specific upgrades, and upgrades complete when enough has been contributed. Two things worth knowing:</p><ul><li><strong>Contribute where leadership asks.</strong> Spreading contributions across every building at once means nothing finishes. Most clans nominate a target.</li><li><strong>Do not sit on capital gold.</strong> It has no other use. Hoarding it helps nobody, including you.</li></ul>"
+        },
+        {
+          "h": "How Raid Weekend attacks work",
+          "body": "<p>Raid Weekends run on rules that catch out everyone who assumes they work like village attacks:</p><ul><li><strong>Damage carries over.</strong> If your attack does not finish a district but destroys most of it, the destruction persists for the next attacker. Attacks are cumulative, not independent.</li><li><strong>Troops do not return.</strong> You get a limited number of attacks, and each one uses one of them regardless of how it goes.</li><li><strong>Districts unlock in sequence.</strong> You must clear one district to reach the next, so the clan works through the enemy capital in order.</li><li><strong>Everything is shared.</strong> Your attacks feed a clan-wide result, and the clan's total performance decides the reward.</li></ul><p>The carry-over rule is the important one strategically. A partial attack is not a wasted attack; it is groundwork. Clans coordinate by sending strong attackers to open a district and everyone else to finish it.</p>"
+        },
+        {
+          "h": "Raid medals",
+          "body": "<p>Raid medals are awarded based on the clan's raid performance and your own participation, and are spent in a shop that typically includes resources, boosts and items relevant to hero and research progress.</p><p>The same principle as league medals applies: <strong>buy time, not resources</strong>. A shop item that shortens a hero upgrade is worth considerably more than the equivalent in gold, because gold is the thing you can always go and get.</p><p>The practical advice for members is simply to <strong>use every raid attack, every weekend</strong>. Raid medals are one of the steadiest reward streams in the game and they cost you nothing but a few minutes.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I convert capital gold into normal gold?",
+          "a": "No. Capital gold is a separate currency that can only be spent on Clan Capital upgrades, and village resources cannot be converted into it either. That separation is deliberate, so capital progress reflects collective participation rather than one wealthy member."
+        },
+        {
+          "q": "Does damage carry over between Raid Weekend attacks?",
+          "a": "Yes, and this is the most important rule in the mode. Destruction persists for the next attacker, so a partial attack is groundwork rather than a failure. Clans coordinate by having strong attackers open a district and others finish it."
+        },
+        {
+          "q": "What should I buy with raid medals?",
+          "a": "Items that shorten upgrade and research timers, rather than raw resources. Resources can be farmed at any time; the timers on heroes and laboratory research are the real constraint on progress."
+        }
+      ],
+      "related": [
+        "mechanics:clan-wars",
+        "mechanics:clan-war-leagues",
+        "mechanics:magic-items",
+        "mechanics:upgrade-priority"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "war-weight",
+      "name": "War weight",
+      "h1": "War Weight: What It Is and What It Is Not",
+      "head_title": "Clash of Clans War Weight Explained — Myths and Reality",
+      "description": "What war weight means in Clash of Clans, how war matchmaking really evaluates a roster, why engineered bases stopped working, and what clans should actually do.",
+      "blurb": "The most misunderstood number in the game, and mostly a distraction.",
+      "summary": "War weight is the informal name for how war matchmaking evaluates your village. It generated years of folklore, elaborate spreadsheets and a whole culture of engineered bases. Most of that folklore was already out of date when it was written, and almost none of it is worth your time now.",
+      "quick": {
+        "What it measures": "Roughly, the offensive and defensive assets a village owns",
+        "Based on": "What you have built and upgraded, not on trophies",
+        "Applies to": "Clan War and Clan War League matchmaking",
+        "Does not apply to": "Multiplayer matchmaking, which uses trophies",
+        "Practical advice": "Build a balanced village and stop optimising for it"
+      },
+      "tags": [
+        {
+          "label": "War"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What it actually is",
+          "body": "<p>When a clan searches for a war, matchmaking evaluates the participating rosters and looks for an opposing clan of comparable strength. It considers what each village has built and upgraded, offensive assets as well as defensive ones. That evaluation is what players call war weight. Supercell has never published the formula and has changed it repeatedly.</p><p>The important part, and the part that overturns most of the old folklore: <strong>offence counts</strong>. In early versions of the game, matchmaking leaned heavily on defensive buildings, which created a well-known exploit.</p>"
+        },
+        {
+          "h": "Engineered bases, and why they died",
+          "body": "<p>The exploit was the <em>engineered</em> or <em>anti-3-star</em> account: a village that deliberately skipped defensive upgrades while maxing offence, so it would be weighted low, placed near the bottom of the war map, and could then attack far above its apparent level. A clan full of these could consistently out-punch its matchups.</p><p>Supercell addressed this over several years by giving offensive assets real weight in matchmaking and by adjusting how war maps are ordered. The result is that engineering now mostly produces the opposite of what it was designed to produce: a village that is weighted according to its strong offence and matched accordingly, but that defends like a much lower Town Hall, so it hands out easy stars all war.</p><p>You will still meet players insisting otherwise, generally quoting advice that was accurate around a decade ago.</p>"
+        },
+        {
+          "h": "What clans should actually do",
+          "body": "<p>Three pieces of advice that survive every matchmaking change:</p><ul><li><strong>Build balanced villages.</strong> A village whose offence and defence roughly match its Town Hall matches fairly and performs where it is placed. This is the whole answer.</li><li><strong>Manage the roster, not the weight.</strong> The lever a clan genuinely controls is who participates. Fielding fifteen committed attackers beats fielding thirty of whom half forget.</li><li><strong>Stop worrying about the number.</strong> Time spent modelling war weight is time not spent upgrading heroes, and hero levels win wars.</li></ul><div class='note warn'><p><b>A note on the folklore.</b> Much of the war weight content online, including detailed per-building weight tables, dates from an era with a different formula. Treat any specific number you find as historical unless it is very recent and sourced.</p></div>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does upgrading defences make my war matchups harder?",
+          "a": "It contributes, but so does upgrading your army, heroes and laboratory, because modern war matchmaking weighs offensive assets as well as defensive ones. Deliberately skipping defences no longer buys you an easy matchup; it just makes you easier to three-star."
+        },
+        {
+          "q": "Do engineered bases still work?",
+          "a": "Not in the way they were designed to. Once offensive assets started counting toward matchmaking, an account with maxed offence and neglected defence gets weighted for its offence and then loses defences all war. The strategy is a relic of a much older version of the game."
+        },
+        {
+          "q": "Do trophies affect war matchmaking?",
+          "a": "No. War matchmaking evaluates the participating rosters' assets and ignores trophies entirely, which is why trophy dropping has no effect on the wars your clan is matched into."
+        }
+      ],
+      "related": [
+        "mechanics:clan-wars",
+        "mechanics:upgrade-priority",
+        "mechanics:trophies-and-leagues",
+        "mechanics:clan-war-leagues"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "builder-base",
+      "name": "Builder Base",
+      "h1": "Builder Base: The Second Village",
+      "head_title": "Clash of Clans Builder Base Explained — Versus Battles and Builder Hall",
+      "description": "How the Builder Base works in Clash of Clans: Builder Hall progression, versus battle rules, the separate economy, and how it feeds your main village.",
+      "blurb": "A separate village with its own economy, its own troops and its own rules.",
+      "summary": "The Builder Base is a parallel game. It has its own resources, its own troops, its own attack mode and its own progression, and it feeds back into the main village through the rewards it produces. Many players ignore it, which is a mistake, because it is the least demanding source of steady progress in the game.",
+      "quick": {
+        "Unlocked by": "Repairing the boat, after a certain main village Town Hall level",
+        "Progression building": "Builder Hall, rather than Town Hall",
+        "Economy": "Separate gold and elixir that cannot be moved to the main village",
+        "Attack mode": "Versus battles against another player's base",
+        "Feeds back": "Through rewards that benefit the main village"
+      },
+      "tags": [
+        {
+          "label": "Builder Base"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "How versus battles differ",
+          "body": "<p>Versus battles are not raids. You and an opponent attack the same layout, and the better result wins. The differences from main village attacking are substantial:</p><ul><li><strong>You are not stealing.</strong> There is no loot on the defender's base to take. Rewards come from winning, not from what you destroy.</li><li><strong>Troops are automatic between waves.</strong> The Builder Base has its own troop roster with its own behaviours and its own deployment rhythm.</li><li><strong>Both sides see the same base.</strong> It is a comparison, not a raid, so a marginal result is only bad if your opponent did better.</li><li><strong>Attacks are limited per day for full rewards.</strong> This is the important one economically, and it shapes how you should play.</li></ul>"
+        },
+        {
+          "h": "The daily rhythm",
+          "body": "<p>Because full rewards come from a limited number of attacks per day, the Builder Base rewards <strong>consistency over volume</strong>. A player who takes their handful of attacks every day progresses steadily; a player who does thirty attacks on Saturday and none all week gets far less for far more effort.</p><p>The efficient routine is short:</p><ol><li>Log in, collect the mines and the Gem Mine.</li><li>Take your rewarded attacks, in one sitting, with whatever army you have researched.</li><li>Start upgrades with everything you earned.</li><li>Close the game.</li></ol><p>Five minutes a day, and over a month it is a meaningful amount of progress that costs you almost no attention. If you want that loop run for you, that is exactly what a <a href='../../guides/builder-base-bot.html'>Builder Base bot</a> does.</p>"
+        },
+        {
+          "h": "What it gives the main village",
+          "body": "<p>The Builder Base is not a closed system. Progress there unlocks rewards that matter on the main village, most notably additional building capacity and various items and boosts that feed main village progress. That is the real argument for taking it seriously: it is not a side game, it is a second income stream for the village you actually care about.</p><p>The practical implication for upgrade order is that <strong>Builder Hall progression is worth prioritising early</strong>, because the rewards it unlocks compound over the entire rest of your account's life. A player who reaches those milestones in month two benefits from them for years.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I move resources between the Builder Base and my main village?",
+          "a": "No. The two villages have entirely separate economies, and Builder Base gold and elixir can only be spent on Builder Base upgrades. The connection between them is through the rewards and unlocks that Builder Hall progression grants to the main village."
+        },
+        {
+          "q": "Is the Builder Base worth playing?",
+          "a": "Yes, mainly because of what it unlocks for the main village, including additional building capacity. It also asks very little: a handful of rewarded attacks a day, taken consistently, produces steady progress for around five minutes of attention."
+        },
+        {
+          "q": "How many versus battles should I do per day?",
+          "a": "Enough to claim the full daily rewards, and consistency matters far more than volume. Attacks beyond the rewarded ones give much less, so a short daily session beats a long weekend one."
+        }
+      ],
+      "related": [
+        "mechanics:upgrade-priority",
+        "guides:builder-base-bot",
+        "townhalls:index",
+        "tutorials:builder-base-start"
+      ],
+      "show_tool_note": true,
+      "priority": "0.7"
+    },
+    {
+      "slug": "super-troops",
+      "name": "Super Troops",
+      "h1": "Super Troops: Temporary Upgrades",
+      "head_title": "Clash of Clans Super Troops Explained — Boosting, Cost and Strategy",
+      "description": "How Super Troops work in Clash of Clans: boosting with dark elixir, the active duration, how many you can run at once, and whether they are worth the cost.",
+      "blurb": "A temporary, much stronger version of a troop you already have.",
+      "summary": "Super Troops are enhanced versions of standard troops, activated for a limited period by spending dark elixir. While active, the boosted troop replaces its normal counterpart entirely. They are genuinely powerful, genuinely expensive, and worth activating with a plan rather than on impulse.",
+      "quick": {
+        "Unlocked at": "A mid-to-late Town Hall level",
+        "Requirement": "The base troop must be at a minimum level",
+        "Cost": "Dark elixir, or a Super Potion",
+        "Duration": "A fixed active period, measured in days",
+        "Limit": "A small number active at once"
+      },
+      "tags": [
+        {
+          "label": "Progression",
+          "kind": "dark"
+        },
+        {
+          "label": "Combat"
+        }
+      ],
+      "sections": [
+        {
+          "h": "How boosting works",
+          "body": "<p>You pick a troop that meets the level requirement, pay dark elixir, and for a fixed period that troop is replaced in your army menu by its Super version. You cannot train both the normal and the Super version at the same time, which is the detail that catches people out: boosting a troop your farming army depends on changes that army's cost and housing for the whole boost period.</p><p>Only a small number can be active simultaneously, so activation is a choice between options rather than a shopping spree.</p>"
+        },
+        {
+          "h": "Is it worth the dark elixir?",
+          "body": "<p>Dark elixir is the scarcest resource in the game and its main competing use is hero upgrades, which are the single biggest contributor to attacking power. So the honest framing is: <strong>a Super Troop boost costs you hero progress</strong>.</p><p>That makes it worth it in a narrow set of cases:</p><ul><li><strong>You have a specific war coming</strong> and the Super version solves a problem your normal army cannot.</li><li><strong>The boost dramatically improves your farming rate</strong>, such that it pays for itself in dark elixir over the boost period. Do the arithmetic rather than assuming.</li><li><strong>You got a Super Potion</strong> from an event or the shop, in which case it costs nothing and you should absolutely use it.</li></ul><p>It is generally <em>not</em> worth it if you are mid-hero-upgrade and short on dark elixir, or if you are boosting a troop you do not have a specific plan for. See <a href='dark-elixir.html'>dark elixir</a> for the wider budgeting picture.</p>"
+        },
+        {
+          "h": "Planning a boost",
+          "body": "<p>Because the duration is fixed and the cost is high, the boost should be planned around what you will do with it:</p><ol class='steps'><li><b>Decide the job first.</b>War attacks, dark elixir farming, or a push. Different jobs favour different Super Troops.</li><li><b>Check your army still works.</b>The Super version usually has different housing space, so your existing army composition may not fit any more. Rebuild it before you activate, not after.</li><li><b>Activate at the start of the window.</b>Boosting on the last day of a war wastes most of the duration.</li><li><b>Use it every day it is active.</b>An unused boost is dark elixir set on fire.</li></ol>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are Super Troops worth the dark elixir?",
+          "a": "Only with a specific plan. Dark elixir competes directly with hero upgrades, which contribute more to attacking power over time, so a boost is worth it when it solves a concrete problem for an upcoming war or clearly pays for itself in improved farming. Free Super Potions are always worth using."
+        },
+        {
+          "q": "Can I use the normal troop while its Super version is active?",
+          "a": "No. The Super version replaces the standard troop in your army menu for the entire boost duration, and since housing space usually differs, your existing army composition may no longer fit. Rebuild the army before activating."
+        },
+        {
+          "q": "How many Super Troops can I have active at once?",
+          "a": "Only a small number, so activation is a genuine choice between options rather than something you do to everything at once. Pick based on what you actually intend to attack during the boost window."
+        }
+      ],
+      "related": [
+        "mechanics:dark-elixir",
+        "troops:index",
+        "mechanics:magic-items",
+        "mechanics:upgrade-priority"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "hero-equipment",
+      "name": "Hero Equipment",
+      "h1": "Hero Equipment: Customising Your Heroes",
+      "head_title": "Clash of Clans Hero Equipment Explained — Slots, Upgrades and Choices",
+      "description": "How Hero Equipment works in Clash of Clans: equipment slots, ores and upgrading, choosing between offensive and defensive pieces, and what changes on defence.",
+      "blurb": "Two slots per hero that change what the hero is for.",
+      "summary": "Hero Equipment turned heroes from fixed units into configurable ones. Each hero carries a small number of equipment pieces, each piece changes their abilities and passive strengths, and the combination you choose can make the same hero a tank, a damage dealer or a support unit.",
+      "quick": {
+        "Applies to": "Each hero, individually",
+        "Slots": "A small fixed number per hero",
+        "Upgraded with": "Ores, a separate currency from resources",
+        "Swappable": "Yes, between attacks, at no cost",
+        "On defence": "Equipment affects defending heroes too"
+      },
+      "tags": [
+        {
+          "label": "Heroes"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Slots and swapping",
+          "body": "<p>Each hero has a small number of equipment slots, and the pieces you fit determine both the hero's ability and a set of passive bonuses. Swapping is free and can be done between attacks, which means equipment is a per-attack decision, not a permanent commitment.</p><p>This is the part people underuse. Most players find one loadout and never touch it again. The players who get the most out of equipment change it for the job: one setup for farming, another for war, another for defence.</p>"
+        },
+        {
+          "h": "Ores and upgrade strategy",
+          "body": "<p>Equipment is upgraded with ores, which are earned through play rather than farmed like gold, and the rarer ores are genuinely scarce. That scarcity creates the central decision: <strong>spread ores thinly across many pieces, or concentrate them on a few</strong>.</p><p>Concentrating is almost always correct. A small number of high-level pieces on the heroes you actually attack with beats a broad shelf of mediocre equipment, because you can only equip a few pieces at a time anyway. Pick the loadout you use most, level it properly, and ignore the rest until it is done.</p><ul><li><strong>Prioritise the hero you use every attack.</strong> Equipment on a hero you rarely deploy is wasted.</li><li><strong>Prioritise offence over defence pieces</strong> unless you are actively pushing trophies, because attacks are where your resources come from.</li><li><strong>Do not chase every new release.</strong> New equipment is added regularly; ores are not.</li></ul>"
+        },
+        {
+          "h": "Equipment on defence",
+          "body": "<p>Defending heroes use their equipment too, which means the loadout you left on before logging off is the loadout defending your base. If you have configured a hero purely for offensive burst and then log out, you are defending with that configuration.</p><p>Whether that matters depends on what your base is for. A trophy pusher should think about it; a farmer who keeps empty storages and welcomes shields largely should not. But it is worth knowing that the choice exists, because it is invisible in the interface and surprises people when they finally notice it.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I change Hero Equipment between attacks?",
+          "a": "Yes, freely and at no cost. Equipment is a per-attack decision, so it is worth keeping a farming loadout and a war loadout and switching between them rather than settling on one configuration permanently."
+        },
+        {
+          "q": "Should I spread ores across all my equipment?",
+          "a": "No. Concentrate them on the few pieces you actually equip on the heroes you actually attack with. You can only use a small number of pieces at a time, so a handful of well-levelled pieces beats a large collection of weak ones."
+        },
+        {
+          "q": "Does Hero Equipment affect defending heroes?",
+          "a": "Yes. Whatever loadout is equipped when you log off is what your defending heroes use, which matters if you are pushing trophies and matters much less if you are farming with empty storages."
+        }
+      ],
+      "related": [
+        "heroes:index",
+        "mechanics:dark-elixir",
+        "mechanics:upgrade-priority",
+        "mechanics:magic-items"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "magic-items",
+      "name": "Magic items",
+      "h1": "Magic Items: Books, Runes, Potions and Hammers",
+      "head_title": "Clash of Clans Magic Items Explained — Books, Hammers, Runes and Potions",
+      "description": "What Clash of Clans magic items do: Books of Building and Heroes, Hammers, Runes and Potions, where they come from, and how to use them without wasting them.",
+      "blurb": "Finite time-savers. Spend them on the longest timer you have.",
+      "summary": "Magic items skip or accelerate the thing the game is actually made of, which is waiting. They are finite, they do not expire, and the single most common mistake players make is using them on a small upgrade because it was convenient at the time.",
+      "quick": {
+        "Sources": "Season Challenges, Clan Games, league and raid shops, events",
+        "Expire": "No, they sit in storage indefinitely",
+        "Books": "Instantly complete one upgrade of a given type",
+        "Hammers": "Instantly complete and pay for an upgrade",
+        "Runes": "Instantly fill a resource storage",
+        "Potions": "Temporarily boost a system, such as training or research"
+      },
+      "tags": [
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The one rule",
+          "body": "<p><strong>Spend a magic item on the longest timer you can.</strong> That is essentially the whole strategy, and it is violated constantly.</p><p>A Book of Heroes used on a two-day hero upgrade saved you two days. The same book used on a fourteen-day one saved you fourteen. The book cost the same. Since books do not expire, holding one for three weeks until a big upgrade unlocks costs you nothing and multiplies its value several times over.</p><p>The same logic applies to hammers, which are rarer still and should be reserved for the most expensive, longest upgrade available to you at your current Town Hall.</p>"
+        },
+        {
+          "h": "What each family is for",
+          "body": "<ul><li><strong>Books</strong> instantly finish one upgrade of a matching type: building, hero, fighting, or spell. They do not pay for it, so you still need the resources in the bank first.</li><li><strong>Hammers</strong> instantly finish <em>and</em> pay for an upgrade. They are the rarest items in the game and should be treated accordingly.</li><li><strong>Runes</strong> instantly fill a resource storage to capacity. Their value therefore scales with your storage level, which means a rune used at a low Town Hall is worth a fraction of the same rune used later. Hold them.</li><li><strong>Potions</strong> temporarily boost a system: training speed, research speed, builder speed, clock speed. Best used at the start of a session where you will actually exploit the boost, not tapped at random.</li></ul>"
+        },
+        {
+          "h": "Practical habits",
+          "body": "<ul><li><strong>Do not tap items to clear a notification.</strong> The red dot is not a reason.</li><li><strong>Check the timer before spending.</strong> If the upgrade is under a day, it is almost never the right target.</li><li><strong>Runes get better the longer you hold them.</strong> Since they fill storages to capacity and storage capacity grows, an unspent rune is an appreciating asset.</li><li><strong>Potions want a plan.</strong> A training potion is worth using when you have an hour to farm, not when you are about to log off.</li><li><strong>Save around Town Hall transitions.</strong> The upgrades immediately after a Town Hall jump are the longest and most expensive ones you will meet, and that is exactly when your saved items pay out most.</li></ul><p>How magic items fit the broader schedule is covered in <a href='upgrade-priority.html'>upgrade priority</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "When should I use a Book of Heroes?",
+          "a": "On the longest hero upgrade available to you, not on whatever is running now. Books do not expire, so holding one until a fourteen-day upgrade unlocks is strictly better than spending it on a two-day one, and it costs you nothing to wait."
+        },
+        {
+          "q": "Do magic items expire?",
+          "a": "No. They sit in your storage indefinitely, which is exactly why hoarding them until a high-value moment, typically just after a Town Hall upgrade, is the correct strategy."
+        },
+        {
+          "q": "What is the best use of a Rune of Gold or Elixir?",
+          "a": "Later rather than sooner. A rune fills your storages to capacity, so its value grows as your storage capacity grows. Using one at a low Town Hall wastes most of its potential."
+        }
+      ],
+      "related": [
+        "mechanics:upgrade-priority",
+        "mechanics:season-challenges-and-the-gold-pass",
+        "mechanics:clan-war-leagues",
+        "mechanics:dark-elixir"
+      ],
+      "priority": "0.7"
+    },
+    {
+      "slug": "season-challenges-and-the-gold-pass",
+      "name": "Season Challenges and the Gold Pass",
+      "h1": "Season Challenges and the Gold Pass",
+      "head_title": "Clash of Clans Season Challenges and Gold Pass Explained",
+      "description": "How Season Challenges work in Clash of Clans, what the Gold Pass adds, whether it is worth buying, and how to complete the season efficiently.",
+      "blurb": "A monthly reward track, and the one purchase most players consider.",
+      "summary": "Season Challenges are a monthly track of tasks that pay out magic items, resources and cosmetics. The Gold Pass is a paid upgrade to that track which adds rewards and quality-of-life boosts. It is the game's central monetisation, and it is worth understanding clearly rather than defensively.",
+      "quick": {
+        "Runs for": "One calendar month",
+        "Free track": "Available to everyone, no purchase",
+        "Gold Pass": "Paid upgrade, adds rewards and boosts",
+        "Typical rewards": "Magic items, resources, hero skins and cosmetics",
+        "Key boost": "Reduced upgrade costs and times while active"
+      },
+      "tags": [
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "How the season works",
+          "body": "<p>Each month presents a list of challenges, from trivial to substantial. Completing them earns season points, and points unlock tiers on a reward track. The free track pays out meaningfully on its own; the paid track pays out more and adds boosts that apply while the season is active.</p><p>Two mechanical points that matter:</p><ul><li><strong>Challenges are not all worth the same.</strong> Some are completed incidentally while playing normally; others demand a specific effort. Sort by points per effort, not by order in the list.</li><li><strong>The clock is the constraint.</strong> The month is the limit, so pacing matters more than intensity. Most of a season is finished by simply playing normally.</li></ul>"
+        },
+        {
+          "h": "Is the Gold Pass worth buying?",
+          "body": "<p>Honest answer: it depends almost entirely on whether you are actively upgrading.</p><p><strong>Worth it if</strong> you play most days, have builders running constantly, and are in the middle of a Town Hall's worth of expensive upgrades. The cost and time reductions apply to everything you build during the month, and for an active player they compound into a substantial saving. The magic items alone are frequently worth more than the price to someone using them well.</p><p><strong>Not worth it if</strong> you play occasionally, have builders sitting idle, or are between projects. The boosts only pay out on activity, so buying a pass and then not playing is simply spending money.</p><p>This is not a subscription trap in the usual sense, in that nothing is taken away when you stop buying. It is a discount on activity you were already doing. Whether it is a good discount depends on how much activity there is.</p>"
+        },
+        {
+          "h": "Finishing a season efficiently",
+          "body": "<ol><li><strong>Read the list at the start of the month</strong> and note which challenges need a specific effort, such as using a particular troop or attacking a particular way.</li><li><strong>Batch the awkward ones.</strong> If three challenges want the same troop, do them in one sitting rather than three.</li><li><strong>Do not distort your farming for small challenges.</strong> A challenge worth a few points is not worth wrecking a week of loot efficiency.</li><li><strong>Bank the magic items.</strong> Season rewards are the main source of books and hammers for most players, and they should go straight into storage until a long timer appears. See <a href='magic-items.html'>magic items</a>.</li></ol>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the Gold Pass worth it in Clash of Clans?",
+          "a": "For an active player with builders constantly busy, generally yes, because the cost and time reductions apply to every upgrade during the month and the magic items alone often exceed the price in practical value. For someone playing occasionally with idle builders, no, since the benefits only pay out on activity."
+        },
+        {
+          "q": "Can I complete Season Challenges without the Gold Pass?",
+          "a": "Yes. The free track is available to everyone and pays out real rewards including magic items. The Gold Pass adds to that track rather than gating it."
+        },
+        {
+          "q": "What should I do with season reward magic items?",
+          "a": "Store them rather than spending them immediately. Season rewards are most players' main supply of books and hammers, and their value multiplies when saved for the long upgrades that appear just after a Town Hall jump."
+        }
+      ],
+      "related": [
+        "mechanics:magic-items",
+        "mechanics:upgrade-priority",
+        "mechanics:clan-war-leagues",
+        "mechanics:dark-elixir"
+      ],
+      "priority": "0.7"
+    }
+  ]
+}

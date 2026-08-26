@@ -1,0 +1,16 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p class="lede">{{ page.summary }}</p>
+{%- for s in page.sections %}
+<h2 id="{{ s.id }}">{{ s.h }}</h2>
+{{ s.body }}
+{%- endfor %}
+{%- if page.sources %}
+<h2 id="sources">Sources</h2>
+<ul>
+{%- for src in page.sources %}
+<li><a href="{{ src.href }}" rel="nofollow noopener" target="_blank">{{ src.label }}</a></li>
+{%- endfor %}
+</ul>
+{%- endif %}
+{% endblock %}

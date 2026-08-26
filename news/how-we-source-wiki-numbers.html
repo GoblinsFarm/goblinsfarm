@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Goblins Farm Sources Its Clash of Clans Wiki Data</title>
+<meta name="description" content="Where the stat tables in this Clash of Clans wiki come from, why we threw away the first data source, what is deliberately left blank, and the training-cost correction it turned up.">
+<link rel="canonical" href="https://goblinsfarm.com/news/how-we-source-wiki-numbers.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Goblins Farm Sources Its Clash of Clans Wiki Data">
+<meta property="og:description" content="Where the stat tables in this Clash of Clans wiki come from, why we threw away the first data source, what is deliberately left blank, and the training-cost correction it turned up.">
+<meta property="og:url" content="https://goblinsfarm.com/news/how-we-source-wiki-numbers.html">
+<meta property="og:site_name" content="Goblins Farm">
+<meta property="og:image" content="https://goblinsfarm.com/assets/favicon.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="alternate" type="application/rss+xml" title="Goblins Farm news" href="https://goblinsfarm.com/news/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"News","item":"https://goblinsfarm.com/news/"},{"@type":"ListItem","position":3,"name":"How we source the numbers in this wiki"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"How We Source the Numbers in This Wiki","description":"Where the stat tables in this Clash of Clans wiki come from, why we threw away the first data source, what is deliberately left blank, and the training-cost correction it turned up.","url":"https://goblinsfarm.com/news/how-we-source-wiki-numbers.html","dateModified":"2026-08-26","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Goblins Farm","url":"https://goblinsfarm.com/"},"publisher":{"@type":"Organization","name":"Goblins Farm","url":"https://goblinsfarm.com/"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"}}</script>
+</head>
+<body>
+<header class="sitebar">
+  <a class="brand" href="../">Goblins Farm</a>
+  <nav>
+    <a href="../wiki/">Wiki</a>
+    <a href="../tutorials/">Tutorials</a>
+    <a href="../news/" aria-current="page">News</a>
+    <a href="../#pricing">Bot</a>
+  </nav>
+</header>
+
+<main class="doc">
+<div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../news/">News</a><span>&rsaquo;</span>How we source the numbers in this wiki
+</div>
+
+<h1>How We Source the Numbers in This Wiki</h1>
+<div class="tagrow"><span class="tag ">Site news</span><span class="tag ">Methodology</span></div>
+<p class="updated">Updated: 26 August 2026 &middot; Goblins Farm</p>
+
+
+<p class="lede">Every Clash of Clans reference site serves you numbers. Almost none of them tell you where the numbers came from or how old they are. Since a stale figure can cost you a week of upgrades, here is exactly what is behind the tables on this site, including the day we threw the first version away.</p>
+<h2 id="where-the-numbers-come-from">Where the numbers come from</h2>
+<p>The stat tables across this wiki are read directly from <strong>Clash of Clans' own game files</strong>, pulled from Supercell's asset CDN and decompressed. Not transcribed from the game by hand, not scraped from another wiki, not copied from a spreadsheet. The build we are currently on is <strong>game version 18.350.7</strong>, and that version string is printed under every table on the site.</p><p>This is the second version of this page. The first said something different, and the story of why is more useful than the answer.</p>
+<h2 id="we-shipped-on-a-source-that-was-21-months-old">We shipped on a source that was 21 months old</h2>
+<p>The wiki originally launched on an extracted dataset from a community site. It was real data, carefully parsed, and honestly labelled with its snapshot date of 25 November 2024.</p><p>It was also, we eventually worked out, <strong>an entire Town Hall out of date</strong>. Town Hall 18 had been in the game since November 2025. Our tables stopped at 17. We were also missing Dragon Duke, an entire hero, along with the Meteor Golem, the Furnace, the Thrower, the Super Wizard Tower and both TH18 Guardians. None of that was visible from inside the data. Every number we published was internally consistent and correct for the game as it stood in late 2024.</p><p>That is the failure mode worth naming: <strong>stale data does not look stale.</strong> It looks like data. The only defence is knowing the vintage and checking it against something you can independently date.</p>
+<h2 id="what-we-do-now">What we do now</h2>
+<p>The tables are read from Supercell's own game files at a specific, recorded client build. The caption under every table names that build. When a newer build appears we re-read the files and every page regenerates, because these pages are generated from data rather than hand-written.</p><p>Being straight about the limit: there is no public endpoint that says which build is current, so refreshing means obtaining a new file fingerprint. Version 18.350.7 predates the June 2026 update, so the Ruin Witch and the Angry Spell are not in here yet. We would rather tell you that than let you assume the wiki knows about everything in your game.</p><div class='note warn'><p><b>The short version.</b> Treat every figure here as a starting point. If you are about to commit a fortnight-long hero upgrade, open the game and check.</p></div>
+<h2 id="the-correction-this-turned-up-troops-are-free">The correction this turned up: troops are free</h2>
+<p>Reading the real game files settled something a great deal of Clash of Clans writing still gets wrong, including, until this week, ours.</p><p><strong>There is no troop training cost, and no training time.</strong> Not a small one. The columns do not exist in the game files at all. The only resource cost attached to any troop, spell or siege machine is laboratory research, which is permanent and applies to every future copy.</p><p>Nearly every farming guide online, ours included, was built on arithmetic that no longer applies: bring a cheap army, make sure the loot beats what the army cost, avoid expensive troops because they need bigger hauls to break even. All of that assumed a bill that Supercell deleted. The only things an attack actually spends now are the <strong>search fee</strong>, a fixed gold charge set by your Town Hall, and your time.</p><p>The conclusion survives, for a different reason. Fast, disposable armies are still right for farming, not because they are cheap but because they strip exposed collectors quickly and you can run many more attacks in an hour. We have rewritten the farming pages accordingly rather than quietly leaving the old framing in place.</p>
+<h2 id="what-is-deliberately-blank">What is deliberately blank</h2>
+<p>Cells marked <span class='todo'>TODO</span> mean the game files do not contain that value. They are marked rather than estimated, because a guessed number that looks like a fact is worse than an obvious hole. A dash means something different: the field does not apply. Level 1 has no research cost because level 1 requires no research. Those two symbols are not interchangeable.</p><p>Moving to the game files cut the unknown cells sharply, since we are now reading the same source the game reads.</p>
+<h2 id="the-trap-in-the-raw-data-for-anyone-else-doing-this">The trap in the raw data, for anyone else doing this</h2>
+<p>One thing is worth documenting, because it is silent and it is plausible.</p><p>Within a unit's rows, <strong>research cost and time sit one row behind the level they apply to</strong>: the row for level L holds the cost of going from L to L+1, which is why the final row's upgrade cost is blank. The required Laboratory level, meanwhile, sits on the level's own row. Read both at the same offset and every research cost in your tables shifts by exactly one level. Nothing errors. Nothing looks wrong. The numbers are simply attached to the wrong upgrades.</p><p>We got this wrong on the first pass and caught it by aligning against independently verified values. If you are parsing these files yourself, check that specific thing first.</p>
+<h2 id="corrections">Corrections</h2>
+<p>If a figure does not match your game, <a href='mailto:support@goblinsfarm.com'>tell us</a> and it gets fixed. Because the tables are generated, one correction propagates to every page that uses it, so there is no excuse for leaving a known error standing.</p><p>The written mechanics on every page, how targeting works, how loot availability is calculated, why funnelling matters, do not depend on balance numbers and hold across patches. It is only the tables that go stale, and now you know exactly how stale they are.</p>
+
+<div class="related">
+<h2>Keep reading</h2>
+<ul>
+<li><a href="../wiki/">The Clash of Clans wiki</a></li>
+<li><a href="../wiki/mechanics/loot-mechanics.html">Loot mechanics</a></li>
+<li><a href="../tutorials/upgrade-order.html">What to upgrade next</a></li>
+</ul>
+</div>
+
+<p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
+</main>
+
+<footer class="sitefoot">
+  <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
+</footer>
+</body>
+</html>
