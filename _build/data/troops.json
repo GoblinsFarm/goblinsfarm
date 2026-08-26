@@ -1,20 +1,20 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Troops",
     "h1": "Clash of Clans Troops",
     "head_title": "Clash of Clans Troops, Every Level and Stat",
     "description": "Every Home Village troop in Clash of Clans with full per-level stats: hitpoints, DPS, housing space, research cost and time.",
-    "summary": "Every Home Village troop, 83 in total, with the full level table for each one, read from the game files.",
+    "summary": "Every Home Village troop, 85 in total, with the full level table for each one, read from the game files.",
     "groups": [
       {
         "h": "Elixir Troops",
@@ -57,6 +57,7 @@
           "Ice Golem",
           "Lava Hound",
           "Minion",
+          "Ruin Witch",
           "Valkyrie",
           "Witch"
         ]
@@ -1515,8 +1516,8 @@
             ],
             [
               "6",
-              "6,200",
-              "520",
+              "5,900",
+              "490",
               "29,500,000 Elixir",
               "15 d 12 h",
               "18"
@@ -1626,7 +1627,7 @@
             [
               "5",
               "1,700",
-              "100 per second",
+              "105 per second",
               "300,000 Dark Elixir",
               "12 d",
               "17"
@@ -1634,7 +1635,7 @@
             [
               "6",
               "1,850",
-              "105 per second",
+              "115 per second",
               "380,000 Dark Elixir",
               "15 d 12 h",
               "18"
@@ -1769,16 +1770,16 @@
             ],
             [
               "8",
-              "6,200",
-              "460",
+              "6,400",
+              "475",
               "20,000,000 Elixir",
               "10 d",
               "17"
             ],
             [
               "9",
-              "6,700",
-              "500",
+              "6,900",
+              "510",
               "30,000,000 Elixir",
               "16 d",
               "18"
@@ -3721,24 +3722,24 @@
           "rows": [
             [
               "1",
-              "13,000",
-              "450",
+              "14,500",
+              "480",
               "—",
               "—",
               "17"
             ],
             [
               "2",
-              "14,500",
-              "500",
+              "16,000",
+              "530",
               "28,000,000 Elixir",
               "14 d",
               "17"
             ],
             [
               "3",
-              "16,000",
-              "550",
+              "17,500",
+              "580",
               "30,000,000 Elixir",
               "16 d",
               "18"
@@ -4505,6 +4506,83 @@
         }
       ],
       "has_prose": true
+    },
+    {
+      "slug": "ruin-witch",
+      "name": "Ruin Witch",
+      "description": "Ruin Witch stats for every level in Clash of Clans: hitpoints, damage per second, housing space and research cost.",
+      "blurb": "4 levels, 26 housing space",
+      "summary": "The Ruin Witch is a Home Village unit trained in the Dark Barracks. It has 4 levels and takes up 26 housing space.",
+      "quick": {
+        "Housing space": "26",
+        "Levels": "4",
+        "Trained in": "Dark Barracks",
+        "Targets": "Ground only",
+        "Attack speed": "2s",
+        "Range": "0.8 tiles"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Ruin Witch stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,300",
+              "25",
+              "—",
+              "—",
+              "16"
+            ],
+            [
+              "2",
+              "2,550",
+              "26",
+              "220,000 Dark Elixir",
+              "11 d",
+              "16"
+            ],
+            [
+              "3",
+              "2,800",
+              "27",
+              "300,000 Dark Elixir",
+              "12 d",
+              "17"
+            ],
+            [
+              "4",
+              "3,050",
+              "28",
+              "380,000 Dark Elixir",
+              "15 d 12 h",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "troops:valkyrie",
+        "troops:minion",
+        "troops:witch",
+        "mechanics:troop-targeting-and-ai"
+      ],
+      "priority": "0.6",
+      "has_prose": false
     },
     {
       "slug": "siege-barracks",

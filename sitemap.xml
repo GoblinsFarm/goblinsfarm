@@ -50,6 +50,7 @@
   <url><loc>https://goblinsfarm.com/wiki/troops/pekka.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/rocket-balloon.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/root-rider.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://goblinsfarm.com/wiki/troops/ruin-witch.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/siege-barracks.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/sky-wagon.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/sneaky-goblin.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
@@ -76,6 +77,7 @@
   <url><loc>https://goblinsfarm.com/wiki/troops/wizard.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/yeti.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/troops/</loc><lastmod>2026-08-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://goblinsfarm.com/wiki/spells/angry-spell.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/spells/bat-spell.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/spells/clone-spell.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/spells/earthquake-spell.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
@@ -133,6 +135,7 @@
   <url><loc>https://goblinsfarm.com/wiki/equipment/noble-iron.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/equipment/rage-gem.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/equipment/rage-vial.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://goblinsfarm.com/wiki/equipment/revenge-deck.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/equipment/rocket-backpack.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/equipment/rocket-spear.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/equipment/royal-gem.html</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
@@ -267,6 +270,7 @@
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/archer-tower.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/army-camp.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/bob-control.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/boto-s-shack.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/battle-copter.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/battle-machine.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/builder-barracks.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
@@ -285,7 +289,6 @@
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/healing-hut.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/hidden-tesla.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/lava-launcher.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
-  <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/master-builders-hut.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/mega-tesla.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/multi-mortar.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://goblinsfarm.com/wiki/builder-base/buildings/ottos-outpost.html</loc><lastmod>2026-08-26</lastmod><priority>0.6</priority></url>

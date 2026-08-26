@@ -1,26 +1,27 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
-    "snapshot_date": "18.350.7",
-    "game_version": "18.350.7",
-    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
+    "snapshot_date": "18.400.21",
+    "game_version": "18.400.21",
+    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
     "fetched": "2026-08-26",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Spells",
     "h1": "Clash of Clans Spells",
     "head_title": "Clash of Clans Spells, Every Level and Cost",
     "description": "Every Home Village spell in Clash of Clans with per-level research cost, research time and Town Hall requirement.",
-    "summary": "Every Home Village spell, 17 in total, with the full level table for each one, read from the game files.",
+    "summary": "Every Home Village spell, 18 in total, with the full level table for each one, read from the game files.",
     "groups": [
       {
         "h": "Dark Elixir Spells",
         "blurb": "",
         "style": "cards",
         "members": [
+          "Angry Spell",
           "Bat Spell",
           "Earthquake Spell",
           "Haste Spell",
@@ -53,6 +54,70 @@
     "priority": "0.8"
   },
   "entries": [
+    {
+      "slug": "angry-spell",
+      "name": "Angry Spell",
+      "description": "Angry Spell stats for every level in Clash of Clans: research cost, research time and the Town Hall each level needs.",
+      "blurb": "4 levels",
+      "summary": "The Angry Spell is a Home Village spell with 4 levels.",
+      "quick": {
+        "Levels": "4",
+        "Housing space": "1",
+        "Radius": "6 tiles"
+      },
+      "tags": [
+        {
+          "label": "Dark Elixir",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Angry Spell stats by level",
+          "columns": [
+            "Level",
+            "Research cost",
+            "Research time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "15"
+            ],
+            [
+              "2",
+              "150,000 Dark Elixir",
+              "9 d 8 h",
+              "16"
+            ],
+            [
+              "3",
+              "250,000 Dark Elixir",
+              "12 d",
+              "17"
+            ],
+            [
+              "4",
+              "400,000 Dark Elixir",
+              "15 d",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "spells:bat-spell",
+        "spells:skeleton-spell",
+        "spells:earthquake-spell",
+        "mechanics:spell-mechanics"
+      ],
+      "priority": "0.6",
+      "has_prose": false
+    },
     {
       "slug": "bat-spell",
       "name": "Bat Spell",
