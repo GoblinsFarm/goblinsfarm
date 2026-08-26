@@ -1,0 +1,1797 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Pets",
+    "h1": "Clash of Clans Hero Pets",
+    "head_title": "Clash of Clans Pets, Every Level and Stat",
+    "description": "Every hero pet in Clash of Clans with per-level hitpoints, damage, upgrade cost and the Pet House level that unlocks it.",
+    "summary": "All 12 hero pets, with the Pet House level each one unlocks at and the full level table, read from the game files.",
+    "groups": [
+      {
+        "h": "Hero Pets",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Angry Jelly",
+          "Diggy",
+          "Electro Owl",
+          "Frosty",
+          "Greedy Raven",
+          "L.A.S.S.I",
+          "Mighty Yak",
+          "Phoenix",
+          "Poison Lizard",
+          "Sneezy",
+          "Spirit Fox",
+          "Unicorn"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.8"
+  },
+  "entries": [
+    {
+      "slug": "angry-jelly",
+      "name": "Angry Jelly",
+      "description": "Angry Jelly stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "10 levels, from TH16",
+      "summary": "This blob of pure anger gets impatient waiting around the village, it's hungry for a good fight. During battle, it convinces its Hero to attack defenses before splitting to fight separately.",
+      "quick": {
+        "Unlocked at": "Pet House 10",
+        "Town Hall": "Town Hall 16",
+        "Levels": "10",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "5 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Angry Jelly stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,450",
+              "112",
+              "—",
+              "—",
+              "16"
+            ],
+            [
+              "2",
+              "1,525",
+              "121",
+              "150,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "130",
+              "160,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "4",
+              "1,675",
+              "139",
+              "170,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "5",
+              "1,750",
+              "148",
+              "180,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "6",
+              "1,825",
+              "157",
+              "190,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "7",
+              "1,900",
+              "166",
+              "200,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "8",
+              "1,975",
+              "175",
+              "210,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "9",
+              "2,050",
+              "184",
+              "220,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "10",
+              "2,125",
+              "193",
+              "230,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:diggy",
+        "pets:unicorn",
+        "pets:electro-owl",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "diggy",
+      "name": "Diggy",
+      "description": "Diggy stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "10 levels, from TH15",
+      "summary": "Diggy is an introvert and spends a lot of time hiding underground. Still, when it comes to battle, he'll do his part, coming up to attack buildings and aid his Hero. If his Hero's taken out, he'll seek out a new one for support and scritches.",
+      "quick": {
+        "Unlocked at": "Pet House 6",
+        "Town Hall": "Town Hall 15",
+        "Levels": "10",
+        "Housing space": "20",
+        "Targets": "Ground only",
+        "Range": "0.8 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Diggy stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,650",
+              "105",
+              "—",
+              "—",
+              "15"
+            ],
+            [
+              "2",
+              "3,800",
+              "110",
+              "90,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "3",
+              "3,950",
+              "115",
+              "105,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "4",
+              "4,100",
+              "120",
+              "120,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "5",
+              "4,250",
+              "125",
+              "130,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "6",
+              "4,400",
+              "130",
+              "140,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "7",
+              "4,550",
+              "135",
+              "150,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "8",
+              "4,700",
+              "140",
+              "160,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "9",
+              "4,850",
+              "145",
+              "170,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "10",
+              "5,000",
+              "150",
+              "180,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:electro-owl",
+        "pets:angry-jelly",
+        "pets:frosty",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "electro-owl",
+      "name": "Electro Owl",
+      "description": "Electro Owl stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "15 levels, from TH14",
+      "summary": "Electro Owl zaps enemy defenses into dust from great distance. He's mostly made of feathers though, so better keep him well protected!",
+      "quick": {
+        "Unlocked at": "Pet House 2",
+        "Town Hall": "Town Hall 14",
+        "Levels": "15",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "5.5 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Electro Owl stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,600",
+              "100",
+              "—",
+              "—",
+              "14"
+            ],
+            [
+              "2",
+              "1,700",
+              "105",
+              "30,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "3",
+              "1,800",
+              "110",
+              "45,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "4",
+              "1,900",
+              "115",
+              "60,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "120",
+              "75,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "6",
+              "2,100",
+              "125",
+              "90,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "7",
+              "2,200",
+              "130",
+              "105,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "8",
+              "2,300",
+              "135",
+              "120,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "9",
+              "2,400",
+              "140",
+              "135,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "10",
+              "2,500",
+              "145",
+              "150,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ],
+            [
+              "11",
+              "2,600",
+              "150",
+              "165,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "12",
+              "2,700",
+              "155",
+              "180,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "13",
+              "2,800",
+              "160",
+              "195,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "14",
+              "2,900",
+              "165",
+              "210,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "15",
+              "3,000",
+              "170",
+              "225,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:frosty",
+        "pets:diggy",
+        "pets:greedy-raven",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "frosty",
+      "name": "Frosty",
+      "description": "Frosty stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "15 levels, from TH15",
+      "summary": "Frosty is the coolest Pet... literally. Not only does his icy breath cause enemies to chill out, but he also releases swarms of Frostmites to further slow down defenses and help his Hero.",
+      "quick": {
+        "Unlocked at": "Pet House 5",
+        "Town Hall": "Town Hall 15",
+        "Levels": "15",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "3.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Frosty stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,350",
+              "94",
+              "—",
+              "—",
+              "15"
+            ],
+            [
+              "2",
+              "2,450",
+              "98",
+              "70,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "3",
+              "2,550",
+              "102",
+              "85,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "4",
+              "2,650",
+              "106",
+              "100,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "5",
+              "2,800",
+              "110",
+              "115,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "6",
+              "2,900",
+              "114",
+              "130,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "7",
+              "3,000",
+              "118",
+              "145,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "8",
+              "3,100",
+              "122",
+              "160,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "9",
+              "3,200",
+              "126",
+              "170,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "10",
+              "3,300",
+              "130",
+              "180,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ],
+            [
+              "11",
+              "3,400",
+              "134",
+              "200,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "12",
+              "3,500",
+              "138",
+              "230,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "13",
+              "3,600",
+              "142",
+              "260,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "14",
+              "3,700",
+              "146",
+              "290,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "15",
+              "3,800",
+              "150",
+              "320,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:greedy-raven",
+        "pets:electro-owl",
+        "pets:lassi",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "greedy-raven",
+      "name": "Greedy Raven",
+      "description": "Greedy Raven stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "10 levels, from TH18",
+      "summary": "No scarecrow is frightening enough to keep Greedy Raven away from shiny loot! This masked bandit’s swift feathers target and deal extra damage to resource buildings and egos.",
+      "quick": {
+        "Unlocked at": "Pet House 12",
+        "Town Hall": "Town Hall 18",
+        "Levels": "10",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "8 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Greedy Raven stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,150",
+              "110",
+              "—",
+              "—",
+              "18"
+            ],
+            [
+              "2",
+              "2,300",
+              "115",
+              "260,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "3",
+              "2,450",
+              "120",
+              "280,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "4",
+              "2,600",
+              "125",
+              "300,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "5",
+              "2,750",
+              "130",
+              "320,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "6",
+              "2,900",
+              "135",
+              "340,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "7",
+              "3,050",
+              "140",
+              "360,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "8",
+              "3,200",
+              "145",
+              "380,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "9",
+              "3,350",
+              "150",
+              "400,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "10",
+              "3,500",
+              "155",
+              "420,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:lassi",
+        "pets:frosty",
+        "pets:mighty-yak",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "lassi",
+      "name": "L.A.S.S.I",
+      "description": "L.A.S.S.I stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "15 levels, from TH14",
+      "summary": "The trustiest hound to ever roam the village proper, L.A.S.S.I chases enemies with unrelenting fury. Unless they fly, in which case she just observes them intently.",
+      "quick": {
+        "Unlocked at": "Pet House 1",
+        "Town Hall": "Town Hall 14",
+        "Levels": "15",
+        "Housing space": "20",
+        "Targets": "Ground only",
+        "Range": "0.6 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "L.A.S.S.I stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,800",
+              "160",
+              "—",
+              "—",
+              "14"
+            ],
+            [
+              "2",
+              "2,900",
+              "170",
+              "20,000 Dark Elixir",
+              "1 d",
+              "—"
+            ],
+            [
+              "3",
+              "3,000",
+              "180",
+              "30,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "4",
+              "3,100",
+              "190",
+              "40,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "5",
+              "3,200",
+              "200",
+              "50,000 Dark Elixir",
+              "2 d 12 h",
+              "—"
+            ],
+            [
+              "6",
+              "3,300",
+              "210",
+              "60,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "7",
+              "3,400",
+              "220",
+              "70,000 Dark Elixir",
+              "3 d 12 h",
+              "—"
+            ],
+            [
+              "8",
+              "3,500",
+              "230",
+              "80,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "9",
+              "3,600",
+              "240",
+              "90,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "10",
+              "3,700",
+              "260",
+              "100,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "11",
+              "3,850",
+              "290",
+              "110,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "12",
+              "3,950",
+              "310",
+              "120,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "13",
+              "4,100",
+              "330",
+              "130,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ],
+            [
+              "14",
+              "4,300",
+              "360",
+              "140,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "15",
+              "4,500",
+              "400",
+              "150,000 Dark Elixir",
+              "7 d 12 h",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:mighty-yak",
+        "pets:greedy-raven",
+        "pets:phoenix",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "mighty-yak",
+      "name": "Mighty Yak",
+      "description": "Mighty Yak stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "15 levels, from TH14",
+      "summary": "Built like a Siege Machine, the Mighty Yak has a knack for knocking down any walls it comes in contact with. It also flies into a rage if you knock out its companion.",
+      "quick": {
+        "Unlocked at": "Pet House 3",
+        "Town Hall": "Town Hall 14",
+        "Levels": "15",
+        "Housing space": "20",
+        "Targets": "Ground only",
+        "Range": "1.2 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mighty Yak stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,750",
+              "60",
+              "—",
+              "—",
+              "14"
+            ],
+            [
+              "2",
+              "4,000",
+              "64",
+              "40,000 Dark Elixir",
+              "1 d",
+              "—"
+            ],
+            [
+              "3",
+              "4,250",
+              "68",
+              "50,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "4",
+              "4,500",
+              "72",
+              "60,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "5",
+              "4,750",
+              "76",
+              "70,000 Dark Elixir",
+              "2 d 12 h",
+              "—"
+            ],
+            [
+              "6",
+              "4,950",
+              "80",
+              "80,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "7",
+              "5,100",
+              "84",
+              "90,000 Dark Elixir",
+              "3 d 12 h",
+              "—"
+            ],
+            [
+              "8",
+              "5,250",
+              "88",
+              "100,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "9",
+              "5,400",
+              "92",
+              "110,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "10",
+              "5,550",
+              "96",
+              "120,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "11",
+              "5,700",
+              "100",
+              "130,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "12",
+              "5,850",
+              "104",
+              "140,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "13",
+              "6,000",
+              "108",
+              "150,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ],
+            [
+              "14",
+              "6,150",
+              "112",
+              "160,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "15",
+              "6,300",
+              "116",
+              "170,000 Dark Elixir",
+              "7 d 12 h",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:phoenix",
+        "pets:lassi",
+        "pets:poison-lizard",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "description": "Phoenix stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "10 levels, from TH15",
+      "summary": "A true friend will egg you on when things get rough. Phoenix starts the battle as a helpless egg, but at the moment her Hero might go down, she hatches. The furious fiery fowl then gives temporary invulnerability to its Hero and engages nearby enemies.",
+      "quick": {
+        "Unlocked at": "Pet House 8",
+        "Town Hall": "Town Hall 15",
+        "Levels": "10",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "2.5 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Phoenix stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,120",
+              "178",
+              "—",
+              "—",
+              "15"
+            ],
+            [
+              "2",
+              "3,240",
+              "186",
+              "80,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "3",
+              "3,360",
+              "194",
+              "95,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "4",
+              "3,480",
+              "202",
+              "110,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "5",
+              "3,600",
+              "210",
+              "125,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "6",
+              "3,720",
+              "218",
+              "140,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "7",
+              "3,840",
+              "226",
+              "155,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "8",
+              "3,960",
+              "234",
+              "170,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "9",
+              "4,080",
+              "242",
+              "180,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "10",
+              "4,200",
+              "250",
+              "190,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:poison-lizard",
+        "pets:mighty-yak",
+        "pets:sneezy",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "poison-lizard",
+      "name": "Poison Lizard",
+      "description": "Poison Lizard stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "15 levels, from TH15",
+      "summary": "Always the fastest never the lastest, Poison Lizard spits slowing toxins at its foes. Is it actually a venom lizard? Possibly, but who's brave enough to correct it?",
+      "quick": {
+        "Unlocked at": "Pet House 7",
+        "Town Hall": "Town Hall 15",
+        "Levels": "15",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "4.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Poison Lizard stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,400",
+              "181",
+              "—",
+              "—",
+              "15"
+            ],
+            [
+              "2",
+              "1,450",
+              "192",
+              "60,000 Dark Elixir",
+              "1 d",
+              "—"
+            ],
+            [
+              "3",
+              "1,500",
+              "203",
+              "75,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "4",
+              "1,550",
+              "214",
+              "90,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "225",
+              "100,000 Dark Elixir",
+              "2 d 12 h",
+              "—"
+            ],
+            [
+              "6",
+              "1,650",
+              "236",
+              "110,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "7",
+              "1,700",
+              "247",
+              "120,000 Dark Elixir",
+              "3 d 12 h",
+              "—"
+            ],
+            [
+              "8",
+              "1,800",
+              "258",
+              "130,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "9",
+              "1,900",
+              "269",
+              "140,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "10",
+              "2,050",
+              "280",
+              "150,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "11",
+              "2,100",
+              "291",
+              "180,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "12",
+              "2,150",
+              "302",
+              "200,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "13",
+              "2,200",
+              "313",
+              "220,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "14",
+              "2,250",
+              "324",
+              "240,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "15",
+              "2,300",
+              "335",
+              "260,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:sneezy",
+        "pets:phoenix",
+        "pets:spirit-fox",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "sneezy",
+      "name": "Sneezy",
+      "description": "Sneezy stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "10 levels, from TH17",
+      "summary": "Her nose is blocked and loaded! Sneezy hangs behind her Hero due to allergies and sneezes tanky air Boogers that target buildings. She goes on the attack when her Hero falls!",
+      "quick": {
+        "Unlocked at": "Pet House 11",
+        "Town Hall": "Town Hall 17",
+        "Levels": "10",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "2.5 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Sneezy stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,300",
+              "270",
+              "—",
+              "—",
+              "17"
+            ],
+            [
+              "2",
+              "3,450",
+              "290",
+              "200,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "3",
+              "3,600",
+              "310",
+              "220,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "4",
+              "3,750",
+              "330",
+              "240,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "5",
+              "3,900",
+              "350",
+              "260,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "6",
+              "4,050",
+              "370",
+              "280,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "7",
+              "4,200",
+              "390",
+              "300,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "8",
+              "4,350",
+              "410",
+              "320,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "9",
+              "4,500",
+              "430",
+              "340,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "10",
+              "4,650",
+              "450",
+              "360,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:spirit-fox",
+        "pets:poison-lizard",
+        "pets:unicorn",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "spirit-fox",
+      "name": "Spirit Fox",
+      "description": "Spirit Fox stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "10 levels, from TH16",
+      "summary": "An extremely shy creature who's happiest alone in the woods outside the village. When called to battle, Spirit Fox fights fiercely alongside their Hero and helps them with a little invisibility.",
+      "quick": {
+        "Unlocked at": "Pet House 9",
+        "Town Hall": "Town Hall 16",
+        "Levels": "10",
+        "Housing space": "20",
+        "Targets": "Ground only",
+        "Range": "2.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Spirit Fox stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,900",
+              "108",
+              "—",
+              "—",
+              "16"
+            ],
+            [
+              "2",
+              "2,000",
+              "116",
+              "150,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "3",
+              "2,100",
+              "124",
+              "160,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "4",
+              "2,200",
+              "132",
+              "170,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "5",
+              "2,300",
+              "140",
+              "180,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "6",
+              "2,400",
+              "148",
+              "190,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "7",
+              "2,500",
+              "156",
+              "200,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ],
+            [
+              "8",
+              "2,600",
+              "164",
+              "210,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "9",
+              "2,700",
+              "172",
+              "220,000 Dark Elixir",
+              "7 d 12 h",
+              "—"
+            ],
+            [
+              "10",
+              "2,800",
+              "180",
+              "230,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:unicorn",
+        "pets:sneezy",
+        "pets:angry-jelly",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    },
+    {
+      "slug": "unicorn",
+      "name": "Unicorn",
+      "description": "Unicorn stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
+      "blurb": "15 levels, from TH14",
+      "summary": "Unicorns have severe trust issues, but overcoming them with love and patience is totally worth it. They'll heal up any minor or major scrapes as well as any Healer!",
+      "quick": {
+        "Unlocked at": "Pet House 4",
+        "Town Hall": "Town Hall 14",
+        "Levels": "15",
+        "Housing space": "20",
+        "Targets": "Ground and air",
+        "Range": "2.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Pet",
+          "kind": "dark"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Unicorn stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Town Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,400",
+              "-50",
+              "—",
+              "—",
+              "14"
+            ],
+            [
+              "2",
+              "1,450",
+              "-53",
+              "50,000 Dark Elixir",
+              "1 d 12 h",
+              "—"
+            ],
+            [
+              "3",
+              "1,500",
+              "-56",
+              "65,000 Dark Elixir",
+              "2 d",
+              "—"
+            ],
+            [
+              "4",
+              "1,550",
+              "-58",
+              "80,000 Dark Elixir",
+              "3 d",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "-60",
+              "95,000 Dark Elixir",
+              "4 d",
+              "—"
+            ],
+            [
+              "6",
+              "1,675",
+              "-62",
+              "110,000 Dark Elixir",
+              "4 d 12 h",
+              "—"
+            ],
+            [
+              "7",
+              "1,725",
+              "-64",
+              "125,000 Dark Elixir",
+              "5 d",
+              "—"
+            ],
+            [
+              "8",
+              "1,800",
+              "-66",
+              "140,000 Dark Elixir",
+              "5 d 12 h",
+              "—"
+            ],
+            [
+              "9",
+              "1,875",
+              "-68",
+              "155,000 Dark Elixir",
+              "6 d",
+              "—"
+            ],
+            [
+              "10",
+              "1,950",
+              "-70",
+              "170,000 Dark Elixir",
+              "6 d 12 h",
+              "—"
+            ],
+            [
+              "11",
+              "2,025",
+              "-71",
+              "200,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "12",
+              "2,100",
+              "-72",
+              "230,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "13",
+              "2,175",
+              "-73",
+              "260,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "14",
+              "2,250",
+              "-74",
+              "290,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "15",
+              "2,325",
+              "-75",
+              "320,000 Dark Elixir",
+              "8 d",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "pets:angry-jelly",
+        "pets:spirit-fox",
+        "pets:diggy",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "has_prose": false
+    }
+  ]
+}

@@ -1,0 +1,4410 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Capital Buildings",
+    "h1": "Clan Capital Buildings",
+    "head_title": "Clash of Clans Clan Capital Buildings, Costs and Levels",
+    "description": "Every Clan Capital building in Clash of Clans with per-level build cost, hitpoints and the District Hall and Capital Hall levels it needs.",
+    "summary": "Every Clan Capital building, 61 in total, with the full level table for each one, read from the game files.",
+    "groups": [
+      {
+        "h": "Army Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Army Camp",
+          "Battle Ram Barracks",
+          "Endless Haste Spell Factory",
+          "Flying Fortress Yard",
+          "Frost Spell Factory",
+          "Graveyard Spell Factory",
+          "Heal Spell Factory",
+          "Hog Raider Barracks",
+          "Inferno Dragon Barracks",
+          "Jump Spell Factory",
+          "Lightning Spell Factory",
+          "Mega Sparky Workshop",
+          "Minion Barracks",
+          "Mountain Golem Quarry",
+          "Power P.E.K.K.A Barracks",
+          "Rage Spell Factory",
+          "Raid Cart Barracks",
+          "Raid Cart Post",
+          "Rocket Balloon Barracks",
+          "Skeleton Barrel Barracks",
+          "Sneaky Archer Barracks",
+          "Spell Storage",
+          "Super Barbarian Barracks",
+          "Super Dragon Barracks",
+          "Super Dragon Post",
+          "Super Giant Barracks",
+          "Super Giant Post",
+          "Super Miner Barracks",
+          "Super Wizard Barracks"
+        ]
+      },
+      {
+        "h": "Defenses",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Air Bombs",
+          "Air Defense",
+          "Blast Bow",
+          "Bomb Tower",
+          "Cannon",
+          "Crusher",
+          "Giant Cannon",
+          "Goblin Thrower",
+          "Inferno Tower",
+          "Mini-Minion Hive",
+          "Multi Cannon",
+          "Multi Mortar",
+          "Rapid Rockets",
+          "Reflector",
+          "Rocket Artillery",
+          "Spear Thrower",
+          "Super Wizard Tower"
+        ]
+      },
+      {
+        "h": "Other Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Capital Hall",
+          "Clan House",
+          "District Hall"
+        ]
+      },
+      {
+        "h": "Walls",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Wall"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.7"
+  },
+  "entries": [
+    {
+      "slug": "air-bombs",
+      "name": "Air Bombs",
+      "description": "Air Bombs stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "For heavyweight air defense, Air Bombs do the trick. An endless supply of explosive barrels launch into the sky to ravage flying enemies!",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "225",
+        "Targets": "Air only",
+        "Range": "8.5 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "3"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Air Bombs stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,300",
+              "225 DPS",
+              "6,000 Capital Gold",
+              "1",
+              "3"
+            ],
+            [
+              "2",
+              "2,550",
+              "250 DPS",
+              "12,000 Capital Gold",
+              "2",
+              "4"
+            ],
+            [
+              "3",
+              "2,700",
+              "275 DPS",
+              "24,000 Capital Gold",
+              "3",
+              "6"
+            ],
+            [
+              "4",
+              "2,950",
+              "300 DPS",
+              "39,000 Capital Gold",
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "3,200",
+              "325 DPS",
+              "65,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:air-defense",
+        "capital_buildings:super-wizard-tower",
+        "capital_buildings:blast-bow",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Air Bombs (Clan Capital)",
+      "head_title": "Air Bombs (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "air-defense",
+      "name": "Air Defense",
+      "description": "Air Defense stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "260",
+        "Targets": "Air only",
+        "Range": "10 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Air Defense stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,400",
+              "260 DPS",
+              "3,500 Capital Gold",
+              "1",
+              "1"
+            ],
+            [
+              "2",
+              "1,500",
+              "290 DPS",
+              "7,000 Capital Gold",
+              "2",
+              "2"
+            ],
+            [
+              "3",
+              "1,600",
+              "320 DPS",
+              "14,000 Capital Gold",
+              "3",
+              "4"
+            ],
+            [
+              "4",
+              "1,700",
+              "350 DPS",
+              "24,000 Capital Gold",
+              "4",
+              "6"
+            ],
+            [
+              "5",
+              "1,800",
+              "380 DPS",
+              "40,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:blast-bow",
+        "capital_buildings:air-bombs",
+        "capital_buildings:bomb-tower",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Air Defense (Clan Capital)",
+      "head_title": "Air Defense (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "army-camp",
+      "name": "Army Camp",
+      "description": "Army Camp stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "A nice field for your clan's army to hang out in while waiting for raids to happen. Can be upgraded to increase available housing space.",
+      "quick": {
+        "Levels": "5",
+        "Size": "4x4",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Army Camp stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "750",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "900",
+              "—",
+              "50,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,050",
+              "—",
+              "75,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,200",
+              "—",
+              "150,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:battle-ram-barracks",
+        "capital_buildings:super-wizard-barracks",
+        "capital_buildings:endless-haste-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Army Camp (Clan Capital)",
+      "head_title": "Army Camp (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "battle-ram-barracks",
+      "name": "Battle Ram Barracks",
+      "description": "Battle Ram Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "This bad boy can fit so many Battle Rams inside!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Battle Ram Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "7,500 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "20,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "75,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "200,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "400,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:endless-haste-spell-factory",
+        "capital_buildings:army-camp",
+        "capital_buildings:flying-fortress-yard",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Battle Ram Barracks (Clan Capital)",
+      "head_title": "Battle Ram Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "blast-bow",
+      "name": "Blast Bow",
+      "description": "Blast Bow stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Blast Bow finally gives a definitive answer to an age-old question: how dangerous would arrows the size of tree trunks be? Perhaps not surprisingly, very dangerous.",
+      "quick": {
+        "Levels": "5",
+        "Size": "4x4",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "170",
+        "Targets": "Ground and air",
+        "Range": "14 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "6"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Blast Bow stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,800",
+              "170 DPS",
+              "20,000 Capital Gold",
+              "1",
+              "6"
+            ],
+            [
+              "2",
+              "5,400",
+              "185 DPS",
+              "40,000 Capital Gold",
+              "2",
+              "7"
+            ],
+            [
+              "3",
+              "6,000",
+              "200 DPS",
+              "80,000 Capital Gold",
+              "3",
+              "8"
+            ],
+            [
+              "4",
+              "6,600",
+              "215 DPS",
+              "133,000 Capital Gold",
+              "4",
+              "9"
+            ],
+            [
+              "5",
+              "7,200",
+              "230 DPS",
+              "205,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:bomb-tower",
+        "capital_buildings:air-defense",
+        "capital_buildings:cannon",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Blast Bow (Clan Capital)",
+      "head_title": "Blast Bow (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "bomb-tower",
+      "name": "Bomb Tower",
+      "description": "Bomb Tower stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "65",
+        "Targets": "Ground only",
+        "Range": "5 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "2"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Bomb Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,000",
+              "65 DPS",
+              "4,500 Capital Gold",
+              "1",
+              "2"
+            ],
+            [
+              "2",
+              "2,250",
+              "75 DPS",
+              "9,000 Capital Gold",
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              "2,500",
+              "85 DPS",
+              "18,000 Capital Gold",
+              "3",
+              "5"
+            ],
+            [
+              "4",
+              "2,750",
+              "95 DPS",
+              "30,000 Capital Gold",
+              "4",
+              "7"
+            ],
+            [
+              "5",
+              "3,000",
+              "105 DPS",
+              "50,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:cannon",
+        "capital_buildings:blast-bow",
+        "capital_buildings:crusher",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Bomb Tower (Clan Capital)",
+      "head_title": "Bomb Tower (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "cannon",
+      "name": "Cannon",
+      "description": "Cannon stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "This Cannon might be slow firing, but it makes up for it in punch. Additional drawback is that it doesn't tilt high enough to reach air targets.",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "130",
+        "Targets": "Ground only",
+        "Range": "8 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,250",
+              "130 DPS",
+              "2,500 Capital Gold",
+              "1",
+              "1"
+            ],
+            [
+              "2",
+              "1,450",
+              "150 DPS",
+              "5,000 Capital Gold",
+              "2",
+              "2"
+            ],
+            [
+              "3",
+              "1,650",
+              "170 DPS",
+              "10,000 Capital Gold",
+              "3",
+              "4"
+            ],
+            [
+              "4",
+              "1,850",
+              "190 DPS",
+              "18,000 Capital Gold",
+              "4",
+              "6"
+            ],
+            [
+              "5",
+              "2,050",
+              "210 DPS",
+              "30,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:crusher",
+        "capital_buildings:bomb-tower",
+        "capital_buildings:giant-cannon",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Cannon (Clan Capital)",
+      "head_title": "Cannon (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "capital-hall",
+      "name": "Capital Hall",
+      "description": "Capital Hall stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "10 levels",
+      "summary": "The heart of the Capital! Upgrade to unlock new Districts and additional building upgrades in Capital Peak.",
+      "quick": {
+        "Levels": "10",
+        "Size": "6x6",
+        "Village": "Clan Capital",
+        "Category": "Other Building"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Capital Hall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "10,000",
+              "—",
+              "25,000 Capital Gold",
+              "—",
+              "—"
+            ],
+            [
+              "2",
+              "14,000",
+              "80 DPS",
+              "50,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "3",
+              "18,000",
+              "100 DPS",
+              "75,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "4",
+              "22,000",
+              "120 DPS",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "5",
+              "25,000",
+              "140 DPS",
+              "150,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "6",
+              "28,000",
+              "160 DPS",
+              "200,000 Capital Gold",
+              "5",
+              "—"
+            ],
+            [
+              "7",
+              "31,000",
+              "190 DPS",
+              "400,000 Capital Gold",
+              "6",
+              "—"
+            ],
+            [
+              "8",
+              "34,000",
+              "220 DPS",
+              "600,000 Capital Gold",
+              "7",
+              "—"
+            ],
+            [
+              "9",
+              "37,000",
+              "250 DPS",
+              "800,000 Capital Gold",
+              "8",
+              "—"
+            ],
+            [
+              "10",
+              "40,000",
+              "280 DPS",
+              "1,000,000 Capital Gold",
+              "9",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:clan-house",
+        "capital_buildings:district-hall",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Capital Hall (Clan Capital)",
+      "head_title": "Capital Hall (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "clan-house",
+      "name": "Clan House",
+      "description": "Clan House stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "1 level, from District Hall 1",
+      "summary": "A home away from the Home Village for Clan members. Come for the view, stay for the spectacular Raids.",
+      "quick": {
+        "Levels": "1",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Other Building",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "1"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Clan House stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "—",
+              "—",
+              "1",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:district-hall",
+        "capital_buildings:capital-hall",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Clan House (Clan Capital)",
+      "head_title": "Clan House (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "crusher",
+      "name": "Crusher",
+      "description": "Crusher stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "The Crusher REALLY likes its personal space. This hulking stone slams ground units with a mighty wallop!",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "150",
+        "Targets": "Ground only",
+        "Range": "1.7 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "4"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Crusher stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,300",
+              "150 DPS",
+              "4,000 Capital Gold",
+              "1",
+              "4"
+            ],
+            [
+              "2",
+              "2,550",
+              "175 DPS",
+              "8,000 Capital Gold",
+              "2",
+              "5"
+            ],
+            [
+              "3",
+              "2,700",
+              "200 DPS",
+              "16,000 Capital Gold",
+              "3",
+              "6"
+            ],
+            [
+              "4",
+              "2,950",
+              "225 DPS",
+              "27,000 Capital Gold",
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "3,200",
+              "250 DPS",
+              "45,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:giant-cannon",
+        "capital_buildings:cannon",
+        "capital_buildings:goblin-thrower",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Crusher (Clan Capital)",
+      "head_title": "Crusher (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "district-hall",
+      "name": "District Hall",
+      "description": "District Hall stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels",
+      "summary": "Villagers and the Grand Builder take care of this district from here. Upgrade to unlock additional building upgrades in this district.",
+      "quick": {
+        "Levels": "5",
+        "Size": "4x4",
+        "Village": "Clan Capital",
+        "Category": "Other Building"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "District Hall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "6,000",
+              "—",
+              "12,500 Capital Gold",
+              "—",
+              "—"
+            ],
+            [
+              "2",
+              "7,000",
+              "—",
+              "25,000 Capital Gold",
+              "—",
+              "—"
+            ],
+            [
+              "3",
+              "8,000",
+              "—",
+              "75,000 Capital Gold",
+              "—",
+              "—"
+            ],
+            [
+              "4",
+              "9,000",
+              "—",
+              "150,000 Capital Gold",
+              "—",
+              "—"
+            ],
+            [
+              "5",
+              "10,000",
+              "—",
+              "300,000 Capital Gold",
+              "—",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:capital-hall",
+        "capital_buildings:clan-house",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "District Hall (Clan Capital)",
+      "head_title": "District Hall (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "endless-haste-spell-factory",
+      "name": "Endless Haste Spell Factory",
+      "description": "Endless Haste Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "Brews big kegs of Endless Haste. Passing Villagers always hurry up when they pass by.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Endless Haste Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "25,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "50,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "125,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:flying-fortress-yard",
+        "capital_buildings:battle-ram-barracks",
+        "capital_buildings:frost-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Endless Haste Spell Factory (Clan Capital)",
+      "head_title": "Endless Haste Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "flying-fortress-yard",
+      "name": "Flying Fortress Yard",
+      "description": "Flying Fortress Yard stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "A construction yard for Flying Fortresses. High in the mountains perhaps because the builder doubted whether it would fly.",
+      "quick": {
+        "Levels": "5",
+        "Size": "4x4",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Flying Fortress Yard stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "—",
+              "25,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,750",
+              "—",
+              "50,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "2,000",
+              "—",
+              "150,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "2,250",
+              "—",
+              "300,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,500",
+              "—",
+              "600,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:frost-spell-factory",
+        "capital_buildings:endless-haste-spell-factory",
+        "capital_buildings:graveyard-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Flying Fortress Yard (Clan Capital)",
+      "head_title": "Flying Fortress Yard (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "frost-spell-factory",
+      "name": "Frost Spell Factory",
+      "description": "Frost Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Brews big kegs of Frost Spell. Visitors are advised to bring warm clothing!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Frost Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "15,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "30,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "60,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "120,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "—",
+              "250,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:graveyard-spell-factory",
+        "capital_buildings:flying-fortress-yard",
+        "capital_buildings:heal-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Frost Spell Factory (Clan Capital)",
+      "head_title": "Frost Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "giant-cannon",
+      "name": "Giant Cannon",
+      "description": "Giant Cannon stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Nothing gets in the way of the Giant Cannon. Its mammoth-sized cannon balls push past anything and just keep going and going and going...",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "80",
+        "Targets": "Ground only",
+        "Range": "10 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "5"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Giant Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,700",
+              "80 DPS",
+              "10,000 Capital Gold",
+              "1",
+              "5"
+            ],
+            [
+              "2",
+              "3,900",
+              "90 DPS",
+              "20,000 Capital Gold",
+              "2",
+              "6"
+            ],
+            [
+              "3",
+              "4,100",
+              "100 DPS",
+              "40,000 Capital Gold",
+              "3",
+              "7"
+            ],
+            [
+              "4",
+              "4,300",
+              "110 DPS",
+              "63,000 Capital Gold",
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "4,500",
+              "120 DPS",
+              "105,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:goblin-thrower",
+        "capital_buildings:crusher",
+        "capital_buildings:inferno-tower",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Giant Cannon (Clan Capital)",
+      "head_title": "Giant Cannon (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "goblin-thrower",
+      "name": "Goblin Thrower",
+      "description": "Goblin Thrower stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "This piece of fine Goblin handiwork rapidly throws Goblin-filled barrels at attackers, those Goblins then throw sharp spears at the attackers. But what do the spears throw?",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "19",
+        "Targets": "Ground only",
+        "Range": "9 tiles",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Goblin Thrower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,100",
+              "19 DPS",
+              "16,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "3,400",
+              "21 DPS",
+              "32,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "3,700",
+              "23 DPS",
+              "64,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "4,000",
+              "25 DPS",
+              "99,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:inferno-tower",
+        "capital_buildings:giant-cannon",
+        "capital_buildings:mini-minion-hive",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Goblin Thrower (Clan Capital)",
+      "head_title": "Goblin Thrower (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "graveyard-spell-factory",
+      "name": "Graveyard Spell Factory",
+      "description": "Graveyard Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "Brews big kegs full of Graveyard Spell. Please kindly ignore the sound of rattling bones.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Graveyard Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "20,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "40,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "75,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "150,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:heal-spell-factory",
+        "capital_buildings:frost-spell-factory",
+        "capital_buildings:hog-raider-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Graveyard Spell Factory (Clan Capital)",
+      "head_title": "Graveyard Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "heal-spell-factory",
+      "name": "Heal Spell Factory",
+      "description": "Heal Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Brews big kegs of Heal Spell. The flowery smell makes headaches magically go away!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Heal Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "50,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "100,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "—",
+              "200,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:hog-raider-barracks",
+        "capital_buildings:graveyard-spell-factory",
+        "capital_buildings:inferno-dragon-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Heal Spell Factory (Clan Capital)",
+      "head_title": "Heal Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "hog-raider-barracks",
+      "name": "Hog Raider Barracks",
+      "description": "Hog Raider Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Incessant yelling echoing from within. I guess the Riders and Gliders are happy to see each other.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Hog Raider Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:inferno-dragon-barracks",
+        "capital_buildings:heal-spell-factory",
+        "capital_buildings:jump-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Hog Raider Barracks (Clan Capital)",
+      "head_title": "Hog Raider Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "inferno-dragon-barracks",
+      "name": "Inferno Dragon Barracks",
+      "description": "Inferno Dragon Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "A fun place for Inferno Dragons to hang out together. Constructed of the most fireproof material Grand Builder could find.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Inferno Dragon Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "15,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "35,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "125,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "275,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:jump-spell-factory",
+        "capital_buildings:hog-raider-barracks",
+        "capital_buildings:lightning-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Inferno Dragon Barracks (Clan Capital)",
+      "head_title": "Inferno Dragon Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "inferno-tower",
+      "name": "Inferno Tower",
+      "description": "Inferno Tower stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Bane of all big troops, the Inferno Tower can deal devastating damage to units it stays focused on.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "200",
+        "Targets": "Ground and air",
+        "Range": "9 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "6"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Inferno Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,600",
+              "200 DPS",
+              "15,000 Capital Gold",
+              "1",
+              "6"
+            ],
+            [
+              "2",
+              "4,000",
+              "230 DPS",
+              "30,000 Capital Gold",
+              "2",
+              "7"
+            ],
+            [
+              "3",
+              "4,400",
+              "260 DPS",
+              "60,000 Capital Gold",
+              "3",
+              "8"
+            ],
+            [
+              "4",
+              "4,800",
+              "290 DPS",
+              "93,000 Capital Gold",
+              "4",
+              "9"
+            ],
+            [
+              "5",
+              "5,200",
+              "320 DPS",
+              "155,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:mini-minion-hive",
+        "capital_buildings:goblin-thrower",
+        "capital_buildings:multi-cannon",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Inferno Tower (Clan Capital)",
+      "head_title": "Inferno Tower (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "jump-spell-factory",
+      "name": "Jump Spell Factory",
+      "description": "Jump Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Brews big kegs of Jump Spell. The whole building looks like it's about to take off.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Jump Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "20,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "40,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "80,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "—",
+              "160,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:lightning-spell-factory",
+        "capital_buildings:inferno-dragon-barracks",
+        "capital_buildings:mega-sparky-workshop",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Jump Spell Factory (Clan Capital)",
+      "head_title": "Jump Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "lightning-spell-factory",
+      "name": "Lightning Spell Factory",
+      "description": "Lightning Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Brews big kegs of Lightning Spell. Everyone close by is having a bad hair day.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Lightning Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "20,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "40,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "80,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "—",
+              "160,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:mega-sparky-workshop",
+        "capital_buildings:jump-spell-factory",
+        "capital_buildings:minion-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Lightning Spell Factory (Clan Capital)",
+      "head_title": "Lightning Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "mega-sparky-workshop",
+      "name": "Mega Sparky Workshop",
+      "description": "Mega Sparky Workshop stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "Where lightning repeatedly strikes glass orbs to bring a Mega Sparky to life; It's enough to make passers-by's hair stand on end.",
+      "quick": {
+        "Levels": "4",
+        "Size": "4x4",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mega Sparky Workshop stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "—",
+              "37,500 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,750",
+              "—",
+              "75,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "2,000",
+              "—",
+              "200,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "2,250",
+              "—",
+              "400,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:minion-barracks",
+        "capital_buildings:lightning-spell-factory",
+        "capital_buildings:mountain-golem-quarry",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Mega Sparky Workshop (Clan Capital)",
+      "head_title": "Mega Sparky Workshop (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "mini-minion-hive",
+      "name": "Mini-Minion Hive",
+      "description": "Mini-Minion Hive stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "Built over an underground hive, this defense opens to release a swarm of extremely territorial and extremely dangerous Mini-Minions to take down any attacker.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "75",
+        "Targets": "Ground and air",
+        "Range": "14 tiles",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mini-Minion Hive stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,400",
+              "75 DPS",
+              "17,500 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "4,800",
+              "90 DPS",
+              "35,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "5,200",
+              "105 DPS",
+              "70,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "5,600",
+              "120 DPS",
+              "113,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:multi-cannon",
+        "capital_buildings:inferno-tower",
+        "capital_buildings:multi-mortar",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Mini-Minion Hive (Clan Capital)",
+      "head_title": "Mini-Minion Hive (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "minion-barracks",
+      "name": "Minion Barracks",
+      "description": "Minion Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Thanks to the new method, our Minions now come in Horde Size!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Minion Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "5,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "12,500 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "50,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "125,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "250,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:mountain-golem-quarry",
+        "capital_buildings:mega-sparky-workshop",
+        "capital_buildings:power-pekka-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Minion Barracks (Clan Capital)",
+      "head_title": "Minion Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "mountain-golem-quarry",
+      "name": "Mountain Golem Quarry",
+      "description": "Mountain Golem Quarry stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "A giant, golem shaped hole in the ground. Hopefully a new hole isn't needed every time.",
+      "quick": {
+        "Levels": "5",
+        "Size": "5x5",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mountain Golem Quarry stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,500",
+              "—",
+              "25,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,750",
+              "—",
+              "50,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "2,000",
+              "—",
+              "150,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "2,250",
+              "—",
+              "300,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,500",
+              "—",
+              "600,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:power-pekka-barracks",
+        "capital_buildings:minion-barracks",
+        "capital_buildings:rage-spell-factory",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Mountain Golem Quarry (Clan Capital)",
+      "head_title": "Mountain Golem Quarry (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "multi-cannon",
+      "name": "Multi Cannon",
+      "description": "Multi Cannon stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "It's a Cannon with many barrels!",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "80",
+        "Targets": "Ground only",
+        "Range": "6 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "2"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Multi Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,800",
+              "80 DPS",
+              "4,000 Capital Gold",
+              "1",
+              "2"
+            ],
+            [
+              "2",
+              "2,050",
+              "90 DPS",
+              "8,000 Capital Gold",
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              "2,300",
+              "100 DPS",
+              "16,000 Capital Gold",
+              "3",
+              "5"
+            ],
+            [
+              "4",
+              "2,550",
+              "110 DPS",
+              "27,000 Capital Gold",
+              "4",
+              "7"
+            ],
+            [
+              "5",
+              "2,800",
+              "120 DPS",
+              "45,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:multi-mortar",
+        "capital_buildings:mini-minion-hive",
+        "capital_buildings:rapid-rockets",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Multi Cannon (Clan Capital)",
+      "head_title": "Multi Cannon (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "multi-mortar",
+      "name": "Multi Mortar",
+      "description": "Multi Mortar stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Fires long range splash damage multiple times to maximize chances of hitting its target!",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "80",
+        "Targets": "Ground only",
+        "Range": "10 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "2"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Multi Mortar stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,700",
+              "80 DPS",
+              "5,000 Capital Gold",
+              "1",
+              "2"
+            ],
+            [
+              "2",
+              "1,900",
+              "90 DPS",
+              "10,000 Capital Gold",
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              "2,100",
+              "100 DPS",
+              "20,000 Capital Gold",
+              "3",
+              "5"
+            ],
+            [
+              "4",
+              "2,300",
+              "110 DPS",
+              "33,000 Capital Gold",
+              "4",
+              "7"
+            ],
+            [
+              "5",
+              "2,500",
+              "120 DPS",
+              "55,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:rapid-rockets",
+        "capital_buildings:multi-cannon",
+        "capital_buildings:reflector",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Multi Mortar (Clan Capital)",
+      "head_title": "Multi Mortar (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "power-pekka-barracks",
+      "name": "Power P.E.K.K.A Barracks",
+      "description": "Power P.E.K.K.A Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "How on earth does the Power P.E.K.K.A fit inside? In pieces?",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Power P.E.K.K.A Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:rage-spell-factory",
+        "capital_buildings:mountain-golem-quarry",
+        "capital_buildings:raid-cart-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Power P.E.K.K.A Barracks (Clan Capital)",
+      "head_title": "Power P.E.K.K.A Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "rage-spell-factory",
+      "name": "Rage Spell Factory",
+      "description": "Rage Spell Factory stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Brews big kegs full of Rage Spell. Just being near it makes people irrationally angry.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Rage Spell Factory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "15,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "30,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "60,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,450",
+              "—",
+              "120,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,600",
+              "—",
+              "250,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:raid-cart-barracks",
+        "capital_buildings:power-pekka-barracks",
+        "capital_buildings:raid-cart-post",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Rage Spell Factory (Clan Capital)",
+      "head_title": "Rage Spell Factory (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "raid-cart-barracks",
+      "name": "Raid Cart Barracks",
+      "description": "Raid Cart Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Workshop for Raid Carts. It's clear how the Carts are put together, but where are the Barbarians coming from?",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Raid Cart Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:raid-cart-post",
+        "capital_buildings:rage-spell-factory",
+        "capital_buildings:rocket-balloon-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Raid Cart Barracks (Clan Capital)",
+      "head_title": "Raid Cart Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "raid-cart-post",
+      "name": "Raid Cart Post",
+      "description": "Raid Cart Post stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "If a Raid Cart could feel happy, blasting at attackers would make it happy",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "6"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Raid Cart Post stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "—",
+              "9,000 Capital Gold",
+              "1",
+              "6"
+            ],
+            [
+              "2",
+              "920",
+              "—",
+              "18,000 Capital Gold",
+              "2",
+              "7"
+            ],
+            [
+              "3",
+              "1,065",
+              "—",
+              "36,000 Capital Gold",
+              "3",
+              "8"
+            ],
+            [
+              "4",
+              "1,225",
+              "—",
+              "57,000 Capital Gold",
+              "4",
+              "9"
+            ],
+            [
+              "5",
+              "1,400",
+              "—",
+              "95,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:rocket-balloon-barracks",
+        "capital_buildings:raid-cart-barracks",
+        "capital_buildings:skeleton-barrel-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Raid Cart Post (Clan Capital)",
+      "head_title": "Raid Cart Post (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "rapid-rockets",
+      "name": "Rapid Rockets",
+      "description": "Rapid Rockets stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "This tightly packed bundle of rockets has a shorter range compared to the Air Defense, but makes up for it by packing a meaner punch.",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "143",
+        "Targets": "Air only",
+        "Range": "7 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "4"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Rapid Rockets stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,400",
+              "143 DPS",
+              "5,500 Capital Gold",
+              "1",
+              "4"
+            ],
+            [
+              "2",
+              "1,500",
+              "162 DPS",
+              "11,000 Capital Gold",
+              "2",
+              "5"
+            ],
+            [
+              "3",
+              "1,600",
+              "181 DPS",
+              "22,000 Capital Gold",
+              "3",
+              "6"
+            ],
+            [
+              "4",
+              "1,700",
+              "200 DPS",
+              "36,000 Capital Gold",
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "1,900",
+              "220 DPS",
+              "60,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:reflector",
+        "capital_buildings:multi-mortar",
+        "capital_buildings:rocket-artillery",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Rapid Rockets (Clan Capital)",
+      "head_title": "Rapid Rockets (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "reflector",
+      "name": "Reflector",
+      "description": "Reflector stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "Nobody would expect a whirling contraption of shields to reflect any attack back at the attacker... But that's exactly what the Reflector does.",
+      "quick": {
+        "Levels": "4",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "260",
+        "Targets": "Ground and air",
+        "Range": "10 tiles",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Reflector stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,300",
+              "260 DPS",
+              "7,500 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "3,600",
+              "290 DPS",
+              "15,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "3,900",
+              "320 DPS",
+              "30,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "4,200",
+              "350 DPS",
+              "48,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:rocket-artillery",
+        "capital_buildings:rapid-rockets",
+        "capital_buildings:spear-thrower",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Reflector (Clan Capital)",
+      "head_title": "Reflector (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "rocket-artillery",
+      "name": "Rocket Artillery",
+      "description": "Rocket Artillery stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Hurls exploding rockets at both air and ground targets. Miraculously they never miss!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "140",
+        "Targets": "Ground and air",
+        "Range": "12 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "5"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Rocket Artillery stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,400",
+              "140 DPS",
+              "12,500 Capital Gold",
+              "1",
+              "5"
+            ],
+            [
+              "2",
+              "2,800",
+              "160 DPS",
+              "25,000 Capital Gold",
+              "2",
+              "6"
+            ],
+            [
+              "3",
+              "3,200",
+              "180 DPS",
+              "50,000 Capital Gold",
+              "3",
+              "7"
+            ],
+            [
+              "4",
+              "3,600",
+              "200 DPS",
+              "78,000 Capital Gold",
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "4,000",
+              "220 DPS",
+              "130,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:spear-thrower",
+        "capital_buildings:reflector",
+        "capital_buildings:super-wizard-tower",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Rocket Artillery (Clan Capital)",
+      "head_title": "Rocket Artillery (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "rocket-balloon-barracks",
+      "name": "Rocket Balloon Barracks",
+      "description": "Rocket Balloon Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "There's no time for safety when there's Rocket Balloons to be built. The only rule is GOTTA GO FAST!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Rocket Balloon Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:skeleton-barrel-barracks",
+        "capital_buildings:raid-cart-post",
+        "capital_buildings:sneaky-archer-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Rocket Balloon Barracks (Clan Capital)",
+      "head_title": "Rocket Balloon Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "skeleton-barrel-barracks",
+      "name": "Skeleton Barrel Barracks",
+      "description": "Skeleton Barrel Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "It's actually a barrel workshop with a graveyard next to it, run by balloon salesman.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Skeleton Barrel Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:sneaky-archer-barracks",
+        "capital_buildings:rocket-balloon-barracks",
+        "capital_buildings:spell-storage",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Skeleton Barrel Barracks (Clan Capital)",
+      "head_title": "Skeleton Barrel Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "sneaky-archer-barracks",
+      "name": "Sneaky Archer Barracks",
+      "description": "Sneaky Archer Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Training ground for Sneaky Archers. Watch out for sneaky sharp flying objects.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Sneaky Archer Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "5,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "12,500 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "50,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "125,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "250,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:spell-storage",
+        "capital_buildings:skeleton-barrel-barracks",
+        "capital_buildings:super-barbarian-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Sneaky Archer Barracks (Clan Capital)",
+      "head_title": "Sneaky Archer Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "spear-thrower",
+      "name": "Spear Thrower",
+      "description": "Spear Thrower stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Throws big spears at enemies on the ground and in the air. Very intimidating.",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "90",
+        "Targets": "Ground and air",
+        "Range": "9 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Spear Thrower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "90 DPS",
+              "3,000 Capital Gold",
+              "1",
+              "1"
+            ],
+            [
+              "2",
+              "1,350",
+              "105 DPS",
+              "6,000 Capital Gold",
+              "2",
+              "2"
+            ],
+            [
+              "3",
+              "1,500",
+              "120 DPS",
+              "12,000 Capital Gold",
+              "3",
+              "4"
+            ],
+            [
+              "4",
+              "1,650",
+              "135 DPS",
+              "21,000 Capital Gold",
+              "4",
+              "6"
+            ],
+            [
+              "5",
+              "1,800",
+              "150 DPS",
+              "35,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-wizard-tower",
+        "capital_buildings:rocket-artillery",
+        "capital_buildings:air-bombs",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Spear Thrower (Clan Capital)",
+      "head_title": "Spear Thrower (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "spell-storage",
+      "name": "Spell Storage",
+      "description": "Spell Storage stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Spell Storage holds the Capital's brewed spells. Upgrade to increase Spell capacity in Raids.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Spell Storage stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "—",
+              "25,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,150",
+              "—",
+              "50,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,350",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,550",
+              "—",
+              "200,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "1,750",
+              "—",
+              "400,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-barbarian-barracks",
+        "capital_buildings:sneaky-archer-barracks",
+        "capital_buildings:super-dragon-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Spell Storage (Clan Capital)",
+      "head_title": "Spell Storage (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-barbarian-barracks",
+      "name": "Super Barbarian Barracks",
+      "description": "Super Barbarian Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Sparring area for Super Barbarians. Smells like bravado and sweat.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Barbarian Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "5,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "12,500 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "50,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "125,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "250,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-dragon-barracks",
+        "capital_buildings:spell-storage",
+        "capital_buildings:super-dragon-post",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Barbarian Barracks (Clan Capital)",
+      "head_title": "Super Barbarian Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-dragon-barracks",
+      "name": "Super Dragon Barracks",
+      "description": "Super Dragon Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "In hindsight, wood might not be the best material for housing Dragons. It's a wonder the building hasn't caught on fire yet.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Dragon Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-dragon-post",
+        "capital_buildings:super-barbarian-barracks",
+        "capital_buildings:super-giant-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Dragon Barracks (Clan Capital)",
+      "head_title": "Super Dragon Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-dragon-post",
+      "name": "Super Dragon Post",
+      "description": "Super Dragon Post stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Super Dragons are very territorial and will roast any attackers.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "6"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Dragon Post stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "—",
+              "12,000 Capital Gold",
+              "1",
+              "6"
+            ],
+            [
+              "2",
+              "920",
+              "—",
+              "24,000 Capital Gold",
+              "2",
+              "7"
+            ],
+            [
+              "3",
+              "1,065",
+              "—",
+              "48,000 Capital Gold",
+              "3",
+              "8"
+            ],
+            [
+              "4",
+              "1,225",
+              "—",
+              "75,000 Capital Gold",
+              "4",
+              "9"
+            ],
+            [
+              "5",
+              "1,400",
+              "—",
+              "125,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-giant-barracks",
+        "capital_buildings:super-dragon-barracks",
+        "capital_buildings:super-giant-post",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Dragon Post (Clan Capital)",
+      "head_title": "Super Dragon Post (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-giant-barracks",
+      "name": "Super Giant Barracks",
+      "description": "Super Giant Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Home of Super Giants. There's training equipment scattered absolutely everywhere!",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Giant Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "7,500 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "20,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "75,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "200,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "400,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-giant-post",
+        "capital_buildings:super-dragon-post",
+        "capital_buildings:super-miner-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Giant Barracks (Clan Capital)",
+      "head_title": "Super Giant Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-giant-post",
+      "name": "Super Giant Post",
+      "description": "Super Giant Post stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Super Giants are ready to deliver a solid punch to any intruding troops.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "6"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Giant Post stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "—",
+              "7,500 Capital Gold",
+              "1",
+              "6"
+            ],
+            [
+              "2",
+              "920",
+              "—",
+              "15,000 Capital Gold",
+              "2",
+              "7"
+            ],
+            [
+              "3",
+              "1,065",
+              "—",
+              "30,000 Capital Gold",
+              "3",
+              "8"
+            ],
+            [
+              "4",
+              "1,225",
+              "—",
+              "48,000 Capital Gold",
+              "4",
+              "9"
+            ],
+            [
+              "5",
+              "1,400",
+              "—",
+              "80,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-miner-barracks",
+        "capital_buildings:super-giant-barracks",
+        "capital_buildings:super-wizard-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Giant Post (Clan Capital)",
+      "head_title": "Super Giant Post (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-miner-barracks",
+      "name": "Super Miner Barracks",
+      "description": "Super Miner Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "4 levels, from District Hall 1",
+      "summary": "A happy hangout for Super Miners. Very earthy with a rich note of drill oil.",
+      "quick": {
+        "Levels": "4",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Miner Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "17,500 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "50,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "150,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "300,000 Capital Gold",
+              "4",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:super-wizard-barracks",
+        "capital_buildings:super-giant-post",
+        "capital_buildings:army-camp",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Miner Barracks (Clan Capital)",
+      "head_title": "Super Miner Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-wizard-barracks",
+      "name": "Super Wizard Barracks",
+      "description": "Super Wizard Barracks stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "It looks like a Barracks for Super Wizards, but continuous explosions are making it scary to get closer.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Clan Capital",
+        "Category": "Army Building",
+        "Unlocked at": "District Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Wizard Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,200",
+              "—",
+              "10,000 Capital Gold",
+              "1",
+              "—"
+            ],
+            [
+              "2",
+              "1,400",
+              "—",
+              "25,000 Capital Gold",
+              "2",
+              "—"
+            ],
+            [
+              "3",
+              "1,600",
+              "—",
+              "100,000 Capital Gold",
+              "3",
+              "—"
+            ],
+            [
+              "4",
+              "1,800",
+              "—",
+              "250,000 Capital Gold",
+              "4",
+              "—"
+            ],
+            [
+              "5",
+              "2,000",
+              "—",
+              "500,000 Capital Gold",
+              "5",
+              "—"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:army-camp",
+        "capital_buildings:super-miner-barracks",
+        "capital_buildings:battle-ram-barracks",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Wizard Barracks (Clan Capital)",
+      "head_title": "Super Wizard Barracks (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "super-wizard-tower",
+      "name": "Super Wizard Tower",
+      "description": "Super Wizard Tower stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Super Wizards' electrickery is shockingly powerful against swarms of attackers, as it bounces to everyone too close to the initial target.",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Clan Capital",
+        "Category": "Defense",
+        "Damage per second": "60",
+        "Targets": "Ground and air",
+        "Range": "5.5 tiles",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "3"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Super Wizard Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,800",
+              "60 DPS",
+              "6,500 Capital Gold",
+              "1",
+              "3"
+            ],
+            [
+              "2",
+              "2,100",
+              "70 DPS",
+              "13,000 Capital Gold",
+              "2",
+              "4"
+            ],
+            [
+              "3",
+              "2,400",
+              "80 DPS",
+              "26,000 Capital Gold",
+              "3",
+              "6"
+            ],
+            [
+              "4",
+              "2,700",
+              "90 DPS",
+              "42,000 Capital Gold",
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "3,000",
+              "100 DPS",
+              "70,000 Capital Gold",
+              "5",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "capital_buildings:air-bombs",
+        "capital_buildings:spear-thrower",
+        "capital_buildings:air-defense",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Super Wizard Tower (Clan Capital)",
+      "head_title": "Super Wizard Tower (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "wall",
+      "name": "Wall",
+      "description": "Wall stats for every level in the Clash of Clans Clan Capital: build cost, hitpoints and the District Hall each level needs.",
+      "blurb": "5 levels, from District Hall 1",
+      "summary": "Walls protect districts and keep enemies at bay.\\n\\nA district's Walls are always the same level and upgrade at the same time. Build together, battle together, upgrade Walls together!",
+      "quick": {
+        "Levels": "5",
+        "Size": "1x1",
+        "Village": "Clan Capital",
+        "Category": "Wall",
+        "Unlocked at": "District Hall 1",
+        "Capital Hall needed": "1"
+      },
+      "tags": [
+        {
+          "label": "Wall",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Wall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "District Hall",
+            "Capital Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "5,000",
+              "—",
+              "250 Capital Gold",
+              "1",
+              "1"
+            ],
+            [
+              "2",
+              "6,500",
+              "—",
+              "500 Capital Gold",
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              "8,000",
+              "—",
+              "1,500 Capital Gold",
+              "3",
+              "5"
+            ],
+            [
+              "4",
+              "9,500",
+              "—",
+              "3,500 Capital Gold",
+              "4",
+              "7"
+            ],
+            [
+              "5",
+              "11,000",
+              "—",
+              "6,000 Capital Gold",
+              "5",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Wall (Clan Capital)",
+      "head_title": "Wall (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    }
+  ]
+}

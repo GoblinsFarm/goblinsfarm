@@ -9,9 +9,18 @@ The wiki and tutorial sections are reference material about the game itself and 
 - [Troops (57 pages)](https://goblinsfarm.com/wiki/troops/)
 - [Spells (17 pages)](https://goblinsfarm.com/wiki/spells/)
 - [Heroes (6 pages)](https://goblinsfarm.com/wiki/heroes/)
+- [Equipment (41 pages)](https://goblinsfarm.com/wiki/equipment/)
+- [Pets (12 pages)](https://goblinsfarm.com/wiki/pets/)
 - [Buildings (41 pages)](https://goblinsfarm.com/wiki/buildings/)
+- [Traps (8 pages)](https://goblinsfarm.com/wiki/traps/)
 - [Town Halls (18 pages)](https://goblinsfarm.com/wiki/town-hall/)
 - [Mechanics (23 pages)](https://goblinsfarm.com/wiki/mechanics/)
+- [Builder Base Troops (12 pages)](https://goblinsfarm.com/wiki/builder-base/troops/)
+- [Builder Base Buildings (31 pages)](https://goblinsfarm.com/wiki/builder-base/buildings/)
+- [Capital Troops (18 pages)](https://goblinsfarm.com/wiki/clan-capital/troops/)
+- [Capital Spells (7 pages)](https://goblinsfarm.com/wiki/clan-capital/spells/)
+- [Capital Buildings (50 pages)](https://goblinsfarm.com/wiki/clan-capital/buildings/)
+- [Capital Districts (9 pages)](https://goblinsfarm.com/wiki/clan-capital/districts/)
 
 ## Tutorials
 - [Tutorial index](https://goblinsfarm.com/tutorials/)

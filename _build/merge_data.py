@@ -26,7 +26,11 @@ DATA_IN = BUILD.parent.parent / "coc-data-out"
 PROSE = BUILD / "prose"
 DATA_OUT = BUILD / "data"
 
-COLLECTIONS = ["troops", "spells", "heroes", "buildings", "townhalls"]
+COLLECTIONS = ["troops", "spells", "heroes", "buildings", "townhalls",
+               "pets", "equipment", "traps",
+               "bb_troops", "bb_buildings",
+               "capital_troops", "capital_spells", "capital_buildings",
+               "capital_districts"]
 
 # Limited-time event units. Real, but they are not part of the standard roster and
 # publishing them as stat-only pages adds thin content for no search value.
@@ -54,6 +58,16 @@ EXCLUDE = {
         "Archer Queen", "Barbarian King", "Grand Warden", "Royal Champion",
     },
     "spells": {"Birthday Boom", "Santa's Surprise", "Bag of Frostmites"},
+    # Event traps, on the same footing as the event troops above: real, but not
+    # part of a base anyone builds, and they publish with an unlock nobody can act on.
+    "traps": {"Pumpkin Bomb", "Santa Strike", "Shrink Trap", "Freeze Trap"},
+    "capital_buildings": {
+        # District population houses: one level, no stats, purely decorative.
+        "Giants' House", "Large House", "Slanted House", "Small Cabin", "Small Hut",
+        "Thatched Hut", "Wooden Cabin", "Wooden House",
+        # Goblin-map scenery, same as the Home Village list above.
+        "Goblin Hall", "Goblin Hut", "Goblin Outpost",
+    },
 }
 
 # Supercell removed troop training entirely: the game files carry no training cost
@@ -89,6 +103,15 @@ TOPIC_LINK = {
     "heroes": "mechanics:hero-equipment",
     "buildings": "mechanics:defence-mechanics",
     "townhalls": "mechanics:upgrade-priority",
+    "pets": "mechanics:hero-equipment",
+    "equipment": "mechanics:hero-equipment",
+    "traps": "mechanics:defence-mechanics",
+    "bb_troops": "mechanics:builder-base",
+    "bb_buildings": "mechanics:builder-base",
+    "capital_troops": "mechanics:clan-capital-and-raid-weekends",
+    "capital_spells": "mechanics:clan-capital-and-raid-weekends",
+    "capital_buildings": "mechanics:clan-capital-and-raid-weekends",
+    "capital_districts": "mechanics:clan-capital-and-raid-weekends",
 }
 
 

@@ -40,9 +40,20 @@ WIKI_COLLECTIONS = [
     ("troops", "wiki/troops"),
     ("spells", "wiki/spells"),
     ("heroes", "wiki/heroes"),
+    ("equipment", "wiki/equipment"),
+    ("pets", "wiki/pets"),
     ("buildings", "wiki/buildings"),
+    ("traps", "wiki/traps"),
     ("townhalls", "wiki/town-hall"),
     ("mechanics", "wiki/mechanics"),
+    # The two side villages are nested a level deeper so their sections read as one
+    # place rather than four more entries in a flat list.
+    ("bb_troops", "wiki/builder-base/troops"),
+    ("bb_buildings", "wiki/builder-base/buildings"),
+    ("capital_troops", "wiki/clan-capital/troops"),
+    ("capital_spells", "wiki/clan-capital/spells"),
+    ("capital_buildings", "wiki/clan-capital/buildings"),
+    ("capital_districts", "wiki/clan-capital/districts"),
 ]
 
 # Hand-written pages that live outside the generator but belong in the sitemap.

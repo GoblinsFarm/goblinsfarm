@@ -1,0 +1,3574 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Builder Base Buildings",
+    "h1": "Builder Base Buildings",
+    "head_title": "Clash of Clans Builder Base Buildings, Costs and Levels",
+    "description": "Every Builder Base building in Clash of Clans with per-level build cost, build time, hitpoints and Builder Hall requirement.",
+    "summary": "Every Builder Base building, 31 in total, with the full level table for each one, read from the game files.",
+    "groups": [
+      {
+        "h": "Army Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Army Camp",
+          "Battle Copter",
+          "Battle Machine",
+          "Builder Barracks",
+          "Guard Post",
+          "Healing Hut",
+          "Reinforcement Camp",
+          "Star Laboratory"
+        ]
+      },
+      {
+        "h": "Defenses",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Air Bombs",
+          "Archer Tower",
+          "Cannon",
+          "Crusher",
+          "Double Cannon",
+          "Firecrackers",
+          "Giant Cannon",
+          "Hidden Tesla",
+          "Lava Launcher",
+          "Mega Tesla",
+          "Multi Mortar",
+          "Roaster",
+          "X-Bow"
+        ]
+      },
+      {
+        "h": "Other Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Master Builder's Hut",
+          "O.T.T.O's Outpost"
+        ]
+      },
+      {
+        "h": "Resource Buildings",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "B.O.B Control",
+          "Clock Tower",
+          "Elixir Collector",
+          "Elixir Storage",
+          "Gem Mine",
+          "Gold Mine",
+          "Gold Storage"
+        ]
+      },
+      {
+        "h": "Walls",
+        "blurb": "",
+        "style": "list",
+        "members": [
+          "Wall"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.7"
+  },
+  "entries": [
+    {
+      "slug": "air-bombs",
+      "name": "Air Bombs",
+      "description": "Air Bombs stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH4",
+      "summary": "For heavyweight air defense, Air Bombs do the trick. An endless supply of explosive barrels launch into the sky to ravage flying enemies!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "270",
+        "Targets": "Air only",
+        "Range": "7.5 tiles",
+        "Unlocked at": "Builder Hall 4"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Air Bombs stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "270 DPS",
+              "300,000 Builder Gold",
+              "6 h",
+              "4"
+            ],
+            [
+              "2",
+              "1,100",
+              "297 DPS",
+              "320,000 Builder Gold",
+              "12 h",
+              "4"
+            ],
+            [
+              "3",
+              "1,250",
+              "327 DPS",
+              "340,000 Builder Gold",
+              "1 d",
+              "4"
+            ],
+            [
+              "4",
+              "1,400",
+              "359 DPS",
+              "360,000 Builder Gold",
+              "2 d",
+              "4"
+            ],
+            [
+              "5",
+              "1,600",
+              "395 DPS",
+              "1,200,000 Builder Gold",
+              "3 d",
+              "5"
+            ],
+            [
+              "6",
+              "1,850",
+              "435 DPS",
+              "1,500,000 Builder Gold",
+              "5 d",
+              "6"
+            ],
+            [
+              "7",
+              "2,100",
+              "478 DPS",
+              "2,400,000 Builder Gold",
+              "7 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,350",
+              "526 DPS",
+              "3,400,000 Builder Gold",
+              "8 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,600",
+              "579 DPS",
+              "4,400,000 Builder Gold",
+              "10 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,900",
+              "637 DPS",
+              "5,400,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:archer-tower",
+        "bb_buildings:x-bow",
+        "bb_buildings:cannon",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Air Bombs (Builder Base)",
+      "head_title": "Air Bombs (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "archer-tower",
+      "name": "Archer Tower",
+      "description": "Archer Tower stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH2",
+      "summary": "No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "40",
+        "Targets": "Ground and air",
+        "Range": "10 tiles",
+        "Unlocked at": "Builder Hall 2"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Archer Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "40 DPS",
+              "12,000 Builder Gold",
+              "5 m",
+              "2"
+            ],
+            [
+              "2",
+              "575",
+              "44 DPS",
+              "30,000 Builder Gold",
+              "15 m",
+              "3"
+            ],
+            [
+              "3",
+              "660",
+              "48 DPS",
+              "60,000 Builder Gold",
+              "2 h",
+              "3"
+            ],
+            [
+              "4",
+              "760",
+              "53 DPS",
+              "250,000 Builder Gold",
+              "8 h",
+              "4"
+            ],
+            [
+              "5",
+              "875",
+              "59 DPS",
+              "800,000 Builder Gold",
+              "1 d",
+              "5"
+            ],
+            [
+              "6",
+              "1,050",
+              "64 DPS",
+              "1,200,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,250",
+              "71 DPS",
+              "2,000,000 Builder Gold",
+              "4 d",
+              "7"
+            ],
+            [
+              "8",
+              "1,450",
+              "78 DPS",
+              "2,800,000 Builder Gold",
+              "6 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,650",
+              "86 DPS",
+              "3,600,000 Builder Gold",
+              "8 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,850",
+              "94 DPS",
+              "4,600,000 Builder Gold",
+              "9 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:cannon",
+        "bb_buildings:air-bombs",
+        "bb_buildings:crusher",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Archer Tower (Builder Base)",
+      "head_title": "Archer Tower (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "army-camp",
+      "name": "Army Camp",
+      "description": "Army Camp stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "1 level, from BH1",
+      "summary": "Your troops are stationed in Army Camps. Each camp can house only one troop type at a time. Some troops can be upgraded to fit more units per camp!",
+      "quick": {
+        "Levels": "1",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Army Camp stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "0 Builder Elixir",
+              "—",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:battle-copter",
+        "bb_buildings:star-laboratory",
+        "bb_buildings:battle-machine",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Army Camp (Builder Base)",
+      "head_title": "Army Camp (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "bob-control",
+      "name": "B.O.B Control",
+      "description": "B.O.B Control stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "5 levels, from BH9",
+      "summary": "Control center for Master Builder's latest invention! Once fully upgraded, B.O.B becomes an additional builder in the Home Village!",
+      "quick": {
+        "Levels": "5",
+        "Size": "2x2",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 9"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "B.O.B Control stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "250",
+              "—",
+              "100,000 Builder Gold",
+              "Instant",
+              "9"
+            ],
+            [
+              "2",
+              "250",
+              "—",
+              "500,000 Builder Gold",
+              "—",
+              "9"
+            ],
+            [
+              "3",
+              "250",
+              "—",
+              "1,000,000 Builder Gold",
+              "—",
+              "9"
+            ],
+            [
+              "4",
+              "250",
+              "—",
+              "2,000,000 Builder Gold",
+              "—",
+              "9"
+            ],
+            [
+              "5",
+              "250",
+              "—",
+              "3,000,000 Builder Gold",
+              "—",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:clock-tower",
+        "bb_buildings:gold-storage",
+        "bb_buildings:elixir-collector",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "B.O.B Control (Builder Base)",
+      "head_title": "B.O.B Control (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "battle-copter",
+      "name": "Battle Copter",
+      "description": "Battle Copter stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "1 level, from BH5",
+      "summary": "Get to the Copter! Tired of hammering through Walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful Cannons; or can get up close and personal when using its Bomb Rush ability.",
+      "quick": {
+        "Levels": "1",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 5"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Battle Copter stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "250",
+              "—",
+              "2,500,000 Builder Elixir",
+              "Instant",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:battle-machine",
+        "bb_buildings:army-camp",
+        "bb_buildings:builder-barracks",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Battle Copter (Builder Base)",
+      "head_title": "Battle Copter (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "battle-machine",
+      "name": "Battle Machine",
+      "description": "Battle Machine stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "1 level, from BH5",
+      "summary": "This massive machine broke attempting to hoist the realm's biggest hammer. With some repairs, it could be taken into battle!",
+      "quick": {
+        "Levels": "1",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 5"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Battle Machine stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "250",
+              "—",
+              "900,000 Builder Elixir",
+              "12 h",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:builder-barracks",
+        "bb_buildings:battle-copter",
+        "bb_buildings:guard-post",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Battle Machine (Builder Base)",
+      "head_title": "Battle Machine (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "builder-barracks",
+      "name": "Builder Barracks",
+      "description": "Builder Barracks stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "12 levels, from BH1",
+      "summary": "The Builder Barracks trains troops for Builder Battles! You can also quickly swap troops immediately before attacking. Upgrade the Builder Barracks to unlock more troop types!",
+      "quick": {
+        "Levels": "12",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Builder Barracks stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "1,000 Builder Elixir",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "350",
+              "—",
+              "4,000 Builder Elixir",
+              "1 m",
+              "2"
+            ],
+            [
+              "3",
+              "400",
+              "—",
+              "10,000 Builder Elixir",
+              "10 m",
+              "3"
+            ],
+            [
+              "4",
+              "460",
+              "—",
+              "25,000 Builder Elixir",
+              "30 m",
+              "3"
+            ],
+            [
+              "5",
+              "550",
+              "—",
+              "100,000 Builder Elixir",
+              "3 h",
+              "4"
+            ],
+            [
+              "6",
+              "650",
+              "—",
+              "150,000 Builder Elixir",
+              "6 h",
+              "4"
+            ],
+            [
+              "7",
+              "750",
+              "—",
+              "300,000 Builder Elixir",
+              "9 h",
+              "5"
+            ],
+            [
+              "8",
+              "850",
+              "—",
+              "500,000 Builder Elixir",
+              "1 d",
+              "6"
+            ],
+            [
+              "9",
+              "1,000",
+              "—",
+              "1,000,000 Builder Elixir",
+              "2 d",
+              "7"
+            ],
+            [
+              "10",
+              "1,150",
+              "—",
+              "1,500,000 Builder Elixir",
+              "3 d",
+              "8"
+            ],
+            [
+              "11",
+              "1,300",
+              "—",
+              "2,000,000 Builder Elixir",
+              "4 d",
+              "9"
+            ],
+            [
+              "12",
+              "1,450",
+              "—",
+              "3,000,000 Builder Elixir",
+              "5 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:guard-post",
+        "bb_buildings:battle-machine",
+        "bb_buildings:healing-hut",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Builder Barracks (Builder Base)",
+      "head_title": "Builder Barracks (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "cannon",
+      "name": "Cannon",
+      "description": "Cannon stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH1",
+      "summary": "The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "56",
+        "Targets": "Ground only",
+        "Range": "8.5 tiles",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "56 DPS",
+              "10,000 Builder Gold",
+              "1 m",
+              "1"
+            ],
+            [
+              "2",
+              "575",
+              "62 DPS",
+              "20,000 Builder Gold",
+              "5 m",
+              "3"
+            ],
+            [
+              "3",
+              "660",
+              "68 DPS",
+              "50,000 Builder Gold",
+              "2 h",
+              "3"
+            ],
+            [
+              "4",
+              "760",
+              "75 DPS",
+              "200,000 Builder Gold",
+              "8 h",
+              "4"
+            ],
+            [
+              "5",
+              "875",
+              "82 DPS",
+              "600,000 Builder Gold",
+              "1 d",
+              "5"
+            ],
+            [
+              "6",
+              "1,050",
+              "90 DPS",
+              "1,000,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,250",
+              "99 DPS",
+              "1,800,000 Builder Gold",
+              "4 d",
+              "7"
+            ],
+            [
+              "8",
+              "1,450",
+              "109 DPS",
+              "2,500,000 Builder Gold",
+              "6 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,650",
+              "120 DPS",
+              "3,300,000 Builder Gold",
+              "8 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,850",
+              "132 DPS",
+              "4,500,000 Builder Gold",
+              "9 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:crusher",
+        "bb_buildings:archer-tower",
+        "bb_buildings:double-cannon",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Cannon (Builder Base)",
+      "head_title": "Cannon (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "clock-tower",
+      "name": "Clock Tower",
+      "description": "Clock Tower stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH4",
+      "summary": "The Clock Tower makes things happen faster in your Village! Collect resources, research and build faster.",
+      "quick": {
+        "Levels": "10",
+        "Size": "4x4",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 4"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Clock Tower stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "—",
+              "150,000 Builder Gold",
+              "2 h",
+              "4"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "180,000 Builder Gold",
+              "3 h",
+              "4"
+            ],
+            [
+              "3",
+              "975",
+              "—",
+              "220,000 Builder Gold",
+              "4 h",
+              "4"
+            ],
+            [
+              "4",
+              "1,150",
+              "—",
+              "300,000 Builder Gold",
+              "6 h",
+              "4"
+            ],
+            [
+              "5",
+              "1,350",
+              "—",
+              "700,000 Builder Gold",
+              "12 h",
+              "5"
+            ],
+            [
+              "6",
+              "1,600",
+              "—",
+              "1,200,000 Builder Gold",
+              "1 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "—",
+              "1,700,000 Builder Gold",
+              "2 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "—",
+              "2,200,000 Builder Gold",
+              "3 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "—",
+              "2,700,000 Builder Gold",
+              "4 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "—",
+              "3,700,000 Builder Gold",
+              "5 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:elixir-collector",
+        "bb_buildings:bob-control",
+        "bb_buildings:elixir-storage",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Clock Tower (Builder Base)",
+      "head_title": "Clock Tower (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "crusher",
+      "name": "Crusher",
+      "description": "Crusher stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH3",
+      "summary": "The Crusher REALLY likes its personal space. This hulking stone slams ground units with a mighty wallop!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "440",
+        "Targets": "Ground only",
+        "Range": "2.3 tiles",
+        "Unlocked at": "Builder Hall 3"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Crusher stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,000",
+              "440 DPS",
+              "120,000 Builder Gold",
+              "2 h",
+              "3"
+            ],
+            [
+              "2",
+              "1,100",
+              "484 DPS",
+              "180,000 Builder Gold",
+              "5 h",
+              "3"
+            ],
+            [
+              "3",
+              "1,250",
+              "532 DPS",
+              "220,000 Builder Gold",
+              "12 h",
+              "3"
+            ],
+            [
+              "4",
+              "1,400",
+              "586 DPS",
+              "350,000 Builder Gold",
+              "1 d",
+              "4"
+            ],
+            [
+              "5",
+              "1,600",
+              "644 DPS",
+              "1,200,000 Builder Gold",
+              "2 d",
+              "5"
+            ],
+            [
+              "6",
+              "1,850",
+              "709 DPS",
+              "1,500,000 Builder Gold",
+              "4 d",
+              "6"
+            ],
+            [
+              "7",
+              "2,100",
+              "779 DPS",
+              "2,400,000 Builder Gold",
+              "6 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,350",
+              "857 DPS",
+              "3,400,000 Builder Gold",
+              "8 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,600",
+              "943 DPS",
+              "4,400,000 Builder Gold",
+              "10 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,900",
+              "1,037 DPS",
+              "5,400,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:double-cannon",
+        "bb_buildings:cannon",
+        "bb_buildings:firecrackers",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Crusher (Builder Base)",
+      "head_title": "Crusher (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "double-cannon",
+      "name": "Double Cannon",
+      "description": "Double Cannon stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH2",
+      "summary": "Double Cannons, double shots per Cannon, It's a double-double dose of trouble!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "50",
+        "Targets": "Ground only",
+        "Range": "7 tiles",
+        "Unlocked at": "Builder Hall 2"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Double Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "50 DPS",
+              "20,000 Builder Gold",
+              "10 m",
+              "2"
+            ],
+            [
+              "2",
+              "690",
+              "55 DPS",
+              "50,000 Builder Gold",
+              "1 h",
+              "3"
+            ],
+            [
+              "3",
+              "800",
+              "61 DPS",
+              "80,000 Builder Gold",
+              "3 h",
+              "3"
+            ],
+            [
+              "4",
+              "910",
+              "67 DPS",
+              "300,000 Builder Gold",
+              "12 h",
+              "4"
+            ],
+            [
+              "5",
+              "1,050",
+              "74 DPS",
+              "900,000 Builder Gold",
+              "1 d",
+              "5"
+            ],
+            [
+              "6",
+              "1,250",
+              "81 DPS",
+              "1,400,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,450",
+              "89 DPS",
+              "2,200,000 Builder Gold",
+              "4 d",
+              "7"
+            ],
+            [
+              "8",
+              "1,700",
+              "98 DPS",
+              "3,200,000 Builder Gold",
+              "6 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,950",
+              "108 DPS",
+              "4,200,000 Builder Gold",
+              "8 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,200",
+              "120 DPS",
+              "5,200,000 Builder Gold",
+              "10 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:firecrackers",
+        "bb_buildings:crusher",
+        "bb_buildings:giant-cannon",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Double Cannon (Builder Base)",
+      "head_title": "Double Cannon (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "elixir-collector",
+      "name": "Elixir Collector",
+      "description": "Elixir Collector stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH1",
+      "summary": "Elixir is pumped from Ley Lines coursing underneath your Village. Upgrade your Elixir Collectors to maximize Elixir production.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Elixir Collector stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "1,000 Builder Gold",
+              "10 m",
+              "1"
+            ],
+            [
+              "2",
+              "350",
+              "—",
+              "5,000 Builder Gold",
+              "20 m",
+              "3"
+            ],
+            [
+              "3",
+              "400",
+              "—",
+              "10,000 Builder Gold",
+              "40 m",
+              "3"
+            ],
+            [
+              "4",
+              "460",
+              "—",
+              "30,000 Builder Gold",
+              "2 h",
+              "4"
+            ],
+            [
+              "5",
+              "550",
+              "—",
+              "60,000 Builder Gold",
+              "6 h",
+              "5"
+            ],
+            [
+              "6",
+              "650",
+              "—",
+              "100,000 Builder Gold",
+              "1 d",
+              "6"
+            ],
+            [
+              "7",
+              "750",
+              "—",
+              "200,000 Builder Gold",
+              "1 d 12 h",
+              "7"
+            ],
+            [
+              "8",
+              "850",
+              "—",
+              "300,000 Builder Gold",
+              "2 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,000",
+              "—",
+              "400,000 Builder Gold",
+              "2 d 12 h",
+              "9"
+            ],
+            [
+              "10",
+              "1,150",
+              "—",
+              "800,000 Builder Gold",
+              "3 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:elixir-storage",
+        "bb_buildings:clock-tower",
+        "bb_buildings:gem-mine",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Elixir Collector (Builder Base)",
+      "head_title": "Elixir Collector (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "elixir-storage",
+      "name": "Elixir Storage",
+      "description": "Elixir Storage stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH3",
+      "summary": "These storages contain the elixir pumped from underground. Upgrade them to increase the maximum amount of elixir you can store.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 3"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Elixir Storage stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "—",
+              "20,000 Builder Gold",
+              "30 m",
+              "3"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "80,000 Builder Gold",
+              "1 h",
+              "3"
+            ],
+            [
+              "3",
+              "975",
+              "—",
+              "200,000 Builder Gold",
+              "3 h",
+              "3"
+            ],
+            [
+              "4",
+              "1,150",
+              "—",
+              "300,000 Builder Gold",
+              "6 h",
+              "4"
+            ],
+            [
+              "5",
+              "1,350",
+              "—",
+              "600,000 Builder Gold",
+              "12 h",
+              "5"
+            ],
+            [
+              "6",
+              "1,600",
+              "—",
+              "1,000,000 Builder Gold",
+              "1 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "—",
+              "1,500,000 Builder Gold",
+              "2 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "—",
+              "2,000,000 Builder Gold",
+              "3 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "—",
+              "2,500,000 Builder Gold",
+              "4 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "—",
+              "3,200,000 Builder Gold",
+              "5 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:gem-mine",
+        "bb_buildings:elixir-collector",
+        "bb_buildings:gold-mine",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Elixir Storage (Builder Base)",
+      "head_title": "Elixir Storage (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "firecrackers",
+      "name": "Firecrackers",
+      "description": "Firecrackers stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH3",
+      "summary": "Keep flying pests away with flurries of small rockets! It's like a bug zapper, but prettier.",
+      "quick": {
+        "Levels": "10",
+        "Size": "2x2",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "19",
+        "Targets": "Air only",
+        "Range": "9 tiles",
+        "Unlocked at": "Builder Hall 3"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Firecrackers stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "19 DPS",
+              "40,000 Builder Gold",
+              "15 m",
+              "3"
+            ],
+            [
+              "2",
+              "460",
+              "21 DPS",
+              "80,000 Builder Gold",
+              "2 h",
+              "3"
+            ],
+            [
+              "3",
+              "530",
+              "23 DPS",
+              "120,000 Builder Gold",
+              "4 h",
+              "3"
+            ],
+            [
+              "4",
+              "610",
+              "25 DPS",
+              "300,000 Builder Gold",
+              "12 h",
+              "4"
+            ],
+            [
+              "5",
+              "700",
+              "27 DPS",
+              "800,000 Builder Gold",
+              "1 d",
+              "5"
+            ],
+            [
+              "6",
+              "850",
+              "30 DPS",
+              "1,200,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,000",
+              "33 DPS",
+              "2,000,000 Builder Gold",
+              "4 d",
+              "7"
+            ],
+            [
+              "8",
+              "1,150",
+              "36 DPS",
+              "3,000,000 Builder Gold",
+              "6 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,300",
+              "40 DPS",
+              "4,000,000 Builder Gold",
+              "8 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,500",
+              "44 DPS",
+              "5,000,000 Builder Gold",
+              "9 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:giant-cannon",
+        "bb_buildings:double-cannon",
+        "bb_buildings:hidden-tesla",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Firecrackers (Builder Base)",
+      "head_title": "Firecrackers (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "gem-mine",
+      "name": "Gem Mine",
+      "description": "Gem Mine stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH3",
+      "summary": "Gem Mines access a rare deposit of this highly valuable resource! Mining Gems is slow and hard work.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 3"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Gem Mine stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "120,000 Builder Elixir",
+              "1 h",
+              "3"
+            ],
+            [
+              "2",
+              "350",
+              "—",
+              "180,000 Builder Elixir",
+              "2 h",
+              "3"
+            ],
+            [
+              "3",
+              "400",
+              "—",
+              "240,000 Builder Elixir",
+              "6 h",
+              "3"
+            ],
+            [
+              "4",
+              "460",
+              "—",
+              "450,000 Builder Elixir",
+              "8 h",
+              "4"
+            ],
+            [
+              "5",
+              "550",
+              "—",
+              "1,000,000 Builder Elixir",
+              "12 h",
+              "5"
+            ],
+            [
+              "6",
+              "650",
+              "—",
+              "1,500,000 Builder Elixir",
+              "1 d",
+              "6"
+            ],
+            [
+              "7",
+              "750",
+              "—",
+              "2,500,000 Builder Elixir",
+              "2 d",
+              "7"
+            ],
+            [
+              "8",
+              "850",
+              "—",
+              "3,500,000 Builder Elixir",
+              "4 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,000",
+              "—",
+              "4,500,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,150",
+              "—",
+              "5,500,000 Builder Elixir",
+              "8 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:gold-mine",
+        "bb_buildings:elixir-storage",
+        "bb_buildings:gold-storage",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Gem Mine (Builder Base)",
+      "head_title": "Gem Mine (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "giant-cannon",
+      "name": "Giant Cannon",
+      "description": "Giant Cannon stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH7",
+      "summary": "Nothing gets in the way of the Giant Cannon. Its mammoth-sized cannon balls push past anything and just keep going and going and going...",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "205",
+        "Targets": "Ground only",
+        "Range": "9.5 tiles",
+        "Unlocked at": "Builder Hall 7"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Giant Cannon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "700",
+              "205 DPS",
+              "2,000,000 Builder Gold",
+              "1 d",
+              "7"
+            ],
+            [
+              "2",
+              "800",
+              "226 DPS",
+              "2,100,000 Builder Gold",
+              "2 d",
+              "7"
+            ],
+            [
+              "3",
+              "950",
+              "248 DPS",
+              "2,200,000 Builder Gold",
+              "3 d",
+              "7"
+            ],
+            [
+              "4",
+              "1,100",
+              "273 DPS",
+              "2,300,000 Builder Gold",
+              "4 d",
+              "7"
+            ],
+            [
+              "5",
+              "1,300",
+              "300 DPS",
+              "2,400,000 Builder Gold",
+              "5 d",
+              "7"
+            ],
+            [
+              "6",
+              "1,500",
+              "330 DPS",
+              "2,500,000 Builder Gold",
+              "6 d",
+              "7"
+            ],
+            [
+              "7",
+              "1,700",
+              "363 DPS",
+              "2,700,000 Builder Gold",
+              "8 d",
+              "7"
+            ],
+            [
+              "8",
+              "1,900",
+              "399 DPS",
+              "3,800,000 Builder Gold",
+              "10 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,150",
+              "439 DPS",
+              "4,700,000 Builder Gold",
+              "11 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,400",
+              "483 DPS",
+              "5,700,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:hidden-tesla",
+        "bb_buildings:firecrackers",
+        "bb_buildings:lava-launcher",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Giant Cannon (Builder Base)",
+      "head_title": "Giant Cannon (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "gold-mine",
+      "name": "Gold Mine",
+      "description": "Gold Mine stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH1",
+      "summary": "The Gold Mine produces Gold. Upgrade it to boost its production and Gold Storage capacity.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Gold Mine stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "1,000 Builder Elixir",
+              "10 m",
+              "1"
+            ],
+            [
+              "2",
+              "350",
+              "—",
+              "5,000 Builder Elixir",
+              "20 m",
+              "3"
+            ],
+            [
+              "3",
+              "400",
+              "—",
+              "10,000 Builder Elixir",
+              "40 m",
+              "3"
+            ],
+            [
+              "4",
+              "460",
+              "—",
+              "30,000 Builder Elixir",
+              "2 h",
+              "4"
+            ],
+            [
+              "5",
+              "550",
+              "—",
+              "60,000 Builder Elixir",
+              "6 h",
+              "5"
+            ],
+            [
+              "6",
+              "650",
+              "—",
+              "100,000 Builder Elixir",
+              "1 d",
+              "6"
+            ],
+            [
+              "7",
+              "750",
+              "—",
+              "200,000 Builder Elixir",
+              "1 d 12 h",
+              "7"
+            ],
+            [
+              "8",
+              "850",
+              "—",
+              "300,000 Builder Elixir",
+              "2 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,000",
+              "—",
+              "400,000 Builder Elixir",
+              "2 d 12 h",
+              "9"
+            ],
+            [
+              "10",
+              "1,150",
+              "—",
+              "800,000 Builder Elixir",
+              "3 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:gold-storage",
+        "bb_buildings:gem-mine",
+        "bb_buildings:bob-control",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Gold Mine (Builder Base)",
+      "head_title": "Gold Mine (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "gold-storage",
+      "name": "Gold Storage",
+      "description": "Gold Storage stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH3",
+      "summary": "All your precious Gold is stored here. Don't let sneaky Goblins anywhere near! Upgrade the Storage to increase its capacity and durability against attack.",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Resource Building",
+        "Unlocked at": "Builder Hall 3"
+      },
+      "tags": [
+        {
+          "label": "Resource Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Gold Storage stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "—",
+              "20,000 Builder Elixir",
+              "30 m",
+              "3"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "80,000 Builder Elixir",
+              "1 h",
+              "3"
+            ],
+            [
+              "3",
+              "975",
+              "—",
+              "200,000 Builder Elixir",
+              "3 h",
+              "3"
+            ],
+            [
+              "4",
+              "1,150",
+              "—",
+              "300,000 Builder Elixir",
+              "6 h",
+              "4"
+            ],
+            [
+              "5",
+              "1,350",
+              "—",
+              "600,000 Builder Elixir",
+              "12 h",
+              "5"
+            ],
+            [
+              "6",
+              "1,600",
+              "—",
+              "1,000,000 Builder Elixir",
+              "1 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "—",
+              "1,500,000 Builder Elixir",
+              "2 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "—",
+              "2,000,000 Builder Elixir",
+              "3 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "—",
+              "2,500,000 Builder Elixir",
+              "4 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "—",
+              "3,200,000 Builder Elixir",
+              "5 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:bob-control",
+        "bb_buildings:gold-mine",
+        "bb_buildings:clock-tower",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Gold Storage (Builder Base)",
+      "head_title": "Gold Storage (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "guard-post",
+      "name": "Guard Post",
+      "description": "Guard Post stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH4",
+      "summary": "Houses troops to aid in defense! These rabble rousers are sure to slow down the enemy.",
+      "quick": {
+        "Levels": "10",
+        "Size": "2x2",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 4"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Guard Post stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "200,000 Builder Gold",
+              "4 h",
+              "4"
+            ],
+            [
+              "2",
+              "350",
+              "—",
+              "240,000 Builder Gold",
+              "8 h",
+              "4"
+            ],
+            [
+              "3",
+              "400",
+              "—",
+              "280,000 Builder Gold",
+              "12 h",
+              "4"
+            ],
+            [
+              "4",
+              "460",
+              "—",
+              "320,000 Builder Gold",
+              "1 d",
+              "4"
+            ],
+            [
+              "5",
+              "550",
+              "—",
+              "1,000,000 Builder Gold",
+              "2 d",
+              "5"
+            ],
+            [
+              "6",
+              "650",
+              "—",
+              "1,400,000 Builder Gold",
+              "4 d",
+              "6"
+            ],
+            [
+              "7",
+              "750",
+              "—",
+              "2,300,000 Builder Gold",
+              "6 d",
+              "7"
+            ],
+            [
+              "8",
+              "850",
+              "—",
+              "3,200,000 Builder Gold",
+              "8 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,000",
+              "—",
+              "4,100,000 Builder Gold",
+              "10 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,150",
+              "—",
+              "5,100,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:healing-hut",
+        "bb_buildings:builder-barracks",
+        "bb_buildings:reinforcement-camp",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Guard Post (Builder Base)",
+      "head_title": "Guard Post (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "healing-hut",
+      "name": "Healing Hut",
+      "description": "Healing Hut stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "6 levels, from BH6",
+      "summary": "Brews up a hearty and nourishing cauldron of soup following Master Builder's grandma's recipe. Troops eat some on their way to the next stage of an attack, recovering some of their health.",
+      "quick": {
+        "Levels": "6",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 6"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Healing Hut stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "550",
+              "—",
+              "1,500,000 Builder Elixir",
+              "1 d 6 h",
+              "6"
+            ],
+            [
+              "2",
+              "650",
+              "—",
+              "2,000,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "3",
+              "750",
+              "—",
+              "2,500,000 Builder Elixir",
+              "3 d",
+              "7"
+            ],
+            [
+              "4",
+              "850",
+              "—",
+              "3,250,000 Builder Elixir",
+              "4 d",
+              "8"
+            ],
+            [
+              "5",
+              "1,000",
+              "—",
+              "4,000,000 Builder Elixir",
+              "5 d",
+              "9"
+            ],
+            [
+              "6",
+              "1,150",
+              "—",
+              "5,000,000 Builder Elixir",
+              "6 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:reinforcement-camp",
+        "bb_buildings:guard-post",
+        "bb_buildings:star-laboratory",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Healing Hut (Builder Base)",
+      "head_title": "Healing Hut (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "hidden-tesla",
+      "name": "Hidden Tesla",
+      "description": "Hidden Tesla stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH3",
+      "summary": "Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!",
+      "quick": {
+        "Levels": "10",
+        "Size": "2x2",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "36",
+        "Targets": "Ground and air",
+        "Range": "7 tiles",
+        "Unlocked at": "Builder Hall 3"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Hidden Tesla stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "36 DPS",
+              "50,000 Builder Gold",
+              "30 m",
+              "3"
+            ],
+            [
+              "2",
+              "350",
+              "40 DPS",
+              "100,000 Builder Gold",
+              "3 h",
+              "3"
+            ],
+            [
+              "3",
+              "400",
+              "44 DPS",
+              "150,000 Builder Gold",
+              "5 h",
+              "3"
+            ],
+            [
+              "4",
+              "460",
+              "48 DPS",
+              "280,000 Builder Gold",
+              "10 h",
+              "4"
+            ],
+            [
+              "5",
+              "550",
+              "53 DPS",
+              "700,000 Builder Gold",
+              "1 d",
+              "5"
+            ],
+            [
+              "6",
+              "650",
+              "58 DPS",
+              "1,300,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "7",
+              "750",
+              "64 DPS",
+              "2,100,000 Builder Gold",
+              "4 d",
+              "7"
+            ],
+            [
+              "8",
+              "850",
+              "70 DPS",
+              "3,100,000 Builder Gold",
+              "6 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,000",
+              "77 DPS",
+              "4,100,000 Builder Gold",
+              "8 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,150",
+              "85 DPS",
+              "5,100,000 Builder Gold",
+              "10 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:lava-launcher",
+        "bb_buildings:giant-cannon",
+        "bb_buildings:mega-tesla",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Hidden Tesla (Builder Base)",
+      "head_title": "Hidden Tesla (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "lava-launcher",
+      "name": "Lava Launcher",
+      "description": "Lava Launcher stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH9",
+      "summary": "Hurls molten rock over great distances. Sets the ground on fire, which really turns up the heat for enemy ground troops!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "50",
+        "Targets": "Ground only",
+        "Range": "13 tiles",
+        "Unlocked at": "Builder Hall 9"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Lava Launcher stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "50 DPS",
+              "3,000,000 Builder Gold",
+              "2 d",
+              "9"
+            ],
+            [
+              "2",
+              "575",
+              "55 DPS",
+              "3,100,000 Builder Gold",
+              "3 d",
+              "9"
+            ],
+            [
+              "3",
+              "660",
+              "61 DPS",
+              "3,200,000 Builder Gold",
+              "4 d",
+              "9"
+            ],
+            [
+              "4",
+              "760",
+              "67 DPS",
+              "3,400,000 Builder Gold",
+              "5 d",
+              "9"
+            ],
+            [
+              "5",
+              "875",
+              "73 DPS",
+              "3,700,000 Builder Gold",
+              "6 d",
+              "9"
+            ],
+            [
+              "6",
+              "1,050",
+              "81 DPS",
+              "4,000,000 Builder Gold",
+              "7 d",
+              "9"
+            ],
+            [
+              "7",
+              "1,250",
+              "89 DPS",
+              "4,300,000 Builder Gold",
+              "8 d",
+              "9"
+            ],
+            [
+              "8",
+              "1,450",
+              "97 DPS",
+              "4,600,000 Builder Gold",
+              "10 d",
+              "9"
+            ],
+            [
+              "9",
+              "1,650",
+              "107 DPS",
+              "4,900,000 Builder Gold",
+              "11 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,850",
+              "118 DPS",
+              "5,900,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:mega-tesla",
+        "bb_buildings:hidden-tesla",
+        "bb_buildings:multi-mortar",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Lava Launcher (Builder Base)",
+      "head_title": "Lava Launcher (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "master-builders-hut",
+      "name": "Master Builder's Hut",
+      "description": "Master Builder's Hut stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "1 level, from BH1000",
+      "summary": "Nothing gets done around here without the Master Builder! You can speed up his work by using green gems.",
+      "quick": {
+        "Levels": "1",
+        "Size": "2x2",
+        "Village": "Builder Base",
+        "Category": "Other Building",
+        "Unlocked at": "Builder Hall 1000"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Master Builder's Hut stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "20,000 Gems",
+              "Instant",
+              "1000"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:ottos-outpost",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Master Builder's Hut (Builder Base)",
+      "head_title": "Master Builder's Hut (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "mega-tesla",
+      "name": "Mega Tesla",
+      "description": "Mega Tesla stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH8",
+      "summary": "What happens when a Tesla goes Mega? Its powerful jolt deals heavy damage to even the toughest units!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "380",
+        "Targets": "Ground and air",
+        "Range": "7.5 tiles",
+        "Unlocked at": "Builder Hall 8"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Mega Tesla stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "700",
+              "380 DPS",
+              "3,000,000 Builder Gold",
+              "2 d",
+              "8"
+            ],
+            [
+              "2",
+              "800",
+              "418 DPS",
+              "3,100,000 Builder Gold",
+              "3 d",
+              "8"
+            ],
+            [
+              "3",
+              "950",
+              "460 DPS",
+              "3,200,000 Builder Gold",
+              "4 d",
+              "8"
+            ],
+            [
+              "4",
+              "1,100",
+              "506 DPS",
+              "3,300,000 Builder Gold",
+              "5 d",
+              "8"
+            ],
+            [
+              "5",
+              "1,300",
+              "556 DPS",
+              "3,400,000 Builder Gold",
+              "6 d",
+              "8"
+            ],
+            [
+              "6",
+              "1,500",
+              "612 DPS",
+              "3,600,000 Builder Gold",
+              "7 d",
+              "8"
+            ],
+            [
+              "7",
+              "1,700",
+              "673 DPS",
+              "3,800,000 Builder Gold",
+              "8 d",
+              "8"
+            ],
+            [
+              "8",
+              "1,900",
+              "741 DPS",
+              "4,000,000 Builder Gold",
+              "10 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,150",
+              "816 DPS",
+              "4,800,000 Builder Gold",
+              "11 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,400",
+              "896 DPS",
+              "5,800,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:multi-mortar",
+        "bb_buildings:lava-launcher",
+        "bb_buildings:roaster",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Mega Tesla (Builder Base)",
+      "head_title": "Mega Tesla (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "multi-mortar",
+      "name": "Multi Mortar",
+      "description": "Multi Mortar stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH5",
+      "summary": "Fires long range splash damage multiple times to maximize chances of hitting its target!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "45",
+        "Targets": "Ground only",
+        "Range": "11 tiles",
+        "Unlocked at": "Builder Hall 5"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Multi Mortar stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "45 DPS",
+              "600,000 Builder Gold",
+              "8 h",
+              "5"
+            ],
+            [
+              "2",
+              "575",
+              "45 DPS",
+              "700,000 Builder Gold",
+              "12 h",
+              "5"
+            ],
+            [
+              "3",
+              "660",
+              "50 DPS",
+              "800,000 Builder Gold",
+              "1 d",
+              "5"
+            ],
+            [
+              "4",
+              "760",
+              "55 DPS",
+              "1,000,000 Builder Gold",
+              "2 d",
+              "5"
+            ],
+            [
+              "5",
+              "875",
+              "60 DPS",
+              "1,200,000 Builder Gold",
+              "3 d",
+              "5"
+            ],
+            [
+              "6",
+              "1,050",
+              "66 DPS",
+              "1,600,000 Builder Gold",
+              "5 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,250",
+              "73 DPS",
+              "2,500,000 Builder Gold",
+              "7 d",
+              "7"
+            ],
+            [
+              "8",
+              "1,450",
+              "80 DPS",
+              "3,500,000 Builder Gold",
+              "9 d",
+              "8"
+            ],
+            [
+              "9",
+              "1,650",
+              "88 DPS",
+              "4,500,000 Builder Gold",
+              "11 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,850",
+              "88 DPS",
+              "5,500,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:roaster",
+        "bb_buildings:mega-tesla",
+        "bb_buildings:x-bow",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Multi Mortar (Builder Base)",
+      "head_title": "Multi Mortar (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "ottos-outpost",
+      "name": "O.T.T.O's Outpost",
+      "description": "O.T.T.O's Outpost stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH6",
+      "summary": "O.T.T.O´s home and the main building of the second stage. May contain additional feisty robots.\\n\\nDestroying O.T.T.O´s Outpost awards an extra star in attacks.",
+      "quick": {
+        "Levels": "10",
+        "Size": "4x4",
+        "Village": "Builder Base",
+        "Category": "Other Building",
+        "Unlocked at": "Builder Hall 6"
+      },
+      "tags": [
+        {
+          "label": "Other Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "O.T.T.O's Outpost stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "—",
+              "0 Builder Gold",
+              "Instant",
+              "6"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "1,000,000 Builder Gold",
+              "1 d",
+              "6"
+            ],
+            [
+              "3",
+              "975",
+              "—",
+              "1,250,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "4",
+              "1,150",
+              "—",
+              "1,500,000 Builder Gold",
+              "3 d",
+              "6"
+            ],
+            [
+              "5",
+              "1,350",
+              "—",
+              "1,750,000 Builder Gold",
+              "4 d",
+              "6"
+            ],
+            [
+              "6",
+              "1,600",
+              "—",
+              "2,000,000 Builder Gold",
+              "5 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "—",
+              "3,000,000 Builder Gold",
+              "7 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "—",
+              "4,000,000 Builder Gold",
+              "9 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "—",
+              "5,000,000 Builder Gold",
+              "10 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "—",
+              "6,000,000 Builder Gold",
+              "11 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:master-builders-hut",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "O.T.T.O's Outpost (Builder Base)",
+      "head_title": "O.T.T.O's Outpost (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "reinforcement-camp",
+      "name": "Reinforcement Camp",
+      "description": "Reinforcement Camp stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "1 level, from BH1",
+      "summary": "Reinforcement Camps provide helpful reinforcements during battles when reaching the corresponding stage.",
+      "quick": {
+        "Levels": "1",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Reinforcement Camp stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "300",
+              "—",
+              "1,500,000 Builder Elixir",
+              "—",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:star-laboratory",
+        "bb_buildings:healing-hut",
+        "bb_buildings:army-camp",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Reinforcement Camp (Builder Base)",
+      "head_title": "Reinforcement Camp (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "roaster",
+      "name": "Roaster",
+      "description": "Roaster stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH6",
+      "summary": "Bathe foes with a fiery flood of scalding plasma! Both air and ground troops will feel the burn!",
+      "quick": {
+        "Levels": "10",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "15",
+        "Targets": "Ground and air",
+        "Range": "7 tiles",
+        "Unlocked at": "Builder Hall 6"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Roaster stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "800",
+              "15 DPS",
+              "1,000,000 Builder Gold",
+              "1 d",
+              "6"
+            ],
+            [
+              "2",
+              "950",
+              "17 DPS",
+              "1,200,000 Builder Gold",
+              "2 d",
+              "6"
+            ],
+            [
+              "3",
+              "1,100",
+              "19 DPS",
+              "1,400,000 Builder Gold",
+              "3 d",
+              "6"
+            ],
+            [
+              "4",
+              "1,300",
+              "21 DPS",
+              "1,500,000 Builder Gold",
+              "4 d",
+              "6"
+            ],
+            [
+              "5",
+              "1,500",
+              "23 DPS",
+              "1,600,000 Builder Gold",
+              "5 d",
+              "6"
+            ],
+            [
+              "6",
+              "1,700",
+              "25 DPS",
+              "1,700,000 Builder Gold",
+              "6 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,900",
+              "27 DPS",
+              "2,600,000 Builder Gold",
+              "8 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,100",
+              "30 DPS",
+              "3,600,000 Builder Gold",
+              "10 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,350",
+              "33 DPS",
+              "4,600,000 Builder Gold",
+              "11 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,600",
+              "36 DPS",
+              "5,600,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:x-bow",
+        "bb_buildings:multi-mortar",
+        "bb_buildings:air-bombs",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Roaster (Builder Base)",
+      "head_title": "Roaster (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "star-laboratory",
+      "name": "Star Laboratory",
+      "description": "Star Laboratory stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH1",
+      "summary": "The Star Laboratory searches the heavens for secrets to unlock a troop's full potential. Improve troop hitpoints, damage and housing space in addition to special troop abilities!",
+      "quick": {
+        "Levels": "10",
+        "Size": "4x4",
+        "Village": "Builder Base",
+        "Category": "Army Building",
+        "Unlocked at": "Builder Hall 1"
+      },
+      "tags": [
+        {
+          "label": "Army Building",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Star Laboratory stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "—",
+              "1,000 Builder Elixir",
+              "Instant",
+              "1"
+            ],
+            [
+              "2",
+              "800",
+              "—",
+              "15,000 Builder Elixir",
+              "10 m",
+              "2"
+            ],
+            [
+              "3",
+              "975",
+              "—",
+              "50,000 Builder Elixir",
+              "30 m",
+              "3"
+            ],
+            [
+              "4",
+              "1,150",
+              "—",
+              "300,000 Builder Elixir",
+              "8 h",
+              "4"
+            ],
+            [
+              "5",
+              "1,350",
+              "—",
+              "700,000 Builder Elixir",
+              "12 h",
+              "5"
+            ],
+            [
+              "6",
+              "1,600",
+              "—",
+              "1,000,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "—",
+              "2,000,000 Builder Elixir",
+              "4 d",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "—",
+              "3,000,000 Builder Elixir",
+              "6 d",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "—",
+              "4,000,000 Builder Elixir",
+              "8 d",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "—",
+              "5,000,000 Builder Elixir",
+              "10 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:army-camp",
+        "bb_buildings:reinforcement-camp",
+        "bb_buildings:battle-copter",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Star Laboratory (Builder Base)",
+      "head_title": "Star Laboratory (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "wall",
+      "name": "Wall",
+      "description": "Wall stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "10 levels, from BH2",
+      "summary": "Walls are great for keeping your village safe and your enemies in the line of fire.",
+      "quick": {
+        "Levels": "10",
+        "Size": "1x1",
+        "Village": "Builder Base",
+        "Category": "Wall",
+        "Unlocked at": "Builder Hall 2"
+      },
+      "tags": [
+        {
+          "label": "Wall",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Wall stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "900",
+              "—",
+              "0 Builder Gold",
+              "Instant",
+              "2"
+            ],
+            [
+              "2",
+              "1,100",
+              "—",
+              "2,000 Builder Gold",
+              "Instant",
+              "3"
+            ],
+            [
+              "3",
+              "1,300",
+              "—",
+              "10,000 Builder Gold",
+              "Instant",
+              "3"
+            ],
+            [
+              "4",
+              "1,600",
+              "—",
+              "50,000 Builder Gold",
+              "Instant",
+              "4"
+            ],
+            [
+              "5",
+              "1,900",
+              "—",
+              "150,000 Builder Gold",
+              "Instant",
+              "5"
+            ],
+            [
+              "6",
+              "2,200",
+              "—",
+              "240,000 Builder Gold",
+              "Instant",
+              "6"
+            ],
+            [
+              "7",
+              "2,500",
+              "—",
+              "400,000 Builder Gold",
+              "Instant",
+              "7"
+            ],
+            [
+              "8",
+              "2,750",
+              "—",
+              "600,000 Builder Gold",
+              "Instant",
+              "8"
+            ],
+            [
+              "9",
+              "3,050",
+              "—",
+              "800,000 Builder Gold",
+              "Instant",
+              "9"
+            ],
+            [
+              "10",
+              "3,350",
+              "—",
+              "1,000,000 Builder Gold",
+              "Instant",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Wall (Builder Base)",
+      "head_title": "Wall (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "x-bow",
+      "name": "X-Bow",
+      "description": "X-Bow stats for every level in the Clash of Clans Builder Base: build cost, build time, hitpoints and the Builder Hall each level needs.",
+      "blurb": "5 levels, from BH10",
+      "summary": "The X-Bow shoots powerful bolts with terrifying power. You can set it to target ground units or air units.",
+      "quick": {
+        "Levels": "5",
+        "Size": "3x3",
+        "Village": "Builder Base",
+        "Category": "Defense",
+        "Damage per second": "80",
+        "Targets": "Ground only",
+        "Range": "12 tiles",
+        "Unlocked at": "Builder Hall 10"
+      },
+      "tags": [
+        {
+          "label": "Defense",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "X-Bow stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS or effect",
+            "Build cost",
+            "Build time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,700",
+              "80 DPS",
+              "4,400,000 Builder Gold",
+              "7 d",
+              "10"
+            ],
+            [
+              "2",
+              "1,900",
+              "89 DPS",
+              "4,800,000 Builder Gold",
+              "8 d",
+              "10"
+            ],
+            [
+              "3",
+              "2,100",
+              "97 DPS",
+              "5,200,000 Builder Gold",
+              "10 d",
+              "10"
+            ],
+            [
+              "4",
+              "2,350",
+              "107 DPS",
+              "5,600,000 Builder Gold",
+              "11 d",
+              "10"
+            ],
+            [
+              "5",
+              "2,600",
+              "117 DPS",
+              "6,000,000 Builder Gold",
+              "12 d",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_buildings:air-bombs",
+        "bb_buildings:roaster",
+        "bb_buildings:archer-tower",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "X-Bow (Builder Base)",
+      "head_title": "X-Bow (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    }
+  ]
+}

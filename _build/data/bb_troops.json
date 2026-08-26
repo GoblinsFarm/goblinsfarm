@@ -1,0 +1,1905 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Builder Base Troops",
+    "h1": "Builder Base Troops",
+    "head_title": "Clash of Clans Builder Base Troops, Every Level and Stat",
+    "description": "Every Builder Base troop in Clash of Clans with per-level hitpoints, DPS, housing space and upgrade cost.",
+    "summary": "All 12 Builder Base troops with the full level table for each one, read from the game files.",
+    "groups": [
+      {
+        "h": "Builder Base Troops",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Baby Dragon",
+          "Beta Minion",
+          "Bomber",
+          "Boxer Giant",
+          "Cannon Cart",
+          "Drop Ship",
+          "Electrofire Wizard",
+          "Hog Glider",
+          "Night Witch",
+          "Power P.E.K.K.A",
+          "Raged Barbarian",
+          "Sneaky Archer"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.7"
+  },
+  "entries": [
+    {
+      "slug": "baby-dragon",
+      "name": "Baby Dragon",
+      "description": "Baby Dragon stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "16 levels, 12 housing space",
+      "summary": "Cute, snuggly and prone to fire-spitting tantrums. Rampant destruction has never been so adorable.",
+      "quick": {
+        "Housing space": "12",
+        "Levels": "16",
+        "Village": "Builder Base",
+        "Targets": "Ground and air",
+        "Range": "2 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Baby Dragon stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,331",
+              "62",
+              "—",
+              "—",
+              "4"
+            ],
+            [
+              "2",
+              "1,331",
+              "62",
+              "360,000 Builder Elixir",
+              "16 h",
+              "4"
+            ],
+            [
+              "3",
+              "1,464",
+              "68",
+              "380,000 Builder Elixir",
+              "20 h",
+              "4"
+            ],
+            [
+              "4",
+              "1,464",
+              "68",
+              "400,000 Builder Elixir",
+              "1 d",
+              "4"
+            ],
+            [
+              "5",
+              "1,611",
+              "75",
+              "1,000,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "6",
+              "1,611",
+              "75",
+              "1,200,000 Builder Elixir",
+              "2 d",
+              "5"
+            ],
+            [
+              "7",
+              "1,772",
+              "83",
+              "1,400,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "8",
+              "1,772",
+              "83",
+              "1,600,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "9",
+              "1,949",
+              "91",
+              "2,400,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "10",
+              "1,949",
+              "91",
+              "2,600,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "11",
+              "2,144",
+              "100",
+              "3,400,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "12",
+              "2,144",
+              "100",
+              "3,600,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "13",
+              "2,358",
+              "110",
+              "4,100,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "14",
+              "2,358",
+              "110",
+              "4,300,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "15",
+              "2,358",
+              "120",
+              "5,100,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "16",
+              "2,358",
+              "120",
+              "5,500,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:beta-minion",
+        "bb_troops:sneaky-archer",
+        "bb_troops:bomber",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Baby Dragon (Builder Base)",
+      "head_title": "Baby Dragon (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "beta-minion",
+      "name": "Beta Minion",
+      "description": "Beta Minion stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "18 levels, 3 housing space",
+      "summary": "Attacks targets from a distance, glows in the dark, and is a maniac on the dance floor.",
+      "quick": {
+        "Housing space": "3",
+        "Levels": "18",
+        "Village": "Builder Base",
+        "Targets": "Ground and air",
+        "Range": "3.5 tiles",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Beta Minion stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "200",
+              "60",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "200",
+              "60",
+              "50,000 Builder Elixir",
+              "4 h",
+              "3"
+            ],
+            [
+              "3",
+              "220",
+              "65",
+              "110,000 Builder Elixir",
+              "8 h",
+              "3"
+            ],
+            [
+              "4",
+              "220",
+              "65",
+              "220,000 Builder Elixir",
+              "12 h",
+              "3"
+            ],
+            [
+              "5",
+              "242",
+              "72",
+              "330,000 Builder Elixir",
+              "18 h",
+              "4"
+            ],
+            [
+              "6",
+              "242",
+              "72",
+              "360,000 Builder Elixir",
+              "1 d",
+              "4"
+            ],
+            [
+              "7",
+              "266",
+              "81",
+              "900,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "8",
+              "266",
+              "81",
+              "1,100,000 Builder Elixir",
+              "2 d",
+              "5"
+            ],
+            [
+              "9",
+              "293",
+              "90",
+              "1,300,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "10",
+              "293",
+              "90",
+              "1,500,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "11",
+              "322",
+              "99",
+              "2,300,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "12",
+              "322",
+              "99",
+              "2,500,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "13",
+              "355",
+              "108",
+              "3,300,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "14",
+              "355",
+              "108",
+              "3,500,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "15",
+              "390",
+              "117",
+              "4,000,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "16",
+              "390",
+              "117",
+              "4,200,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "17",
+              "429",
+              "126",
+              "4,800,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "18",
+              "429",
+              "126",
+              "5,400,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:bomber",
+        "bb_troops:baby-dragon",
+        "bb_troops:boxer-giant",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Beta Minion (Builder Base)",
+      "head_title": "Beta Minion (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "bomber",
+      "name": "Bomber",
+      "description": "Bomber stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "16 levels, 12 housing space",
+      "summary": "With an appetite for destruction and high quality special effects, Bombers blow up anything in sight with bonus damage to Walls!",
+      "quick": {
+        "Housing space": "12",
+        "Levels": "16",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "3.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Bomber stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "605",
+              "80",
+              "—",
+              "—",
+              "4"
+            ],
+            [
+              "2",
+              "605",
+              "80",
+              "320,000 Builder Elixir",
+              "16 h",
+              "4"
+            ],
+            [
+              "3",
+              "666",
+              "90",
+              "340,000 Builder Elixir",
+              "20 h",
+              "4"
+            ],
+            [
+              "4",
+              "666",
+              "90",
+              "360,000 Builder Elixir",
+              "1 d",
+              "4"
+            ],
+            [
+              "5",
+              "732",
+              "100",
+              "900,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "6",
+              "732",
+              "100",
+              "1,000,000 Builder Elixir",
+              "2 d",
+              "5"
+            ],
+            [
+              "7",
+              "805",
+              "110",
+              "1,200,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "8",
+              "805",
+              "110",
+              "1,400,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "9",
+              "886",
+              "120",
+              "2,200,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "10",
+              "886",
+              "120",
+              "2,400,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "11",
+              "974",
+              "130",
+              "3,200,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "12",
+              "974",
+              "130",
+              "3,400,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "13",
+              "1,072",
+              "140",
+              "3,900,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "14",
+              "1,072",
+              "140",
+              "4,100,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "15",
+              "1,179",
+              "150",
+              "4,700,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "16",
+              "1,179",
+              "150",
+              "5,300,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:boxer-giant",
+        "bb_troops:beta-minion",
+        "bb_troops:cannon-cart",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Bomber (Builder Base)",
+      "head_title": "Bomber (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "boxer-giant",
+      "name": "Boxer Giant",
+      "description": "Boxer Giant stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "18 levels, 18 housing space",
+      "summary": "Heavy-handed and built like an ox, these Giants have been practicing their haymaker punch!",
+      "quick": {
+        "Housing space": "18",
+        "Levels": "18",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "1 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Boxer Giant stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "2,530",
+              "65",
+              "—",
+              "—",
+              "3"
+            ],
+            [
+              "2",
+              "2,530",
+              "65",
+              "60,000 Builder Elixir",
+              "5 h",
+              "3"
+            ],
+            [
+              "3",
+              "2,783",
+              "70",
+              "120,000 Builder Elixir",
+              "10 h",
+              "3"
+            ],
+            [
+              "4",
+              "2,783",
+              "70",
+              "240,000 Builder Elixir",
+              "16 h",
+              "3"
+            ],
+            [
+              "5",
+              "3,061",
+              "76",
+              "350,000 Builder Elixir",
+              "20 h",
+              "4"
+            ],
+            [
+              "6",
+              "3,061",
+              "76",
+              "380,000 Builder Elixir",
+              "1 d",
+              "4"
+            ],
+            [
+              "7",
+              "3,367",
+              "83",
+              "1,000,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "8",
+              "3,367",
+              "83",
+              "1,200,000 Builder Elixir",
+              "2 d",
+              "5"
+            ],
+            [
+              "9",
+              "3,704",
+              "91",
+              "1,300,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "10",
+              "3,704",
+              "91",
+              "1,500,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "11",
+              "4,075",
+              "100",
+              "2,300,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "12",
+              "4,075",
+              "100",
+              "2,500,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "13",
+              "4,482",
+              "109",
+              "3,300,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "14",
+              "4,482",
+              "109",
+              "3,500,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "15",
+              "4,930",
+              "119",
+              "4,000,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "16",
+              "4,930",
+              "119",
+              "4,200,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "17",
+              "5,423",
+              "129",
+              "4,800,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "18",
+              "5,423",
+              "129",
+              "5,400,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:cannon-cart",
+        "bb_troops:bomber",
+        "bb_troops:drop-ship",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Boxer Giant (Builder Base)",
+      "head_title": "Boxer Giant (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "cannon-cart",
+      "name": "Cannon Cart",
+      "description": "Cannon Cart stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "14 levels, 16 housing space",
+      "summary": "A Cannon on wheels?! Wait, did it just turn into a Mortar?? Bet they won´t see that coming! Both powerful and versatile!",
+      "quick": {
+        "Housing space": "16",
+        "Levels": "14",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "4.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Cannon Cart stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "666",
+              "115",
+              "—",
+              "—",
+              "5"
+            ],
+            [
+              "2",
+              "666",
+              "115",
+              "1,000,000 Builder Elixir",
+              "1 d",
+              "5"
+            ],
+            [
+              "3",
+              "732",
+              "130",
+              "1,100,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "4",
+              "732",
+              "130",
+              "1,200,000 Builder Elixir",
+              "2 d",
+              "5"
+            ],
+            [
+              "5",
+              "805",
+              "150",
+              "1,400,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "6",
+              "805",
+              "150",
+              "1,600,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "7",
+              "886",
+              "170",
+              "2,400,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "8",
+              "886",
+              "170",
+              "2,600,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "9",
+              "974",
+              "190",
+              "3,400,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "10",
+              "974",
+              "190",
+              "3,600,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "11",
+              "1,072",
+              "215",
+              "4,100,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "12",
+              "1,072",
+              "215",
+              "4,300,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "13",
+              "1,179",
+              "240",
+              "5,300,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "14",
+              "1,179",
+              "240",
+              "5,700,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:drop-ship",
+        "bb_troops:boxer-giant",
+        "bb_troops:electrofire-wizard",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Cannon Cart (Builder Base)",
+      "head_title": "Cannon Cart (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "drop-ship",
+      "name": "Drop Ship",
+      "description": "Drop Ship stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "10 levels, 15 housing space",
+      "summary": "Packed to the brim with bones instead of bombs, Skeletons leap out of these balloons directly next to the enemy!",
+      "quick": {
+        "Housing space": "15",
+        "Levels": "10",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Drop Ship stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,400",
+              "10",
+              "—",
+              "—",
+              "7"
+            ],
+            [
+              "2",
+              "3,400",
+              "10",
+              "2,400,000 Builder Elixir",
+              "2 d 12 h",
+              "7"
+            ],
+            [
+              "3",
+              "3,740",
+              "10",
+              "2,600,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "4",
+              "3,740",
+              "10",
+              "2,800,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "5",
+              "4,114",
+              "10",
+              "3,600,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "6",
+              "4,114",
+              "10",
+              "3,800,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "7",
+              "4,525",
+              "10",
+              "4,300,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "8",
+              "4,525",
+              "10",
+              "4,500,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "9",
+              "4,978",
+              "10",
+              "5,500,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "10",
+              "4,978",
+              "10",
+              "5,700,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:electrofire-wizard",
+        "bb_troops:cannon-cart",
+        "bb_troops:hog-glider",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Drop Ship (Builder Base)",
+      "head_title": "Drop Ship (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "electrofire-wizard",
+      "name": "Electrofire Wizard",
+      "description": "Electrofire Wizard stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "4 levels, 14 housing space",
+      "summary": "Master of Magic, Sorceror of Style, the Electrofire Wizard incinerates single targets or zaps multiple foes with charged electricity.",
+      "quick": {
+        "Housing space": "14",
+        "Levels": "4",
+        "Village": "Builder Base",
+        "Targets": "Ground and air",
+        "Range": "3.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Electrofire Wizard stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "1,100",
+              "220",
+              "—",
+              "—",
+              "10"
+            ],
+            [
+              "2",
+              "1,100",
+              "220",
+              "4,400,000 Builder Elixir",
+              "6 d",
+              "10"
+            ],
+            [
+              "3",
+              "1,210",
+              "253",
+              "5,400,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "4",
+              "1,210",
+              "253",
+              "5,800,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:hog-glider",
+        "bb_troops:drop-ship",
+        "bb_troops:night-witch",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Electrofire Wizard (Builder Base)",
+      "head_title": "Electrofire Wizard (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "hog-glider",
+      "name": "Hog Glider",
+      "description": "Hog Glider stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "6 levels, 12 housing space",
+      "summary": "The real riders in the sky. They have a great track record in getting over Walls, but are not very good at avoiding crashes.",
+      "quick": {
+        "Housing space": "12",
+        "Levels": "6",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Air"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Hog Glider stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "900",
+              "—",
+              "—",
+              "9"
+            ],
+            [
+              "2",
+              "650",
+              "1,100",
+              "4,000,000 Builder Elixir",
+              "5 d 12 h",
+              "9"
+            ],
+            [
+              "3",
+              "650",
+              "1,100",
+              "4,200,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "4",
+              "650",
+              "1,100",
+              "4,400,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "5",
+              "650",
+              "1,100",
+              "5,400,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "6",
+              "700",
+              "1,300",
+              "5,800,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:night-witch",
+        "bb_troops:electrofire-wizard",
+        "bb_troops:power-pekka",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Hog Glider (Builder Base)",
+      "head_title": "Hog Glider (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "night-witch",
+      "name": "Night Witch",
+      "description": "Night Witch stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "12 levels, 14 housing space",
+      "summary": "Fearlessly summons flocks of flying creatures and, unlike her sister, leaves the grass in pristine condition.",
+      "quick": {
+        "Housing space": "14",
+        "Levels": "12",
+        "Village": "Builder Base",
+        "Targets": "Ground and air",
+        "Range": "4 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Night Witch stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "750",
+              "176",
+              "—",
+              "—",
+              "6"
+            ],
+            [
+              "2",
+              "750",
+              "176",
+              "1,400,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "3",
+              "830",
+              "193",
+              "1,600,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "4",
+              "830",
+              "193",
+              "1,800,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "5",
+              "915",
+              "216",
+              "2,500,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "6",
+              "915",
+              "216",
+              "2,700,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "7",
+              "1,000",
+              "234",
+              "3,500,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "8",
+              "1,000",
+              "234",
+              "3,700,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "9",
+              "1,100",
+              "257",
+              "4,200,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "10",
+              "1,100",
+              "257",
+              "4,400,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "11",
+              "1,220",
+              "278",
+              "5,200,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "12",
+              "1,220",
+              "278",
+              "5,600,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:power-pekka",
+        "bb_troops:hog-glider",
+        "bb_troops:raged-barbarian",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Night Witch (Builder Base)",
+      "head_title": "Night Witch (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "power-pekka",
+      "name": "Power P.E.K.K.A",
+      "description": "Power P.E.K.K.A stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "8 levels, 22 housing space",
+      "summary": "Unstable energy radiates from this powerful suit of dark armor, waiting to be unleashed!",
+      "quick": {
+        "Housing space": "22",
+        "Levels": "8",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "0.8 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Power P.E.K.K.A stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "3,900",
+              "420",
+              "—",
+              "—",
+              "8"
+            ],
+            [
+              "2",
+              "3,900",
+              "420",
+              "3,600,000 Builder Elixir",
+              "4 d 12 h",
+              "8"
+            ],
+            [
+              "3",
+              "4,290",
+              "460",
+              "3,800,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "4",
+              "4,290",
+              "460",
+              "4,000,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "5",
+              "4,719",
+              "500",
+              "4,600,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "6",
+              "4,719",
+              "500",
+              "4,800,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "7",
+              "5,191",
+              "560",
+              "5,600,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "8",
+              "5,191",
+              "560",
+              "5,800,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:raged-barbarian",
+        "bb_troops:night-witch",
+        "bb_troops:sneaky-archer",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Power P.E.K.K.A (Builder Base)",
+      "head_title": "Power P.E.K.K.A (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "raged-barbarian",
+      "name": "Raged Barbarian",
+      "description": "Raged Barbarian stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "20 levels, 4 housing space",
+      "summary": "Why is he so angry, speedy and vicious? Nobody's brave enough to ask. Maybe it's because he can't find his sword?",
+      "quick": {
+        "Housing space": "4",
+        "Levels": "20",
+        "Village": "Builder Base",
+        "Targets": "Ground only",
+        "Range": "Melee",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Raged Barbarian stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "500",
+              "45",
+              "—",
+              "—",
+              "1"
+            ],
+            [
+              "2",
+              "500",
+              "45",
+              "3,500 Builder Elixir",
+              "—",
+              "1"
+            ],
+            [
+              "3",
+              "550",
+              "58",
+              "7,000 Builder Elixir",
+              "5 m",
+              "2"
+            ],
+            [
+              "4",
+              "550",
+              "58",
+              "10,000 Builder Elixir",
+              "15 m",
+              "2"
+            ],
+            [
+              "5",
+              "605",
+              "70",
+              "90,000 Builder Elixir",
+              "5 h",
+              "3"
+            ],
+            [
+              "6",
+              "605",
+              "70",
+              "180,000 Builder Elixir",
+              "10 h",
+              "3"
+            ],
+            [
+              "7",
+              "666",
+              "83",
+              "300,000 Builder Elixir",
+              "15 h",
+              "4"
+            ],
+            [
+              "8",
+              "666",
+              "83",
+              "330,000 Builder Elixir",
+              "20 h",
+              "4"
+            ],
+            [
+              "9",
+              "732",
+              "93",
+              "700,000 Builder Elixir",
+              "1 d",
+              "5"
+            ],
+            [
+              "10",
+              "732",
+              "93",
+              "900,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "11",
+              "805",
+              "103",
+              "1,000,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "12",
+              "805",
+              "103",
+              "1,200,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "13",
+              "886",
+              "112",
+              "2,000,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "14",
+              "886",
+              "112",
+              "2,200,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "15",
+              "974",
+              "120",
+              "3,000,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "16",
+              "974",
+              "120",
+              "3,200,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "17",
+              "1,072",
+              "128",
+              "3,800,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "18",
+              "1,072",
+              "128",
+              "4,000,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "19",
+              "1,179",
+              "136",
+              "4,600,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "20",
+              "1,179",
+              "136",
+              "5,200,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:sneaky-archer",
+        "bb_troops:power-pekka",
+        "bb_troops:baby-dragon",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Raged Barbarian (Builder Base)",
+      "head_title": "Raged Barbarian (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "sneaky-archer",
+      "name": "Sneaky Archer",
+      "description": "Sneaky Archer stats for every level in the Clash of Clans Builder Base: hitpoints, damage per second, housing space and upgrade cost.",
+      "blurb": "20 levels, 3 housing space",
+      "summary": "Cloaked under cover of moonlight, Archers can take out targets before ever being seen. Their weakness? Overconfidence.",
+      "quick": {
+        "Housing space": "3",
+        "Levels": "20",
+        "Village": "Builder Base",
+        "Targets": "Ground and air",
+        "Range": "3.5 tiles",
+        "Moves": "Ground"
+      },
+      "tags": [
+        {
+          "label": "Builder Base",
+          "kind": "elixir"
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Sneaky Archer stats by level",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "DPS",
+            "Upgrade cost",
+            "Upgrade time",
+            "Builder Hall"
+          ],
+          "rows": [
+            [
+              "1",
+              "196",
+              "60",
+              "—",
+              "—",
+              "2"
+            ],
+            [
+              "2",
+              "196",
+              "60",
+              "5,000 Builder Elixir",
+              "3 m",
+              "1"
+            ],
+            [
+              "3",
+              "216",
+              "66",
+              "8,000 Builder Elixir",
+              "10 m",
+              "2"
+            ],
+            [
+              "4",
+              "216",
+              "66",
+              "12,000 Builder Elixir",
+              "30 m",
+              "2"
+            ],
+            [
+              "5",
+              "237",
+              "72",
+              "100,000 Builder Elixir",
+              "6 h",
+              "3"
+            ],
+            [
+              "6",
+              "237",
+              "72",
+              "200,000 Builder Elixir",
+              "11 h",
+              "3"
+            ],
+            [
+              "7",
+              "261",
+              "79",
+              "320,000 Builder Elixir",
+              "16 h",
+              "4"
+            ],
+            [
+              "8",
+              "261",
+              "79",
+              "350,000 Builder Elixir",
+              "21 h",
+              "4"
+            ],
+            [
+              "9",
+              "287",
+              "86",
+              "800,000 Builder Elixir",
+              "1 d",
+              "5"
+            ],
+            [
+              "10",
+              "287",
+              "86",
+              "1,000,000 Builder Elixir",
+              "1 d 12 h",
+              "5"
+            ],
+            [
+              "11",
+              "316",
+              "95",
+              "1,100,000 Builder Elixir",
+              "2 d",
+              "6"
+            ],
+            [
+              "12",
+              "316",
+              "95",
+              "1,300,000 Builder Elixir",
+              "2 d 12 h",
+              "6"
+            ],
+            [
+              "13",
+              "347",
+              "104",
+              "2,100,000 Builder Elixir",
+              "3 d 12 h",
+              "7"
+            ],
+            [
+              "14",
+              "347",
+              "104",
+              "2,300,000 Builder Elixir",
+              "4 d 12 h",
+              "7"
+            ],
+            [
+              "15",
+              "382",
+              "112",
+              "3,100,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "16",
+              "382",
+              "112",
+              "3,300,000 Builder Elixir",
+              "5 d 12 h",
+              "8"
+            ],
+            [
+              "17",
+              "420",
+              "119",
+              "3,900,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "18",
+              "420",
+              "119",
+              "4,100,000 Builder Elixir",
+              "6 d",
+              "9"
+            ],
+            [
+              "19",
+              "462",
+              "125",
+              "4,700,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ],
+            [
+              "20",
+              "462",
+              "125",
+              "5,300,000 Builder Elixir",
+              "6 d 12 h",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "bb_troops:baby-dragon",
+        "bb_troops:raged-barbarian",
+        "bb_troops:beta-minion",
+        "mechanics:builder-base"
+      ],
+      "priority": "0.6",
+      "h1": "Sneaky Archer (Builder Base)",
+      "head_title": "Sneaky Archer (Builder Base) — Clash of Clans Wiki",
+      "has_prose": false
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "source": {
+    "name": "Supercell game files (official asset CDN)",
+    "url": "https://game-assets.clashofclans.com/0f781c13f654eace7ed90a527d47654b1cc192b0/",
+    "snapshot_date": "18.350.7",
+    "game_version": "18.350.7",
+    "fingerprint": "0f781c13f654eace7ed90a527d47654b1cc192b0",
+    "fetched": "2026-08-26",
+    "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
+    "caption": "Read from Clash of Clans game files, version 18.350.7, verify in-game before committing an upgrade"
+  },
+  "hub": {
+    "nav_label": "Capital Districts",
+    "h1": "Clan Capital Districts",
+    "head_title": "Clash of Clans Clan Capital Districts and Unlock Levels",
+    "description": "Every Clan Capital district in Clash of Clans with the Capital Hall level that unlocks it and its district hall progression.",
+    "summary": "All 9 Clan Capital districts and the Capital Hall level each one needs.",
+    "groups": [
+      {
+        "h": "Districts",
+        "blurb": "",
+        "style": "cards",
+        "members": [
+          "Capital Peak",
+          "Barbarian Camp",
+          "Wizard Valley",
+          "Balloon Lagoon",
+          "Builder's Workshop",
+          "Dragon Cliffs",
+          "Golem Quarry",
+          "Skeleton Park",
+          "Goblin Mines"
+        ]
+      }
+    ],
+    "faq": [],
+    "related": [],
+    "priority": "0.7"
+  },
+  "entries": [
+    {
+      "slug": "capital-peak",
+      "name": "Capital Peak",
+      "description": "Capital Peak in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 1",
+      "summary": "Capital Peak is a Clan Capital district, unlocked at Capital Hall level 1.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 1"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:barbarian-camp",
+        "capital_districts:goblin-mines",
+        "capital_districts:wizard-valley",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Capital Peak (Clan Capital)",
+      "head_title": "Capital Peak (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "barbarian-camp",
+      "name": "Barbarian Camp",
+      "description": "Barbarian Camp in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 2",
+      "summary": "Barbarian Camp is a Clan Capital district, unlocked at Capital Hall level 2.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 2",
+        "Capital Hall per district level": "2"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:wizard-valley",
+        "capital_districts:capital-peak",
+        "capital_districts:balloon-lagoon",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Barbarian Camp (Clan Capital)",
+      "head_title": "Barbarian Camp (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "wizard-valley",
+      "name": "Wizard Valley",
+      "description": "Wizard Valley in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 3",
+      "summary": "Wizard Valley is a Clan Capital district, unlocked at Capital Hall level 3.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 3",
+        "Capital Hall per district level": "3"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:balloon-lagoon",
+        "capital_districts:barbarian-camp",
+        "capital_districts:builders-workshop",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Wizard Valley (Clan Capital)",
+      "head_title": "Wizard Valley (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "balloon-lagoon",
+      "name": "Balloon Lagoon",
+      "description": "Balloon Lagoon in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 4",
+      "summary": "Balloon Lagoon is a Clan Capital district, unlocked at Capital Hall level 4.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 4",
+        "Capital Hall per district level": "4"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:builders-workshop",
+        "capital_districts:wizard-valley",
+        "capital_districts:dragon-cliffs",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Balloon Lagoon (Clan Capital)",
+      "head_title": "Balloon Lagoon (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "builders-workshop",
+      "name": "Builder's Workshop",
+      "description": "Builder's Workshop in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 5",
+      "summary": "Builder's Workshop is a Clan Capital district, unlocked at Capital Hall level 5.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 5",
+        "Capital Hall per district level": "5"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:dragon-cliffs",
+        "capital_districts:balloon-lagoon",
+        "capital_districts:golem-quarry",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Builder's Workshop (Clan Capital)",
+      "head_title": "Builder's Workshop (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "dragon-cliffs",
+      "name": "Dragon Cliffs",
+      "description": "Dragon Cliffs in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 6",
+      "summary": "Dragon Cliffs is a Clan Capital district, unlocked at Capital Hall level 6.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 6",
+        "Capital Hall per district level": "6"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:golem-quarry",
+        "capital_districts:builders-workshop",
+        "capital_districts:skeleton-park",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Dragon Cliffs (Clan Capital)",
+      "head_title": "Dragon Cliffs (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "golem-quarry",
+      "name": "Golem Quarry",
+      "description": "Golem Quarry in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 7",
+      "summary": "Golem Quarry is a Clan Capital district, unlocked at Capital Hall level 7.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 7",
+        "Capital Hall per district level": "7"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:skeleton-park",
+        "capital_districts:dragon-cliffs",
+        "capital_districts:goblin-mines",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Golem Quarry (Clan Capital)",
+      "head_title": "Golem Quarry (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "skeleton-park",
+      "name": "Skeleton Park",
+      "description": "Skeleton Park in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 8",
+      "summary": "Skeleton Park is a Clan Capital district, unlocked at Capital Hall level 8.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 8",
+        "Capital Hall per district level": "8"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:goblin-mines",
+        "capital_districts:golem-quarry",
+        "capital_districts:capital-peak",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Skeleton Park (Clan Capital)",
+      "head_title": "Skeleton Park (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    },
+    {
+      "slug": "goblin-mines",
+      "name": "Goblin Mines",
+      "description": "Goblin Mines in the Clash of Clans Clan Capital: the Capital Hall level that unlocks it and how far its district hall can be upgraded.",
+      "blurb": "Unlocks at Capital Hall 9",
+      "summary": "Goblin Mines is a Clan Capital district, unlocked at Capital Hall level 9.",
+      "quick": {
+        "Village": "Clan Capital",
+        "Unlocked at": "Capital Hall 9",
+        "Capital Hall per district level": "9"
+      },
+      "tags": [
+        {
+          "label": "District",
+          "kind": "gold"
+        }
+      ],
+      "sections": [],
+      "tables": [],
+      "related": [
+        "capital_districts:capital-peak",
+        "capital_districts:skeleton-park",
+        "capital_districts:barbarian-camp",
+        "mechanics:clan-capital-and-raid-weekends"
+      ],
+      "priority": "0.6",
+      "h1": "Goblin Mines (Clan Capital)",
+      "head_title": "Goblin Mines (Clan Capital) — Clash of Clans Wiki",
+      "has_prose": false
+    }
+  ]
+}
