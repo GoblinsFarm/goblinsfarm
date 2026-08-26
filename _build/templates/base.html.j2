@@ -11,7 +11,7 @@
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:url" content="{{ site.base_url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:image" content="{{ site.base_url }}/assets/favicon.png">
+<meta property="og:image" content="{{ site.base_url }}/{{ page.image.src if page.image else 'assets/favicon.png' }}">
 <meta name="twitter:card" content="summary">
 <link rel="icon" type="image/png" href="{{ rel }}assets/favicon.png">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} news" href="{{ site.base_url }}/news/feed.xml">
@@ -42,9 +42,23 @@
 </div>
 {%- endif %}
 
+{%- if page.image %}
+<div class="pagehead">
+  <div class="portrait{% if not page.image.photo %} drawn{% endif %}">
+    <img src="{{ rel }}{{ page.image.src }}" alt="{{ page.h1 }}{% if page.image.photo %} — Clash of Clans{% endif %}" width="128" height="128" decoding="async">
+  </div>
+  <div class="pagehead-text">
+    <h1>{{ page.h1 }}</h1>
+    {%- if page.tags %}
+    <div class="tagrow">{% for t in page.tags %}<span class="tag {{ t.kind|default('') }}">{{ t.label }}</span>{% endfor %}</div>
+    {%- endif %}
+  </div>
+</div>
+{%- else %}
 <h1>{{ page.h1 }}</h1>
 {%- if page.tags %}
 <div class="tagrow">{% for t in page.tags %}<span class="tag {{ t.kind|default('') }}">{{ t.label }}</span>{% endfor %}</div>
+{%- endif %}
 {%- endif %}
 <p class="updated">Updated: {{ page.updated|default(site.updated) }}{% if page.byline %} &middot; {{ page.byline }}{% endif %}</p>
 
