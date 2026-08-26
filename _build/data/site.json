@@ -1,8 +1,8 @@
 {
   "name": "Goblins Farm",
   "base_url": "https://goblinsfarm.com",
-  "updated": "25 August 2026",
-  "iso_updated": "2026-08-25",
+  "updated": "26 August 2026",
+  "iso_updated": "2026-08-26",
   "todo": "TODO",
   "news_description": "Clash of Clans update coverage, balance change breakdowns and community news, written for players who want the mechanics explained rather than the patch notes copy-pasted.",
   "llms_summary": "Goblins Farm publishes a free, independent Clash of Clans wiki and tutorial library covering troops, spells, heroes, defences, Town Hall progression and game mechanics. It also sells Goblins Farm, a screen-reading Clash of Clans farming bot for Windows and macOS that runs the game inside the free BlueStacks emulator. Licences are one-time lifetime purchases: Main Base 60 EUR, Builder Base 60 EUR, both for 100 EUR.",
@@ -121,7 +121,8 @@
     "name": "Goblins Farm",
     "alternateName": [
       "GoblinsFarm",
-      "Goblins Farm bot"
+      "Goblins Farm bot",
+      "Goblins Farm team"
     ],
     "url": "https://goblinsfarm.com/",
     "logo": {
@@ -154,5 +155,6 @@
     },
     "inLanguage": "en"
   },
-  "brand_sentence": "Goblins Farm is a Clash of Clans farming bot for Windows and macOS that reads the screen and plays inside the free BlueStacks emulator."
+  "brand_sentence": "Goblins Farm is a Clash of Clans farming bot for Windows and macOS that reads the screen and plays inside the free BlueStacks emulator.",
+  "default_byline": "By the Goblins Farm team"
 }
