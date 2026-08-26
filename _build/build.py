@@ -182,8 +182,7 @@ def jsonld_article(site, page, kind="Article"):
         "publisher": {"@id": site["organization"]["@id"]},
         "about": {"@type": "VideoGame", "name": "Clash of Clans", "publisher": "Supercell"},
     }
-    if page.get("author"):
-        doc["author"] = {"@type": "Organization", "name": page["author"]}
+    doc["author"] = {"@id": site["organization"]["@id"]}
     return compact_json(doc)
 
 
@@ -287,6 +286,8 @@ def main() -> int:
             group.setdefault("links", [])
             for link in group["links"]:
                 link.setdefault("blurb", "")
+        if page.get("byline") is None and page["section"] in ("wiki", "tutorials"):
+            page["byline"] = site["default_byline"]
         page.setdefault("iso_updated", site["iso_updated"])
         page.setdefault("updated", site["updated"])
         page.setdefault("description", page.get("summary", "")[:300])
