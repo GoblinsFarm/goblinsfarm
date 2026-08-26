@@ -205,6 +205,45 @@ def jsonld_itemlist(site, groups):
 
 
 # --------------------------------------------------------------------------- main
+# Both quote styles. Prose bodies live inside JSON, where double quotes need
+# escaping, so hand-written links come out single-quoted while the templates emit
+# double. A checker that sees only one style silently passes half the site; that
+# is not hypothetical, it reported a wrong internal-link graph for two days.
+HREF_RE = re.compile(r"""href=["']([^"'#?]+)["']""")
+
+
+def verify_links(root: Path) -> list[str]:
+    """Resolve every internal href in the published output against the filesystem.
+
+    The registry check catches unresolved refs in the data. This catches the other
+    half: links hand-written inside prose bodies, which the registry never sees.
+    """
+    problems = []
+    targets = []
+    for pattern in ("wiki/**/*.html", "tutorials/*.html", "news/*.html", "guides/*.html"):
+        targets.extend(root.glob(pattern))
+    targets.append(root / "index.html")
+
+    for page in targets:
+        if not page.exists():
+            continue
+        markup = page.read_text(encoding="utf-8")
+        if markup.count("<a ") != markup.count("</a>"):
+            problems.append(f"{page.relative_to(root)}: unbalanced anchor tags")
+        for href in HREF_RE.findall(markup):
+            if href.startswith(("http", "mailto:", "//", "#")):
+                continue
+            if href.startswith("/"):
+                # server-root link, valid when served but not resolvable on disk
+                continue
+            dest = (page.parent / href).resolve()
+            if dest.is_dir():
+                dest = dest / "index.html"
+            if not dest.exists():
+                problems.append(f"{page.relative_to(root)} -> {href}")
+    return problems
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="report unresolved links and TODO cells")
@@ -700,12 +739,19 @@ def main() -> int:
     print(f"  news posts    : {len(posts_meta)}")
     print(f"  sitemap urls  : {len(seen)}")
     print(f"  TODO cells    : {todo_count}")
+    link_problems = verify_links(ROOT)
+    print(f"  broken links  : {len(link_problems)}")
+    for problem in link_problems[:10]:
+        print(f"      ! {problem}")
+
     if registry.unresolved:
         print(f"\n{len(registry.unresolved)} unresolved link(s):")
         for item in sorted(set(registry.unresolved)):
             print(f"  ! {item}")
         if args.check:
             return 1
+    if link_problems and args.check:
+        return 1
     return 0
 
 
