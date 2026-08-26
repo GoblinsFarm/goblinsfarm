@@ -51,7 +51,7 @@ th{background:#f4ecdc;color:var(--ink)}
 <p>Here's the loop Goblins Farm runs, step by step. It's the same loop you'd run by hand, just tireless.</p>
 <ol>
 <li><strong>Search.</strong> The bot opens the attack menu and starts searching for opponents, reading the screen with computer vision (template matching plus OCR) to know exactly which state the game is in.</li>
-<li><strong>Read the loot.</strong> On each candidate base, it OCRs the available gold, elixir, and dark elixir shown on the scout screen.</li>
+<li><strong>Read the loot.</strong> On each candidate base, it OCRs the available gold, elixir, and <a href="../wiki/mechanics/dark-elixir.html">dark elixir</a> shown on the scout screen.</li>
 <li><strong>Skip or attack.</strong> If the loot is below your configured thresholds, it hits "next" and pays the small search cost. If the base clears the bar, it attacks. This is the single most important behavior in loot farming, more on it below.</li>
 <li><strong>Deploy.</strong> Troops go down and the battle plays out. Farming attacks aren't about three-starring; they're about extracting loot efficiently with a cheap army.</li>
 <li><strong>Collect and repeat.</strong> Back in the village, the bot collects, waits for the army to retrain, and searches again.</li>
@@ -63,7 +63,7 @@ th{background:#f4ecdc;color:var(--ink)}
 <p>Where you set the bar is a real decision:</p>
 <ul>
 <li><strong>Thresholds too low:</strong> you attack constantly but each attack barely pays for itself. Lots of activity, little net loot.</li>
-<li><strong>Thresholds too high:</strong> every attack is juicy, but you burn time and search costs skipping. In leagues where fat bases are rare, you can spend more time nexting than attacking.</li>
+<li><strong>Thresholds too high:</strong> every attack is juicy, but you burn time and search costs skipping. In <a href="../wiki/mechanics/trophies-and-leagues.html">leagues</a> where fat bases are rare, you can spend more time nexting than attacking.</li>
 <li><strong>The sweet spot</strong> depends on your league and army cost. Start moderate, watch a session, and adjust the sliders. Because the bot applies the rule perfectly every time, even small tuning changes show up clearly in results.</li>
 </ul>
 
@@ -81,7 +81,7 @@ th{background:#f4ecdc;color:var(--ink)}
 <p>If you also play the night village, the same app can farm it: the <a href="builder-base-bot.html">Builder Base mode</a> fights both battle stages, claims the elixir cart so defensive loot never overflows, and stops when the 6.5M storage caps are hit.</p>
 
 <h2>Getting started</h2>
-<p>Goblins Farm runs on Windows and macOS (the <a href="coc-bot-mac.html">Mac app</a> is signed and notarized), drives the free BlueStacks emulator, and is a one-time lifetime purchase, Main Base €60, Builder Base €60, or both for €100. Set your thresholds, set your targets, and let the boring part of the game run itself.</p>
+<p>Goblins Farm runs on Windows and macOS (the <a href="coc-bot-mac.html">Mac app</a> is signed and notarized), drives the free BlueStacks emulator, and is a one-time lifetime purchase, Main Base €60, <a href="../wiki/mechanics/builder-base.html">Builder Base</a> €60, or both for €100. Set your thresholds, set your targets, and let the boring part of the game run itself.</p>
 <a class="cta" href="/#pricing">Get Goblins Farm, lifetime from €60</a>
 
 <div class="related">
