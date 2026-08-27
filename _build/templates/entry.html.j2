@@ -22,6 +22,7 @@
 {%- for s in page.sections %}
 <li><a href="#{{ s.id }}">{{ s.h }}</a></li>
 {%- endfor %}
+{%- if page.mentions %}<li><a href="#mentions">What this page talks about</a></li>{% endif %}
 {%- if page.gear %}<li><a href="#gear">Equipment for this hero</a></li>{% endif %}
 {%- if page.unlocks %}<li><a href="#unlocks">What it unlocks</a></li>{% endif %}
 {%- if page.strip %}<li><a href="#levels">How it looks at each level</a></li>{% endif %}
@@ -35,6 +36,20 @@
 <h2 id="{{ s.id }}">{{ s.h }}</h2>
 {{ s.body }}
 {%- endfor %}
+
+{%- if page.mentions %}
+<div class="block">
+<h2 id="mentions" class="withmascot">{% if mascot('mentions') %}<img class="mascot small" src="{{ rel }}{{ mascot('mentions') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}What this page talks about</h2>
+<div class="grid tight">
+{%- for m in page.mentions %}
+<a class="card{% if m.image %} hasart{% endif %}" href="{{ rel }}{{ m.href }}">
+  {%- if m.image %}<img class="thumb" src="{{ rel }}{{ m.image.src }}" alt="" width="56" height="56" loading="lazy" decoding="async">{% endif %}
+  <span class="cardtext"><b>{{ m.label }}</b></span>
+</a>
+{%- endfor %}
+</div>
+</div>
+{%- endif %}
 
 {%- if page.gear %}
 <div class="block">

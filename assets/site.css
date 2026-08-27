@@ -108,6 +108,8 @@ td.todo,.todo{color:#a8724a;font-style:italic}
 
 /* ---------- card grids ---------- */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px;margin:16px 0 6px}
+/* Name-only cards pack tighter than ones carrying a blurb. */
+.grid.tight{grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
 .card{display:block;background:var(--panel);border:2px solid var(--panel-edge);border-radius:12px;
   padding:14px 16px;text-decoration:none;color:var(--body);transition:transform .12s,box-shadow .12s}
 .card:hover{transform:translateY(-2px);box-shadow:0 4px 0 var(--panel-edge)}

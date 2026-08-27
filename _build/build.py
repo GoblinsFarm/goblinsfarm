@@ -106,6 +106,7 @@ MASCOTS = {
     "stat_only": "scroll", "source": "magnify", "todo": "shrug",
     "faq": "question", "related": "lantern",
     "levels": "hammer", "unlocks": "cheer", "gear": "shield",
+    "mentions": "point",
 }
 
 # One of the cast introduces each section, chosen for what the section is: the
@@ -563,6 +564,7 @@ def main() -> int:
         for key, default in (
             ("section", "wiki"), ("wide", False), ("og_type", "article"), ("banner", None),
             ("unlocks", None), ("strip", None), ("gear", None), ("mascot", None),
+            ("mentions", None),
             ("tags", None), ("crumbs", None), ("byline", None), ("jsonld", []),
             ("related", None), ("show_tool_note", False), ("quick", None),
             ("sections", []), ("tables", None), ("faq", None), ("groups", []),
@@ -618,6 +620,54 @@ def main() -> int:
         owner = (gear.get("quick") or {}).get("Hero")
         if owner:
             gear_by_hero.setdefault(owner, []).append(gear["slug"])
+
+    def mentioned(entry, url):
+        """The units and buildings a prose page actually talks about, as pictures.
+
+        The mechanics and tutorial pages are the ones with no subject of their
+        own -- they are about an idea, not a thing -- so they had no way to show
+        anything. But they are full of references: funnelling names the Giant and
+        the Wizard, loot mechanics names the storages and the collectors. Reading
+        those out of the prose and showing them illustrates the page with the
+        game's own art and links where the reader is likely to want to go next.
+
+        Longest names are matched first and their span is then masked, so "Bomb
+        Tower" is not also counted as a "Bomb", and order follows the prose rather
+        than the alphabet.
+        """
+        bodies = [s["body"] for s in entry.get("sections", [])]
+        bodies += [f"{s.get('h', '')} {s.get('body', '')}" for s in entry.get("steps", [])]
+        text = strip_tags(" ".join(bodies))
+        haystack = " " + text.lower() + " "
+        taken = bytearray(len(haystack))
+        found = []
+        for label in sorted(registry.by_label, key=len, reverse=True):
+            if len(label) < 4 or label == entry.get("name"):
+                continue
+            for match in re.finditer(r"(?<![a-z])" + re.escape(label.lower()) + r"e?s?(?![a-z])",
+                                     haystack):
+                if any(taken[match.start():match.end()]):
+                    continue
+                taken[match.start():match.end()] = b"\x01" * (match.end() - match.start())
+                found.append((match.start(), label))
+                break
+        seen = set()
+        out = []
+        for _at, label in sorted(found):
+            record = registry.by_label[label]
+            # Only things with a picture of their own. Hub pages and other prose
+            # match too -- "troops", "heroes", "base building principles" -- and
+            # a row of drawn emblems is not an illustration; those references
+            # belong in Keep reading, where they already are.
+            if not (record.get("image") or {}).get("photo"):
+                continue
+            if record["href"] in seen or record["href"] == url.lstrip("/"):
+                continue
+            seen.add(record["href"])
+            out.append(record)
+        # Three is the point where it reads as an illustrated row rather than one
+        # stray card: several pages talk in general terms and name nothing.
+        return out[:12] if len(out) >= 3 else []
 
     def unlock_cards(registry, names):
         """What a Town Hall level first makes available, as linked pictures.
@@ -700,6 +750,8 @@ def main() -> int:
                 if name == "mechanics" and entry["slug"] in MECHANIC_BANNERS else None,
                 "strip": level_strip(name, entry),
                 "unlocks": unlock_cards(registry, entry.get("unlocks", [])),
+                "mentions": mentioned(entry, url) if name == "mechanics" else [],
+                # Same for the tutorials, which are built further down.
                 "gear": [registry.by_key[f"equipment:{g}"]
                          for g in gear_by_hero.get(entry["name"], [])
                          if f"equipment:{g}" in registry.by_key] if name == "heroes" else [],
@@ -825,6 +877,7 @@ def main() -> int:
             "faq": entry.get("faq"),
             "related": resolve_related(entry, url),
             "crumbs": crumbs,
+            "mentions": mentioned(entry, url),
             "show_tool_note": entry.get("show_tool_note", False),
         }
         kind = "HowTo" if entry.get("steps") else "Article"
