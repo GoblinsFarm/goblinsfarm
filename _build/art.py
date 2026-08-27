@@ -36,16 +36,18 @@ MAX_HEIGHT = 256
 # The level strip runs six abreast under the stats, so each frame is small.
 STRIP_HEIGHT = 132
 
-# Rows whose art column points at another unit's picture. The Dragon Duke's still
-# holds the Builder Base Battle Copter it was copied from, so he would get a
-# helicopter; the drawn emblem is the more honest answer.
-BORROWED = {"heroes:dragon-duke"}
+# Rows whose art column points at another unit's picture rather than their own.
+BORROWED = set()
 
 # Buildings carry no info-card picture -- none of them do -- but the two Builder
 # Base hero altars are pages about the hero, and the hero has one.
 EXTRA = {
     "bb_buildings:battle-machine": "info_warmachine__unit_warmachine_big",
     "bb_buildings:battle-copter": "info_battlecopter__unit_battlecopter_big",
+    # The Dragon Duke has no info card -- he is a 3D model, and his art column
+    # still points at the Battle Copter he was copied from. The UI atlas has a
+    # real portrait of him, and it is the only picture of him in 2D.
+    "heroes:dragon-duke": "ui__icon_hero_dragonDuke_profile",
     # The Clan House's own export draws nothing; a house from the estate does.
     "capital_buildings:clan-house": "buildings_cc__estate_house_01",
     # Every district's icon column points at the same generic_district_icon, so
