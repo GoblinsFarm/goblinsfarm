@@ -1,31 +1,41 @@
 #!/usr/bin/env python3
-"""Match extracted game art to wiki entries and write it into assets/art/.
+"""Give every wiki entry its portrait from Supercell's own art, and write it out.
 
     python3 _build/art.py            # match, resize, report coverage
     python3 _build/art.py --sheet    # also write a contact sheet of what matched
 
-Reads the PNGs that ../coc-gamefiles/extract_art.py pulls out of Supercell's
-asset CDN and writes a web-sized WebP per entry that has one. Entries with no
-art keep the drawn emblem from icons.py, so every page still gets a picture.
+Reads the sprites that ../coc-gamefiles/extract_art.py pulls off the asset CDN
+and writes a web-sized WebP per entry that has one. Entries with no art keep the
+drawn emblem from icons.py, so every page still gets a picture.
 
-Matching is by name, normalised, plus the alias table below for the cases where
-the file name is not the name the game shows. Two groups need it:
+Which file, and which figure in it
+----------------------------------
+Both come from the game data, not from the name. Each unit's row carries
+`BigPictureSWF` (the sheet) and `BigPicture` (its export name inside the sheet),
+and build_gamedata.py copies the pair onto every entry as `art`. Matching on the
+unit's name instead -- which is what this did first -- goes wrong twice over:
 
-  Super troops ship under "elite_" -- Super Barbarian is `elite_barbarian`,
-  Sneaky Goblin is `goblin_elite`. Nothing in the file says so.
+  Names in the files are development names. The Bowler's art is info_troll, the
+  Lava Hound's is info_tiny, the Valkyrie's export is unit_warriorGirl_big. No
+  amount of aliasing finds those reliably; the column states them.
 
-  Siege machines ship under what they do rather than what they are called:
-  the Wall Wrecker is `siege_machine_ram`, the Stone Slammer is
-  `siege_machine_catapult`, the Siege Barracks is `siege_machine_commandtower`.
+  A sheet is not one unit. sc/info_barbarian.sc holds the Barbarian, the
+  Barbarian King and the King's Iron Fist, and the Iron Fist -- a crowned King
+  flanked by two Barbarians -- is the biggest figure on it, so "take the largest"
+  put the King's ability art on the Barbarian page. The Archer's sheet is the
+  same story with the Archer Queen.
 
-Clan Capital squads and their Home Village namesakes are the same creature, so
-a squad reuses the base unit's portrait rather than going without.
+The export name settles which figure only if you know where it sits on the sheet,
+and nothing readable says so: the order the names appear in the header does not
+track the order the figures are packed in. So PICK below records the position for
+the sheets that carry more than one unit, checked by eye against a contact sheet.
+Everything else takes the first figure, which is right for the 81 single-unit
+sheets.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
 
 from PIL import Image
@@ -33,58 +43,63 @@ from PIL import Image
 BUILD = Path(__file__).resolve().parent
 ROOT = BUILD.parent
 DATA = BUILD / "data"
-SOURCE = ROOT.parent / "coc-gamefiles" / "art" / "png"
+GAME = ROOT.parent / "coc-gamefiles" / "art" / "png"
+SPRITES = GAME / "all"
 OUT = ROOT / "assets" / "art"
 
 MAX_HEIGHT = 256
 
-ALIAS = {
-    # Super troops are "elite" in the files.
-    "Super Barbarian": "elite_barbarian", "Super Archer": "elite_archer",
-    "Super Giant": "giant_elite", "Sneaky Goblin": "goblin_elite",
-    "Super Wall Breaker": "wallbreaker_elite", "Super Wizard": "elite_wizard",
-    "Super Minion": "elite_minion", "Super Valkyrie": "elite_valkyrie",
-    "Super Witch": "elite_witch", "Ice Hound": "elite_icehound",
-    "Super Bowler": "elite_bowler", "Super Miner": "elite_miner",
-    "Super Hog Rider": "elite_hogrider", "Inferno Dragon": "elite_infernodragon",
-    # Siege machines are named for the mechanism, not the machine.
-    "Wall Wrecker": "siege_machine_ram", "Battle Blimp": "siege_machine_balloon",
-    "Stone Slammer": "siege_machine_catapult",
-    "Siege Barracks": "siege_machine_commandtower",
-    "Log Launcher": "siege_machine_loglauncher",
-    "Flame Flinger": "siege_machine_flyer",
-    "Battle Drill": "siege_machine_battledrill",
-    "Troop Launcher": "siege_machine_air_troop_launcher",
-    "Sky Wagon": "siege_clan_carrier",
-    # Pets ship under a working name.
-    "Spirit Fox": "pet_phasefennec", "Angry Jelly": "pet_rage_jelly",
-    "Greedy Raven": "pet_raven", "L.A.S.S.I": "pet_lassi",
-    # Odds and ends.
-    "Apprentice Warden": "apprentice", "Druid": "druid_bear",
-    "Cannon Cart": "moving_cannon", "Battle Machine": "warmachine",
-    "Night Witch": "nightwitch",
-    # Clan Capital squads are the Home Village creature, several at a time.
-    "Super Barbarians": "elite_barbarian", "Sneaky Archers": "sneaky_archer",
-    "Super Giants": "giant_elite", "Minion Horde": "minion",
-    "Super Wizards": "elite_wizard", "Rocket Balloons": "rocket_balloon",
-    "Skeleton Barrels": "skeleton_barrel", "Hog Raiders": "hog_glider",
-    "Raid Cart": "siege_clan_carrier",
+# "<sheet>:<export>" -> which figure on that sheet it is, counting from the
+# largest. Only the sheets holding more than one unit need an entry.
+PICK = {
+    # The Iron Fist is the biggest figure here, the King the next, the Barbarian
+    # the smallest -- exactly backwards from what "largest is the subject" wants.
+    "info_barbarian:unit_barbarian_big": 2,
+    "info_barbarian:unit_barbarianKing_big": 1,
+    "info_archer:unit_archer_big": 2,
+    "info_archer:unit_archerQueen_big": 1,
+    # The Druid's sheet leads with the bear he turns into.
+    "info_druid_bear:unit_druid_big": 1,
+    # Two loose elephants and a dismounted rider come before the pair together.
+    "info_elephant_rider:unit_elephant_rider_big": 1,
+    "info_electrofire_wizard:unit_electrofire_wizard_fire": 1,
+    # Her sheet leads with the skeleton blimp, which is the Drop Ship's picture
+    # and takes the default -- the two pages want different figures from one file.
+    "info_witch:unit_witch_big": 1,
+    # Leads with the rubble and the Ruin Knight she summons out of it.
+    "info_ruin_witch:unit_ruin_witch_big": 1,
+    # Sneezy and her bubble spirit overlap on the sheet and come out as one blob;
+    # the second figure is Sneezy on her own.
+    "info_pet_sneezy:unit_pet_sneezy_big": 1,
+    "info_pet_raven:unit_pet_raven_big": 2,
 }
 
+# Buildings carry no BigPicture column at all -- none of them do -- but the two
+# Builder Base hero altars are pages about the hero, and the hero has one.
+EXTRA = {
+    "bb_buildings:battle-machine": {"sheet": "info_warmachine",
+                                    "export": "unit_warmachine_big"},
+    "bb_buildings:battle-copter": {"sheet": "info_battlecopter",
+                                   "export": "unit_battlecopter_big"},
+}
 
-def norm(text: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", text.lower())
+# Rows whose BigPicture column points at another unit's art. The Dragon Duke's
+# still holds the Builder Base Battle Copter it was copied from, so he would get
+# a picture of a helicopter; the drawn emblem is the more honest answer.
+BORROWED = {"heroes:dragon-duke"}
 
 
-def index() -> dict[str, Path]:
-    """Every art file under each name it could plausibly be looked up by."""
-    found: dict[str, Path] = {}
-    for path in sorted(SOURCE.glob("*.png")):
-        stem = path.stem.replace("info_", "")
-        keys = {stem, stem.replace("pet_", ""), stem.replace("siege_machine_", "")}
-        for key in keys:
-            found.setdefault(norm(key), path)
-    return found
+def sprite(art: dict) -> Path | None:
+    """The file holding the figure this entry's art column names."""
+    if not art:
+        return None
+    index = PICK.get(f"{art['sheet']}:{art['export']}", 0)
+    for path in (SPRITES / f"{art['sheet']}.g{index}.png",
+                 SPRITES / f"{art['sheet']}.g0.png",
+                 GAME / f"{art['sheet']}.png"):
+        if path.exists():
+            return path
+    return None
 
 
 def main() -> int:
@@ -92,12 +107,16 @@ def main() -> int:
     ap.add_argument("--sheet", action="store_true")
     args = ap.parse_args()
 
-    if not SOURCE.exists():
-        print(f"no extracted art at {SOURCE} -- run coc-gamefiles/extract_art.py first")
+    if not SPRITES.exists():
+        print(f"no extracted art at {SPRITES} -- run coc-gamefiles/extract_art.py first")
         return 1
 
-    by_name = index()
-    report, matched = [], []
+    # Start clean: a renamed or dropped entry would otherwise leave its old
+    # picture behind and the next page to take that slug would inherit it.
+    for stale in OUT.rglob("*.webp"):
+        stale.unlink()
+
+    report, matched, unmatched = [], [], []
     for path in sorted(DATA.glob("*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(data, dict) or "entries" not in data:
@@ -106,11 +125,12 @@ def main() -> int:
         folder = OUT / collection.replace("_", "-")
         hits = 0
         for entry in data["entries"]:
-            alias = ALIAS.get(entry["name"])
-            src = (by_name.get(norm(alias)) if alias else None) \
-                or by_name.get(norm(entry["name"])) \
-                or by_name.get(norm(entry["slug"]))
+            if f"{collection}:{entry['slug']}" in BORROWED:
+                continue
+            src = sprite(EXTRA.get(f"{collection}:{entry['slug']}") or entry.get("art"))
             if not src:
+                if entry.get("art"):
+                    unmatched.append(f"{collection}/{entry['slug']}")
                 continue
             im = Image.open(src).convert("RGBA")
             if im.height > MAX_HEIGHT:
@@ -131,6 +151,8 @@ def main() -> int:
     size = sum(p.stat().st_size for p in OUT.rglob('*.webp')) / 1e6 if OUT.exists() else 0
     print(f"\n{total} of {pages} entries have game art ({size:.1f} MB); "
           f"the rest use the drawn emblem")
+    for name in unmatched:
+        print("  named art that is not on disk:", name)
 
     if args.sheet:
         cells = "".join(

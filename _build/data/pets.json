@@ -5,7 +5,7 @@
     "snapshot_date": "18.400.21",
     "game_version": "18.400.21",
     "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-26",
+    "fetched": "2026-08-27",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
     "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
@@ -21,18 +21,18 @@
         "blurb": "",
         "style": "cards",
         "members": [
-          "Angry Jelly",
-          "Diggy",
-          "Electro Owl",
-          "Frosty",
-          "Greedy Raven",
           "L.A.S.S.I",
+          "Electro Owl",
           "Mighty Yak",
-          "Phoenix",
+          "Unicorn",
+          "Frosty",
+          "Diggy",
           "Poison Lizard",
-          "Sneezy",
+          "Phoenix",
           "Spirit Fox",
-          "Unicorn"
+          "Angry Jelly",
+          "Sneezy",
+          "Greedy Raven"
         ]
       }
     ],
@@ -159,12 +159,16 @@
         }
       ],
       "related": [
-        "pets:diggy",
-        "pets:unicorn",
-        "pets:electro-owl",
+        "pets:sneezy",
+        "pets:spirit-fox",
+        "pets:greedy-raven",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_rage_jelly",
+        "export": "unit_pet_rage_jelly_big"
+      },
       "has_prose": false
     },
     {
@@ -285,12 +289,16 @@
         }
       ],
       "related": [
-        "pets:electro-owl",
-        "pets:angry-jelly",
+        "pets:poison-lizard",
         "pets:frosty",
+        "pets:phoenix",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_diggy",
+        "export": "unit_pet_diggy_big"
+      },
       "has_prose": false
     },
     {
@@ -451,12 +459,16 @@
         }
       ],
       "related": [
-        "pets:frosty",
-        "pets:diggy",
-        "pets:greedy-raven",
+        "pets:mighty-yak",
+        "pets:lassi",
+        "pets:unicorn",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_electro_owl",
+        "export": "unit_pet_electro_owl_big"
+      },
       "has_prose": false
     },
     {
@@ -617,12 +629,16 @@
         }
       ],
       "related": [
-        "pets:greedy-raven",
-        "pets:electro-owl",
-        "pets:lassi",
+        "pets:diggy",
+        "pets:unicorn",
+        "pets:poison-lizard",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_frosty",
+        "export": "unit_pet_frosty_big"
+      },
       "has_prose": false
     },
     {
@@ -744,11 +760,15 @@
       ],
       "related": [
         "pets:lassi",
-        "pets:frosty",
-        "pets:mighty-yak",
+        "pets:sneezy",
+        "pets:electro-owl",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_raven",
+        "export": "unit_pet_raven_big"
+      },
       "has_prose": false
     },
     {
@@ -909,12 +929,16 @@
         }
       ],
       "related": [
-        "pets:mighty-yak",
+        "pets:electro-owl",
         "pets:greedy-raven",
-        "pets:phoenix",
+        "pets:mighty-yak",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_lassi",
+        "export": "unit_pet_lassi_big"
+      },
       "has_prose": false
     },
     {
@@ -1075,12 +1099,16 @@
         }
       ],
       "related": [
-        "pets:phoenix",
-        "pets:lassi",
-        "pets:poison-lizard",
+        "pets:unicorn",
+        "pets:electro-owl",
+        "pets:frosty",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_mightyyak",
+        "export": "unit_pet_mightyyak_big"
+      },
       "has_prose": false
     },
     {
@@ -1201,12 +1229,16 @@
         }
       ],
       "related": [
+        "pets:spirit-fox",
         "pets:poison-lizard",
-        "pets:mighty-yak",
-        "pets:sneezy",
+        "pets:angry-jelly",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_phoenix",
+        "export": "unit_pet_phoenix_big"
+      },
       "has_prose": false
     },
     {
@@ -1367,12 +1399,16 @@
         }
       ],
       "related": [
-        "pets:sneezy",
         "pets:phoenix",
+        "pets:diggy",
         "pets:spirit-fox",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_poison_lizard",
+        "export": "unit_pet_poison_lizard_big"
+      },
       "has_prose": false
     },
     {
@@ -1493,12 +1529,16 @@
         }
       ],
       "related": [
-        "pets:spirit-fox",
-        "pets:poison-lizard",
-        "pets:unicorn",
+        "pets:greedy-raven",
+        "pets:angry-jelly",
+        "pets:lassi",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_sneezy",
+        "export": "unit_pet_sneezy_big"
+      },
       "has_prose": false
     },
     {
@@ -1619,12 +1659,16 @@
         }
       ],
       "related": [
-        "pets:unicorn",
-        "pets:sneezy",
         "pets:angry-jelly",
+        "pets:phoenix",
+        "pets:sneezy",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_phasefennec",
+        "export": "unit_pet_phasefennec_big"
+      },
       "has_prose": false
     },
     {
@@ -1785,12 +1829,16 @@
         }
       ],
       "related": [
-        "pets:angry-jelly",
-        "pets:spirit-fox",
+        "pets:frosty",
+        "pets:mighty-yak",
         "pets:diggy",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "info_pet_unicorn",
+        "export": "unit_pet_unicorn_big"
+      },
       "has_prose": false
     }
   ]

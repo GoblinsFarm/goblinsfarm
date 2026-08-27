@@ -5,7 +5,7 @@
     "snapshot_date": "18.400.21",
     "game_version": "18.400.21",
     "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-26",
+    "fetched": "2026-08-27",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
     "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
@@ -113,6 +113,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_battleram",
+        "export": "unit_battleram_big"
+      },
       "h1": "Battle Ram (Clan Capital)",
       "head_title": "Battle Ram (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -183,6 +187,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_flying_fortress",
+        "export": "unit_flying_fortress"
+      },
       "h1": "Flying Fortress (Clan Capital)",
       "head_title": "Flying Fortress (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -253,6 +261,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_hog_glider",
+        "export": "unit_hog_glider_big"
+      },
       "h1": "Hog Glider (Clan Capital)",
       "head_title": "Hog Glider (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -325,6 +337,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_hogrider",
+        "export": "unit_boarRider_big"
+      },
       "h1": "Hog Raiders (Clan Capital)",
       "head_title": "Hog Raiders (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -390,6 +406,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_infernodragon",
+        "export": "unit_elite_infernodragon_big"
+      },
       "h1": "Inferno Dragon (Clan Capital)",
       "head_title": "Inferno Dragon (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -455,6 +475,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_zappywagon",
+        "export": "unit_zappywagon_big"
+      },
       "h1": "Mega Sparky (Clan Capital)",
       "head_title": "Mega Sparky (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -527,6 +551,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_minion",
+        "export": "unit_flyingF_big"
+      },
       "h1": "Minion Horde (Clan Capital)",
       "head_title": "Minion Horde (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -597,6 +625,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_mountain_golem",
+        "export": "unit_mountain_golem"
+      },
       "h1": "Mountain Golem (Clan Capital)",
       "head_title": "Mountain Golem (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -667,6 +699,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_super_charged_pekka",
+        "export": "unit_charged_pekka_big"
+      },
       "h1": "Power P.E.K.K.A (Clan Capital)",
       "head_title": "Power P.E.K.K.A (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -739,6 +775,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_moving_cannon",
+        "export": "unit_movingCannon_big"
+      },
       "h1": "Raid Cart (Clan Capital)",
       "head_title": "Raid Cart (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -811,6 +851,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_rocket_balloon",
+        "export": "unit_rocketBalloon_big"
+      },
       "h1": "Rocket Balloons (Clan Capital)",
       "head_title": "Rocket Balloons (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -883,6 +927,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_skeleton_barrel",
+        "export": "unit_skeleton_barrel_big"
+      },
       "h1": "Skeleton Barrels (Clan Capital)",
       "head_title": "Skeleton Barrels (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -955,6 +1003,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_sneaky_archer",
+        "export": "unit_sneaky_archer_big"
+      },
       "h1": "Sneaky Archers (Clan Capital)",
       "head_title": "Sneaky Archers (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -1027,6 +1079,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_barbarian",
+        "export": "unit_elite_barbarian_big"
+      },
       "h1": "Super Barbarians (Clan Capital)",
       "head_title": "Super Barbarians (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -1097,6 +1153,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_super_dragon",
+        "export": "unit_superdragon_big"
+      },
       "h1": "Super Dragon (Clan Capital)",
       "head_title": "Super Dragon (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -1169,6 +1229,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_giant_elite",
+        "export": "unit_giant_elite_big"
+      },
       "h1": "Super Giants (Clan Capital)",
       "head_title": "Super Giants (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -1234,6 +1298,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_miner",
+        "export": "unit_elite_miner_big"
+      },
       "h1": "Super Miner (Clan Capital)",
       "head_title": "Super Miner (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -1306,6 +1374,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_wizard",
+        "export": "unit_elite_wizard_big"
+      },
       "h1": "Super Wizards (Clan Capital)",
       "head_title": "Super Wizards (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false

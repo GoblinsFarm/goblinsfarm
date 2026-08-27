@@ -589,7 +589,12 @@ def main() -> int:
         if groups:
             built_groups = []
             for g in groups:
-                items = [i for i in hub_items if i["label"] in g["members"]]
+                # The data layer lists troops in the order the game unlocks them,
+                # so follow the group's own order rather than re-imposing the
+                # alphabet that `entries` happens to be in.
+                rank = {label: i for i, label in enumerate(g["members"])}
+                items = sorted((i for i in hub_items if i["label"] in rank),
+                               key=lambda i: rank[i["label"]])
                 built_groups.append(
                     {
                         "id": slugify(g["h"]),

@@ -5,7 +5,7 @@
     "snapshot_date": "18.400.21",
     "game_version": "18.400.21",
     "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-26",
+    "fetched": "2026-08-27",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
     "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
@@ -21,18 +21,18 @@
         "blurb": "",
         "style": "cards",
         "members": [
-          "Baby Dragon",
+          "Raged Barbarian",
+          "Sneaky Archer",
+          "Boxer Giant",
           "Beta Minion",
           "Bomber",
-          "Boxer Giant",
+          "Baby Dragon",
           "Cannon Cart",
-          "Drop Ship",
-          "Electrofire Wizard",
-          "Hog Glider",
           "Night Witch",
+          "Drop Ship",
           "Power P.E.K.K.A",
-          "Raged Barbarian",
-          "Sneaky Archer"
+          "Hog Glider",
+          "Electrofire Wizard"
         ]
       }
     ],
@@ -206,12 +206,16 @@
         }
       ],
       "related": [
-        "bb_troops:beta-minion",
-        "bb_troops:sneaky-archer",
+        "bb_troops:cannon-cart",
         "bb_troops:bomber",
+        "bb_troops:night-witch",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_babydragon",
+        "export": "unit_babydragon_big"
+      },
       "h1": "Baby Dragon (Builder Base)",
       "head_title": "Baby Dragon (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -398,11 +402,15 @@
       ],
       "related": [
         "bb_troops:bomber",
-        "bb_troops:baby-dragon",
         "bb_troops:boxer-giant",
+        "bb_troops:baby-dragon",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_glowing_minion",
+        "export": "unit_glow_minion_big"
+      },
       "h1": "Beta Minion (Builder Base)",
       "head_title": "Beta Minion (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -572,12 +580,16 @@
         }
       ],
       "related": [
-        "bb_troops:boxer-giant",
+        "bb_troops:baby-dragon",
         "bb_troops:beta-minion",
         "bb_troops:cannon-cart",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_bomber",
+        "export": "unit_bomber_big"
+      },
       "h1": "Bomber (Builder Base)",
       "head_title": "Bomber (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -763,12 +775,16 @@
         }
       ],
       "related": [
-        "bb_troops:cannon-cart",
+        "bb_troops:beta-minion",
+        "bb_troops:sneaky-archer",
         "bb_troops:bomber",
-        "bb_troops:drop-ship",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_ironfist_giant",
+        "export": "unit_boxer_giant_big"
+      },
       "h1": "Boxer Giant (Builder Base)",
       "head_title": "Boxer Giant (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -922,12 +938,16 @@
         }
       ],
       "related": [
+        "bb_troops:night-witch",
+        "bb_troops:baby-dragon",
         "bb_troops:drop-ship",
-        "bb_troops:boxer-giant",
-        "bb_troops:electrofire-wizard",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_moving_cannon",
+        "export": "unit_movingCannon_big"
+      },
       "h1": "Cannon Cart (Builder Base)",
       "head_title": "Cannon Cart (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1049,12 +1069,16 @@
         }
       ],
       "related": [
-        "bb_troops:electrofire-wizard",
-        "bb_troops:cannon-cart",
+        "bb_troops:power-pekka",
+        "bb_troops:night-witch",
         "bb_troops:hog-glider",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_witch",
+        "export": "unit_skeletonCarrier_big"
+      },
       "h1": "Drop Ship (Builder Base)",
       "head_title": "Drop Ship (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1128,12 +1152,16 @@
         }
       ],
       "related": [
+        "bb_troops:raged-barbarian",
         "bb_troops:hog-glider",
-        "bb_troops:drop-ship",
-        "bb_troops:night-witch",
+        "bb_troops:sneaky-archer",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_electrofire_wizard",
+        "export": "unit_electrofire_wizard_fire"
+      },
       "h1": "Electrofire Wizard (Builder Base)",
       "head_title": "Electrofire Wizard (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1223,12 +1251,16 @@
         }
       ],
       "related": [
-        "bb_troops:night-witch",
         "bb_troops:electrofire-wizard",
         "bb_troops:power-pekka",
+        "bb_troops:raged-barbarian",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_hog_glider",
+        "export": "unit_hog_glider_big"
+      },
       "h1": "Hog Glider (Builder Base)",
       "head_title": "Hog Glider (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1366,12 +1398,16 @@
         }
       ],
       "related": [
+        "bb_troops:drop-ship",
+        "bb_troops:cannon-cart",
         "bb_troops:power-pekka",
-        "bb_troops:hog-glider",
-        "bb_troops:raged-barbarian",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_nightwitch",
+        "export": "unit_nightwitch_big"
+      },
       "h1": "Night Witch (Builder Base)",
       "head_title": "Night Witch (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1477,12 +1513,16 @@
         }
       ],
       "related": [
-        "bb_troops:raged-barbarian",
-        "bb_troops:night-witch",
-        "bb_troops:sneaky-archer",
+        "bb_troops:hog-glider",
+        "bb_troops:drop-ship",
+        "bb_troops:electrofire-wizard",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_super_charged_pekka",
+        "export": "unit_charged_pekka_big"
+      },
       "h1": "Power P.E.K.K.A (Builder Base)",
       "head_title": "Power P.E.K.K.A (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1685,11 +1725,15 @@
       ],
       "related": [
         "bb_troops:sneaky-archer",
-        "bb_troops:power-pekka",
-        "bb_troops:baby-dragon",
+        "bb_troops:electrofire-wizard",
+        "bb_troops:boxer-giant",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_raged_barbarian",
+        "export": "unit_raged_barbarian_big"
+      },
       "h1": "Raged Barbarian (Builder Base)",
       "head_title": "Raged Barbarian (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1891,12 +1935,16 @@
         }
       ],
       "related": [
-        "bb_troops:baby-dragon",
+        "bb_troops:boxer-giant",
         "bb_troops:raged-barbarian",
         "bb_troops:beta-minion",
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_sneaky_archer",
+        "export": "unit_sneaky_archer_big"
+      },
       "h1": "Sneaky Archer (Builder Base)",
       "head_title": "Sneaky Archer (Builder Base) — Clash of Clans Wiki",
       "has_prose": false

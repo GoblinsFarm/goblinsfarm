@@ -5,7 +5,7 @@
     "snapshot_date": "18.400.21",
     "game_version": "18.400.21",
     "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-26",
+    "fetched": "2026-08-27",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
     "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
   },
@@ -21,25 +21,25 @@
         "blurb": "",
         "style": "cards",
         "members": [
-          "Archer",
-          "Baby Dragon",
-          "Balloon",
           "Barbarian",
-          "Dragon",
-          "Dragon Rider",
-          "Electro Dragon",
-          "Electro Titan",
+          "Archer",
           "Giant",
           "Goblin",
+          "Wall Breaker",
+          "Balloon",
+          "Wizard",
           "Healer",
-          "Meteor Golem",
-          "Miner",
+          "Dragon",
           "P.E.K.K.A",
+          "Baby Dragon",
+          "Miner",
+          "Electro Dragon",
+          "Yeti",
+          "Dragon Rider",
+          "Electro Titan",
           "Root Rider",
           "Thrower",
-          "Wall Breaker",
-          "Wizard",
-          "Yeti"
+          "Meteor Golem"
         ]
       },
       {
@@ -47,19 +47,19 @@
         "blurb": "",
         "style": "cards",
         "members": [
-          "Apprentice Warden",
+          "Minion",
+          "Hog Rider",
+          "Valkyrie",
+          "Golem",
+          "Witch",
+          "Lava Hound",
           "Bowler",
+          "Ice Golem",
+          "Headhunter",
+          "Apprentice Warden",
           "Druid",
           "Furnace",
-          "Golem",
-          "Headhunter",
-          "Hog Rider",
-          "Ice Golem",
-          "Lava Hound",
-          "Minion",
-          "Ruin Witch",
-          "Valkyrie",
-          "Witch"
+          "Ruin Witch"
         ]
       },
       {
@@ -67,15 +67,15 @@
         "blurb": "",
         "style": "cards",
         "members": [
+          "Wall Wrecker",
           "Battle Blimp",
-          "Battle Drill",
-          "Flame Flinger",
-          "Log Launcher",
-          "Siege Barracks",
-          "Sky Wagon",
           "Stone Slammer",
+          "Siege Barracks",
+          "Log Launcher",
+          "Flame Flinger",
+          "Battle Drill",
           "Troop Launcher",
-          "Wall Wrecker"
+          "Sky Wagon"
         ]
       },
       {
@@ -83,22 +83,22 @@
         "blurb": "",
         "style": "cards",
         "members": [
+          "Super Barbarian",
+          "Super Archer",
+          "Super Giant",
+          "Sneaky Goblin",
+          "Super Wall Breaker",
+          "Rocket Balloon",
+          "Super Wizard",
+          "Super Minion",
+          "Super Hog Rider",
+          "Super Dragon",
+          "Super Valkyrie",
+          "Super Witch",
           "Ice Hound",
           "Inferno Dragon",
-          "Rocket Balloon",
-          "Sneaky Goblin",
-          "Super Archer",
-          "Super Barbarian",
           "Super Bowler",
-          "Super Dragon",
-          "Super Giant",
-          "Super Hog Rider",
           "Super Miner",
-          "Super Minion",
-          "Super Valkyrie",
-          "Super Wall Breaker",
-          "Super Witch",
-          "Super Wizard",
           "Super Yeti"
         ]
       }
@@ -196,6 +196,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_apprentice",
+        "export": "unit_apprentice_big"
+      },
       "h1": "Apprentice Warden — Clash of Clans",
       "head_title": "Apprentice Warden | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -380,6 +384,10 @@
         "mechanics:loot-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_archer",
+        "export": "unit_archer_big"
+      },
       "h1": "Archer — Clash of Clans",
       "head_title": "Archer | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -548,6 +556,10 @@
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_babydragon",
+        "export": "unit_babydragon_big"
+      },
       "h1": "Baby Dragon — Clash of Clans",
       "head_title": "Baby Dragon | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -724,6 +736,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_balloon",
+        "export": "unit_balloon_big"
+      },
       "h1": "Balloon — Clash of Clans",
       "head_title": "Balloon | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -900,6 +916,10 @@
         "mechanics:loot-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_barbarian",
+        "export": "unit_barbarian_big"
+      },
       "h1": "Barbarian — Clash of Clans",
       "head_title": "Barbarian | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -999,12 +1019,16 @@
         }
       ],
       "related": [
-        "troops:battle-drill",
+        "troops:stone-slammer",
         "troops:wall-wrecker",
-        "troops:flame-flinger",
+        "troops:siege-barracks",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_flyer",
+        "export": "unit_siege_machine_flyer_big"
+      },
       "has_prose": false
     },
     {
@@ -1092,12 +1116,16 @@
         }
       ],
       "related": [
+        "troops:troop-launcher",
         "troops:flame-flinger",
-        "troops:battle-blimp",
-        "troops:log-launcher",
+        "troops:sky-wagon",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_battledrill",
+        "export": "unit_siege_machine_battledrill_big"
+      },
       "has_prose": false
     },
     {
@@ -1236,6 +1264,10 @@
         "mechanics:walls-and-pathing"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_troll",
+        "export": "unit_troll_big"
+      },
       "h1": "Bowler — Clash of Clans",
       "head_title": "Bowler | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1412,6 +1444,10 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_dragon",
+        "export": "unit_dragon_big"
+      },
       "h1": "Dragon — Clash of Clans",
       "head_title": "Dragon | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1532,6 +1568,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_dragon_rider",
+        "export": "unit_dragon_rider_big"
+      },
       "h1": "Dragon Rider — Clash of Clans",
       "head_title": "Dragon Rider | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1650,6 +1690,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_druid_bear",
+        "export": "unit_druid_big"
+      },
       "h1": "Druid — Clash of Clans",
       "head_title": "Druid | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1794,6 +1838,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_electro_dragon",
+        "export": "unit_electro_dragon_big"
+      },
       "h1": "Electro Dragon — Clash of Clans",
       "head_title": "Electro Dragon | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1906,6 +1954,10 @@
         "mechanics:walls-and-pathing"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_electro_titan",
+        "export": "unit_electro_titan_big"
+      },
       "h1": "Electro Titan — Clash of Clans",
       "head_title": "Electro Titan | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1997,12 +2049,16 @@
         }
       ],
       "related": [
-        "troops:log-launcher",
         "troops:battle-drill",
-        "troops:siege-barracks",
+        "troops:log-launcher",
+        "troops:troop-launcher",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_catapult",
+        "export": "unit_siege_machine_catapult_big"
+      },
       "has_prose": false
     },
     {
@@ -2074,12 +2130,16 @@
         }
       ],
       "related": [
-        "troops:golem",
+        "troops:ruin-witch",
         "troops:druid",
-        "troops:headhunter",
+        "troops:minion",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_furnace",
+        "export": "unit_furnace_big"
+      },
       "has_prose": false
     },
     {
@@ -2252,6 +2312,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_giant",
+        "export": "unit_giant_big"
+      },
       "h1": "Giant — Clash of Clans",
       "head_title": "Giant | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -2404,6 +2468,10 @@
         "guides:farming-guide"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_goblin",
+        "export": "unit_goblin_big"
+      },
       "h1": "Goblin — Clash of Clans",
       "head_title": "Goblin | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -2594,6 +2662,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_golem",
+        "export": "unit_golem_big"
+      },
       "h1": "Golem — Clash of Clans",
       "head_title": "Golem | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -2696,6 +2768,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_headhunter",
+        "export": "unit_head_hunter_big"
+      },
       "h1": "Headhunter — Clash of Clans",
       "head_title": "Headhunter | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -2856,6 +2932,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_healer",
+        "export": "unit_healer_big"
+      },
       "h1": "Healer — Clash of Clans",
       "head_title": "Healer | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -3046,6 +3126,10 @@
         "mechanics:clan-castle-troops"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_hogrider",
+        "export": "unit_boarRider_big"
+      },
       "h1": "Hog Rider — Clash of Clans",
       "head_title": "Hog Rider | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -3188,6 +3272,10 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_ice_golem",
+        "export": "unit_ice_golem_big"
+      },
       "h1": "Ice Golem — Clash of Clans",
       "head_title": "Ice Golem | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -3308,11 +3396,15 @@
       ],
       "related": [
         "troops:inferno-dragon",
-        "troops:super-yeti",
-        "troops:rocket-balloon",
+        "troops:super-witch",
+        "troops:super-bowler",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_icehound",
+        "export": "unit_elite_icehound_big"
+      },
       "has_prose": false
     },
     {
@@ -3452,12 +3544,16 @@
         }
       ],
       "related": [
-        "troops:rocket-balloon",
+        "troops:super-bowler",
         "troops:ice-hound",
-        "troops:sneaky-goblin",
+        "troops:super-miner",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_infernodragon",
+        "export": "unit_elite_infernodragon_big"
+      },
       "has_prose": false
     },
     {
@@ -3580,6 +3676,10 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_tiny",
+        "export": "unit_tiny_big"
+      },
       "h1": "Lava Hound — Clash of Clans",
       "head_title": "Lava Hound | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -3679,12 +3779,16 @@
         }
       ],
       "related": [
-        "troops:siege-barracks",
         "troops:flame-flinger",
-        "troops:sky-wagon",
+        "troops:siege-barracks",
+        "troops:battle-drill",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_loglauncher",
+        "export": "unit_siege_machine_loglauncher_big"
+      },
       "has_prose": false
     },
     {
@@ -3748,12 +3852,16 @@
         }
       ],
       "related": [
-        "troops:miner",
-        "troops:healer",
-        "troops:pekka",
+        "troops:barbarian",
+        "troops:thrower",
+        "troops:archer",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_meteor_golem",
+        "export": "unit_meteorgolem_big"
+      },
       "has_prose": false
     },
     {
@@ -3910,6 +4018,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_miner",
+        "export": "unit_miner_big"
+      },
       "h1": "Miner — Clash of Clans",
       "head_title": "Miner | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -4092,6 +4204,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_minion",
+        "export": "unit_flyingF_big"
+      },
       "h1": "Minion — Clash of Clans",
       "head_title": "Minion | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -4268,6 +4384,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_pekka",
+        "export": "unit_pekka_big"
+      },
       "h1": "P.E.K.K.A — Clash of Clans",
       "head_title": "P.E.K.K.A | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -4395,12 +4515,16 @@
         }
       ],
       "related": [
-        "troops:sneaky-goblin",
-        "troops:inferno-dragon",
-        "troops:super-archer",
+        "troops:super-wizard",
+        "troops:super-wall-breaker",
+        "troops:super-minion",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_rocket_balloon",
+        "export": "unit_rocketBalloon_big"
+      },
       "has_prose": false
     },
     {
@@ -4493,6 +4617,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_root_rider",
+        "export": "unit_root_rider_big"
+      },
       "h1": "Root Rider — Clash of Clans",
       "head_title": "Root Rider | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -4576,12 +4704,16 @@
         }
       ],
       "related": [
-        "troops:valkyrie",
         "troops:minion",
-        "troops:witch",
+        "troops:furnace",
+        "troops:hog-rider",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_ruin_witch",
+        "export": "unit_ruin_witch_big"
+      },
       "has_prose": false
     },
     {
@@ -4669,12 +4801,16 @@
         }
       ],
       "related": [
-        "troops:sky-wagon",
         "troops:log-launcher",
         "troops:stone-slammer",
+        "troops:flame-flinger",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_clan_carrier",
+        "export": "unit_siege_machine_clan_carrier_big"
+      },
       "has_prose": false
     },
     {
@@ -4746,12 +4882,16 @@
         }
       ],
       "related": [
-        "troops:stone-slammer",
-        "troops:siege-barracks",
+        "troops:wall-wrecker",
         "troops:troop-launcher",
+        "troops:battle-blimp",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_air_troop_launcher",
+        "export": "unit_siege_machine_air_troop_launcher_big"
+      },
       "has_prose": false
     },
     {
@@ -4843,12 +4983,16 @@
         }
       ],
       "related": [
-        "troops:super-archer",
+        "troops:super-wall-breaker",
+        "troops:super-giant",
         "troops:rocket-balloon",
-        "troops:super-barbarian",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_goblin_elite",
+        "export": "unit_goblin_elite_big"
+      },
       "has_prose": false
     },
     {
@@ -4936,12 +5080,16 @@
         }
       ],
       "related": [
-        "troops:troop-launcher",
-        "troops:sky-wagon",
-        "troops:wall-wrecker",
+        "troops:siege-barracks",
+        "troops:battle-blimp",
+        "troops:log-launcher",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_balloon",
+        "export": "unit_siege_machine_balloon_big"
+      },
       "has_prose": false
     },
     {
@@ -5065,12 +5213,16 @@
         }
       ],
       "related": [
+        "troops:super-giant",
         "troops:super-barbarian",
         "troops:sneaky-goblin",
-        "troops:super-bowler",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_archer",
+        "export": "unit_elite_archer_big"
+      },
       "has_prose": false
     },
     {
@@ -5186,12 +5338,16 @@
         }
       ],
       "related": [
-        "troops:super-bowler",
         "troops:super-archer",
-        "troops:super-dragon",
+        "troops:super-yeti",
+        "troops:super-giant",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_barbarian",
+        "export": "unit_elite_barbarian_big"
+      },
       "has_prose": false
     },
     {
@@ -5315,12 +5471,16 @@
         }
       ],
       "related": [
-        "troops:super-dragon",
-        "troops:super-barbarian",
-        "troops:super-giant",
+        "troops:super-miner",
+        "troops:inferno-dragon",
+        "troops:super-yeti",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_bowler",
+        "export": "unit_elite_bowler_big"
+      },
       "has_prose": false
     },
     {
@@ -5452,12 +5612,16 @@
         }
       ],
       "related": [
-        "troops:super-giant",
-        "troops:super-bowler",
+        "troops:super-valkyrie",
         "troops:super-hog-rider",
+        "troops:super-witch",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_super_dragon",
+        "export": "unit_superdragon_big"
+      },
       "has_prose": false
     },
     {
@@ -5581,12 +5745,16 @@
         }
       ],
       "related": [
-        "troops:super-hog-rider",
-        "troops:super-dragon",
-        "troops:super-miner",
+        "troops:sneaky-goblin",
+        "troops:super-archer",
+        "troops:super-wall-breaker",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_giant_elite",
+        "export": "unit_giant_elite_big"
+      },
       "has_prose": false
     },
     {
@@ -5726,12 +5894,16 @@
         }
       ],
       "related": [
-        "troops:super-miner",
-        "troops:super-giant",
+        "troops:super-dragon",
         "troops:super-minion",
+        "troops:super-valkyrie",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_hogrider",
+        "export": "unit_elite_hogrider_big"
+      },
       "has_prose": false
     },
     {
@@ -5871,12 +6043,16 @@
         }
       ],
       "related": [
-        "troops:super-minion",
-        "troops:super-hog-rider",
-        "troops:super-valkyrie",
+        "troops:super-yeti",
+        "troops:super-bowler",
+        "troops:super-barbarian",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_miner",
+        "export": "unit_elite_miner_big"
+      },
       "has_prose": false
     },
     {
@@ -6008,12 +6184,16 @@
         }
       ],
       "related": [
-        "troops:super-valkyrie",
-        "troops:super-miner",
-        "troops:super-wall-breaker",
+        "troops:super-hog-rider",
+        "troops:super-wizard",
+        "troops:super-dragon",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_minion",
+        "export": "unit_elite_minion_big"
+      },
       "has_prose": false
     },
     {
@@ -6153,12 +6333,16 @@
         }
       ],
       "related": [
-        "troops:super-wall-breaker",
-        "troops:super-minion",
         "troops:super-witch",
+        "troops:super-dragon",
+        "troops:ice-hound",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_valkyrie",
+        "export": "unit_elite_valkyrie_big"
+      },
       "has_prose": false
     },
     {
@@ -6282,12 +6466,16 @@
         }
       ],
       "related": [
-        "troops:super-witch",
-        "troops:super-valkyrie",
+        "troops:rocket-balloon",
+        "troops:sneaky-goblin",
         "troops:super-wizard",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_wallbreaker_elite",
+        "export": "unit_skeleton_elite_big"
+      },
       "has_prose": false
     },
     {
@@ -6395,12 +6583,16 @@
         }
       ],
       "related": [
-        "troops:super-wizard",
-        "troops:super-wall-breaker",
-        "troops:super-yeti",
+        "troops:ice-hound",
+        "troops:super-valkyrie",
+        "troops:inferno-dragon",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_witch",
+        "export": "unit_elite_witch_big"
+      },
       "has_prose": false
     },
     {
@@ -6524,12 +6716,16 @@
         }
       ],
       "related": [
-        "troops:super-yeti",
-        "troops:super-witch",
-        "troops:ice-hound",
+        "troops:super-minion",
+        "troops:rocket-balloon",
+        "troops:super-hog-rider",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_elite_wizard",
+        "export": "unit_elite_wizard_big"
+      },
       "has_prose": false
     },
     {
@@ -6637,12 +6833,16 @@
         }
       ],
       "related": [
-        "troops:ice-hound",
-        "troops:super-wizard",
-        "troops:inferno-dragon",
+        "troops:super-barbarian",
+        "troops:super-miner",
+        "troops:super-archer",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_super_yeti",
+        "export": "unit_super_yeti_big"
+      },
       "has_prose": false
     },
     {
@@ -6714,12 +6914,16 @@
         }
       ],
       "related": [
-        "troops:wall-breaker",
+        "troops:meteor-golem",
         "troops:root-rider",
-        "troops:wizard",
+        "troops:barbarian",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_thrower",
+        "export": "unit_thrower_big"
+      },
       "has_prose": false
     },
     {
@@ -6791,12 +6995,16 @@
         }
       ],
       "related": [
+        "troops:sky-wagon",
+        "troops:battle-drill",
         "troops:wall-wrecker",
-        "troops:stone-slammer",
-        "troops:battle-blimp",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_commandtower",
+        "export": "unit_siege_machine_commandtower_big"
+      },
       "has_prose": false
     },
     {
@@ -6951,6 +7159,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_valkyrie",
+        "export": "unit_warriorGirl_big"
+      },
       "h1": "Valkyrie — Clash of Clans",
       "head_title": "Valkyrie | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7135,6 +7347,10 @@
         "troops:archer"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_wallbreaker",
+        "export": "unit_skeleton_big"
+      },
       "h1": "Wall Breaker — Clash of Clans",
       "head_title": "Wall Breaker | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7235,11 +7451,15 @@
       ],
       "related": [
         "troops:battle-blimp",
-        "troops:troop-launcher",
-        "troops:battle-drill",
+        "troops:sky-wagon",
+        "troops:stone-slammer",
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_siege_machine_ram",
+        "export": "unit_siege_machine_ram_big"
+      },
       "has_prose": false
     },
     {
@@ -7362,6 +7582,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_witch",
+        "export": "unit_witch_big"
+      },
       "h1": "Witch — Clash of Clans",
       "head_title": "Witch | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7546,6 +7770,10 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_wizard",
+        "export": "unit_wizard_big"
+      },
       "h1": "Wizard — Clash of Clans",
       "head_title": "Wizard | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7682,6 +7910,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "info_yeti",
+        "export": "unit_yeti_big"
+      },
       "h1": "Yeti — Clash of Clans",
       "head_title": "Yeti | Clash of Clans Wiki | Goblins Farm",
       "faq": [
