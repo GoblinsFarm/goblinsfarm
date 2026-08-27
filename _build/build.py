@@ -66,6 +66,25 @@ WIKI_COLLECTIONS = [
     ("capital_districts", "wiki/clan-capital/districts"),
 ]
 
+# Illustration for the top of each section hub. These are original drawings, not
+# game art: nothing in the files serves the purpose, and there is no version of
+# imitating Supercell's own art here that is a better idea than a plain scene. The
+# two side villages share one apiece, so their four sections read as two places.
+BANNERS = {
+    "troops": "troops", "spells": "spells", "heroes": "heroes",
+    "equipment": "equipment", "pets": "pets", "buildings": "buildings",
+    "traps": "traps", "townhalls": "town-hall", "mechanics": "mechanics",
+    "bb_troops": "builder-base", "bb_buildings": "builder-base",
+    "capital_troops": "clan-capital", "capital_spells": "clan-capital",
+    "capital_buildings": "clan-capital", "capital_districts": "clan-capital",
+}
+
+
+def banner(key: str) -> str | None:
+    name = BANNERS.get(key, key)
+    return f"assets/banners/{name}.webp" if (ROOT / "assets" / "banners" / f"{name}.webp").exists() else None
+
+
 # Hand-written pages that live outside the generator but belong in the sitemap.
 STATIC_URLS = [
     ("/", "1.0"),
@@ -482,7 +501,7 @@ def main() -> int:
     def render(template: str, page: dict, priority: str):
         nonlocal todo_count
         for key, default in (
-            ("section", "wiki"), ("wide", False), ("og_type", "article"),
+            ("section", "wiki"), ("wide", False), ("og_type", "article"), ("banner", None),
             ("tags", None), ("crumbs", None), ("byline", None), ("jsonld", []),
             ("related", None), ("show_tool_note", False), ("quick", None),
             ("sections", []), ("tables", None), ("faq", None), ("groups", []),
@@ -641,6 +660,7 @@ def main() -> int:
         hub_page = {
             "url": hub_url,
             "section": "wiki",
+            "banner": banner(name),
             "h1": hub.get("h1", hub.get("nav_label", name.title())),
             "head_title": hub.get("head_title", f"{hub.get('h1', name.title())} | {site['name']}"),
             "description": hub.get("description", ""),
@@ -850,6 +870,7 @@ def main() -> int:
     wiki_page = {
         "url": "/wiki/",
         "section": "wiki",
+        "banner": banner("wiki"),
         "h1": wiki.get("h1", "Clash of Clans Wiki"),
         "head_title": wiki.get("head_title", f"Clash of Clans Wiki | {site['name']}"),
         "description": wiki.get("description", ""),

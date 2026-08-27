@@ -34,6 +34,10 @@
 </header>
 
 <main class="doc{% if not page.wide and page.section != 'wiki' %} narrow{% endif %}">
+{%- if page.banner %}
+<div class="banner"><img src="{{ rel }}{{ page.banner }}" alt="" width="1400" height="700" decoding="async"></div>
+{%- endif %}
+
 {%- if page.crumbs %}
 <div class="crumbs">
   {%- for c in page.crumbs %}

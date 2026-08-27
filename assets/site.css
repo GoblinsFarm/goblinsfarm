@@ -53,6 +53,13 @@ strong{color:var(--ink)}
   .doc>.block,.doc>.grid{clear:both}
 }
 
+/* Section banner: an illustration across the top of a hub, cropped to a strip.
+   Sits inside the page's own border, above the breadcrumbs, and is decoration
+   only -- empty alt, no caption, nothing a reader needs. */
+.banner{margin:-40px -46px 20px;border-radius:15px 15px 0 0;overflow:hidden;
+  border-bottom:3px solid var(--ink);background:var(--panel)}
+.banner img{width:100%;height:clamp(110px,15vw,220px);object-fit:cover;object-position:50% 62%}
+
 .crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}
 .crumbs a{color:var(--muted);text-decoration:none;font-weight:700}
 .crumbs a:hover{color:var(--ink)}
@@ -132,6 +139,7 @@ ol.steps>li>b{display:block;color:var(--ink);font-size:16px;margin-bottom:3px}
   body{font-size:15px}
   :root{--shell:100% - 20px}
   .doc{padding:26px 20px;border-radius:14px}
+  .banner{margin:-26px -20px 16px;border-radius:11px 11px 0 0}
   h1{font-size:26px}
   h2{font-size:19px}
   .linklist{columns:1}
