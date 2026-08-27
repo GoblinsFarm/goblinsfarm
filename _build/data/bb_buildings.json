@@ -224,6 +224,32 @@
           "airDefence_factory_lvl5",
           "airDefence_factory_lvl4",
           "airDefence_factory_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "airDefence_factory_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "airDefence_factory_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "airDefence_factory_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "airDefence_factory_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "airDefence_factory_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "airDefence_factory_lvl10"
+          }
         ]
       },
       "h1": "Air Bombs (Builder Base)",
@@ -366,6 +392,32 @@
           "adv_archer_tower_lvl5",
           "adv_archer_tower_lvl4",
           "adv_archer_tower_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "adv_archer_tower_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "adv_archer_tower_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "adv_archer_tower_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "adv_archer_tower_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "adv_archer_tower_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "adv_archer_tower_lvl10"
+          }
         ]
       },
       "h1": "Archer Tower (Builder Base)",
@@ -425,7 +477,8 @@
       "art": {
         "sheet": "buildings2",
         "export": "adv_fireplace_lvl1_3x3",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "h1": "Army Camp (Builder Base)",
       "head_title": "Army Camp (Builder Base) — Clash of Clans Wiki",
@@ -521,6 +574,28 @@
           "new_builders_hut_arto_lvl3",
           "new_builders_hut_arto_lvl2",
           "new_builders_hut_arto_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "new_builders_hut_arto_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "new_builders_hut_arto_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "new_builders_hut_arto_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "new_builders_hut_arto_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "new_builders_hut_arto_lvl5"
+          }
         ]
       },
       "h1": "B.O.B Control (Builder Base)",
@@ -578,7 +653,8 @@
       "art": {
         "sheet": "buildings2",
         "export": "new_builders_hut_boto",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "h1": "B.O.T.O’s Shack (Builder Base)",
       "head_title": "B.O.T.O’s Shack (Builder Base) — Clash of Clans Wiki",
@@ -637,7 +713,8 @@
       "art": {
         "sheet": "buildings2",
         "export": "BB_hero_altar_flying",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "h1": "Battle Copter (Builder Base)",
       "head_title": "Battle Copter (Builder Base) — Clash of Clans Wiki",
@@ -696,7 +773,8 @@
       "art": {
         "sheet": "buildings",
         "export": "heroaltar_warmachine_lvl1",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "h1": "Battle Machine (Builder Base)",
       "head_title": "Battle Machine (Builder Base) — Clash of Clans Wiki",
@@ -851,6 +929,32 @@
           "adv_training_camp_lvl7",
           "adv_training_camp_lvl6",
           "adv_training_camp_lvl5"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "adv_training_camp_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "adv_training_camp_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "adv_training_camp_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "adv_training_camp_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "adv_training_camp_lvl10"
+          },
+          {
+            "level": 12,
+            "export": "adv_training_camp_lvl12"
+          }
         ]
       },
       "h1": "Builder Barracks (Builder Base)",
@@ -993,6 +1097,32 @@
           "basic_turret_lvl5",
           "basic_turret_lvl4",
           "basic_turret_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "basic_turret_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "basic_turret_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "basic_turret_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "basic_turret_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "basic_turret_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "basic_turret_lvl10"
+          }
         ]
       },
       "h1": "Cannon (Builder Base)",
@@ -1132,6 +1262,32 @@
           "clocktower_lvl5",
           "clocktower_lvl4",
           "clocktower_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "clocktower_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "clocktower_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "clocktower_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "clocktower_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "clocktower_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "clocktower_lvl10"
+          }
         ]
       },
       "h1": "Clock Tower (Builder Base)",
@@ -1274,6 +1430,32 @@
           "Crusher_lvl5",
           "Crusher_lvl4",
           "Crusher_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "Crusher_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "Crusher_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "Crusher_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "Crusher_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "Crusher_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "Crusher_lvl10"
+          }
         ]
       },
       "h1": "Crusher (Builder Base)",
@@ -1416,6 +1598,32 @@
           "doubleCannon_lvl6",
           "doubleCannon_lvl4",
           "doubleCannon_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "doubleCannon_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "doubleCannon_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "doubleCannon_lvl6"
+          },
+          {
+            "level": 6,
+            "export": "doubleCannon_lvl8"
+          },
+          {
+            "level": 8,
+            "export": "doubleCannon_lvl10"
+          },
+          {
+            "level": 10,
+            "export": "doubleCannon_lvl12"
+          }
         ]
       },
       "h1": "Double Cannon (Builder Base)",
@@ -1555,6 +1763,32 @@
           "elixir_pump_lvl5_v2",
           "elixir_pump_lvl4_v2",
           "elixir_pump_lvl3_v2"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "elixir_pump_lvl1_v2"
+          },
+          {
+            "level": 3,
+            "export": "elixir_pump_lvl3_v2"
+          },
+          {
+            "level": 5,
+            "export": "elixir_pump_lvl5_v2"
+          },
+          {
+            "level": 6,
+            "export": "elixir_pump_lvl6_v2"
+          },
+          {
+            "level": 8,
+            "export": "elixir_pump_lvl8_v2"
+          },
+          {
+            "level": 10,
+            "export": "elixir_pump_lvl10_v2"
+          }
         ]
       },
       "h1": "Elixir Collector (Builder Base)",
@@ -1694,6 +1928,32 @@
           "elixir_storage_level5_v2",
           "elixir_storage_level4_v2",
           "elixir_storage_level3_v2"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "elixir_storage_level1_v2"
+          },
+          {
+            "level": 3,
+            "export": "elixir_storage_level3_v2"
+          },
+          {
+            "level": 5,
+            "export": "elixir_storage_level5_v2"
+          },
+          {
+            "level": 6,
+            "export": "elixir_storage_level6_v2"
+          },
+          {
+            "level": 8,
+            "export": "elixir_storage_level8_v2"
+          },
+          {
+            "level": 10,
+            "export": "elixir_storage_level10_v2"
+          }
         ]
       },
       "h1": "Elixir Storage (Builder Base)",
@@ -1836,6 +2096,32 @@
           "airDefence_box_lvl5",
           "airDefence_box_lvl4",
           "airDefence_box_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "airDefence_box_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "airDefence_box_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "airDefence_box_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "airDefence_box_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "airDefence_box_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "airDefence_box_lvl10"
+          }
         ]
       },
       "h1": "Firecrackers (Builder Base)",
@@ -1975,6 +2261,32 @@
           "gem_mine_lvl5",
           "gem_mine_lvl4",
           "gem_mine_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "gem_mine_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "gem_mine_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "gem_mine_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "gem_mine_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "gem_mine_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "gem_mine_lvl10"
+          }
         ]
       },
       "h1": "Gem Mine (Builder Base)",
@@ -2117,6 +2429,32 @@
           "megaCannon_lvl5",
           "megaCannon_lvl4",
           "megaCannon_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "megaCannon_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "megaCannon_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "megaCannon_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "megaCannon_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "megaCannon_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "megaCannon_lvl10"
+          }
         ]
       },
       "h1": "Giant Cannon (Builder Base)",
@@ -2256,6 +2594,32 @@
           "goldmine_lvl5",
           "goldmine_lvl4",
           "goldmine_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "goldmine_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "goldmine_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "goldmine_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "goldmine_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "goldmine_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "goldmine_lvl10"
+          }
         ]
       },
       "h1": "Gold Mine (Builder Base)",
@@ -2395,6 +2759,32 @@
           "gold_storage_lvl5_v2",
           "gold_storage_lvl4_v2",
           "gold_storage_lvl3_v2"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "gold_storage_lvl1_v2"
+          },
+          {
+            "level": 3,
+            "export": "gold_storage_lvl3_v2"
+          },
+          {
+            "level": 5,
+            "export": "gold_storage_lvl5_v2"
+          },
+          {
+            "level": 6,
+            "export": "gold_storage_lvl6_v2"
+          },
+          {
+            "level": 8,
+            "export": "gold_storage_lvl8_v2"
+          },
+          {
+            "level": 10,
+            "export": "gold_storage_lvl10_v2"
+          }
         ]
       },
       "h1": "Gold Storage (Builder Base)",
@@ -2534,6 +2924,32 @@
           "GuardPost_lvl5",
           "GuardPost_lvl4",
           "GuardPost_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "GuardPost_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "GuardPost_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "GuardPost_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "GuardPost_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "GuardPost_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "GuardPost_lvl10"
+          }
         ]
       },
       "h1": "Guard Post (Builder Base)",
@@ -2639,6 +3055,32 @@
           "healing_hut_03",
           "healing_hut_02",
           "healing_hut_01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "healing_hut_01"
+          },
+          {
+            "level": 2,
+            "export": "healing_hut_02"
+          },
+          {
+            "level": 3,
+            "export": "healing_hut_03"
+          },
+          {
+            "level": 4,
+            "export": "healing_hut_04"
+          },
+          {
+            "level": 5,
+            "export": "healing_hut_05"
+          },
+          {
+            "level": 6,
+            "export": "healing_hut_06"
+          }
         ]
       },
       "h1": "Healing Hut (Builder Base)",
@@ -2781,6 +3223,32 @@
           "teslatower_lvl5_setup",
           "teslatower_lvl4_setup",
           "teslatower_lvl3_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "teslatower_lvl1_setup"
+          },
+          {
+            "level": 3,
+            "export": "teslatower_lvl3_setup"
+          },
+          {
+            "level": 5,
+            "export": "teslatower_lvl5_setup"
+          },
+          {
+            "level": 6,
+            "export": "teslatower_lvl6_setup"
+          },
+          {
+            "level": 8,
+            "export": "teslatower_lvl8_setup"
+          },
+          {
+            "level": 10,
+            "export": "teslatower_lvl10_setup"
+          }
         ]
       },
       "h1": "Hidden Tesla (Builder Base)",
@@ -2923,6 +3391,32 @@
           "Lava_Launcher_lvl5",
           "Lava_Launcher_lvl4",
           "Lava_Launcher_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "Lava_Launcher_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "Lava_Launcher_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "Lava_Launcher_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "Lava_Launcher_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "Lava_Launcher_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "Lava_Launcher_lvl10"
+          }
         ]
       },
       "h1": "Lava Launcher (Builder Base)",
@@ -3065,6 +3559,32 @@
           "mega_tesla_lvl5",
           "mega_tesla_lvl4",
           "mega_tesla_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "mega_tesla_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "mega_tesla_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "mega_tesla_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "mega_tesla_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "mega_tesla_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "mega_tesla_lvl10"
+          }
         ]
       },
       "h1": "Mega Tesla (Builder Base)",
@@ -3207,6 +3727,32 @@
           "multi_mortar_lvl5",
           "multi_mortar_lvl4",
           "multi_mortar_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "multi_mortar_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "multi_mortar_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "multi_mortar_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "multi_mortar_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "multi_mortar_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "multi_mortar_lvl10"
+          }
         ]
       },
       "h1": "Multi Mortar (Builder Base)",
@@ -3344,6 +3890,32 @@
           "outpost_05",
           "outpost_04",
           "outpost_03"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "outpost_01"
+          },
+          {
+            "level": 3,
+            "export": "outpost_03"
+          },
+          {
+            "level": 5,
+            "export": "outpost_05"
+          },
+          {
+            "level": 6,
+            "export": "outpost_06"
+          },
+          {
+            "level": 8,
+            "export": "outpost_08"
+          },
+          {
+            "level": 10,
+            "export": "outpost_10"
+          }
         ]
       },
       "h1": "O.T.T.O's Outpost (Builder Base)",
@@ -3403,7 +3975,8 @@
       "art": {
         "sheet": "buildings2",
         "export": "adv_fireplace_lvl7",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "h1": "Reinforcement Camp (Builder Base)",
       "head_title": "Reinforcement Camp (Builder Base) — Clash of Clans Wiki",
@@ -3545,6 +4118,32 @@
           "Flamer_lvl5",
           "Flamer_lvl4",
           "Flamer_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "Flamer_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "Flamer_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "Flamer_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "Flamer_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "Flamer_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "Flamer_lvl10"
+          }
         ]
       },
       "h1": "Roaster (Builder Base)",
@@ -3684,6 +4283,32 @@
           "Telescope_lvl5",
           "Telescope_lvl4",
           "Telescope_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "Telescope_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "Telescope_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "Telescope_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "Telescope_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "Telescope_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "Telescope_lvl10"
+          }
         ]
       },
       "h1": "Star Laboratory (Builder Base)",
@@ -3820,6 +4445,32 @@
           "secondVillage_wall_lvl5",
           "secondVillage_wall_lvl4",
           "secondVillage_wall_lvl3"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "secondVillage_wall_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "secondVillage_wall_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "secondVillage_wall_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "secondVillage_wall_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "secondVillage_wall_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "secondVillage_wall_lvl10"
+          }
         ]
       },
       "h1": "Wall (Builder Base)",
@@ -3919,6 +4570,28 @@
           "BB_xbow_lvl3",
           "BB_xbow_lvl2",
           "BB_xbow_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "BB_xbow_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "BB_xbow_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "BB_xbow_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "BB_xbow_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "BB_xbow_lvl5"
+          }
         ]
       },
       "h1": "X-Bow (Builder Base)",

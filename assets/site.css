@@ -20,17 +20,39 @@ a{color:var(--blue)}
 strong{color:var(--ink)}
 
 /* ---------- site header ---------- */
-.sitebar{max-width:1080px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:16px 4px 0}
+.sitebar{max-width:var(--shell);margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:16px 4px 0}
 .sitebar .brand{font-family:"Lilita One",sans-serif;font-size:19px;color:#fff;-webkit-text-stroke:2px var(--outline);paint-order:stroke fill;text-shadow:0 2px 0 var(--outline);text-decoration:none;margin-right:auto}
 .sitebar nav{display:flex;flex-wrap:wrap;gap:14px}
 .sitebar nav a{font-weight:800;font-size:14px;color:var(--brown);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
 .sitebar nav a:hover,.sitebar nav a[aria-current]{border-bottom-color:var(--gold);color:var(--ink)}
 
-/* ---------- document shell ---------- */
-.doc{max-width:820px;margin:22px auto 0;background:linear-gradient(180deg,var(--paper),var(--paper-lo));
+/* ---------- document shell ----------
+   Wiki pages are mostly tables, card grids and rows of artwork, and those want
+   the whole window -- a 21-level stats table inside an 820px column scrolls
+   sideways on a desktop monitor for no reason. So the shell is as wide as the
+   screen allows, and running text is capped separately: a paragraph 1400px wide
+   is unreadable no matter how much room there is. Full-width elements opt out
+   with .bleed. */
+:root{--shell:min(1560px,100% - 48px);--measure:74ch}
+.doc{max-width:var(--shell);margin:22px auto 0;background:linear-gradient(180deg,var(--paper),var(--paper-lo));
   border:3px solid var(--ink);border-radius:18px;
   box-shadow:0 8px 0 rgba(43,29,18,.9),0 24px 40px rgba(20,12,6,.25);padding:40px 46px}
-.doc.wide{max-width:1080px}
+.doc.narrow{max-width:820px}
+.doc>p,.doc>ul,.doc>ol,.doc>h2,.doc>h3,.doc>.note,.doc>.toc,
+.block>p,.block>.note{max-width:var(--measure)}
+.doc>.grid,.doc>.strip,.doc>.related,.doc>.pagehead{max-width:none}
+/* A seven-column stats table earns the room; a two-column one stretched across
+   1500px is just gaps. */
+.tablewrap{max-width:1080px}
+
+/* Wide screens: the quick facts move alongside the opening text instead of
+   pushing it down the page, which is where the width actually helps a reader. */
+@media(min-width:1180px){
+  .doc>.quick{float:right;width:360px;margin:4px 0 20px 34px}
+  /* Prose runs alongside the panel; the wide blocks wait until it is past. */
+  .doc>.block,.doc>.grid{clear:both}
+}
+
 .crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}
 .crumbs a{color:var(--muted);text-decoration:none;font-weight:700}
 .crumbs a:hover{color:var(--ink)}
@@ -103,11 +125,12 @@ ol.steps>li>b{display:block;color:var(--ink);font-size:16px;margin-bottom:3px}
 .related ul{margin-bottom:0}
 .toolnote{margin-top:26px;padding-top:16px;border-top:2px dashed var(--panel-edge);font-size:14px;color:var(--body)}
 .legal{margin-top:22px;font-size:12.5px;color:var(--muted);line-height:1.6}
-.sitefoot{max-width:820px;margin:26px auto 0;text-align:center;font-size:13px;color:#7d6a52}
+.sitefoot{max-width:var(--shell);margin:26px auto 0;text-align:center;font-size:13px;color:#7d6a52}
 .sitefoot a{color:#7d6a52;font-weight:700}
 
 @media (max-width:640px){
   body{font-size:15px}
+  :root{--shell:100% - 20px}
   .doc{padding:26px 20px;border-radius:14px}
   h1{font-size:26px}
   h2{font-size:19px}
@@ -129,6 +152,26 @@ ol.steps>li>b{display:block;color:var(--ink);font-size:16px;margin-bottom:3px}
 .portrait img{max-width:96px;max-height:96px;width:auto;height:auto;display:block}
 .portrait.drawn{background:none;border:0}
 .portrait.drawn img{max-width:104px;max-height:104px}
+
+/* Level strip: the same building drawn at six points up its ladder. Scrolls
+   inside itself on a narrow screen rather than squeezing the frames to nothing. */
+.strip{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 10px;margin:10px 0 6px}
+.strip figure{flex:1 1 0;min-width:120px;margin:0;text-align:center;background:var(--panel);
+  border:2px solid var(--panel-edge);border-radius:12px;padding:10px 6px 7px;
+  display:flex;flex-direction:column}
+/* Frames share a baseline: a level 1 Cannon is half the height of a level 21 and
+   without this the captions stagger down the row like a staircase. */
+.strip .frame{flex:1 1 auto;display:flex;align-items:flex-end;justify-content:center;height:108px}
+.strip img{width:auto;max-width:100%;max-height:104px}
+.strip figcaption{margin-top:6px;font-size:12.5px;font-weight:900;color:var(--brown)}
+
+/* Keep reading: the same links, with the thing they point at shown. */
+.readon{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.readon-item{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;
+  color:var(--brown);background:var(--paper);border:2px solid var(--panel-edge);
+  border-radius:10px;padding:8px 12px;line-height:1.35}
+.readon-item:hover{color:var(--ink);border-color:var(--gold)}
+.readon .thumb{flex:0 0 auto;width:44px;height:44px;object-fit:contain}
 
 /* Hub cards: thumbnail left, text right. */
 .card.hasart{display:flex;align-items:center;gap:12px}

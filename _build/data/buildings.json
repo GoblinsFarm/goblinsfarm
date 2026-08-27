@@ -361,6 +361,32 @@
           "fireworks_tower_lvl11",
           "fireworks_tower_lvl10",
           "fireworks_tower_lvl9"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "fireworks_tower_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "fireworks_tower_lvl4"
+          },
+          {
+            "level": 7,
+            "export": "fireworks_tower_lvl7"
+          },
+          {
+            "level": 10,
+            "export": "fireworks_tower_lvl10"
+          },
+          {
+            "level": 13,
+            "export": "fireworks_tower_lvl13"
+          },
+          {
+            "level": 16,
+            "export": "fireworks_tower_lvl16"
+          }
         ]
       },
       "h1": "Air Defense — Clash of Clans",
@@ -556,6 +582,32 @@
           "air_mortar_lvl3",
           "air_mortar_lvl2",
           "air_mortar_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "air_mortar_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "air_mortar_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "air_mortar_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "air_mortar_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "air_mortar_lvl6"
+          },
+          {
+            "level": 7,
+            "export": "air_mortar_lvl7"
+          }
         ]
       },
       "h1": "Air Sweeper — Clash of Clans",
@@ -883,6 +935,32 @@
           "tower_turret_lvl16",
           "tower_turret_lvl15",
           "tower_turret_lvl14"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "tower_turret_lvl1"
+          },
+          {
+            "level": 5,
+            "export": "tower_turret_lvl5"
+          },
+          {
+            "level": 9,
+            "export": "tower_turret_lvl9"
+          },
+          {
+            "level": 13,
+            "export": "tower_turret_lvl13"
+          },
+          {
+            "level": 17,
+            "export": "tower_turret_lvl17"
+          },
+          {
+            "level": 21,
+            "export": "tower_turret_lvl21"
+          }
         ]
       },
       "h1": "Archer Tower — Clash of Clans",
@@ -1145,6 +1223,32 @@
           "fireplace_lvl9",
           "fireplace_lvl8",
           "fireplace_lvl7"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "fireplace_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "fireplace_lvl4"
+          },
+          {
+            "level": 6,
+            "export": "fireplace_lvl6"
+          },
+          {
+            "level": 9,
+            "export": "fireplace_lvl9"
+          },
+          {
+            "level": 11,
+            "export": "fireplace_lvl11"
+          },
+          {
+            "level": 14,
+            "export": "fireplace_lvl14"
+          }
         ]
       },
       "has_prose": false
@@ -1435,6 +1539,32 @@
           "barracks_lvl14",
           "barracks_lvl13",
           "barracks_lvl12"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "barracks_lvl1"
+          },
+          {
+            "level": 5,
+            "export": "barracks_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "barracks_lvl8"
+          },
+          {
+            "level": 12,
+            "export": "barracks_lvl12"
+          },
+          {
+            "level": 15,
+            "export": "barracks_lvl15"
+          },
+          {
+            "level": 19,
+            "export": "barracks_lvl19"
+          }
         ]
       },
       "has_prose": false
@@ -1622,6 +1752,32 @@
           "blacksmith_lvl3",
           "blacksmith_lvl2",
           "blacksmith_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "blacksmith_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "blacksmith_lvl2"
+          },
+          {
+            "level": 4,
+            "export": "blacksmith_lvl2"
+          },
+          {
+            "level": 6,
+            "export": "blacksmith_lvl3"
+          },
+          {
+            "level": 7,
+            "export": "blacksmith_lvl4"
+          },
+          {
+            "level": 9,
+            "export": "blacksmith_lvl5"
+          }
         ]
       },
       "has_prose": false
@@ -1849,6 +2005,32 @@
           "bomb_tower_lvl8",
           "bomb_tower_lvl7",
           "bomb_tower_lvl6"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "bomb_tower_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "bomb_tower_lvl3"
+          },
+          {
+            "level": 6,
+            "export": "bomb_tower_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "bomb_tower_lvl8"
+          },
+          {
+            "level": 11,
+            "export": "bomb_tower_lvl11"
+          },
+          {
+            "level": 13,
+            "export": "bomb_tower_lvl13"
+          }
         ]
       },
       "h1": "Bomb Tower — Clash of Clans",
@@ -2061,6 +2243,32 @@
           "worker_building_armed_lvl2",
           "worker_building_armed_lvl1",
           "worker_building"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "worker_building"
+          },
+          {
+            "level": 2,
+            "export": "worker_building_armed_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "worker_building_armed_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "worker_building_armed_lvl4"
+          },
+          {
+            "level": 7,
+            "export": "worker_building_armed_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "worker_building_armed_lvl7"
+          }
         ]
       },
       "has_prose": false
@@ -2380,6 +2588,32 @@
           "basic_turret_lvl16",
           "basic_turret_lvl15",
           "basic_turret_lvl14"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "basic_turret_lvl1"
+          },
+          {
+            "level": 5,
+            "export": "basic_turret_lvl5"
+          },
+          {
+            "level": 9,
+            "export": "basic_turret_lvl9"
+          },
+          {
+            "level": 13,
+            "export": "basic_turret_lvl13"
+          },
+          {
+            "level": 17,
+            "export": "basic_turret_lvl17"
+          },
+          {
+            "level": 21,
+            "export": "basic_turret_lvl21"
+          }
         ]
       },
       "h1": "Cannon — Clash of Clans",
@@ -2652,6 +2886,32 @@
           "alliance_castle_lvl9",
           "alliance_castle_lvl8",
           "alliance_castle_lvl7"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "alliance_castle_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "alliance_castle_lvl4"
+          },
+          {
+            "level": 6,
+            "export": "alliance_castle_lvl6"
+          },
+          {
+            "level": 9,
+            "export": "alliance_castle_lvl9"
+          },
+          {
+            "level": 11,
+            "export": "alliance_castle_lvl11"
+          },
+          {
+            "level": 14,
+            "export": "alliance_castle_lvl14"
+          }
         ]
       },
       "h1": "Clan Castle — Clash of Clans",
@@ -2734,7 +2994,8 @@
       "art": {
         "sheet": "buildings",
         "export": "seasonal_defense_platform_hidden",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "has_prose": false
     },
@@ -2952,6 +3213,32 @@
           "darkBarracks_lvl8",
           "darkBarracks_lvl7",
           "darkBarracks_lvl6"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "darkBarracks_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "darkBarracks_lvl3"
+          },
+          {
+            "level": 6,
+            "export": "darkBarracks_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "darkBarracks_lvl8"
+          },
+          {
+            "level": 11,
+            "export": "darkBarracks_lvl11"
+          },
+          {
+            "level": 13,
+            "export": "darkBarracks_lvl13"
+          }
         ]
       },
       "has_prose": false
@@ -3154,6 +3441,32 @@
           "darkelixir_pump_lvl6",
           "darkelixir_pump_lvl5",
           "darkelixir_pump_lvl4"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "darkelixir_pump_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "darkelixir_pump_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "darkelixir_pump_lvl5"
+          },
+          {
+            "level": 7,
+            "export": "darkelixir_pump_lvl7"
+          },
+          {
+            "level": 9,
+            "export": "darkelixir_pump_lvl9"
+          },
+          {
+            "level": 11,
+            "export": "darkelixir_pump_lvl11"
+          }
         ]
       },
       "has_prose": false
@@ -3372,6 +3685,32 @@
           "darkelixir_storage_level8",
           "darkelixir_storage_level7",
           "darkelixir_storage_level6"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "darkelixir_storage_level1"
+          },
+          {
+            "level": 3,
+            "export": "darkelixir_storage_level3"
+          },
+          {
+            "level": 6,
+            "export": "darkelixir_storage_level6"
+          },
+          {
+            "level": 8,
+            "export": "darkelixir_storage_level8"
+          },
+          {
+            "level": 11,
+            "export": "darkelixir_storage_level11"
+          },
+          {
+            "level": 13,
+            "export": "darkelixir_storage_level13"
+          }
         ]
       },
       "has_prose": false
@@ -3546,6 +3885,32 @@
           "mini_spell_distillery_lvl3",
           "mini_spell_distillery_lvl2",
           "mini_spell_distillery_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "mini_spell_distillery_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "mini_spell_distillery_lvl2"
+          },
+          {
+            "level": 4,
+            "export": "mini_spell_distillery_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "mini_spell_distillery_lvl5"
+          },
+          {
+            "level": 7,
+            "export": "mini_spell_distillery_lvl7"
+          },
+          {
+            "level": 8,
+            "export": "mini_spell_distillery_lvl8"
+          }
         ]
       },
       "has_prose": false
@@ -3712,6 +4077,32 @@
           "doom_cannon_lvl3",
           "doom_cannon_lvl2",
           "doom_cannon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "doom_cannon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "doom_cannon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "doom_cannon_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "doom_cannon_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "doom_cannon_lvl6"
+          },
+          {
+            "level": 7,
+            "export": "doom_cannon_lvl7"
+          }
         ]
       },
       "h1": "Eagle Artillery — Clash of Clans",
@@ -3998,6 +4389,32 @@
           "elixir_pump_lvl12",
           "elixir_pump_lvl11",
           "elixir_pump_lvl10"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "elixir_pump_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "elixir_pump_lvl4"
+          },
+          {
+            "level": 7,
+            "export": "elixir_pump_lvl7"
+          },
+          {
+            "level": 11,
+            "export": "elixir_pump_lvl11"
+          },
+          {
+            "level": 14,
+            "export": "elixir_pump_lvl14"
+          },
+          {
+            "level": 17,
+            "export": "elixir_pump_lvl17"
+          }
         ]
       },
       "has_prose": false
@@ -4288,6 +4705,32 @@
           "elixir_storage_level14",
           "elixir_storage_level13",
           "elixir_storage_level12"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "elixir_storage_level1"
+          },
+          {
+            "level": 5,
+            "export": "elixir_storage_level5"
+          },
+          {
+            "level": 8,
+            "export": "elixir_storage_level8"
+          },
+          {
+            "level": 12,
+            "export": "elixir_storage_level12"
+          },
+          {
+            "level": 15,
+            "export": "elixir_storage_level15"
+          },
+          {
+            "level": 19,
+            "export": "elixir_storage_level19"
+          }
         ]
       },
       "has_prose": false
@@ -4398,6 +4841,20 @@
         "alternates": [
           "firespitter_lvl2",
           "firespitter_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "firespitter_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "firespitter_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "firespitter_lvl3"
+          }
         ]
       },
       "h1": "Firespitter — Clash of Clans",
@@ -4684,6 +5141,32 @@
           "goldmine_lvl12",
           "goldmine_lvl11",
           "goldmine_lvl10"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "goldmine_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "goldmine_lvl4"
+          },
+          {
+            "level": 7,
+            "export": "goldmine_lvl7"
+          },
+          {
+            "level": 11,
+            "export": "goldmine_lvl11"
+          },
+          {
+            "level": 14,
+            "export": "goldmine_lvl14"
+          },
+          {
+            "level": 17,
+            "export": "goldmine_lvl17"
+          }
         ]
       },
       "has_prose": false
@@ -4974,6 +5457,32 @@
           "gold_storage_lvl14",
           "gold_storage_lvl13",
           "gold_storage_lvl12"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "gold_storage_lvl1"
+          },
+          {
+            "level": 5,
+            "export": "gold_storage_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "gold_storage_lvl8"
+          },
+          {
+            "level": 12,
+            "export": "gold_storage_lvl12"
+          },
+          {
+            "level": 15,
+            "export": "gold_storage_lvl15"
+          },
+          {
+            "level": 19,
+            "export": "gold_storage_lvl19"
+          }
         ]
       },
       "has_prose": false
@@ -5206,6 +5715,32 @@
           "hero_inn_lvl7",
           "hero_inn_lvl6",
           "hero_inn_lvl5"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "hero_inn_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "hero_inn_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "hero_inn_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "hero_inn_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "hero_inn_lvl10"
+          },
+          {
+            "level": 12,
+            "export": "hero_inn_lvl12"
+          }
         ]
       },
       "h1": "Hero Hall — Clash of Clans",
@@ -5481,6 +6016,32 @@
           "teslatower_lvl12_setup",
           "teslatower_lvl11_setup",
           "teslatower_lvl10_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "teslatower_lvl1_setup"
+          },
+          {
+            "level": 4,
+            "export": "teslatower_lvl4_setup"
+          },
+          {
+            "level": 7,
+            "export": "teslatower_lvl7_setup"
+          },
+          {
+            "level": 11,
+            "export": "teslatower_lvl11_setup"
+          },
+          {
+            "level": 14,
+            "export": "teslatower_lvl14_setup"
+          },
+          {
+            "level": 17,
+            "export": "teslatower_lvl17_setup"
+          }
         ]
       },
       "h1": "Hidden Tesla — Clash of Clans",
@@ -5704,6 +6265,32 @@
           "dark_tower_lvl7",
           "dark_tower_lvl6",
           "dark_tower_lvl5"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "dark_tower_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "dark_tower_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "dark_tower_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "dark_tower_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "dark_tower_lvl10"
+          },
+          {
+            "level": 12,
+            "export": "dark_tower_lvl12"
+          }
         ]
       },
       "h1": "Inferno Tower — Clash of Clans",
@@ -5984,6 +6571,32 @@
           "laboratory_lvl11",
           "laboratory_lvl10",
           "laboratory_lvl9"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "laboratory_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "laboratory_lvl4"
+          },
+          {
+            "level": 7,
+            "export": "laboratory_lvl7"
+          },
+          {
+            "level": 10,
+            "export": "laboratory_lvl10"
+          },
+          {
+            "level": 13,
+            "export": "laboratory_lvl13"
+          },
+          {
+            "level": 16,
+            "export": "laboratory_lvl16"
+          }
         ]
       },
       "h1": "Laboratory — Clash of Clans",
@@ -6128,6 +6741,28 @@
           "monolith_lvl_3",
           "monolith_lvl_2",
           "monolith_lvl_1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "monolith_lvl_1"
+          },
+          {
+            "level": 2,
+            "export": "monolith_lvl_2"
+          },
+          {
+            "level": 3,
+            "export": "monolith_lvl_3"
+          },
+          {
+            "level": 4,
+            "export": "monolith_lvl_4"
+          },
+          {
+            "level": 5,
+            "export": "monolith_lvl_5"
+          }
         ]
       },
       "h1": "Monolith — Clash of Clans",
@@ -6427,6 +7062,32 @@
           "mortar_lvl13",
           "mortar_lvl12",
           "mortar_lvl11"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "mortar_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "mortar_lvl4"
+          },
+          {
+            "level": 8,
+            "export": "mortar_lvl8"
+          },
+          {
+            "level": 11,
+            "export": "mortar_lvl11"
+          },
+          {
+            "level": 15,
+            "export": "mortar_lvl15"
+          },
+          {
+            "level": 18,
+            "export": "mortar_lvl18"
+          }
         ]
       },
       "h1": "Mortar — Clash of Clans",
@@ -6558,6 +7219,24 @@
           "merged_archer_tower_lvl3",
           "merged_archer_tower_lvl2",
           "merged_archer_tower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "merged_archer_tower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "merged_archer_tower_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "merged_archer_tower_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "merged_archer_tower_lvl4"
+          }
         ]
       },
       "h1": "Multi-Archer Tower — Clash of Clans",
@@ -6680,6 +7359,20 @@
         "alternates": [
           "merged_cat_archer_lvl2",
           "merged_cat_archer_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "merged_cat_archer_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "merged_cat_archer_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "merged_cat_archer_lvl3"
+          }
         ]
       },
       "h1": "Multi-Gear Tower — Clash of Clans",
@@ -6874,6 +7567,32 @@
           "pet_house_lvl7",
           "pet_house_lvl6",
           "pet_house_lvl5"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "pet_house_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "pet_house_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "pet_house_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "pet_house_lvl8"
+          },
+          {
+            "level": 10,
+            "export": "pet_house_lvl10"
+          },
+          {
+            "level": 12,
+            "export": "pet_house_lvl12"
+          }
         ]
       },
       "has_prose": false
@@ -6971,7 +7690,8 @@
         "export": "revenge_tower_lvl2",
         "alternates": [
           "revenge_tower_lvl1"
-        ]
+        ],
+        "levels": []
       },
       "h1": "Revenge Tower — Clash of Clans",
       "head_title": "Revenge Tower | Clash of Clans Wiki | Goblins Farm",
@@ -7102,6 +7822,24 @@
           "merged_cannon_lvl3",
           "merged_cannon_lvl2",
           "merged_cannon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "merged_cannon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "merged_cannon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "merged_cannon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "merged_cannon_lvl4"
+          }
         ]
       },
       "h1": "Ricochet Cannon — Clash of Clans",
@@ -7272,6 +8010,32 @@
           "ice_breaker_lvl3",
           "ice_breaker_lvl2",
           "ice_breaker_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "ice_breaker_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "ice_breaker_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "ice_breaker_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "ice_breaker_lvl5"
+          },
+          {
+            "level": 6,
+            "export": "ice_breaker_lvl6"
+          },
+          {
+            "level": 7,
+            "export": "ice_breaker_lvl7"
+          }
         ]
       },
       "h1": "Scattershot — Clash of Clans",
@@ -7478,6 +8242,32 @@
           "spell_factory_lvl4",
           "spell_factory_lvl3",
           "spell_factory_lvl2"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spell_factory_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "spell_factory_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "spell_factory_lvl4"
+          },
+          {
+            "level": 6,
+            "export": "spell_factory_lvl6"
+          },
+          {
+            "level": 7,
+            "export": "spell_factory_lvl7"
+          },
+          {
+            "level": 9,
+            "export": "spell_factory_lvl9"
+          }
         ]
       },
       "has_prose": false
@@ -7602,6 +8392,24 @@
           "spell_tower_lvl3_rage",
           "spell_tower_lvl2_rage",
           "spell_tower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spell_tower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "spell_tower_lvl2_rage"
+          },
+          {
+            "level": 3,
+            "export": "spell_tower_lvl3_rage"
+          },
+          {
+            "level": 4,
+            "export": "spell_tower_lvl4_earthquake"
+          }
         ]
       },
       "h1": "Spell Tower — Clash of Clans",
@@ -7711,7 +8519,8 @@
         "export": "merged_wizard_tower_lvl2",
         "alternates": [
           "merged_wizard_tower_lvl1"
-        ]
+        ],
+        "levels": []
       },
       "h1": "Super Wizard Tower — Clash of Clans",
       "head_title": "Super Wizard Tower | Clash of Clans Wiki | Goblins Farm",
@@ -7779,7 +8588,8 @@
         "export": "town_hall_lvl18_t1",
         "alternates": [
           "town_hall_lvl18_t1_covered"
-        ]
+        ],
+        "levels": []
       },
       "has_prose": false
     },
@@ -8075,6 +8885,32 @@
           "defense_wall_lvl14",
           "defense_wall_lvl13",
           "defense_wall_lvl12"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "defense_wall_lvl1"
+          },
+          {
+            "level": 5,
+            "export": "defense_wall_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "defense_wall_lvl8"
+          },
+          {
+            "level": 12,
+            "export": "defense_wall_lvl12"
+          },
+          {
+            "level": 15,
+            "export": "defense_wall_lvl15"
+          },
+          {
+            "level": 19,
+            "export": "defense_wall_lvl19"
+          }
         ]
       },
       "h1": "Wall — Clash of Clans",
@@ -8358,6 +9194,32 @@
           "wizard_tower_lvl16",
           "wizard_tower_lvl15",
           "wizard_tower_lvl14"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "wizard_tower_lvl1"
+          },
+          {
+            "level": 4,
+            "export": "wizard_tower_lvl8"
+          },
+          {
+            "level": 7,
+            "export": "wizard_tower_lvl11"
+          },
+          {
+            "level": 11,
+            "export": "wizard_tower_lvl15"
+          },
+          {
+            "level": 14,
+            "export": "wizard_tower_lvl18"
+          },
+          {
+            "level": 17,
+            "export": "wizard_tower_lvl21"
+          }
         ]
       },
       "h1": "Wizard Tower — Clash of Clans",
@@ -8536,6 +9398,32 @@
           "siegeWorkshop_lvl4",
           "siegeWorkshop_lvl3",
           "siegeWorkshop_lvl2"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "siegeWorkshop_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "siegeWorkshop_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "siegeWorkshop_lvl4"
+          },
+          {
+            "level": 6,
+            "export": "siegeWorkshop_lvl6"
+          },
+          {
+            "level": 7,
+            "export": "siegeWorkshop_lvl7"
+          },
+          {
+            "level": 9,
+            "export": "siegeWorkshop_lvl9"
+          }
         ]
       },
       "has_prose": false
@@ -8759,6 +9647,32 @@
           "rapidfire_turret_lvl8",
           "rapidfire_turret_lvl7",
           "rapidfire_turret_lvl6"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "rapidfire_turret_lvl1"
+          },
+          {
+            "level": 3,
+            "export": "rapidfire_turret_lvl3"
+          },
+          {
+            "level": 6,
+            "export": "rapidfire_turret_lvl6"
+          },
+          {
+            "level": 8,
+            "export": "rapidfire_turret_lvl8"
+          },
+          {
+            "level": 11,
+            "export": "rapidfire_turret_lvl11"
+          },
+          {
+            "level": 13,
+            "export": "rapidfire_turret_lvl13"
+          }
         ]
       },
       "h1": "X-Bow — Clash of Clans",

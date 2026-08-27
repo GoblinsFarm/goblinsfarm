@@ -194,6 +194,28 @@
           "cc_airDefence_factory_lvl3",
           "cc_airDefence_factory_lvl2",
           "cc_airDefence_factory_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "cc_airDefence_factory_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "cc_airDefence_factory_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "cc_airDefence_factory_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "cc_airDefence_factory_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "cc_airDefence_factory_lvl5"
+          }
         ]
       },
       "h1": "Air Bombs (Clan Capital)",
@@ -294,6 +316,28 @@
           "capital_firecrackers_03",
           "capital_firecrackers_02",
           "capital_firecrackers_01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_firecrackers_01"
+          },
+          {
+            "level": 2,
+            "export": "capital_firecrackers_02"
+          },
+          {
+            "level": 3,
+            "export": "capital_firecrackers_03"
+          },
+          {
+            "level": 4,
+            "export": "capital_firecrackers_04"
+          },
+          {
+            "level": 5,
+            "export": "capital_firecrackers_05"
+          }
         ]
       },
       "h1": "Air Defense (Clan Capital)",
@@ -390,6 +434,28 @@
           "armyfield_lvl03",
           "armyfield_lvl02",
           "armyfield_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "armyfield_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "armyfield_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "armyfield_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "armyfield_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "armyfield_lvl05"
+          }
         ]
       },
       "h1": "Army Camp (Clan Capital)",
@@ -486,6 +552,28 @@
           "troop_barrack_battle_ram_lvl3",
           "troop_barrack_battle_ram_lvl2",
           "troop_barrack_battle_ram_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_battle_ram_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_battle_ram_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_battle_ram_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_battle_ram_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_battle_ram_lvl5"
+          }
         ]
       },
       "h1": "Battle Ram Barracks (Clan Capital)",
@@ -586,6 +674,28 @@
           "capital_queen_tower_lvl3",
           "capital_queen_tower_lvl2",
           "capital_queen_tower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_queen_tower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_queen_tower_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_queen_tower_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_queen_tower_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_queen_tower_lvl5"
+          }
         ]
       },
       "h1": "Blast Bow (Clan Capital)",
@@ -686,6 +796,28 @@
           "capital_bombtower_lvl3",
           "capital_bombtower_lvl2",
           "capital_bombtower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_bombtower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_bombtower_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_bombtower_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_bombtower_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_bombtower_lvl5"
+          }
         ]
       },
       "h1": "Bomb Tower (Clan Capital)",
@@ -786,6 +918,28 @@
           "capital_cannon_lvl3",
           "capital_cannon_lvl2",
           "capital_cannon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_cannon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_cannon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_cannon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_cannon_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_cannon_lvl5"
+          }
         ]
       },
       "h1": "Cannon (Clan Capital)",
@@ -923,6 +1077,32 @@
           "d0_HQ_lvl05",
           "d0_HQ_lvl04",
           "d0_HQ_lvl03"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "d0_HQ_lvl01"
+          },
+          {
+            "level": 3,
+            "export": "d0_HQ_lvl03"
+          },
+          {
+            "level": 5,
+            "export": "d0_HQ_lvl05"
+          },
+          {
+            "level": 6,
+            "export": "d0_HQ_lvl06"
+          },
+          {
+            "level": 8,
+            "export": "d0_HQ_lvl08"
+          },
+          {
+            "level": 10,
+            "export": "d0_HQ_lvl10"
+          }
         ]
       },
       "h1": "Capital Hall (Clan Capital)",
@@ -982,7 +1162,8 @@
       "art": {
         "sheet": "buildings_cc",
         "export": "playerhouse_dummy",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "h1": "Clan House (Clan Capital)",
       "head_title": "Clan House (Clan Capital) — Clash of Clans Wiki",
@@ -1082,6 +1263,28 @@
           "capital_crusher_lvl3",
           "capital_crusher_lvl2",
           "capital_crusher_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_crusher_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_crusher_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_crusher_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_crusher_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_crusher_lvl5"
+          }
         ]
       },
       "h1": "Crusher (Clan Capital)",
@@ -1176,6 +1379,28 @@
           "d1_HQ_lvl03",
           "d1_HQ_lvl02",
           "d1_HQ_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "d1_HQ_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "d1_HQ_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "d1_HQ_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "d1_HQ_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "d1_HQ_lvl06"
+          }
         ]
       },
       "h1": "District Hall (Clan Capital)",
@@ -1263,6 +1488,24 @@
           "spellfactory_speed_lvl03",
           "spellfactory_speed_lvl02",
           "spellfactory_speed_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_speed_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_speed_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_speed_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_speed_lvl04"
+          }
         ]
       },
       "h1": "Endless Haste Spell Factory (Clan Capital)",
@@ -1359,6 +1602,28 @@
           "troop_barrack_airship_lvl3",
           "troop_barrack_airship_lvl2",
           "troop_barrack_airship_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_airship_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_airship_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_airship_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_airship_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_airship_lvl5"
+          }
         ]
       },
       "h1": "Flying Fortress Yard (Clan Capital)",
@@ -1455,6 +1720,28 @@
           "spellfactory_frost_lvl03",
           "spellfactory_frost_lvl02",
           "spellfactory_frost_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_frost_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_frost_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_frost_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_frost_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "spellfactory_frost_lvl05"
+          }
         ]
       },
       "h1": "Frost Spell Factory (Clan Capital)",
@@ -1555,6 +1842,28 @@
           "capital_giant_cannon_lvl3",
           "capital_giant_cannon_lvl2",
           "capital_giant_cannon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_giant_cannon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_giant_cannon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_giant_cannon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_giant_cannon_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_giant_cannon_lvl5"
+          }
         ]
       },
       "h1": "Giant Cannon (Clan Capital)",
@@ -1645,6 +1954,24 @@
           "capital_goblin_thrower_lvl3",
           "capital_goblin_thrower_lvl2",
           "capital_goblin_thrower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_goblin_thrower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_goblin_thrower_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_goblin_thrower_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_goblin_thrower_lvl4"
+          }
         ]
       },
       "h1": "Goblin Thrower (Clan Capital)",
@@ -1732,6 +2059,24 @@
           "spellfactory_skeleton_lvl03",
           "spellfactory_skeleton_lvl02",
           "spellfactory_skeleton_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_skeleton_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_skeleton_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_skeleton_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_skeleton_lvl04"
+          }
         ]
       },
       "h1": "Graveyard Spell Factory (Clan Capital)",
@@ -1828,6 +2173,28 @@
           "spellfactory_heal_lvl03",
           "spellfactory_heal_lvl02",
           "spellfactory_heal_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_heal_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_heal_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_heal_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_heal_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "spellfactory_heal_lvl05"
+          }
         ]
       },
       "h1": "Heal Spell Factory (Clan Capital)",
@@ -1924,6 +2291,28 @@
           "troop_barrack_hog_glider_lvl3",
           "troop_barrack_hog_glider_lvl2",
           "troop_barrack_hog_glider_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_hog_glider_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_hog_glider_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_hog_glider_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_hog_glider_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_hog_glider_lvl5"
+          }
         ]
       },
       "h1": "Hog Raider Barracks (Clan Capital)",
@@ -2011,6 +2400,24 @@
           "troop_barrack_inf_baby_dragon_lvl3",
           "troop_barrack_inf_baby_dragon_lvl2",
           "troop_barrack_inf_baby_dragon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_inf_baby_dragon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_inf_baby_dragon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_inf_baby_dragon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_inf_baby_dragon_lvl4"
+          }
         ]
       },
       "h1": "Inferno Dragon Barracks (Clan Capital)",
@@ -2111,6 +2518,28 @@
           "capital_inferno_lvl3",
           "capital_inferno_lvl2",
           "capital_inferno_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_inferno_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_inferno_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_inferno_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_inferno_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_inferno_lvl5"
+          }
         ]
       },
       "h1": "Inferno Tower (Clan Capital)",
@@ -2207,6 +2636,28 @@
           "spellfactory_jump_lvl03",
           "spellfactory_jump_lvl02",
           "spellfactory_jump_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_jump_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_jump_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_jump_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_jump_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "spellfactory_jump_lvl05"
+          }
         ]
       },
       "h1": "Jump Spell Factory (Clan Capital)",
@@ -2303,6 +2754,28 @@
           "spellfactory_lightning_lvl03",
           "spellfactory_lightning_lvl02",
           "spellfactory_lightning_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_lightning_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_lightning_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_lightning_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_lightning_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "spellfactory_lightning_lvl05"
+          }
         ]
       },
       "h1": "Lightning Spell Factory (Clan Capital)",
@@ -2390,6 +2863,24 @@
           "troop_barrack_zappy_barracks_lvl3",
           "troop_barrack_zappy_barracks_lvl2",
           "troop_barrack_zappy_barracks_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_zappy_barracks_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_zappy_barracks_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_zappy_barracks_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_zappy_barracks_lvl4"
+          }
         ]
       },
       "h1": "Mega Sparky Workshop (Clan Capital)",
@@ -2480,6 +2971,24 @@
           "capital_minion_crypt_lvl_3",
           "capital_minion_crypt_lvl_2",
           "capital_minion_crypt_lvl_1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_minion_crypt_lvl_1"
+          },
+          {
+            "level": 2,
+            "export": "capital_minion_crypt_lvl_2"
+          },
+          {
+            "level": 3,
+            "export": "capital_minion_crypt_lvl_3"
+          },
+          {
+            "level": 4,
+            "export": "capital_minion_crypt_lvl_4"
+          }
         ]
       },
       "h1": "Mini-Minion Hive (Clan Capital)",
@@ -2576,6 +3085,28 @@
           "troop_barrack_minion_lvl3",
           "troop_barrack_minion_lvl2",
           "troop_barrack_minion_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_minion_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_minion_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_minion_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_minion_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_minion_lvl5"
+          }
         ]
       },
       "h1": "Minion Barracks (Clan Capital)",
@@ -2672,6 +3203,28 @@
           "troop_barrack_golem_quarry_lvl3",
           "troop_barrack_golem_quarry_lvl2",
           "troop_barrack_golem_quarry_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_golem_quarry_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_golem_quarry_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_golem_quarry_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_golem_quarry_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_golem_quarry_lvl5"
+          }
         ]
       },
       "h1": "Mountain Golem Quarry (Clan Capital)",
@@ -2772,6 +3325,28 @@
           "capital_multicannon_lvl3",
           "capital_multicannon_lvl2",
           "capital_multicannon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_multicannon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_multicannon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_multicannon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_multicannon_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_multicannon_lvl5"
+          }
         ]
       },
       "h1": "Multi Cannon (Clan Capital)",
@@ -2872,6 +3447,28 @@
           "capital_multimortar_lvl3",
           "capital_multimortar_lvl2",
           "capital_multimortar_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_multimortar_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_multimortar_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_multimortar_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_multimortar_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_multimortar_lvl5"
+          }
         ]
       },
       "h1": "Multi Mortar (Clan Capital)",
@@ -2968,6 +3565,28 @@
           "troop_barrack_super_pekka_lvl3",
           "troop_barrack_super_pekka_lvl2",
           "troop_barrack_super_pekka_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_super_pekka_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_super_pekka_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_super_pekka_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_super_pekka_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_super_pekka_lvl5"
+          }
         ]
       },
       "h1": "Power P.E.K.K.A Barracks (Clan Capital)",
@@ -3064,6 +3683,28 @@
           "spellfactory_rage_lvl03",
           "spellfactory_rage_lvl02",
           "spellfactory_rage_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spellfactory_rage_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "spellfactory_rage_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "spellfactory_rage_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "spellfactory_rage_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "spellfactory_rage_lvl05"
+          }
         ]
       },
       "h1": "Rage Spell Factory (Clan Capital)",
@@ -3160,6 +3801,28 @@
           "troop_barrack_cannon_cart_lvl3",
           "troop_barrack_cannon_cart_lvl2",
           "troop_barrack_cannon_cart_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_cannon_cart_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_cannon_cart_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_cannon_cart_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_cannon_cart_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_cannon_cart_lvl5"
+          }
         ]
       },
       "h1": "Raid Cart Barracks (Clan Capital)",
@@ -3257,6 +3920,28 @@
           "cc_guard_tower_card_lvl03",
           "cc_guard_tower_card_lvl02",
           "cc_guard_tower_card_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "cc_guard_tower_card_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "cc_guard_tower_card_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "cc_guard_tower_card_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "cc_guard_tower_card_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "cc_guard_tower_card_lvl05"
+          }
         ]
       },
       "h1": "Raid Cart Post (Clan Capital)",
@@ -3357,6 +4042,28 @@
           "capital_airdefense_lvl3",
           "capital_airdefense_lvl2",
           "capital_airdefense_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_airdefense_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_airdefense_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_airdefense_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_airdefense_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_airdefense_lvl5"
+          }
         ]
       },
       "h1": "Rapid Rockets (Clan Capital)",
@@ -3447,6 +4154,24 @@
           "capital_reflector_03",
           "capital_reflector_02",
           "capital_reflector_01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_reflector_01"
+          },
+          {
+            "level": 2,
+            "export": "capital_reflector_02"
+          },
+          {
+            "level": 3,
+            "export": "capital_reflector_03"
+          },
+          {
+            "level": 4,
+            "export": "capital_reflector_04"
+          }
         ]
       },
       "h1": "Reflector (Clan Capital)",
@@ -3547,6 +4272,28 @@
           "capital_mortar_lvl3",
           "capital_mortar_lvl2",
           "capital_mortar_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_mortar_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_mortar_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_mortar_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_mortar_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_mortar_lvl5"
+          }
         ]
       },
       "h1": "Rocket Artillery (Clan Capital)",
@@ -3643,6 +4390,28 @@
           "troop_barrack_hasty_balloon_lvl3",
           "troop_barrack_hasty_balloon_lvl2",
           "troop_barrack_hasty_balloon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_hasty_balloon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_hasty_balloon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_hasty_balloon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_hasty_balloon_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_hasty_balloon_lvl5"
+          }
         ]
       },
       "h1": "Rocket Balloon Barracks (Clan Capital)",
@@ -3739,6 +4508,28 @@
           "troop_barrack_skeleton_balloon_lvl3",
           "troop_barrack_skeleton_balloon_lvl2",
           "troop_barrack_skeleton_balloon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_skeleton_balloon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_skeleton_balloon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_skeleton_balloon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_skeleton_balloon_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_skeleton_balloon_lvl5"
+          }
         ]
       },
       "h1": "Skeleton Barrel Barracks (Clan Capital)",
@@ -3835,6 +4626,28 @@
           "troop_barrack_sneaky_archer_lvl3",
           "troop_barrack_sneaky_archer_lvl2",
           "troop_barrack_sneaky_archer_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_sneaky_archer_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_sneaky_archer_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_sneaky_archer_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_sneaky_archer_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_sneaky_archer_lvl5"
+          }
         ]
       },
       "h1": "Sneaky Archer Barracks (Clan Capital)",
@@ -3935,6 +4748,28 @@
           "ballista_tower_lvl3",
           "ballista_tower_lvl2",
           "ballista_tower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "ballista_tower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "ballista_tower_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "ballista_tower_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "ballista_tower_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "ballista_tower_lvl5"
+          }
         ]
       },
       "h1": "Spear Thrower (Clan Capital)",
@@ -4031,6 +4866,28 @@
           "spell_housing_lvl3",
           "spell_housing_lvl2",
           "spell_housing_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "spell_housing_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "spell_housing_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "spell_housing_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "spell_housing_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "spell_housing_lvl5"
+          }
         ]
       },
       "h1": "Spell Storage (Clan Capital)",
@@ -4127,6 +4984,28 @@
           "troop_barrack_super_barbarian_lvl3",
           "troop_barrack_super_barbarian_lvl2",
           "troop_barrack_super_barbarian_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_super_barbarian_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_super_barbarian_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_super_barbarian_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_super_barbarian_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_super_barbarian_lvl5"
+          }
         ]
       },
       "h1": "Super Barbarian Barracks (Clan Capital)",
@@ -4223,6 +5102,28 @@
           "troop_barrack_super_dragon_lvl3",
           "troop_barrack_super_dragon_lvl2",
           "troop_barrack_super_dragon_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_super_dragon_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_super_dragon_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_super_dragon_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_super_dragon_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_super_dragon_lvl5"
+          }
         ]
       },
       "h1": "Super Dragon Barracks (Clan Capital)",
@@ -4320,6 +5221,28 @@
           "cc_guard_tower_dragon_lvl03",
           "cc_guard_tower_dragon_lvl01",
           "cc_guard_tower_dragon_lvl02"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "cc_guard_tower_dragon_lvl02"
+          },
+          {
+            "level": 2,
+            "export": "cc_guard_tower_dragon_lvl01"
+          },
+          {
+            "level": 3,
+            "export": "cc_guard_tower_dragon_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "cc_guard_tower_dragon_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "cc_guard_tower_dragon_lvl05"
+          }
         ]
       },
       "h1": "Super Dragon Post (Clan Capital)",
@@ -4416,6 +5339,28 @@
           "troop_barrack_giant_lvl3",
           "troop_barrack_giant_lvl2",
           "troop_barrack_giant_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_giant_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_giant_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_giant_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_giant_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_giant_lvl5"
+          }
         ]
       },
       "h1": "Super Giant Barracks (Clan Capital)",
@@ -4513,6 +5458,28 @@
           "cc_guard_tower_giant_lvl03",
           "cc_guard_tower_giant_lvl02",
           "cc_guard_tower_giant_lvl01"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "cc_guard_tower_giant_lvl01"
+          },
+          {
+            "level": 2,
+            "export": "cc_guard_tower_giant_lvl02"
+          },
+          {
+            "level": 3,
+            "export": "cc_guard_tower_giant_lvl03"
+          },
+          {
+            "level": 4,
+            "export": "cc_guard_tower_giant_lvl04"
+          },
+          {
+            "level": 5,
+            "export": "cc_guard_tower_giant_lvl05"
+          }
         ]
       },
       "h1": "Super Giant Post (Clan Capital)",
@@ -4600,6 +5567,24 @@
           "troop_barrack_miner_lvl3",
           "troop_barrack_miner_lvl2",
           "troop_barrack_miner_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_miner_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_miner_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_miner_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_miner_lvl4"
+          }
         ]
       },
       "h1": "Super Miner Barracks (Clan Capital)",
@@ -4696,6 +5681,28 @@
           "troop_barrack_super_wizard_lvl3",
           "troop_barrack_super_wizard_lvl2",
           "troop_barrack_super_wizard_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_barrack_super_wizard_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "troop_barrack_super_wizard_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "troop_barrack_super_wizard_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "troop_barrack_super_wizard_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "troop_barrack_super_wizard_lvl5"
+          }
         ]
       },
       "h1": "Super Wizard Barracks (Clan Capital)",
@@ -4796,6 +5803,28 @@
           "capital_wizard_tower_lvl3",
           "capital_wizard_tower_lvl2",
           "capital_wizard_tower_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "capital_wizard_tower_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "capital_wizard_tower_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "capital_wizard_tower_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "capital_wizard_tower_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "capital_wizard_tower_lvl5"
+          }
         ]
       },
       "h1": "Super Wizard Tower (Clan Capital)",
@@ -4890,6 +5919,28 @@
           "cc_defense_wall_big_lvl3",
           "cc_defense_wall_big_lvl2",
           "cc_defense_wall_big_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "cc_defense_wall_big_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "cc_defense_wall_big_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "cc_defense_wall_big_lvl3"
+          },
+          {
+            "level": 4,
+            "export": "cc_defense_wall_big_lvl4"
+          },
+          {
+            "level": 5,
+            "export": "cc_defense_wall_big_lvl5"
+          }
         ]
       },
       "h1": "Wall (Clan Capital)",

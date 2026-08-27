@@ -126,10 +126,9 @@ def strip_tags(markup: str) -> str:
 def artwork(collection: str, slug: str) -> dict | None:
     """The picture for one entry, preferring the real thing.
 
-    Game art is only available for units -- troops, pets, siege machines and the
-    two side villages' rosters. Buildings, spells, traps and equipment fall back
-    to the drawn emblem, so every page has a picture and none of them has a
-    broken image. `photo` says which it is, because the two want different
+    Nearly everything has real game art now; what falls back to the drawn emblem
+    is the prose sections -- mechanics, tutorials, news -- which are not pictures
+    of anything. `photo` says which it is, because the two want different
     framing: a portrait fills its box, an emblem sits in one.
     """
     folder = collection.replace("_", "-")
@@ -142,6 +141,22 @@ def artwork(collection: str, slug: str) -> dict | None:
     return None
 
 
+def level_strip(collection: str, entry: dict) -> list[dict]:
+    """The one-per-level frames art.py wrote beside this entry's picture.
+
+    Only buildings and traps have them: the game draws each of their levels
+    separately, and on a page that is otherwise a table of numbers, seeing the
+    Cannon go from a wooden stump to a plated gun is the content.
+    """
+    folder = collection.replace("_", "-")
+    out = []
+    for step in (entry.get("art") or {}).get("levels", []):
+        rel = f"assets/art/{folder}/levels/{entry['slug']}-{step['level']}.webp"
+        if (ROOT / rel).exists():
+            out.append({"src": rel, "level": step["level"]})
+    return out
+
+
 # --------------------------------------------------------------------------- registry
 class Registry:
     """Maps 'collection:slug' and bare slugs to a page URL and label."""
@@ -151,7 +166,8 @@ class Registry:
         self.unresolved: list[str] = []
 
     def add(self, collection: str, slug: str, url: str, label: str):
-        record = {"href": url.lstrip("/"), "label": label}
+        record = {"href": url.lstrip("/"), "label": label,
+                  "image": artwork(collection, slug)}
         self.by_key[f"{collection}:{slug}"] = record
         self.by_key.setdefault(slug, record)
 
@@ -557,6 +573,7 @@ def main() -> int:
                 "related": resolve_related(entry, url),
                 "crumbs": crumbs,
                 "image": artwork(name, entry["slug"]),
+                "strip": level_strip(name, entry),
                 "show_tool_note": entry.get("show_tool_note", False),
                 "iso_updated": entry.get("iso_updated", site["iso_updated"]),
                 # entry-level source wins: hand-written collections carry no

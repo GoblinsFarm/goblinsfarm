@@ -200,7 +200,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl1",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 1 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -311,7 +312,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl2",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 2 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -425,7 +427,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl3",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 3 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -536,7 +539,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl4",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 4 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -647,7 +651,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl5",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 5 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -755,7 +760,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl6",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 6 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -875,7 +881,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl7",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 7 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -989,7 +996,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl8",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 8 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1103,7 +1111,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl9",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 9 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1211,7 +1220,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl10",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 10 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1322,7 +1332,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl11",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 11 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1430,7 +1441,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl12_t5",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 12 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1541,7 +1553,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl13_t5",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 13 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1649,7 +1662,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl14_t5",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 14 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1760,7 +1774,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl15_t5",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 15 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1871,7 +1886,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl16",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 16 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -1988,7 +2004,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl17_t1",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 17 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
@@ -2099,7 +2116,8 @@
       "art": {
         "sheet": "buildings",
         "export": "town_hall_lvl18_t1",
-        "alternates": []
+        "alternates": [],
+        "levels": []
       },
       "head_title": "Town Hall 18 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [

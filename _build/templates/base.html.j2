@@ -33,7 +33,7 @@
   </nav>
 </header>
 
-<main class="doc{% if page.wide %} wide{% endif %}">
+<main class="doc{% if not page.wide and page.section != 'wiki' %} narrow{% endif %}">
 {%- if page.crumbs %}
 <div class="crumbs">
   {%- for c in page.crumbs %}
@@ -67,11 +67,14 @@
 {%- if page.related %}
 <div class="related">
 <h2>Keep reading</h2>
-<ul>
+<div class="readon">
 {%- for r in page.related %}
-<li><a href="{{ rel }}{{ r.href }}">{{ r.label }}</a></li>
+<a class="readon-item{% if r.image is defined and r.image %} hasart{% endif %}" href="{{ rel }}{{ r.href }}">
+  {%- if r.image is defined and r.image %}<img class="thumb" src="{{ rel }}{{ r.image.src }}" alt="" width="48" height="48" loading="lazy" decoding="async">{% endif %}
+  <span>{{ r.label }}</span>
+</a>
 {%- endfor %}
-</ul>
+</div>
 </div>
 {%- endif %}
 

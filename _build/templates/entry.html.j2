@@ -22,6 +22,7 @@
 {%- for s in page.sections %}
 <li><a href="#{{ s.id }}">{{ s.h }}</a></li>
 {%- endfor %}
+{%- if page.strip %}<li><a href="#levels">How it looks at each level</a></li>{% endif %}
 {%- if page.tables %}<li><a href="#stats">Stats by level</a></li>{% endif %}
 {%- if page.faq %}<li><a href="#faq">Frequently asked</a></li>{% endif %}
 </ol>
@@ -33,7 +34,19 @@
 {{ s.body }}
 {%- endfor %}
 
+{%- if page.strip %}
+<div class="block">
+<h2 id="levels">How it looks at each level</h2>
+<div class="strip">
+{%- for f in page.strip %}
+<figure><span class="frame"><img src="{{ rel }}{{ f.src }}" alt="{{ page.h1 }} level {{ f.level }}" loading="lazy" decoding="async"></span><figcaption>Level {{ f.level }}</figcaption></figure>
+{%- endfor %}
+</div>
+</div>
+{%- endif %}
+
 {%- if page.tables %}
+<div class="block">
 <h2 id="stats">Stats by level</h2>
 {%- for t in page.tables %}
 <div class="tablewrap">
@@ -58,6 +71,7 @@
 <p>Cells marked <span class="todo">{{ site.todo }}</span> are values the source snapshot does not contain. They are left blank deliberately rather than estimated. A dash means the field does not apply, which is a different thing.</p>
 {%- endif %}
 {%- if page.source %}<p style="font-size:13px;color:#9a8567;margin-bottom:0">{{ page.source.attribution }}</p>{% endif %}
+</div>
 </div>
 {%- endif %}
 

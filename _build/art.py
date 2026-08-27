@@ -33,6 +33,8 @@ DRAWN = ROOT.parent / "coc-gamefiles" / "art" / "png" / "named"
 OUT = ROOT / "assets" / "art"
 
 MAX_HEIGHT = 256
+# The level strip runs six abreast under the stats, so each frame is small.
+STRIP_HEIGHT = 132
 
 # Rows whose art column points at another unit's picture. The Dragon Duke's still
 # holds the Builder Base Battle Copter it was copied from, so he would get a
@@ -75,6 +77,14 @@ def source(entry: dict, key: str) -> Path | None:
     return path if path.exists() else None
 
 
+def web_copy(src: Path, dest: Path, height: int) -> None:
+    im = Image.open(src).convert("RGBA")
+    if im.height > height:
+        im = im.resize((max(1, round(im.width * height / im.height)), height), Image.LANCZOS)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    im.save(dest, "WEBP", quality=88, method=6)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sheet", action="store_true")
@@ -106,15 +116,18 @@ def main() -> int:
                 if entry.get("art") and key not in BORROWED:
                     unmatched.append(key)
                 continue
-            im = Image.open(src).convert("RGBA")
-            if im.height > MAX_HEIGHT:
-                im = im.resize((max(1, round(im.width * MAX_HEIGHT / im.height)), MAX_HEIGHT),
-                               Image.LANCZOS)
-            folder.mkdir(parents=True, exist_ok=True)
             dest = folder / f"{entry['slug']}.webp"
-            im.save(dest, "WEBP", quality=88, method=6)
+            web_copy(src, dest, MAX_HEIGHT)
             hits += 1
             matched.append((entry["name"], dest))
+
+            # A building looks different at level 1 and level 21, and the page is
+            # otherwise a table. Write the strip beside it.
+            for step in (entry.get("art") or {}).get("levels", []):
+                frame = DRAWN / f"{entry['art']['sheet']}__{step['export']}.png"
+                if frame.exists():
+                    web_copy(frame, folder / "levels" / f"{entry['slug']}-{step['level']}.webp",
+                             STRIP_HEIGHT)
         report.append((collection, hits, len(data["entries"])))
 
     total = sum(h for _, h, _ in report)

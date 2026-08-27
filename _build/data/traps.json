@@ -245,6 +245,32 @@
           "air_trap_setup_lvl5",
           "air_trap_setup_lvl3",
           "air_trap_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "air_trap_setup"
+          },
+          {
+            "level": 3,
+            "export": "air_trap_setup_lvl3"
+          },
+          {
+            "level": 6,
+            "export": "air_trap_setup_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "air_trap_setup_lvl6"
+          },
+          {
+            "level": 11,
+            "export": "air_trap_setup_lvl11"
+          },
+          {
+            "level": 13,
+            "export": "air_trap_setup_lvl13"
+          }
         ]
       },
       "has_prose": false
@@ -472,6 +498,32 @@
           "bomp_trap_lvl5_setup",
           "bomp_trap_lvl3_setup",
           "bomp_trap_lvl1_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "bomp_trap_lvl1_setup"
+          },
+          {
+            "level": 4,
+            "export": "bomp_trap_lvl3_setup"
+          },
+          {
+            "level": 6,
+            "export": "bomp_trap_lvl5_setup"
+          },
+          {
+            "level": 9,
+            "export": "bomp_trap_lvl9_setup"
+          },
+          {
+            "level": 11,
+            "export": "bomp_trap_lvl10_setup"
+          },
+          {
+            "level": 14,
+            "export": "bomp_trap_lvl11_setup"
+          }
         ]
       },
       "has_prose": false
@@ -672,6 +724,32 @@
           "giant_bomb_setup_lvl5",
           "giant_bomb_setup_lvl3",
           "giant_bomb_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "giant_bomb_setup"
+          },
+          {
+            "level": 3,
+            "export": "giant_bomb_setup_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "giant_bomb_setup_lvl5"
+          },
+          {
+            "level": 8,
+            "export": "giant_bomb_setup_lvl6"
+          },
+          {
+            "level": 10,
+            "export": "giant_bomb_setup_lvl7"
+          },
+          {
+            "level": 12,
+            "export": "giant_bomb_setup_lvl8"
+          }
         ]
       },
       "has_prose": false
@@ -770,6 +848,24 @@
           "giga_bomb_lvl3_setup",
           "giga_bomb_lvl2_setup",
           "giga_bomb_lvl1_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "giga_bomb_lvl1_setup"
+          },
+          {
+            "level": 2,
+            "export": "giga_bomb_lvl2_setup"
+          },
+          {
+            "level": 3,
+            "export": "giga_bomb_lvl3_setup"
+          },
+          {
+            "level": 4,
+            "export": "giga_bomb_lvl4_setup"
+          }
         ]
       },
       "has_prose": false
@@ -936,6 +1032,32 @@
           "evil_airTrap_setup_lvl5",
           "evil_airTrap_setup_lvl3",
           "evil_airTrap_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "evil_airTrap_setup"
+          },
+          {
+            "level": 2,
+            "export": "evil_airTrap_setup"
+          },
+          {
+            "level": 4,
+            "export": "evil_airTrap_setup_lvl3"
+          },
+          {
+            "level": 5,
+            "export": "evil_airTrap_setup_lvl5"
+          },
+          {
+            "level": 7,
+            "export": "evil_airTrap_setup_lvl7"
+          },
+          {
+            "level": 8,
+            "export": "evil_airTrap_setup_lvl7"
+          }
         ]
       },
       "has_prose": false
@@ -1076,6 +1198,28 @@
         "alternates": [
           "troop_trap_land_lvl3_setup",
           "troop_trap_land_lvl1_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "troop_trap_land_lvl1_setup"
+          },
+          {
+            "level": 2,
+            "export": "troop_trap_land_lvl1_setup"
+          },
+          {
+            "level": 3,
+            "export": "troop_trap_land_lvl3_setup"
+          },
+          {
+            "level": 4,
+            "export": "troop_trap_land_lvl3_setup"
+          },
+          {
+            "level": 5,
+            "export": "troop_trap_land_lvl4_setup"
+          }
         ]
       },
       "has_prose": false
@@ -1292,6 +1436,32 @@
           "eject_trap_lvl3_setup",
           "eject_trap_lvl2_setup",
           "eject_trap_lvl1_setup"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "eject_trap_lvl1_setup"
+          },
+          {
+            "level": 3,
+            "export": "eject_trap_lvl2_setup"
+          },
+          {
+            "level": 6,
+            "export": "eject_trap_lvl3_setup"
+          },
+          {
+            "level": 8,
+            "export": "eject_trap_lvl7_8_setup"
+          },
+          {
+            "level": 11,
+            "export": "eject_trap_lvl11_12_setup"
+          },
+          {
+            "level": 13,
+            "export": "eject_trap_lvl13_14_setup"
+          }
         ]
       },
       "has_prose": false
@@ -1405,6 +1575,20 @@
         "export": "tornado_trap_setup_lvl2",
         "alternates": [
           "tornado_trap_setup_lvl1"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "export": "tornado_trap_setup_lvl1"
+          },
+          {
+            "level": 2,
+            "export": "tornado_trap_setup_lvl2"
+          },
+          {
+            "level": 3,
+            "export": "tornado_trap_setup_lvl2"
+          }
         ]
       },
       "has_prose": false
