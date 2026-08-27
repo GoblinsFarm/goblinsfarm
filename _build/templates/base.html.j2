@@ -70,7 +70,7 @@
 
 {%- if page.related %}
 <div class="related">
-<h2>Keep reading</h2>
+<h2 class="withmascot">{% if mascot('related') %}<img class="mascot small" src="{{ rel }}{{ mascot('related') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}Keep reading</h2>
 <div class="readon">
 {%- for r in page.related %}
 <a class="readon-item{% if r.image is defined and r.image %} hasart{% endif %}" href="{{ rel }}{{ r.href }}">

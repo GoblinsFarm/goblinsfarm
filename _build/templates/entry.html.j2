@@ -2,7 +2,7 @@
 {% block content %}
 <p class="lede">{{ page.summary }}</p>
 {%- if page.stat_only %}
-<div class="note"><p><b>Reference page.</b> This entry carries verified level data but does not yet have a written strategy section. Behaviour and counter notes are being added across the wiki; the tables below are as complete as the source snapshot allows.</p></div>
+<div class="note speaks">{% if mascot('stat_only') %}<img class="mascot" src="{{ rel }}{{ mascot('stat_only') }}" alt="" width="90" height="90" loading="lazy" decoding="async">{% endif %}<div><p><b>Reference page.</b> This entry carries verified level data but does not yet have a written strategy section. Behaviour and counter notes are being added across the wiki; the tables below are as complete as the source snapshot allows.</p></div></div>
 {%- endif %}
 
 {%- if page.quick %}
@@ -38,7 +38,7 @@
 
 {%- if page.gear %}
 <div class="block">
-<h2 id="gear">Equipment for this hero</h2>
+<h2 id="gear" class="withmascot">{% if mascot('gear') %}<img class="mascot small" src="{{ rel }}{{ mascot('gear') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}Equipment for this hero</h2>
 <div class="grid">
 {%- for g in page.gear %}
 <a class="card{% if g.image %} hasart{% endif %}" href="{{ rel }}{{ g.href }}">
@@ -52,7 +52,7 @@
 
 {%- if page.unlocks %}
 <div class="block">
-<h2 id="unlocks">What it unlocks</h2>
+<h2 id="unlocks" class="withmascot">{% if mascot('unlocks') %}<img class="mascot small" src="{{ rel }}{{ mascot('unlocks') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}What it unlocks</h2>
 <div class="grid">
 {%- for u in page.unlocks %}
 <a class="card{% if u.image %} hasart{% endif %}" href="{{ rel }}{{ u.href }}">
@@ -66,7 +66,7 @@
 
 {%- if page.strip %}
 <div class="block">
-<h2 id="levels">How it looks at each level</h2>
+<h2 id="levels" class="withmascot">{% if mascot('levels') %}<img class="mascot small" src="{{ rel }}{{ mascot('levels') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}How it looks at each level</h2>
 <div class="strip">
 {%- for f in page.strip %}
 <figure><span class="frame"><img src="{{ rel }}{{ f.src }}" alt="{{ page.h1 }} level {{ f.level }}" loading="lazy" decoding="async"></span><figcaption>Level {{ f.level }}</figcaption></figure>
@@ -91,7 +91,9 @@
 </table>
 </div>
 {%- endfor %}
-<div class="note">
+<div class="note speaks">
+{%- if mascot('source') %}<img class="mascot" src="{{ rel }}{{ mascot('source') }}" alt="" width="90" height="90" loading="lazy" decoding="async">{% endif %}
+<div>
 {%- if page.source %}
 <p><b>Where these numbers come from.</b> {% if page.source.game_version %}Read from <a href="{{ page.source.url }}" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>{{ page.source.game_version }}</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.{% else %}{{ page.source.caption }}. Source: <a href="{{ page.source.url }}" rel="nofollow noopener" target="_blank">{{ page.source.name }}</a>.{% endif %}</p>
 {%- else %}
@@ -103,10 +105,11 @@
 {%- if page.source %}<p style="font-size:13px;color:#9a8567;margin-bottom:0">{{ page.source.attribution }}</p>{% endif %}
 </div>
 </div>
+</div>
 {%- endif %}
 
 {%- if page.faq %}
-<h2 id="faq">Frequently asked</h2>
+<h2 id="faq" class="withmascot">{% if mascot('faq') %}<img class="mascot small" src="{{ rel }}{{ mascot('faq') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}Frequently asked</h2>
 {%- for f in page.faq %}
 <h3>{{ f.q }}</h3>
 <p>{{ f.a }}</p>

@@ -161,6 +161,30 @@ ol.steps>li>b{display:block;color:var(--ink);font-size:16px;margin-bottom:3px}
 .portrait.drawn{background:none;border:0}
 .portrait.drawn img{max-width:104px;max-height:104px}
 
+/* Mascots. A callout reads faster when something is visibly telling it to you,
+   so the cast stands beside the notes and the section headings rather than being
+   scattered as ornament. They are decoration: empty alt, and they go away on a
+   phone, where a 90px figure would be a third of the width of the callout it is
+   supposed to be introducing. */
+.speaks{display:flex;align-items:flex-start;gap:16px}
+.speaks>div{min-width:0;flex:1 1 auto}
+.speaks>div>p:last-child{margin-bottom:0}
+.mascot{flex:0 0 auto;width:90px;height:auto;align-self:center;
+  filter:drop-shadow(0 3px 4px rgba(60,40,20,.18))}
+h2.withmascot{display:flex;align-items:center;gap:10px}
+h2.withmascot .mascot{width:52px}
+.mascot.big{width:112px}
+/* The greeting is usually one or two lines against a 112px figure, so centre the
+   text on it rather than leaving it stranded at the top of a tall row. */
+.intro{margin-bottom:10px;align-items:center}
+.intro>div{align-self:center}
+.intro .lede{margin-bottom:0;max-width:var(--measure)}
+.mascot.small{filter:drop-shadow(0 2px 3px rgba(60,40,20,.16))}
+
+@media(max-width:640px){
+  .mascot{display:none}
+}
+
 /* Level strip: the same building drawn at six points up its ladder. Scrolls
    inside itself on a narrow screen rather than squeezing the frames to nothing. */
 .strip{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 10px;margin:10px 0 6px}

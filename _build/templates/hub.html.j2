@@ -1,6 +1,13 @@
 {% extends "base.html.j2" %}
 {% block content %}
+{%- if page.mascot %}
+<div class="intro speaks">
+<img class="mascot big" src="{{ rel }}{{ page.mascot }}" alt="" width="130" height="130" decoding="async">
+<div><p class="lede">{{ page.summary }}</p></div>
+</div>
+{%- else %}
 <p class="lede">{{ page.summary }}</p>
+{%- endif %}
 
 {%- for s in page.sections %}
 <h2 id="{{ s.id }}">{{ s.h }}</h2>

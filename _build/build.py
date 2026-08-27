@@ -98,6 +98,42 @@ MECHANIC_BANNERS = {
 }
 
 
+# The cast, and where each one speaks. They are decoration with a job: a callout
+# reads faster when something is visibly telling you it. Kept to a handful per
+# page -- one on each note, one on the FAQ, one on the read-on row -- because the
+# point is a lively page, not a crowded one.
+MASCOTS = {
+    "stat_only": "scroll", "source": "magnify", "todo": "shrug",
+    "faq": "question", "related": "lantern",
+    "levels": "hammer", "unlocks": "cheer", "gear": "shield",
+}
+
+# One of the cast introduces each section, chosen for what the section is: the
+# scholar for the pages that explain things, the builder for the ones about
+# putting things up, the guard for the ones about stopping them.
+SECTION_MASCOTS = {
+    "troops": "point", "spells": "book", "heroes": "cheer", "equipment": "hammer",
+    "pets": "wave", "buildings": "hammer", "traps": "shield",
+    "townhalls": "coins", "mechanics": "book",
+    "bb_troops": "point", "bb_buildings": "hammer",
+    "capital_troops": "point", "capital_spells": "book",
+    "capital_buildings": "hammer", "capital_districts": "lantern",
+    "wiki": "wave", "tutorials": "book", "news": "scroll",
+}
+
+
+def section_mascot(key: str) -> str | None:
+    name = SECTION_MASCOTS.get(key)
+    return f"assets/mascots/{name}.webp" if name and (
+        ROOT / "assets" / "mascots" / f"{name}.webp").exists() else None
+
+
+def mascot(role: str) -> str | None:
+    name = MASCOTS.get(role)
+    return f"assets/mascots/{name}.webp" if name and (
+        ROOT / "assets" / "mascots" / f"{name}.webp").exists() else None
+
+
 def banner(key: str) -> str | None:
     name = BANNERS.get(key, key)
     return f"assets/banners/{name}.webp" if (ROOT / "assets" / "banners" / f"{name}.webp").exists() else None
@@ -488,6 +524,7 @@ def main() -> int:
         lstrip_blocks=False,
         autoescape=False,  # bodies are authored HTML fragments
     )
+    env.globals["mascot"] = mascot
 
     registry = Registry()
     written: list[tuple[str, str, str]] = []  # (url, priority, title)
@@ -525,7 +562,7 @@ def main() -> int:
         nonlocal todo_count
         for key, default in (
             ("section", "wiki"), ("wide", False), ("og_type", "article"), ("banner", None),
-            ("unlocks", None), ("strip", None), ("gear", None),
+            ("unlocks", None), ("strip", None), ("gear", None), ("mascot", None),
             ("tags", None), ("crumbs", None), ("byline", None), ("jsonld", []),
             ("related", None), ("show_tool_note", False), ("quick", None),
             ("sections", []), ("tables", None), ("faq", None), ("groups", []),
@@ -734,6 +771,7 @@ def main() -> int:
             "url": hub_url,
             "section": "wiki",
             "banner": banner(name),
+            "mascot": section_mascot(name),
             "h1": hub.get("h1", hub.get("nav_label", name.title())),
             "head_title": hub.get("head_title", f"{hub.get('h1', name.title())} | {site['name']}"),
             "description": hub.get("description", ""),
@@ -825,6 +863,7 @@ def main() -> int:
             "url": "/tutorials/",
             "section": "tutorials",
             "banner": banner("tutorials"),
+            "mascot": section_mascot("tutorials"),
             "h1": hub.get("h1", "Clash of Clans Tutorials"),
             "head_title": hub.get("head_title", f"Clash of Clans Tutorials | {site['name']}"),
             "description": hub.get("description", ""),
@@ -896,6 +935,7 @@ def main() -> int:
         "url": "/news/",
         "section": "news",
         "banner": banner("news"),
+        "mascot": section_mascot("news"),
         "h1": news_hub.get("h1", "Clash of Clans News"),
         "head_title": news_hub.get("head_title", f"Clash of Clans News | {site['name']}"),
         "description": news_hub.get("description", site.get("news_description", "")),
@@ -948,6 +988,7 @@ def main() -> int:
         "url": "/wiki/",
         "section": "wiki",
         "banner": banner("wiki"),
+        "mascot": section_mascot("wiki"),
         "h1": wiki.get("h1", "Clash of Clans Wiki"),
         "head_title": wiki.get("head_title", f"Clash of Clans Wiki | {site['name']}"),
         "description": wiki.get("description", ""),
