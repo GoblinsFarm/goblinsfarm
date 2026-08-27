@@ -116,77 +116,6 @@
               "0"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 1",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Army Camp"
-            ],
-            [
-              "B.O.B's Hut"
-            ],
-            [
-              "Barracks"
-            ],
-            [
-              "Builder's Hut"
-            ],
-            [
-              "Candy Cage"
-            ],
-            [
-              "Candy Cane"
-            ],
-            [
-              "Cannon"
-            ],
-            [
-              "Elixir Collector"
-            ],
-            [
-              "Elixir Storage"
-            ],
-            [
-              "Enemy Post"
-            ],
-            [
-              "Festive Fireworks"
-            ],
-            [
-              "Fizzling Fireworks"
-            ],
-            [
-              "Foreboding Cave"
-            ],
-            [
-              "Goblin Castle"
-            ],
-            [
-              "Goblin Hut"
-            ],
-            [
-              "Gold Mine"
-            ],
-            [
-              "Gold Storage"
-            ],
-            [
-              "Sour Elixir Cauldron"
-            ],
-            [
-              "Spell Cauldron"
-            ],
-            [
-              "Spell Surprise"
-            ],
-            [
-              "Troop Coop"
-            ]
-          ]
         }
       ],
       "related": [
@@ -196,6 +125,29 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Army Camp",
+        "B.O.B's Hut",
+        "Barracks",
+        "Builder's Hut",
+        "Candy Cage",
+        "Candy Cane",
+        "Cannon",
+        "Elixir Collector",
+        "Elixir Storage",
+        "Enemy Post",
+        "Festive Fireworks",
+        "Fizzling Fireworks",
+        "Foreboding Cave",
+        "Goblin Castle",
+        "Goblin Hut",
+        "Gold Mine",
+        "Gold Storage",
+        "Sour Elixir Cauldron",
+        "Spell Cauldron",
+        "Spell Surprise",
+        "Troop Coop"
+      ],
       "h1": "Town Hall 1: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -285,20 +237,6 @@
               "0"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 2",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Archer Tower"
-            ],
-            [
-              "Wall"
-            ]
-          ]
         }
       ],
       "related": [
@@ -308,6 +246,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Archer Tower",
+        "Wall"
+      ],
       "h1": "Town Hall 2: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -397,23 +339,6 @@
               "0"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 3",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Clan Castle"
-            ],
-            [
-              "Laboratory"
-            ],
-            [
-              "Mortar"
-            ]
-          ]
         }
       ],
       "related": [
@@ -423,6 +348,11 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Clan Castle",
+        "Laboratory",
+        "Mortar"
+      ],
       "h1": "Town Hall 3: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -512,20 +442,6 @@
               "0"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 4",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Air Defense"
-            ],
-            [
-              "Hero Hall"
-            ]
-          ]
         }
       ],
       "related": [
@@ -535,6 +451,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Air Defense",
+        "Hero Hall"
+      ],
       "h1": "Town Hall 4: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -624,20 +544,6 @@
               "0"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 5",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Spell Factory"
-            ],
-            [
-              "Wizard Tower"
-            ]
-          ]
         }
       ],
       "related": [
@@ -647,6 +553,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Spell Factory",
+        "Wizard Tower"
+      ],
       "h1": "Town Hall 5: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -736,17 +646,6 @@
               "0"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 6",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Air Sweeper"
-            ]
-          ]
         }
       ],
       "related": [
@@ -756,6 +655,9 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Air Sweeper"
+      ],
       "h1": "Town Hall 6: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -845,29 +747,6 @@
               "2,800"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 7",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Barbarian King"
-            ],
-            [
-              "Dark Barracks"
-            ],
-            [
-              "Dark Elixir Drill"
-            ],
-            [
-              "Dark Elixir Storage"
-            ],
-            [
-              "Hidden Tesla"
-            ]
-          ]
         }
       ],
       "related": [
@@ -877,6 +756,13 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Barbarian King",
+        "Dark Barracks",
+        "Dark Elixir Drill",
+        "Dark Elixir Storage",
+        "Hidden Tesla"
+      ],
       "h1": "Town Hall 7: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -966,23 +852,6 @@
               "3,200"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 8",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Blacksmith"
-            ],
-            [
-              "Bomb Tower"
-            ],
-            [
-              "Dark Spell Factory"
-            ]
-          ]
         }
       ],
       "related": [
@@ -992,6 +861,11 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Blacksmith",
+        "Bomb Tower",
+        "Dark Spell Factory"
+      ],
       "h1": "Town Hall 8: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1081,23 +955,6 @@
               "3,600"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 9",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Archer Queen"
-            ],
-            [
-              "Helper Hut"
-            ],
-            [
-              "X-Bow"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1107,6 +964,11 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Archer Queen",
+        "Helper Hut",
+        "X-Bow"
+      ],
       "h1": "Town Hall 9: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1196,17 +1058,6 @@
               "4,000"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 10",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Inferno Tower"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1216,6 +1067,9 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Inferno Tower"
+      ],
       "h1": "Town Hall 10: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1305,20 +1159,6 @@
               "4,400"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 11",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Eagle Artillery"
-            ],
-            [
-              "Grand Warden"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1328,6 +1168,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Eagle Artillery",
+        "Grand Warden"
+      ],
       "h1": "Town Hall 11: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1417,17 +1261,6 @@
               "4,800"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 12",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Workshop"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1437,6 +1270,9 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Workshop"
+      ],
       "h1": "Town Hall 12: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1526,20 +1362,6 @@
               "5,200"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 13",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Royal Champion"
-            ],
-            [
-              "Scattershot"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1549,6 +1371,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Royal Champion",
+        "Scattershot"
+      ],
       "h1": "Town Hall 13: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1638,17 +1464,6 @@
               "5,600"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 14",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Pet House"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1658,6 +1473,9 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Pet House"
+      ],
       "h1": "Town Hall 14: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1747,20 +1565,6 @@
               "6,000"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 15",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Monolith"
-            ],
-            [
-              "Spell Tower"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1770,6 +1574,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Monolith",
+        "Spell Tower"
+      ],
       "h1": "Town Hall 15: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1859,20 +1667,6 @@
               "6,400"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 16",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Multi-Archer Tower"
-            ],
-            [
-              "Ricochet Cannon"
-            ]
-          ]
         }
       ],
       "related": [
@@ -1882,6 +1676,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Multi-Archer Tower",
+        "Ricochet Cannon"
+      ],
       "h1": "Town Hall 16: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -1971,26 +1769,6 @@
               "6,800"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 17",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Crafting Station"
-            ],
-            [
-              "Firespitter"
-            ],
-            [
-              "Multi-Gear Tower"
-            ],
-            [
-              "Town Hall"
-            ]
-          ]
         }
       ],
       "related": [
@@ -2000,6 +1778,12 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Crafting Station",
+        "Firespitter",
+        "Multi-Gear Tower",
+        "Town Hall"
+      ],
       "h1": "Town Hall 17: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",
@@ -2089,20 +1873,6 @@
               "6,800"
             ]
           ]
-        },
-        {
-          "caption": "First available at Town Hall 18",
-          "columns": [
-            "Building"
-          ],
-          "rows": [
-            [
-              "Revenge Tower"
-            ],
-            [
-              "Super Wizard Tower"
-            ]
-          ]
         }
       ],
       "related": [
@@ -2112,6 +1882,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.7",
+      "unlocks": [
+        "Revenge Tower",
+        "Super Wizard Tower"
+      ],
       "h1": "Town Hall 18: Upgrade Order, Priorities and Common Mistakes",
       "art": {
         "sheet": "buildings",

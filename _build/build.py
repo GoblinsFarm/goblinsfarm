@@ -80,6 +80,24 @@ BANNERS = {
 }
 
 
+# Mechanics pages are prose with no subject to photograph, which left them the
+# barest pages on the site. Each takes the banner of what it is about.
+MECHANIC_BANNERS = {
+    "loot-mechanics": "treasury", "dark-elixir": "treasury", "magic-items": "treasury",
+    "shields-and-village-guard": "defence", "walls-and-pathing": "defence",
+    "defence-mechanics": "defence", "base-building-principles": "defence",
+    "troop-targeting-and-ai": "attack", "funnelling": "attack", "siege-machines": "attack",
+    "clan-castle-troops": "war-camp", "clan-wars": "war-camp",
+    "clan-war-leagues": "war-camp", "war-weight": "war-camp",
+    "matchmaking-and-search": "progression", "trophies-and-leagues": "progression",
+    "upgrade-priority": "progression",
+    "season-challenges-and-the-gold-pass": "progression",
+    "spell-mechanics": "spells", "super-troops": "troops",
+    "hero-equipment": "equipment", "builder-base": "builder-base",
+    "clan-capital-and-raid-weekends": "clan-capital",
+}
+
+
 def banner(key: str) -> str | None:
     name = BANNERS.get(key, key)
     return f"assets/banners/{name}.webp" if (ROOT / "assets" / "banners" / f"{name}.webp").exists() else None
@@ -502,6 +520,7 @@ def main() -> int:
         nonlocal todo_count
         for key, default in (
             ("section", "wiki"), ("wide", False), ("og_type", "article"), ("banner", None),
+            ("unlocks", None), ("strip", None),
             ("tags", None), ("crumbs", None), ("byline", None), ("jsonld", []),
             ("related", None), ("show_tool_note", False), ("quick", None),
             ("sections", []), ("tables", None), ("faq", None), ("groups", []),
@@ -549,6 +568,23 @@ def main() -> int:
         todo_count += markup.count(f'class="todo"')
         written.append((page["url"], priority, page["h1"]))
 
+    def unlock_cards(registry, names):
+        """What a Town Hall level first makes available, as linked pictures.
+
+        A one-column table of building names is a list pretending to be a table,
+        and it is the one place on these pages where the reader would rather see
+        the thing. Names that have no page of their own -- hero altars, the odd
+        seasonal building -- are dropped quietly rather than counted as broken
+        links, because nothing here authored a reference to them.
+        """
+        out = []
+        for name in names:
+            hit = registry.by_key.get(f"buildings:{slugify(name)}") \
+                or registry.by_key.get(slugify(name))
+            if hit:
+                out.append(hit)
+        return out
+
     def resolve_related(entry, origin):
         out = []
         for ref in entry.get("related", []):
@@ -592,7 +628,10 @@ def main() -> int:
                 "related": resolve_related(entry, url),
                 "crumbs": crumbs,
                 "image": artwork(name, entry["slug"]),
+                "banner": banner(MECHANIC_BANNERS[entry["slug"]])
+                if name == "mechanics" and entry["slug"] in MECHANIC_BANNERS else None,
                 "strip": level_strip(name, entry),
+                "unlocks": unlock_cards(registry, entry.get("unlocks", [])),
                 "show_tool_note": entry.get("show_tool_note", False),
                 "iso_updated": entry.get("iso_updated", site["iso_updated"]),
                 # entry-level source wins: hand-written collections carry no
@@ -700,6 +739,7 @@ def main() -> int:
         page = {
             "url": url,
             "section": "tutorials",
+            "banner": banner("tutorials"),
             "h1": entry.get("h1", entry["name"]),
             "head_title": entry.get("head_title", f"{entry['name']} | {site['name']}"),
             "description": entry["description"],
@@ -750,6 +790,7 @@ def main() -> int:
         hub_page = {
             "url": "/tutorials/",
             "section": "tutorials",
+            "banner": banner("tutorials"),
             "h1": hub.get("h1", "Clash of Clans Tutorials"),
             "head_title": hub.get("head_title", f"Clash of Clans Tutorials | {site['name']}"),
             "description": hub.get("description", ""),
@@ -781,6 +822,7 @@ def main() -> int:
         page = {
             "url": url,
             "section": "news",
+            "banner": banner("news"),
             "h1": post.get("h1", post["name"]),
             "head_title": post.get("head_title", f"{post['name']} | {site['name']}"),
             "description": post["description"],
@@ -819,6 +861,7 @@ def main() -> int:
     news_page = {
         "url": "/news/",
         "section": "news",
+        "banner": banner("news"),
         "h1": news_hub.get("h1", "Clash of Clans News"),
         "head_title": news_hub.get("head_title", f"Clash of Clans News | {site['name']}"),
         "description": news_hub.get("description", site.get("news_description", "")),
