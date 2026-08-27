@@ -14,7 +14,7 @@
     "h1": "Clash of Clans Traps",
     "head_title": "Clash of Clans Traps, Damage and Costs",
     "description": "Every Home Village trap in Clash of Clans with per-level damage, build cost, trigger radius and Town Hall requirement.",
-    "summary": "Every Home Village trap, 12 in total, with what each one triggers on and the full level table, read from the game files.",
+    "summary": "Every Home Village trap, 8 in total, with what each one triggers on and the full level table, read from the game files.",
     "groups": [
       {
         "h": "Traps",
@@ -235,6 +235,18 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "air_trap_setup_lvl13",
+        "alternates": [
+          "air_trap_setup_lvl11",
+          "air_trap_setup_lvl8",
+          "air_trap_setup_lvl6",
+          "air_trap_setup_lvl5",
+          "air_trap_setup_lvl3",
+          "air_trap_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -450,6 +462,18 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "bomp_trap_lvl11_setup",
+        "alternates": [
+          "bomp_trap_lvl10_setup",
+          "bomp_trap_lvl9_setup",
+          "bomp_trap_lvl7_setup",
+          "bomp_trap_lvl5_setup",
+          "bomp_trap_lvl3_setup",
+          "bomp_trap_lvl1_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -639,6 +663,17 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "giant_bomb_setup_lvl8",
+        "alternates": [
+          "giant_bomb_setup_lvl7",
+          "giant_bomb_setup_lvl6",
+          "giant_bomb_setup_lvl5",
+          "giant_bomb_setup_lvl3",
+          "giant_bomb_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -728,6 +763,15 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "giga_bomb_lvl4_setup",
+        "alternates": [
+          "giga_bomb_lvl3_setup",
+          "giga_bomb_lvl2_setup",
+          "giga_bomb_lvl1_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -885,6 +929,15 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "evil_airTrap_setup_lvl7",
+        "alternates": [
+          "evil_airTrap_setup_lvl5",
+          "evil_airTrap_setup_lvl3",
+          "evil_airTrap_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -1017,6 +1070,14 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "troop_trap_land_lvl4_setup",
+        "alternates": [
+          "troop_trap_land_lvl3_setup",
+          "troop_trap_land_lvl1_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -1221,6 +1282,18 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "eject_trap_lvl13_14_setup",
+        "alternates": [
+          "eject_trap_lvl11_12_setup",
+          "eject_trap_lvl9_10_setup",
+          "eject_trap_lvl7_8_setup",
+          "eject_trap_lvl3_setup",
+          "eject_trap_lvl2_setup",
+          "eject_trap_lvl1_setup"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -1327,6 +1400,13 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "buildings",
+        "export": "tornado_trap_setup_lvl2",
+        "alternates": [
+          "tornado_trap_setup_lvl1"
+        ]
+      },
       "has_prose": false
     }
   ]

@@ -19,7 +19,7 @@
       {
         "h": "Army Buildings",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Army Camp",
           "Battle Copter",
@@ -34,7 +34,7 @@
       {
         "h": "Defenses",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Air Bombs",
           "Archer Tower",
@@ -54,7 +54,7 @@
       {
         "h": "Other Buildings",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "B.O.T.O’s Shack",
           "O.T.T.O's Outpost"
@@ -63,7 +63,7 @@
       {
         "h": "Resource Buildings",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "B.O.B Control",
           "Clock Tower",
@@ -77,7 +77,7 @@
       {
         "h": "Walls",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Wall"
         ]
@@ -213,6 +213,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "airDefence_factory_lvl10",
+        "alternates": [
+          "airDefence_factory_lvl9",
+          "airDefence_factory_lvl8",
+          "airDefence_factory_lvl7",
+          "airDefence_factory_lvl6",
+          "airDefence_factory_lvl5",
+          "airDefence_factory_lvl4",
+          "airDefence_factory_lvl3"
+        ]
+      },
       "h1": "Air Bombs (Builder Base)",
       "head_title": "Air Bombs (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -342,6 +355,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "adv_archer_tower_lvl10",
+        "alternates": [
+          "adv_archer_tower_lvl9",
+          "adv_archer_tower_lvl8",
+          "adv_archer_tower_lvl7",
+          "adv_archer_tower_lvl6",
+          "adv_archer_tower_lvl5",
+          "adv_archer_tower_lvl4",
+          "adv_archer_tower_lvl3"
+        ]
+      },
       "h1": "Archer Tower (Builder Base)",
       "head_title": "Archer Tower (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -396,6 +422,11 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "adv_fireplace_lvl1_3x3",
+        "alternates": []
+      },
       "h1": "Army Camp (Builder Base)",
       "head_title": "Army Camp (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -482,6 +513,16 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "new_builders_hut_arto_lvl5",
+        "alternates": [
+          "new_builders_hut_arto_lvl4",
+          "new_builders_hut_arto_lvl3",
+          "new_builders_hut_arto_lvl2",
+          "new_builders_hut_arto_lvl1"
+        ]
+      },
       "h1": "B.O.B Control (Builder Base)",
       "head_title": "B.O.B Control (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -534,6 +575,11 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "new_builders_hut_boto",
+        "alternates": []
+      },
       "h1": "B.O.T.O’s Shack (Builder Base)",
       "head_title": "B.O.T.O’s Shack (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -588,6 +634,11 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "BB_hero_altar_flying",
+        "alternates": []
+      },
       "h1": "Battle Copter (Builder Base)",
       "head_title": "Battle Copter (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -642,6 +693,11 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "heroaltar_warmachine_lvl1",
+        "alternates": []
+      },
       "h1": "Battle Machine (Builder Base)",
       "head_title": "Battle Machine (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -784,6 +840,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "adv_training_camp_lvl12",
+        "alternates": [
+          "adv_training_camp_lvl11",
+          "adv_training_camp_lvl10",
+          "adv_training_camp_lvl9",
+          "adv_training_camp_lvl8",
+          "adv_training_camp_lvl7",
+          "adv_training_camp_lvl6",
+          "adv_training_camp_lvl5"
+        ]
+      },
       "h1": "Builder Barracks (Builder Base)",
       "head_title": "Builder Barracks (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -913,6 +982,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "basic_turret_lvl10",
+        "alternates": [
+          "basic_turret_lvl9",
+          "basic_turret_lvl8",
+          "basic_turret_lvl7",
+          "basic_turret_lvl6",
+          "basic_turret_lvl5",
+          "basic_turret_lvl4",
+          "basic_turret_lvl3"
+        ]
+      },
       "h1": "Cannon (Builder Base)",
       "head_title": "Cannon (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1039,6 +1121,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "clocktower_lvl10",
+        "alternates": [
+          "clocktower_lvl9",
+          "clocktower_lvl8",
+          "clocktower_lvl7",
+          "clocktower_lvl6",
+          "clocktower_lvl5",
+          "clocktower_lvl4",
+          "clocktower_lvl3"
+        ]
+      },
       "h1": "Clock Tower (Builder Base)",
       "head_title": "Clock Tower (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1168,6 +1263,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "Crusher_lvl10",
+        "alternates": [
+          "Crusher_lvl9",
+          "Crusher_lvl8",
+          "Crusher_lvl7",
+          "Crusher_lvl6",
+          "Crusher_lvl5",
+          "Crusher_lvl4",
+          "Crusher_lvl3"
+        ]
+      },
       "h1": "Crusher (Builder Base)",
       "head_title": "Crusher (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1297,6 +1405,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "doubleCannon_lvl12",
+        "alternates": [
+          "doubleCannon_lvl11",
+          "doubleCannon_lvl10",
+          "doubleCannon_lvl9",
+          "doubleCannon_lvl8",
+          "doubleCannon_lvl6",
+          "doubleCannon_lvl4",
+          "doubleCannon_lvl3"
+        ]
+      },
       "h1": "Double Cannon (Builder Base)",
       "head_title": "Double Cannon (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1423,6 +1544,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "elixir_pump_lvl10_v2",
+        "alternates": [
+          "elixir_pump_lvl9_v2",
+          "elixir_pump_lvl8_v2",
+          "elixir_pump_lvl7_v2",
+          "elixir_pump_lvl6_v2",
+          "elixir_pump_lvl5_v2",
+          "elixir_pump_lvl4_v2",
+          "elixir_pump_lvl3_v2"
+        ]
+      },
       "h1": "Elixir Collector (Builder Base)",
       "head_title": "Elixir Collector (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1549,6 +1683,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "elixir_storage_level10_v2",
+        "alternates": [
+          "elixir_storage_level9_v2",
+          "elixir_storage_level8_v2",
+          "elixir_storage_level7_v2",
+          "elixir_storage_level6_v2",
+          "elixir_storage_level5_v2",
+          "elixir_storage_level4_v2",
+          "elixir_storage_level3_v2"
+        ]
+      },
       "h1": "Elixir Storage (Builder Base)",
       "head_title": "Elixir Storage (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1678,6 +1825,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "airDefence_box_lvl10",
+        "alternates": [
+          "airDefence_box_lvl9",
+          "airDefence_box_lvl8",
+          "airDefence_box_lvl7",
+          "airDefence_box_lvl6",
+          "airDefence_box_lvl5",
+          "airDefence_box_lvl4",
+          "airDefence_box_lvl3"
+        ]
+      },
       "h1": "Firecrackers (Builder Base)",
       "head_title": "Firecrackers (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1804,6 +1964,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "gem_mine_lvl10",
+        "alternates": [
+          "gem_mine_lvl9",
+          "gem_mine_lvl8",
+          "gem_mine_lvl7",
+          "gem_mine_lvl6",
+          "gem_mine_lvl5",
+          "gem_mine_lvl4",
+          "gem_mine_lvl3"
+        ]
+      },
       "h1": "Gem Mine (Builder Base)",
       "head_title": "Gem Mine (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -1933,6 +2106,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "megaCannon_lvl10",
+        "alternates": [
+          "megaCannon_lvl9",
+          "megaCannon_lvl8",
+          "megaCannon_lvl7",
+          "megaCannon_lvl6",
+          "megaCannon_lvl5",
+          "megaCannon_lvl4",
+          "megaCannon_lvl3"
+        ]
+      },
       "h1": "Giant Cannon (Builder Base)",
       "head_title": "Giant Cannon (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2059,6 +2245,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "goldmine_lvl10",
+        "alternates": [
+          "goldmine_lvl9",
+          "goldmine_lvl8",
+          "goldmine_lvl7",
+          "goldmine_lvl6",
+          "goldmine_lvl5",
+          "goldmine_lvl4",
+          "goldmine_lvl3"
+        ]
+      },
       "h1": "Gold Mine (Builder Base)",
       "head_title": "Gold Mine (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2185,6 +2384,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "gold_storage_lvl10_v2",
+        "alternates": [
+          "gold_storage_lvl9_v2",
+          "gold_storage_lvl8_v2",
+          "gold_storage_lvl7_v2",
+          "gold_storage_lvl6_v2",
+          "gold_storage_lvl5_v2",
+          "gold_storage_lvl4_v2",
+          "gold_storage_lvl3_v2"
+        ]
+      },
       "h1": "Gold Storage (Builder Base)",
       "head_title": "Gold Storage (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2311,6 +2523,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "GuardPost_lvl10",
+        "alternates": [
+          "GuardPost_lvl9",
+          "GuardPost_lvl8",
+          "GuardPost_lvl7",
+          "GuardPost_lvl6",
+          "GuardPost_lvl5",
+          "GuardPost_lvl4",
+          "GuardPost_lvl3"
+        ]
+      },
       "h1": "Guard Post (Builder Base)",
       "head_title": "Guard Post (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2405,6 +2630,17 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "healing_hut_06",
+        "alternates": [
+          "healing_hut_05",
+          "healing_hut_04",
+          "healing_hut_03",
+          "healing_hut_02",
+          "healing_hut_01"
+        ]
+      },
       "h1": "Healing Hut (Builder Base)",
       "head_title": "Healing Hut (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2534,6 +2770,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "teslatower_lvl10_setup",
+        "alternates": [
+          "teslatower_lvl9_setup",
+          "teslatower_lvl8_setup",
+          "teslatower_lvl7_setup",
+          "teslatower_lvl6_setup",
+          "teslatower_lvl5_setup",
+          "teslatower_lvl4_setup",
+          "teslatower_lvl3_setup"
+        ]
+      },
       "h1": "Hidden Tesla (Builder Base)",
       "head_title": "Hidden Tesla (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2663,6 +2912,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "Lava_Launcher_lvl10",
+        "alternates": [
+          "Lava_Launcher_lvl9",
+          "Lava_Launcher_lvl8",
+          "Lava_Launcher_lvl7",
+          "Lava_Launcher_lvl6",
+          "Lava_Launcher_lvl5",
+          "Lava_Launcher_lvl4",
+          "Lava_Launcher_lvl3"
+        ]
+      },
       "h1": "Lava Launcher (Builder Base)",
       "head_title": "Lava Launcher (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2792,6 +3054,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "mega_tesla_lvl10",
+        "alternates": [
+          "mega_tesla_lvl9",
+          "mega_tesla_lvl8",
+          "mega_tesla_lvl7",
+          "mega_tesla_lvl6",
+          "mega_tesla_lvl5",
+          "mega_tesla_lvl4",
+          "mega_tesla_lvl3"
+        ]
+      },
       "h1": "Mega Tesla (Builder Base)",
       "head_title": "Mega Tesla (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -2921,6 +3196,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "multi_mortar_lvl10",
+        "alternates": [
+          "multi_mortar_lvl9",
+          "multi_mortar_lvl8",
+          "multi_mortar_lvl7",
+          "multi_mortar_lvl6",
+          "multi_mortar_lvl5",
+          "multi_mortar_lvl4",
+          "multi_mortar_lvl3"
+        ]
+      },
       "h1": "Multi Mortar (Builder Base)",
       "head_title": "Multi Mortar (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -3045,6 +3333,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "outpost_10",
+        "alternates": [
+          "outpost_09",
+          "outpost_08",
+          "outpost_07",
+          "outpost_06",
+          "outpost_05",
+          "outpost_04",
+          "outpost_03"
+        ]
+      },
       "h1": "O.T.T.O's Outpost (Builder Base)",
       "head_title": "O.T.T.O's Outpost (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -3099,6 +3400,11 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "adv_fireplace_lvl7",
+        "alternates": []
+      },
       "h1": "Reinforcement Camp (Builder Base)",
       "head_title": "Reinforcement Camp (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -3228,6 +3534,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "Flamer_lvl10",
+        "alternates": [
+          "Flamer_lvl9",
+          "Flamer_lvl8",
+          "Flamer_lvl7",
+          "Flamer_lvl6",
+          "Flamer_lvl5",
+          "Flamer_lvl4",
+          "Flamer_lvl3"
+        ]
+      },
       "h1": "Roaster (Builder Base)",
       "head_title": "Roaster (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -3354,6 +3673,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "Telescope_lvl10",
+        "alternates": [
+          "Telescope_lvl9",
+          "Telescope_lvl8",
+          "Telescope_lvl7",
+          "Telescope_lvl6",
+          "Telescope_lvl5",
+          "Telescope_lvl4",
+          "Telescope_lvl3"
+        ]
+      },
       "h1": "Star Laboratory (Builder Base)",
       "head_title": "Star Laboratory (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -3477,6 +3809,19 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings2",
+        "export": "secondVillage_wall_lvl10",
+        "alternates": [
+          "secondVillage_wall_lvl9",
+          "secondVillage_wall_lvl8",
+          "secondVillage_wall_lvl7",
+          "secondVillage_wall_lvl6",
+          "secondVillage_wall_lvl5",
+          "secondVillage_wall_lvl4",
+          "secondVillage_wall_lvl3"
+        ]
+      },
       "h1": "Wall (Builder Base)",
       "head_title": "Wall (Builder Base) — Clash of Clans Wiki",
       "has_prose": false
@@ -3566,6 +3911,16 @@
         "mechanics:builder-base"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "BB_xbow_lvl5",
+        "alternates": [
+          "BB_xbow_lvl4",
+          "BB_xbow_lvl3",
+          "BB_xbow_lvl2",
+          "BB_xbow_lvl1"
+        ]
+      },
       "h1": "X-Bow (Builder Base)",
       "head_title": "X-Bow (Builder Base) — Clash of Clans Wiki",
       "has_prose": false

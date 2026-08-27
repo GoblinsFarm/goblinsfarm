@@ -89,6 +89,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_speed"
+      },
       "h1": "Endless Haste Spell (Clan Capital)",
       "head_title": "Endless Haste Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -150,6 +154,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_frost"
+      },
       "h1": "Frost Spell (Clan Capital)",
       "head_title": "Frost Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -207,6 +215,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_graveyard"
+      },
       "h1": "Graveyard Spell (Clan Capital)",
       "head_title": "Graveyard Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -268,6 +280,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_heal"
+      },
       "h1": "Healing Spell (Clan Capital)",
       "head_title": "Healing Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -329,6 +345,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_jump"
+      },
       "h1": "Jump Spell (Clan Capital)",
       "head_title": "Jump Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -390,6 +410,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_lightning"
+      },
       "h1": "Lightning Spell (Clan Capital)",
       "head_title": "Lightning Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -451,6 +475,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_cc_rage"
+      },
       "h1": "Rage Spell (Clan Capital)",
       "head_title": "Rage Spell (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false

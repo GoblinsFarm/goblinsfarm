@@ -340,6 +340,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_WWEGiantSummon"
+      },
       "has_prose": false
     },
     {
@@ -513,6 +517,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_ArcherDoll"
+      },
       "has_prose": false
     },
     {
@@ -686,6 +694,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_BarbDoll"
+      },
       "has_prose": false
     },
     {
@@ -922,6 +934,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_DarkCrown"
+      },
       "has_prose": false
     },
     {
@@ -1095,6 +1111,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_DarkOrb"
+      },
       "has_prose": false
     },
     {
@@ -1268,6 +1288,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_StompBoots"
+      },
       "has_prose": false
     },
     {
@@ -1504,6 +1528,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_ElectroBoots"
+      },
       "has_prose": false
     },
     {
@@ -1677,6 +1705,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_DD_ElectroDentures"
+      },
       "has_prose": false
     },
     {
@@ -1850,6 +1882,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_GW_EternalTome"
+      },
       "has_prose": false
     },
     {
@@ -2023,6 +2059,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_DD_FireHeart"
+      },
       "has_prose": false
     },
     {
@@ -2259,6 +2299,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_GW_FireSack"
+      },
       "has_prose": false
     },
     {
@@ -2432,6 +2476,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_DD_FlameBreath"
+      },
       "has_prose": false
     },
     {
@@ -2668,6 +2716,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_FrostShuriken"
+      },
       "has_prose": false
     },
     {
@@ -2904,6 +2956,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_FreezeArrow"
+      },
       "has_prose": false
     },
     {
@@ -3077,6 +3133,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_MagicArrow"
+      },
       "has_prose": false
     },
     {
@@ -3313,6 +3373,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_GiantGauntlet"
+      },
       "has_prose": false
     },
     {
@@ -3486,6 +3550,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_HasteVial"
+      },
       "has_prose": false
     },
     {
@@ -3659,6 +3727,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_HealerDoll"
+      },
       "has_prose": false
     },
     {
@@ -3832,6 +3904,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_GW_HeartTome"
+      },
       "has_prose": false
     },
     {
@@ -4005,6 +4081,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_BouncerKeychain"
+      },
       "has_prose": false
     },
     {
@@ -4241,6 +4321,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_Torch"
+      },
       "has_prose": false
     },
     {
@@ -4414,6 +4498,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_HogRiderDoll"
+      },
       "has_prose": false
     },
     {
@@ -4587,6 +4675,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_InvisVial"
+      },
       "has_prose": false
     },
     {
@@ -4823,6 +4915,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_GW_LavaloonPuppet"
+      },
       "has_prose": false
     },
     {
@@ -4996,6 +5092,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_GW_HealGem"
+      },
       "has_prose": false
     },
     {
@@ -5232,6 +5332,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_Mirror"
+      },
       "has_prose": false
     },
     {
@@ -5405,6 +5509,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_MetalPants"
+      },
       "has_prose": false
     },
     {
@@ -5641,6 +5749,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_Meteor"
+      },
       "has_prose": false
     },
     {
@@ -5877,6 +5989,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_AQ_MonolithArrow"
+      },
       "has_prose": false
     },
     {
@@ -6050,6 +6166,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_PowerPump"
+      },
       "has_prose": false
     },
     {
@@ -6223,6 +6343,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_GW_RageGem"
+      },
       "has_prose": false
     },
     {
@@ -6396,6 +6520,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_RageVial"
+      },
       "has_prose": false
     },
     {
@@ -6632,6 +6760,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_DD_DraconicCounter"
+      },
       "has_prose": false
     },
     {
@@ -6868,6 +7000,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_DD_DeadlyDash"
+      },
       "has_prose": false
     },
     {
@@ -7104,6 +7240,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_RocketSpear"
+      },
       "has_prose": false
     },
     {
@@ -7277,6 +7417,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_LifeGem"
+      },
       "has_prose": false
     },
     {
@@ -7450,6 +7594,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_RC_SeekingShield"
+      },
       "has_prose": false
     },
     {
@@ -7686,6 +7834,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_SnakeBracelet"
+      },
       "has_prose": false
     },
     {
@@ -7922,6 +8074,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_Football"
+      },
       "has_prose": false
     },
     {
@@ -8158,6 +8314,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_StickFireHorse"
+      },
       "has_prose": false
     },
     {
@@ -8331,6 +8491,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_DD_StunBlast"
+      },
       "has_prose": false
     },
     {
@@ -8504,6 +8668,10 @@
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_BK_VampStache"
+      },
       "has_prose": false
     }
   ]

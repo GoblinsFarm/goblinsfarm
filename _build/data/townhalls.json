@@ -19,7 +19,7 @@
       {
         "h": "Town Hall levels",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Town Hall 1",
           "Town Hall 2",
@@ -197,6 +197,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 1: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl1",
+        "alternates": []
+      },
       "head_title": "Town Hall 1 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -303,6 +308,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 2: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl2",
+        "alternates": []
+      },
       "head_title": "Town Hall 2 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -412,6 +422,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 3: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl3",
+        "alternates": []
+      },
       "head_title": "Town Hall 3 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -518,6 +533,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 4: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl4",
+        "alternates": []
+      },
       "head_title": "Town Hall 4 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -624,6 +644,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 5: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl5",
+        "alternates": []
+      },
       "head_title": "Town Hall 5 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -727,6 +752,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 6: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl6",
+        "alternates": []
+      },
       "head_title": "Town Hall 6 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -842,6 +872,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 7: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl7",
+        "alternates": []
+      },
       "head_title": "Town Hall 7 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -951,6 +986,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 8: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl8",
+        "alternates": []
+      },
       "head_title": "Town Hall 8 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1060,6 +1100,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 9: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl9",
+        "alternates": []
+      },
       "head_title": "Town Hall 9 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1163,6 +1208,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 10: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl10",
+        "alternates": []
+      },
       "head_title": "Town Hall 10 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1269,6 +1319,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 11: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl11",
+        "alternates": []
+      },
       "head_title": "Town Hall 11 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1372,6 +1427,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 12: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl12_t5",
+        "alternates": []
+      },
       "head_title": "Town Hall 12 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1478,6 +1538,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 13: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl13_t5",
+        "alternates": []
+      },
       "head_title": "Town Hall 13 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1581,6 +1646,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 14: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl14_t5",
+        "alternates": []
+      },
       "head_title": "Town Hall 14 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1687,6 +1757,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 15: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl15_t5",
+        "alternates": []
+      },
       "head_title": "Town Hall 15 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1793,6 +1868,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 16: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl16",
+        "alternates": []
+      },
       "head_title": "Town Hall 16 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -1905,6 +1985,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 17: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl17_t1",
+        "alternates": []
+      },
       "head_title": "Town Hall 17 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {
@@ -2011,6 +2096,11 @@
       ],
       "priority": "0.7",
       "h1": "Town Hall 18: Upgrade Order, Priorities and Common Mistakes",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl18_t1",
+        "alternates": []
+      },
       "head_title": "Town Hall 18 Guide — Upgrade Order and Priorities | Goblins Farm",
       "faq": [
         {

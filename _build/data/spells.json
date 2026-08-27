@@ -116,6 +116,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_brainwash"
+      },
       "has_prose": false
     },
     {
@@ -214,6 +218,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_bats"
+      },
       "h1": "Bat Spell — Clash of Clans",
       "head_title": "Bat Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -330,6 +338,10 @@
         "troops:balloon"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_clone"
+      },
       "h1": "Clone Spell — Clash of Clans",
       "head_title": "Clone Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -440,6 +452,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_earthquake"
+      },
       "h1": "Earthquake Spell — Clash of Clans",
       "head_title": "Earthquake Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -554,6 +570,10 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_freeze"
+      },
       "h1": "Freeze Spell — Clash of Clans",
       "head_title": "Freeze Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -658,6 +678,10 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_speedup"
+      },
       "h1": "Haste Spell — Clash of Clans",
       "head_title": "Haste Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -796,6 +820,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_healing"
+      },
       "h1": "Healing Spell — Clash of Clans",
       "head_title": "Healing Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -894,6 +922,10 @@
         "spells:rage-spell"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_ice_block"
+      },
       "h1": "Ice Block Spell — Clash of Clans",
       "head_title": "Ice Block Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -976,6 +1008,10 @@
         "mechanics:troop-targeting-and-ai"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_invisibility"
+      },
       "h1": "Invisibility Spell — Clash of Clans",
       "head_title": "Invisibility Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1072,6 +1108,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_jump"
+      },
       "h1": "Jump Spell — Clash of Clans",
       "head_title": "Jump Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1216,6 +1256,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_lightning"
+      },
       "h1": "Lightning Spell — Clash of Clans",
       "head_title": "Lightning Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1308,6 +1352,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_overgrowth"
+      },
       "h1": "Overgrowth Spell — Clash of Clans",
       "head_title": "Overgrowth Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1446,6 +1494,10 @@
         "mechanics:clan-wars"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_toxic"
+      },
       "h1": "Poison Spell — Clash of Clans",
       "head_title": "Poison Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1554,6 +1606,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_rage"
+      },
       "h1": "Rage Spell — Clash of Clans",
       "head_title": "Rage Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1658,6 +1714,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_recall"
+      },
       "h1": "Recall Spell — Clash of Clans",
       "head_title": "Recall Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1750,6 +1810,10 @@
         "mechanics:funnelling"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_hero_revive"
+      },
       "h1": "Revive Spell — Clash of Clans",
       "head_title": "Revive Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1860,6 +1924,10 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_skeleton"
+      },
       "h1": "Skeleton Spell — Clash of Clans",
       "head_title": "Skeleton Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1946,6 +2014,10 @@
         "spells:rage-spell"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_spell_meteor_tower"
+      },
       "h1": "Totem Spell — Clash of Clans",
       "head_title": "Totem Spell | Clash of Clans Wiki | Goblins Farm",
       "faq": [

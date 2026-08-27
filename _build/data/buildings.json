@@ -14,12 +14,12 @@
     "h1": "Clash of Clans Buildings",
     "head_title": "Clash of Clans Buildings, Costs and Levels",
     "description": "Every Home Village building in Clash of Clans with per-level build cost, build time, hitpoints and Town Hall requirement.",
-    "summary": "Every Home Village building, 60 in total, with the full level table for each one, read from the game files.",
+    "summary": "Every Home Village building, 41 in total, with the full level table for each one, read from the game files.",
     "groups": [
       {
         "h": "Army Buildings",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Army Camp",
           "Barracks",
@@ -37,7 +37,7 @@
       {
         "h": "Defenses",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Air Defense",
           "Air Sweeper",
@@ -65,7 +65,7 @@
       {
         "h": "Other Buildings",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Builder's Hut",
           "Town Hall"
@@ -74,7 +74,7 @@
       {
         "h": "Resource Buildings",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Dark Elixir Drill",
           "Dark Elixir Storage",
@@ -87,7 +87,7 @@
       {
         "h": "Walls",
         "blurb": "",
-        "style": "list",
+        "style": "cards",
         "members": [
           "Wall"
         ]
@@ -350,6 +350,19 @@
         "buildings:air-sweeper"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "fireworks_tower_lvl16",
+        "alternates": [
+          "fireworks_tower_lvl15",
+          "fireworks_tower_lvl14",
+          "fireworks_tower_lvl13",
+          "fireworks_tower_lvl12",
+          "fireworks_tower_lvl11",
+          "fireworks_tower_lvl10",
+          "fireworks_tower_lvl9"
+        ]
+      },
       "h1": "Air Defense — Clash of Clans",
       "head_title": "Air Defense | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -533,6 +546,18 @@
         "mechanics:base-building-principles"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "air_mortar_lvl7",
+        "alternates": [
+          "air_mortar_lvl6",
+          "air_mortar_lvl5",
+          "air_mortar_lvl4",
+          "air_mortar_lvl3",
+          "air_mortar_lvl2",
+          "air_mortar_lvl1"
+        ]
+      },
       "h1": "Air Sweeper — Clash of Clans",
       "head_title": "Air Sweeper | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -847,6 +872,19 @@
         "buildings:hidden-tesla"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "tower_turret_lvl21",
+        "alternates": [
+          "tower_turret_lvl20",
+          "tower_turret_lvl19",
+          "tower_turret_lvl18",
+          "tower_turret_lvl17",
+          "tower_turret_lvl16",
+          "tower_turret_lvl15",
+          "tower_turret_lvl14"
+        ]
+      },
       "h1": "Archer Tower — Clash of Clans",
       "head_title": "Archer Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1096,6 +1134,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "fireplace_lvl14",
+        "alternates": [
+          "fireplace_lvl13",
+          "fireplace_lvl12",
+          "fireplace_lvl11",
+          "fireplace_lvl10",
+          "fireplace_lvl9",
+          "fireplace_lvl8",
+          "fireplace_lvl7"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -1373,6 +1424,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "barracks_lvl19",
+        "alternates": [
+          "barracks_lvl18",
+          "barracks_lvl17",
+          "barracks_lvl16",
+          "barracks_lvl15",
+          "barracks_lvl14",
+          "barracks_lvl13",
+          "barracks_lvl12"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -1550,6 +1614,16 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "blacksmith_lvl5",
+        "alternates": [
+          "blacksmith_lvl4",
+          "blacksmith_lvl3",
+          "blacksmith_lvl2",
+          "blacksmith_lvl1"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -1764,6 +1838,19 @@
         "troops:barbarian"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "bomb_tower_lvl13",
+        "alternates": [
+          "bomb_tower_lvl12",
+          "bomb_tower_lvl11",
+          "bomb_tower_lvl10",
+          "bomb_tower_lvl9",
+          "bomb_tower_lvl8",
+          "bomb_tower_lvl7",
+          "bomb_tower_lvl6"
+        ]
+      },
       "h1": "Bomb Tower — Clash of Clans",
       "head_title": "Bomb Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -1963,6 +2050,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "worker_building_armed_lvl7",
+        "alternates": [
+          "worker_building_armed_lvl6",
+          "worker_building_armed_lvl5",
+          "worker_building_armed_lvl4",
+          "worker_building_armed_lvl3",
+          "worker_building_armed_lvl2",
+          "worker_building_armed_lvl1",
+          "worker_building"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -2269,6 +2369,19 @@
         "mechanics:base-building-principles"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "basic_turret_lvl21",
+        "alternates": [
+          "basic_turret_lvl20",
+          "basic_turret_lvl19",
+          "basic_turret_lvl18",
+          "basic_turret_lvl17",
+          "basic_turret_lvl16",
+          "basic_turret_lvl15",
+          "basic_turret_lvl14"
+        ]
+      },
       "h1": "Cannon — Clash of Clans",
       "head_title": "Cannon | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -2528,6 +2641,19 @@
         "mechanics:base-building-principles"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "alliance_castle_lvl14",
+        "alternates": [
+          "alliance_castle_lvl13",
+          "alliance_castle_lvl12",
+          "alliance_castle_lvl11",
+          "alliance_castle_lvl10",
+          "alliance_castle_lvl9",
+          "alliance_castle_lvl8",
+          "alliance_castle_lvl7"
+        ]
+      },
       "h1": "Clan Castle — Clash of Clans",
       "head_title": "Clan Castle | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -2605,6 +2731,11 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "seasonal_defense_platform_hidden",
+        "alternates": []
+      },
       "has_prose": false
     },
     {
@@ -2810,6 +2941,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "darkBarracks_lvl13",
+        "alternates": [
+          "darkBarracks_lvl12",
+          "darkBarracks_lvl11",
+          "darkBarracks_lvl10",
+          "darkBarracks_lvl9",
+          "darkBarracks_lvl8",
+          "darkBarracks_lvl7",
+          "darkBarracks_lvl6"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -2999,6 +3143,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "darkelixir_pump_lvl11",
+        "alternates": [
+          "darkelixir_pump_lvl10",
+          "darkelixir_pump_lvl9",
+          "darkelixir_pump_lvl8",
+          "darkelixir_pump_lvl7",
+          "darkelixir_pump_lvl6",
+          "darkelixir_pump_lvl5",
+          "darkelixir_pump_lvl4"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -3204,6 +3361,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "darkelixir_storage_level13",
+        "alternates": [
+          "darkelixir_storage_level12",
+          "darkelixir_storage_level11",
+          "darkelixir_storage_level10",
+          "darkelixir_storage_level9",
+          "darkelixir_storage_level8",
+          "darkelixir_storage_level7",
+          "darkelixir_storage_level6"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -3365,6 +3535,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "mini_spell_distillery_lvl8",
+        "alternates": [
+          "mini_spell_distillery_lvl7",
+          "mini_spell_distillery_lvl6",
+          "mini_spell_distillery_lvl5",
+          "mini_spell_distillery_lvl4",
+          "mini_spell_distillery_lvl3",
+          "mini_spell_distillery_lvl2",
+          "mini_spell_distillery_lvl1"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -3519,6 +3702,18 @@
         "mechanics:clan-wars"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "doom_cannon_lvl7",
+        "alternates": [
+          "doom_cannon_lvl6",
+          "doom_cannon_lvl5",
+          "doom_cannon_lvl4",
+          "doom_cannon_lvl3",
+          "doom_cannon_lvl2",
+          "doom_cannon_lvl1"
+        ]
+      },
       "h1": "Eagle Artillery — Clash of Clans",
       "head_title": "Eagle Artillery | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -3792,6 +3987,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "elixir_pump_lvl17",
+        "alternates": [
+          "elixir_pump_lvl16",
+          "elixir_pump_lvl15",
+          "elixir_pump_lvl14",
+          "elixir_pump_lvl13",
+          "elixir_pump_lvl12",
+          "elixir_pump_lvl11",
+          "elixir_pump_lvl10"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -4069,6 +4277,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "elixir_storage_level19",
+        "alternates": [
+          "elixir_storage_level18",
+          "elixir_storage_level17",
+          "elixir_storage_level16",
+          "elixir_storage_level15",
+          "elixir_storage_level14",
+          "elixir_storage_level13",
+          "elixir_storage_level12"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -4171,6 +4392,14 @@
         "spells:freeze-spell"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "firespitter_lvl3",
+        "alternates": [
+          "firespitter_lvl2",
+          "firespitter_lvl1"
+        ]
+      },
       "h1": "Firespitter — Clash of Clans",
       "head_title": "Firespitter | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -4444,6 +4673,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "goldmine_lvl17",
+        "alternates": [
+          "goldmine_lvl16",
+          "goldmine_lvl15",
+          "goldmine_lvl14",
+          "goldmine_lvl13",
+          "goldmine_lvl12",
+          "goldmine_lvl11",
+          "goldmine_lvl10"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -4721,6 +4963,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "gold_storage_lvl19",
+        "alternates": [
+          "gold_storage_lvl18",
+          "gold_storage_lvl17",
+          "gold_storage_lvl16",
+          "gold_storage_lvl15",
+          "gold_storage_lvl14",
+          "gold_storage_lvl13",
+          "gold_storage_lvl12"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -4940,6 +5195,19 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "hero_inn_lvl12",
+        "alternates": [
+          "hero_inn_lvl11",
+          "hero_inn_lvl10",
+          "hero_inn_lvl9",
+          "hero_inn_lvl8",
+          "hero_inn_lvl7",
+          "hero_inn_lvl6",
+          "hero_inn_lvl5"
+        ]
+      },
       "h1": "Hero Hall — Clash of Clans",
       "head_title": "Hero Hall | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -5202,6 +5470,19 @@
         "buildings:bomb-tower"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "teslatower_lvl17_setup",
+        "alternates": [
+          "teslatower_lvl16_setup",
+          "teslatower_lvl15_setup",
+          "teslatower_lvl14_setup",
+          "teslatower_lvl13_setup",
+          "teslatower_lvl12_setup",
+          "teslatower_lvl11_setup",
+          "teslatower_lvl10_setup"
+        ]
+      },
       "h1": "Hidden Tesla — Clash of Clans",
       "head_title": "Hidden Tesla | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -5412,6 +5693,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "dark_tower_lvl12",
+        "alternates": [
+          "dark_tower_lvl11",
+          "dark_tower_lvl10",
+          "dark_tower_lvl9",
+          "dark_tower_lvl8",
+          "dark_tower_lvl7",
+          "dark_tower_lvl6",
+          "dark_tower_lvl5"
+        ]
+      },
       "h1": "Inferno Tower — Clash of Clans",
       "head_title": "Inferno Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -5679,6 +5973,19 @@
         "mechanics:dark-elixir"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "laboratory_lvl16",
+        "alternates": [
+          "laboratory_lvl15",
+          "laboratory_lvl14",
+          "laboratory_lvl13",
+          "laboratory_lvl12",
+          "laboratory_lvl11",
+          "laboratory_lvl10",
+          "laboratory_lvl9"
+        ]
+      },
       "h1": "Laboratory — Clash of Clans",
       "head_title": "Laboratory | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -5813,6 +6120,16 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "monolith_lvl_5",
+        "alternates": [
+          "monolith_lvl_4",
+          "monolith_lvl_3",
+          "monolith_lvl_2",
+          "monolith_lvl_1"
+        ]
+      },
       "h1": "Monolith — Clash of Clans",
       "head_title": "Monolith | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -6099,6 +6416,19 @@
         "troops:barbarian"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "mortar_lvl18",
+        "alternates": [
+          "mortar_lvl17",
+          "mortar_lvl16",
+          "mortar_lvl15",
+          "mortar_lvl14",
+          "mortar_lvl13",
+          "mortar_lvl12",
+          "mortar_lvl11"
+        ]
+      },
       "h1": "Mortar — Clash of Clans",
       "head_title": "Mortar | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -6221,6 +6551,15 @@
         "troops:minion"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "merged_archer_tower_lvl4",
+        "alternates": [
+          "merged_archer_tower_lvl3",
+          "merged_archer_tower_lvl2",
+          "merged_archer_tower_lvl1"
+        ]
+      },
       "h1": "Multi-Archer Tower — Clash of Clans",
       "head_title": "Multi-Archer Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -6335,6 +6674,14 @@
         "buildings:scattershot"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "merged_cat_archer_lvl3",
+        "alternates": [
+          "merged_cat_archer_lvl2",
+          "merged_cat_archer_lvl1"
+        ]
+      },
       "h1": "Multi-Gear Tower — Clash of Clans",
       "head_title": "Multi-Gear Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -6516,6 +6863,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "pet_house_lvl12",
+        "alternates": [
+          "pet_house_lvl11",
+          "pet_house_lvl10",
+          "pet_house_lvl9",
+          "pet_house_lvl8",
+          "pet_house_lvl7",
+          "pet_house_lvl6",
+          "pet_house_lvl5"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -6606,6 +6966,13 @@
         "buildings:monolith"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "revenge_tower_lvl2",
+        "alternates": [
+          "revenge_tower_lvl1"
+        ]
+      },
       "h1": "Revenge Tower — Clash of Clans",
       "head_title": "Revenge Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -6728,6 +7095,15 @@
         "buildings:multi-gear-tower"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "merged_cannon_lvl4",
+        "alternates": [
+          "merged_cannon_lvl3",
+          "merged_cannon_lvl2",
+          "merged_cannon_lvl1"
+        ]
+      },
       "h1": "Ricochet Cannon — Clash of Clans",
       "head_title": "Ricochet Cannon | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -6886,6 +7262,18 @@
         "buildings:wizard-tower"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "ice_breaker_lvl7",
+        "alternates": [
+          "ice_breaker_lvl6",
+          "ice_breaker_lvl5",
+          "ice_breaker_lvl4",
+          "ice_breaker_lvl3",
+          "ice_breaker_lvl2",
+          "ice_breaker_lvl1"
+        ]
+      },
       "h1": "Scattershot — Clash of Clans",
       "head_title": "Scattershot | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7079,6 +7467,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "spell_factory_lvl9",
+        "alternates": [
+          "spell_factory_lvl8",
+          "spell_factory_lvl7",
+          "spell_factory_lvl6",
+          "spell_factory_lvl5",
+          "spell_factory_lvl4",
+          "spell_factory_lvl3",
+          "spell_factory_lvl2"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -7194,6 +7595,15 @@
         "mechanics:spell-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "spell_tower_lvl4_earthquake",
+        "alternates": [
+          "spell_tower_lvl3_rage",
+          "spell_tower_lvl2_rage",
+          "spell_tower_lvl1"
+        ]
+      },
       "h1": "Spell Tower — Clash of Clans",
       "head_title": "Spell Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7296,6 +7706,13 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "merged_wizard_tower_lvl2",
+        "alternates": [
+          "merged_wizard_tower_lvl1"
+        ]
+      },
       "h1": "Super Wizard Tower — Clash of Clans",
       "head_title": "Super Wizard Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7357,6 +7774,13 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "town_hall_lvl18_t1",
+        "alternates": [
+          "town_hall_lvl18_t1_covered"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -7640,6 +8064,19 @@
         "mechanics:upgrade-priority"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "defense_wall_lvl19",
+        "alternates": [
+          "defense_wall_lvl18",
+          "defense_wall_lvl17",
+          "defense_wall_lvl16",
+          "defense_wall_lvl15",
+          "defense_wall_lvl14",
+          "defense_wall_lvl13",
+          "defense_wall_lvl12"
+        ]
+      },
       "h1": "Wall — Clash of Clans",
       "head_title": "Wall | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -7910,6 +8347,19 @@
         "troops:minion"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "wizard_tower_lvl21",
+        "alternates": [
+          "wizard_tower_lvl20",
+          "wizard_tower_lvl19",
+          "wizard_tower_lvl18",
+          "wizard_tower_lvl17",
+          "wizard_tower_lvl16",
+          "wizard_tower_lvl15",
+          "wizard_tower_lvl14"
+        ]
+      },
       "h1": "Wizard Tower — Clash of Clans",
       "head_title": "Wizard Tower | Clash of Clans Wiki | Goblins Farm",
       "faq": [
@@ -8075,6 +8525,19 @@
         "mechanics:defence-mechanics"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "siegeWorkshop_lvl9",
+        "alternates": [
+          "siegeWorkshop_lvl8",
+          "siegeWorkshop_lvl7",
+          "siegeWorkshop_lvl6",
+          "siegeWorkshop_lvl5",
+          "siegeWorkshop_lvl4",
+          "siegeWorkshop_lvl3",
+          "siegeWorkshop_lvl2"
+        ]
+      },
       "has_prose": false
     },
     {
@@ -8285,6 +8748,19 @@
         "mechanics:base-building-principles"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "buildings",
+        "export": "rapidfire_turret_lvl13",
+        "alternates": [
+          "rapidfire_turret_lvl12",
+          "rapidfire_turret_lvl11",
+          "rapidfire_turret_lvl10",
+          "rapidfire_turret_lvl9",
+          "rapidfire_turret_lvl8",
+          "rapidfire_turret_lvl7",
+          "rapidfire_turret_lvl6"
+        ]
+      },
       "h1": "X-Bow — Clash of Clans",
       "head_title": "X-Bow | Clash of Clans Wiki | Goblins Farm",
       "faq": [

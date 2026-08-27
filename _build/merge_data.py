@@ -279,6 +279,14 @@ def main() -> int:
             group["members"] = [m for m in group["members"] if m in names]
         data["hub"]["groups"] = [g for g in data["hub"]["groups"] if g["members"]]
 
+        # The hub prose quotes how many pages the section has, and the data layer
+        # can only know how many it built -- this is where the seasonal entries
+        # come out. It leaves a {count} for the real number; fill it in.
+        for field in ("summary", "description"):
+            text = data["hub"].get(field)
+            if isinstance(text, str) and "{count}" in text:
+                data["hub"][field] = text.replace("{count}", str(len(kept)))
+
         linked = autolink(name, data)
 
         # hub prose overlay lives under the reserved key "_hub"

@@ -1,36 +1,22 @@
 #!/usr/bin/env python3
-"""Give every wiki entry its portrait from Supercell's own art, and write it out.
+"""Give every wiki entry its picture from Supercell's own art, web-sized.
 
     python3 _build/art.py            # match, resize, report coverage
     python3 _build/art.py --sheet    # also write a contact sheet of what matched
 
-Reads the sprites that ../coc-gamefiles/extract_art.py pulls off the asset CDN
-and writes a web-sized WebP per entry that has one. Entries with no art keep the
-drawn emblem from icons.py, so every page still gets a picture.
+Reads what ../coc-gamefiles/render_art.py drew and writes one WebP per entry.
 
-Which file, and which figure in it
-----------------------------------
-Both come from the game data, not from the name. Each unit's row carries
-`BigPictureSWF` (the sheet) and `BigPicture` (its export name inside the sheet),
-and build_gamedata.py copies the pair onto every entry as `art`. Matching on the
-unit's name instead -- which is what this did first -- goes wrong twice over:
+There is no matching left to do here. Each entry carries the atlas file and the
+export name inside it, copied out of the game's own columns by build_gamedata.py,
+and render_art.py draws exactly that export. This used to guess -- match art to a
+page by the unit's name, and take the biggest figure on the sheet -- which is how
+the Bowler ended up with no picture (his file is info_troll), the Barbarian with
+the Barbarian King's Iron Fist (three units share one file), and a dozen fliers
+stored sideways with a hand-kept table of quarter turns. All of that is gone: the
+container states the name and carries the transform.
 
-  Names in the files are development names. The Bowler's art is info_troll, the
-  Lava Hound's is info_tiny, the Valkyrie's export is unit_warriorGirl_big. No
-  amount of aliasing finds those reliably; the column states them.
-
-  A sheet is not one unit. sc/info_barbarian.sc holds the Barbarian, the
-  Barbarian King and the King's Iron Fist, and the Iron Fist -- a crowned King
-  flanked by two Barbarians -- is the biggest figure on it, so "take the largest"
-  put the King's ability art on the Barbarian page. The Archer's sheet is the
-  same story with the Archer Queen.
-
-The export name settles which figure only if you know where it sits on the sheet,
-and nothing readable says so: the order the names appear in the header does not
-track the order the figures are packed in. So PICK below records the position for
-the sheets that carry more than one unit, checked by eye against a contact sheet.
-Everything else takes the first figure, which is right for the 81 single-unit
-sheets.
+Entries whose art the atlas does not have keep the drawn emblem from icons.py, so
+every page still gets a picture.
 """
 from __future__ import annotations
 
@@ -43,63 +29,50 @@ from PIL import Image
 BUILD = Path(__file__).resolve().parent
 ROOT = BUILD.parent
 DATA = BUILD / "data"
-GAME = ROOT.parent / "coc-gamefiles" / "art" / "png"
-SPRITES = GAME / "all"
+DRAWN = ROOT.parent / "coc-gamefiles" / "art" / "png" / "named"
 OUT = ROOT / "assets" / "art"
 
 MAX_HEIGHT = 256
 
-# "<sheet>:<export>" -> which figure on that sheet it is, counting from the
-# largest. Only the sheets holding more than one unit need an entry.
-PICK = {
-    # The Iron Fist is the biggest figure here, the King the next, the Barbarian
-    # the smallest -- exactly backwards from what "largest is the subject" wants.
-    "info_barbarian:unit_barbarian_big": 2,
-    "info_barbarian:unit_barbarianKing_big": 1,
-    "info_archer:unit_archer_big": 2,
-    "info_archer:unit_archerQueen_big": 1,
-    # The Druid's sheet leads with the bear he turns into.
-    "info_druid_bear:unit_druid_big": 1,
-    # Two loose elephants and a dismounted rider come before the pair together.
-    "info_elephant_rider:unit_elephant_rider_big": 1,
-    "info_electrofire_wizard:unit_electrofire_wizard_fire": 1,
-    # Her sheet leads with the skeleton blimp, which is the Drop Ship's picture
-    # and takes the default -- the two pages want different figures from one file.
-    "info_witch:unit_witch_big": 1,
-    # Leads with the rubble and the Ruin Knight she summons out of it.
-    "info_ruin_witch:unit_ruin_witch_big": 1,
-    # Sneezy and her bubble spirit overlap on the sheet and come out as one blob;
-    # the second figure is Sneezy on her own.
-    "info_pet_sneezy:unit_pet_sneezy_big": 1,
-    "info_pet_raven:unit_pet_raven_big": 2,
-}
-
-# Buildings carry no BigPicture column at all -- none of them do -- but the two
-# Builder Base hero altars are pages about the hero, and the hero has one.
-EXTRA = {
-    "bb_buildings:battle-machine": {"sheet": "info_warmachine",
-                                    "export": "unit_warmachine_big"},
-    "bb_buildings:battle-copter": {"sheet": "info_battlecopter",
-                                   "export": "unit_battlecopter_big"},
-}
-
-# Rows whose BigPicture column points at another unit's art. The Dragon Duke's
-# still holds the Builder Base Battle Copter it was copied from, so he would get
-# a picture of a helicopter; the drawn emblem is the more honest answer.
+# Rows whose art column points at another unit's picture. The Dragon Duke's still
+# holds the Builder Base Battle Copter it was copied from, so he would get a
+# helicopter; the drawn emblem is the more honest answer.
 BORROWED = {"heroes:dragon-duke"}
 
+# Buildings carry no info-card picture -- none of them do -- but the two Builder
+# Base hero altars are pages about the hero, and the hero has one.
+EXTRA = {
+    "bb_buildings:battle-machine": "info_warmachine__unit_warmachine_big",
+    "bb_buildings:battle-copter": "info_battlecopter__unit_battlecopter_big",
+    # The Clan House's own export draws nothing; a house from the estate does.
+    "capital_buildings:clan-house": "buildings_cc__estate_house_01",
+    # Every district's icon column points at the same generic_district_icon, so
+    # nine pages would carry one identical picture. Each district is named after
+    # what it builds, and that building is in the atlas, so use it: the choice is
+    # editorial, which is why it lives here and not in the data layer.
+    "capital_districts:capital-peak": "buildings_cc__d0_HQ_lvl10",
+    "capital_districts:barbarian-camp": "buildings_cc__troop_barrack_super_barbarian_lvl5",
+    "capital_districts:wizard-valley": "buildings_cc__troop_barrack_super_wizard_lvl5",
+    "capital_districts:balloon-lagoon": "buildings_cc__troop_barrack_hasty_balloon_lvl5",
+    "capital_districts:builders-workshop": "buildings_cc__troop_barrack_battle_ram_lvl5",
+    "capital_districts:dragon-cliffs": "buildings_cc__troop_barrack_super_dragon_lvl5",
+    "capital_districts:golem-quarry": "buildings_cc__troop_barrack_golem_quarry_lvl5",
+    "capital_districts:skeleton-park": "buildings_cc__troop_barrack_skeleton_balloon_lvl5",
+    "capital_districts:goblin-mines": "buildings_cc__troop_barrack_miner_lvl4",
+}
 
-def sprite(art: dict) -> Path | None:
-    """The file holding the figure this entry's art column names."""
-    if not art:
+
+def source(entry: dict, key: str) -> Path | None:
+    if key in BORROWED:
         return None
-    index = PICK.get(f"{art['sheet']}:{art['export']}", 0)
-    for path in (SPRITES / f"{art['sheet']}.g{index}.png",
-                 SPRITES / f"{art['sheet']}.g0.png",
-                 GAME / f"{art['sheet']}.png"):
-        if path.exists():
-            return path
-    return None
+    named = EXTRA.get(key)
+    if not named:
+        art = entry.get("art")
+        if not art:
+            return None
+        named = f"{art['sheet']}__{art['export']}"
+    path = DRAWN / f"{named}.png"
+    return path if path.exists() else None
 
 
 def main() -> int:
@@ -107,8 +80,8 @@ def main() -> int:
     ap.add_argument("--sheet", action="store_true")
     args = ap.parse_args()
 
-    if not SPRITES.exists():
-        print(f"no extracted art at {SPRITES} -- run coc-gamefiles/extract_art.py first")
+    if not DRAWN.exists():
+        print(f"nothing drawn at {DRAWN} -- run coc-gamefiles/render_art.py first")
         return 1
 
     # Start clean: a renamed or dropped entry would otherwise leave its old
@@ -125,12 +98,13 @@ def main() -> int:
         folder = OUT / collection.replace("_", "-")
         hits = 0
         for entry in data["entries"]:
-            if f"{collection}:{entry['slug']}" in BORROWED:
+            if not isinstance(entry, dict):
                 continue
-            src = sprite(EXTRA.get(f"{collection}:{entry['slug']}") or entry.get("art"))
+            key = f"{collection}:{entry['slug']}"
+            src = source(entry, key)
             if not src:
-                if entry.get("art"):
-                    unmatched.append(f"{collection}/{entry['slug']}")
+                if entry.get("art") and key not in BORROWED:
+                    unmatched.append(key)
                 continue
             im = Image.open(src).convert("RGBA")
             if im.height > MAX_HEIGHT:
@@ -152,7 +126,7 @@ def main() -> int:
     print(f"\n{total} of {pages} entries have game art ({size:.1f} MB); "
           f"the rest use the drawn emblem")
     for name in unmatched:
-        print("  named art that is not on disk:", name)
+        print("  named art that was not drawn:", name)
 
     if args.sheet:
         cells = "".join(

@@ -63,6 +63,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Capital Peak (Clan Capital)",
       "head_title": "Capital Peak (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -93,6 +97,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Barbarian Camp (Clan Capital)",
       "head_title": "Barbarian Camp (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -123,6 +131,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Wizard Valley (Clan Capital)",
       "head_title": "Wizard Valley (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -153,6 +165,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Balloon Lagoon (Clan Capital)",
       "head_title": "Balloon Lagoon (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -183,6 +199,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Builder's Workshop (Clan Capital)",
       "head_title": "Builder's Workshop (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -213,6 +233,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Dragon Cliffs (Clan Capital)",
       "head_title": "Dragon Cliffs (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -243,6 +267,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Golem Quarry (Clan Capital)",
       "head_title": "Golem Quarry (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -273,6 +301,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Skeleton Park (Clan Capital)",
       "head_title": "Skeleton Park (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
@@ -303,6 +335,10 @@
         "mechanics:clan-capital-and-raid-weekends"
       ],
       "priority": "0.6",
+      "art": {
+        "sheet": "ui_cc",
+        "export": "generic_district_icon"
+      },
       "h1": "Goblin Mines (Clan Capital)",
       "head_title": "Goblin Mines (Clan Capital) — Clash of Clans Wiki",
       "has_prose": false
