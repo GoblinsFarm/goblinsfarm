@@ -200,6 +200,10 @@ class Registry:
 
     def __init__(self):
         self.by_key: dict[str, dict] = {}
+        # Display name -> page, for the places that only know what a thing is
+        # called: a Town Hall's unlock list says "P.E.K.K.A", and slugging that
+        # back is one dotted-name convention away from a miss.
+        self.by_label: dict[str, dict] = {}
         self.unresolved: list[str] = []
 
     def add(self, collection: str, slug: str, url: str, label: str):
@@ -207,6 +211,7 @@ class Registry:
                   "image": artwork(collection, slug)}
         self.by_key[f"{collection}:{slug}"] = record
         self.by_key.setdefault(slug, record)
+        self.by_label.setdefault(label, record)
 
     def resolve(self, ref, origin: str) -> dict | None:
         if isinstance(ref, dict):
@@ -520,7 +525,7 @@ def main() -> int:
         nonlocal todo_count
         for key, default in (
             ("section", "wiki"), ("wide", False), ("og_type", "article"), ("banner", None),
-            ("unlocks", None), ("strip", None),
+            ("unlocks", None), ("strip", None), ("gear", None),
             ("tags", None), ("crumbs", None), ("byline", None), ("jsonld", []),
             ("related", None), ("show_tool_note", False), ("quick", None),
             ("sections", []), ("tables", None), ("faq", None), ("groups", []),
@@ -568,6 +573,15 @@ def main() -> int:
         todo_count += markup.count(f'class="todo"')
         written.append((page["url"], priority, page["h1"]))
 
+    # Which pieces of equipment belong to which hero. The equipment pages say so
+    # in their quick facts; the hero pages had no way back.
+    gear_by_hero = {}
+    gear_bundle = collections.get("equipment")
+    for gear in (gear_bundle or {}).get("data", {}).get("entries", []):
+        owner = (gear.get("quick") or {}).get("Hero")
+        if owner:
+            gear_by_hero.setdefault(owner, []).append(gear["slug"])
+
     def unlock_cards(registry, names):
         """What a Town Hall level first makes available, as linked pictures.
 
@@ -579,8 +593,7 @@ def main() -> int:
         """
         out = []
         for name in names:
-            hit = registry.by_key.get(f"buildings:{slugify(name)}") \
-                or registry.by_key.get(slugify(name))
+            hit = registry.by_label.get(name)
             if hit:
                 out.append(hit)
         return out
@@ -632,6 +645,9 @@ def main() -> int:
                 if name == "mechanics" and entry["slug"] in MECHANIC_BANNERS else None,
                 "strip": level_strip(name, entry),
                 "unlocks": unlock_cards(registry, entry.get("unlocks", [])),
+                "gear": [registry.by_key[f"equipment:{g}"]
+                         for g in gear_by_hero.get(entry["name"], [])
+                         if f"equipment:{g}" in registry.by_key] if name == "heroes" else [],
                 "show_tool_note": entry.get("show_tool_note", False),
                 "iso_updated": entry.get("iso_updated", site["iso_updated"]),
                 # entry-level source wins: hand-written collections carry no

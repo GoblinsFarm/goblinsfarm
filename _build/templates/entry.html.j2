@@ -22,6 +22,7 @@
 {%- for s in page.sections %}
 <li><a href="#{{ s.id }}">{{ s.h }}</a></li>
 {%- endfor %}
+{%- if page.gear %}<li><a href="#gear">Equipment for this hero</a></li>{% endif %}
 {%- if page.unlocks %}<li><a href="#unlocks">What it unlocks</a></li>{% endif %}
 {%- if page.strip %}<li><a href="#levels">How it looks at each level</a></li>{% endif %}
 {%- if page.tables %}<li><a href="#stats">Stats by level</a></li>{% endif %}
@@ -34,6 +35,20 @@
 <h2 id="{{ s.id }}">{{ s.h }}</h2>
 {{ s.body }}
 {%- endfor %}
+
+{%- if page.gear %}
+<div class="block">
+<h2 id="gear">Equipment for this hero</h2>
+<div class="grid">
+{%- for g in page.gear %}
+<a class="card{% if g.image %} hasart{% endif %}" href="{{ rel }}{{ g.href }}">
+  {%- if g.image %}<img class="thumb" src="{{ rel }}{{ g.image.src }}" alt="" width="56" height="56" loading="lazy" decoding="async">{% endif %}
+  <span class="cardtext"><b>{{ g.label }}</b></span>
+</a>
+{%- endfor %}
+</div>
+</div>
+{%- endif %}
 
 {%- if page.unlocks %}
 <div class="block">

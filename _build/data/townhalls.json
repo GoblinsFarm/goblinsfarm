@@ -146,7 +146,8 @@
         "Sour Elixir Cauldron",
         "Spell Cauldron",
         "Spell Surprise",
-        "Troop Coop"
+        "Troop Coop",
+        "Barbarian"
       ],
       "h1": "Town Hall 1: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -248,7 +249,10 @@
       "priority": "0.7",
       "unlocks": [
         "Archer Tower",
-        "Wall"
+        "Wall",
+        "Archer",
+        "Giant",
+        "Goblin"
       ],
       "h1": "Town Hall 2: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -351,7 +355,8 @@
       "unlocks": [
         "Clan Castle",
         "Laboratory",
-        "Mortar"
+        "Mortar",
+        "Wall Breaker"
       ],
       "h1": "Town Hall 3: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -453,7 +458,8 @@
       "priority": "0.7",
       "unlocks": [
         "Air Defense",
-        "Hero Hall"
+        "Hero Hall",
+        "Balloon"
       ],
       "h1": "Town Hall 4: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -555,7 +561,9 @@
       "priority": "0.7",
       "unlocks": [
         "Spell Factory",
-        "Wizard Tower"
+        "Wizard Tower",
+        "Lightning Spell",
+        "Wizard"
       ],
       "h1": "Town Hall 5: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -656,7 +664,9 @@
       ],
       "priority": "0.7",
       "unlocks": [
-        "Air Sweeper"
+        "Air Sweeper",
+        "Healer",
+        "Healing Spell"
       ],
       "h1": "Town Hall 6: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -761,7 +771,11 @@
         "Dark Barracks",
         "Dark Elixir Drill",
         "Dark Elixir Storage",
-        "Hidden Tesla"
+        "Hidden Tesla",
+        "Dragon",
+        "Hog Rider",
+        "Minion",
+        "Rage Spell"
       ],
       "h1": "Town Hall 7: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -864,7 +878,12 @@
       "unlocks": [
         "Blacksmith",
         "Bomb Tower",
-        "Dark Spell Factory"
+        "Dark Spell Factory",
+        "Earthquake Spell",
+        "Golem",
+        "P.E.K.K.A",
+        "Poison Spell",
+        "Valkyrie"
       ],
       "h1": "Town Hall 8: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -967,7 +986,14 @@
       "unlocks": [
         "Archer Queen",
         "Helper Hut",
-        "X-Bow"
+        "X-Bow",
+        "Baby Dragon",
+        "Freeze Spell",
+        "Haste Spell",
+        "Jump Spell",
+        "Lava Hound",
+        "Skeleton Spell",
+        "Witch"
       ],
       "h1": "Town Hall 9: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1068,7 +1094,11 @@
       ],
       "priority": "0.7",
       "unlocks": [
-        "Inferno Tower"
+        "Inferno Tower",
+        "Bat Spell",
+        "Bowler",
+        "Clone Spell",
+        "Miner"
       ],
       "h1": "Town Hall 10: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1170,7 +1200,10 @@
       "priority": "0.7",
       "unlocks": [
         "Eagle Artillery",
-        "Grand Warden"
+        "Grand Warden",
+        "Electro Dragon",
+        "Ice Golem",
+        "Invisibility Spell"
       ],
       "h1": "Town Hall 11: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1271,7 +1304,13 @@
       ],
       "priority": "0.7",
       "unlocks": [
-        "Workshop"
+        "Workshop",
+        "Battle Blimp",
+        "Headhunter",
+        "Overgrowth Spell",
+        "Stone Slammer",
+        "Wall Wrecker",
+        "Yeti"
       ],
       "h1": "Town Hall 12: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1373,7 +1412,12 @@
       "priority": "0.7",
       "unlocks": [
         "Royal Champion",
-        "Scattershot"
+        "Scattershot",
+        "Apprentice Warden",
+        "Dragon Rider",
+        "Log Launcher",
+        "Recall Spell",
+        "Siege Barracks"
       ],
       "h1": "Town Hall 13: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1474,7 +1518,11 @@
       ],
       "priority": "0.7",
       "unlocks": [
-        "Pet House"
+        "Pet House",
+        "Druid",
+        "Electro Titan",
+        "Flame Flinger",
+        "Ice Block Spell"
       ],
       "h1": "Town Hall 14: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1576,7 +1624,12 @@
       "priority": "0.7",
       "unlocks": [
         "Monolith",
-        "Spell Tower"
+        "Spell Tower",
+        "Angry Spell",
+        "Battle Drill",
+        "Furnace",
+        "Revive Spell",
+        "Root Rider"
       ],
       "h1": "Town Hall 15: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1678,7 +1731,11 @@
       "priority": "0.7",
       "unlocks": [
         "Multi-Archer Tower",
-        "Ricochet Cannon"
+        "Ricochet Cannon",
+        "Ruin Witch",
+        "Thrower",
+        "Totem Spell",
+        "Troop Launcher"
       ],
       "h1": "Town Hall 16: Upgrade Order, Priorities and Common Mistakes",
       "art": {
@@ -1782,7 +1839,9 @@
         "Crafting Station",
         "Firespitter",
         "Multi-Gear Tower",
-        "Town Hall"
+        "Town Hall",
+        "Meteor Golem",
+        "Sky Wagon"
       ],
       "h1": "Town Hall 17: Upgrade Order, Priorities and Common Mistakes",
       "art": {
