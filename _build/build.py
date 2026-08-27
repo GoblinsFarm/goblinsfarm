@@ -606,6 +606,24 @@ def main() -> int:
                 out.append(hit)
         return out
 
+    def quick_links(entry, related):
+        """Pages an entry's quick facts already name, as links.
+
+        "Trained in: Dark Barracks", "Hero: Archer Queen", "Unlocked at: Town
+        Hall 4" are all references to other pages written as plain values, and a
+        reader who wants the Dark Barracks has to go and find it. Matching is on
+        the exact display name, so a value that happens to read like a page title
+        is the only thing that links -- "Ground only" and "3x3" match nothing.
+        """
+        seen = {r["href"] for r in related}
+        out = []
+        for value in (entry.get("quick") or {}).values():
+            hit = registry.by_label.get(value) if isinstance(value, str) else None
+            if hit and hit["href"] not in seen and hit["label"] != entry["name"]:
+                seen.add(hit["href"])
+                out.append(hit)
+        return out
+
     # ---- pass 2: wiki entries + section hubs
     wiki_groups = []
     for name, folder in WIKI_COLLECTIONS:
@@ -638,7 +656,7 @@ def main() -> int:
                 "sections": section_list(entry.get("sections")),
                 "tables": entry.get("tables"),
                 "faq": entry.get("faq"),
-                "related": resolve_related(entry, url),
+                "related": (lambda r: quick_links(entry, r) + r)(resolve_related(entry, url)),
                 "crumbs": crumbs,
                 "image": artwork(name, entry["slug"]),
                 "banner": banner(MECHANIC_BANNERS[entry["slug"]])
