@@ -28,6 +28,7 @@ strong{color:var(--ink)}
 .home{display:inline-block;margin-bottom:18px;font-weight:800;text-decoration:none;font-size:14px}
 @media (max-width:600px){.doc{padding:28px 22px}}
 </style>
+<script defer src="/assets/ph.js"></script>
 </head>
 <body>
 <div class="doc">
@@ -39,7 +40,7 @@ strong{color:var(--ink)}
 <ul>
 <li><strong>When you buy:</strong> your email address and payment details. Payments are handled entirely by Stripe; we never see or store your card number.</li>
 <li><strong>When you activate:</strong> your license key and an anonymous device fingerprint (a one-way hash derived from your computer's name and network hardware) used solely to enforce the one-device license limit, plus activation timestamps.</li>
-<li><strong>Nothing else.</strong> The website sets no cookies and runs no analytics or ad trackers. The app does not collect gameplay data, screenshots, or personal files.</li>
+<li><strong>Website analytics.</strong> The website uses <a href="https://posthog.com" rel="noopener">PostHog</a> to measure traffic: pages viewed, referring site, country, browser and device, clicks, and session replays with all form input masked. It stores a random visitor id in your browser's local storage (no cookies) and does not sell or share this data. No ad trackers. The app does not collect gameplay data, screenshots, or personal files.</li>
 </ul>
 
 <h2>Phone notifications (optional)</h2>

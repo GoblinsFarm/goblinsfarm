@@ -59,6 +59,7 @@ p{color:#5c4a38;font-size:15.5px;line-height:1.6}
 .muted{font-size:13px;color:#9a8567;margin-top:18px}
 .spin{font-size:15px;color:#5c4a38}
 </style>
+<script defer src="/assets/ph.js"></script>
 </head>
 <body>
 <div class="card">
@@ -96,6 +97,13 @@ p{color:#5c4a38;font-size:15.5px;line-height:1.6}
       .then(function(d){
         document.getElementById("key").textContent = d.license_key;
         show("ready");
+        try {
+          var product = localStorage.getItem("gf_checkout_product") || "unknown";
+          if (window.posthog && !sessionStorage.getItem("gf_purchase_sent")) {
+            posthog.capture("purchase_completed", { product: product, status: d.status });
+            sessionStorage.setItem("gf_purchase_sent", "1");
+          }
+        } catch (e) {}
       })
       .catch(function(){
         tries++;
