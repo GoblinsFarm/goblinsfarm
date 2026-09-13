@@ -1,7 +1,7 @@
 /* Goblins Farm site analytics (PostHog). One file, loaded on every page.
    Identity lives in localStorage only (no cookies). Edit config here, not in pages. */
 (function () {
-  var TOKEN = "__PH_TOKEN__";
+  var TOKEN = "phc_sjkQe5EkSxzEgqGrRnPmrTewuTGdSkMUhvhxAjEFBVRV";
   var HOST = "https://us.i.posthog.com";
   if (!TOKEN || TOKEN.indexOf("phc_") !== 0) return;
 
