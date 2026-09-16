@@ -289,7 +289,7 @@ td.todo,.todo{color:#a8724a;font-style:italic}
    them read as a cabinet of things rather than a list with icons. */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:16px 0 6px}
 .grid.tiles{grid-template-columns:repeat(auto-fill,minmax(146px,1fr));gap:12px}
-.grid.wide{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.grid.wide{grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:16px}
 .card{display:block;background:var(--paper);border:2.5px solid var(--panel-edge);border-radius:13px;
   padding:12px 14px;text-decoration:none;color:var(--body);
   transition:transform .12s,box-shadow .12s,border-color .12s}
@@ -445,3 +445,20 @@ h2.withmascot .mascot{width:42px}
 .jumpbar a:hover{border-color:var(--t-line)}
 .jumpbar a span{font-size:11px;color:var(--brown);background:rgba(255,255,255,.8);
   border-radius:999px;padding:0 6px;line-height:16px}
+
+/* Section cards on the wiki's front page: four things from behind each door.
+   The painted banners that used to sit here repeated -- the two side villages
+   shared one apiece between six sections -- and none of them showed anything
+   the section is actually about. */
+.bigcard-art{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;align-items:end;
+  padding:16px 14px 14px;border-bottom:3px solid var(--ink);
+  background:radial-gradient(ellipse at 50% 88%,#fff,var(--t-wash) 76%)}
+.bigcard-art img{width:100%;height:62px;object-fit:contain;
+  filter:drop-shadow(0 3px 3px rgba(50,32,14,.3))}
+
+/* The front page's "rest of the site" list: links with a line of context, and
+   no bullet doing the work a dash does better. */
+.plainlist{list-style:none;padding:0;margin:0;font-size:14px}
+.plainlist li{margin-bottom:7px;line-height:1.45}
+.plainlist a{font-weight:900;color:var(--t-deep);text-decoration:none}
+.plainlist a:hover{text-decoration:underline}

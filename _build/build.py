@@ -35,6 +35,7 @@ import re
 import subprocess
 import sys
 from datetime import datetime, timezone
+from functools import lru_cache
 from email.utils import format_datetime
 from pathlib import Path
 
@@ -282,6 +283,28 @@ def artwork(collection: str, slug: str) -> dict | None:
     return None
 
 
+def mosaic(collection: str, entries: list[dict], count: int = 4) -> list[dict]:
+    """A handful of a section's own artwork, spread across its roster.
+
+    The wiki's front page used to show each section as a painted landscape.
+    Six of the fifteen shared two paintings between them, so Capital Troops and
+    Capital Buildings were the same picture, and none of them showed a single
+    thing the section is actually about. Four pieces of real game art, taken at
+    even intervals so the row is not four variations of the Barbarian, say what
+    the section holds and are different for every one.
+    """
+    with_art = [e for e in entries if artwork(collection, e["slug"])]
+    if not with_art:
+        return []
+    if len(with_art) <= count:
+        picked = with_art
+    else:
+        step = len(with_art) / count
+        picked = [with_art[int(i * step)] for i in range(count)]
+    return [{"src": artwork(collection, e["slug"])["src"], "label": e["name"]}
+            for e in picked]
+
+
 def level_strip(collection: str, entry: dict) -> list[dict]:
     """The one-per-level frames art.py wrote beside this entry's picture.
 
@@ -329,14 +352,35 @@ class Registry:
 
 
 # --------------------------------------------------------------------------- page build
+GAME_BUILD_TOKEN = "%%GAME_BUILD%%"
+
+
+@lru_cache(maxsize=1)
+def game_build() -> str:
+    """The client build the stat tables were read from.
+
+    Prose used to name this version in a string. It drifted: the front page
+    claimed 18.350.7 and said the June 2026 content was missing, while every
+    table on the same site was printing 18.400.21 and the Ruin Witch had her
+    own page. A version a human has to remember to update is a version that
+    will be wrong, so prose writes %%GAME_BUILD%% and the build fills it in.
+    """
+    for name, _ in WIKI_COLLECTIONS:
+        version = (load(name).get("source") or {}).get("game_version")
+        if version:
+            return version
+    return "the recorded build"
+
+
 def section_list(raw_sections, prefix=""):
     out = []
+    build = game_build()
     for i, sec in enumerate(raw_sections or []):
         out.append(
             {
                 "id": sec.get("id") or slugify(sec["h"]) or f"{prefix}s{i}",
                 "h": sec["h"],
-                "body": sec["body"],
+                "body": sec["body"].replace(GAME_BUILD_TOKEN, build),
             }
         )
     return out
@@ -681,6 +725,7 @@ def main() -> int:
             # and which economy colours its chrome.
             ("nav_key", None), ("nav_label", None), ("tone", "slate"),
             ("hero_title", False), ("count", None), ("quick_wordy", False),
+            ("groups_first", False), ("facts", None),
             ("gallery", None),
         ):
             page.setdefault(key, default)
@@ -704,7 +749,7 @@ def main() -> int:
             for link in group["links"]:
                 link.setdefault("blurb", "")
                 link.setdefault("image", None)
-                link.setdefault("banner", None)
+                link.setdefault("mosaic", None)
                 link.setdefault("tone", page["tone"])
                 link.setdefault("count", None)
         if page.get("byline") is None and page["section"] in ("wiki", "tutorials"):
@@ -990,10 +1035,9 @@ def main() -> int:
                 "blurb": hub.get("summary", ""),
                 "href": f"{folder}/",
                 "count": len(entries),
-                # The wiki's own front page shows each section as its banner
-                # rather than as a line of text, which is the one page where
-                # the illustrations are the navigation.
-                "banner": banner(name),
+                # The wiki's own front page is a row of doors, not a list of
+                # links: each one shows four things from behind it.
+                "mosaic": mosaic(name, entries),
                 "tone": tone(name),
             }
         )
@@ -1185,7 +1229,7 @@ def main() -> int:
             "h": wiki.get("list_heading", "Browse the wiki"),
             "style": "cards",
             "links": [
-                {"href": g["href"], "label": g["h"], "banner": g["banner"],
+                {"href": g["href"], "label": g["h"], "mosaic": g["mosaic"],
                  "tone": g["tone"], "count": g["count"],
                  "blurb": clip(g["blurb"], 120)}
                 for g in wiki_groups
@@ -1224,6 +1268,18 @@ def main() -> int:
         "nav_label": "The Clash of Clans reference",
         "tone": "gold",
         "hero_title": True,
+        # The doors first, the explanation of how the pages are built second.
+        "groups_first": True,
+        "facts": {
+            "Pages": f"{len(written) + 1:,}",
+            "Sections": str(len(wiki_groups)),
+            "Game build": next(
+                (c["data"]["source"]["game_version"] for c in collections.values()
+                 if (c["data"].get("source") or {}).get("game_version")), None
+            ) or "—",
+            "Updated": site["updated"],
+            "Price": "Free, no account",
+        },
     }
     wiki_page["jsonld"] = [jsonld_breadcrumbs(site, crumbs), jsonld_itemlist(site, groups)]
     render("hub.html.j2", wiki_page, "0.9")

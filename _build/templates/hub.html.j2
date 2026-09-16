@@ -1,5 +1,32 @@
 {% extends "base.html.j2" %}
 
+{%- macro cardgrid(g, tone) %}
+{%- if g.style == 'list' %}
+<ul class="linklist">
+{%- for it in g.links %}
+<li><a href="{{ rel }}{{ it.href }}">{{ it.label }}</a></li>
+{%- endfor %}
+</ul>
+{%- else %}
+<div class="grid{% if g.links and g.links[0].mosaic %} wide{% elif not g.links|selectattr('blurb')|list %} tiles{% endif %}">
+{%- for it in g.links %}
+{%- if it.mosaic %}
+<a class="card bigcard tone-{{ it.tone }}" href="{{ rel }}{{ it.href }}">
+  <span class="bigcard-art">
+  {%- for m in it.mosaic %}<img src="{{ rel }}{{ m.src }}" alt="" width="72" height="72" loading="lazy" decoding="async">{% endfor %}
+  </span>
+  <span class="cardtext"><b>{{ it.label }}</b>{% if it.count %}<span class="cardcount">{{ it.count }} pages</span>{% endif %}<span>{{ it.blurb }}</span></span>
+</a>
+{%- else %}
+<a class="card{% if not g.links|selectattr('blurb')|list %} tile{% endif %}{% if it.image %} hasart{% endif %} tone-{{ tone }}" href="{{ rel }}{{ it.href }}">
+{%- if it.image %}<span class="plaque{% if not it.image.photo %} drawn{% endif %}"><img class="thumb" src="{{ rel }}{{ it.image.src }}" alt="" width="72" height="72" loading="lazy" decoding="async"></span>{% endif %}
+<span class="cardtext"><b>{{ it.label }}</b>{% if it.blurb %}<span>{{ it.blurb }}</span>{% endif %}</span></a>
+{%- endif %}
+{%- endfor %}
+</div>
+{%- endif %}
+{%- endmacro %}
+
 {% block content %}
 {%- if page.mascot %}
 <div class="intro speaks">
@@ -10,10 +37,29 @@
 <p class="lede">{{ page.summary }}</p>
 {%- endif %}
 
+{%- if page.facts %}
+<dl class="factbar">
+{%- for k, v in page.facts.items() %}
+<div><dt>{{ k }}</dt><dd>{{ v }}</dd></div>
+{%- endfor %}
+</dl>
+{%- endif %}
+
 {%- if page.groups|length > 1 %}
 <nav class="jumpbar" aria-label="Sections on this page">
 {%- for g in page.groups %}<a href="#{{ g.id }}">{{ g.h }}{% if g.links %}<span>{{ g.links|length }}</span>{% endif %}</a>{% endfor %}
 </nav>
+{%- endif %}
+
+{#- The wiki's front page leads with the way in. Its prose explains how the
+    pages are built and where the numbers come from: worth reading once, and
+    squarely in the way of somebody who arrived looking for the Dragon. #}
+{%- if page.groups_first %}
+{%- for g in page.groups %}
+<h2 id="{{ g.id }}">{{ g.h }}</h2>
+{%- if g.blurb %}<p>{{ g.blurb }}</p>{% endif %}
+{{ cardgrid(g, page.tone) }}
+{%- endfor %}
 {%- endif %}
 
 {%- for s in page.sections %}
@@ -21,32 +67,13 @@
 {{ s.body }}
 {%- endfor %}
 
+{%- if not page.groups_first %}
 {%- for g in page.groups %}
 <h2 id="{{ g.id }}">{{ g.h }}</h2>
 {%- if g.blurb %}<p>{{ g.blurb }}</p>{% endif %}
-{%- if g.style == 'list' %}
-<ul class="linklist">
-{%- for it in g.links %}
-<li><a href="{{ rel }}{{ it.href }}">{{ it.label }}</a></li>
+{{ cardgrid(g, page.tone) }}
 {%- endfor %}
-</ul>
-{%- else %}
-<div class="grid{% if g.links and g.links[0].banner %} wide{% elif not g.links|selectattr('blurb')|list %} tiles{% endif %}">
-{%- for it in g.links %}
-{%- if it.banner %}
-<a class="card bigcard tone-{{ it.tone }}" href="{{ rel }}{{ it.href }}">
-  <span class="bigcard-art"><img src="{{ rel }}{{ it.banner }}" alt="" width="700" height="350" loading="lazy" decoding="async"></span>
-  <span class="cardtext"><b>{{ it.label }}</b>{% if it.count %}<span class="cardcount">{{ it.count }} pages</span>{% endif %}<span>{{ it.blurb }}</span></span>
-</a>
-{%- else %}
-<a class="card{% if not g.links|selectattr('blurb')|list %} tile{% endif %}{% if it.image %} hasart{% endif %} tone-{{ page.tone }}" href="{{ rel }}{{ it.href }}">
-{%- if it.image %}<span class="plaque{% if not it.image.photo %} drawn{% endif %}"><img class="thumb" src="{{ rel }}{{ it.image.src }}" alt="" width="72" height="72" loading="lazy" decoding="async"></span>{% endif %}
-<span class="cardtext"><b>{{ it.label }}</b>{% if it.blurb %}<span>{{ it.blurb }}</span>{% endif %}</span></a>
 {%- endif %}
-{%- endfor %}
-</div>
-{%- endif %}
-{%- endfor %}
 
 {%- if page.faq %}
 <h2 id="faq">Frequently asked</h2>
