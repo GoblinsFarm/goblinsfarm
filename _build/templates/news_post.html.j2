@@ -6,7 +6,7 @@
 {{ s.body }}
 {%- endfor %}
 {%- if page.faq %}
-<h2 id="faq" class="withmascot">{% if mascot('faq') %}<img class="mascot small" src="{{ rel }}{{ mascot('faq') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}Frequently asked</h2>
+<h2 id="faq" class="withmascot">{% if mascot('faq') %}<span class="medallion"><img class="mascot small" src="{{ rel }}{{ mascot('faq') }}" alt="" width="64" height="64" loading="lazy" decoding="async"></span>{% endif %}Frequently asked</h2>
 {%- for f in page.faq %}
 <h3>{{ f.q }}</h3>
 <p>{{ f.a }}</p>

@@ -99,6 +99,33 @@ MECHANIC_BANNERS = {
 }
 
 
+# Which economy a section belongs to. Every piece of chrome that can carry a
+# colour -- infobox header, card tile, rail marker, table cost pip -- takes it
+# from here, so a page says which half of the game it is about before a word of
+# it has been read. Derived from the collection rather than from an entry's
+# tags because the tags are prose and vary; this has to be exhaustive.
+TONES = {
+    "troops": "elixir", "spells": "elixir",
+    "heroes": "dark", "pets": "dark", "equipment": "ore",
+    "buildings": "gold", "traps": "gold", "townhalls": "gold",
+    "mechanics": "slate",
+    "bb_troops": "builder", "bb_buildings": "builder",
+    "capital_troops": "capital", "capital_spells": "capital",
+    "capital_buildings": "capital", "capital_districts": "capital",
+    "tutorials": "slate", "news": "slate", "blog": "slate", "wiki": "gold",
+}
+
+# The order the rail lists sections in: the main village first and in the order
+# a player meets it, then the two side villages, then the pages that explain
+# rules rather than describe things.
+NAV_ORDER = [
+    "townhalls", "troops", "spells", "heroes", "equipment", "pets",
+    "buildings", "traps", "bb_troops", "bb_buildings",
+    "capital_troops", "capital_spells", "capital_buildings", "capital_districts",
+    "mechanics",
+]
+
+
 # The cast, and where each one speaks. They are decoration with a job: a callout
 # reads faster when something is visibly telling you it. Kept to a handful per
 # page -- one on each note, one on the FAQ, one on the read-on row -- because the
@@ -139,6 +166,32 @@ def mascot(role: str) -> str | None:
 def banner(key: str) -> str | None:
     name = BANNERS.get(key, key)
     return f"assets/banners/{name}.webp" if (ROOT / "assets" / "banners" / f"{name}.webp").exists() else None
+
+
+# Cost cells arrive as "28,500,000 Elixir" or "6,000 Dark Elixir" -- a wall of
+# digits whose only distinguishing feature is a word at the end that the eye
+# does not reach. Tagging the resource lets the stylesheet put a coloured pip in
+# front of the number, so a column of costs is scannable by colour. Unrecognised
+# cells pass through untouched.
+RESOURCES = ("Dark Elixir", "Capital Gold", "Raid Medals", "Elixir", "Gold", "Gems")
+_COST_RE = re.compile(
+    r"^([\d,.]+)\s+(" + "|".join(RESOURCES) + r")$"
+)
+
+
+def cost_cell(value) -> str:
+    text = str(value)
+    m = _COST_RE.match(text.strip())
+    if not m:
+        return text
+    amount, resource = m.group(1), m.group(2)
+    return (f'<span class="res {slugify(resource)}" title="{resource}">'
+            f'<i aria-hidden="true"></i>{amount}'
+            f'<span class="visually-hidden"> {resource}</span></span>')
+
+
+def tone(key: str) -> str:
+    return TONES.get(key, "slate")
 
 
 # Hand-written pages that live outside the generator but belong in the sitemap.
@@ -190,6 +243,19 @@ def rel_prefix(url: str) -> str:
 
 def compact_json(obj) -> str:
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+
+
+def clip(text: str, limit: int) -> str:
+    """Cut a blurb to length on a word boundary.
+
+    Slicing a string mid-word is the single most obvious tell that a card was
+    filled by a script, and every hub card on the site was doing it.
+    """
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-\u2014")
+    return f"{cut}\u2026"
 
 
 def strip_tags(markup: str) -> str:
@@ -527,6 +593,8 @@ def main() -> int:
         autoescape=False,  # bodies are authored HTML fragments
     )
     env.globals["mascot"] = mascot
+    env.globals["tone"] = tone
+    env.filters["cost"] = cost_cell
 
     registry = Registry()
     written: list[tuple[str, str, str]] = []  # (url, priority, title)
@@ -560,6 +628,38 @@ def main() -> int:
     for post in blog.get("entries", []):
         registry.add("blog", post["slug"], f"/blog/{post['slug']}.html", post["name"])
 
+    # ---- the category rail
+    # Every wiki page carries the same list of sections, and the one it belongs
+    # to is expanded to its full contents. That is what makes a wiki navigable:
+    # from the Dragon you can reach the Balloon without going back up through a
+    # hub, which is two page loads for something that should be zero.
+    wiki_nav = []
+    for name in NAV_ORDER:
+        bundle = collections.get(name)
+        if not bundle:
+            continue
+        data, folder = bundle["data"], bundle["folder"]
+        hub = data.get("hub", {})
+        wiki_nav.append({
+            "key": name,
+            "label": hub.get("nav_label", name.title()),
+            "href": f"{folder}/",
+            "tone": tone(name),
+            "count": len(data.get("entries", [])),
+            "pages": [
+                {"label": e["name"], "href": f"{folder}/{e['slug']}.html",
+                 "image": artwork(name, e["slug"])}
+                for e in data.get("entries", [])
+            ],
+        })
+    env.globals["wiki_nav"] = wiki_nav
+
+    # ---- what the search box searches
+    # One record per generated page. Written as a flat array of short keys
+    # because it is fetched by every visitor who touches the search field and
+    # the field names would otherwise be a third of the file.
+    search_records: list[dict] = []
+
     # hand-written guides, so wiki pages can link across to them
     for guide in site.get("guides", []):
         registry.add("guides", guide["slug"], guide["href"], guide["label"])
@@ -577,6 +677,11 @@ def main() -> int:
             ("intro", None), ("steps", None), ("steps_heading", "Step by step"),
             ("sources", None), ("author", None), ("source", None),
             ("has_todo", False), ("stat_only", False), ("image", None),
+            # Which rail entry is lit, what the search index calls this page,
+            # and which economy colours its chrome.
+            ("nav_key", None), ("nav_label", None), ("tone", "slate"),
+            ("hero_title", False), ("count", None), ("quick_wordy", False),
+            ("gallery", None),
         ):
             page.setdefault(key, default)
         # Declare the organization and website nodes on every page, keyed by a
@@ -599,6 +704,9 @@ def main() -> int:
             for link in group["links"]:
                 link.setdefault("blurb", "")
                 link.setdefault("image", None)
+                link.setdefault("banner", None)
+                link.setdefault("tone", page["tone"])
+                link.setdefault("count", None)
         if page.get("byline") is None and page["section"] in ("wiki", "tutorials"):
             page["byline"] = site["default_byline"]
         page.setdefault("iso_updated", site["iso_updated"])
@@ -617,6 +725,18 @@ def main() -> int:
         out_path.write_text(markup, encoding="utf-8")
         todo_count += markup.count(f'class="todo"')
         written.append((page["url"], priority, page["h1"]))
+        search_records.append({
+            # The h1 carries an SEO suffix ("Dragon — Clash of Clans") that is
+            # dead weight in a result row where every row is a Clash of Clans
+            # page. The disambiguating suffixes -- (Builder Base), (Clan
+            # Capital) -- are not, so only this one comes off.
+            "t": page["h1"].replace(" \u2014 Clash of Clans", ""),
+            "u": page["url"],
+            "s": page.get("nav_label") or page["section"].title(),
+            "o": page.get("tone") or "slate",
+            "i": (page["image"] or {}).get("src", "") if page.get("image") else "",
+            "b": clip(strip_tags(page.get("summary") or page["description"]), 110),
+        })
 
     # Which pieces of equipment belong to which hero. The equipment pages say so
     # in their quick facts; the hero pages had no way back.
@@ -772,6 +892,16 @@ def main() -> int:
                     for row in tbl["rows"]
                 ) or site["todo"] in (entry.get("quick") or {}).values(),
                 "stat_only": not entry.get("has_prose", True),
+                "nav_key": name,
+                "nav_label": hub.get("nav_label", name.title()),
+                "tone": tone(name),
+                # A stat block is a two-column table of short values. The
+                # mechanics pages answer their quick facts in sentences, and a
+                # sentence right-aligned against its label is ragged on the
+                # wrong edge, so those stack instead.
+                "quick_wordy": any(
+                    len(str(v)) > 30 for v in (entry.get("quick") or {}).values()
+                ),
             }
             page["jsonld"] = [
                 jsonld_breadcrumbs(site, crumbs),
@@ -784,7 +914,7 @@ def main() -> int:
             {
                 "href": f"{folder}/{e['slug']}.html",
                 "label": e["name"],
-                "blurb": e.get("blurb", e["description"])[:120],
+                "blurb": clip(e.get("blurb", e["description"]), 120),
                 "image": artwork(name, e["slug"]),
             }
             for e in entries
@@ -842,6 +972,11 @@ def main() -> int:
             "wide": True,
             "og_type": "website",
             "source": data.get("source"),
+            "nav_key": name,
+            "nav_label": hub.get("nav_label", name.title()),
+            "tone": tone(name),
+            "hero_title": True,
+            "count": len(entries),
         }
         hub_page["jsonld"] = [
             jsonld_breadcrumbs(site, crumbs),
@@ -855,6 +990,11 @@ def main() -> int:
                 "blurb": hub.get("summary", ""),
                 "href": f"{folder}/",
                 "count": len(entries),
+                # The wiki's own front page shows each section as its banner
+                # rather than as a line of text, which is the one page where
+                # the illustrations are the navigation.
+                "banner": banner(name),
+                "tone": tone(name),
             }
         )
 
@@ -922,6 +1062,8 @@ def main() -> int:
             "url": "/tutorials/",
             "section": "tutorials",
             "banner": banner("tutorials"),
+            "hero_title": True,
+            "nav_label": "Walkthroughs",
             "mascot": section_mascot("tutorials"),
             "h1": hub.get("h1", "Clash of Clans Tutorials"),
             "head_title": hub.get("head_title", f"Clash of Clans Tutorials | {site['name']}"),
@@ -1007,6 +1149,8 @@ def main() -> int:
             "url": f"/{folder}/",
             "section": key,
             "banner": banner(key),
+            "hero_title": True,
+            "nav_label": hub.get("nav_label"),
             "mascot": section_mascot(key),
             "h1": hub.get("h1", default_h1),
             "head_title": hub.get("head_title", f"{default_h1} | {site['name']}"),
@@ -1041,7 +1185,9 @@ def main() -> int:
             "h": wiki.get("list_heading", "Browse the wiki"),
             "style": "cards",
             "links": [
-                {"href": g["href"], "label": g["h"], "blurb": f"{g['count']} pages — {g['blurb'][:110]}"}
+                {"href": g["href"], "label": g["h"], "banner": g["banner"],
+                 "tone": g["tone"], "count": g["count"],
+                 "blurb": clip(g["blurb"], 120)}
                 for g in wiki_groups
             ],
         }
@@ -1075,6 +1221,9 @@ def main() -> int:
         "crumbs": crumbs,
         "wide": True,
         "og_type": "website",
+        "nav_label": "The Clash of Clans reference",
+        "tone": "gold",
+        "hero_title": True,
     }
     wiki_page["jsonld"] = [jsonld_breadcrumbs(site, crumbs), jsonld_itemlist(site, groups)]
     render("hub.html.j2", wiki_page, "0.9")
@@ -1093,6 +1242,10 @@ def main() -> int:
             f"  <url><loc>{loc}</loc><lastmod>{site['iso_updated']}</lastmod>"
             f"<priority>{priority}</priority></url>"
         )
+    (ROOT / "assets" / "search-index.json").write_text(
+        compact_json(search_records), encoding="utf-8"
+    )
+
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

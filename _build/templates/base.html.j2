@@ -25,20 +25,63 @@
 <script type="application/ld+json">{{ block }}</script>
 {%- endfor %}
 <script defer src="/assets/ph.js"></script>
+<script defer src="{{ rel }}assets/search.js"></script>
 </head>
-<body>
+<body class="tone-{{ page.tone }}">
 <header class="sitebar">
   <a class="brand" href="{{ rel }}">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="{{ rel }}assets/search-index.json" data-rel="{{ rel }}">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     {%- for item in site.nav %}
     <a href="{{ rel }}{{ item.href }}"{% if page.section == item.section %} aria-current="page"{% endif %}>{{ item.label }}</a>
     {%- endfor %}
   </nav>
 </header>
 
+<div class="shell{% if page.section == 'wiki' %} withrail{% endif %}">
+
+{%- if page.section == 'wiki' %}
+{#- The category rail. Every wiki page carries the whole section list, and the
+    section this page belongs to is expanded to its contents, so any sibling is
+    one click away. On a phone it becomes a scrolling row of section chips: the
+    entry lists are too long to sit above the article there. #}
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home{% if page.url == '/wiki/' %} on{% endif %}" href="{{ rel }}wiki/">Wiki home</a>
+  <nav class="rail-nav">
+  {%- for s in wiki_nav %}
+    <div class="rail-sec tone-{{ s.tone }}{% if page.nav_key == s.key %} on{% endif %}">
+      <a class="rail-head" href="{{ rel }}{{ s.href }}"{% if page.url == '/' ~ s.href %} aria-current="page"{% endif %}>{{ s.label }}<span class="rail-n">{{ s.count }}</span></a>
+      {%- if page.nav_key == s.key and s.pages %}
+      <ul class="rail-items">
+      {%- for it in s.pages %}
+        <li><a href="{{ rel }}{{ it.href }}"{% if page.url == '/' ~ it.href %} aria-current="page"{% endif %}>{% if it.image %}<img src="{{ rel }}{{ it.image.src }}" alt="" width="22" height="22" loading="lazy" decoding="async">{% endif %}<span>{{ it.label }}</span></a></li>
+      {%- endfor %}
+      </ul>
+      {%- endif %}
+    </div>
+  {%- endfor %}
+  </nav>
+</aside>
+{%- endif %}
+
 <main class="doc{% if not page.wide and page.section != 'wiki' %} narrow{% endif %}">
 {%- if page.banner %}
-<div class="banner"><img src="{{ rel }}{{ page.banner }}" alt="" width="1400" height="700" decoding="async"></div>
+{#- A section front page announces itself: the illustration carries the title
+    rather than sitting above it, which is the difference between a header and a
+    decoration that happens to be near one. #}
+<div class="banner{% if page.hero_title %} hero{% endif %}">
+  <img src="{{ rel }}{{ page.banner }}" alt="" width="1400" height="700" decoding="async">
+  {%- if page.hero_title %}
+  <div class="banner-text"><h1>{{ page.h1 }}</h1>{% if page.nav_label %}<p class="banner-kicker">{{ page.nav_label }}{% if page.count %} &middot; {{ page.count }} pages{% endif %}</p>{% endif %}</div>
+  {%- endif %}
+</div>
 {%- endif %}
 
 {%- if page.crumbs %}
@@ -49,6 +92,7 @@
 </div>
 {%- endif %}
 
+{%- if not page.hero_title %}
 {%- if page.image %}
 <div class="pagehead">
   <div class="portrait{% if not page.image.photo %} drawn{% endif %}">
@@ -56,6 +100,7 @@
   </div>
   <div class="pagehead-text">
     <h1>{{ page.h1 }}</h1>
+    {%- if page.nav_label %}<p class="kicker">{{ page.nav_label }}</p>{% endif %}
     {%- if page.tags %}
     <div class="tagrow">{% for t in page.tags %}<span class="tag {{ t.kind|default('') }}">{{ t.label }}</span>{% endfor %}</div>
     {%- endif %}
@@ -67,17 +112,18 @@
 <div class="tagrow">{% for t in page.tags %}<span class="tag {{ t.kind|default('') }}">{{ t.label }}</span>{% endfor %}</div>
 {%- endif %}
 {%- endif %}
+{%- endif %}
 <p class="updated">Updated: {{ page.updated|default(site.updated) }}{% if page.byline %} &middot; {{ page.byline }}{% endif %}</p>
 
 {% block content %}{% endblock %}
 
 {%- if page.related %}
 <div class="related">
-<h2 class="withmascot">{% if mascot('related') %}<img class="mascot small" src="{{ rel }}{{ mascot('related') }}" alt="" width="64" height="64" loading="lazy" decoding="async">{% endif %}Keep reading</h2>
+<h2 class="withmascot">{% if mascot('related') %}<span class="medallion"><img class="mascot small" src="{{ rel }}{{ mascot('related') }}" alt="" width="64" height="64" loading="lazy" decoding="async"></span>{% endif %}Keep reading</h2>
 <div class="readon">
 {%- for r in page.related %}
 <a class="readon-item{% if r.image is defined and r.image %} hasart{% endif %}" href="{{ rel }}{{ r.href }}">
-  {%- if r.image is defined and r.image %}<img class="thumb" src="{{ rel }}{{ r.image.src }}" alt="" width="48" height="48" loading="lazy" decoding="async">{% endif %}
+  {%- if r.image is defined and r.image %}<span class="plaque sm"><img class="thumb" src="{{ rel }}{{ r.image.src }}" alt="" width="48" height="48" loading="lazy" decoding="async"></span>{% endif %}
   <span>{{ r.label }}</span>
 </a>
 {%- endfor %}
@@ -91,6 +137,9 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+
+{%- block aside %}{% endblock %}
+</div>
 
 <footer class="sitefoot">
   <p><a href="{{ rel }}wiki/">Wiki</a> &middot; <a href="{{ rel }}tutorials/">Tutorials</a> &middot; <a href="{{ rel }}news/">News</a> &middot; <a href="{{ rel }}guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
