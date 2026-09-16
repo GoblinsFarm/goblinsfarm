@@ -20,7 +20,7 @@
   {%- endif %}
   <dl class="ib-rows">
   {%- for k, v in page.quick.items() %}
-    <div class="ib-row"><dt>{{ k }}</dt><dd{% if v == site.todo %} class="todo"{% endif %}>{{ v|cost }}</dd></div>
+    <div class="ib-row"><dt>{{ k }}</dt><dd{% if v == site.todo %} class="todo"{% endif %}>{{ v|singular|cost }}</dd></div>
   {%- endfor %}
   </dl>
   {%- if page.nav_label and page.crumbs and page.crumbs|length > 2 and page.crumbs[2].href %}<div class="ib-foot"><a href="{{ rel }}{{ page.crumbs[2].href }}">All {{ page.nav_label|lower }}</a></div>{% endif %}

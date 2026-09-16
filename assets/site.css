@@ -257,6 +257,14 @@ td.todo,.todo{color:#a8724a;font-style:italic}
 .res.dark-elixir i{background:linear-gradient(180deg,#8f86a8,#3b3352)}
 .res.gems i{background:linear-gradient(180deg,#8ff0a4,#17a34a)}
 .res.raid-medals i{background:linear-gradient(180deg,#ffe08a,#c8873a)}
+.res.builder-gold i{background:linear-gradient(180deg,#ffd964,#c78d12)}
+.res.builder-elixir i{background:linear-gradient(180deg,#e59bff,#8d33c4)}
+.res.shiny-ore i{background:linear-gradient(180deg,#f2f2f2,#9aa2ab)}
+.res.glowy-ore i{background:linear-gradient(180deg,#9be8ff,#2f9ec4)}
+.res.starry-ore i{background:linear-gradient(180deg,#d7c2ff,#6c3fc4)}
+/* The amount carries the colour; the name stays, quietly, because a pip only
+   speaks for itself when a player already knows the currency by sight. */
+.res-name{color:var(--muted);font-size:12.5px}
 
 /* A tutorial's facts, which run across the top rather than down a rail: these
    pages are one column by design and a sidebar would fight the walkthrough. */
@@ -462,3 +470,7 @@ h2.withmascot .mascot{width:42px}
 .plainlist li{margin-bottom:7px;line-height:1.45}
 .plainlist a{font-weight:900;color:var(--t-deep);text-decoration:none}
 .plainlist a:hover{text-decoration:underline}
+
+/* The row for the page you are on, in a table that lists its siblings. */
+tbody tr.here{background:var(--t-wash);font-weight:900;color:var(--ink)}
+tbody tr.here td:first-child{box-shadow:inset 3px 0 0 var(--t-line)}

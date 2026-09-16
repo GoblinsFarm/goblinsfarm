@@ -96,3 +96,63 @@ game art is the subject of every page; the cast is the furniture.
 links, the TODO count is unchanged from `main`, and the three page types
 (wiki index, section hub, entry) have been looked at on a desktop and a phone
 viewport.
+
+---
+
+## Round two: the pages, not just the skin
+
+The skin was right and the pages underneath it were still thin. Two problems,
+both found by auditing all 397 generated pages rather than by looking at the
+good ones.
+
+### The front page buried the wiki
+
+Arriving from the landing page you met about seven hundred words on how the
+pages are built before a single link to one, and six of the fifteen section
+cards were the same two paintings.
+
+* The section grid moves above the prose.
+* Each section card shows four pieces of that section's own game art, sampled
+  at even intervals through its roster. Fifteen cards, fifteen pictures, all of
+  things the section contains.
+* The page's own facts run as a bar under the lede, which also stops the prose
+  below from sitting in a column with a third of the window empty beside it.
+
+### Two thirds of the entry pages had nothing written on them
+
+237 of 353 were a picture, a stat block, a level table and a note apologising
+for the absence of anything else.
+
+`derived_facts()` opens those pages with what their own data says: what the
+thing is, when it unlocks, how far it upgrades, what it targets and reaches,
+how its hitpoints and damage move across its levels, and — the part the table
+leaves implicit — what every level added together costs and how long it takes.
+
+The rule it works under: **state, never characterise.** It reports figures the
+page already carries and totals it can compute from them. It never compares,
+rates or advises, because that needs judgement and judgement is what the
+hand-written sections are for. A page that has prose never gets this; the two
+never compete.
+
+The nine Clan Capital districts carry three facts and no level table, so they
+get `district_context()` instead — where the district sits in the Capital Hall
+order and the full ladder of all nine, which is the question someone on a
+district page actually has.
+
+Result: 238 pages gained a written opening, the other nine gained a table, and
+the phrase "does not yet have a written strategy section" appears nowhere on
+the site. Median page length went from 374 to 397 words; the only pages under
+200 words now are section hubs, which are card grids by design.
+
+### Corrections the audit turned up
+
+* The front page said the tables came from client build 18.350.7 and that the
+  June 2026 content was missing, while every table printed 18.400.21 and both
+  the Ruin Witch and the Angry Spell had pages. Prose now writes
+  `%%GAME_BUILD%%` and the build substitutes what the data actually holds, so
+  it cannot drift again.
+* Cost pips covered gold, elixir and dark elixir only, so every ore and Builder
+  Base cost lost its resource name to a blank dot. All eleven resources now
+  have a colour and the name stays visible beside the number.
+* `Range: 1 tiles` read that way in eight stat blocks. A `singular` filter
+  fixes it wherever a value is shown.

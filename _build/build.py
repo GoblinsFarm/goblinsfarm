@@ -174,21 +174,33 @@ def banner(key: str) -> str | None:
 # does not reach. Tagging the resource lets the stylesheet put a coloured pip in
 # front of the number, so a column of costs is scannable by colour. Unrecognised
 # cells pass through untouched.
-RESOURCES = ("Dark Elixir", "Capital Gold", "Raid Medals", "Elixir", "Gold", "Gems")
+RESOURCES = ("Dark Elixir", "Capital Gold", "Raid Medals", "Builder Elixir",
+             "Builder Gold", "Shiny Ore", "Glowy Ore", "Starry Ore",
+             "Elixir", "Gold", "Gems")
 _COST_RE = re.compile(
     r"^([\d,.]+)\s+(" + "|".join(RESOURCES) + r")$"
 )
 
 
-def cost_cell(value) -> str:
+_ONE_PLURAL_RE = re.compile(r"^1 (tile|level|second|minute|hour|day|unit)s$")
+
+
+def singular(value) -> str:
+    """'1 tiles' -> '1 tile'. The game files hold the plural at every value."""
     text = str(value)
+    m = _ONE_PLURAL_RE.match(text.strip())
+    return f"1 {m.group(1)}" if m else text
+
+
+def cost_cell(value) -> str:
+    text = singular(value)
     m = _COST_RE.match(text.strip())
     if not m:
         return text
     amount, resource = m.group(1), m.group(2)
-    return (f'<span class="res {slugify(resource)}" title="{resource}">'
+    return (f'<span class="res {slugify(resource)}">'
             f'<i aria-hidden="true"></i>{amount}'
-            f'<span class="visually-hidden"> {resource}</span></span>')
+            f'<span class="res-name"> {resource}</span></span>')
 
 
 def tone(key: str) -> str:
@@ -320,6 +332,323 @@ def level_strip(collection: str, entry: dict) -> list[dict]:
             out.append({"src": rel, "level": step["level"]})
     return out
 
+
+# --------------------------------------------------------------------- derived prose
+# Two thirds of the entry pages have no written section: they are a picture, a
+# stat block and a level table, under a note apologising for the fact. A table
+# is not nothing, but it answers no question a reader actually arrived with --
+# what is this, when do I get it, and what does it cost me to finish it -- and
+# every one of those answers is already sitting in the table, unsummed.
+#
+# So each of those pages opens with what its own data says, in sentences. This
+# states facts the page already carries and computes the totals the table
+# leaves implicit; it never characterises, compares or advises. Anything that
+# needs judgement is what the hand-written sections are for, and those still
+# take precedence: a page with prose never gets this.
+
+_NUM_RE = re.compile(r"^-?[\d,]+(?:\.\d+)?$")
+_COST_PART_RE = re.compile(r"([\d,]+)\s+([A-Za-z][A-Za-z ]*?)\s*$")
+_DURATION_RE = re.compile(r"(\d+)\s*([dhms])")
+_MISSING = ("—", "-", "TODO", "", "Instant", "None", "N/A")
+
+
+def _num(cell) -> float | None:
+    text = str(cell).strip()
+    return float(text.replace(",", "")) if _NUM_RE.match(text) else None
+
+
+def _fmt(value: float) -> str:
+    return f"{int(round(value)):,}"
+
+
+def _parse_cost(cell) -> dict[str, float]:
+    """'1,200 Shiny Ore + 40 Glowy Ore' -> {'Shiny Ore': 1200, 'Glowy Ore': 40}."""
+    out: dict[str, float] = {}
+    text = str(cell).strip()
+    if text in _MISSING:
+        return out
+    for part in text.split("+"):
+        m = _COST_PART_RE.match(part.strip())
+        if m:
+            out[m.group(2).strip()] = out.get(m.group(2).strip(), 0) + float(m.group(1).replace(",", ""))
+    return out
+
+
+def _parse_duration(cell) -> int:
+    """'1 d 12 h' -> seconds. Unparseable or instant reads as zero."""
+    text = str(cell).strip()
+    if text in _MISSING:
+        return 0
+    mult = {"d": 86400, "h": 3600, "m": 60, "s": 1}
+    return sum(int(n) * mult[u] for n, u in _DURATION_RE.findall(text))
+
+
+def _fmt_duration(seconds: int) -> str:
+    if seconds <= 0:
+        return ""
+    days, rem = divmod(seconds, 86400)
+    hours = rem // 3600
+    if days and hours:
+        return f"{days:,} days {hours} hours"
+    if days:
+        return f"{days:,} day{'s' if days != 1 else ''}"
+    hours, rem = divmod(seconds, 3600)
+    minutes = rem // 60
+    if hours and minutes:
+        return f"{hours} hours {minutes} minutes"
+    if hours:
+        return f"{hours} hour{'s' if hours != 1 else ''}"
+    return f"{max(seconds // 60, 1)} minutes"
+
+
+def _column(table: dict, *wanted: str) -> int | None:
+    """Index of the first column whose name contains one of `wanted`."""
+    for want in wanted:
+        for i, name in enumerate(table["columns"]):
+            if want in name.lower():
+                return i
+    return None
+
+
+def _span(table: dict, index: int) -> tuple[str, str] | None:
+    """First and last numeric value down a column, when they differ."""
+    values = [(_num(row[index]), str(row[index])) for row in table["rows"]]
+    values = [v for v in values if v[0] is not None]
+    if len(values) < 2 or values[0][0] == values[-1][0]:
+        return None
+    return values[0][1], values[-1][1]
+
+
+def _text_span(table: dict, index: int) -> tuple[str, str] | None:
+    """First and last value down a column that holds words rather than numbers."""
+    values = [str(row[index]).strip() for row in table["rows"]]
+    values = [v for v in values if v not in _MISSING]
+    if len(values) < 2 or values[0] == values[-1]:
+        return None
+    return values[0], values[-1]
+
+
+def _totals(table: dict) -> tuple[dict[str, float], int]:
+    """What every level of this thing costs added together, and how long it takes."""
+    cost_i = _column(table, "cost")
+    time_i = _column(table, "time")
+    money: dict[str, float] = {}
+    seconds = 0
+    for row in table["rows"]:
+        if cost_i is not None:
+            for resource, amount in _parse_cost(row[cost_i]).items():
+                money[resource] = money.get(resource, 0) + amount
+        if time_i is not None:
+            seconds += _parse_duration(row[time_i])
+    return money, seconds
+
+
+def _join(parts: list[str]) -> str:
+    parts = [p for p in parts if p]
+    if len(parts) <= 1:
+        return "".join(parts)
+    return ", ".join(parts[:-1]) + " and " + parts[-1]
+
+
+# Where each collection's things live, and the bare noun for one of them. The
+# qualifier in front of the noun comes from the entry ("army building", "dark
+# elixir troop"), so the noun here stays as plain as possible or the sentence
+# reads "an army building Clan Capital building".
+_PLACE = {
+    "bb_troops": " in the Builder Base", "bb_buildings": " in the Builder Base",
+    "capital_troops": " in the Clan Capital", "capital_spells": " in the Clan Capital",
+    "capital_buildings": " in the Clan Capital", "capital_districts": " in the Clan Capital",
+}
+_KIND = {
+    "troops": "troop", "spells": "spell", "pets": "hero pet",
+    "buildings": "building", "traps": "trap",
+    "bb_troops": "troop", "bb_buildings": "building",
+    "capital_troops": "troop", "capital_spells": "spell",
+    "capital_buildings": "building", "capital_districts": "district",
+    "equipment": "equipment",
+}
+# What the level number in these collections actually counts up.
+_UNLOCK_LABEL = {"equipment": "Blacksmith level", "pets": "Pet House level"}
+
+
+# Category values arrive title-cased ("Army Building", "Resource Building").
+# Mid-sentence they should read as ordinary words -- except the ones that are
+# names in the game and keep their capitals wherever they appear.
+_PROPER = ("Dark Elixir", "Builder Base", "Clan Capital", "Town Hall", "Builder Hall",
+           "Capital Hall", "District Hall", "Elixir", "Gold", "Capital", "Super")
+
+
+def _phrase(qualifier: str | None, noun: str) -> str:
+    """'Army Building' + 'building' -> 'army building'; 'Dark Elixir' -> 'Dark Elixir spell'."""
+    if not qualifier:
+        return noun
+    qualifier = str(qualifier).strip()
+    lowered = qualifier.lower()
+    for proper in _PROPER:
+        lowered = re.sub(rf"\b{re.escape(proper.lower())}\b", proper, lowered)
+    # "Pet" in front of "hero pet", or "Army Building" in front of "building":
+    # either way the noun is already said and should not be said twice.
+    if noun.lower() in lowered.lower() or lowered.lower() in noun.lower():
+        return lowered if len(lowered) >= len(noun) else noun
+    return f"{lowered} {noun}"
+
+
+def district_context(entries: list[dict], entry: dict) -> list[dict] | None:
+    """The Capital Hall ladder, seen from one district.
+
+    A district carries three facts and no level table, which left these nine
+    pages as a sentence and a note saying there was not much here. The useful
+    thing a reader wants at a district is where it sits in the order and what
+    the next one costs them, and that is answerable from the other eight.
+    """
+    def level(d):
+        digits = re.findall(r"\d+", str((d.get("quick") or {}).get("Unlocked at", "")))
+        return int(digits[0]) if digits else 99
+
+    ordered = sorted(entries, key=level)
+    if len(ordered) < 2:
+        return None
+    here = level(entry)
+    rows = "".join(
+        f'<tr{" class=\"here\"" if d["slug"] == entry["slug"] else ""}>'
+        f'<td>{"Capital Hall " + str(level(d)) if level(d) < 99 else "&mdash;"}</td>'
+        f'<td>{d["name"] if d["slug"] == entry["slug"] else chr(60) + "a href=" + chr(34) + d["slug"] + ".html" + chr(34) + chr(62) + d["name"] + chr(60) + "/a" + chr(62)}</td>'
+        f"</tr>"
+        for d in ordered
+    )
+    position = sum(1 for d in ordered if level(d) < here) + 1
+    later = [d["name"] for d in ordered if level(d) > here]
+    lead = (
+        f'<p><strong>{entry["name"]}</strong> is the {_ordinal(position)} district to open in the '
+        f'Clan Capital, at Capital Hall {here}.'
+        + (f' After it come {_join(later)}.' if later else " Nothing opens after it.")
+        + "</p>"
+    )
+    table = (
+        '<div class="tablewrap"><table><caption>Every district and the Capital Hall '
+        "level that opens it</caption><thead><tr><th>Capital Hall</th><th>District</th>"
+        f"</tr></thead><tbody>{rows}</tbody></table></div>"
+    )
+    return [{"id": "where-it-sits", "h": "Where it sits in the Capital",
+             "body": lead + table}]
+
+
+def _ordinal(n: int) -> str:
+    words = ("first", "second", "third", "fourth", "fifth",
+             "sixth", "seventh", "eighth", "ninth", "tenth")
+    return words[n - 1] if 1 <= n <= len(words) else f"{n}th"
+
+
+def derived_facts(collection: str, entry: dict) -> list[dict] | None:
+    """An opening section written from one entry's own stat block and tables."""
+    quick = entry.get("quick") or {}
+    tables = [t for t in (entry.get("tables") or []) if t.get("rows")]
+    name = entry["name"]
+    kind = _KIND.get(collection, "entry")
+    tags = [t["label"] for t in (entry.get("tags") or []) if t.get("label")]
+
+    # --- what it is, and where
+    noun = _KIND.get(collection, "entry")
+    qualifier = next((quick[k] for k in ("Category", "Rarity", "Role") if quick.get(k)), None)
+    if qualifier and str(qualifier).lower() in ("other building", "other", "misc"):
+        qualifier = None  # a bucket name, not a description
+    if not qualifier:
+        qualifier = next((t for t in tags if t.lower() not in (noun, name.lower())), None)
+    if collection == "equipment" and quick.get("Hero"):
+        opening = f"<strong>{name}</strong> is {_phrase(qualifier, noun)} for the {quick['Hero']}."
+    else:
+        phrase = _phrase(qualifier, noun)
+        place = _PLACE.get(collection, "")
+        if place and place.replace(" in the ", "").lower() in phrase.lower():
+            place = ""
+        article = "an" if phrase[:1].lower() in "aeiou" else "a"
+        opening = f"<strong>{name}</strong> is {article} {phrase}{place}."
+
+    # --- when you get it and how far it goes
+    unlock_bits = []
+    if quick.get("Trained in"):
+        unlock_bits.append(f"trained in the {quick['Trained in']}")
+    else:
+        for key in ("Unlocked at", "Levelled by", "Blacksmith needed", "Town Hall"):
+            if not quick.get(key):
+                continue
+            value = str(quick[key]).strip()
+            if name.lower() in value.lower():
+                break  # the Town Hall does not unlock at a Town Hall
+            if key == "Levelled by":
+                unlock_bits.append(f"levelled by {value[0].lower()}{value[1:]}")
+            else:
+                # Some of these hold a bare number; say what the number counts.
+                if value.isdigit():
+                    label = _UNLOCK_LABEL.get(collection, key.replace(" needed", ""))
+                    value = f"{label} {value}"
+                unlock_bits.append(f"unlocked at {value}")
+            break
+    levels = quick.get("Levels") or quick.get("Max level")
+    if levels and str(levels).isdigit() and int(levels) > 1:
+        unlock_bits.append(f"upgradeable through {levels} levels")
+    reach = _join(unlock_bits)
+    first = f"{opening} It is {reach}." if reach else opening
+
+    # --- how it behaves, in the numbers the game gives
+    behaviour, extra = [], []
+    if quick.get("Housing space"):
+        behaviour.append(f"takes {quick['Housing space']} housing space")
+    if quick.get("Size"):
+        behaviour.append(f"occupies {quick['Size']} tiles")
+    if quick.get("Targets"):
+        behaviour.append(f"targets {str(quick['Targets']).lower()}")
+    if quick.get("Triggers on"):
+        behaviour.append(f"triggers on {str(quick['Triggers on']).lower()}")
+    if quick.get("Trigger radius"):
+        behaviour.append(f"within {singular(quick['Trigger radius'])}")
+    span = singular(quick.get("Range") or "")
+    if span.lower() in ("melee", "melee range"):
+        behaviour.append("attacks at melee range")
+    elif span:
+        behaviour.append(f"reaches {span}")
+    if quick.get("Radius"):
+        behaviour.append(f"covers {singular(quick['Radius'])}")
+    ability = str(quick.get("Ability") or "").rstrip(".")
+    if ability and ability.lower() not in str(entry.get("summary") or "").lower():
+        extra.append(f"Its ability {ability[0].lower()}{ability[1:]}.")
+    second = f"It {_join(behaviour[:3])}." if behaviour else ""
+
+    # --- what the table adds up to
+    growth, money_sentence = [], ""
+    for table in tables[:1]:
+        for label, keys in (("hitpoints", ("hitpoint",)), ("damage", ("dps", "damage")),
+                            ("its effect", ("effect",))):
+            index = _column(table, *keys)
+            if index is None:
+                continue
+            span = _span(table, index) or _text_span(table, index) if label == "its effect" else _span(table, index)
+            if span:
+                low, high = _num(span[0]), _num(span[1])
+                if label == "damage" and low is not None and high is not None and low < 0 and high < 0:
+                    # A Unicorn's "DPS" column is negative because it heals.
+                    growth.append(f"healing from {span[0].lstrip('-')} to {span[1].lstrip('-')} a second")
+                else:
+                    growth.append(f"{label} from {span[0]} to {span[1]}")
+            if len(growth) == 2:
+                break
+        money, seconds = _totals(table)
+        money = {k: v for k, v in money.items() if v > 0}
+        if money:
+            bill = _join([f"{_fmt(v)} {k}" for k, v in money.items()])
+            clock = _fmt_duration(seconds)
+            money_sentence = (
+                f"Taking one from level 1 to {levels or 'maximum'} costs {bill} in total"
+                + (f", and {clock} of build time" if clock else "")
+                + "."
+            )
+    third = f"Across those levels it gains {_join(growth)}." if growth else ""
+
+    lead = " ".join(x for x in (first, second, *extra) if x)
+    body = "".join(f"<p>{p}</p>" for p in (lead, third, money_sentence) if p)
+    if not body or not tables:
+        return None
+    return [{"id": "at-a-glance", "h": "What the numbers say", "body": body}]
 
 # --------------------------------------------------------------------------- registry
 class Registry:
@@ -639,6 +968,7 @@ def main() -> int:
     env.globals["mascot"] = mascot
     env.globals["tone"] = tone
     env.filters["cost"] = cost_cell
+    env.filters["singular"] = singular
 
     registry = Registry()
     written: list[tuple[str, str, str]] = []  # (url, priority, title)
@@ -894,6 +1224,12 @@ def main() -> int:
 
         for entry in entries:
             url = f"/{folder}/{entry['slug']}.html"
+            # A page with nothing written on it opens with what its own numbers
+            # say, rather than with a note apologising for the absence.
+            derived = (None if entry.get("has_prose", True)
+                       else derived_facts(name, entry))
+            if not derived and name == "capital_districts":
+                derived = district_context(entries, entry)
             crumbs = [
                 {"label": "Home", "href": ""},
                 {"label": "Wiki", "href": "wiki/"},
@@ -911,7 +1247,7 @@ def main() -> int:
                 "summary": entry["summary"],
                 "quick": entry.get("quick"),
                 "tags": entry.get("tags"),
-                "sections": section_list(entry.get("sections")),
+                "sections": section_list(entry.get("sections") or derived),
                 "tables": entry.get("tables"),
                 "faq": entry.get("faq"),
                 "related": (lambda r: quick_links(entry, r) + r)(resolve_related(entry, url)),
@@ -936,7 +1272,7 @@ def main() -> int:
                     for tbl in entry.get("tables", [])
                     for row in tbl["rows"]
                 ) or site["todo"] in (entry.get("quick") or {}).values(),
-                "stat_only": not entry.get("has_prose", True),
+                "stat_only": not entry.get("has_prose", True) and not derived,
                 "nav_key": name,
                 "nav_label": hub.get("nav_label", name.title()),
                 "tone": tone(name),
