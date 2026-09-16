@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Goblins Farm — Patch Notes</title>
+<link>https://goblinsfarm.com/patch-notes/</link>
+<atom:link href="https://goblinsfarm.com/patch-notes/feed.xml" rel="self" type="application/rss+xml"/>
+<description>A build-by-build record of what changes in Clash of Clans, read from Supercell&#39;s own game files: every troop, spell, building and piece of equipment whose numbers moved, and what is new.</description>
+<language>en</language>
+<item>
+<title>What changed in the game files: build 18.600.3</title>
+<link>https://goblinsfarm.com/patch-notes/game-files-18-600-3.html</link>
+<guid isPermaLink="true">https://goblinsfarm.com/patch-notes/game-files-18-600-3.html</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+<description>What changed between Clash of Clans client builds 18.400.21 and 18.600.3, read from Supercell&#39;s game files: the Portal Pendant, Diggy at 15 levels, and a correction to the level 1 Town Hall on all 17 spells.</description>
+</item>
+</channel>
+</rss>

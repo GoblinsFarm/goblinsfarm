@@ -16,7 +16,14 @@
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+{#- A reader on the patch notes should be offered the patch notes feed, not
+    the news one. Every dated section declares its own; everywhere else keeps
+    news as the site-wide default. #}
+{%- if page.feed %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} — {{ page.feed.title }}" href="{{ site.base_url }}/{{ page.feed.folder }}/feed.xml">
+{%- else %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} news" href="{{ site.base_url }}/news/feed.xml">
+{%- endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
@@ -142,7 +149,7 @@
 </div>
 
 <footer class="sitefoot">
-  <p><a href="{{ rel }}wiki/">Wiki</a> &middot; <a href="{{ rel }}tutorials/">Tutorials</a> &middot; <a href="{{ rel }}news/">News</a> &middot; <a href="{{ rel }}guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
+  <p><a href="{{ rel }}wiki/">Wiki</a> &middot; <a href="{{ rel }}tutorials/">Tutorials</a> &middot; <a href="{{ rel }}news/">News</a> &middot; <a href="{{ rel }}patch-notes/">Patch notes</a> &middot; <a href="{{ rel }}guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
 </footer>
 </body>
 </html>

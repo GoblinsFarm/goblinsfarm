@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Goblins Farm — Clash of Clans news</title>
+<title>Goblins Farm — News</title>
 <link>https://goblinsfarm.com/news/</link>
 <atom:link href="https://goblinsfarm.com/news/feed.xml" rel="self" type="application/rss+xml"/>
-<description>Clash of Clans update coverage, balance change breakdowns and community news, written for players who want the mechanics explained rather than the patch notes copy-pasted.</description>
+<description>Clash of Clans update coverage and balance change analysis, written to explain what changed and what it means rather than to repeat the patch notes.</description>
 <language>en</language>
 <item>
 <title>How we source the numbers in this wiki</title>

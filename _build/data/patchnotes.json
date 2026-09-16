@@ -1,0 +1,88 @@
+{
+ "hub": {
+  "h1": "Clash of Clans Patch Notes",
+  "head_title": "Clash of Clans Patch Notes — What Each Update Changed in the Game Files",
+  "description": "A build-by-build record of what changes in Clash of Clans, read from Supercell's own game files: every troop, spell, building and piece of equipment whose numbers moved, and what is new.",
+  "summary": "Supercell's patch notes say what they chose to announce. This says what the game files actually hold. Every entry compares two client builds cell by cell, so you can see which numbers moved, which pages are new, and which of our own figures were wrong.",
+  "nav_label": "Build by build",
+  "sections": [
+   {
+    "h": "What this is",
+    "body": "<p>Every stat table on this wiki is read from a specific, recorded Clash of Clans client build. When a newer build appears we read it again and the whole site regenerates. This section is the difference between the two, computed rather than written: entries added, entries dropped, and every cell in every level table that is not what it was.</p><p>It is deliberately narrower than an official patch note. It cannot see anything that is not in the files &mdash; matchmaking tweaks, event schedules, bug fixes &mdash; and it does not try to. What it can do is tell you exactly which numbers on this site changed under your feet, including the ones that changed because <em>we</em> had them wrong.</p>"
+   },
+   {
+    "h": "How to follow it",
+    "body": "<p>There is an <a href=\"feed.xml\">RSS feed</a> for this section, same as the <a href=\"../news/\">news</a> and the <a href=\"../blog/\">blog</a>. Nothing is posted between builds, so subscribing to it is a quiet way to hear when the numbers you are planning an upgrade around have moved.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Is this Supercell's official patch notes?",
+    "a": "No. Supercell publishes its own release notes and those are the authority on what an update is meant to do. This is a mechanical comparison of two builds of the game's data files, which catches things release notes leave out and misses everything that is not a number."
+   },
+   {
+    "q": "Why do some entries say a value was corrected rather than changed?",
+    "a": "Because the diff cannot tell a rebalance from our own mistake, and both look identical in a table. Where we know a change came from fixing how we read the files rather than from Supercell changing them, it says so in the post."
+   },
+   {
+    "q": "How quickly does this appear after an update?",
+    "a": "As soon as we read the new build. There is no public endpoint that announces a new client build, so it is found by checking, and a post here means the whole wiki has already been regenerated against it."
+   }
+  ],
+  "priority": "0.8"
+ },
+ "entries": [
+  {
+   "slug": "game-files-18-600-3",
+   "name": "What changed in the game files: build 18.600.3",
+   "head_title": "Clash of Clans 18.600.3 — What Changed in the Game Files",
+   "description": "What changed between Clash of Clans client builds 18.400.21 and 18.600.3, read from Supercell's game files: the Portal Pendant, Diggy at 15 levels, and a correction to the level 1 Town Hall on all 17 spells.",
+   "summary": "The Portal Pendant arrives, Diggy gains five levels, and a fix to how we read the files corrects the Town Hall requirement on every spell in the game.",
+   "banner": "progression",
+   "tags": [
+    {
+     "label": "18.600.3",
+     "kind": "gold"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_label": "16 September 2026",
+   "sections": [
+    {
+     "h": "What the game changed",
+     "body": "<p>Two things, and both are additions rather than rebalances. <strong><a href=\"../wiki/equipment/portal-pendant.html\">Portal Pendant</a></strong> is new hero equipment, epic rarity, and it now has a page with its full ore curve. <strong><a href=\"../wiki/pets/diggy.html\">Diggy</a></strong> goes from 10 levels to 15, which is a meaningful change to how long that pet takes to finish and to what it costs in dark elixir.</p><p>No troop, spell, building or defence had its hitpoints, damage or cost altered between these two builds. That is worth saying plainly, because a quiet build is indistinguishable from a build nobody checked.</p>"
+    },
+    {
+     "h": "What we had wrong, and have fixed",
+     "body": "<p>This is the larger half of this post, and it is our error rather than Supercell's.</p><p>A spell's level 1 is unlocked by the factory that brews it &mdash; the Spell Factory, or the Dark Spell Factory &mdash; and every level after that by the Laboratory. Our parser read the Laboratory requirement for level 1 as well, which happened to agree with the game often enough that nothing looked wrong. In this build it stopped agreeing, loudly: the Angry Spell's first row started reporting Laboratory 1, and the site cheerfully published a dark elixir spell as a <strong>Town Hall 3</strong> unlock.</p><p>Chasing that down showed the same fault was quietly wrong on <strong>every spell in the game</strong>. The Recall Spell was listed at Town Hall 3 and is Town Hall 13. The Totem Spell was listed at Town Hall 3 and is Town Hall 16. The Lightning Spell, the first spell anybody unlocks, was two Town Halls early. All seventeen are corrected, and the table below lists each one so you can check the new figure against your own village rather than taking our word for it.</p><p>The fix is in how the files are read, so it cannot drift back.</p>"
+    },
+    {
+     "h": "What we deliberately did not publish",
+     "body": "<p>This build also adds two units the wiki does not carry: the <strong>Totem Thrower</strong> and the <strong>Yeti Undertaker</strong>. Both are marked in the game files as event units &mdash; available for a limited window rather than as part of the permanent roster &mdash; and the wiki publishes the standard roster only.</p><p>Until this build that decision was made from a hand-kept list of names, which by definition cannot know about an event that has not shipped yet; both of these would have gone up as ordinary troops. It now reads the flag the game files already carry, so the next event handles itself.</p>"
+    },
+    {
+     "h": "Every number that moved",
+     "body": "<p>Read straight off the two builds. Every cell on the site that is not what it was:</p><div class=\"tablewrap\"><table><thead><tr><th>Page</th><th>What</th><th>Was</th><th>Now</th></tr></thead><tbody><tr><td><a href=\"../wiki/builder-base/troops/raged-barbarian.html\">Raged Barbarian</a></td><td>Level 2 upgrade time</td><td>—</td><td>Instant</td></tr><tr><td><a href=\"../wiki/pets/diggy.html\">Diggy</a></td><td>Levels</td><td>10</td><td>15</td></tr><tr><td><a href=\"../wiki/spells/bat-spell.html\">Bat Spell</a></td><td>Level 1 town hall</td><td>3</td><td>10</td></tr><tr><td><a href=\"../wiki/spells/clone-spell.html\">Clone Spell</a></td><td>Level 1 town hall</td><td>3</td><td>10</td></tr><tr><td><a href=\"../wiki/spells/earthquake-spell.html\">Earthquake Spell</a></td><td>Level 1 town hall</td><td>3</td><td>8</td></tr><tr><td><a href=\"../wiki/spells/haste-spell.html\">Haste Spell</a></td><td>Level 1 town hall</td><td>3</td><td>9</td></tr><tr><td><a href=\"../wiki/spells/healing-spell.html\">Healing Spell</a></td><td>Level 1 town hall</td><td>4</td><td>6</td></tr><tr><td><a href=\"../wiki/spells/ice-block-spell.html\">Ice Block Spell</a></td><td>Level 1 town hall</td><td>3</td><td>14</td></tr><tr><td><a href=\"../wiki/spells/invisibility-spell.html\">Invisibility Spell</a></td><td>Level 1 town hall</td><td>3</td><td>11</td></tr><tr><td><a href=\"../wiki/spells/jump-spell.html\">Jump Spell</a></td><td>Level 1 town hall</td><td>6</td><td>9</td></tr><tr><td><a href=\"../wiki/spells/lightning-spell.html\">Lightning Spell</a></td><td>Level 1 town hall</td><td>3</td><td>5</td></tr><tr><td><a href=\"../wiki/spells/overgrowth-spell.html\">Overgrowth Spell</a></td><td>Level 1 town hall</td><td>3</td><td>12</td></tr><tr><td><a href=\"../wiki/spells/poison-spell.html\">Poison Spell</a></td><td>Level 1 town hall</td><td>3</td><td>8</td></tr><tr><td><a href=\"../wiki/spells/rage-spell.html\">Rage Spell</a></td><td>Level 1 town hall</td><td>5</td><td>7</td></tr><tr><td><a href=\"../wiki/spells/recall-spell.html\">Recall Spell</a></td><td>Level 1 town hall</td><td>3</td><td>13</td></tr><tr><td><a href=\"../wiki/spells/revive-spell.html\">Revive Spell</a></td><td>Level 1 town hall</td><td>3</td><td>15</td></tr><tr><td><a href=\"../wiki/spells/skeleton-spell.html\">Skeleton Spell</a></td><td>Level 1 town hall</td><td>3</td><td>9</td></tr><tr><td><a href=\"../wiki/spells/totem-spell.html\">Totem Spell</a></td><td>Level 1 town hall</td><td>3</td><td>16</td></tr></tbody></table></div>"
+    }
+   ],
+   "priority": "0.7",
+   "h1": "Build 18.600.3: one new item, and seventeen spell pages we had wrong",
+   "byline": "By the Goblins Farm team",
+   "related": [
+    "news:how-we-source-wiki-numbers",
+    "wiki:index",
+    "mechanics:upgrade-priority"
+   ],
+   "faq": [
+    {
+     "q": "Do I need to redo my upgrade plan because of the spell corrections?",
+     "a": "Only if you were planning around unlocking a spell earlier than you actually can. The corrections all move a spell's first level later, never earlier, so nothing you have already unlocked is affected. The research costs and times for levels 2 and up were always right."
+    },
+    {
+     "q": "Is the Portal Pendant worth building?",
+     "a": "Its page carries the full level table and the total ore cost to max it. Whether it beats the equipment you already have is a judgement about your attack, and the equipment pages are the place for that rather than a patch note."
+    }
+   ]
+  }
+ ]
+}

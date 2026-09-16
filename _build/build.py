@@ -78,7 +78,7 @@ BANNERS = {
     "bb_troops": "builder-base", "bb_buildings": "builder-base",
     "capital_troops": "clan-capital", "capital_spells": "clan-capital",
     "capital_buildings": "clan-capital", "capital_districts": "clan-capital",
-    "blog": "attack",
+    "blog": "attack", "patchnotes": "progression",
 }
 
 
@@ -113,7 +113,8 @@ TONES = {
     "bb_troops": "builder", "bb_buildings": "builder",
     "capital_troops": "capital", "capital_spells": "capital",
     "capital_buildings": "capital", "capital_districts": "capital",
-    "tutorials": "slate", "news": "slate", "blog": "slate", "wiki": "gold",
+    "tutorials": "slate", "news": "slate", "blog": "slate",
+    "patchnotes": "ore", "wiki": "gold",
 }
 
 # The order the rail lists sections in: the main village first and in the order
@@ -149,6 +150,7 @@ SECTION_MASCOTS = {
     "capital_troops": "point", "capital_spells": "book",
     "capital_buildings": "hammer", "capital_districts": "lantern",
     "wiki": "wave", "tutorials": "book", "news": "scroll", "blog": "lantern",
+    "patchnotes": "magnify",
 }
 
 
@@ -205,6 +207,11 @@ def cost_cell(value) -> str:
 
 def tone(key: str) -> str:
     return TONES.get(key, "slate")
+
+
+# The breadcrumb for a dated section, where the last word of its title does not
+# stand on its own ("Notes").
+SECTION_CRUMB = {"news": "News", "blog": "Blog", "patchnotes": "Patch notes"}
 
 
 # Hand-written pages that live outside the generator but belong in the sitemap.
@@ -800,7 +807,8 @@ def verify_links(root: Path) -> list[str]:
     """
     problems = []
     targets = []
-    for pattern in ("wiki/**/*.html", "tutorials/*.html", "news/*.html", "blog/*.html", "guides/*.html"):
+    for pattern in ("wiki/**/*.html", "tutorials/*.html", "news/*.html", "blog/*.html",
+                    "patch-notes/*.html", "guides/*.html"):
         targets.extend(root.glob(pattern))
     targets.append(root / "index.html")
 
@@ -1002,6 +1010,12 @@ def main() -> int:
     for post in blog.get("entries", []):
         registry.add("blog", post["slug"], f"/blog/{post['slug']}.html", post["name"])
 
+    patchnotes = load("patchnotes")
+    registry.add("patchnotes", "index", "/patch-notes/", "Patch notes")
+    for post in patchnotes.get("entries", []):
+        registry.add("patchnotes", post["slug"],
+                     f"/patch-notes/{post['slug']}.html", post["name"])
+
     # ---- the category rail
     # Every wiki page carries the same list of sections, and the one it belongs
     # to is expanded to its full contents. That is what makes a wiki navigable:
@@ -1055,7 +1069,7 @@ def main() -> int:
             # and which economy colours its chrome.
             ("nav_key", None), ("nav_label", None), ("tone", "slate"),
             ("hero_title", False), ("count", None), ("quick_wordy", False),
-            ("groups_first", False), ("facts", None),
+            ("groups_first", False), ("facts", None), ("feed", None),
             ("gallery", None),
         ):
             page.setdefault(key, default)
@@ -1471,15 +1485,25 @@ def main() -> int:
     for key, data, folder, default_h1, article_type in (
         ("news", news, "news", "Clash of Clans News", "NewsArticle"),
         ("blog", blog, "blog", "Clash of Clans Blog", "BlogPosting"),
+        # What each client build changed in the files. Its own hub and feed so
+        # somebody who only wants to know when the numbers moved can follow that
+        # and nothing else.
+        ("patchnotes", patchnotes, "patch-notes", "Clash of Clans Patch Notes", "NewsArticle"),
     ):
         if not data:
             continue
+        hub = data.get("hub", {})
+        feed_meta = {"folder": folder,
+                     "title": hub.get("feed_title",
+                                      default_h1.replace("Clash of Clans ", "")),
+                     "description": hub.get("description")
+                     or site.get(f"{key}_description", "")}
         posts_meta = []
         for post in data.get("entries", []):
             url = f"/{folder}/{post['slug']}.html"
             crumbs = [
                 {"label": "Home", "href": ""},
-                {"label": default_h1.split()[-1], "href": f"{folder}/"},
+                {"label": SECTION_CRUMB.get(key, default_h1.split()[-1]), "href": f"{folder}/"},
                 {"label": post["name"], "href": None},
             ]
             page = {
@@ -1499,6 +1523,7 @@ def main() -> int:
                 "related": resolve_related(post, url),
                 "crumbs": crumbs,
                 "iso_updated": post["date"],
+                "feed": feed_meta,
             }
             page["jsonld"] = [
                 jsonld_breadcrumbs(site, crumbs),
@@ -1519,10 +1544,11 @@ def main() -> int:
             )
 
         posts_meta.sort(key=lambda p: p["date"], reverse=True)
-        hub = data.get("hub", {})
-        crumbs = [{"label": "Home", "href": ""}, {"label": default_h1.split()[-1], "href": None}]
+        crumbs = [{"label": "Home", "href": ""},
+                  {"label": SECTION_CRUMB.get(key, default_h1.split()[-1]), "href": None}]
         items = [
-            {"href": p["url"].lstrip("/"), "label": p["title"], "blurb": f"{p['date_label']} — {p['description'][:110]}"}
+            {"href": p["url"].lstrip("/"), "label": p["title"],
+             "blurb": f"{p['date_label']} — {clip(p['description'], 120)}"}
             for p in posts_meta
         ]
         hub_page = {
@@ -1543,15 +1569,19 @@ def main() -> int:
             "faq": hub.get("faq"),
             "related": resolve_related(hub, f"/{folder}/"),
             "crumbs": crumbs,
-            "wide": True,
             "og_type": "website",
+            "feed": feed_meta,
         }
         hub_page["jsonld"] = [jsonld_breadcrumbs(site, crumbs)] + (
             [jsonld_faq(hub["faq"])] if hub.get("faq") else []
         )
         render("hub.html.j2", hub_page, "0.8")
 
-        feed = env.get_template("feed.xml.j2").render(site=site, posts=posts_meta)
+        # Each dated section gets its own channel. The template used to name
+        # /news/ in every one of them, so the blog's feed advertised itself as
+        # the news feed and linked to the wrong index.
+        feed = env.get_template("feed.xml.j2").render(
+            site=site, posts=posts_meta, feed=feed_meta)
         (ROOT / folder).mkdir(exist_ok=True)
         (ROOT / folder / "feed.xml").write_text(feed, encoding="utf-8")
         post_counts[key] = len(posts_meta)
@@ -1662,6 +1692,12 @@ def main() -> int:
         llms += ["", "## Blog", bullet("/blog/", "Blog index"), bullet("/blog/feed.xml", "RSS feed")]
         for post in sorted(blog["entries"], key=lambda e: e["date"], reverse=True):
             llms.append(bullet(f"/blog/{post['slug']}.html", post["name"]))
+    if patchnotes.get("entries"):
+        llms += ["", "## Patch notes",
+                 bullet("/patch-notes/", "What each client build changed in the game files"),
+                 bullet("/patch-notes/feed.xml", "RSS feed")]
+        for post in sorted(patchnotes["entries"], key=lambda e: e["date"], reverse=True):
+            llms.append(bullet(f"/patch-notes/{post['slug']}.html", post["name"]))
     llms += ["", "## Bot guides"]
     for guide in site.get("guides", []):
         llms.append(bullet(guide["href"], guide["label"]))
@@ -1675,12 +1711,12 @@ def main() -> int:
     kept = {(ROOT / u.lstrip("/")).resolve() for u, _, _ in written}
     kept |= {(ROOT / u.lstrip("/") / "index.html").resolve() for u, _, _ in written if u.endswith("/")}
     pruned = []
-    for section in ("wiki", "tutorials", "news", "blog"):
+    for section in ("wiki", "tutorials", "news", "blog", "patchnotes"):
         for stale in (ROOT / section).rglob("*.html"):
             if stale.resolve() not in kept:
                 stale.unlink()
                 pruned.append(str(stale.relative_to(ROOT)))
-    for section in ("wiki", "tutorials", "news", "blog"):
+    for section in ("wiki", "tutorials", "news", "blog", "patchnotes"):
         for d in sorted((ROOT / section).rglob("*"), reverse=True):
             if d.is_dir() and not any(d.iterdir()):
                 d.rmdir()
@@ -1695,6 +1731,7 @@ def main() -> int:
     print(f"  tutorials     : {len(tutorials.get('entries', []))}")
     print(f"  news posts    : {post_counts.get('news', 0)}")
     print(f"  blog posts    : {post_counts.get('blog', 0)}")
+    print(f"  patch notes   : {post_counts.get('patchnotes', 0)}")
     print(f"  sitemap urls  : {len(seen)}")
     print(f"  TODO cells    : {todo_count}")
     static_synced = sync_static_entity(ROOT, site)

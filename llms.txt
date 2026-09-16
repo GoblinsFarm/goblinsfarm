@@ -9,7 +9,7 @@ The wiki and tutorial sections are reference material about the game itself and 
 - [Troops (58 pages)](https://goblinsfarm.com/wiki/troops/)
 - [Spells (18 pages)](https://goblinsfarm.com/wiki/spells/)
 - [Heroes (6 pages)](https://goblinsfarm.com/wiki/heroes/)
-- [Equipment (42 pages)](https://goblinsfarm.com/wiki/equipment/)
+- [Equipment (43 pages)](https://goblinsfarm.com/wiki/equipment/)
 - [Pets (12 pages)](https://goblinsfarm.com/wiki/pets/)
 - [Buildings (41 pages)](https://goblinsfarm.com/wiki/buildings/)
 - [Traps (8 pages)](https://goblinsfarm.com/wiki/traps/)
@@ -56,6 +56,11 @@ The wiki and tutorial sections are reference material about the game itself and 
 - [Free-to-play Clash of Clans](https://goblinsfarm.com/blog/free-to-play-clash-of-clans.html)
 - [Why your account stalls](https://goblinsfarm.com/blog/why-your-clash-of-clans-account-stalls.html)
 - [The Clash of Clans glossary](https://goblinsfarm.com/blog/clash-of-clans-glossary.html)
+
+## Patch notes
+- [What each client build changed in the game files](https://goblinsfarm.com/patch-notes/)
+- [RSS feed](https://goblinsfarm.com/patch-notes/feed.xml)
+- [What changed in the game files: build 18.600.3](https://goblinsfarm.com/patch-notes/game-files-18-600-3.html)
 
 ## Bot guides
 - [Clash of Clans bot, the complete guide](https://goblinsfarm.com/guides/clash-of-clans-bot.html)

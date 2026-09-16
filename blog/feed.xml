@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Goblins Farm — Clash of Clans news</title>
-<link>https://goblinsfarm.com/news/</link>
-<atom:link href="https://goblinsfarm.com/news/feed.xml" rel="self" type="application/rss+xml"/>
-<description>Clash of Clans update coverage, balance change breakdowns and community news, written for players who want the mechanics explained rather than the patch notes copy-pasted.</description>
+<title>Goblins Farm — Blog</title>
+<link>https://goblinsfarm.com/blog/</link>
+<atom:link href="https://goblinsfarm.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Clash of Clans strategy and progression writing: which attack to learn at your Town Hall, what to upgrade, what to spend, and what the game&#39;s own files say about all of it.</description>
 <language>en</language>
 <item>
 <title>How long it actually takes to max Clash of Clans</title>

@@ -1,13 +1,13 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
-    "snapshot_date": "18.400.21",
-    "game_version": "18.400.21",
-    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-27",
+    "url": "https://game-assets.clashofclans.com/edaa611bbb095ac871fc3a692ae1a3251b5f2843/",
+    "snapshot_date": "18.600.3",
+    "game_version": "18.600.3",
+    "fingerprint": "edaa611bbb095ac871fc3a692ae1a3251b5f2843",
+    "fetched": "2026-09-16",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.600.3, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Spells",
@@ -164,7 +164,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "10"
             ],
             [
               "2",
@@ -278,7 +278,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "10"
             ],
             [
               "2",
@@ -398,7 +398,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "8"
             ],
             [
               "2",
@@ -630,7 +630,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "9"
             ],
             [
               "2",
@@ -742,7 +742,7 @@
               "1",
               "—",
               "—",
-              "4"
+              "6"
             ],
             [
               "2",
@@ -880,7 +880,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "14"
             ],
             [
               "2",
@@ -978,7 +978,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "11"
             ],
             [
               "2",
@@ -1072,7 +1072,7 @@
               "1",
               "—",
               "—",
-              "6"
+              "9"
             ],
             [
               "2",
@@ -1172,7 +1172,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "5"
             ],
             [
               "2",
@@ -1316,7 +1316,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "12"
             ],
             [
               "2",
@@ -1416,7 +1416,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "8"
             ],
             [
               "2",
@@ -1558,7 +1558,7 @@
               "1",
               "—",
               "—",
-              "5"
+              "7"
             ],
             [
               "2",
@@ -1666,7 +1666,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "13"
             ],
             [
               "2",
@@ -1774,7 +1774,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "15"
             ],
             [
               "2",
@@ -1870,7 +1870,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "9"
             ],
             [
               "2",
@@ -1984,7 +1984,7 @@
               "1",
               "—",
               "—",
-              "3"
+              "16"
             ],
             [
               "2",

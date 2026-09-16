@@ -254,7 +254,15 @@ def main() -> int:
 
         kept, dropped, with_prose = [], 0, 0
         for entry in data.get("entries", []):
-            if entry["name"] in excluded or unrecorded_unlock(name, entry):
+            # `seasonal` comes from the game files' own EnabledByCalendar flag.
+            # The EXCLUDE names below it are what this used to rely on alone, and
+            # a hand-kept list cannot know about an event that has not shipped
+            # yet: 18.600.3 arrived with the Totem Thrower and the Yeti
+            # Undertaker, and without the flag both would have been published as
+            # ordinary troops. The names stay as a backstop for anything the
+            # flag misses.
+            if (entry.get("seasonal") or entry["name"] in excluded
+                    or unrecorded_unlock(name, entry)):
                 dropped += 1
                 continue
             prose = overlay.get(entry["slug"])

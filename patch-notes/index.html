@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clash of Clans Patch Notes — What Each Update Changed in the Game Files</title>
+<meta name="description" content="A build-by-build record of what changes in Clash of Clans, read from Supercell's own game files: every troop, spell, building and piece of equipment whose numbers moved, and what is new.">
+<link rel="canonical" href="https://goblinsfarm.com/patch-notes/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Clash of Clans Patch Notes — What Each Update Changed in the Game Files">
+<meta property="og:description" content="A build-by-build record of what changes in Clash of Clans, read from Supercell's own game files: every troop, spell, building and piece of equipment whose numbers moved, and what is new.">
+<meta property="og:url" content="https://goblinsfarm.com/patch-notes/">
+<meta property="og:site_name" content="Goblins Farm">
+<meta property="og:image" content="https://goblinsfarm.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Goblins Farm — Patch Notes" href="https://goblinsfarm.com/patch-notes/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://goblinsfarm.com/#organization","name":"Goblins Farm","alternateName":["GoblinsFarm","Goblins Farm bot","Goblins Farm team"],"url":"https://goblinsfarm.com/","logo":{"@type":"ImageObject","@id":"https://goblinsfarm.com/#logo","url":"https://goblinsfarm.com/assets/logo.png"},"description":"Goblins Farm is a Clash of Clans farming bot for Windows and macOS that reads the screen and plays inside the free BlueStacks emulator. It also publishes a free, independent Clash of Clans wiki.","foundingDate":"2026","sameAs":["https://github.com/GoblinsFarm"],"knowsAbout":["Clash of Clans","Clash of Clans farming","Town Hall upgrade costs","Clash of Clans loot mechanics","game automation","BlueStacks"]},{"@type":"WebSite","@id":"https://goblinsfarm.com/#website","url":"https://goblinsfarm.com/","name":"Goblins Farm","description":"Free independent Clash of Clans wiki, tutorials and game data, plus the Goblins Farm farming bot for Windows and macOS.","publisher":{"@id":"https://goblinsfarm.com/#organization"},"inLanguage":"en"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Patch notes"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this Supercell's official patch notes?","acceptedAnswer":{"@type":"Answer","text":"No. Supercell publishes its own release notes and those are the authority on what an update is meant to do. This is a mechanical comparison of two builds of the game's data files, which catches things release notes leave out and misses everything that is not a number."}},{"@type":"Question","name":"Why do some entries say a value was corrected rather than changed?","acceptedAnswer":{"@type":"Answer","text":"Because the diff cannot tell a rebalance from our own mistake, and both look identical in a table. Where we know a change came from fixing how we read the files rather than from Supercell changing them, it says so in the post."}},{"@type":"Question","name":"How quickly does this appear after an update?","acceptedAnswer":{"@type":"Answer","text":"As soon as we read the new build. There is no public endpoint that announces a new client build, so it is found by checking, and a post here means the whole wiki has already been regenerated against it."}}]}</script>
+<script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
+</head>
+<body class="tone-slate">
+<header class="sitebar">
+  <a class="brand" href="../">Goblins Farm</a>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
+    <a href="../wiki/">Wiki</a>
+    <a href="../tutorials/">Tutorials</a>
+    <a href="../blog/">Blog</a>
+    <a href="../news/">News</a>
+    <a href="../patch-notes/" aria-current="page">Patch notes</a>
+    <a href="../#pricing">Bot</a>
+  </nav>
+</header>
+
+<div class="shell">
+
+<main class="doc narrow">
+<div class="banner hero">
+  <img src="../assets/banners/progression.webp" alt="" width="1400" height="700" decoding="async">
+  <div class="banner-text"><h1>Clash of Clans Patch Notes</h1><p class="banner-kicker">Build by build</p></div>
+</div>
+<div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span>Patch notes
+</div>
+<p class="updated">Updated: 16 September 2026</p>
+
+
+<div class="intro speaks">
+<span class="medallion big"><img class="mascot big" src="../assets/mascots/magnify.webp" alt="" width="130" height="130" decoding="async"></span>
+<div><p class="lede">Supercell's patch notes say what they chose to announce. This says what the game files actually hold. Every entry compares two client builds cell by cell, so you can see which numbers moved, which pages are new, and which of our own figures were wrong.</p></div>
+</div>
+<h2 id="what-this-is">What this is</h2>
+<p>Every stat table on this wiki is read from a specific, recorded Clash of Clans client build. When a newer build appears we read it again and the whole site regenerates. This section is the difference between the two, computed rather than written: entries added, entries dropped, and every cell in every level table that is not what it was.</p><p>It is deliberately narrower than an official patch note. It cannot see anything that is not in the files &mdash; matchmaking tweaks, event schedules, bug fixes &mdash; and it does not try to. What it can do is tell you exactly which numbers on this site changed under your feet, including the ones that changed because <em>we</em> had them wrong.</p>
+<h2 id="how-to-follow-it">How to follow it</h2>
+<p>There is an <a href="feed.xml">RSS feed</a> for this section, same as the <a href="../news/">news</a> and the <a href="../blog/">blog</a>. Nothing is posted between builds, so subscribing to it is a quiet way to hear when the numbers you are planning an upgrade around have moved.</p>
+<h2 id="latest">Latest</h2>
+
+<div class="grid">
+<a class="card tone-slate" href="../patch-notes/game-files-18-600-3.html">
+<span class="cardtext"><b>What changed in the game files: build 18.600.3</b><span>16 September 2026 — What changed between Clash of Clans client builds 18.400.21 and 18.600.3, read from Supercell's game files: the Portal…</span></span></a>
+</div>
+<h2 id="faq">Frequently asked</h2>
+<h3>Is this Supercell's official patch notes?</h3>
+<p>No. Supercell publishes its own release notes and those are the authority on what an update is meant to do. This is a mechanical comparison of two builds of the game's data files, which catches things release notes leave out and misses everything that is not a number.</p>
+<h3>Why do some entries say a value was corrected rather than changed?</h3>
+<p>Because the diff cannot tell a rebalance from our own mistake, and both look identical in a table. Where we know a change came from fixing how we read the files rather than from Supercell changing them, it says so in the post.</p>
+<h3>How quickly does this appear after an update?</h3>
+<p>As soon as we read the new build. There is no public endpoint that announces a new client build, so it is found by checking, and a post here means the whole wiki has already been regenerated against it.</p>
+
+
+<p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
+</main>
+</div>
+
+<footer class="sitefoot">
+  <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../patch-notes/">Patch notes</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
+</footer>
+</body>
+</html>

@@ -1,13 +1,13 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
-    "snapshot_date": "18.400.21",
-    "game_version": "18.400.21",
-    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-27",
+    "url": "https://game-assets.clashofclans.com/edaa611bbb095ac871fc3a692ae1a3251b5f2843/",
+    "snapshot_date": "18.600.3",
+    "game_version": "18.600.3",
+    "fingerprint": "edaa611bbb095ac871fc3a692ae1a3251b5f2843",
+    "fetched": "2026-09-16",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.600.3, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Pets",
@@ -175,12 +175,12 @@
       "slug": "diggy",
       "name": "Diggy",
       "description": "Diggy stats for every level in Clash of Clans: hitpoints, damage per second, upgrade cost and the Pet House level it needs.",
-      "blurb": "10 levels, from TH15",
+      "blurb": "15 levels, from TH15",
       "summary": "Diggy is an introvert and spends a lot of time hiding underground. Still, when it comes to battle, he'll do his part, coming up to attack buildings and aid his Hero. If his Hero's taken out, he'll seek out a new one for support and scritches.",
       "quick": {
         "Unlocked at": "Pet House 6",
         "Town Hall": "Town Hall 15",
-        "Levels": "10",
+        "Levels": "15",
         "Housing space": "20",
         "Targets": "Ground only",
         "Range": "0.8 tiles",
@@ -283,6 +283,46 @@
               "150",
               "180,000 Dark Elixir",
               "6 d 12 h",
+              "—"
+            ],
+            [
+              "11",
+              "5,150",
+              "155",
+              "220,000 Dark Elixir",
+              "7 d",
+              "—"
+            ],
+            [
+              "12",
+              "5,300",
+              "160",
+              "250,000 Dark Elixir",
+              "7 d 12 h",
+              "—"
+            ],
+            [
+              "13",
+              "5,450",
+              "165",
+              "280,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "14",
+              "5,600",
+              "170",
+              "310,000 Dark Elixir",
+              "8 d",
+              "—"
+            ],
+            [
+              "15",
+              "5,750",
+              "175",
+              "350,000 Dark Elixir",
+              "8 d",
               "—"
             ]
           ]

@@ -1,20 +1,20 @@
 {
   "source": {
     "name": "Supercell game files (official asset CDN)",
-    "url": "https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/",
-    "snapshot_date": "18.400.21",
-    "game_version": "18.400.21",
-    "fingerprint": "7f04bdfdc4124b1f49308423bb8f4aa8b137aae3",
-    "fetched": "2026-08-27",
+    "url": "https://game-assets.clashofclans.com/edaa611bbb095ac871fc3a692ae1a3251b5f2843/",
+    "snapshot_date": "18.600.3",
+    "game_version": "18.600.3",
+    "fingerprint": "edaa611bbb095ac871fc3a692ae1a3251b5f2843",
+    "fetched": "2026-09-16",
     "attribution": "Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.",
-    "caption": "Read from Clash of Clans game files, version 18.400.21, verify in-game before committing an upgrade"
+    "caption": "Read from Clash of Clans game files, version 18.600.3, verify in-game before committing an upgrade"
   },
   "hub": {
     "nav_label": "Equipment",
     "h1": "Clash of Clans Hero Equipment",
     "head_title": "Clash of Clans Hero Equipment, Every Level and Ore Cost",
     "description": "Every piece of hero equipment in Clash of Clans with what it does, its per-level stats and the Shiny, Glowy and Starry Ore each upgrade costs.",
-    "summary": "All 42 pieces of hero equipment, grouped by hero, with the ability each one grants and the ore every level costs.",
+    "summary": "All 43 pieces of hero equipment, grouped by hero, with the ability each one grants and the ore every level costs.",
     "groups": [
       {
         "h": "Barbarian King",
@@ -56,7 +56,8 @@
           "Henchmen Puppet",
           "Metal Pants",
           "Meteor Staff",
-          "Noble Iron"
+          "Noble Iron",
+          "Portal Pendant"
         ]
       },
       {
@@ -929,7 +930,7 @@
       ],
       "related": [
         "equipment:dark-orb",
-        "equipment:noble-iron",
+        "equipment:portal-pendant",
         "equipment:henchmen-puppet",
         "mechanics:hero-equipment"
       ],
@@ -5745,7 +5746,7 @@
       "related": [
         "equipment:noble-iron",
         "equipment:metal-pants",
-        "equipment:dark-crown",
+        "equipment:portal-pendant",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
@@ -6160,15 +6161,255 @@
         }
       ],
       "related": [
-        "equipment:dark-crown",
+        "equipment:portal-pendant",
         "equipment:meteor-staff",
-        "equipment:dark-orb",
+        "equipment:dark-crown",
         "mechanics:hero-equipment"
       ],
       "priority": "0.7",
       "art": {
         "sheet": "ui",
         "export": "icon_gear_MP_PowerPump"
+      },
+      "has_prose": false
+    },
+    {
+      "slug": "portal-pendant",
+      "name": "Portal Pendant",
+      "description": "Portal Pendant stats for every level in Clash of Clans: what the Minion Prince equipment does, its damage and hitpoints, and the ore each upgrade costs.",
+      "blurb": "Epic Minion Prince equipment, 27 levels",
+      "summary": "Pulls Minion Prince and nearby ally units back to the deployment bar to be summoned elsewhere with extra health and Haste",
+      "quick": {
+        "Hero": "Minion Prince",
+        "Rarity": "Epic",
+        "Max level": "27",
+        "Blacksmith needed": "1",
+        "Ability": "Pulls Minion Prince and nearby ally units back to the deployment bar to be summoned elsewhere with extra health and Haste"
+      },
+      "tags": [
+        {
+          "label": "Epic",
+          "kind": "dark"
+        },
+        {
+          "label": "Minion Prince",
+          "kind": ""
+        }
+      ],
+      "sections": [],
+      "tables": [
+        {
+          "caption": "Portal Pendant stats by level",
+          "columns": [
+            "Level",
+            "DPS",
+            "Hitpoints",
+            "Upgrade cost",
+            "Blacksmith"
+          ],
+          "rows": [
+            [
+              "1",
+              "—",
+              "—",
+              "—",
+              "1"
+            ],
+            [
+              "2",
+              "—",
+              "—",
+              "120 Shiny Ore",
+              "1"
+            ],
+            [
+              "3",
+              "—",
+              "—",
+              "240 Shiny Ore + 20 Glowy Ore",
+              "1"
+            ],
+            [
+              "4",
+              "—",
+              "—",
+              "400 Shiny Ore",
+              "1"
+            ],
+            [
+              "5",
+              "—",
+              "—",
+              "600 Shiny Ore",
+              "1"
+            ],
+            [
+              "6",
+              "—",
+              "—",
+              "840 Shiny Ore + 100 Glowy Ore",
+              "1"
+            ],
+            [
+              "7",
+              "—",
+              "—",
+              "1,120 Shiny Ore",
+              "1"
+            ],
+            [
+              "8",
+              "—",
+              "—",
+              "1,440 Shiny Ore",
+              "1"
+            ],
+            [
+              "9",
+              "—",
+              "—",
+              "1,800 Shiny Ore + 200 Glowy Ore + 10 Starry Ore",
+              "1"
+            ],
+            [
+              "10",
+              "—",
+              "—",
+              "1,900 Shiny Ore",
+              "1"
+            ],
+            [
+              "11",
+              "—",
+              "—",
+              "2,000 Shiny Ore",
+              "1"
+            ],
+            [
+              "12",
+              "—",
+              "—",
+              "2,100 Shiny Ore + 400 Glowy Ore + 20 Starry Ore",
+              "1"
+            ],
+            [
+              "13",
+              "—",
+              "—",
+              "2,200 Shiny Ore",
+              "3"
+            ],
+            [
+              "14",
+              "—",
+              "—",
+              "2,300 Shiny Ore",
+              "3"
+            ],
+            [
+              "15",
+              "—",
+              "—",
+              "2,400 Shiny Ore + 600 Glowy Ore + 30 Starry Ore",
+              "3"
+            ],
+            [
+              "16",
+              "—",
+              "—",
+              "2,500 Shiny Ore",
+              "5"
+            ],
+            [
+              "17",
+              "—",
+              "—",
+              "2,600 Shiny Ore",
+              "5"
+            ],
+            [
+              "18",
+              "—",
+              "—",
+              "2,700 Shiny Ore + 600 Glowy Ore + 50 Starry Ore",
+              "5"
+            ],
+            [
+              "19",
+              "—",
+              "—",
+              "2,800 Shiny Ore",
+              "7"
+            ],
+            [
+              "20",
+              "—",
+              "—",
+              "2,900 Shiny Ore",
+              "7"
+            ],
+            [
+              "21",
+              "—",
+              "—",
+              "3,000 Shiny Ore + 600 Glowy Ore + 100 Starry Ore",
+              "7"
+            ],
+            [
+              "22",
+              "—",
+              "—",
+              "3,100 Shiny Ore",
+              "8"
+            ],
+            [
+              "23",
+              "—",
+              "—",
+              "3,200 Shiny Ore",
+              "8"
+            ],
+            [
+              "24",
+              "—",
+              "—",
+              "3,300 Shiny Ore + 600 Glowy Ore + 120 Starry Ore",
+              "8"
+            ],
+            [
+              "25",
+              "—",
+              "—",
+              "3,400 Shiny Ore",
+              "9"
+            ],
+            [
+              "26",
+              "—",
+              "—",
+              "3,500 Shiny Ore",
+              "9"
+            ],
+            [
+              "27",
+              "—",
+              "—",
+              "3,600 Shiny Ore + 600 Glowy Ore + 150 Starry Ore",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "equipment:dark-crown",
+        "equipment:noble-iron",
+        "equipment:dark-orb",
+        "mechanics:hero-equipment"
+      ],
+      "priority": "0.7",
+      "art": {
+        "sheet": "ui",
+        "export": "icon_gear_MP_CosmicPortal"
       },
       "has_prose": false
     },
