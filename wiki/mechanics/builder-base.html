@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Builder Base: The Second Village","description":"How the Builder Base works in Clash of Clans: Builder Hall progression, versus battle rules, the separate economy, and how it feeds your main village.","url":"https://goblinsfarm.com/wiki/mechanics/builder-base.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/builder-base.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I move resources between the Builder Base and my main village?","acceptedAnswer":{"@type":"Answer","text":"No. The two villages have entirely separate economies, and Builder Base gold and elixir can only be spent on Builder Base upgrades. The connection between them is through the rewards and unlocks that Builder Hall progression grants to the main village."}},{"@type":"Question","name":"Is the Builder Base worth playing?","acceptedAnswer":{"@type":"Answer","text":"Yes, mainly because of what it unlocks for the main village, including additional building capacity. It also asks very little: a handful of rewarded attacks a day, taken consistently, produces steady progress for around five minutes of attention."}},{"@type":"Question","name":"How many versus battles should I do per day?","acceptedAnswer":{"@type":"Answer","text":"Enough to claim the full daily rewards, and consistency matters far more than volume. Attacks beyond the rewarded ones give much less, so a short daily session beats a long weekend one."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html" aria-current="page"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/builder-base.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/builder-base.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Builder Base
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/builder-base.svg" alt="Builder Base: The Second Village" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Builder Base: The Second Village</h1>
+    <h1>Builder Base: The Second Village</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag ">Builder Base</span><span class="tag ">Progression</span></div>
   </div>
 </div>
@@ -56,30 +144,13 @@
 
 
 <p class="lede">The Builder Base is a parallel game. It has its own resources, its own troops, its own attack mode and its own progression, and it feeds back into the main village through the rewards it produces. Many players ignore it, which is a mistake, because it is the least demanding source of steady progress in the game.</p>
-<div class="quick">
-<dl>
-<dt>Unlocked by</dt><dd>Repairing the boat, after a certain main village Town Hall level</dd>
-<dt>Progression building</dt><dd>Builder Hall, rather than Town Hall</dd>
-<dt>Economy</dt><dd>Separate gold and elixir that cannot be moved to the main village</dd>
-<dt>Attack mode</dt><dd>Versus battles against another player's base</dd>
-<dt>Feeds back</dt><dd>Through rewards that benefit the main village</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#how-versus-battles-differ">How versus battles differ</a></li>
-<li><a href="#the-daily-rhythm">The daily rhythm</a></li>
-<li><a href="#what-it-gives-the-main-village">What it gives the main village</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="how-versus-battles-differ">How versus battles differ</h2>
 <p>Versus battles are not raids. You and an opponent attack the same layout, and the better result wins. The differences from main village attacking are substantial:</p><ul><li><strong>You are not stealing.</strong> There is no loot on the defender's base to take. Rewards come from winning, not from what you destroy.</li><li><strong>Troops are automatic between waves.</strong> The Builder Base has its own troop roster with its own behaviours and its own deployment rhythm.</li><li><strong>Both sides see the same base.</strong> It is a comparison, not a raid, so a marginal result is only bad if your opponent did better.</li><li><strong>Attacks are limited per day for full rewards.</strong> This is the important one economically, and it shapes how you should play.</li></ul>
 <h2 id="the-daily-rhythm">The daily rhythm</h2>
 <p>Because full rewards come from a limited number of attacks per day, the Builder Base rewards <strong>consistency over volume</strong>. A player who takes their handful of attacks every day progresses steadily; a player who does thirty attacks on Saturday and none all week gets far less for far more effort.</p><p>The efficient routine is short:</p><ol><li>Log in, collect the mines and the Gem Mine.</li><li>Take your rewarded attacks, in one sitting, with whatever army you have researched.</li><li>Start upgrades with everything you earned.</li><li>Close the game.</li></ol><p>Five minutes a day, and over a month it is a meaningful amount of progress that costs you almost no attention. If you want that loop run for you, that is exactly what a <a href='../../guides/builder-base-bot.html'>Builder Base bot</a> does.</p>
 <h2 id="what-it-gives-the-main-village">What it gives the main village</h2>
 <p>The Builder Base is not a closed system. Progress there unlocks rewards that matter on the main village, most notably additional building capacity and various items and boosts that feed main village progress. That is the real argument for taking it seriously: it is not a side game, it is a second income stream for the village you actually care about.</p><p>The practical implication for upgrade order is that <strong>Builder Hall progression is worth prioritising early</strong>, because the rewards it unlocks compound over the entire rest of your account's life. A player who reaches those milestones in month two benefits from them for years.</p>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Can I move resources between the Builder Base and my main village?</h3>
 <p>No. The two villages have entirely separate economies, and Builder Base gold and elixir can only be spent on Builder Base upgrades. The connection between them is through the rewards and unlocks that Builder Hall progression grants to the main village.</p>
 <h3>Is the Builder Base worth playing?</h3>
@@ -88,9 +159,9 @@
 <p>Enough to claim the full daily rewards, and consistency matters far more than volume. Attacks beyond the rewarded ones give much less, so a short daily session beats a long weekend one.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/mechanics/upgrade-priority.html"><img class="thumb" src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/upgrade-priority.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Upgrade priority</span>
 </a>
 <a class="readon-item" href="../../guides/builder-base-bot.html">
@@ -108,6 +179,32 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Builder Base: The Second Village</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/builder-base.svg" alt="Builder Base: The Second Village" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag ">Builder Base</span><span class="tag ">Progression</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Unlocked by</dt><dd>Repairing the boat, after a certain main village Town Hall level</dd></div>
+    <div class="ib-row"><dt>Progression building</dt><dd>Builder Hall, rather than Town Hall</dd></div>
+    <div class="ib-row"><dt>Economy</dt><dd>Separate gold and elixir that cannot be moved to the main village</dd></div>
+    <div class="ib-row"><dt>Attack mode</dt><dd>Versus battles against another player's base</dd></div>
+    <div class="ib-row"><dt>Feeds back</dt><dd>Through rewards that benefit the main village</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#how-versus-battles-differ">How versus battles differ</a></li>
+<li><a href="#the-daily-rhythm">The daily rhythm</a></li>
+<li><a href="#what-it-gives-the-main-village">What it gives the main village</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

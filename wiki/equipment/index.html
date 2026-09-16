@@ -25,11 +25,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Wiki","item":"https://goblinsfarm.com/wiki/"},{"@type":"ListItem","position":3,"name":"Equipment"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Barbarian Puppet","url":"https://goblinsfarm.com/wiki/equipment/barbarian-puppet.html"},{"@type":"ListItem","position":2,"name":"Earthquake Boots","url":"https://goblinsfarm.com/wiki/equipment/earthquake-boots.html"},{"@type":"ListItem","position":3,"name":"Giant Gauntlet","url":"https://goblinsfarm.com/wiki/equipment/giant-gauntlet.html"},{"@type":"ListItem","position":4,"name":"Rage Vial","url":"https://goblinsfarm.com/wiki/equipment/rage-vial.html"},{"@type":"ListItem","position":5,"name":"Snake Bracelet","url":"https://goblinsfarm.com/wiki/equipment/snake-bracelet.html"},{"@type":"ListItem","position":6,"name":"Spiky Ball","url":"https://goblinsfarm.com/wiki/equipment/spiky-ball.html"},{"@type":"ListItem","position":7,"name":"Stick Horse","url":"https://goblinsfarm.com/wiki/equipment/stick-horse.html"},{"@type":"ListItem","position":8,"name":"Vampstache","url":"https://goblinsfarm.com/wiki/equipment/vampstache.html"},{"@type":"ListItem","position":9,"name":"Action Figure","url":"https://goblinsfarm.com/wiki/equipment/action-figure.html"},{"@type":"ListItem","position":10,"name":"Archer Puppet","url":"https://goblinsfarm.com/wiki/equipment/archer-puppet.html"},{"@type":"ListItem","position":11,"name":"Frozen Arrow","url":"https://goblinsfarm.com/wiki/equipment/frozen-arrow.html"},{"@type":"ListItem","position":12,"name":"Giant Arrow","url":"https://goblinsfarm.com/wiki/equipment/giant-arrow.html"},{"@type":"ListItem","position":13,"name":"Healer Puppet","url":"https://goblinsfarm.com/wiki/equipment/healer-puppet.html"},{"@type":"ListItem","position":14,"name":"Invisibility Vial","url":"https://goblinsfarm.com/wiki/equipment/invisibility-vial.html"},{"@type":"ListItem","position":15,"name":"Magic Mirror","url":"https://goblinsfarm.com/wiki/equipment/magic-mirror.html"},{"@type":"ListItem","position":16,"name":"Monolith Arrow","url":"https://goblinsfarm.com/wiki/equipment/monolith-arrow.html"},{"@type":"ListItem","position":17,"name":"Dark Crown","url":"https://goblinsfarm.com/wiki/equipment/dark-crown.html"},{"@type":"ListItem","position":18,"name":"Dark Orb","url":"https://goblinsfarm.com/wiki/equipment/dark-orb.html"},{"@type":"ListItem","position":19,"name":"Henchmen Puppet","url":"https://goblinsfarm.com/wiki/equipment/henchmen-puppet.html"},{"@type":"ListItem","position":20,"name":"Metal Pants","url":"https://goblinsfarm.com/wiki/equipment/metal-pants.html"},{"@type":"ListItem","position":21,"name":"Meteor Staff","url":"https://goblinsfarm.com/wiki/equipment/meteor-staff.html"},{"@type":"ListItem","position":22,"name":"Noble Iron","url":"https://goblinsfarm.com/wiki/equipment/noble-iron.html"},{"@type":"ListItem","position":23,"name":"Eternal Tome","url":"https://goblinsfarm.com/wiki/equipment/eternal-tome.html"},{"@type":"ListItem","position":24,"name":"Fireball","url":"https://goblinsfarm.com/wiki/equipment/fireball.html"},{"@type":"ListItem","position":25,"name":"Healing Tome","url":"https://goblinsfarm.com/wiki/equipment/healing-tome.html"},{"@type":"ListItem","position":26,"name":"Heroic Torch","url":"https://goblinsfarm.com/wiki/equipment/heroic-torch.html"},{"@type":"ListItem","position":27,"name":"Lavaloon Puppet","url":"https://goblinsfarm.com/wiki/equipment/lavaloon-puppet.html"},{"@type":"ListItem","position":28,"name":"Life Gem","url":"https://goblinsfarm.com/wiki/equipment/life-gem.html"},{"@type":"ListItem","position":29,"name":"Rage Gem","url":"https://goblinsfarm.com/wiki/equipment/rage-gem.html"},{"@type":"ListItem","position":30,"name":"Electro Boots","url":"https://goblinsfarm.com/wiki/equipment/electro-boots.html"},{"@type":"ListItem","position":31,"name":"Frost Flake","url":"https://goblinsfarm.com/wiki/equipment/frost-flake.html"},{"@type":"ListItem","position":32,"name":"Haste Vial","url":"https://goblinsfarm.com/wiki/equipment/haste-vial.html"},{"@type":"ListItem","position":33,"name":"Hog Rider Puppet","url":"https://goblinsfarm.com/wiki/equipment/hog-rider-puppet.html"},{"@type":"ListItem","position":34,"name":"Rocket Spear","url":"https://goblinsfarm.com/wiki/equipment/rocket-spear.html"},{"@type":"ListItem","position":35,"name":"Royal Gem","url":"https://goblinsfarm.com/wiki/equipment/royal-gem.html"},{"@type":"ListItem","position":36,"name":"Seeking Shield","url":"https://goblinsfarm.com/wiki/equipment/seeking-shield.html"},{"@type":"ListItem","position":37,"name":"Electro Fangs","url":"https://goblinsfarm.com/wiki/equipment/electro-fangs.html"},{"@type":"ListItem","position":38,"name":"Fire Heart","url":"https://goblinsfarm.com/wiki/equipment/fire-heart.html"},{"@type":"ListItem","position":39,"name":"Flame Blower","url":"https://goblinsfarm.com/wiki/equipment/flame-blower.html"},{"@type":"ListItem","position":40,"name":"Revenge Deck","url":"https://goblinsfarm.com/wiki/equipment/revenge-deck.html"},{"@type":"ListItem","position":41,"name":"Rocket Backpack","url":"https://goblinsfarm.com/wiki/equipment/rocket-backpack.html"},{"@type":"ListItem","position":42,"name":"Stun Blaster","url":"https://goblinsfarm.com/wiki/equipment/stun-blaster.html"}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-ore">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -38,124 +47,225 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore on">
+      <a class="rail-head" href="../../wiki/equipment/" aria-current="page">Equipment<span class="rail-n">42</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/equipment/action-figure.html"><img src="../../assets/art/equipment/action-figure.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Action Figure</span></a></li>
+        <li><a href="../../wiki/equipment/archer-puppet.html"><img src="../../assets/art/equipment/archer-puppet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Archer Puppet</span></a></li>
+        <li><a href="../../wiki/equipment/barbarian-puppet.html"><img src="../../assets/art/equipment/barbarian-puppet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Barbarian Puppet</span></a></li>
+        <li><a href="../../wiki/equipment/dark-crown.html"><img src="../../assets/art/equipment/dark-crown.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark Crown</span></a></li>
+        <li><a href="../../wiki/equipment/dark-orb.html"><img src="../../assets/art/equipment/dark-orb.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark Orb</span></a></li>
+        <li><a href="../../wiki/equipment/earthquake-boots.html"><img src="../../assets/art/equipment/earthquake-boots.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Earthquake Boots</span></a></li>
+        <li><a href="../../wiki/equipment/electro-boots.html"><img src="../../assets/art/equipment/electro-boots.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Electro Boots</span></a></li>
+        <li><a href="../../wiki/equipment/electro-fangs.html"><img src="../../assets/art/equipment/electro-fangs.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Electro Fangs</span></a></li>
+        <li><a href="../../wiki/equipment/eternal-tome.html"><img src="../../assets/art/equipment/eternal-tome.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Eternal Tome</span></a></li>
+        <li><a href="../../wiki/equipment/fire-heart.html"><img src="../../assets/art/equipment/fire-heart.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Fire Heart</span></a></li>
+        <li><a href="../../wiki/equipment/fireball.html"><img src="../../assets/art/equipment/fireball.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Fireball</span></a></li>
+        <li><a href="../../wiki/equipment/flame-blower.html"><img src="../../assets/art/equipment/flame-blower.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Flame Blower</span></a></li>
+        <li><a href="../../wiki/equipment/frost-flake.html"><img src="../../assets/art/equipment/frost-flake.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Frost Flake</span></a></li>
+        <li><a href="../../wiki/equipment/frozen-arrow.html"><img src="../../assets/art/equipment/frozen-arrow.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Frozen Arrow</span></a></li>
+        <li><a href="../../wiki/equipment/giant-arrow.html"><img src="../../assets/art/equipment/giant-arrow.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Giant Arrow</span></a></li>
+        <li><a href="../../wiki/equipment/giant-gauntlet.html"><img src="../../assets/art/equipment/giant-gauntlet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Giant Gauntlet</span></a></li>
+        <li><a href="../../wiki/equipment/haste-vial.html"><img src="../../assets/art/equipment/haste-vial.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Haste Vial</span></a></li>
+        <li><a href="../../wiki/equipment/healer-puppet.html"><img src="../../assets/art/equipment/healer-puppet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Healer Puppet</span></a></li>
+        <li><a href="../../wiki/equipment/healing-tome.html"><img src="../../assets/art/equipment/healing-tome.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Healing Tome</span></a></li>
+        <li><a href="../../wiki/equipment/henchmen-puppet.html"><img src="../../assets/art/equipment/henchmen-puppet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Henchmen Puppet</span></a></li>
+        <li><a href="../../wiki/equipment/heroic-torch.html"><img src="../../assets/art/equipment/heroic-torch.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Heroic Torch</span></a></li>
+        <li><a href="../../wiki/equipment/hog-rider-puppet.html"><img src="../../assets/art/equipment/hog-rider-puppet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hog Rider Puppet</span></a></li>
+        <li><a href="../../wiki/equipment/invisibility-vial.html"><img src="../../assets/art/equipment/invisibility-vial.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Invisibility Vial</span></a></li>
+        <li><a href="../../wiki/equipment/lavaloon-puppet.html"><img src="../../assets/art/equipment/lavaloon-puppet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Lavaloon Puppet</span></a></li>
+        <li><a href="../../wiki/equipment/life-gem.html"><img src="../../assets/art/equipment/life-gem.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Life Gem</span></a></li>
+        <li><a href="../../wiki/equipment/magic-mirror.html"><img src="../../assets/art/equipment/magic-mirror.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic Mirror</span></a></li>
+        <li><a href="../../wiki/equipment/metal-pants.html"><img src="../../assets/art/equipment/metal-pants.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Metal Pants</span></a></li>
+        <li><a href="../../wiki/equipment/meteor-staff.html"><img src="../../assets/art/equipment/meteor-staff.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Meteor Staff</span></a></li>
+        <li><a href="../../wiki/equipment/monolith-arrow.html"><img src="../../assets/art/equipment/monolith-arrow.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Monolith Arrow</span></a></li>
+        <li><a href="../../wiki/equipment/noble-iron.html"><img src="../../assets/art/equipment/noble-iron.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Noble Iron</span></a></li>
+        <li><a href="../../wiki/equipment/rage-gem.html"><img src="../../assets/art/equipment/rage-gem.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Rage Gem</span></a></li>
+        <li><a href="../../wiki/equipment/rage-vial.html"><img src="../../assets/art/equipment/rage-vial.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Rage Vial</span></a></li>
+        <li><a href="../../wiki/equipment/revenge-deck.html"><img src="../../assets/art/equipment/revenge-deck.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Revenge Deck</span></a></li>
+        <li><a href="../../wiki/equipment/rocket-backpack.html"><img src="../../assets/art/equipment/rocket-backpack.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Rocket Backpack</span></a></li>
+        <li><a href="../../wiki/equipment/rocket-spear.html"><img src="../../assets/art/equipment/rocket-spear.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Rocket Spear</span></a></li>
+        <li><a href="../../wiki/equipment/royal-gem.html"><img src="../../assets/art/equipment/royal-gem.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Royal Gem</span></a></li>
+        <li><a href="../../wiki/equipment/seeking-shield.html"><img src="../../assets/art/equipment/seeking-shield.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Seeking Shield</span></a></li>
+        <li><a href="../../wiki/equipment/snake-bracelet.html"><img src="../../assets/art/equipment/snake-bracelet.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Snake Bracelet</span></a></li>
+        <li><a href="../../wiki/equipment/spiky-ball.html"><img src="../../assets/art/equipment/spiky-ball.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spiky Ball</span></a></li>
+        <li><a href="../../wiki/equipment/stick-horse.html"><img src="../../assets/art/equipment/stick-horse.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Stick Horse</span></a></li>
+        <li><a href="../../wiki/equipment/stun-blaster.html"><img src="../../assets/art/equipment/stun-blaster.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Stun Blaster</span></a></li>
+        <li><a href="../../wiki/equipment/vampstache.html"><img src="../../assets/art/equipment/vampstache.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Vampstache</span></a></li>
+      </ul>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/equipment.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner hero">
+  <img src="../../assets/banners/equipment.webp" alt="" width="1400" height="700" decoding="async">
+  <div class="banner-text"><h1>Clash of Clans Hero Equipment</h1><p class="banner-kicker">Equipment &middot; 42 pages</p></div>
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span>Equipment
 </div>
-<h1>Clash of Clans Hero Equipment</h1>
 <p class="updated">Updated: 16 September 2026 &middot; By the Goblins Farm team</p>
 
 
 <div class="intro speaks">
-<img class="mascot big" src="../../assets/mascots/hammer.webp" alt="" width="130" height="130" decoding="async">
+<span class="medallion big"><img class="mascot big" src="../../assets/mascots/hammer.webp" alt="" width="130" height="130" decoding="async"></span>
 <div><p class="lede">All 42 pieces of hero equipment, grouped by hero, with the ability each one grants and the ore every level costs.</p></div>
 </div>
+<nav class="jumpbar" aria-label="Sections on this page"><a href="#barbarian-king">Barbarian King<span>8</span></a><a href="#archer-queen">Archer Queen<span>8</span></a><a href="#minion-prince">Minion Prince<span>6</span></a><a href="#grand-warden">Grand Warden<span>7</span></a><a href="#royal-champion">Royal Champion<span>7</span></a><a href="#dragon-duke">Dragon Duke<span>6</span></a>
+</nav>
 <h2 id="barbarian-king">Barbarian King</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/equipment/barbarian-puppet.html"><img class="thumb" src="../../assets/art/equipment/barbarian-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/barbarian-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/barbarian-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Barbarian Puppet</b><span>Common Barbarian King equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/earthquake-boots.html"><img class="thumb" src="../../assets/art/equipment/earthquake-boots.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/earthquake-boots.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/earthquake-boots.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Earthquake Boots</b><span>Common Barbarian King equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/giant-gauntlet.html"><img class="thumb" src="../../assets/art/equipment/giant-gauntlet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/giant-gauntlet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/giant-gauntlet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Giant Gauntlet</b><span>Epic Barbarian King equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/rage-vial.html"><img class="thumb" src="../../assets/art/equipment/rage-vial.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/rage-vial.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/rage-vial.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Rage Vial</b><span>Common Barbarian King equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/snake-bracelet.html"><img class="thumb" src="../../assets/art/equipment/snake-bracelet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/snake-bracelet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/snake-bracelet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Snake Bracelet</b><span>Epic Barbarian King equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/spiky-ball.html"><img class="thumb" src="../../assets/art/equipment/spiky-ball.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/spiky-ball.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/spiky-ball.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Spiky Ball</b><span>Epic Barbarian King equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/stick-horse.html"><img class="thumb" src="../../assets/art/equipment/stick-horse.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/stick-horse.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/stick-horse.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Stick Horse</b><span>Epic Barbarian King equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/vampstache.html"><img class="thumb" src="../../assets/art/equipment/vampstache.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/vampstache.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/vampstache.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Vampstache</b><span>Common Barbarian King equipment, 18 levels</span></span></a>
 </div>
 <h2 id="archer-queen">Archer Queen</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/equipment/action-figure.html"><img class="thumb" src="../../assets/art/equipment/action-figure.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/action-figure.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/action-figure.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Action Figure</b><span>Epic Archer Queen equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/archer-puppet.html"><img class="thumb" src="../../assets/art/equipment/archer-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/archer-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/archer-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Archer Puppet</b><span>Common Archer Queen equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/frozen-arrow.html"><img class="thumb" src="../../assets/art/equipment/frozen-arrow.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/frozen-arrow.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/frozen-arrow.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Frozen Arrow</b><span>Epic Archer Queen equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/giant-arrow.html"><img class="thumb" src="../../assets/art/equipment/giant-arrow.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/giant-arrow.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/giant-arrow.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Giant Arrow</b><span>Common Archer Queen equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/healer-puppet.html"><img class="thumb" src="../../assets/art/equipment/healer-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/healer-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/healer-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Healer Puppet</b><span>Common Archer Queen equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/invisibility-vial.html"><img class="thumb" src="../../assets/art/equipment/invisibility-vial.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/invisibility-vial.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/invisibility-vial.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Invisibility Vial</b><span>Common Archer Queen equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/magic-mirror.html"><img class="thumb" src="../../assets/art/equipment/magic-mirror.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/magic-mirror.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/magic-mirror.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Magic Mirror</b><span>Epic Archer Queen equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/monolith-arrow.html"><img class="thumb" src="../../assets/art/equipment/monolith-arrow.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/monolith-arrow.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/monolith-arrow.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Monolith Arrow</b><span>Epic Archer Queen equipment, 27 levels</span></span></a>
 </div>
 <h2 id="minion-prince">Minion Prince</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/equipment/dark-crown.html"><img class="thumb" src="../../assets/art/equipment/dark-crown.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/dark-crown.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/dark-crown.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Dark Crown</b><span>Epic Minion Prince equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/dark-orb.html"><img class="thumb" src="../../assets/art/equipment/dark-orb.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/dark-orb.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/dark-orb.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Dark Orb</b><span>Common Minion Prince equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/henchmen-puppet.html"><img class="thumb" src="../../assets/art/equipment/henchmen-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/henchmen-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/henchmen-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Henchmen Puppet</b><span>Common Minion Prince equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/metal-pants.html"><img class="thumb" src="../../assets/art/equipment/metal-pants.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/metal-pants.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/metal-pants.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Metal Pants</b><span>Common Minion Prince equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/meteor-staff.html"><img class="thumb" src="../../assets/art/equipment/meteor-staff.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/meteor-staff.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/meteor-staff.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Meteor Staff</b><span>Epic Minion Prince equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/noble-iron.html"><img class="thumb" src="../../assets/art/equipment/noble-iron.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/noble-iron.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/noble-iron.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Noble Iron</b><span>Common Minion Prince equipment, 18 levels</span></span></a>
 </div>
 <h2 id="grand-warden">Grand Warden</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/equipment/eternal-tome.html"><img class="thumb" src="../../assets/art/equipment/eternal-tome.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/eternal-tome.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/eternal-tome.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Eternal Tome</b><span>Common Grand Warden equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/fireball.html"><img class="thumb" src="../../assets/art/equipment/fireball.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/fireball.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/fireball.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Fireball</b><span>Epic Grand Warden equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/healing-tome.html"><img class="thumb" src="../../assets/art/equipment/healing-tome.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/healing-tome.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/healing-tome.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Healing Tome</b><span>Common Grand Warden equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/heroic-torch.html"><img class="thumb" src="../../assets/art/equipment/heroic-torch.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/heroic-torch.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/heroic-torch.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Heroic Torch</b><span>Epic Grand Warden equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/lavaloon-puppet.html"><img class="thumb" src="../../assets/art/equipment/lavaloon-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/lavaloon-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/lavaloon-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Lavaloon Puppet</b><span>Epic Grand Warden equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/life-gem.html"><img class="thumb" src="../../assets/art/equipment/life-gem.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/life-gem.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/life-gem.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Life Gem</b><span>Common Grand Warden equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/rage-gem.html"><img class="thumb" src="../../assets/art/equipment/rage-gem.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/rage-gem.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/rage-gem.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Rage Gem</b><span>Common Grand Warden equipment, 18 levels</span></span></a>
 </div>
 <h2 id="royal-champion">Royal Champion</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/equipment/electro-boots.html"><img class="thumb" src="../../assets/art/equipment/electro-boots.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/electro-boots.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/electro-boots.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Electro Boots</b><span>Epic Royal Champion equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/frost-flake.html"><img class="thumb" src="../../assets/art/equipment/frost-flake.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/frost-flake.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/frost-flake.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Frost Flake</b><span>Epic Royal Champion equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/haste-vial.html"><img class="thumb" src="../../assets/art/equipment/haste-vial.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/haste-vial.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/haste-vial.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Haste Vial</b><span>Common Royal Champion equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/hog-rider-puppet.html"><img class="thumb" src="../../assets/art/equipment/hog-rider-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/hog-rider-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/hog-rider-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Hog Rider Puppet</b><span>Common Royal Champion equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/rocket-spear.html"><img class="thumb" src="../../assets/art/equipment/rocket-spear.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/rocket-spear.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/rocket-spear.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Rocket Spear</b><span>Epic Royal Champion equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/royal-gem.html"><img class="thumb" src="../../assets/art/equipment/royal-gem.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/royal-gem.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/royal-gem.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Royal Gem</b><span>Common Royal Champion equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/seeking-shield.html"><img class="thumb" src="../../assets/art/equipment/seeking-shield.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/seeking-shield.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/seeking-shield.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Seeking Shield</b><span>Common Royal Champion equipment, 18 levels</span></span></a>
 </div>
 <h2 id="dragon-duke">Dragon Duke</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/equipment/electro-fangs.html"><img class="thumb" src="../../assets/art/equipment/electro-fangs.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/electro-fangs.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/electro-fangs.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Electro Fangs</b><span>Common Dragon Duke equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/fire-heart.html"><img class="thumb" src="../../assets/art/equipment/fire-heart.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/fire-heart.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/fire-heart.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Fire Heart</b><span>Common Dragon Duke equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/flame-blower.html"><img class="thumb" src="../../assets/art/equipment/flame-blower.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/flame-blower.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/flame-blower.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Flame Blower</b><span>Common Dragon Duke equipment, 18 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/revenge-deck.html"><img class="thumb" src="../../assets/art/equipment/revenge-deck.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/revenge-deck.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/revenge-deck.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Revenge Deck</b><span>Epic Dragon Duke equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/rocket-backpack.html"><img class="thumb" src="../../assets/art/equipment/rocket-backpack.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/rocket-backpack.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/rocket-backpack.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Rocket Backpack</b><span>Epic Dragon Duke equipment, 27 levels</span></span></a>
-<a class="card hasart" href="../../wiki/equipment/stun-blaster.html"><img class="thumb" src="../../assets/art/equipment/stun-blaster.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-ore" href="../../wiki/equipment/stun-blaster.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/stun-blaster.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Stun Blaster</b><span>Common Dragon Duke equipment, 18 levels</span></span></a>
 </div>
 
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

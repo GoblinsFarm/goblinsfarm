@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Loot Mechanics: How Much You Can Actually Steal","description":"How Clash of Clans decides how much gold, elixir and dark elixir is available in an attack: collector share versus storage share, Town Hall loot, the loot cart, and league bonuses.","url":"https://goblinsfarm.com/wiki/mechanics/loot-mechanics.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/loot-mechanics.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why can I only steal a small part of someone's gold?","acceptedAnswer":{"@type":"Answer","text":"Because storage loot is deliberately capped. Only a set percentage of what a defender holds in storages is available to an attacker, and that percentage shrinks further when the defender's Town Hall is lower than yours. Collector loot is not capped the same way, which is why inactive bases with full mines are far more profitable than active bases with fat storages."}},{"@type":"Question","name":"What is the loot cart?","acceptedAnswer":{"@type":"Answer","text":"A cart that appears on your own village after you are attacked, holding a share of the resources the attacker took. Tapping it returns those resources to you at no cost. It is easy to overlook behind buildings, so check for it every time you log in."}},{"@type":"Question","name":"Is it better to farm collectors or storages?","acceptedAnswer":{"@type":"Answer","text":"Collectors, most of the time, because a much larger share of collector loot is stealable and collectors are usually the easiest buildings on the map to reach. Commit to a storage attack only when the loot preview is large enough to justify a full army and the losses that come with going into the core."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html" aria-current="page"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/treasury.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/treasury.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Loot mechanics
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="Loot Mechanics: How Much You Can Actually Steal" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Loot Mechanics: How Much You Can Actually Steal</h1>
+    <h1>Loot Mechanics: How Much You Can Actually Steal</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag gold">Farming</span><span class="tag ">Core mechanic</span></div>
   </div>
 </div>
@@ -56,27 +144,6 @@
 
 
 <p class="lede">The number on the search screen is not the defender's bank balance. It is a calculated slice, and the slice is calculated very differently depending on where the resources are sitting. Understanding that one distinction is the single biggest jump in farming efficiency most players ever make.</p>
-<div class="quick">
-<dl>
-<dt>Applies to</dt><dd>Multiplayer attacks on the main village</dd>
-<dt>Two loot pools</dt><dd>Collectors and mines, versus storages</dd>
-<dt>Key rule</dt><dd>A far larger share of collector loot is stealable than storage loot</dd>
-<dt>Also stealable</dt><dd>Town Hall contents, and the Clan Castle in some modes</dd>
-<dt>Not stealable</dt><dd>Loot already spent on an upgrade in progress</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#the-two-loot-pools">The two loot pools</a></li>
-<li><a href="#reading-the-loot-preview">Reading the loot preview</a></li>
-<li><a href="#town-hall-loot-and-the-town-hall-snipe">Town Hall loot and the Town Hall snipe</a></li>
-<li><a href="#the-loot-cart">The loot cart</a></li>
-<li><a href="#league-bonuses">League bonuses</a></li>
-<li><a href="#protecting-your-own-loot">Protecting your own loot</a></li>
-<li><a href="#if-you-have-read-different-numbers-elsewhere">If you have read different numbers elsewhere</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#stats">Stats by level</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="the-two-loot-pools">The two loot pools</h2>
 <p>Every base you attack holds resources in two fundamentally different places, and the game treats them under different rules.</p><p><strong>Collector loot</strong> lives in gold mines, elixir collectors and dark elixir drills. These buildings generate resources continuously and hold them until the owner taps to collect. A large proportion of whatever is sitting in them is available to you. This is why an inactive base is such a prize: the owner has not logged in to empty the collectors, so they are capped and full, and almost all of that is yours if you can destroy the buildings.</p><p><strong>Storage loot</strong> lives in gold storages, elixir storages and the dark elixir storage. Only a modest percentage of what is in storage is available, and that percentage falls as the defender's Town Hall level rises relative to yours. A player sitting on three million gold is not offering you three million gold; they are offering you a fraction, and the loot preview shows you that fraction before you commit.</p><p>The practical consequence is that two bases showing the same loot preview can be worth wildly different amounts of effort. One has the loot spread across eight lightly defended collectors on the perimeter. The other has it locked in two storages behind the core. Same number, completely different attack.</p>
 <h2 id="reading-the-loot-preview">Reading the loot preview</h2>
@@ -92,36 +159,36 @@
 <h2 id="if-you-have-read-different-numbers-elsewhere">If you have read different numbers elsewhere</h2>
 <p>Loot percentages and caps have been adjusted several times over the years, and a lot of the figures repeated across community sites, forum posts and older guides date from versions of the game that are no longer current. You will still find Town Hall 9 widely quoted at 12 per cent with a 350,000 cap, for example.</p><p>The table above says 14 per cent and 1,750,000 at Town Hall 18, and 14 per cent with a 560,000 cap at Town Hall 9, because it is read from the game's own files at the client build named beneath it rather than copied from another site. That is the entire reason we print the build number: not to claim the figures are eternal, but so you can tell how old they are and check them yourself.</p><p>If your game shows something different from what is here, your game is right and we want to know. <a href='mailto:support@goblinsfarm.com'>Tell us</a> and it gets corrected at the source, which regenerates every page that uses it.</p>
 <div class="block">
-<h2 id="mentions" class="withmascot"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async">What this page talks about</h2>
-<div class="grid tight">
-<a class="card hasart" href="../../wiki/buildings/gold-mine.html"><img class="thumb" src="../../assets/art/buildings/gold-mine.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="mentions" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>What this page talks about</h2>
+<div class="grid tiles">
+<a class="card tile hasart" href="../../wiki/buildings/gold-mine.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/gold-mine.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Gold Mine</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/elixir-collector.html"><img class="thumb" src="../../assets/art/buildings/elixir-collector.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/elixir-collector.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/elixir-collector.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Elixir Collector</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/dark-elixir-drill.html"><img class="thumb" src="../../assets/art/buildings/dark-elixir-drill.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/dark-elixir-drill.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/dark-elixir-drill.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Dark Elixir Drill</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/gold-storage.html"><img class="thumb" src="../../assets/art/buildings/gold-storage.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/gold-storage.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/gold-storage.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Gold Storage</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/elixir-storage.html"><img class="thumb" src="../../assets/art/buildings/elixir-storage.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/elixir-storage.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/elixir-storage.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Elixir Storage</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/dark-elixir-storage.html"><img class="thumb" src="../../assets/art/buildings/dark-elixir-storage.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/dark-elixir-storage.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/dark-elixir-storage.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Dark Elixir Storage</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/town-hall.html"><img class="thumb" src="../../assets/art/buildings/town-hall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/town-hall.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/town-hall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Town Hall</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/wall.html"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/wall.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall</b></span>
 </a>
-<a class="card hasart" href="../../wiki/town-hall/town-hall-9.html"><img class="thumb" src="../../assets/art/townhalls/town-hall-9.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/town-hall/town-hall-9.html"><span class="plaque"><img class="thumb" src="../../assets/art/townhalls/town-hall-9.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Town Hall 9</b></span>
 </a>
-<a class="card hasart" href="../../wiki/town-hall/town-hall-18.html"><img class="thumb" src="../../assets/art/townhalls/town-hall-18.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/town-hall/town-hall-18.html"><span class="plaque"><img class="thumb" src="../../assets/art/townhalls/town-hall-18.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Town Hall 18</b></span>
 </a>
 </div>
@@ -153,13 +220,13 @@
 </tbody>
 </table>
 </div>
-<div class="note speaks"><img class="mascot" src="../../assets/mascots/magnify.webp" alt="" width="90" height="90" loading="lazy" decoding="async">
+<div class="note speaks"><span class="medallion"><img class="mascot" src="../../assets/mascots/magnify.webp" alt="" width="90" height="90" loading="lazy" decoding="async"></span>
 <div>
-<p><b>Where these numbers come from.</b> Read from <a href="https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>18.400.21</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.</p><p style="font-size:13px;color:#9a8567;margin-bottom:0">Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.</p>
+<p><b>Where these numbers come from.</b> Read from <a href="https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>18.400.21</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.</p><p class="attrib">Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.</p>
 </div>
 </div>
 </div>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Why can I only steal a small part of someone's gold?</h3>
 <p>Because storage loot is deliberately capped. Only a set percentage of what a defender holds in storages is available to an attacker, and that percentage shrinks further when the defender's Town Hall is lower than yours. Collector loot is not capped the same way, which is why inactive bases with full mines are far more profitable than active bases with fat storages.</p>
 <h3>What is the loot cart?</h3>
@@ -168,18 +235,18 @@
 <p>Collectors, most of the time, because a much larger share of collector loot is stealable and collectors are usually the easiest buildings on the map to reach. Commit to a storage attack only when the loot preview is large enough to justify a full army and the losses that come with going into the core.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/mechanics/shields-and-village-guard.html"><img class="thumb" src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/shields-and-village-guard.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Shields and Village Guard</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/matchmaking-and-search.html"><img class="thumb" src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/matchmaking-and-search.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Matchmaking and the search screen</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/trophies-and-leagues.html"><img class="thumb" src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/trophies-and-leagues.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Trophies and leagues</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/dark-elixir.html"><img class="thumb" src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/dark-elixir.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Dark elixir</span>
 </a>
 <a class="readon-item" href="../../guides/loot-calculator.html">
@@ -191,6 +258,36 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Loot Mechanics: How Much You Can Actually Steal</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="Loot Mechanics: How Much You Can Actually Steal" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag gold">Farming</span><span class="tag ">Core mechanic</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Applies to</dt><dd>Multiplayer attacks on the main village</dd></div>
+    <div class="ib-row"><dt>Two loot pools</dt><dd>Collectors and mines, versus storages</dd></div>
+    <div class="ib-row"><dt>Key rule</dt><dd>A far larger share of collector loot is stealable than storage loot</dd></div>
+    <div class="ib-row"><dt>Also stealable</dt><dd>Town Hall contents, and the Clan Castle in some modes</dd></div>
+    <div class="ib-row"><dt>Not stealable</dt><dd>Loot already spent on an upgrade in progress</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#the-two-loot-pools">The two loot pools</a></li>
+<li><a href="#reading-the-loot-preview">Reading the loot preview</a></li>
+<li><a href="#town-hall-loot-and-the-town-hall-snipe">Town Hall loot and the Town Hall snipe</a></li>
+<li><a href="#the-loot-cart">The loot cart</a></li>
+<li><a href="#league-bonuses">League bonuses</a></li>
+<li><a href="#protecting-your-own-loot">Protecting your own loot</a></li>
+<li><a href="#if-you-have-read-different-numbers-elsewhere">If you have read different numbers elsewhere</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#stats">Stats by level</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

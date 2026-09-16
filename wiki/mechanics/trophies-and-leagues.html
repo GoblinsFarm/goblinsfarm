@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Trophies and Leagues: The Farming Trade-off","description":"How trophies and leagues work in Clash of Clans, what league bonuses pay, why farmers deliberately drop trophies, and how to decide where to sit.","url":"https://goblinsfarm.com/wiki/mechanics/trophies-and-leagues.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/trophies-and-leagues.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Should I drop trophies to farm?","acceptedAnswer":{"@type":"Answer","text":"Only if you are struggling to find profitable bases where you are. Dropping puts you among weaker, poorer, more frequently abandoned opponents, which suits very cheap armies. It also costs you the league bonus, which in higher leagues can exceed the loot you steal, so it is a trade rather than a free win."}},{"@type":"Question","name":"What is the best league for farming?","acceptedAnswer":{"@type":"Answer","text":"The highest one where a cheap army still wins comfortably. That is a different league for different players and it changes as your base grows, so test it: farm a week in one league, a week in the next, and compare actual resources gained per hour rather than trusting a rule of thumb."}},{"@type":"Question","name":"Do trophies affect clan war matchmaking?","acceptedAnswer":{"@type":"Answer","text":"No. War matchmaking uses an entirely separate system based on the composition and strength of the participating rosters, so trophy dropping has no effect on the wars your clan is given."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html" aria-current="page"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/progression.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/progression.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Trophies and leagues
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="Trophies and Leagues: The Farming Trade-off" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Trophies and Leagues: The Farming Trade-off</h1>
+    <h1>Trophies and Leagues: The Farming Trade-off</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag ">Progression</span><span class="tag gold">Farming</span></div>
   </div>
 </div>
@@ -56,25 +144,6 @@
 
 
 <p class="lede">Trophies measure competitive standing and decide who you are matched against. Leagues, which are bands of trophy count, decide how large a bonus you collect for winning an attack. The two pull in opposite directions for anyone who cares about resources, and choosing where to sit is one of the few genuinely strategic decisions in the game.</p>
-<div class="quick">
-<dl>
-<dt>Trophies gained</dt><dd>By winning attacks, and by successfully defending</dd>
-<dt>Trophies lost</dt><dd>By losing attacks, and by being successfully attacked</dd>
-<dt>League</dt><dd>A band of trophy count, re-evaluated as you move</dd>
-<dt>League bonus</dt><dd>A flat resource award for winning an attack, larger in higher leagues</dd>
-<dt>Season reset</dt><dd>Trophies above a threshold are reduced at the end of a season</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#what-trophies-actually-do">What trophies actually do</a></li>
-<li><a href="#the-league-bonus-and-why-it-complicates-everything">The league bonus, and why it complicates everything</a></li>
-<li><a href="#deliberate-trophy-dropping">Deliberate trophy dropping</a></li>
-<li><a href="#season-resets-and-where-to-settle">Season resets and where to settle</a></li>
-<li><a href="#why-there-is-no-league-table-on-this-page">Why there is no league table on this page</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="what-trophies-actually-do">What trophies actually do</h2>
 <p>Trophies do two jobs. They are the game's ladder, so they determine your league and your standing. And they are the input to multiplayer matchmaking, so they determine who you meet, as covered in <a href='matchmaking-and-search.html'>matchmaking and the search screen</a>.</p><p>The second job is the one that matters for resources. Your trophy count is a dial that sets the difficulty and the wealth of the opponents the game offers you. Turn it up and you meet stronger, richer, more active players. Turn it down and you meet weaker, poorer, more frequently abandoned ones.</p>
 <h2 id="the-league-bonus-and-why-it-complicates-everything">The league bonus, and why it complicates everything</h2>
@@ -85,7 +154,7 @@
 <p>At the end of each competitive season, trophy counts above a threshold are pulled back down, and rewards are handed out based on the league you finished in. This mostly concerns players near the top of the ladder; if you are farming in the middle, resets barely register.</p><p>For everyone else, the practical advice is boring and correct: <strong>settle at the highest league where you still win comfortably with a cheap army</strong>. If you are skipping endlessly because nothing has loot, move up. If your cheap army keeps failing against real defences, move down. Test it deliberately for a week rather than guessing, and let the actual loot per hour decide.</p>
 <h2 id="why-there-is-no-league-table-on-this-page">Why there is no league table on this page</h2>
 <p>Every other stat table on this wiki is read from Clash of Clans' own game files. League trophy thresholds and bonus values are not in the files we read, so publishing a table of them would mean transcribing numbers from somewhere else and presenting them with the same confidence as the verified ones.</p><p>We would rather say that plainly. The trade-off described above does not depend on the exact figures, and the current bonus for your league is shown in game on the league badge, which is both authoritative and up to date.</p>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Should I drop trophies to farm?</h3>
 <p>Only if you are struggling to find profitable bases where you are. Dropping puts you among weaker, poorer, more frequently abandoned opponents, which suits very cheap armies. It also costs you the league bonus, which in higher leagues can exceed the loot you steal, so it is a trade rather than a free win.</p>
 <h3>What is the best league for farming?</h3>
@@ -94,18 +163,18 @@
 <p>No. War matchmaking uses an entirely separate system based on the composition and strength of the participating rosters, so trophy dropping has no effect on the wars your clan is given.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/mechanics/matchmaking-and-search.html"><img class="thumb" src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/matchmaking-and-search.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Matchmaking and the search screen</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/loot-mechanics.html"><img class="thumb" src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/loot-mechanics.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Loot mechanics</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/shields-and-village-guard.html"><img class="thumb" src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/shields-and-village-guard.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Shields and Village Guard</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/clan-wars.html"><img class="thumb" src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/clan-wars.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Wars</span>
 </a>
 </div>
@@ -114,6 +183,34 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Trophies and Leagues: The Farming Trade-off</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="Trophies and Leagues: The Farming Trade-off" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag ">Progression</span><span class="tag gold">Farming</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Trophies gained</dt><dd>By winning attacks, and by successfully defending</dd></div>
+    <div class="ib-row"><dt>Trophies lost</dt><dd>By losing attacks, and by being successfully attacked</dd></div>
+    <div class="ib-row"><dt>League</dt><dd>A band of trophy count, re-evaluated as you move</dd></div>
+    <div class="ib-row"><dt>League bonus</dt><dd>A flat resource award for winning an attack, larger in higher leagues</dd></div>
+    <div class="ib-row"><dt>Season reset</dt><dd>Trophies above a threshold are reduced at the end of a season</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#what-trophies-actually-do">What trophies actually do</a></li>
+<li><a href="#the-league-bonus-and-why-it-complicates-everything">The league bonus, and why it complicates everything</a></li>
+<li><a href="#deliberate-trophy-dropping">Deliberate trophy dropping</a></li>
+<li><a href="#season-resets-and-where-to-settle">Season resets and where to settle</a></li>
+<li><a href="#why-there-is-no-league-table-on-this-page">Why there is no league table on this page</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Archer Queen — Clash of Clans","description":"The Archer Queen in Clash of Clans: ranged hero, the Queen walk, and why she is the most valuable hero to upgrade.","url":"https://goblinsfarm.com/wiki/heroes/archer-queen.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/art/heroes/archer-queen.webp"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a Queen walk?","acceptedAnswer":{"@type":"Answer","text":"Deploying the Archer Queen with several Healers behind her so she advances slowly and safely, killing defences from range. It is used to clear a flank, remove a key defence, or create the funnel before the main army goes in, and it is one of the most reliable openers in the game."}},{"@type":"Question","name":"Which hero should I upgrade first?","acceptedAnswer":{"@type":"Answer","text":"Most players get the most out of the Archer Queen, because the Queen walk scales directly with her level and features in a very large share of successful attacks. Whichever you choose, the important thing is that one hero is always upgrading."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-dark">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -38,6 +47,66 @@
     <a href="../../#pricing">Bot</a>
   </nav>
 </header>
+
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark on">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/heroes/barbarian-king.html"><img src="../../assets/art/heroes/barbarian-king.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Barbarian King</span></a></li>
+        <li><a href="../../wiki/heroes/archer-queen.html" aria-current="page"><img src="../../assets/art/heroes/archer-queen.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Archer Queen</span></a></li>
+        <li><a href="../../wiki/heroes/grand-warden.html"><img src="../../assets/art/heroes/grand-warden.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Grand Warden</span></a></li>
+        <li><a href="../../wiki/heroes/royal-champion.html"><img src="../../assets/art/heroes/royal-champion.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Royal Champion</span></a></li>
+        <li><a href="../../wiki/heroes/minion-prince.html"><img src="../../assets/art/heroes/minion-prince.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Minion Prince</span></a></li>
+        <li><a href="../../wiki/heroes/dragon-duke.html"><img src="../../assets/art/heroes/dragon-duke.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dragon Duke</span></a></li>
+      </ul>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+    </div>
+  </nav>
+</aside>
 
 <main class="doc">
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/heroes/">Heroes</a><span>&rsaquo;</span>Archer Queen
@@ -47,7 +116,7 @@
     <img src="../../assets/art/heroes/archer-queen.webp" alt="Archer Queen — Clash of Clans — Clash of Clans" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Archer Queen — Clash of Clans</h1>
+    <h1>Archer Queen — Clash of Clans</h1><p class="kicker">Heroes</p>
     <div class="tagrow"><span class="tag dark">Hero</span></div>
   </div>
 </div>
@@ -55,26 +124,6 @@
 
 
 <p class="lede">The Archer Queen attacks at long range and deals very high damage, but has far less health than the King. Paired with Healers she becomes the single most reliable attacking tool in Clash of Clans, capable of clearing a substantial part of a base by herself.</p>
-<div class="quick">
-<dl>
-<dt>Levels</dt><dd>110</dd>
-<dt>Unlocked at</dt><dd>Town Hall 8</dd>
-<dt>Upgrade resource</dt><dd>Dark Elixir</dd>
-<dt>Targets</dt><dd>Ground and air</dd>
-<dt>Equipment slots</dt><dd>2</dd>
-<dt>Role</dt><dd>Ranged hero, high damage</dd>
-<dt>Upgraded with</dt><dd>Dark elixir</dd>
-<dt>While upgrading</dt><dd>Unavailable for attack and defence</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#what-she-does">What she does</a></li>
-<li><a href="#the-queen-walk">The Queen walk</a></li>
-<li><a href="#upgrading-her">Upgrading her</a></li><li><a href="#gear">Equipment for this hero</a></li><li><a href="#stats">Stats by level</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="what-she-does">What she does</h2>
 <p>She attacks from range with high damage output and has an ability that combines a burst of power with survivability. Her low hitpoints mean she cannot brawl, but her range means she often does not have to.</p>
 <h2 id="the-queen-walk">The Queen walk</h2>
@@ -82,30 +131,30 @@
 <h2 id="upgrading-her">Upgrading her</h2>
 <p>If you can only upgrade one hero, most players get more out of levelling the Archer Queen than anything else, because the Queen walk scales directly with her level and appears in a huge proportion of successful attacks. She is upgraded with dark elixir and is unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero level tables here come from an extracted game-file snapshot that could not be cross-checked against a published reference the way troop tables were. Confirm figures in game before planning upgrades around them.</p></div>
 <div class="block">
-<h2 id="gear" class="withmascot"><img class="mascot small" src="../../assets/mascots/shield.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Equipment for this hero</h2>
-<div class="grid">
-<a class="card hasart" href="../../wiki/equipment/action-figure.html"><img class="thumb" src="../../assets/art/equipment/action-figure.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="gear" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/shield.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Equipment for this hero</h2>
+<div class="grid tiles">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/action-figure.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/action-figure.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Action Figure</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/archer-puppet.html"><img class="thumb" src="../../assets/art/equipment/archer-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/archer-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/archer-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Archer Puppet</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/frozen-arrow.html"><img class="thumb" src="../../assets/art/equipment/frozen-arrow.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/frozen-arrow.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/frozen-arrow.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Frozen Arrow</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/giant-arrow.html"><img class="thumb" src="../../assets/art/equipment/giant-arrow.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/giant-arrow.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/giant-arrow.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Giant Arrow</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/healer-puppet.html"><img class="thumb" src="../../assets/art/equipment/healer-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/healer-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/healer-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Healer Puppet</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/invisibility-vial.html"><img class="thumb" src="../../assets/art/equipment/invisibility-vial.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/invisibility-vial.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/invisibility-vial.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Invisibility Vial</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/magic-mirror.html"><img class="thumb" src="../../assets/art/equipment/magic-mirror.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/magic-mirror.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/magic-mirror.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Magic Mirror</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/monolith-arrow.html"><img class="thumb" src="../../assets/art/equipment/monolith-arrow.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/monolith-arrow.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/monolith-arrow.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Monolith Arrow</b></span>
 </a>
 </div>
@@ -114,152 +163,152 @@
 <h2 id="stats">Stats by level</h2>
 <div class="tablewrap">
 <table><caption>Archer Queen stats by level</caption>
-<thead><tr><th>Level</th><th>Hitpoints</th><th>DPS</th><th>Upgrade cost</th><th>Upgrade time</th><th>Town Hall</th></tr></thead>
+<thead><tr><th class="lvl">Level</th><th>Hitpoints</th><th>DPS</th><th>Upgrade cost</th><th>Upgrade time</th><th>Town Hall</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>580</td><td>136</td><td>—</td><td>—</td><td>8</td></tr>
-<tr><td>2</td><td>592</td><td>139</td><td>5,000 Dark Elixir</td><td>2 h</td><td>8</td></tr>
-<tr><td>3</td><td>604</td><td>143</td><td>5,500 Dark Elixir</td><td>4 h</td><td>8</td></tr>
-<tr><td>4</td><td>617</td><td>146</td><td>6,000 Dark Elixir</td><td>8 h</td><td>8</td></tr>
-<tr><td>5</td><td>630</td><td>150</td><td>6,500 Dark Elixir</td><td>10 h</td><td>8</td></tr>
-<tr><td>6</td><td>643</td><td>154</td><td>7,000 Dark Elixir</td><td>12 h</td><td>8</td></tr>
-<tr><td>7</td><td>657</td><td>157</td><td>7,500 Dark Elixir</td><td>14 h</td><td>8</td></tr>
-<tr><td>8</td><td>670</td><td>162</td><td>8,000 Dark Elixir</td><td>16 h</td><td>8</td></tr>
-<tr><td>9</td><td>685</td><td>165</td><td>8,500 Dark Elixir</td><td>18 h</td><td>8</td></tr>
-<tr><td>10</td><td>699</td><td>169</td><td>10,000 Dark Elixir</td><td>20 h</td><td>8</td></tr>
-<tr><td>11</td><td>714</td><td>173</td><td>10,500 Dark Elixir</td><td>22 h</td><td>9</td></tr>
-<tr><td>12</td><td>729</td><td>178</td><td>11,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>13</td><td>744</td><td>183</td><td>11,500 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>14</td><td>759</td><td>187</td><td>12,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>15</td><td>775</td><td>192</td><td>12,500 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>16</td><td>792</td><td>196</td><td>13,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>17</td><td>808</td><td>201</td><td>13,500 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>18</td><td>826</td><td>207</td><td>14,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>19</td><td>842</td><td>212</td><td>14,500 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>20</td><td>861</td><td>217</td><td>15,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>21</td><td>878</td><td>223</td><td>17,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>22</td><td>897</td><td>228</td><td>19,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>23</td><td>916</td><td>234</td><td>21,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>24</td><td>935</td><td>240</td><td>23,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>25</td><td>954</td><td>246</td><td>25,000 Dark Elixir</td><td>1 d</td><td>9</td></tr>
-<tr><td>26</td><td>974</td><td>252</td><td>27,000 Dark Elixir</td><td>2 d</td><td>9</td></tr>
-<tr><td>27</td><td>995</td><td>258</td><td>29,000 Dark Elixir</td><td>2 d</td><td>9</td></tr>
-<tr><td>28</td><td>1,016</td><td>264</td><td>31,000 Dark Elixir</td><td>2 d</td><td>9</td></tr>
-<tr><td>29</td><td>1,038</td><td>271</td><td>33,000 Dark Elixir</td><td>2 d</td><td>9</td></tr>
-<tr><td>30</td><td>1,059</td><td>278</td><td>35,000 Dark Elixir</td><td>2 d</td><td>9</td></tr>
-<tr><td>31</td><td>1,082</td><td>285</td><td>37,000 Dark Elixir</td><td>2 d 6 h</td><td>10</td></tr>
-<tr><td>32</td><td>1,104</td><td>292</td><td>39,000 Dark Elixir</td><td>2 d 6 h</td><td>10</td></tr>
-<tr><td>33</td><td>1,127</td><td>299</td><td>41,000 Dark Elixir</td><td>2 d 6 h</td><td>10</td></tr>
-<tr><td>34</td><td>1,151</td><td>307</td><td>43,000 Dark Elixir</td><td>2 d 6 h</td><td>10</td></tr>
-<tr><td>35</td><td>1,175</td><td>315</td><td>45,000 Dark Elixir</td><td>2 d 6 h</td><td>10</td></tr>
-<tr><td>36</td><td>1,200</td><td>322</td><td>47,000 Dark Elixir</td><td>2 d 12 h</td><td>10</td></tr>
-<tr><td>37</td><td>1,226</td><td>331</td><td>49,000 Dark Elixir</td><td>2 d 12 h</td><td>10</td></tr>
-<tr><td>38</td><td>1,251</td><td>338</td><td>51,000 Dark Elixir</td><td>2 d 12 h</td><td>10</td></tr>
-<tr><td>39</td><td>1,278</td><td>347</td><td>53,000 Dark Elixir</td><td>2 d 12 h</td><td>10</td></tr>
-<tr><td>40</td><td>1,304</td><td>356</td><td>55,000 Dark Elixir</td><td>2 d 12 h</td><td>10</td></tr>
-<tr><td>41</td><td>1,331</td><td>365</td><td>58,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>42</td><td>1,359</td><td>374</td><td>61,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>43</td><td>1,388</td><td>383</td><td>64,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>44</td><td>1,417</td><td>393</td><td>67,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>45</td><td>1,447</td><td>403</td><td>70,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>46</td><td>1,478</td><td>413</td><td>73,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>47</td><td>1,508</td><td>423</td><td>76,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>48</td><td>1,540</td><td>434</td><td>79,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>49</td><td>1,572</td><td>445</td><td>82,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>50</td><td>1,606</td><td>456</td><td>85,000 Dark Elixir</td><td>3 d</td><td>11</td></tr>
-<tr><td>51</td><td>1,646</td><td>465</td><td>86,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>52</td><td>1,688</td><td>474</td><td>87,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>53</td><td>1,730</td><td>485</td><td>88,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>54</td><td>1,774</td><td>495</td><td>89,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>55</td><td>1,819</td><td>505</td><td>90,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>56</td><td>1,865</td><td>515</td><td>93,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>57</td><td>1,912</td><td>526</td><td>96,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>58</td><td>1,960</td><td>537</td><td>99,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>59</td><td>2,010</td><td>548</td><td>102,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>60</td><td>2,060</td><td>559</td><td>105,000 Dark Elixir</td><td>3 d</td><td>12</td></tr>
-<tr><td>61</td><td>2,111</td><td>570</td><td>107,000 Dark Elixir</td><td>4 d</td><td>12</td></tr>
-<tr><td>62</td><td>2,164</td><td>581</td><td>109,000 Dark Elixir</td><td>4 d</td><td>12</td></tr>
-<tr><td>63</td><td>2,218</td><td>593</td><td>111,000 Dark Elixir</td><td>4 d</td><td>12</td></tr>
-<tr><td>64</td><td>2,274</td><td>605</td><td>113,000 Dark Elixir</td><td>4 d</td><td>12</td></tr>
-<tr><td>65</td><td>2,330</td><td>617</td><td>115,000 Dark Elixir</td><td>4 d</td><td>12</td></tr>
-<tr><td>66</td><td>2,384</td><td>628</td><td>117,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>67</td><td>2,432</td><td>638</td><td>119,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>68</td><td>2,476</td><td>648</td><td>121,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>69</td><td>2,516</td><td>656</td><td>123,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>70</td><td>2,552</td><td>664</td><td>125,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>71</td><td>2,584</td><td>671</td><td>130,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>72</td><td>2,616</td><td>677</td><td>135,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>73</td><td>2,648</td><td>682</td><td>140,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>74</td><td>2,680</td><td>687</td><td>145,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>75</td><td>2,712</td><td>692</td><td>150,000 Dark Elixir</td><td>4 d</td><td>13</td></tr>
-<tr><td>76</td><td>2,740</td><td>697</td><td>155,000 Dark Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>77</td><td>2,768</td><td>701</td><td>160,000 Dark Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>78</td><td>2,796</td><td>706</td><td>165,000 Dark Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>79</td><td>2,824</td><td>710</td><td>170,000 Dark Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>80</td><td>2,852</td><td>714</td><td>175,000 Dark Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>81</td><td>2,880</td><td>717</td><td>180,000 Dark Elixir</td><td>5 d</td><td>14</td></tr>
-<tr><td>82</td><td>2,904</td><td>721</td><td>185,000 Dark Elixir</td><td>5 d</td><td>14</td></tr>
-<tr><td>83</td><td>2,928</td><td>724</td><td>190,000 Dark Elixir</td><td>5 d</td><td>14</td></tr>
-<tr><td>84</td><td>2,952</td><td>728</td><td>195,000 Dark Elixir</td><td>5 d</td><td>14</td></tr>
-<tr><td>85</td><td>2,976</td><td>731</td><td>200,000 Dark Elixir</td><td>5 d</td><td>14</td></tr>
-<tr><td>86</td><td>3,000</td><td>734</td><td>215,000 Dark Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>87</td><td>3,024</td><td>738</td><td>225,000 Dark Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>88</td><td>3,048</td><td>741</td><td>235,000 Dark Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>89</td><td>3,072</td><td>745</td><td>245,000 Dark Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>90</td><td>3,096</td><td>748</td><td>255,000 Dark Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>91</td><td>3,120</td><td>751</td><td>280,000 Dark Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>92</td><td>3,144</td><td>755</td><td>290,000 Dark Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>93</td><td>3,168</td><td>758</td><td>300,000 Dark Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>94</td><td>3,192</td><td>762</td><td>310,000 Dark Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>95</td><td>3,216</td><td>765</td><td>320,000 Dark Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>96</td><td>3,240</td><td>768</td><td>340,000 Dark Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>97</td><td>3,264</td><td>771</td><td>350,000 Dark Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>98</td><td>3,288</td><td>774</td><td>360,000 Dark Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>99</td><td>3,312</td><td>777</td><td>370,000 Dark Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>100</td><td>3,336</td><td>780</td><td>380,000 Dark Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>101</td><td>3,360</td><td>783</td><td>400,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>102</td><td>3,384</td><td>786</td><td>410,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>103</td><td>3,408</td><td>789</td><td>420,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>104</td><td>3,432</td><td>792</td><td>430,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>105</td><td>3,456</td><td>795</td><td>450,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>106</td><td>3,480</td><td>798</td><td>460,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>107</td><td>3,504</td><td>801</td><td>470,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>108</td><td>3,528</td><td>804</td><td>475,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>109</td><td>3,552</td><td>807</td><td>485,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>110</td><td>3,576</td><td>810</td><td>490,000 Dark Elixir</td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">1</span></td><td>580</td><td>136</td><td>—</td><td>—</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">2</span></td><td>592</td><td>139</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>5,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">3</span></td><td>604</td><td>143</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>5,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">4</span></td><td>617</td><td>146</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>6,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">5</span></td><td>630</td><td>150</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>6,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>10 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">6</span></td><td>643</td><td>154</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>7,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>12 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">7</span></td><td>657</td><td>157</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>7,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>14 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">8</span></td><td>670</td><td>162</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>8,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>16 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">9</span></td><td>685</td><td>165</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>8,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>18 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">10</span></td><td>699</td><td>169</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>10,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>20 h</td><td>8</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">11</span></td><td>714</td><td>173</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>10,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>22 h</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">12</span></td><td>729</td><td>178</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>11,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">13</span></td><td>744</td><td>183</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>11,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">14</span></td><td>759</td><td>187</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>12,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">15</span></td><td>775</td><td>192</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>12,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">16</span></td><td>792</td><td>196</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>13,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">17</span></td><td>808</td><td>201</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>13,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">18</span></td><td>826</td><td>207</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>14,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">19</span></td><td>842</td><td>212</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>14,500<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">20</span></td><td>861</td><td>217</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>15,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">21</span></td><td>878</td><td>223</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>17,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">22</span></td><td>897</td><td>228</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>19,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">23</span></td><td>916</td><td>234</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>21,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">24</span></td><td>935</td><td>240</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>23,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">25</span></td><td>954</td><td>246</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>25,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>1 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">26</span></td><td>974</td><td>252</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>27,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">27</span></td><td>995</td><td>258</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>29,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">28</span></td><td>1,016</td><td>264</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>31,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">29</span></td><td>1,038</td><td>271</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>33,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">30</span></td><td>1,059</td><td>278</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>35,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d</td><td>9</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">31</span></td><td>1,082</td><td>285</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>37,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 6 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">32</span></td><td>1,104</td><td>292</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>39,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 6 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">33</span></td><td>1,127</td><td>299</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>41,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 6 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">34</span></td><td>1,151</td><td>307</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>43,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 6 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">35</span></td><td>1,175</td><td>315</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>45,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 6 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">36</span></td><td>1,200</td><td>322</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>47,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 12 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">37</span></td><td>1,226</td><td>331</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>49,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 12 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">38</span></td><td>1,251</td><td>338</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>51,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 12 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">39</span></td><td>1,278</td><td>347</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>53,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 12 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">40</span></td><td>1,304</td><td>356</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>55,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>2 d 12 h</td><td>10</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">41</span></td><td>1,331</td><td>365</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>58,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">42</span></td><td>1,359</td><td>374</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>61,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">43</span></td><td>1,388</td><td>383</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>64,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">44</span></td><td>1,417</td><td>393</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>67,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">45</span></td><td>1,447</td><td>403</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>70,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">46</span></td><td>1,478</td><td>413</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>73,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">47</span></td><td>1,508</td><td>423</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>76,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">48</span></td><td>1,540</td><td>434</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>79,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">49</span></td><td>1,572</td><td>445</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>82,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">50</span></td><td>1,606</td><td>456</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>85,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">51</span></td><td>1,646</td><td>465</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>86,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">52</span></td><td>1,688</td><td>474</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>87,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">53</span></td><td>1,730</td><td>485</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>88,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">54</span></td><td>1,774</td><td>495</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>89,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">55</span></td><td>1,819</td><td>505</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>90,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">56</span></td><td>1,865</td><td>515</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>93,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">57</span></td><td>1,912</td><td>526</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>96,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">58</span></td><td>1,960</td><td>537</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>99,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">59</span></td><td>2,010</td><td>548</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>102,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">60</span></td><td>2,060</td><td>559</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>105,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>3 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">61</span></td><td>2,111</td><td>570</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>107,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">62</span></td><td>2,164</td><td>581</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>109,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">63</span></td><td>2,218</td><td>593</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>111,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">64</span></td><td>2,274</td><td>605</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>113,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">65</span></td><td>2,330</td><td>617</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>115,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">66</span></td><td>2,384</td><td>628</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>117,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">67</span></td><td>2,432</td><td>638</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>119,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">68</span></td><td>2,476</td><td>648</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>121,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">69</span></td><td>2,516</td><td>656</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>123,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">70</span></td><td>2,552</td><td>664</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>125,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">71</span></td><td>2,584</td><td>671</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>130,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">72</span></td><td>2,616</td><td>677</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>135,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">73</span></td><td>2,648</td><td>682</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>140,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">74</span></td><td>2,680</td><td>687</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>145,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">75</span></td><td>2,712</td><td>692</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>150,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">76</span></td><td>2,740</td><td>697</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>155,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">77</span></td><td>2,768</td><td>701</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>160,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">78</span></td><td>2,796</td><td>706</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>165,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">79</span></td><td>2,824</td><td>710</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>170,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">80</span></td><td>2,852</td><td>714</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>175,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">81</span></td><td>2,880</td><td>717</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>180,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>5 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">82</span></td><td>2,904</td><td>721</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>185,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>5 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">83</span></td><td>2,928</td><td>724</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>190,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>5 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">84</span></td><td>2,952</td><td>728</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>195,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>5 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">85</span></td><td>2,976</td><td>731</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>200,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>5 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">86</span></td><td>3,000</td><td>734</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>215,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">87</span></td><td>3,024</td><td>738</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>225,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">88</span></td><td>3,048</td><td>741</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>235,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">89</span></td><td>3,072</td><td>745</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>245,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">90</span></td><td>3,096</td><td>748</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>255,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">91</span></td><td>3,120</td><td>751</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>280,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">92</span></td><td>3,144</td><td>755</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>290,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">93</span></td><td>3,168</td><td>758</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>300,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">94</span></td><td>3,192</td><td>762</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>310,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">95</span></td><td>3,216</td><td>765</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>320,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">96</span></td><td>3,240</td><td>768</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>340,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">97</span></td><td>3,264</td><td>771</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>350,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">98</span></td><td>3,288</td><td>774</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>360,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">99</span></td><td>3,312</td><td>777</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>370,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">100</span></td><td>3,336</td><td>780</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>380,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">101</span></td><td>3,360</td><td>783</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>400,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">102</span></td><td>3,384</td><td>786</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>410,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">103</span></td><td>3,408</td><td>789</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>420,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">104</span></td><td>3,432</td><td>792</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>430,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">105</span></td><td>3,456</td><td>795</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>450,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">106</span></td><td>3,480</td><td>798</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>460,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">107</span></td><td>3,504</td><td>801</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>470,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">108</span></td><td>3,528</td><td>804</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>475,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">109</span></td><td>3,552</td><td>807</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>485,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">110</span></td><td>3,576</td><td>810</td><td><span class="res dark-elixir" title="Dark Elixir"><i aria-hidden="true"></i>490,000<span class="visually-hidden"> Dark Elixir</span></span></td><td>8 d</td><td>18</td></tr>
 </tbody>
 </table>
 </div>
-<div class="note speaks"><img class="mascot" src="../../assets/mascots/magnify.webp" alt="" width="90" height="90" loading="lazy" decoding="async">
+<div class="note speaks"><span class="medallion"><img class="mascot" src="../../assets/mascots/magnify.webp" alt="" width="90" height="90" loading="lazy" decoding="async"></span>
 <div>
-<p><b>Where these numbers come from.</b> Read from <a href="https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>18.400.21</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.</p><p style="font-size:13px;color:#9a8567;margin-bottom:0">Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.</p>
+<p><b>Where these numbers come from.</b> Read from <a href="https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>18.400.21</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.</p><p class="attrib">Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.</p>
 </div>
 </div>
 </div>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>What is a Queen walk?</h3>
 <p>Deploying the Archer Queen with several Healers behind her so she advances slowly and safely, killing defences from range. It is used to clear a flank, remove a key defence, or create the funnel before the main army goes in, and it is one of the most reliable openers in the game.</p>
 <h3>Which hero should I upgrade first?</h3>
 <p>Most players get the most out of the Archer Queen, because the Queen walk scales directly with her level and features in a very large share of successful attacks. Whichever you choose, the important thing is that one hero is always upgrading.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/town-hall/town-hall-8.html"><img class="thumb" src="../../assets/art/townhalls/town-hall-8.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/town-hall/town-hall-8.html"><span class="plaque sm"><img class="thumb" src="../../assets/art/townhalls/town-hall-8.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Town Hall 8</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/dark-elixir.html"><img class="thumb" src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/dark-elixir.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Dark elixir</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/troops/healer.html"><img class="thumb" src="../../assets/art/troops/healer.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/troops/healer.html"><span class="plaque sm"><img class="thumb" src="../../assets/art/troops/healer.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Healer</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/heroes/barbarian-king.html"><img class="thumb" src="../../assets/art/heroes/barbarian-king.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/heroes/barbarian-king.html"><span class="plaque sm"><img class="thumb" src="../../assets/art/heroes/barbarian-king.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Barbarian King</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/funnelling.html"><img class="thumb" src="../../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/funnelling.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Funnelling</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/hero-equipment.html"><img class="thumb" src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/hero-equipment.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Hero Equipment</span>
 </a>
 </div>
@@ -267,6 +316,35 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-dark wordy">
+  <div class="ib-title">Archer Queen — Clash of Clans</div>
+  <div class="ib-art">
+    <img src="../../assets/art/heroes/archer-queen.webp" alt="Archer Queen — Clash of Clans — Clash of Clans" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag dark">Hero</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Levels</dt><dd>110</dd></div>
+    <div class="ib-row"><dt>Unlocked at</dt><dd>Town Hall 8</dd></div>
+    <div class="ib-row"><dt>Upgrade resource</dt><dd>Dark Elixir</dd></div>
+    <div class="ib-row"><dt>Targets</dt><dd>Ground and air</dd></div>
+    <div class="ib-row"><dt>Equipment slots</dt><dd>2</dd></div>
+    <div class="ib-row"><dt>Role</dt><dd>Ranged hero, high damage</dd></div>
+    <div class="ib-row"><dt>Upgraded with</dt><dd>Dark elixir</dd></div>
+    <div class="ib-row"><dt>While upgrading</dt><dd>Unavailable for attack and defence</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/heroes/">All heroes</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#what-she-does">What she does</a></li>
+<li><a href="#the-queen-walk">The Queen walk</a></li>
+<li><a href="#upgrading-her">Upgrading her</a></li><li><a href="#gear">Equipment for this hero</a></li><li><a href="#stats">Stats by level</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

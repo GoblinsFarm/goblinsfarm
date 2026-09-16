@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","headline":"How to Farm Dark Elixir in Clash of Clans","description":"How to farm dark elixir efficiently: drill sniping, when to commit to the storage, league bonuses, and protecting what you earn.","url":"https://goblinsfarm.com/tutorials/dark-elixir-farming.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the fastest way to farm dark elixir?","acceptedAnswer":{"@type":"Answer","text":"Usually drill sniping with a small cheap force and a strict skip minimum, because drills hold a large stealable share and are far cheaper to reach than the core storage. In higher leagues the league bonus becomes a large and much more predictable source, provided you win reliably."}},{"@type":"Question","name":"Why is my dark elixir always low?","acceptedAnswer":{"@type":"Answer","text":"Most often because it is being stolen from full drills or a shallow storage, or because it sits in storage overnight instead of being committed to a hero upgrade. Collect drills every session and start a hero upgrade before closing the game."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../tutorials/">Tutorials</a><span>&rsaquo;</span>Farming dark elixir
 </div>
 <h1>How to Farm Dark Elixir in Clash of Clans</h1>
@@ -48,13 +61,11 @@
 
 
 <p class="lede">Dark elixir decides how fast your heroes grow, and heroes decide how good your attacks are. It is also the hardest resource to accumulate, which makes farming it deliberately one of the highest-value habits in the game.</p>
-<div class="quick">
-<dl>
-<dt>Unlocked at</dt><dd>Town Hall 7</dd>
-<dt>Main use</dt><dd>Hero upgrades</dd>
-<dt>Difficulty</dt><dd>Medium</dd>
-</dl>
-</div><p>Most players acquire dark elixir accidentally and wonder why their heroes are behind. The players whose heroes are not behind farm it on purpose, using one of three approaches.</p>
+<dl class="factbar">
+<div><dt>Unlocked at</dt><dd>Town Hall 7</dd></div>
+<div><dt>Main use</dt><dd>Hero upgrades</dd></div>
+<div><dt>Difficulty</dt><dd>Medium</dd></div>
+</dl><p>Most players acquire dark elixir accidentally and wonder why their heroes are behind. The players whose heroes are not behind farm it on purpose, using one of three approaches.</p>
 <h2 id="steps">Step by step</h2>
 <ol class="steps">
 <li><b>Decide which approach you are using today</b><p>Drill sniping, full storage attacks, or league bonus farming. Mixing them randomly within a session is how you end up with an expensive army attacking a cheap target.</p></li>
@@ -73,9 +84,9 @@
 <p>Most often because it is being stolen from full drills or a shallow storage, or because it sits in storage overnight instead of being committed to a hero upgrade. Collect drills every session and start a hero upgrade before closing the game.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/mechanics/dark-elixir.html"><img class="thumb" src="../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/dark-elixir.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Dark elixir</span>
 </a>
 <a class="readon-item" href="../tutorials/hero-management.html">
@@ -93,6 +104,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Base Building Principles That Actually Hold Up","description":"How to design a Clash of Clans base: compartments, centralised storages, spread anti-air, Clan Castle coverage, and the difference between war, farming and trophy layouts.","url":"https://goblinsfarm.com/wiki/mechanics/base-building-principles.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/base-building-principles.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Should I protect my Town Hall or my storages?","acceptedAnswer":{"@type":"Answer","text":"It depends what the base is for. A farming base protects storages and dark elixir and happily gives up the Town Hall, since losing a star costs little compared to losing loot. A trophy base does the opposite. Deciding this first is the most important base building decision."}},{"@type":"Question","name":"Are copied base layouts a good idea?","acceptedAnswer":{"@type":"Answer","text":"As a starting point, yes; as a finished answer, no. A copied layout reflects someone else's defence levels and the attack meta at the time it was made. Use the structure, then adapt it and iterate based on your own defence replays."}},{"@type":"Question","name":"Where should traps go?","acceptedAnswer":{"@type":"Answer","text":"On the paths your own compartments create, which you find by watching defence replays rather than by guessing. Traps placed where troops actually walk are worth several times traps placed where they look sensible."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html" aria-current="page"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/defence.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/defence.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Base building principles
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/base-building-principles.svg" alt="Base Building Principles That Actually Hold Up" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Base Building Principles That Actually Hold Up</h1>
+    <h1>Base Building Principles That Actually Hold Up</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag ">Base building</span><span class="tag ">Defence</span></div>
   </div>
 </div>
@@ -56,24 +144,6 @@
 
 
 <p class="lede">Copied base layouts get you a base that was good against last season's meta, built by someone whose defence levels are not yours. The principles underneath them travel much better. There are perhaps eight of them, and they explain why every good layout looks the way it does.</p>
-<div class="quick">
-<dl>
-<dt>First question</dt><dd>What is this base for? War, farming, or trophies?</dd>
-<dt>Core idea</dt><dd>Many small compartments, not one big ring</dd>
-<dt>Storages</dt><dd>Are structural, use them as walls</dd>
-<dt>Anti-air</dt><dd>Spread wide, never clustered</dd>
-<dt>Test method</dt><dd>Watch your own defence replays</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#decide-what-the-base-is-for">Decide what the base is for</a></li>
-<li><a href="#compartments-not-rings">Compartments, not rings</a></li>
-<li><a href="#placement-rules-that-matter">Placement rules that matter</a></li>
-<li><a href="#testing-and-iterating">Testing and iterating</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="decide-what-the-base-is-for">Decide what the base is for</h2>
 <p>The three jobs pull in different directions and no layout does all three well.</p><ul><li><strong>A farming base</strong> protects storages and dark elixir above all else and is entirely willing to give up the Town Hall and the trophies that go with it. If an attacker can take your Town Hall for one star and leave with nothing, you have won that exchange.</li><li><strong>A trophy base</strong> protects the Town Hall above all else, because losing it costs the star and the trophies. Storages can sit further out.</li><li><strong>A war base</strong> protects everything, because war scoring is about total destruction percentage, and it is specifically designed to make three-starring expensive.</li></ul><p>Pick one, honestly, based on what you are actually doing this month. A base that half-protects everything protects nothing.</p>
 <h2 id="compartments-not-rings">Compartments, not rings</h2>
@@ -83,20 +153,20 @@
 <h2 id="testing-and-iterating">Testing and iterating</h2>
 <p>You cannot evaluate a base by looking at it. You evaluate it by watching it lose.</p><ol class='steps'><li><b>Play the layout for a few days.</b>Give it enough defences to gather real data rather than one unlucky attack.</li><li><b>Watch every defence replay.</b>Note where the attacker deployed, which compartment fell first, and what killed which troops.</li><li><b>Look for the repeat.</b>If three different attackers all entered from the same side, that side is the problem, not the attackers.</li><li><b>Change one thing.</b>Move one defence or reshape one compartment, then watch again. Changing five things teaches you nothing.</li></ol><div class='note'><p><b>On copied layouts.</b> There is nothing wrong with starting from a good design, but understand that a screenshot is a snapshot of someone else's defence levels against a meta that has moved on. Copy the structure, then adapt it to what you actually have, and iterate from your own replays.</p></div>
 <div class="block">
-<h2 id="mentions" class="withmascot"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async">What this page talks about</h2>
-<div class="grid tight">
-<a class="card hasart" href="../../wiki/buildings/town-hall.html"><img class="thumb" src="../../assets/art/buildings/town-hall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="mentions" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>What this page talks about</h2>
+<div class="grid tiles">
+<a class="card tile hasart" href="../../wiki/buildings/town-hall.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/town-hall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Town Hall</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/wall.html"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/wall.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/clan-castle.html"><img class="thumb" src="../../assets/art/buildings/clan-castle.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/clan-castle.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/clan-castle.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Clan Castle</b></span>
 </a>
 </div>
 </div>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Should I protect my Town Hall or my storages?</h3>
 <p>It depends what the base is for. A farming base protects storages and dark elixir and happily gives up the Town Hall, since losing a star costs little compared to losing loot. A trophy base does the opposite. Deciding this first is the most important base building decision.</p>
 <h3>Are copied base layouts a good idea?</h3>
@@ -105,15 +175,15 @@
 <p>On the paths your own compartments create, which you find by watching defence replays rather than by guessing. Traps placed where troops actually walk are worth several times traps placed where they look sensible.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/mechanics/defence-mechanics.html"><img class="thumb" src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/defence-mechanics.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Defence mechanics</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/walls-and-pathing.html"><img class="thumb" src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/walls-and-pathing.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Walls and pathing</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/clan-castle-troops.html"><img class="thumb" src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/clan-castle-troops.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Castle troops</span>
 </a>
 <a class="readon-item" href="../../tutorials/base-building.html">
@@ -124,6 +194,33 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Base Building Principles That Actually Hold Up</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/base-building-principles.svg" alt="Base Building Principles That Actually Hold Up" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag ">Base building</span><span class="tag ">Defence</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>First question</dt><dd>What is this base for? War, farming, or trophies?</dd></div>
+    <div class="ib-row"><dt>Core idea</dt><dd>Many small compartments, not one big ring</dd></div>
+    <div class="ib-row"><dt>Storages</dt><dd>Are structural, use them as walls</dd></div>
+    <div class="ib-row"><dt>Anti-air</dt><dd>Spread wide, never clustered</dd></div>
+    <div class="ib-row"><dt>Test method</dt><dd>Watch your own defence replays</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#decide-what-the-base-is-for">Decide what the base is for</a></li>
+<li><a href="#compartments-not-rings">Compartments, not rings</a></li>
+<li><a href="#placement-rules-that-matter">Placement rules that matter</a></li>
+<li><a href="#testing-and-iterating">Testing and iterating</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

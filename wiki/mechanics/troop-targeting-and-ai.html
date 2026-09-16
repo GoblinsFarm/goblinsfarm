@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Troop Targeting and AI: Why Your Troops Do That","description":"How Clash of Clans troops choose targets: preferred targets, nearest-target logic, air versus ground, and why your Giants ignored the cannon right next to them.","url":"https://goblinsfarm.com/wiki/mechanics/troop-targeting-and-ai.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/troop-targeting-and-ai.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why do my Giants ignore the nearby cannon?","acceptedAnswer":{"@type":"Answer","text":"They are not ignoring it, they are pathing to the nearest defence they can actually reach. If a wall blocks the direct route, the game routes them around it toward whichever defence has a walkable path, which is frequently not the one you had in mind. Break the wall, or deploy where the route you want is the shortest one."}},{"@type":"Question","name":"Do troops attack walls?","acceptedAnswer":{"@type":"Answer","text":"Only when a wall blocks the path to their target and going around would take significantly longer, or when the troop is a Wall Breaker, which targets walls deliberately. Most ground troops prefer to walk around, which is why wall compartments funnel attacks rather than stopping them."}},{"@type":"Question","name":"What happens when all the defences are destroyed?","acceptedAnswer":{"@type":"Answer","text":"Troops with a defence preference revert to normal nearest-target behaviour and start attacking whatever building is closest, including huts and decorations at the far edge of the map. This is a common cause of failed attacks that end at 99 per cent with the timer expired."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html" aria-current="page"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/attack.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/attack.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Troop targeting and AI
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="Troop Targeting and AI: Why Your Troops Do That" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Troop Targeting and AI: Why Your Troops Do That</h1>
+    <h1>Troop Targeting and AI: Why Your Troops Do That</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag ">Combat</span><span class="tag ">Core mechanic</span></div>
   </div>
 </div>
@@ -56,25 +144,6 @@
 
 
 <p class="lede">Clash of Clans troops are not clever. They follow a small set of rules with total consistency, and almost every attack that fails does so because the attacker expected intelligence where there was only a rule. Learn the rules and you stop being surprised.</p>
-<div class="quick">
-<dl>
-<dt>Default behaviour</dt><dd>Move to and attack the nearest valid target</dd>
-<dt>Preferred targets</dt><dd>Some troops ignore the default in favour of a building type</dd>
-<dt>When preferred targets are gone</dt><dd>The troop reverts to nearest-target behaviour</dd>
-<dt>Air and ground</dt><dd>Ground troops walk and are blocked by walls; air troops fly over everything</dd>
-<dt>Defending troops</dt><dd>Clan Castle troops and heroes actively chase attackers</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#rule-one-nearest-target">Rule one: nearest target</a></li>
-<li><a href="#rule-two-preferred-targets">Rule two: preferred targets</a></li>
-<li><a href="#air-versus-ground">Air versus ground</a></li>
-<li><a href="#what-defends-actively">What defends actively</a></li>
-<li><a href="#using-the-rules-on-purpose">Using the rules on purpose</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="rule-one-nearest-target">Rule one: nearest target</h2>
 <p>Unless a troop has a preferred target, it walks toward whatever building is closest to it and attacks that. Not the most dangerous building. Not the building you want it to attack. The closest one.</p><p>This is why deployment position is the most important decision in an attack. A troop dropped at the corner of a base will attack the corner. A troop dropped next to a wall with a storage on the other side will, more often than not, walk <em>around</em> the wall to reach a building that is easier to get to, because it is looking for a path to the nearest target and the wall is not on the way.</p><p>Everything else in this page is an exception to this rule.</p>
 <h2 id="rule-two-preferred-targets">Rule two: preferred targets</h2>
@@ -86,44 +155,44 @@
 <h2 id="using-the-rules-on-purpose">Using the rules on purpose</h2>
 <p>Once you accept that troops are simple, you can steer them:</p><ul><li><strong>Clear the outside first.</strong> Ground troops only path inward when there is nothing left outside. Destroying the perimeter buildings on a side is what forces the army in, and it is the whole idea behind <a href='funnelling.html'>funnelling</a>.</li><li><strong>Deploy in a line, not a pile.</strong> Troops dropped on top of each other die to a single splash defence. Spread along a side, they engage more buildings and survive longer.</li><li><strong>Send the tank first.</strong> Whatever soaks damage goes down several seconds before whatever deals it, so the defences are already busy when the fragile units arrive.</li><li><strong>Watch for the revert.</strong> When the last defence falls and your Giants pause, that is the moment to drop clean-up troops on the buildings you still need, because the Giants are about to wander.</li></ul>
 <div class="block">
-<h2 id="mentions" class="withmascot"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async">What this page talks about</h2>
-<div class="grid tight">
-<a class="card hasart" href="../../wiki/buildings/wall.html"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="mentions" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>What this page talks about</h2>
+<div class="grid tiles">
+<a class="card tile hasart" href="../../wiki/buildings/wall.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/giant.html"><img class="thumb" src="../../assets/art/troops/giant.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/giant.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/giant.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Giant</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/cannon.html"><img class="thumb" src="../../assets/art/buildings/cannon.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/cannon.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/cannon.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Cannon</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/goblin.html"><img class="thumb" src="../../assets/art/troops/goblin.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/goblin.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/goblin.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Goblin</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/wall-breaker.html"><img class="thumb" src="../../assets/art/troops/wall-breaker.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/wall-breaker.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/wall-breaker.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall Breaker</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/hog-rider.html"><img class="thumb" src="../../assets/art/troops/hog-rider.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/hog-rider.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/hog-rider.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Hog Rider</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/balloon.html"><img class="thumb" src="../../assets/art/troops/balloon.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/balloon.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/balloon.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Balloon</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/miner.html"><img class="thumb" src="../../assets/art/troops/miner.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/miner.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/miner.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Miner</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/builders-hut.html"><img class="thumb" src="../../assets/art/buildings/builders-hut.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/builders-hut.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/builders-hut.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Builder's Hut</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/dragon.html"><img class="thumb" src="../../assets/art/troops/dragon.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/dragon.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/dragon.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Dragon</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/clan-castle.html"><img class="thumb" src="../../assets/art/buildings/clan-castle.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/clan-castle.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/clan-castle.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Clan Castle</b></span>
 </a>
 </div>
 </div>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Why do my Giants ignore the nearby cannon?</h3>
 <p>They are not ignoring it, they are pathing to the nearest defence they can actually reach. If a wall blocks the direct route, the game routes them around it toward whichever defence has a walkable path, which is frequently not the one you had in mind. Break the wall, or deploy where the route you want is the shortest one.</p>
 <h3>Do troops attack walls?</h3>
@@ -132,15 +201,15 @@
 <p>Troops with a defence preference revert to normal nearest-target behaviour and start attacking whatever building is closest, including huts and decorations at the far edge of the map. This is a common cause of failed attacks that end at 99 per cent with the timer expired.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/mechanics/walls-and-pathing.html"><img class="thumb" src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/walls-and-pathing.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Walls and pathing</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/funnelling.html"><img class="thumb" src="../../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/funnelling.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Funnelling</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/clan-castle-troops.html"><img class="thumb" src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/clan-castle-troops.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Castle troops</span>
 </a>
 <a class="readon-item" href="../../wiki/troops/">
@@ -151,6 +220,34 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Troop Targeting and AI: Why Your Troops Do That</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="Troop Targeting and AI: Why Your Troops Do That" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag ">Combat</span><span class="tag ">Core mechanic</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Default behaviour</dt><dd>Move to and attack the nearest valid target</dd></div>
+    <div class="ib-row"><dt>Preferred targets</dt><dd>Some troops ignore the default in favour of a building type</dd></div>
+    <div class="ib-row"><dt>When preferred targets are gone</dt><dd>The troop reverts to nearest-target behaviour</dd></div>
+    <div class="ib-row"><dt>Air and ground</dt><dd>Ground troops walk and are blocked by walls; air troops fly over everything</dd></div>
+    <div class="ib-row"><dt>Defending troops</dt><dd>Clan Castle troops and heroes actively chase attackers</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#rule-one-nearest-target">Rule one: nearest target</a></li>
+<li><a href="#rule-two-preferred-targets">Rule two: preferred targets</a></li>
+<li><a href="#air-versus-ground">Air versus ground</a></li>
+<li><a href="#what-defends-actively">What defends actively</a></li>
+<li><a href="#using-the-rules-on-purpose">Using the rules on purpose</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

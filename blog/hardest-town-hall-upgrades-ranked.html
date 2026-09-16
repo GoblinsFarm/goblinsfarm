@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Every Town Hall Ranked by What It Really Costs You","description":"Which Clash of Clans Town Hall is the biggest jump? We measured every level by the research and hero time it adds, not just the Town Hall upgrade price.","url":"https://goblinsfarm.com/blog/hardest-town-hall-upgrades-ranked.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which Town Hall takes the longest in Clash of Clans?","acceptedAnswer":{"@type":"Answer","text":"Town Hall 18, by a wide margin. It adds about 1,112 days of new laboratory research and hero upgrade time — more than Town Halls 9 through 13 combined."}},{"@type":"Question","name":"Is Town Hall 12 a big jump?","acceptedAnswer":{"@type":"Answer","text":"Yes, it is the crossover point. Town Hall 12 adds about 304 days of research and hero time, roughly double Town Hall 11, and it is where the queue a level adds starts being measured in seasons rather than weeks."}},{"@type":"Question","name":"Should I max every Town Hall before upgrading?","acceptedAnswer":{"@type":"Answer","text":"No. Early Town Halls hold very little content — Town Hall 9 adds only about 77 days of research and hero time — so getting the heroes, army research and storages done and moving on beats sitting for a year. From Town Hall 15 upward the calculation reverses, because each level holds over a year of queue."}},{"@type":"Question","name":"How much does the attack search fee cost?","acceptedAnswer":{"@type":"Answer","text":"It rises with your Town Hall: 750 gold at Town Hall 9, 1,100 at Town Hall 12, 1,400 at Town Hall 15 and 1,700 at Town Hall 18. It is the only gold an attack actually costs, since troops have no training cost."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/">Tutorials</a>
     <a href="../blog/" aria-current="page">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/town-hall.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/town-hall.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../blog/">Blog</a><span>&rsaquo;</span>Every Town Hall ranked by what it really costs you
 </div>
 <h1>Every Town Hall Ranked by What It Really Costs You</h1>
@@ -57,7 +70,7 @@
 <p><strong>Early Town Halls are cheap, so move through them.</strong> Town Hall 9 adds 77 days of queue. Sitting at Town Hall 9 'until maxed' for a year is spending a year on a level that holds eleven weeks of content. Finish what matters — heroes, your war army, key defences — and go.</p><p><strong>Late Town Halls are where you actually live.</strong> From Town Hall 15 upward each level holds well over a year of research and hero time. Rushing into one of these is not a shortcut; it is arriving at a much bigger queue with the same income.</p><p><strong>The crossover is around Town Hall 12.</strong> That is where the queue a level adds stops being measured in weeks and starts being measured in seasons, and it is roughly where the 'rush or max' argument stops being a matter of taste.</p><div class='note warn'><p><b>The number that ends the rushing argument.</b> Available loot is set by the Town Hall you attack, not the one you own, and the <a href='../wiki/mechanics/matchmaking-and-search.html'>search fee</a> rises with your Town Hall: 750 gold at Town Hall 9, 1,700 at Town Hall 18. Rushing raises your costs and your matchmaking difficulty while your income and army stay where they were. See <a href='../tutorials/avoid-rushing.html'>what rushing costs</a>.</p></div>
 <h2 id="how-to-read-this-if-you-are-mid-game">How to read this if you are mid-game</h2>
 <p>A practical way to use the table: before you press the Town Hall upgrade, look at the number for the level you are leaving and ask whether you got the valuable part of it. The valuable part is almost never 'everything'. It is:</p><ol><li>Hero levels, because they are the longest timers and the biggest attacking gain.</li><li>Research on the specific army you attack with.</li><li>Storages and collectors, because they set your income at the next level.</li><li>Defences that your own <a href='../tutorials/reading-replays.html'>defence replays</a> show failing.</li></ol><p>Everything else can follow you upward. The ordering logic is set out in full in <a href='../wiki/mechanics/upgrade-priority.html'>upgrade priority</a>.</p>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Which Town Hall takes the longest in Clash of Clans?</h3>
 <p>Town Hall 18, by a wide margin. It adds about 1,112 days of new laboratory research and hero upgrade time — more than Town Halls 9 through 13 combined.</p>
 <h3>Is Town Hall 12 a big jump?</h3>
@@ -68,12 +81,12 @@
 <p>It rises with your Town Hall: 750 gold at Town Hall 9, 1,100 at Town Hall 12, 1,400 at Town Hall 15 and 1,700 at Town Hall 18. It is the only gold an attack actually costs, since troops have no training cost.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/mechanics/upgrade-priority.html"><img class="thumb" src="../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/upgrade-priority.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Upgrade priority</span>
 </a>
-<a class="readon-item hasart" href="../wiki/town-hall/town-hall-12.html"><img class="thumb" src="../assets/art/townhalls/town-hall-12.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/town-hall/town-hall-12.html"><span class="plaque sm"><img class="thumb" src="../assets/art/townhalls/town-hall-12.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Town Hall 12</span>
 </a>
 <a class="readon-item" href="../tutorials/avoid-rushing.html">
@@ -87,6 +100,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

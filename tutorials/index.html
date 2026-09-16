@@ -25,11 +25,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Tutorials"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Getting started","url":"https://goblinsfarm.com/tutorials/getting-started.html"},{"@type":"ListItem","position":2,"name":"How not to rush","url":"https://goblinsfarm.com/tutorials/avoid-rushing.html"},{"@type":"ListItem","position":3,"name":"Finding a good clan","url":"https://goblinsfarm.com/tutorials/choosing-a-clan.html"},{"@type":"ListItem","position":4,"name":"Getting started on the Builder Base","url":"https://goblinsfarm.com/tutorials/builder-base-start.html"},{"@type":"ListItem","position":5,"name":"The farming loop","url":"https://goblinsfarm.com/tutorials/farming-loop.html"},{"@type":"ListItem","position":6,"name":"Farming armies","url":"https://goblinsfarm.com/tutorials/barch-farming.html"},{"@type":"ListItem","position":7,"name":"Farming dark elixir","url":"https://goblinsfarm.com/tutorials/dark-elixir-farming.html"},{"@type":"ListItem","position":8,"name":"What to upgrade next","url":"https://goblinsfarm.com/tutorials/upgrade-order.html"},{"@type":"ListItem","position":9,"name":"Keeping heroes upgrading","url":"https://goblinsfarm.com/tutorials/hero-management.html"},{"@type":"ListItem","position":10,"name":"Your first war attack","url":"https://goblinsfarm.com/tutorials/first-war-attack.html"},{"@type":"ListItem","position":11,"name":"Luring the Clan Castle","url":"https://goblinsfarm.com/tutorials/clan-castle-lure.html"},{"@type":"ListItem","position":12,"name":"The dragon attack","url":"https://goblinsfarm.com/tutorials/dragon-attack.html"},{"@type":"ListItem","position":13,"name":"Building a base from scratch","url":"https://goblinsfarm.com/tutorials/base-building.html"},{"@type":"ListItem","position":14,"name":"Reading your defence replays","url":"https://goblinsfarm.com/tutorials/reading-replays.html"}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -38,56 +47,62 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner hero">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+  <div class="banner-text"><h1>Clash of Clans Tutorials</h1><p class="banner-kicker">Walkthroughs</p></div>
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span>Tutorials
 </div>
-<h1>Clash of Clans Tutorials</h1>
 <p class="updated">Updated: 16 September 2026 &middot; By the Goblins Farm team</p>
 
 
 <div class="intro speaks">
-<img class="mascot big" src="../assets/mascots/book.webp" alt="" width="130" height="130" decoding="async">
+<span class="medallion big"><img class="mascot big" src="../assets/mascots/book.webp" alt="" width="130" height="130" decoding="async"></span>
 <div><p class="lede">Walkthroughs rather than reference. Each one is a routine you can follow the first time and then stop needing, which is what a tutorial should be. If you want to know how something works rather than what to do about it, the <a href='../wiki/'>wiki</a> is the other half of this site.</p></div>
 </div>
+<nav class="jumpbar" aria-label="Sections on this page"><a href="#starting-out">Starting out<span>4</span></a><a href="#farming-and-economy">Farming and economy<span>5</span></a><a href="#attacking">Attacking<span>3</span></a><a href="#defending">Defending<span>2</span></a>
+</nav>
 <h2 id="starting-out">Starting out</h2><p>If you are new, or coming back after a long break, start here.</p>
 <div class="grid">
-<a class="card" href="../tutorials/getting-started.html">
+<a class="card tone-slate" href="../tutorials/getting-started.html">
 <span class="cardtext"><b>Getting started</b><span>What to do in your first seven days, and the two mistakes that cost the most.</span></span></a>
-<a class="card" href="../tutorials/avoid-rushing.html">
+<a class="card tone-slate" href="../tutorials/avoid-rushing.html">
 <span class="cardtext"><b>How not to rush</b><span>What rushing actually costs, and how to dig out if you already did.</span></span></a>
-<a class="card" href="../tutorials/choosing-a-clan.html">
+<a class="card tone-slate" href="../tutorials/choosing-a-clan.html">
 <span class="cardtext"><b>Finding a good clan</b><span>The largest free upgrade available to your account.</span></span></a>
-<a class="card" href="../tutorials/builder-base-start.html">
+<a class="card tone-slate" href="../tutorials/builder-base-start.html">
 <span class="cardtext"><b>Getting started on the Builder Base</b><span>Five minutes a day, and it feeds your main village.</span></span></a>
 </div>
 <h2 id="farming-and-economy">Farming and economy</h2><p>Getting resources, and keeping them.</p>
 <div class="grid">
-<a class="card" href="../tutorials/farming-loop.html">
+<a class="card tone-slate" href="../tutorials/farming-loop.html">
 <span class="cardtext"><b>The farming loop</b><span>A repeatable session structure that turns random attacking into steady income.</span></span></a>
-<a class="card" href="../tutorials/barch-farming.html">
+<a class="card tone-slate" href="../tutorials/barch-farming.html">
 <span class="cardtext"><b>Farming armies</b><span>What a farming army is for now that troops cost nothing to train.</span></span></a>
-<a class="card" href="../tutorials/dark-elixir-farming.html">
+<a class="card tone-slate" href="../tutorials/dark-elixir-farming.html">
 <span class="cardtext"><b>Farming dark elixir</b><span>The resource that gates your heroes, and three ways to get it.</span></span></a>
-<a class="card" href="../tutorials/upgrade-order.html">
+<a class="card tone-slate" href="../tutorials/upgrade-order.html">
 <span class="cardtext"><b>What to upgrade next</b><span>One framework that answers the question at every Town Hall.</span></span></a>
-<a class="card" href="../tutorials/hero-management.html">
+<a class="card tone-slate" href="../tutorials/hero-management.html">
 <span class="cardtext"><b>Keeping heroes upgrading</b><span>The habit that decides how fast your account actually progresses.</span></span></a>
 </div>
 <h2 id="attacking">Attacking</h2><p>Routines that make attacks work, in the order you should learn them.</p>
 <div class="grid">
-<a class="card" href="../tutorials/first-war-attack.html">
+<a class="card tone-slate" href="../tutorials/first-war-attack.html">
 <span class="cardtext"><b>Your first war attack</b><span>Scout, lure, funnel, attack — in that order, every time.</span></span></a>
-<a class="card" href="../tutorials/clan-castle-lure.html">
+<a class="card tone-slate" href="../tutorials/clan-castle-lure.html">
 <span class="cardtext"><b>Luring the Clan Castle</b><span>Ninety seconds that decide whether your attack works.</span></span></a>
-<a class="card" href="../tutorials/dragon-attack.html">
+<a class="card tone-slate" href="../tutorials/dragon-attack.html">
 <span class="cardtext"><b>The dragon attack</b><span>The most forgiving strong attack in the mid game, step by step.</span></span></a>
 </div>
 <h2 id="defending">Defending</h2><p>Building a base and finding out why it fails.</p>
 <div class="grid">
-<a class="card" href="../tutorials/base-building.html">
+<a class="card tone-slate" href="../tutorials/base-building.html">
 <span class="cardtext"><b>Building a base from scratch</b><span>Design one yourself instead of copying a screenshot that no longer fits.</span></span></a>
-<a class="card" href="../tutorials/reading-replays.html">
+<a class="card tone-slate" href="../tutorials/reading-replays.html">
 <span class="cardtext"><b>Reading your defence replays</b><span>The only honest feedback your base will ever get.</span></span></a>
 </div>
 <h2 id="faq">Frequently asked</h2>
@@ -97,7 +112,7 @@
 <p>The routines described here are built on game mechanics that have been stable for years rather than on current balance numbers, so they do not go stale with each patch. Where a page cites specific figures it links to the wiki, where the data vintage is stated openly.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
 <a class="readon-item" href="../wiki/">
   <span>The wiki — how everything works, in reference form</span>
@@ -110,6 +125,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

@@ -25,11 +25,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Blog"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this official Supercell content?","acceptedAnswer":{"@type":"Answer","text":"No. This is independent fan writing and is not affiliated with, endorsed by or approved by Supercell. For official announcements and support, use Supercell's own channels."}},{"@type":"Question","name":"Where do the numbers in these posts come from?","acceptedAnswer":{"@type":"Answer","text":"They are summed from Clash of Clans' own game files, the same source the wiki stat tables are built from. Each post states its method, and the game version is printed under every table on the site."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/">Tutorials</a>
     <a href="../blog/" aria-current="page">Blog</a>
@@ -38,16 +47,20 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc">
-<div class="banner"><img src="../assets/banners/attack.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner hero">
+  <img src="../assets/banners/attack.webp" alt="" width="1400" height="700" decoding="async">
+  <div class="banner-text"><h1>Clash of Clans Blog</h1></div>
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span>Blog
 </div>
-<h1>Clash of Clans Blog</h1>
 <p class="updated">Updated: 16 September 2026</p>
 
 
 <div class="intro speaks">
-<img class="mascot big" src="../assets/mascots/lantern.webp" alt="" width="130" height="130" decoding="async">
+<span class="medallion big"><img class="mascot big" src="../assets/mascots/lantern.webp" alt="" width="130" height="130" decoding="async"></span>
 <div><p class="lede">Longer pieces about playing Clash of Clans well. Where the wiki answers what something is and the tutorials answer how to do it, this is where we argue about what is worth doing — usually with the game's own numbers behind the argument.</p></div>
 </div>
 <h2 id="what-gets-written-here">What gets written here</h2>
@@ -56,25 +69,25 @@
 <p>New to the game, or coming back after years away, start with <a href='starting-clash-of-clans-in-2026.html'>starting Clash of Clans in 2026</a>. Stuck rather than new, read <a href='why-your-clash-of-clans-account-stalls.html'>why your account stalls</a>. Curious how deep the well goes, <a href='how-long-to-max-clash-of-clans.html'>we added up every upgrade in the game</a>.</p><p>Every post appears in the <a href='feed.xml'>RSS feed</a>, which works in any reader and needs no account.</p>
 <h2 id="latest">Latest</h2>
 <div class="grid">
-<a class="card" href="../blog/how-long-to-max-clash-of-clans.html">
+<a class="card tone-slate" href="../blog/how-long-to-max-clash-of-clans.html">
 <span class="cardtext"><b>How long it actually takes to max Clash of Clans</b><span>16 September 2026 — We summed every upgrade in Clash of Clans' own game files. A maxed Town Hall 18 costs about 15.4 billion gold </span></span></a>
-<a class="card" href="../blog/attack-strategies-by-town-hall.html">
+<a class="card tone-slate" href="../blog/attack-strategies-by-town-hall.html">
 <span class="cardtext"><b>Attack strategies by Town Hall</b><span>16 September 2026 — Which attack strategy to learn at each Town Hall in Clash of Clans, what unlocks when, and why learning one ar</span></span></a>
-<a class="card" href="../blog/which-hero-to-upgrade-first.html">
+<a class="card tone-slate" href="../blog/which-hero-to-upgrade-first.html">
 <span class="cardtext"><b>Which hero to upgrade first</b><span>16 September 2026 — Which Clash of Clans hero to upgrade first, with the real dark elixir and time costs of every hero from the ga</span></span></a>
-<a class="card" href="../blog/hardest-town-hall-upgrades-ranked.html">
+<a class="card tone-slate" href="../blog/hardest-town-hall-upgrades-ranked.html">
 <span class="cardtext"><b>Every Town Hall ranked by what it really costs you</b><span>16 September 2026 — Which Clash of Clans Town Hall is the biggest jump? We measured every level by the research and hero time it a</span></span></a>
-<a class="card" href="../blog/is-the-gold-pass-worth-it.html">
+<a class="card tone-slate" href="../blog/is-the-gold-pass-worth-it.html">
 <span class="cardtext"><b>Is the Gold Pass worth it?</b><span>16 September 2026 — Whether the Clash of Clans Gold Pass is worth buying, who it actually pays off for, and the one habit that dec</span></span></a>
-<a class="card" href="../blog/hog-rider-vs-miner-vs-valkyrie.html">
+<a class="card tone-slate" href="../blog/hog-rider-vs-miner-vs-valkyrie.html">
 <span class="cardtext"><b>Hog Rider vs Miner vs Valkyrie</b><span>16 September 2026 — A straight comparison of the Hog Rider, Miner and Valkyrie in Clash of Clans: housing space, what they target,</span></span></a>
-<a class="card" href="../blog/starting-clash-of-clans-in-2026.html">
+<a class="card tone-slate" href="../blog/starting-clash-of-clans-in-2026.html">
 <span class="cardtext"><b>Starting Clash of Clans in 2026</b><span>16 September 2026 — Whether it is worth starting Clash of Clans in 2026, what the game is actually like now after fourteen years, </span></span></a>
-<a class="card" href="../blog/free-to-play-clash-of-clans.html">
+<a class="card tone-slate" href="../blog/free-to-play-clash-of-clans.html">
 <span class="cardtext"><b>Free-to-play Clash of Clans</b><span>16 September 2026 — What a free-to-play Clash of Clans account gives up compared with a paying one, what money actually buys, and </span></span></a>
-<a class="card" href="../blog/why-your-clash-of-clans-account-stalls.html">
+<a class="card tone-slate" href="../blog/why-your-clash-of-clans-account-stalls.html">
 <span class="cardtext"><b>Why your account stalls</b><span>16 September 2026 — Ten reasons Clash of Clans accounts stop progressing — idle builders, an empty laboratory, rushed Town Halls —</span></span></a>
-<a class="card" href="../blog/clash-of-clans-glossary.html">
+<a class="card tone-slate" href="../blog/clash-of-clans-glossary.html">
 <span class="cardtext"><b>The Clash of Clans glossary</b><span>16 September 2026 — A plain-English Clash of Clans glossary: attacking terms, base-building jargon, clan and war vocabulary, and e</span></span></a>
 </div>
 <h2 id="faq">Frequently asked</h2>
@@ -84,7 +97,7 @@
 <p>They are summed from Clash of Clans' own game files, the same source the wiki stat tables are built from. Each post states its method, and the game version is printed under every table on the site.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
 <a class="readon-item" href="../wiki/">
   <span>The wiki — reference pages for every troop, spell and defence</span>
@@ -100,6 +113,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

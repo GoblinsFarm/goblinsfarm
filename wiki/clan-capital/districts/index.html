@@ -25,11 +25,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Wiki","item":"https://goblinsfarm.com/wiki/"},{"@type":"ListItem","position":3,"name":"Capital Districts"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Capital Peak","url":"https://goblinsfarm.com/wiki/clan-capital/districts/capital-peak.html"},{"@type":"ListItem","position":2,"name":"Barbarian Camp","url":"https://goblinsfarm.com/wiki/clan-capital/districts/barbarian-camp.html"},{"@type":"ListItem","position":3,"name":"Wizard Valley","url":"https://goblinsfarm.com/wiki/clan-capital/districts/wizard-valley.html"},{"@type":"ListItem","position":4,"name":"Balloon Lagoon","url":"https://goblinsfarm.com/wiki/clan-capital/districts/balloon-lagoon.html"},{"@type":"ListItem","position":5,"name":"Builder's Workshop","url":"https://goblinsfarm.com/wiki/clan-capital/districts/builders-workshop.html"},{"@type":"ListItem","position":6,"name":"Dragon Cliffs","url":"https://goblinsfarm.com/wiki/clan-capital/districts/dragon-cliffs.html"},{"@type":"ListItem","position":7,"name":"Golem Quarry","url":"https://goblinsfarm.com/wiki/clan-capital/districts/golem-quarry.html"},{"@type":"ListItem","position":8,"name":"Skeleton Park","url":"https://goblinsfarm.com/wiki/clan-capital/districts/skeleton-park.html"},{"@type":"ListItem","position":9,"name":"Goblin Mines","url":"https://goblinsfarm.com/wiki/clan-capital/districts/goblin-mines.html"}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-capital">
 <header class="sitebar">
   <a class="brand" href="../../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../../assets/search-index.json" data-rel="../../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../../wiki/" aria-current="page">Wiki</a>
     <a href="../../../tutorials/">Tutorials</a>
     <a href="../../../blog/">Blog</a>
@@ -38,43 +47,109 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital on">
+      <a class="rail-head" href="../../../wiki/clan-capital/districts/" aria-current="page">Capital Districts<span class="rail-n">9</span></a>
+      <ul class="rail-items">
+        <li><a href="../../../wiki/clan-capital/districts/capital-peak.html"><img src="../../../assets/art/capital-districts/capital-peak.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Capital Peak</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/barbarian-camp.html"><img src="../../../assets/art/capital-districts/barbarian-camp.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Barbarian Camp</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/wizard-valley.html"><img src="../../../assets/art/capital-districts/wizard-valley.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Wizard Valley</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/balloon-lagoon.html"><img src="../../../assets/art/capital-districts/balloon-lagoon.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Balloon Lagoon</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/builders-workshop.html"><img src="../../../assets/art/capital-districts/builders-workshop.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder's Workshop</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/dragon-cliffs.html"><img src="../../../assets/art/capital-districts/dragon-cliffs.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dragon Cliffs</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/golem-quarry.html"><img src="../../../assets/art/capital-districts/golem-quarry.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Golem Quarry</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/skeleton-park.html"><img src="../../../assets/art/capital-districts/skeleton-park.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Skeleton Park</span></a></li>
+        <li><a href="../../../wiki/clan-capital/districts/goblin-mines.html"><img src="../../../assets/art/capital-districts/goblin-mines.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Goblin Mines</span></a></li>
+      </ul>
+    </div>
+    <div class="rail-sec tone-slate">
+      <a class="rail-head" href="../../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../../assets/banners/clan-capital.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner hero">
+  <img src="../../../assets/banners/clan-capital.webp" alt="" width="1400" height="700" decoding="async">
+  <div class="banner-text"><h1>Clan Capital Districts</h1><p class="banner-kicker">Capital Districts &middot; 9 pages</p></div>
+</div>
 <div class="crumbs"><a href="../../../">Home</a><span>&rsaquo;</span><a href="../../../wiki/">Wiki</a><span>&rsaquo;</span>Capital Districts
 </div>
-<h1>Clan Capital Districts</h1>
 <p class="updated">Updated: 16 September 2026 &middot; By the Goblins Farm team</p>
 
 
 <div class="intro speaks">
-<img class="mascot big" src="../../../assets/mascots/lantern.webp" alt="" width="130" height="130" decoding="async">
+<span class="medallion big"><img class="mascot big" src="../../../assets/mascots/lantern.webp" alt="" width="130" height="130" decoding="async"></span>
 <div><p class="lede">All 9 Clan Capital districts and the Capital Hall level each one needs.</p></div>
 </div>
 <h2 id="districts">Districts</h2>
 <div class="grid">
-<a class="card hasart" href="../../../wiki/clan-capital/districts/capital-peak.html"><img class="thumb" src="../../../assets/art/capital-districts/capital-peak.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/capital-peak.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/capital-peak.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Capital Peak</b><span>Unlocks at Capital Hall 1</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/barbarian-camp.html"><img class="thumb" src="../../../assets/art/capital-districts/barbarian-camp.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/barbarian-camp.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/barbarian-camp.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Barbarian Camp</b><span>Unlocks at Capital Hall 2</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/wizard-valley.html"><img class="thumb" src="../../../assets/art/capital-districts/wizard-valley.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/wizard-valley.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/wizard-valley.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Wizard Valley</b><span>Unlocks at Capital Hall 3</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/balloon-lagoon.html"><img class="thumb" src="../../../assets/art/capital-districts/balloon-lagoon.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/balloon-lagoon.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/balloon-lagoon.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Balloon Lagoon</b><span>Unlocks at Capital Hall 4</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/builders-workshop.html"><img class="thumb" src="../../../assets/art/capital-districts/builders-workshop.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/builders-workshop.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/builders-workshop.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Builder's Workshop</b><span>Unlocks at Capital Hall 5</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/dragon-cliffs.html"><img class="thumb" src="../../../assets/art/capital-districts/dragon-cliffs.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/dragon-cliffs.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/dragon-cliffs.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Dragon Cliffs</b><span>Unlocks at Capital Hall 6</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/golem-quarry.html"><img class="thumb" src="../../../assets/art/capital-districts/golem-quarry.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/golem-quarry.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/golem-quarry.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Golem Quarry</b><span>Unlocks at Capital Hall 7</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/skeleton-park.html"><img class="thumb" src="../../../assets/art/capital-districts/skeleton-park.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/skeleton-park.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/skeleton-park.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Skeleton Park</b><span>Unlocks at Capital Hall 8</span></span></a>
-<a class="card hasart" href="../../../wiki/clan-capital/districts/goblin-mines.html"><img class="thumb" src="../../../assets/art/capital-districts/goblin-mines.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-capital" href="../../../wiki/clan-capital/districts/goblin-mines.html"><span class="plaque"><img class="thumb" src="../../../assets/art/capital-districts/goblin-mines.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Goblin Mines</b><span>Unlocks at Capital Hall 9</span></span></a>
 </div>
 
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../../wiki/">Wiki</a> &middot; <a href="../../../tutorials/">Tutorials</a> &middot; <a href="../../../news/">News</a> &middot; <a href="../../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

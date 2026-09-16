@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","headline":"How to Do Your First Clan War Attack","description":"A step-by-step guide to your first Clash of Clans war attack: scouting, luring the Clan Castle, funnelling, and war etiquette.","url":"https://goblinsfarm.com/tutorials/first-war-attack.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which base should I attack in a clan war?","acceptedAnswer":{"@type":"Answer","text":"Usually your mirror, the base at your own position on the enemy map, or one or two above it, then use your second attack on whatever the clan still needs. Ask your clan first, since conventions vary, and always call your target in chat so two people do not attack the same base."}},{"@type":"Question","name":"Why do my war attacks stall halfway?","acceptedAnswer":{"@type":"Answer","text":"Almost always a missing funnel or an unlured Clan Castle. Without a funnel your army walks around the outside of the base, and a live defensive Castle eats the push mid-attack. Both are fixed before you deploy your main army, not during."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../tutorials/">Tutorials</a><span>&rsaquo;</span>Your first war attack
 </div>
 <h1>How to Do Your First Clan War Attack</h1>
@@ -48,13 +61,11 @@
 
 
 <p class="lede">War attacks fail for predictable reasons, and almost all of them happen before a single troop is deployed. This is the routine that avoids them.</p>
-<div class="quick">
-<dl>
-<dt>When</dt><dd>Battle day</dd>
-<dt>Attacks</dt><dd>Two per member</dd>
-<dt>Difficulty</dt><dd>Medium</dd>
-</dl>
-</div><p>The difference between a war attack and a farming attack is that you are trying to destroy the base rather than profit from it, and that someone else is depending on the result. Both change how you prepare.</p>
+<dl class="factbar">
+<div><dt>When</dt><dd>Battle day</dd></div>
+<div><dt>Attacks</dt><dd>Two per member</dd></div>
+<div><dt>Difficulty</dt><dd>Medium</dd></div>
+</dl><p>The difference between a war attack and a farming attack is that you are trying to destroy the base rather than profit from it, and that someone else is depending on the result. Both change how you prepare.</p>
 <h2 id="steps">Step by step</h2>
 <ol class="steps">
 <li><b>Scout during preparation day, not thirty seconds before</b><p>Look at your likely targets while there is no time pressure. Note the Clan Castle position, where the splash defences are, and which side has the fewest outside buildings.</p></li>
@@ -75,15 +86,15 @@
 <p>Almost always a missing funnel or an unlured Clan Castle. Without a funnel your army walks around the outside of the base, and a live defensive Castle eats the push mid-attack. Both are fixed before you deploy your main army, not during.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/mechanics/clan-wars.html"><img class="thumb" src="../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/clan-wars.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Wars</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/clan-castle-troops.html"><img class="thumb" src="../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/clan-castle-troops.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Castle troops</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/funnelling.html"><img class="thumb" src="../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/funnelling.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Funnelling</span>
 </a>
 <a class="readon-item" href="../tutorials/clan-castle-lure.html">
@@ -94,6 +105,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

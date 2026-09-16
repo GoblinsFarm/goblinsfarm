@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Spell Mechanics: Radius, Timing and Stacking","description":"How spells work in Clash of Clans: area of effect, duration, whether spells stack, dark versus regular spell factory, and when to drop each type.","url":"https://goblinsfarm.com/wiki/mechanics/spell-mechanics.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/spell-mechanics.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do spells stack in Clash of Clans?","acceptedAnswer":{"@type":"Answer","text":"Not usefully in terms of power. Two of the same spell on the same troops do not double the effect. What overlapping achieves is a larger covered area or a longer covered window, which is what you want when a push has to travel across a wide base."}},{"@type":"Question","name":"When should I drop a Rage spell?","acceptedAnswer":{"@type":"Answer","text":"When the troops are already engaged and the extra damage will land on something that matters, and slightly ahead of them so they move into the circle rather than out of it. Rage dropped while an army is walking across open ground is mostly wasted."}},{"@type":"Question","name":"Are dark spells better than regular spells?","acceptedAnswer":{"@type":"Answer","text":"They are different tools. Dark spells cost dark elixir and take less spell housing, which suits cheap, surgical jobs such as poisoning a defending Castle. Regular spells do the heavy lifting. Most strong armies carry a mix rather than committing to one factory."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html" aria-current="page"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/spells.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/spells.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Spell mechanics
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="Spell Mechanics: Radius, Timing and Stacking" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Spell Mechanics: Radius, Timing and Stacking</h1>
+    <h1>Spell Mechanics: Radius, Timing and Stacking</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag ">Combat</span><span class="tag ">Core mechanic</span></div>
   </div>
 </div>
@@ -56,24 +144,6 @@
 
 
 <p class="lede">Spells are the smallest part of an army by housing space and the largest part by outcome. A correctly timed Rage turns a stalled push into a three-star; the same spell dropped four seconds early does nothing at all. The mechanics that govern them are simple, and almost nobody reads them.</p>
-<div class="quick">
-<dl>
-<dt>Two factories</dt><dd>Spell Factory for regular spells, Dark Spell Factory for dark spells</dd>
-<dt>Housing</dt><dd>Spells occupy separate spell housing, not troop housing</dd>
-<dt>Area of effect</dt><dd>Circular, centred where you tap, fixed radius per spell</dd>
-<dt>Duration</dt><dd>Timed, and the timer starts the moment it lands</dd>
-<dt>Stacking</dt><dd>Most same-type effects do not stack usefully; overlapping radii extend coverage, not power</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#the-two-spell-families">The two spell families</a></li>
-<li><a href="#radius-and-placement">Radius and placement</a></li>
-<li><a href="#timing">Timing</a></li>
-<li><a href="#building-the-spell-loadout">Building the spell loadout</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="the-two-spell-families">The two spell families</h2>
 <p>Regular spells come from the Spell Factory and are paid for in elixir. Dark spells come from the Dark Spell Factory and are paid for in dark elixir. They share the same spell housing space, but dark spells occupy less of it, which is why a mixed set is usually better value than a pure one.</p><p>Broadly, regular spells do the big, expensive things: mass healing, mass damage boosts, opening walls, freezing defences. Dark spells do the small, cheap, surgical things: poisoning defending troops, disabling a single defence, speeding up a push, spawning a distraction. A well-built army usually carries a couple of large regular spells and one or two cheap dark ones for a specific job.</p>
 <h2 id="radius-and-placement">Radius and placement</h2>
@@ -83,32 +153,32 @@
 <h2 id="building-the-spell-loadout">Building the spell loadout</h2>
 <p>Work backwards from the failure mode of your army, not forwards from a list.</p><ul><li>If the army <em>dies to splash damage</em>, bring healing.</li><li>If the army <em>survives but runs out of time</em>, bring haste or rage.</li><li>If the army <em>stalls at a specific defence every time</em>, bring the counter to that defence, usually freeze.</li><li>If the army <em>cannot get into the core</em>, bring jump or more wall breakers.</li><li>If the army <em>dies to the defending Castle</em>, bring poison and lure properly.</li></ul><p>Then, and this is the part people skip, watch the replay of the attack that failed and check which of those five it actually was. The right spell is a diagnostic result, not a preference.</p>
 <div class="block">
-<h2 id="mentions" class="withmascot"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async">What this page talks about</h2>
-<div class="grid tight">
-<a class="card hasart" href="../../wiki/buildings/spell-factory.html"><img class="thumb" src="../../assets/art/buildings/spell-factory.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="mentions" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>What this page talks about</h2>
+<div class="grid tiles">
+<a class="card tile hasart" href="../../wiki/buildings/spell-factory.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/spell-factory.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Spell Factory</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/dark-spell-factory.html"><img class="thumb" src="../../assets/art/buildings/dark-spell-factory.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/dark-spell-factory.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/dark-spell-factory.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Dark Spell Factory</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/wall.html"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/wall.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/wall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall</b></span>
 </a>
-<a class="card hasart" href="../../wiki/spells/rage-spell.html"><img class="thumb" src="../../assets/art/spells/rage-spell.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/spells/rage-spell.html"><span class="plaque"><img class="thumb" src="../../assets/art/spells/rage-spell.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Rage Spell</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/inferno-tower.html"><img class="thumb" src="../../assets/art/buildings/inferno-tower.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/inferno-tower.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/inferno-tower.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Inferno Tower</b></span>
 </a>
-<a class="card hasart" href="../../wiki/buildings/scattershot.html"><img class="thumb" src="../../assets/art/buildings/scattershot.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/buildings/scattershot.html"><span class="plaque"><img class="thumb" src="../../assets/art/buildings/scattershot.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Scattershot</b></span>
 </a>
-<a class="card hasart" href="../../wiki/troops/wall-breaker.html"><img class="thumb" src="../../assets/art/troops/wall-breaker.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../../wiki/troops/wall-breaker.html"><span class="plaque"><img class="thumb" src="../../assets/art/troops/wall-breaker.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall Breaker</b></span>
 </a>
 </div>
 </div>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Do spells stack in Clash of Clans?</h3>
 <p>Not usefully in terms of power. Two of the same spell on the same troops do not double the effect. What overlapping achieves is a larger covered area or a longer covered window, which is what you want when a push has to travel across a wide base.</p>
 <h3>When should I drop a Rage spell?</h3>
@@ -117,18 +187,18 @@
 <p>They are different tools. Dark spells cost dark elixir and take less spell housing, which suits cheap, surgical jobs such as poisoning a defending Castle. Regular spells do the heavy lifting. Most strong armies carry a mix rather than committing to one factory.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
 <a class="readon-item" href="../../wiki/spells/">
   <span>Spells</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/clan-castle-troops.html"><img class="thumb" src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/clan-castle-troops.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Castle troops</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/troop-targeting-and-ai.html"><img class="thumb" src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/troop-targeting-and-ai.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Troop targeting and AI</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/funnelling.html"><img class="thumb" src="../../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/funnelling.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/funnelling.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Funnelling</span>
 </a>
 </div>
@@ -136,6 +206,33 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Spell Mechanics: Radius, Timing and Stacking</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="Spell Mechanics: Radius, Timing and Stacking" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag ">Combat</span><span class="tag ">Core mechanic</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Two factories</dt><dd>Spell Factory for regular spells, Dark Spell Factory for dark spells</dd></div>
+    <div class="ib-row"><dt>Housing</dt><dd>Spells occupy separate spell housing, not troop housing</dd></div>
+    <div class="ib-row"><dt>Area of effect</dt><dd>Circular, centred where you tap, fixed radius per spell</dd></div>
+    <div class="ib-row"><dt>Duration</dt><dd>Timed, and the timer starts the moment it lands</dd></div>
+    <div class="ib-row"><dt>Stacking</dt><dd>Most same-type effects do not stack usefully; overlapping radii extend coverage, not power</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#the-two-spell-families">The two spell families</a></li>
+<li><a href="#radius-and-placement">Radius and placement</a></li>
+<li><a href="#timing">Timing</a></li>
+<li><a href="#building-the-spell-loadout">Building the spell loadout</a></li><li><a href="#mentions">What this page talks about</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

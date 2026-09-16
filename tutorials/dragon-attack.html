@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","headline":"How to Do a Dragon Attack in Clash of Clans","description":"A step-by-step dragon attack guide: picking the weakest anti-air side, deployment, spell timing, and why air attacks are so forgiving.","url":"https://goblinsfarm.com/tutorials/dragon-attack.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why do my dragon attacks fail?","acceptedAnswer":{"@type":"Answer","text":"Nearly always because the wave was deployed into the strongest anti-air side, or trickled in a few at a time instead of as one spread group. Scout every Air Defense before deploying and commit to the side where the fewest can reach you at once."}},{"@type":"Question","name":"Are dragon attacks good for farming?","acceptedAnswer":{"@type":"Answer","text":"Not especially. Dragons are expensive and slow to train, and they attack whatever is nearest rather than seeking loot, so they spend the attack destroying buildings that hold nothing. They are a war and trophy army, not a farming one."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../tutorials/">Tutorials</a><span>&rsaquo;</span>The dragon attack
 </div>
 <h1>How to Do a Dragon Attack in Clash of Clans</h1>
@@ -48,32 +61,30 @@
 
 
 <p class="lede">Dragon attacks work because they remove the hardest part of attacking. Air troops ignore walls and pathing, so instead of managing a funnel you make one good decision: which side has the weakest anti-air.</p>
-<div class="quick">
-<dl>
-<dt>Best at</dt><dd>Town Hall 7 and up</dd>
-<dt>Difficulty</dt><dd>Low</dd>
-<dt>Key decision</dt><dd>Which side to attack</dd>
-</dl>
-</div><p>If your ground attacks keep stalling at 50 per cent, switching to air for a while is not a retreat. It removes pathing from the equation entirely and lets you practise deployment and spell timing without also fighting the base layout.</p>
+<dl class="factbar">
+<div><dt>Best at</dt><dd>Town Hall 7 and up</dd></div>
+<div><dt>Difficulty</dt><dd>Low</dd></div>
+<div><dt>Key decision</dt><dd>Which side to attack</dd></div>
+</dl><p>If your ground attacks keep stalling at 50 per cent, switching to air for a while is not a retreat. It removes pathing from the equation entirely and lets you practise deployment and spell timing without also fighting the base layout.</p>
 <div class="block">
-<h2 id="mentions" class="withmascot"><img class="mascot small" src="../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async">What this page talks about</h2>
-<div class="grid tight">
-<a class="card hasart" href="../wiki/buildings/wall.html"><img class="thumb" src="../assets/art/buildings/wall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="mentions" class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>What this page talks about</h2>
+<div class="grid tiles">
+<a class="card tile hasart" href="../wiki/buildings/wall.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/wall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall</b></span>
 </a>
-<a class="card hasart" href="../wiki/buildings/air-defense.html"><img class="thumb" src="../assets/art/buildings/air-defense.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/buildings/air-defense.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/air-defense.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Air Defense</b></span>
 </a>
-<a class="card hasart" href="../wiki/buildings/town-hall.html"><img class="thumb" src="../assets/art/buildings/town-hall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/buildings/town-hall.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/town-hall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Town Hall</b></span>
 </a>
-<a class="card hasart" href="../wiki/troops/dragon.html"><img class="thumb" src="../assets/art/troops/dragon.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/troops/dragon.html"><span class="plaque"><img class="thumb" src="../assets/art/troops/dragon.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Dragon</b></span>
 </a>
-<a class="card hasart" href="../wiki/buildings/clan-castle.html"><img class="thumb" src="../assets/art/buildings/clan-castle.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/buildings/clan-castle.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/clan-castle.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Clan Castle</b></span>
 </a>
-<a class="card hasart" href="../wiki/troops/baby-dragon.html"><img class="thumb" src="../assets/art/troops/baby-dragon.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/troops/baby-dragon.html"><span class="plaque"><img class="thumb" src="../assets/art/troops/baby-dragon.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Baby Dragon</b></span>
 </a>
 </div>
@@ -97,18 +108,18 @@
 <p>Not especially. Dragons are expensive and slow to train, and they attack whatever is nearest rather than seeking loot, so they spend the attack destroying buildings that hold nothing. They are a war and trophy army, not a farming one.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/troops/dragon.html"><img class="thumb" src="../assets/art/troops/dragon.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/troops/dragon.html"><span class="plaque sm"><img class="thumb" src="../assets/art/troops/dragon.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Dragon</span>
 </a>
-<a class="readon-item hasart" href="../wiki/troops/baby-dragon.html"><img class="thumb" src="../assets/art/troops/baby-dragon.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/troops/baby-dragon.html"><span class="plaque sm"><img class="thumb" src="../assets/art/troops/baby-dragon.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Baby Dragon</span>
 </a>
-<a class="readon-item hasart" href="../wiki/buildings/air-defense.html"><img class="thumb" src="../assets/art/buildings/air-defense.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/buildings/air-defense.html"><span class="plaque sm"><img class="thumb" src="../assets/art/buildings/air-defense.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Air Defense</span>
 </a>
-<a class="readon-item hasart" href="../wiki/spells/rage-spell.html"><img class="thumb" src="../assets/art/spells/rage-spell.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/spells/rage-spell.html"><span class="plaque sm"><img class="thumb" src="../assets/art/spells/rage-spell.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Rage Spell</span>
 </a>
 </div>
@@ -116,6 +127,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

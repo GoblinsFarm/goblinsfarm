@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","headline":"How to Build a Clash of Clans Base From Scratch","description":"A step-by-step method for designing a Clash of Clans base: choosing a purpose, building compartments, placing splash and anti-air, and testing with replays.","url":"https://goblinsfarm.com/tutorials/base-building.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is it better to copy a base layout or build my own?","acceptedAnswer":{"@type":"Answer","text":"Start from a good layout if you like, but adapt it and then iterate from your own defence replays. A copied screenshot reflects someone else's defence levels and the attack meta when it was made, and you cannot fix what you do not understand."}},{"@type":"Question","name":"Should I protect my Town Hall or my storages?","acceptedAnswer":{"@type":"Answer","text":"It depends on the base's purpose. A farming base protects storages and dark elixir and gives up the Town Hall, since losing a star costs far less than losing loot. A trophy base does the reverse. Decide this before you place a single building."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../tutorials/">Tutorials</a><span>&rsaquo;</span>Building a base from scratch
 </div>
 <h1>How to Build a Clash of Clans Base From Scratch</h1>
@@ -48,26 +61,24 @@
 
 
 <p class="lede">Copied layouts are built for someone else's defence levels and a meta that has moved on. Building your own from principles takes twenty minutes and produces something you can actually fix when it fails.</p>
-<div class="quick">
-<dl>
-<dt>Time needed</dt><dd>20 minutes, plus a few days of replays</dd>
-<dt>Difficulty</dt><dd>Medium</dd>
-<dt>Redo it</dt><dd>After every Town Hall</dd>
-</dl>
-</div><p>You do not need to be creative. You need to answer five questions in order, and then watch what happens.</p>
+<dl class="factbar">
+<div><dt>Time needed</dt><dd>20 minutes, plus a few days of replays</dd></div>
+<div><dt>Difficulty</dt><dd>Medium</dd></div>
+<div><dt>Redo it</dt><dd>After every Town Hall</dd></div>
+</dl><p>You do not need to be creative. You need to answer five questions in order, and then watch what happens.</p>
 <div class="block">
-<h2 id="mentions" class="withmascot"><img class="mascot small" src="../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async">What this page talks about</h2>
-<div class="grid tight">
-<a class="card hasart" href="../wiki/buildings/town-hall.html"><img class="thumb" src="../assets/art/buildings/town-hall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="mentions" class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/point.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>What this page talks about</h2>
+<div class="grid tiles">
+<a class="card tile hasart" href="../wiki/buildings/town-hall.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/town-hall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Town Hall</b></span>
 </a>
-<a class="card hasart" href="../wiki/buildings/clan-castle.html"><img class="thumb" src="../assets/art/buildings/clan-castle.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/buildings/clan-castle.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/clan-castle.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Clan Castle</b></span>
 </a>
-<a class="card hasart" href="../wiki/buildings/wall.html"><img class="thumb" src="../assets/art/buildings/wall.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/buildings/wall.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/wall.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Wall</b></span>
 </a>
-<a class="card hasart" href="../wiki/buildings/air-defense.html"><img class="thumb" src="../assets/art/buildings/air-defense.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart" href="../wiki/buildings/air-defense.html"><span class="plaque"><img class="thumb" src="../assets/art/buildings/air-defense.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Air Defense</b></span>
 </a>
 </div>
@@ -93,15 +104,15 @@
 <p>It depends on the base's purpose. A farming base protects storages and dark elixir and gives up the Town Hall, since losing a star costs far less than losing loot. A trophy base does the reverse. Decide this before you place a single building.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/mechanics/base-building-principles.html"><img class="thumb" src="../assets/icons/mechanics/base-building-principles.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/base-building-principles.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/base-building-principles.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Base building principles</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/defence-mechanics.html"><img class="thumb" src="../assets/icons/mechanics/defence-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/defence-mechanics.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/defence-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Defence mechanics</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/walls-and-pathing.html"><img class="thumb" src="../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/walls-and-pathing.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Walls and pathing</span>
 </a>
 <a class="readon-item" href="../tutorials/reading-replays.html">
@@ -112,6 +123,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","headline":"Hero Upgrade Management in Clash of Clans","description":"How to keep Clash of Clans heroes upgrading continuously, why the downtime is worth it, and how to schedule around wars.","url":"https://goblinsfarm.com/tutorials/hero-management.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Should I upgrade heroes if I cannot attack with them?","acceptedAnswer":{"@type":"Answer","text":"Yes. Hero timers are the longest in the game, so the only way to finish them is to keep one running continuously. A few days attacking without a hero costs far less than being permanently several levels behind in every attack for months."}},{"@type":"Question","name":"Should I upgrade two heroes at once?","acceptedAnswer":{"@type":"Answer","text":"Generally no, unless you can spare both. Stagger them so one is always available, since having no heroes at all for a long stretch genuinely damages your attacks and your defence."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../tutorials/">Tutorials</a><span>&rsaquo;</span>Keeping heroes upgrading
 </div>
 <h1>Hero Upgrade Management in Clash of Clans</h1>
@@ -48,13 +61,11 @@
 
 
 <p class="lede">Hero upgrades have the longest timers in the game, which means the only way to finish them is to always have one running. Most players do the opposite, waiting for a convenient moment that never arrives.</p>
-<div class="quick">
-<dl>
-<dt>Resource</dt><dd>Dark elixir</dd>
-<dt>Downtime</dt><dd>Real, and worth it</dd>
-<dt>Check it</dt><dd>Every login</dd>
-</dl>
-</div><p>The maths is simple and unpleasant. If a hero upgrade takes two weeks and you only run one when it is convenient, you will complete a fraction of the upgrades of a player who simply always has one going. Skill does not close that gap.</p>
+<dl class="factbar">
+<div><dt>Resource</dt><dd>Dark elixir</dd></div>
+<div><dt>Downtime</dt><dd>Real, and worth it</dd></div>
+<div><dt>Check it</dt><dd>Every login</dd></div>
+</dl><p>The maths is simple and unpleasant. If a hero upgrade takes two weeks and you only run one when it is convenient, you will complete a fraction of the upgrades of a player who simply always has one going. Skill does not close that gap.</p>
 <h2 id="steps">Step by step</h2>
 <ol class="steps">
 <li><b>Accept the downtime as the cost of progress</b><p>You will attack without that hero for days. Everyone does. The alternative is being permanently several levels behind, which costs more in every attack for months.</p></li>
@@ -73,18 +84,18 @@
 <p>Generally no, unless you can spare both. Stagger them so one is always available, since having no heroes at all for a long stretch genuinely damages your attacks and your defence.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/mechanics/dark-elixir.html"><img class="thumb" src="../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/dark-elixir.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Dark elixir</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/hero-equipment.html"><img class="thumb" src="../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/hero-equipment.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Hero Equipment</span>
 </a>
 <a class="readon-item" href="../tutorials/dark-elixir-farming.html">
   <span>Farming dark elixir</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/upgrade-priority.html"><img class="thumb" src="../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/upgrade-priority.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Upgrade priority</span>
 </a>
 </div>
@@ -92,6 +103,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Clan War Leagues: The Monthly Tournament","description":"How Clan War Leagues work in Clash of Clans: the seven-war format, one attack per war, promotion and relegation, league medals and roster strategy.","url":"https://goblinsfarm.com/wiki/mechanics/clan-war-leagues.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/icons/mechanics/clan-war-leagues.svg"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many attacks do you get in Clan War Leagues?","acceptedAnswer":{"@type":"Answer","text":"One per war, across seven wars. That is the key difference from regular Clan Wars, where you get two, and it means CWL attacks should be conservative and well scouted rather than experimental."}},{"@type":"Question","name":"Do I have to participate in every CWL war?","acceptedAnswer":{"@type":"Answer","text":"No. Leadership picks the roster for each of the seven wars and can rotate members between them. Whether your clan rotates everyone through for medals or fields its strongest roster to chase promotion is a clan policy decision worth asking about before you sign up."}},{"@type":"Question","name":"What should I spend league medals on?","acceptedAnswer":{"@type":"Answer","text":"Items that save time rather than items that save resources. Resources can be farmed; hero and research timers cannot be, so anything that shortens them is worth more than its face value in gold or elixir."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -39,8 +48,87 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate on">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/mechanics/loot-mechanics.html"><img src="../../assets/icons/mechanics/loot-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Loot mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/shields-and-village-guard.html"><img src="../../assets/icons/mechanics/shields-and-village-guard.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Shields and Village Guard</span></a></li>
+        <li><a href="../../wiki/mechanics/matchmaking-and-search.html"><img src="../../assets/icons/mechanics/matchmaking-and-search.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Matchmaking and the search screen</span></a></li>
+        <li><a href="../../wiki/mechanics/trophies-and-leagues.html"><img src="../../assets/icons/mechanics/trophies-and-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Trophies and leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/troop-targeting-and-ai.html"><img src="../../assets/icons/mechanics/troop-targeting-and-ai.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Troop targeting and AI</span></a></li>
+        <li><a href="../../wiki/mechanics/walls-and-pathing.html"><img src="../../assets/icons/mechanics/walls-and-pathing.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Walls and pathing</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-castle-troops.html"><img src="../../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Castle troops</span></a></li>
+        <li><a href="../../wiki/mechanics/spell-mechanics.html"><img src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Spell mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/funnelling.html"><img src="../../assets/icons/mechanics/funnelling.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Funnelling</span></a></li>
+        <li><a href="../../wiki/mechanics/siege-machines.html"><img src="../../assets/icons/mechanics/siege-machines.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Siege machines</span></a></li>
+        <li><a href="../../wiki/mechanics/defence-mechanics.html"><img src="../../assets/icons/mechanics/defence-mechanics.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Defence mechanics</span></a></li>
+        <li><a href="../../wiki/mechanics/base-building-principles.html"><img src="../../assets/icons/mechanics/base-building-principles.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Base building principles</span></a></li>
+        <li><a href="../../wiki/mechanics/dark-elixir.html"><img src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dark elixir</span></a></li>
+        <li><a href="../../wiki/mechanics/upgrade-priority.html"><img src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Upgrade priority</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-wars.html"><img src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Wars</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-war-leagues.html" aria-current="page"><img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan War Leagues</span></a></li>
+        <li><a href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Clan Capital and Raid Weekends</span></a></li>
+        <li><a href="../../wiki/mechanics/war-weight.html"><img src="../../assets/icons/mechanics/war-weight.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>War weight</span></a></li>
+        <li><a href="../../wiki/mechanics/builder-base.html"><img src="../../assets/icons/mechanics/builder-base.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Builder Base</span></a></li>
+        <li><a href="../../wiki/mechanics/super-troops.html"><img src="../../assets/icons/mechanics/super-troops.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Super Troops</span></a></li>
+        <li><a href="../../wiki/mechanics/hero-equipment.html"><img src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Hero Equipment</span></a></li>
+        <li><a href="../../wiki/mechanics/magic-items.html"><img src="../../assets/icons/mechanics/magic-items.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Magic items</span></a></li>
+        <li><a href="../../wiki/mechanics/season-challenges-and-the-gold-pass.html"><img src="../../assets/icons/mechanics/season-challenges-and-the-gold-pass.svg" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Season Challenges and the Gold Pass</span></a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/war-camp.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../../assets/banners/war-camp.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/mechanics/">Mechanics</a><span>&rsaquo;</span>Clan War Leagues
 </div>
 <div class="pagehead">
@@ -48,7 +136,7 @@
     <img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="Clan War Leagues: The Monthly Tournament" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Clan War Leagues: The Monthly Tournament</h1>
+    <h1>Clan War Leagues: The Monthly Tournament</h1><p class="kicker">Mechanics</p>
     <div class="tagrow"><span class="tag ">Clan</span><span class="tag ">War</span></div>
   </div>
 </div>
@@ -56,30 +144,13 @@
 
 
 <p class="lede">Clan War Leagues run once a month as a round-robin tournament between eight clans. The format is different enough from regular war to catch people out, and the rewards are large enough that being caught out is expensive.</p>
-<div class="quick">
-<dl>
-<dt>Frequency</dt><dd>Once per month, for a limited signup window</dd>
-<dt>Format</dt><dd>Seven consecutive wars against seven different clans</dd>
-<dt>Attacks per war</dt><dd>One, not two</dd>
-<dt>Roster</dt><dd>Fixed size, chosen by leadership, can be rotated between wars</dd>
-<dt>Rewards</dt><dd>League medals, spent in a dedicated shop</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#one-attack-changes-everything">One attack changes everything</a></li>
-<li><a href="#promotion-relegation-and-the-roster">Promotion, relegation and the roster</a></li>
-<li><a href="#medals-and-what-to-buy">Medals and what to buy</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="one-attack-changes-everything">One attack changes everything</h2>
 <p>In regular war you get two attacks, which means you can afford an experiment and then a clean-up. In Clan War Leagues you get <strong>one</strong>. There is no second chance, no correcting a bad funnel, no fixing a misjudged Castle lure.</p><p>Practical consequences:</p><ul><li><strong>Take the attack you are confident in</strong>, not the attack you have been meaning to practise. CWL is not the place to try a new army for the first time.</li><li><strong>Scout properly.</strong> With one attack, five minutes of scouting is cheap.</li><li><strong>Clean-up is a team decision.</strong> Because nobody has a spare attack, whoever is assigned a base has to finish it. Communication matters even more than in regular war.</li></ul>
 <h2 id="promotion-relegation-and-the-roster">Promotion, relegation and the roster</h2>
 <p>Clans are placed in a league tier and play seven wars. Performance across those wars decides whether the clan is promoted, held or relegated for next season, and the tier determines how many medals everyone earns.</p><p>Because the roster is a fixed size and leadership chooses it per war, CWL creates a genuine selection problem. Two common approaches:</p><ul><li><strong>Compete:</strong> field the strongest available roster every war, prioritise promotion, accept that weaker members sit out some wars.</li><li><strong>Rotate:</strong> give everyone participation across the seven wars so all members earn medals, accept a lower finish.</li></ul><p>Neither is wrong, but a clan that has not decided which one it is doing will have an argument about it in week two. If you are joining a clan for CWL, ask which it is before signing up.</p>
 <h2 id="medals-and-what-to-buy">Medals and what to buy</h2>
 <p>League medals are earned based on the clan's tier and your own participation, and are spent in a dedicated shop that typically stocks hero-relevant items, resources and boosts.</p><p>The general spending advice: <strong>buy the things that are otherwise scarce</strong>. Resources you can farm. Time you cannot. Items that shorten hero upgrades or advance research are worth more than an equivalent value in gold, because your bottleneck is almost never gold, it is the timers described in <a href='upgrade-priority.html'>upgrade priority</a>.</p>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>How many attacks do you get in Clan War Leagues?</h3>
 <p>One per war, across seven wars. That is the key difference from regular Clan Wars, where you get two, and it means CWL attacks should be conservative and well scouted rather than experimental.</p>
 <h3>Do I have to participate in every CWL war?</h3>
@@ -88,18 +159,18 @@
 <p>Items that save time rather than items that save resources. Resources can be farmed; hero and research timers cannot be, so anything that shortens them is worth more than its face value in gold or elixir.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/mechanics/clan-wars.html"><img class="thumb" src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/clan-wars.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Wars</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/magic-items.html"><img class="thumb" src="../../assets/icons/mechanics/magic-items.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/magic-items.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/magic-items.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Magic items</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/upgrade-priority.html"><img class="thumb" src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/upgrade-priority.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/upgrade-priority.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Upgrade priority</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><img class="thumb" src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/clan-capital-and-raid-weekends.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Capital and Raid Weekends</span>
 </a>
 </div>
@@ -107,6 +178,32 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-slate wordy">
+  <div class="ib-title">Clan War Leagues: The Monthly Tournament</div>
+  <div class="ib-art drawn">
+    <img src="../../assets/icons/mechanics/clan-war-leagues.svg" alt="Clan War Leagues: The Monthly Tournament" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag ">Clan</span><span class="tag ">War</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Frequency</dt><dd>Once per month, for a limited signup window</dd></div>
+    <div class="ib-row"><dt>Format</dt><dd>Seven consecutive wars against seven different clans</dd></div>
+    <div class="ib-row"><dt>Attacks per war</dt><dd>One, not two</dd></div>
+    <div class="ib-row"><dt>Roster</dt><dd>Fixed size, chosen by leadership, can be rotated between wars</dd></div>
+    <div class="ib-row"><dt>Rewards</dt><dd>League medals, spent in a dedicated shop</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/mechanics/">All mechanics</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#one-attack-changes-everything">One attack changes everything</a></li>
+<li><a href="#promotion-relegation-and-the-roster">Promotion, relegation and the roster</a></li>
+<li><a href="#medals-and-what-to-buy">Medals and what to buy</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

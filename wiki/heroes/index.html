@@ -25,11 +25,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Wiki","item":"https://goblinsfarm.com/wiki/"},{"@type":"ListItem","position":3,"name":"Heroes"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Barbarian King","url":"https://goblinsfarm.com/wiki/heroes/barbarian-king.html"},{"@type":"ListItem","position":2,"name":"Archer Queen","url":"https://goblinsfarm.com/wiki/heroes/archer-queen.html"},{"@type":"ListItem","position":3,"name":"Grand Warden","url":"https://goblinsfarm.com/wiki/heroes/grand-warden.html"},{"@type":"ListItem","position":4,"name":"Royal Champion","url":"https://goblinsfarm.com/wiki/heroes/royal-champion.html"},{"@type":"ListItem","position":5,"name":"Minion Prince","url":"https://goblinsfarm.com/wiki/heroes/minion-prince.html"},{"@type":"ListItem","position":6,"name":"Dragon Duke","url":"https://goblinsfarm.com/wiki/heroes/dragon-duke.html"}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-dark">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -38,37 +47,100 @@
   </nav>
 </header>
 
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark on">
+      <a class="rail-head" href="../../wiki/heroes/" aria-current="page">Heroes<span class="rail-n">6</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/heroes/barbarian-king.html"><img src="../../assets/art/heroes/barbarian-king.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Barbarian King</span></a></li>
+        <li><a href="../../wiki/heroes/archer-queen.html"><img src="../../assets/art/heroes/archer-queen.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Archer Queen</span></a></li>
+        <li><a href="../../wiki/heroes/grand-warden.html"><img src="../../assets/art/heroes/grand-warden.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Grand Warden</span></a></li>
+        <li><a href="../../wiki/heroes/royal-champion.html"><img src="../../assets/art/heroes/royal-champion.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Royal Champion</span></a></li>
+        <li><a href="../../wiki/heroes/minion-prince.html"><img src="../../assets/art/heroes/minion-prince.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Minion Prince</span></a></li>
+        <li><a href="../../wiki/heroes/dragon-duke.html"><img src="../../assets/art/heroes/dragon-duke.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dragon Duke</span></a></li>
+      </ul>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+    </div>
+  </nav>
+</aside>
+
 <main class="doc">
-<div class="banner"><img src="../../assets/banners/heroes.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner hero">
+  <img src="../../assets/banners/heroes.webp" alt="" width="1400" height="700" decoding="async">
+  <div class="banner-text"><h1>Clash of Clans Heroes</h1><p class="banner-kicker">Heroes &middot; 6 pages</p></div>
+</div>
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span>Heroes
 </div>
-<h1>Clash of Clans Heroes</h1>
 <p class="updated">Updated: 16 September 2026 &middot; By the Goblins Farm team</p>
 
 
 <div class="intro speaks">
-<img class="mascot big" src="../../assets/mascots/cheer.webp" alt="" width="130" height="130" decoding="async">
+<span class="medallion big"><img class="mascot big" src="../../assets/mascots/cheer.webp" alt="" width="130" height="130" decoding="async"></span>
 <div><p class="lede">All 6 Home Village heroes with the full level table for each one, read from the game files.</p></div>
 </div>
 <h2 id="home-village-heroes">Home Village Heroes</h2>
 <div class="grid">
-<a class="card hasart" href="../../wiki/heroes/barbarian-king.html"><img class="thumb" src="../../assets/art/heroes/barbarian-king.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-dark" href="../../wiki/heroes/barbarian-king.html"><span class="plaque"><img class="thumb" src="../../assets/art/heroes/barbarian-king.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Barbarian King</b><span>The first hero, the standard funnel opener, and a durable brawler.</span></span></a>
-<a class="card hasart" href="../../wiki/heroes/archer-queen.html"><img class="thumb" src="../../assets/art/heroes/archer-queen.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-dark" href="../../wiki/heroes/archer-queen.html"><span class="plaque"><img class="thumb" src="../../assets/art/heroes/archer-queen.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Archer Queen</b><span>The most impactful hero in the game, and the centre of the Queen walk.</span></span></a>
-<a class="card hasart" href="../../wiki/heroes/grand-warden.html"><img class="thumb" src="../../assets/art/heroes/grand-warden.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-dark" href="../../wiki/heroes/grand-warden.html"><span class="plaque"><img class="thumb" src="../../assets/art/heroes/grand-warden.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Grand Warden</b><span>A support hero who makes the rest of the army much harder to kill.</span></span></a>
-<a class="card hasart" href="../../wiki/heroes/royal-champion.html"><img class="thumb" src="../../assets/art/heroes/royal-champion.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-dark" href="../../wiki/heroes/royal-champion.html"><span class="plaque"><img class="thumb" src="../../assets/art/heroes/royal-champion.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Royal Champion</b><span>Targets defences, jumps walls, and goes where you point her.</span></span></a>
-<a class="card hasart" href="../../wiki/heroes/minion-prince.html"><img class="thumb" src="../../assets/art/heroes/minion-prince.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-dark" href="../../wiki/heroes/minion-prince.html"><span class="plaque"><img class="thumb" src="../../assets/art/heroes/minion-prince.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Minion Prince</b><span>A flying hero, which changes what a hero can be sent to do.</span></span></a>
-<a class="card hasart" href="../../wiki/heroes/dragon-duke.html"><img class="thumb" src="../../assets/art/heroes/dragon-duke.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card hasart tone-dark" href="../../wiki/heroes/dragon-duke.html"><span class="plaque"><img class="thumb" src="../../assets/art/heroes/dragon-duke.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
 <span class="cardtext"><b>Dragon Duke</b><span>A Town Hall 15 hero with a lot of hitpoints and two equipment slots.</span></span></a>
 </div>
 
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

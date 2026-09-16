@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","headline":"How to Find a Good Clan in Clash of Clans","description":"How to find and evaluate a Clash of Clans clan: what to look for, the warning signs, and the questions to ask before joining.","url":"https://goblinsfarm.com/tutorials/choosing-a-clan.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I know if a clan is good?","acceptedAnswer":{"@type":"Answer","text":"Open the chat and see whether donation requests are actually being filled, then check the war log for whether members use both attacks. An active donating clan with a mediocre win rate is worth far more to you than a dormant clan with a good one."}},{"@type":"Question","name":"Is it rude to leave a clan?","acceptedAnswer":{"@type":"Answer","text":"No. Clans expect turnover and most will not think twice about it. Staying in an inactive clan out of politeness costs you months of free donations, which is the largest free upgrade available to your account."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-slate">
 <header class="sitebar">
   <a class="brand" href="../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../wiki/">Wiki</a>
     <a href="../tutorials/" aria-current="page">Tutorials</a>
     <a href="../blog/">Blog</a>
@@ -39,8 +48,12 @@
   </nav>
 </header>
 
+<div class="shell">
+
 <main class="doc narrow">
-<div class="banner"><img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async"></div>
+<div class="banner">
+  <img src="../assets/banners/tutorials.webp" alt="" width="1400" height="700" decoding="async">
+</div>
 <div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../tutorials/">Tutorials</a><span>&rsaquo;</span>Finding a good clan
 </div>
 <h1>How to Find a Good Clan in Clash of Clans</h1>
@@ -48,13 +61,11 @@
 
 
 <p class="lede">A good clan gives you troops you have not unlocked, war experience, and people who answer questions. A dead clan gives you a badge. The difference is enormous and it costs nothing to switch.</p>
-<div class="quick">
-<dl>
-<dt>Cost</dt><dd>Nothing</dd>
-<dt>Difficulty</dt><dd>Low</dd>
-<dt>Switch freely</dt><dd>Yes</dd>
-</dl>
-</div><p>New players treat leaving a clan as rude. It is not. Clans expect turnover, and staying in a dead clan out of politeness costs you months of donations.</p>
+<dl class="factbar">
+<div><dt>Cost</dt><dd>Nothing</dd></div>
+<div><dt>Difficulty</dt><dd>Low</dd></div>
+<div><dt>Switch freely</dt><dd>Yes</dd></div>
+</dl><p>New players treat leaving a clan as rude. It is not. Clans expect turnover, and staying in a dead clan out of politeness costs you months of donations.</p>
 <h2 id="steps">Step by step</h2>
 <ol class="steps">
 <li><b>Check whether donations actually happen</b><p>Open the clan chat. If requests sit unfilled for hours, the clan is dead regardless of how many members it has.</p></li>
@@ -73,18 +84,18 @@
 <p>No. Clans expect turnover and most will not think twice about it. Staying in an inactive clan out of politeness costs you months of free donations, which is the largest free upgrade available to your account.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../wiki/mechanics/clan-wars.html"><img class="thumb" src="../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/clan-wars.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/clan-wars.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Wars</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/clan-castle-troops.html"><img class="thumb" src="../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/clan-castle-troops.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/clan-castle-troops.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Castle troops</span>
 </a>
 <a class="readon-item" href="../tutorials/getting-started.html">
   <span>Getting started</span>
 </a>
-<a class="readon-item hasart" href="../wiki/mechanics/clan-capital-and-raid-weekends.html"><img class="thumb" src="../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../wiki/mechanics/clan-capital-and-raid-weekends.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/clan-capital-and-raid-weekends.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Clan Capital and Raid Weekends</span>
 </a>
 </div>
@@ -92,6 +103,7 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+</div>
 
 <footer class="sitefoot">
   <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>

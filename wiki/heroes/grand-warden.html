@@ -26,11 +26,20 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Grand Warden — Clash of Clans","description":"The Grand Warden in Clash of Clans: the support hero, ground and air modes, and the Eternal Tome.","url":"https://goblinsfarm.com/wiki/heroes/grand-warden.html","dateModified":"2026-09-16","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"},"image":"https://goblinsfarm.com/assets/art/heroes/grand-warden.webp"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Should the Grand Warden be in ground or air mode?","acceptedAnswer":{"@type":"Answer","text":"Match the mode to your army. Ground mode for a ground push, air mode for an air army. Getting this wrong is one of the most common mistakes in the game, because a mismatched Warden walks or flies away from the troops he is meant to be supporting."}},{"@type":"Question","name":"When should I use the Grand Warden's ability?","acceptedAnswer":{"@type":"Answer","text":"At the moment the army enters the range of whatever would otherwise destroy it, rather than early. The ability protects the whole group briefly, so its value depends entirely on how many troops it covers and what they are surviving."}}]}</script>
 <script defer src="/assets/ph.js"></script>
+<script defer src="../../assets/search.js"></script>
 </head>
-<body>
+<body class="tone-dark">
 <header class="sitebar">
   <a class="brand" href="../../">Goblins Farm</a>
-  <nav>
+  <div class="searchbox" data-index="../../assets/search-index.json" data-rel="../../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
     <a href="../../wiki/" aria-current="page">Wiki</a>
     <a href="../../tutorials/">Tutorials</a>
     <a href="../../blog/">Blog</a>
@@ -38,6 +47,66 @@
     <a href="../../#pricing">Bot</a>
   </nav>
 </header>
+
+<div class="shell withrail">
+<aside class="rail" aria-label="Wiki sections">
+  <a class="rail-home" href="../../wiki/">Wiki home</a>
+  <nav class="rail-nav">
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/town-hall/">Town Halls<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/troops/">Troops<span class="rail-n">58</span></a>
+    </div>
+    <div class="rail-sec tone-elixir">
+      <a class="rail-head" href="../../wiki/spells/">Spells<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-dark on">
+      <a class="rail-head" href="../../wiki/heroes/">Heroes<span class="rail-n">6</span></a>
+      <ul class="rail-items">
+        <li><a href="../../wiki/heroes/barbarian-king.html"><img src="../../assets/art/heroes/barbarian-king.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Barbarian King</span></a></li>
+        <li><a href="../../wiki/heroes/archer-queen.html"><img src="../../assets/art/heroes/archer-queen.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Archer Queen</span></a></li>
+        <li><a href="../../wiki/heroes/grand-warden.html" aria-current="page"><img src="../../assets/art/heroes/grand-warden.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Grand Warden</span></a></li>
+        <li><a href="../../wiki/heroes/royal-champion.html"><img src="../../assets/art/heroes/royal-champion.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Royal Champion</span></a></li>
+        <li><a href="../../wiki/heroes/minion-prince.html"><img src="../../assets/art/heroes/minion-prince.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Minion Prince</span></a></li>
+        <li><a href="../../wiki/heroes/dragon-duke.html"><img src="../../assets/art/heroes/dragon-duke.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>Dragon Duke</span></a></li>
+      </ul>
+    </div>
+    <div class="rail-sec tone-ore">
+      <a class="rail-head" href="../../wiki/equipment/">Equipment<span class="rail-n">42</span></a>
+    </div>
+    <div class="rail-sec tone-dark">
+      <a class="rail-head" href="../../wiki/pets/">Pets<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/buildings/">Buildings<span class="rail-n">41</span></a>
+    </div>
+    <div class="rail-sec tone-gold">
+      <a class="rail-head" href="../../wiki/traps/">Traps<span class="rail-n">8</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/troops/">Builder Base Troops<span class="rail-n">12</span></a>
+    </div>
+    <div class="rail-sec tone-builder">
+      <a class="rail-head" href="../../wiki/builder-base/buildings/">Builder Base Buildings<span class="rail-n">31</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/troops/">Capital Troops<span class="rail-n">18</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/spells/">Capital Spells<span class="rail-n">7</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/buildings/">Capital Buildings<span class="rail-n">50</span></a>
+    </div>
+    <div class="rail-sec tone-capital">
+      <a class="rail-head" href="../../wiki/clan-capital/districts/">Capital Districts<span class="rail-n">9</span></a>
+    </div>
+    <div class="rail-sec tone-slate">
+      <a class="rail-head" href="../../wiki/mechanics/">Mechanics<span class="rail-n">23</span></a>
+    </div>
+  </nav>
+</aside>
 
 <main class="doc">
 <div class="crumbs"><a href="../../">Home</a><span>&rsaquo;</span><a href="../../wiki/">Wiki</a><span>&rsaquo;</span><a href="../../wiki/heroes/">Heroes</a><span>&rsaquo;</span>Grand Warden
@@ -47,7 +116,7 @@
     <img src="../../assets/art/heroes/grand-warden.webp" alt="Grand Warden — Clash of Clans — Clash of Clans" width="128" height="128" decoding="async">
   </div>
   <div class="pagehead-text">
-    <h1>Grand Warden — Clash of Clans</h1>
+    <h1>Grand Warden — Clash of Clans</h1><p class="kicker">Heroes</p>
     <div class="tagrow"><span class="tag dark">Hero</span></div>
   </div>
 </div>
@@ -55,26 +124,6 @@
 
 
 <p class="lede">The Grand Warden does modest damage and provides a continuous aura that strengthens nearby troops. His ability protects the whole army for a few seconds, which makes him the hero whose value is almost entirely about everyone else.</p>
-<div class="quick">
-<dl>
-<dt>Levels</dt><dd>85</dd>
-<dt>Unlocked at</dt><dd>Town Hall 11</dd>
-<dt>Upgrade resource</dt><dd>Elixir</dd>
-<dt>Targets</dt><dd>Ground and air</dd>
-<dt>Equipment slots</dt><dd>2</dd>
-<dt>Role</dt><dd>Support hero, ground or air</dd>
-<dt>Upgraded with</dt><dd>Dark elixir</dd>
-<dt>While upgrading</dt><dd>Unavailable for attack and defence</dd>
-</dl>
-</div>
-<div class="toc">
-<h2>On this page</h2>
-<ol>
-<li><a href="#what-he-does">What he does</a></li>
-<li><a href="#how-to-use-him">How to use him</a></li>
-<li><a href="#upgrading-him">Upgrading him</a></li><li><a href="#gear">Equipment for this hero</a></li><li><a href="#stats">Stats by level</a></li><li><a href="#faq">Frequently asked</a></li>
-</ol>
-</div>
 <h2 id="what-he-does">What he does</h2>
 <p>He provides a passive boost to nearby friendly troops and has an ability that shields the army briefly. Crucially he can be set to <strong>ground or air mode</strong>, which determines whether he walks with a ground push or flies with an air one.</p><p>Setting the wrong mode is one of the most common and most costly mistakes in the game: a Warden in ground mode with an air army is a Warden who walks alone into the base and dies.</p>
 <h2 id="how-to-use-him">How to use him</h2>
@@ -82,27 +131,27 @@
 <h2 id="upgrading-him">Upgrading him</h2>
 <p>His contribution is multiplicative rather than additive: he makes the whole army more durable, so his value scales with how expensive your army is. In heavy war compositions he is often the difference between a two and a three star. Upgraded with dark elixir, unavailable while upgrading.</p><div class='note'><p><b>On hero data.</b> Hero tables come from an extracted snapshot that could not be verified against a published reference. Confirm in game before planning around them.</p></div>
 <div class="block">
-<h2 id="gear" class="withmascot"><img class="mascot small" src="../../assets/mascots/shield.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Equipment for this hero</h2>
-<div class="grid">
-<a class="card hasart" href="../../wiki/equipment/eternal-tome.html"><img class="thumb" src="../../assets/art/equipment/eternal-tome.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<h2 id="gear" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/shield.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Equipment for this hero</h2>
+<div class="grid tiles">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/eternal-tome.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/eternal-tome.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Eternal Tome</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/fireball.html"><img class="thumb" src="../../assets/art/equipment/fireball.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/fireball.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/fireball.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Fireball</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/healing-tome.html"><img class="thumb" src="../../assets/art/equipment/healing-tome.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/healing-tome.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/healing-tome.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Healing Tome</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/heroic-torch.html"><img class="thumb" src="../../assets/art/equipment/heroic-torch.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/heroic-torch.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/heroic-torch.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Heroic Torch</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/lavaloon-puppet.html"><img class="thumb" src="../../assets/art/equipment/lavaloon-puppet.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/lavaloon-puppet.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/lavaloon-puppet.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Lavaloon Puppet</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/life-gem.html"><img class="thumb" src="../../assets/art/equipment/life-gem.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/life-gem.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/life-gem.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Life Gem</b></span>
 </a>
-<a class="card hasart" href="../../wiki/equipment/rage-gem.html"><img class="thumb" src="../../assets/art/equipment/rage-gem.webp" alt="" width="56" height="56" loading="lazy" decoding="async">
+<a class="card tile hasart tone-ore" href="../../wiki/equipment/rage-gem.html"><span class="plaque"><img class="thumb" src="../../assets/art/equipment/rage-gem.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></span>
   <span class="cardtext"><b>Rage Gem</b></span>
 </a>
 </div>
@@ -111,127 +160,127 @@
 <h2 id="stats">Stats by level</h2>
 <div class="tablewrap">
 <table><caption>Grand Warden stats by level</caption>
-<thead><tr><th>Level</th><th>Hitpoints</th><th>DPS</th><th>Upgrade cost</th><th>Upgrade time</th><th>Town Hall</th></tr></thead>
+<thead><tr><th class="lvl">Level</th><th>Hitpoints</th><th>DPS</th><th>Upgrade cost</th><th>Upgrade time</th><th>Town Hall</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>850</td><td>43</td><td>—</td><td>—</td><td>11</td></tr>
-<tr><td>2</td><td>868</td><td>44</td><td>1,000,000 Elixir</td><td>2 h</td><td>11</td></tr>
-<tr><td>3</td><td>886</td><td>46</td><td>1,100,000 Elixir</td><td>4 h</td><td>11</td></tr>
-<tr><td>4</td><td>904</td><td>48</td><td>1,200,000 Elixir</td><td>8 h</td><td>11</td></tr>
-<tr><td>5</td><td>923</td><td>49</td><td>1,400,000 Elixir</td><td>10 h</td><td>11</td></tr>
-<tr><td>6</td><td>942</td><td>51</td><td>1,500,000 Elixir</td><td>12 h</td><td>11</td></tr>
-<tr><td>7</td><td>961</td><td>54</td><td>1,700,000 Elixir</td><td>14 h</td><td>11</td></tr>
-<tr><td>8</td><td>982</td><td>56</td><td>1,800,000 Elixir</td><td>16 h</td><td>11</td></tr>
-<tr><td>9</td><td>1,003</td><td>59</td><td>2,000,000 Elixir</td><td>18 h</td><td>11</td></tr>
-<tr><td>10</td><td>1,025</td><td>61</td><td>2,300,000 Elixir</td><td>20 h</td><td>11</td></tr>
-<tr><td>11</td><td>1,048</td><td>64</td><td>2,700,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>12</td><td>1,072</td><td>66</td><td>3,000,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>13</td><td>1,097</td><td>70</td><td>3,400,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>14</td><td>1,122</td><td>73</td><td>3,700,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>15</td><td>1,148</td><td>77</td><td>4,100,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>16</td><td>1,173</td><td>80</td><td>4,400,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>17</td><td>1,199</td><td>83</td><td>4,800,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>18</td><td>1,224</td><td>87</td><td>5,100,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>19</td><td>1,250</td><td>90</td><td>5,500,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>20</td><td>1,275</td><td>94</td><td>6,000,000 Elixir</td><td>1 d</td><td>11</td></tr>
-<tr><td>21</td><td>1,301</td><td>98</td><td>6,100,000 Elixir</td><td>1 d</td><td>12</td></tr>
-<tr><td>22</td><td>1,327</td><td>102</td><td>6,200,000 Elixir</td><td>1 d</td><td>12</td></tr>
-<tr><td>23</td><td>1,354</td><td>106</td><td>6,300,000 Elixir</td><td>1 d</td><td>12</td></tr>
-<tr><td>24</td><td>1,381</td><td>111</td><td>6,400,000 Elixir</td><td>1 d</td><td>12</td></tr>
-<tr><td>25</td><td>1,409</td><td>116</td><td>6,500,000 Elixir</td><td>1 d</td><td>12</td></tr>
-<tr><td>26</td><td>1,438</td><td>121</td><td>6,600,000 Elixir</td><td>1 d 12 h</td><td>12</td></tr>
-<tr><td>27</td><td>1,467</td><td>126</td><td>6,700,000 Elixir</td><td>1 d 12 h</td><td>12</td></tr>
-<tr><td>28</td><td>1,497</td><td>131</td><td>6,800,000 Elixir</td><td>1 d 12 h</td><td>12</td></tr>
-<tr><td>29</td><td>1,527</td><td>137</td><td>6,900,000 Elixir</td><td>1 d 12 h</td><td>12</td></tr>
-<tr><td>30</td><td>1,558</td><td>143</td><td>7,000,000 Elixir</td><td>1 d 12 h</td><td>12</td></tr>
-<tr><td>31</td><td>1,590</td><td>149</td><td>7,100,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>32</td><td>1,622</td><td>155</td><td>7,200,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>33</td><td>1,655</td><td>162</td><td>7,300,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>34</td><td>1,688</td><td>168</td><td>7,400,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>35</td><td>1,722</td><td>175</td><td>7,500,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>36</td><td>1,757</td><td>183</td><td>7,600,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>37</td><td>1,793</td><td>190</td><td>7,700,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>38</td><td>1,829</td><td>198</td><td>7,800,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>39</td><td>1,867</td><td>207</td><td>7,900,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>40</td><td>1,904</td><td>215</td><td>8,000,000 Elixir</td><td>2 d</td><td>12</td></tr>
-<tr><td>41</td><td>1,921</td><td>221</td><td>8,300,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>42</td><td>1,938</td><td>226</td><td>8,600,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>43</td><td>1,955</td><td>230</td><td>8,900,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>44</td><td>1,972</td><td>234</td><td>9,200,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>45</td><td>1,989</td><td>237</td><td>9,500,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>46</td><td>2,006</td><td>241</td><td>9,800,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>47</td><td>2,023</td><td>244</td><td>10,100,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>48</td><td>2,040</td><td>247</td><td>10,400,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>49</td><td>2,057</td><td>251</td><td>10,700,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>50</td><td>2,074</td><td>254</td><td>11,000,000 Elixir</td><td>3 d</td><td>13</td></tr>
-<tr><td>51</td><td>2,091</td><td>258</td><td>11,400,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>52</td><td>2,108</td><td>261</td><td>11,800,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>53</td><td>2,125</td><td>264</td><td>12,200,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>54</td><td>2,142</td><td>268</td><td>12,600,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>55</td><td>2,159</td><td>271</td><td>13,000,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>56</td><td>2,176</td><td>274</td><td>13,400,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>57</td><td>2,193</td><td>276</td><td>13,800,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>58</td><td>2,210</td><td>279</td><td>14,200,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>59</td><td>2,227</td><td>281</td><td>14,600,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>60</td><td>2,244</td><td>284</td><td>15,000,000 Elixir</td><td>4 d</td><td>14</td></tr>
-<tr><td>61</td><td>2,261</td><td>286</td><td>15,500,000 Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>62</td><td>2,278</td><td>289</td><td>16,000,000 Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>63</td><td>2,295</td><td>292</td><td>16,500,000 Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>64</td><td>2,312</td><td>294</td><td>17,000,000 Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>65</td><td>2,329</td><td>297</td><td>17,500,000 Elixir</td><td>6 d</td><td>15</td></tr>
-<tr><td>66</td><td>2,346</td><td>299</td><td>18,000,000 Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>67</td><td>2,363</td><td>302</td><td>18,500,000 Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>68</td><td>2,380</td><td>304</td><td>19,000,000 Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>69</td><td>2,397</td><td>307</td><td>19,500,000 Elixir</td><td>7 d</td><td>16</td></tr>
-<tr><td>70</td><td>2,414</td><td>309</td><td>20,000,000 Elixir</td><td>7 d 12 h</td><td>16</td></tr>
-<tr><td>71</td><td>2,431</td><td>312</td><td>20,500,000 Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>72</td><td>2,448</td><td>315</td><td>21,000,000 Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>73</td><td>2,465</td><td>318</td><td>21,500,000 Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>74</td><td>2,482</td><td>321</td><td>22,000,000 Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>75</td><td>2,499</td><td>324</td><td>22,500,000 Elixir</td><td>8 d</td><td>17</td></tr>
-<tr><td>76</td><td>2,516</td><td>327</td><td>24,000,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>77</td><td>2,533</td><td>330</td><td>25,500,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>78</td><td>2,550</td><td>333</td><td>27,000,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>79</td><td>2,567</td><td>336</td><td>27,500,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>80</td><td>2,584</td><td>339</td><td>28,000,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>81</td><td>2,601</td><td>342</td><td>28,500,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>82</td><td>2,618</td><td>345</td><td>29,000,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>83</td><td>2,635</td><td>348</td><td>29,500,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>84</td><td>2,652</td><td>351</td><td>30,000,000 Elixir</td><td>8 d</td><td>18</td></tr>
-<tr><td>85</td><td>2,669</td><td>354</td><td>30,500,000 Elixir</td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">1</span></td><td>850</td><td>43</td><td>—</td><td>—</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">2</span></td><td>868</td><td>44</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,000,000<span class="visually-hidden"> Elixir</span></span></td><td>2 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">3</span></td><td>886</td><td>46</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,100,000<span class="visually-hidden"> Elixir</span></span></td><td>4 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">4</span></td><td>904</td><td>48</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,200,000<span class="visually-hidden"> Elixir</span></span></td><td>8 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">5</span></td><td>923</td><td>49</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,400,000<span class="visually-hidden"> Elixir</span></span></td><td>10 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">6</span></td><td>942</td><td>51</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,500,000<span class="visually-hidden"> Elixir</span></span></td><td>12 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">7</span></td><td>961</td><td>54</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,700,000<span class="visually-hidden"> Elixir</span></span></td><td>14 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">8</span></td><td>982</td><td>56</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>1,800,000<span class="visually-hidden"> Elixir</span></span></td><td>16 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">9</span></td><td>1,003</td><td>59</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>2,000,000<span class="visually-hidden"> Elixir</span></span></td><td>18 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">10</span></td><td>1,025</td><td>61</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>2,300,000<span class="visually-hidden"> Elixir</span></span></td><td>20 h</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">11</span></td><td>1,048</td><td>64</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>2,700,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">12</span></td><td>1,072</td><td>66</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>3,000,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">13</span></td><td>1,097</td><td>70</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>3,400,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">14</span></td><td>1,122</td><td>73</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>3,700,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">15</span></td><td>1,148</td><td>77</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>4,100,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">16</span></td><td>1,173</td><td>80</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>4,400,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">17</span></td><td>1,199</td><td>83</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>4,800,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">18</span></td><td>1,224</td><td>87</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>5,100,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">19</span></td><td>1,250</td><td>90</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>5,500,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">20</span></td><td>1,275</td><td>94</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,000,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>11</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">21</span></td><td>1,301</td><td>98</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,100,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">22</span></td><td>1,327</td><td>102</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,200,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">23</span></td><td>1,354</td><td>106</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,300,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">24</span></td><td>1,381</td><td>111</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,400,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">25</span></td><td>1,409</td><td>116</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,500,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">26</span></td><td>1,438</td><td>121</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,600,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d 12 h</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">27</span></td><td>1,467</td><td>126</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,700,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d 12 h</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">28</span></td><td>1,497</td><td>131</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,800,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d 12 h</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">29</span></td><td>1,527</td><td>137</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>6,900,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d 12 h</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">30</span></td><td>1,558</td><td>143</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,000,000<span class="visually-hidden"> Elixir</span></span></td><td>1 d 12 h</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">31</span></td><td>1,590</td><td>149</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,100,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">32</span></td><td>1,622</td><td>155</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,200,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">33</span></td><td>1,655</td><td>162</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,300,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">34</span></td><td>1,688</td><td>168</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,400,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">35</span></td><td>1,722</td><td>175</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,500,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">36</span></td><td>1,757</td><td>183</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,600,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">37</span></td><td>1,793</td><td>190</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,700,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">38</span></td><td>1,829</td><td>198</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,800,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">39</span></td><td>1,867</td><td>207</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>7,900,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">40</span></td><td>1,904</td><td>215</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>8,000,000<span class="visually-hidden"> Elixir</span></span></td><td>2 d</td><td>12</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">41</span></td><td>1,921</td><td>221</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>8,300,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">42</span></td><td>1,938</td><td>226</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>8,600,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">43</span></td><td>1,955</td><td>230</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>8,900,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">44</span></td><td>1,972</td><td>234</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>9,200,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">45</span></td><td>1,989</td><td>237</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>9,500,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">46</span></td><td>2,006</td><td>241</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>9,800,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">47</span></td><td>2,023</td><td>244</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>10,100,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">48</span></td><td>2,040</td><td>247</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>10,400,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">49</span></td><td>2,057</td><td>251</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>10,700,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">50</span></td><td>2,074</td><td>254</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>11,000,000<span class="visually-hidden"> Elixir</span></span></td><td>3 d</td><td>13</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">51</span></td><td>2,091</td><td>258</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>11,400,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">52</span></td><td>2,108</td><td>261</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>11,800,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">53</span></td><td>2,125</td><td>264</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>12,200,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">54</span></td><td>2,142</td><td>268</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>12,600,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">55</span></td><td>2,159</td><td>271</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>13,000,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">56</span></td><td>2,176</td><td>274</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>13,400,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">57</span></td><td>2,193</td><td>276</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>13,800,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">58</span></td><td>2,210</td><td>279</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>14,200,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">59</span></td><td>2,227</td><td>281</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>14,600,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">60</span></td><td>2,244</td><td>284</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>15,000,000<span class="visually-hidden"> Elixir</span></span></td><td>4 d</td><td>14</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">61</span></td><td>2,261</td><td>286</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>15,500,000<span class="visually-hidden"> Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">62</span></td><td>2,278</td><td>289</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>16,000,000<span class="visually-hidden"> Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">63</span></td><td>2,295</td><td>292</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>16,500,000<span class="visually-hidden"> Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">64</span></td><td>2,312</td><td>294</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>17,000,000<span class="visually-hidden"> Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">65</span></td><td>2,329</td><td>297</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>17,500,000<span class="visually-hidden"> Elixir</span></span></td><td>6 d</td><td>15</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">66</span></td><td>2,346</td><td>299</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>18,000,000<span class="visually-hidden"> Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">67</span></td><td>2,363</td><td>302</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>18,500,000<span class="visually-hidden"> Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">68</span></td><td>2,380</td><td>304</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>19,000,000<span class="visually-hidden"> Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">69</span></td><td>2,397</td><td>307</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>19,500,000<span class="visually-hidden"> Elixir</span></span></td><td>7 d</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">70</span></td><td>2,414</td><td>309</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>20,000,000<span class="visually-hidden"> Elixir</span></span></td><td>7 d 12 h</td><td>16</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">71</span></td><td>2,431</td><td>312</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>20,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">72</span></td><td>2,448</td><td>315</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>21,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">73</span></td><td>2,465</td><td>318</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>21,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">74</span></td><td>2,482</td><td>321</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>22,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">75</span></td><td>2,499</td><td>324</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>22,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>17</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">76</span></td><td>2,516</td><td>327</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>24,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">77</span></td><td>2,533</td><td>330</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>25,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">78</span></td><td>2,550</td><td>333</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>27,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">79</span></td><td>2,567</td><td>336</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>27,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">80</span></td><td>2,584</td><td>339</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>28,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">81</span></td><td>2,601</td><td>342</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>28,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">82</span></td><td>2,618</td><td>345</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>29,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">83</span></td><td>2,635</td><td>348</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>29,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">84</span></td><td>2,652</td><td>351</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>30,000,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
+<tr><td class="lvl"><span class="lvlbadge">85</span></td><td>2,669</td><td>354</td><td><span class="res elixir" title="Elixir"><i aria-hidden="true"></i>30,500,000<span class="visually-hidden"> Elixir</span></span></td><td>8 d</td><td>18</td></tr>
 </tbody>
 </table>
 </div>
-<div class="note speaks"><img class="mascot" src="../../assets/mascots/magnify.webp" alt="" width="90" height="90" loading="lazy" decoding="async">
+<div class="note speaks"><span class="medallion"><img class="mascot" src="../../assets/mascots/magnify.webp" alt="" width="90" height="90" loading="lazy" decoding="async"></span>
 <div>
-<p><b>Where these numbers come from.</b> Read from <a href="https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>18.400.21</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.</p><p style="font-size:13px;color:#9a8567;margin-bottom:0">Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.</p>
+<p><b>Where these numbers come from.</b> Read from <a href="https://game-assets.clashofclans.com/7f04bdfdc4124b1f49308423bb8f4aa8b137aae3/" rel="nofollow noopener" target="_blank">Clash of Clans' own game files</a>, client build <strong>18.400.21</strong>. They are exact for that build and do not reflect anything released after it, so verify in game before committing an upgrade.</p><p class="attrib">Game values are read from Supercell's own game files, reproduced as fan content under Supercell's Fan Content Policy. Goblins Farm is not affiliated with, endorsed, sponsored, or specifically approved by Supercell, and Supercell is not responsible for it.</p>
 </div>
 </div>
 </div>
-<h2 id="faq" class="withmascot"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Frequently asked</h2>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
 <h3>Should the Grand Warden be in ground or air mode?</h3>
 <p>Match the mode to your army. Ground mode for a ground push, air mode for an air army. Getting this wrong is one of the most common mistakes in the game, because a mismatched Warden walks or flies away from the troops he is meant to be supporting.</p>
 <h3>When should I use the Grand Warden's ability?</h3>
 <p>At the moment the army enters the range of whatever would otherwise destroy it, rather than early. The ability protects the whole group briefly, so its value depends entirely on how many troops it covers and what they are surviving.</p>
 
 <div class="related">
-<h2 class="withmascot"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async">Keep reading</h2>
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
 <div class="readon">
-<a class="readon-item hasart" href="../../wiki/town-hall/town-hall-11.html"><img class="thumb" src="../../assets/art/townhalls/town-hall-11.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/town-hall/town-hall-11.html"><span class="plaque sm"><img class="thumb" src="../../assets/art/townhalls/town-hall-11.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Town Hall 11</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/dark-elixir.html"><img class="thumb" src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/dark-elixir.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/dark-elixir.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Dark elixir</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/troops/apprentice-warden.html"><img class="thumb" src="../../assets/art/troops/apprentice-warden.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/troops/apprentice-warden.html"><span class="plaque sm"><img class="thumb" src="../../assets/art/troops/apprentice-warden.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Apprentice Warden</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/heroes/royal-champion.html"><img class="thumb" src="../../assets/art/heroes/royal-champion.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/heroes/royal-champion.html"><span class="plaque sm"><img class="thumb" src="../../assets/art/heroes/royal-champion.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Royal Champion</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/hero-equipment.html"><img class="thumb" src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/hero-equipment.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Hero Equipment</span>
 </a>
-<a class="readon-item hasart" href="../../wiki/mechanics/spell-mechanics.html"><img class="thumb" src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
+<a class="readon-item hasart" href="../../wiki/mechanics/spell-mechanics.html"><span class="plaque sm"><img class="thumb" src="../../assets/icons/mechanics/spell-mechanics.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
   <span>Spell mechanics</span>
 </a>
 </div>
@@ -239,6 +288,35 @@
 
 <p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
 </main>
+<aside class="statrail">
+<div class="infobox tone-dark wordy">
+  <div class="ib-title">Grand Warden — Clash of Clans</div>
+  <div class="ib-art">
+    <img src="../../assets/art/heroes/grand-warden.webp" alt="Grand Warden — Clash of Clans — Clash of Clans" width="200" height="200" decoding="async">
+  </div>
+  <div class="ib-tags"><span class="tag dark">Hero</span></div>
+  <dl class="ib-rows">
+    <div class="ib-row"><dt>Levels</dt><dd>85</dd></div>
+    <div class="ib-row"><dt>Unlocked at</dt><dd>Town Hall 11</dd></div>
+    <div class="ib-row"><dt>Upgrade resource</dt><dd>Elixir</dd></div>
+    <div class="ib-row"><dt>Targets</dt><dd>Ground and air</dd></div>
+    <div class="ib-row"><dt>Equipment slots</dt><dd>2</dd></div>
+    <div class="ib-row"><dt>Role</dt><dd>Support hero, ground or air</dd></div>
+    <div class="ib-row"><dt>Upgraded with</dt><dd>Dark elixir</dd></div>
+    <div class="ib-row"><dt>While upgrading</dt><dd>Unavailable for attack and defence</dd></div>
+  </dl><div class="ib-foot"><a href="../../wiki/heroes/">All heroes</a></div>
+</div>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#what-he-does">What he does</a></li>
+<li><a href="#how-to-use-him">How to use him</a></li>
+<li><a href="#upgrading-him">Upgrading him</a></li><li><a href="#gear">Equipment for this hero</a></li><li><a href="#stats">Stats by level</a></li><li><a href="#faq">Frequently asked</a></li>
+</ol>
+</nav>
+</aside>
+
+</div>
 
 <footer class="sitefoot">
   <p><a href="../../wiki/">Wiki</a> &middot; <a href="../../tutorials/">Tutorials</a> &middot; <a href="../../news/">News</a> &middot; <a href="../../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
