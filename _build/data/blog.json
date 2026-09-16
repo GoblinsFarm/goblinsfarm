@@ -1,0 +1,767 @@
+{
+  "hub": {
+    "h1": "Clash of Clans Blog",
+    "head_title": "Clash of Clans Blog — Strategy, Progression and the Numbers Behind Them",
+    "description": "Clash of Clans strategy and progression writing: which attack to learn at your Town Hall, what to upgrade, what to spend, and what the game's own files say about all of it.",
+    "summary": "Longer pieces about playing Clash of Clans well. Where the wiki answers what something is and the tutorials answer how to do it, this is where we argue about what is worth doing — usually with the game's own numbers behind the argument.",
+    "sections": [
+      {
+        "h": "What gets written here",
+        "body": "<ul><li><strong>Strategy,</strong> meaning which army to learn at your Town Hall and why, rather than a list of every army that exists.</li><li><strong>Progression and decisions</strong> — what to upgrade first, what a Town Hall really costs, whether a purchase is worth making.</li><li><strong>Numbers,</strong> summed from the game files rather than repeated from other sites. When we claim a total, the method is in the post.</li></ul><p>What does not get written here: leaks presented as fact, and anything that needs you to already be good at the game to follow it.</p>"
+      },
+      {
+        "h": "Where to start",
+        "body": "<p>New to the game, or coming back after years away, start with <a href='starting-clash-of-clans-in-2026.html'>starting Clash of Clans in 2026</a>. Stuck rather than new, read <a href='why-your-clash-of-clans-account-stalls.html'>why your account stalls</a>. Curious how deep the well goes, <a href='how-long-to-max-clash-of-clans.html'>we added up every upgrade in the game</a>.</p><p>Every post appears in the <a href='feed.xml'>RSS feed</a>, which works in any reader and needs no account.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is this official Supercell content?",
+        "a": "No. This is independent fan writing and is not affiliated with, endorsed by or approved by Supercell. For official announcements and support, use Supercell's own channels."
+      },
+      {
+        "q": "Where do the numbers in these posts come from?",
+        "a": "They are summed from Clash of Clans' own game files, the same source the wiki stat tables are built from. Each post states its method, and the game version is printed under every table on the site."
+      }
+    ],
+    "related": [
+      {
+        "href": "wiki/",
+        "label": "The wiki — reference pages for every troop, spell and defence"
+      },
+      {
+        "href": "tutorials/",
+        "label": "Tutorials — step-by-step routines"
+      },
+      {
+        "href": "news/",
+        "label": "News — update coverage and balance analysis"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "slug": "how-long-to-max-clash-of-clans",
+      "name": "How long it actually takes to max Clash of Clans",
+      "h1": "How Long Does It Actually Take to Max Clash of Clans? We Added Up the Game Files",
+      "head_title": "How Long It Takes to Max Clash of Clans — The Real Numbers",
+      "description": "We summed every upgrade in Clash of Clans' own game files. A maxed Town Hall 18 costs about 15.4 billion gold and over 6,700 days of timers. Here is the full breakdown.",
+      "summary": "Everybody has a number for this and almost nobody says where it came from. So we added it up from the game's own files: every building level, every research, every hero level, every pet. The total is larger than most players expect, and the shape of it is more interesting than the size.",
+      "banner": "progression",
+      "tags": [
+        {
+          "label": "Progression"
+        },
+        {
+          "label": "Data"
+        }
+      ],
+      "sections": [
+        {
+          "h": "How we counted",
+          "body": "<p>Every figure below is summed from the same game files the <a href='../wiki/'>wiki tables</a> are built from, not from a community spreadsheet. For each building we took the number you are allowed to place at Town Hall 18, multiplied it by the cost and build time of every level up to the highest one Town Hall 18 permits, and added the lot together. Research, hero levels and pet levels were summed the same way.</p><p>Two honest limits before the numbers. First, these are <strong>raw timers</strong>: no books, no hammers, no potions, no Gold Pass discount, no event boosts. Second, build time is reported in <em>builder-days</em>, because five builders working in parallel finish 3,463 builder-days of work in roughly 693 calendar days. Research is different — there is one laboratory, so lab days are calendar days.</p><p><a href='../news/how-we-source-wiki-numbers.html'>How we source these numbers</a> covers where the files come from and what is deliberately left blank.</p>"
+        },
+        {
+          "h": "The village: 3,463 builder-days and 15.4 billion gold",
+          "body": "<p>Placing and maxing every building and trap a Town Hall 18 village is allowed to hold comes to <strong>7,691 individual upgrades</strong>, <strong>3,463 builder-days</strong>, <strong>15.38 billion gold</strong>, <strong>1.60 billion elixir</strong> and 2.37 million dark elixir.</p><p>With five builders' huts — the most the files let you place — that is about <strong>693 days of wall-to-wall building</strong>, assuming a builder is never idle for a second, which for a real account it will be.</p><p>The single most important line in that total is walls. A Town Hall 18 village holds <strong>325 wall segments</strong>, each costing <strong>34,491,000 gold</strong> to reach level 19. That is <strong>11.2 billion gold</strong>, or <strong>73% of every gold coin the village will ever need</strong>, spent on something that takes no builder time at all.</p><div class='note'><p><b>The practical consequence.</b> Gold is not your bottleneck until walls are, and then gold is the only bottleneck. This is why experienced players treat surplus gold as wall gold and never let a builder sit idle waiting for it.</p></div>"
+        },
+        {
+          "h": "The laboratory: 2,476 days, and it cannot be parallelised",
+          "body": "<p>Taking every troop, siege machine and spell to the maximum level Town Hall 18 allows is <strong>427 research upgrades</strong> costing <strong>2.61 billion elixir</strong> and 18.6 million dark elixir.</p><p>It also takes <strong>2,476 days of laboratory time</strong>. Just under <strong>seven years</strong>. There is one laboratory, research runs one at a time, and unlike building there is no way to buy your way around that with more builders.</p><p>Split out: troops and siege machines are 1,792 days across 313 researches, spells are 684 days across 114.</p><p>Nobody maxes the whole lab, and nobody should. What this number really tells you is that <strong>research choice is the highest-stakes decision you make repeatedly</strong>. A wasted fortnight in the lab is a fortnight you do not get back, which is why the advice to research what you actually attack with, rather than what is cheapest, is worth more than it sounds.</p>"
+        },
+        {
+          "h": "Heroes: 1,789 days and 57.5 million dark elixir",
+          "body": "<p>Six heroes, 474 levels between them at Town Hall 18:</p><ul><li><strong>Barbarian King</strong> — 109 levels, 403 days, 15.16M dark elixir</li><li><strong>Archer Queen</strong> — 109 levels, 403 days, 15.16M dark elixir</li><li><strong>Minion Prince</strong> — 94 levels, 360 days, 12.36M dark elixir</li><li><strong>Grand Warden</strong> — 84 levels, 302 days, <strong>990.7M elixir</strong> and no dark elixir at all</li><li><strong>Royal Champion</strong> — 54 levels, 201 days, 9.17M dark elixir</li><li><strong>Dragon Duke</strong> — 24 levels, 119 days, 5.64M dark elixir</li></ul><p>The <a href='../wiki/heroes/grand-warden.html'>Grand Warden</a> being the one hero funded entirely by elixir is worth remembering: he is the hero you can push while your dark elixir is committed elsewhere.</p>"
+        },
+        {
+          "h": "Pets: another 743 days",
+          "body": "<p>Twelve pets, 138 upgrades, <strong>743 days</strong> and <strong>22.8 million dark elixir</strong>. The Pet House runs on its own track, so those days do not compete with the laboratory, but the dark elixir absolutely competes with your heroes.</p>"
+        },
+        {
+          "h": "The total, and the resource that actually gates it",
+          "body": "<p>Adding the four tracks together for a complete Town Hall 18 account:</p><ul><li><strong>About 15.4 billion gold</strong></li><li><strong>About 5.2 billion elixir</strong></li><li><strong>About 101 million dark elixir</strong></li><li><strong>8,730 separate upgrades</strong></li></ul><p>Now put that dark elixir figure against the storage it has to pass through. A Town Hall 18 Dark Elixir Storage holds <strong>50,000</strong>. To spend 101 million you must fill and empty that storage <strong>roughly 2,000 times</strong>.</p><p>That is the real shape of the late game, and it is why <a href='../wiki/mechanics/dark-elixir.html'>dark elixir</a> is the resource that decides how fast an account moves. Gold and elixir arrive in quantities that eventually embarrass you. Dark elixir never does.</p>"
+        },
+        {
+          "h": "What actually shortens this",
+          "body": "<p>The 6,700-plus days of timers above are the price with no tools used. Real accounts do much better, and the levers are known:</p><ul><li><strong>Magic items</strong>, used on the longest timer available rather than the most convenient one. A Book of Heroes on a 14-day upgrade is worth seven times the same book on a two-day one. See <a href='../wiki/mechanics/magic-items.html'>magic items</a>.</li><li><strong>The Gold Pass</strong>, whose cost and time reductions apply to everything you start that month — which is only worth anything if you are actually upgrading constantly. Our take: <a href='is-the-gold-pass-worth-it.html'>is the Gold Pass worth it</a>.</li><li><strong>Never having an idle builder</strong>, which sounds trivial and is the single largest difference between two accounts of the same age.</li><li><strong>Not rushing</strong>, because loot available to you is set by the Town Hall you attack, not the one you own. <a href='../tutorials/avoid-rushing.html'>Rushing costs more than it saves</a>.</li></ul>"
+        },
+        {
+          "h": "So how long, in years?",
+          "body": "<p>For a player who logs in twice a day, keeps builders busy, keeps the lab running and keeps a hero upgrading, a realistic path from a fresh account to a genuinely maxed Town Hall 18 is <strong>several years</strong>, not several months, and the laboratory's seven years of raw research time is the reason the honest answer is not shorter.</p><p>The useful conclusion is not to despair at the total. It is that <strong>the total is dominated by things that run whether you are watching or not</strong>. An account that never has an idle builder, an empty lab or a hero sitting at home will beat an account that plays twice as many hours but leaves those three slots empty. That is the whole game, and it is why the <a href='../tutorials/upgrade-order.html'>upgrade order</a> question matters more than attack skill for most players.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does it take to max Town Hall 18?",
+          "a": "Summed from the game files with no magic items or Gold Pass discounts, a full Town Hall 18 account is about 3,463 builder-days of construction, 2,476 days of laboratory research, 1,789 days of hero upgrades and 743 days of pet upgrades, costing roughly 15.4 billion gold, 5.2 billion elixir and 101 million dark elixir."
+        },
+        {
+          "q": "What is the most expensive thing in Clash of Clans?",
+          "a": "Walls, by a wide margin. A Town Hall 18 village holds 325 wall segments at 34,491,000 gold each to reach level 19, which is 11.2 billion gold — about 73% of all the gold a maxed village needs."
+        },
+        {
+          "q": "Why does maxing the laboratory take so long?",
+          "a": "Because there is only one laboratory and research runs one upgrade at a time. Building can be parallelised across five builders; research cannot be parallelised at all, so the 2,476 days of research are 2,476 calendar days."
+        },
+        {
+          "q": "Which resource runs out first in the late game?",
+          "a": "Dark elixir. Heroes, pets and dark troop research need about 101 million of it, and a Town Hall 18 storage only holds 50,000 at a time, so it has to pass through your storage roughly 2,000 times."
+        }
+      ],
+      "related": [
+        "mechanics:dark-elixir",
+        "mechanics:upgrade-priority",
+        "tutorials:upgrade-order",
+        "news:how-we-source-wiki-numbers"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "attack-strategies-by-town-hall",
+      "name": "Attack strategies by Town Hall",
+      "h1": "Clash of Clans Attack Strategies by Town Hall: What to Learn at Every Level",
+      "head_title": "Clash of Clans Attack Strategies by Town Hall (TH7–TH18)",
+      "description": "Which attack strategy to learn at each Town Hall in Clash of Clans, what unlocks when, and why learning one army properly beats knowing five badly.",
+      "summary": "The question players ask is which army is best. The question that actually improves their attacking is which army they should learn properly at the level they are on now. Those have different answers, and the second one is answerable from what the game unlocks at each Town Hall.",
+      "banner": "attack",
+      "tags": [
+        {
+          "label": "Attacking"
+        },
+        {
+          "label": "Strategy"
+        }
+      ],
+      "sections": [
+        {
+          "h": "One army, learned properly",
+          "body": "<p>Attacking in Clash of Clans is not a knowledge problem. Almost every player can name four or five strategies. Very few can execute one to a reliable three stars, and the gap between those two states is entirely repetition.</p><p>So the recommendation that runs through all of this: <strong>pick one army for your Town Hall, research it, and attack with nothing else for a few hundred attacks.</strong> Your results improve far faster than they would by cycling through armies, and — this is the part people forget — the laboratory is the constraint. Research applies permanently, it runs one upgrade at a time, and spreading it thinly across four armies leaves you with four bad ones.</p><div class='note'><p><b>Worth knowing if you read older guides.</b> Troops have no training cost and no training time in the current game — those columns do not exist in the game files. What an attack actually spends is the <a href='../wiki/mechanics/matchmaking-and-search.html'>search fee</a> (1,700 gold at Town Hall 18) and your time. Any guide still doing 'is this army worth the loot' arithmetic is running on a rule the game deleted.</p></div>"
+        },
+        {
+          "h": "Town Hall 7–8: dragons, and learning to place a funnel",
+          "body": "<p>The <a href='../wiki/troops/dragon.html'>Dragon</a> unlocks at Town Hall 7 and costs 20 housing space. Mass dragons with a couple of <a href='../wiki/spells/rage-spell.html'>rage spells</a> is the classic first real army, and it is classic for a good reason: it is forgiving. Air defences are few, dragons are tanky, and a bad deployment still often three-stars.</p><p>Use it as a teaching tool rather than a crutch. What you should be learning here is the thing that matters at every level afterwards: <a href='../wiki/mechanics/funnelling.html'>funnelling</a>, which is the act of clearing the outside buildings on two sides so your main force walks into the core instead of around it. An army that funnels badly fails identically at Town Hall 7 and Town Hall 17.</p><p>Town Hall 8 adds the <a href='../wiki/troops/golem.html'>Golem</a>, the <a href='../wiki/troops/pekka.html'>P.E.K.K.A</a> and the <a href='../wiki/troops/valkyrie.html'>Valkyrie</a>, and with them your first ground army worth practising. It also unlocks the <a href='../wiki/heroes/archer-queen.html'>Archer Queen</a>, which is the single biggest attacking upgrade available to you for the next several Town Halls.</p>"
+        },
+        {
+          "h": "Town Hall 9–10: the level where attacking becomes a skill",
+          "body": "<p>Town Hall 9 unlocks the <a href='../wiki/troops/witch.html'>Witch</a>, the <a href='../wiki/troops/lava-hound.html'>Lava Hound</a>, the <a href='../wiki/troops/baby-dragon.html'>Baby Dragon</a> and the <a href='../wiki/heroes/minion-prince.html'>Minion Prince</a>. Town Hall 10 adds the <a href='../wiki/troops/miner.html'>Miner</a> and the <a href='../wiki/troops/bowler.html'>Bowler</a>.</p><p>This is the band where the game stops handing you three stars and starts asking for technique. Two things to learn here, in this order:</p><ul><li><strong>Queen walks.</strong> Sending the Archer Queen in with healers to carve a path and kill a key defence is the most transferable skill in the game, and it stays relevant to the very top.</li><li><strong>Luring the defending Clan Castle.</strong> More attacks fail to defending castle troops than to any single defence. The <a href='../tutorials/clan-castle-lure.html'>lure tutorial</a> is worth an evening.</li></ul><p>Miners are the notable Town Hall 10 unlock because they travel underground, ignoring walls entirely, and they cost 6 housing space and elixir rather than dark elixir — which makes them unusually cheap to keep researched while your dark elixir goes to heroes.</p>"
+        },
+        {
+          "h": "Town Hall 11–12: the Warden changes the maths",
+          "body": "<p>Town Hall 11 unlocks the <a href='../wiki/heroes/grand-warden.html'>Grand Warden</a>, the <a href='../wiki/troops/electro-dragon.html'>Electro Dragon</a> and the <a href='../wiki/troops/ice-golem.html'>Ice Golem</a>. Town Hall 12 adds the <a href='../wiki/troops/yeti.html'>Yeti</a>, the <a href='../wiki/troops/headhunter.html'>Headhunter</a> and the Workshop.</p><p>The Warden is the hero that makes armies survive things they should not, and his ability is a timing decision rather than a placement decision — which is a genuinely new skill. Learn to hold it rather than tapping it on deployment.</p><p>The Workshop matters more than it looks. <a href='../wiki/mechanics/siege-machines.html'>Siege machines</a> carry your donated Clan Castle troops into the middle of a base rather than making them walk there. Attacking at Town Hall 12 or above without requesting one is voluntarily throwing away the best free troops you get.</p>"
+        },
+        {
+          "h": "Town Hall 13–15: specialists",
+          "body": "<p>Town Hall 13 brings the <a href='../wiki/heroes/royal-champion.html'>Royal Champion</a>, the <a href='../wiki/troops/dragon-rider.html'>Dragon Rider</a> and the <a href='../wiki/troops/apprentice-warden.html'>Apprentice Warden</a>. Town Hall 14 adds the <a href='../wiki/troops/druid.html'>Druid</a> and the <a href='../wiki/troops/electro-titan.html'>Electro Titan</a>. Town Hall 15 adds the <a href='../wiki/troops/root-rider.html'>Root Rider</a>, the <a href='../wiki/troops/furnace.html'>Furnace</a> and the <a href='../wiki/heroes/dragon-duke.html'>Dragon Duke</a>.</p><p>The armies at this band are less about a single carry unit and more about a package: a tank that absorbs, a damage core behind it, a support unit that keeps the core alive, and heroes used as a fifth element rather than a clean-up crew. Root Riders are worth singling out because they attack walls directly on the way through, which changes what base compartmentalisation does to you.</p>"
+        },
+        {
+          "h": "Town Hall 16–18: the top of the game",
+          "body": "<p>Town Hall 16 unlocks the <a href='../wiki/troops/thrower.html'>Thrower</a> and the <a href='../wiki/troops/ruin-witch.html'>Ruin Witch</a>; Town Hall 17 the <a href='../wiki/troops/meteor-golem.html'>Meteor Golem</a> at 40 housing space.</p><p>What actually separates players here is not army knowledge. It is hero levels, equipment, and the willingness to plan an attack for thirty seconds before the timer starts. At this level the <a href='../wiki/mechanics/hero-equipment.html'>equipment</a> you have levelled often matters more than the troops behind it.</p>"
+        },
+        {
+          "h": "The part that is not the army",
+          "body": "<p>Every band above has the same three failure modes, and none of them are fixed by a different troop composition:</p><ol><li><strong>No funnel.</strong> Your army walks the perimeter and times out at 60%. Fix: two sides cleared before the main force lands.</li><li><strong>Defending Clan Castle untouched.</strong> Your core dies to troops you never saw. Fix: lure first, every time.</li><li><strong>Spells held too long.</strong> A rage spell dropped after the damage has already happened did nothing. Fix: decide the spell plan before deploying, not during.</li></ol><p>If you fix those three at any Town Hall, your results improve more than any army swap will deliver.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best attack strategy in Clash of Clans?",
+          "a": "There is no single best one. The best army for you is the one you have researched and have practised enough to execute reliably. At most Town Halls, an army you have used 200 times will outperform a theoretically stronger one you have used ten times."
+        },
+        {
+          "q": "What is the easiest attack strategy to learn?",
+          "a": "Mass dragons from Town Hall 7 onwards. Dragons are durable, the deployment is forgiving, and it lets you practise funnelling and spell timing without also managing a fragile ground army."
+        },
+        {
+          "q": "Why does my attack always stop at around 60%?",
+          "a": "Almost always a funnelling failure: the army found buildings on the outside and walked around the base instead of into it. Clear the outside buildings on two sides first so the path of least resistance points at the core."
+        },
+        {
+          "q": "Do I need a siege machine?",
+          "a": "From Town Hall 12 onwards, effectively yes. Siege machines carry your Clan Castle troops into the core instead of making them walk in from the edge, and they are donatable, so the cost to you is a request."
+        }
+      ],
+      "related": [
+        "mechanics:funnelling",
+        "mechanics:siege-machines",
+        "tutorials:clan-castle-lure",
+        "tutorials:dragon-attack"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "which-hero-to-upgrade-first",
+      "name": "Which hero to upgrade first",
+      "h1": "Which Hero Should You Upgrade First in Clash of Clans?",
+      "head_title": "Which Hero to Upgrade First in Clash of Clans | Goblins Farm",
+      "description": "Which Clash of Clans hero to upgrade first, with the real dark elixir and time costs of every hero from the game files, and a rule that works at any Town Hall.",
+      "summary": "Heroes are the longest timers and the biggest attacking upgrades in the game, and they are unavailable while they upgrade. That combination makes the ordering question genuinely expensive to get wrong. Here is what each hero costs in full, and the rule that decides the order.",
+      "banner": "heroes",
+      "tags": [
+        {
+          "label": "Heroes"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What each hero actually costs",
+          "body": "<p>Summed from the game files, taking each hero from unlock to the maximum level Town Hall 18 allows:</p><ul><li><strong><a href='../wiki/heroes/barbarian-king.html'>Barbarian King</a></strong> — unlocks at Town Hall 4, 109 upgrades, <strong>403 days</strong>, 15.16M dark elixir</li><li><strong><a href='../wiki/heroes/archer-queen.html'>Archer Queen</a></strong> — unlocks at Town Hall 8, 109 upgrades, <strong>403 days</strong>, 15.16M dark elixir</li><li><strong><a href='../wiki/heroes/minion-prince.html'>Minion Prince</a></strong> — unlocks at Town Hall 9, 94 upgrades, <strong>360 days</strong>, 12.36M dark elixir</li><li><strong><a href='../wiki/heroes/grand-warden.html'>Grand Warden</a></strong> — unlocks at Town Hall 11, 84 upgrades, <strong>302 days</strong>, 990.7M <em>elixir</em></li><li><strong><a href='../wiki/heroes/royal-champion.html'>Royal Champion</a></strong> — unlocks at Town Hall 13, 54 upgrades, <strong>201 days</strong>, 9.17M dark elixir</li><li><strong><a href='../wiki/heroes/dragon-duke.html'>Dragon Duke</a></strong> — unlocks at Town Hall 15, 24 upgrades, <strong>119 days</strong>, 5.64M dark elixir</li></ul><p>That is <strong>57.5 million dark elixir</strong> across five heroes, plus 991 million elixir for the sixth. Heroes are where your dark elixir goes, and it is not close.</p>"
+        },
+        {
+          "h": "The one rule",
+          "body": "<p><strong>Upgrade the hero that is doing the most work in the attack you actually use.</strong> Everything else is a refinement of that sentence.</p><p>This sounds obvious and is routinely ignored, because players upgrade whichever hero is cheapest or whichever one the internet named. If your army leans on a Queen walk, the Queen is your priority even when the King is cheaper. If you attack with air, the Warden's air mode and the Minion Prince are doing more for you than the King ever will.</p>"
+        },
+        {
+          "h": "The default order, if you have no opinion yet",
+          "body": "<ol><li><strong>Archer Queen.</strong> Ranged, hits air and ground, and is the hero most attack strategies are built around. She also enables the Queen walk, which is the most transferable attacking skill in the game.</li><li><strong>Grand Warden</strong>, from Town Hall 11. He costs <em>elixir</em>, not dark elixir, which means he upgrades on a resource you have in surplus while your dark elixir is committed elsewhere. This is the closest thing to a free hero level in the game and a lot of players miss it.</li><li><strong>Barbarian King.</strong> Durable, ground-only, and the most forgiving hero to have unavailable for a fortnight.</li><li><strong>Minion Prince and Royal Champion</strong>, ordered by which one your army uses.</li></ol><div class='note'><p><b>The Warden point again, because it is the actionable one.</b> 990.7 million elixir and zero dark elixir. If your dark elixir is the bottleneck — and after Town Hall 11 it always is — the Warden is the hero you can push without slowing anything else down.</p></div>"
+        },
+        {
+          "h": "Timing: the part that costs people weeks",
+          "body": "<p>A hero being upgraded is unavailable for attack <em>and</em> defence. That has three consequences worth planning around:</p><ul><li><strong>Start long hero upgrades when you do not need the hero.</strong> Not the day before Clan War League.</li><li><strong>Do not stack them.</strong> Two heroes down at once turns a competent account into one that cannot three-star anything for a fortnight.</li><li><strong>Never leave a hero idle.</strong> A hero sitting at home is the only truly wasted time in the game, because hero timers are the longest ones you have. If you cannot afford the next level, that is a farming problem to fix today, not a reason to leave the slot empty.</li></ul><p>More on the scheduling side in <a href='../tutorials/hero-management.html'>hero upgrade management</a>.</p>"
+        },
+        {
+          "h": "Where equipment fits",
+          "body": "<p>Since <a href='../wiki/mechanics/hero-equipment.html'>hero equipment</a> arrived, hero level is no longer the whole story. Equipment is upgraded with ores rather than dark elixir, which means it progresses on a track that does not compete with your hero levels at all.</p><p>Practical version: <strong>levelling a piece of equipment you actually use is often a bigger attacking gain than the next hero level</strong>, and it costs you nothing from the dark elixir budget. Do both. They are not the same queue.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which hero should I upgrade first in Clash of Clans?",
+          "a": "The Archer Queen, for most players. She hits air and ground, most attack strategies are built around her, and she enables the Queen walk. The exception is the Grand Warden from Town Hall 11, who costs elixir rather than dark elixir and can therefore be levelled without slowing anything else down."
+        },
+        {
+          "q": "How much dark elixir do heroes cost in total?",
+          "a": "About 57.5 million dark elixir to max the Barbarian King, Archer Queen, Minion Prince, Royal Champion and Dragon Duke at Town Hall 18. The Grand Warden costs no dark elixir at all — he needs about 990.7 million elixir instead."
+        },
+        {
+          "q": "Should I upgrade two heroes at once?",
+          "a": "Generally no. A hero is unavailable for attack and defence while upgrading, so having two down at once leaves you unable to attack properly for weeks. Stagger them, and start long upgrades when you do not need that hero."
+        },
+        {
+          "q": "Is hero equipment better than hero levels?",
+          "a": "They are separate queues, so it is not either-or. Equipment is upgraded with ores rather than dark elixir, so levelling equipment you actually use costs nothing from your hero budget and often gives a bigger immediate attacking gain."
+        }
+      ],
+      "related": [
+        "heroes:archer-queen",
+        "heroes:grand-warden",
+        "mechanics:hero-equipment",
+        "tutorials:hero-management"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "hardest-town-hall-upgrades-ranked",
+      "name": "Every Town Hall ranked by what it really costs you",
+      "h1": "Every Town Hall Ranked by What It Really Costs You",
+      "head_title": "Clash of Clans Town Halls Ranked by Real Cost (TH9–TH18)",
+      "description": "Which Clash of Clans Town Hall is the biggest jump? We measured every level by the research and hero time it adds, not just the Town Hall upgrade price.",
+      "summary": "The price on the Town Hall button is the least interesting number about a Town Hall level. What a new Town Hall really costs you is the research and hero time it drops into your queue, and measured that way the levels are wildly uneven.",
+      "banner": "town-hall",
+      "tags": [
+        {
+          "label": "Progression"
+        },
+        {
+          "label": "Data"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why the Town Hall price is misleading",
+          "body": "<p>Town Hall 18 costs 25,000,000 gold and takes 12 days. Town Hall 12 costs 6,000,000 and takes 6 days. On that basis, 18 looks about four times the level that 12 is.</p><p>It is not. The Town Hall button is a rounding error next to what the level unlocks: new troop levels to research, new spell levels, new hero levels, and at the top end a pet track as well. That queue is the actual cost, and it is where the years go.</p><p>So we summed it from the game files. For every Town Hall, how many days of laboratory research and hero upgrades does arriving at that level <em>add</em> to your queue?</p>"
+        },
+        {
+          "h": "The ranking",
+          "body": "<p>Days of new research and hero time unlocked by each Town Hall, on top of everything before it:</p><ul><li><strong>Town Hall 18</strong> — 1,112 days (531 troop research, 221 spell, 360 hero) · 25,000,000 gold, 12 d</li><li><strong>Town Hall 17</strong> — 674 days (286 / 110 / 278) · 16,000,000 gold, 10 d</li><li><strong>Town Hall 16</strong> — 593 days (266 / 91 / 236) · 15,000,000 gold, 9 d</li><li><strong>Town Hall 15</strong> — 479 days (204 / 71 / 205) · 13,000,000 gold, 8 d</li><li><strong>Town Hall 14</strong> — 351 days (120 / 46 / 185) · 12,000,000 gold, 7 d 12 h</li><li><strong>Town Hall 13</strong> — 333 days (133 / 34 / 166) · 9,000,000 gold, 7 d</li><li><strong>Town Hall 12</strong> — 304 days (115 / 37 / 153) · 6,000,000 gold, 6 d</li><li><strong>Town Hall 11</strong> — 174 days (58 / 30 / 87) · 4,000,000 gold, 5 d</li><li><strong>Town Hall 10</strong> — 124 days (36 / 31 / 57) · 3,500,000 gold, 3 d</li><li><strong>Town Hall 9</strong> — 77 days (26 / 7 / 44) · 2,500,000 gold, 2 d</li></ul><p>The headline: <strong>Town Hall 18 alone adds more research and hero time than Town Halls 9, 10, 11, 12 and 13 put together</strong> — 1,112 days against 1,012.</p>"
+        },
+        {
+          "h": "What this changes about how you play",
+          "body": "<p><strong>Early Town Halls are cheap, so move through them.</strong> Town Hall 9 adds 77 days of queue. Sitting at Town Hall 9 'until maxed' for a year is spending a year on a level that holds eleven weeks of content. Finish what matters — heroes, your war army, key defences — and go.</p><p><strong>Late Town Halls are where you actually live.</strong> From Town Hall 15 upward each level holds well over a year of research and hero time. Rushing into one of these is not a shortcut; it is arriving at a much bigger queue with the same income.</p><p><strong>The crossover is around Town Hall 12.</strong> That is where the queue a level adds stops being measured in weeks and starts being measured in seasons, and it is roughly where the 'rush or max' argument stops being a matter of taste.</p><div class='note warn'><p><b>The number that ends the rushing argument.</b> Available loot is set by the Town Hall you attack, not the one you own, and the <a href='../wiki/mechanics/matchmaking-and-search.html'>search fee</a> rises with your Town Hall: 750 gold at Town Hall 9, 1,700 at Town Hall 18. Rushing raises your costs and your matchmaking difficulty while your income and army stay where they were. See <a href='../tutorials/avoid-rushing.html'>what rushing costs</a>.</p></div>"
+        },
+        {
+          "h": "How to read this if you are mid-game",
+          "body": "<p>A practical way to use the table: before you press the Town Hall upgrade, look at the number for the level you are leaving and ask whether you got the valuable part of it. The valuable part is almost never 'everything'. It is:</p><ol><li>Hero levels, because they are the longest timers and the biggest attacking gain.</li><li>Research on the specific army you attack with.</li><li>Storages and collectors, because they set your income at the next level.</li><li>Defences that your own <a href='../tutorials/reading-replays.html'>defence replays</a> show failing.</li></ol><p>Everything else can follow you upward. The ordering logic is set out in full in <a href='../wiki/mechanics/upgrade-priority.html'>upgrade priority</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Town Hall takes the longest in Clash of Clans?",
+          "a": "Town Hall 18, by a wide margin. It adds about 1,112 days of new laboratory research and hero upgrade time — more than Town Halls 9 through 13 combined."
+        },
+        {
+          "q": "Is Town Hall 12 a big jump?",
+          "a": "Yes, it is the crossover point. Town Hall 12 adds about 304 days of research and hero time, roughly double Town Hall 11, and it is where the queue a level adds starts being measured in seasons rather than weeks."
+        },
+        {
+          "q": "Should I max every Town Hall before upgrading?",
+          "a": "No. Early Town Halls hold very little content — Town Hall 9 adds only about 77 days of research and hero time — so getting the heroes, army research and storages done and moving on beats sitting for a year. From Town Hall 15 upward the calculation reverses, because each level holds over a year of queue."
+        },
+        {
+          "q": "How much does the attack search fee cost?",
+          "a": "It rises with your Town Hall: 750 gold at Town Hall 9, 1,100 at Town Hall 12, 1,400 at Town Hall 15 and 1,700 at Town Hall 18. It is the only gold an attack actually costs, since troops have no training cost."
+        }
+      ],
+      "related": [
+        "mechanics:upgrade-priority",
+        "townhalls:town-hall-12",
+        "tutorials:avoid-rushing",
+        "blog:how-long-to-max-clash-of-clans"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "is-the-gold-pass-worth-it",
+      "name": "Is the Gold Pass worth it?",
+      "h1": "Is the Gold Pass Worth It in Clash of Clans?",
+      "head_title": "Is the Gold Pass Worth It in Clash of Clans? An Honest Answer",
+      "description": "Whether the Clash of Clans Gold Pass is worth buying, who it actually pays off for, and the one habit that decides the answer more than anything else.",
+      "summary": "The Gold Pass is the game's central purchase, and the usual answer — 'yes, it's great value' — skips the part that decides it. The pass multiplies activity you already have. If the activity is not there, it multiplies nothing.",
+      "banner": "treasury",
+      "tags": [
+        {
+          "label": "Economy"
+        },
+        {
+          "label": "Decision"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What you are actually buying",
+          "body": "<p>Strip away the cosmetics and the Gold Pass does three things: it reduces the cost and time of upgrades you start during the season, it hands you magic items, and it adds rewards on top of the free Season Challenge track. The mechanics are covered on the <a href='../wiki/mechanics/season-challenges-and-the-gold-pass.html'>Season Challenges page</a>.</p><p>Notice the shape of that. Every one of those benefits is <strong>a multiplier on upgrades you were going to start anyway</strong>. None of them generate progress on their own.</p>"
+        },
+        {
+          "h": "The number that decides it",
+          "body": "<p>A maxed Town Hall 18 account is about <a href='how-long-to-max-clash-of-clans.html'>3,463 builder-days of construction and 2,476 days of research</a>. Against a total that size, a percentage discount for one month is worth real money — but only on the upgrades you actually start in that month.</p><p>So the honest test is not 'is the discount good'. It is: <strong>over the next 30 days, how many builder-days and lab-days will you actually consume?</strong></p><ul><li>An account with five builders never idle and the lab always running consumes about 150 builder-days and 30 lab-days a month. The pass discounts all of it.</li><li>An account that logs in twice a week, leaves two builders idle and forgets the lab consumes perhaps a third of that. The pass discounts a third as much, for the same price.</li></ul><p>The pass does not change how often you log in. That is the variable, and it is the one that decides the answer.</p>"
+        },
+        {
+          "h": "Worth it if",
+          "body": "<ul><li>You play most days and your builders are genuinely busy.</li><li>You are mid-Town-Hall with expensive things queued, rather than sitting maxed waiting for an update.</li><li>You are at Town Hall 12 or above, where individual upgrades are large enough that a percentage off is a meaningful number of days.</li><li>You would otherwise buy gems. The pass is comfortably better value than the equivalent spend on gems.</li></ul>"
+        },
+        {
+          "h": "Not worth it if",
+          "body": "<ul><li>You play in bursts — a heavy weekend and then nothing.</li><li>You are near-maxed at your Town Hall with little left to build.</li><li>You are at a low Town Hall where upgrades are short anyway. A discount on a six-hour timer is not a purchase.</li><li>You buy it and then do not change your habits, which is the common case. The pass rewards activity; it does not create it.</li></ul>"
+        },
+        {
+          "h": "The trap: buying it and then wasting it",
+          "body": "<p>The most expensive mistake is not buying the pass when you should not. It is buying it and then spending the magic items badly.</p><p>Books and hammers do not expire. A Book of Heroes used on a two-day upgrade because it was there saved two days; the same book held for a fortnight and used on a fourteen-day upgrade saved fourteen. Same book, seven times the value. The rule and the reasoning are on the <a href='../wiki/mechanics/magic-items.html'>magic items page</a>, and it is the single highest-return habit change available to a paying player.</p><div class='note'><p><b>If you buy one thing a year, make it this.</b> Not because the pass is generous, but because it is the only purchase in the game whose value scales with how much you were already playing — which means it is the one purchase that does not distort how you play.</p></div>"
+        },
+        {
+          "h": "And if you never spend a penny",
+          "body": "<p>You are not locked out of anything. There is no content behind the pass, no troop you cannot unlock, no Town Hall you cannot reach. What money buys in this game is time, and the free track pays out meaningfully on its own. We wrote about what that path actually looks like in <a href='free-to-play-clash-of-clans.html'>free-to-play Clash of Clans</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the Gold Pass worth it in Clash of Clans?",
+          "a": "It is worth it for players who log in most days and keep builders and the laboratory busy, because its discounts apply to upgrades you start during the season. It is poor value for players who play in bursts or who are near-maxed with little queued, because it multiplies activity rather than creating it."
+        },
+        {
+          "q": "Does the Gold Pass give you anything you cannot get for free?",
+          "a": "No game content. There is no troop, building or Town Hall level locked behind it. What it buys is speed: cost and time reductions, magic items and extra season rewards."
+        },
+        {
+          "q": "Is the Gold Pass better value than buying gems?",
+          "a": "Yes, comfortably, for an active player. Gems buy a fixed amount of time once; the pass discounts every upgrade you start for a whole month, so the more you upgrade the better it gets."
+        },
+        {
+          "q": "What is the biggest mistake Gold Pass buyers make?",
+          "a": "Spending the magic items on short timers. Books and hammers do not expire, so holding one until a long upgrade is available multiplies its value several times over for no cost."
+        }
+      ],
+      "related": [
+        "mechanics:season-challenges-and-the-gold-pass",
+        "mechanics:magic-items",
+        "blog:free-to-play-clash-of-clans",
+        "blog:how-long-to-max-clash-of-clans"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "hog-rider-vs-miner-vs-valkyrie",
+      "name": "Hog Rider vs Miner vs Valkyrie",
+      "h1": "Hog Rider vs Miner vs Valkyrie: Which Ground Army Should You Learn?",
+      "head_title": "Hog Rider vs Miner vs Valkyrie — Clash of Clans Comparison",
+      "description": "A straight comparison of the Hog Rider, Miner and Valkyrie in Clash of Clans: housing space, what they target, what counters each, and which to commit your laboratory to.",
+      "summary": "These three define the main ground options for most of the mid game, and they fail in completely different ways. Choosing between them is less about which is strongest and more about which failure you are willing to plan around.",
+      "banner": "troops",
+      "tags": [
+        {
+          "label": "Troops"
+        },
+        {
+          "label": "Comparison"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The short version",
+          "body": "<ul><li><strong><a href='../wiki/troops/hog-rider.html'>Hog Rider</a></strong> — 5 housing space, unlocks at Town Hall 7, Dark Barracks. Jumps walls, targets defences. Dies to traps and splash.</li><li><strong><a href='../wiki/troops/miner.html'>Miner</a></strong> — 6 housing space, unlocks at Town Hall 10, Barracks. Travels underground, ignores walls, targets whatever is nearest. Dies to sustained splash over the surface.</li><li><strong><a href='../wiki/troops/valkyrie.html'>Valkyrie</a></strong> — 8 housing space, unlocks at Town Hall 8, Dark Barracks. Walks, needs walls opened, hits everything around her. Dies to single-target defences and bad pathing.</li></ul><p>All three are ground-only, so all three lose to a defending Clan Castle you did not lure.</p>"
+        },
+        {
+          "h": "The one that ignores your base layout",
+          "body": "<p>The Hog Rider's defining property is that <a href='../wiki/mechanics/walls-and-pathing.html'>walls do nothing to him</a>. Compartmentalisation — the main defensive tool against ground armies — is simply not in play. He goes over, and he goes at defences, which means he takes the shortest path between the things that are shooting him.</p><p>That predictability is also the counter. Because his route between defences is knowable, bases are built to put giant bombs exactly where a grouped hog wave will be. Hogs do not lose to walls; they lose to traps and to splash damage, and the difference between a hog player who three-stars and one who does not is almost entirely spreading the deployment and carrying the right healing.</p>"
+        },
+        {
+          "h": "The one that ignores your base layout differently",
+          "body": "<p>Miners also ignore walls, by going underneath rather than over. The important difference is targeting: hogs go for defences, miners go for what is near them. That makes miners less predictable and far harder to trap — they surface in places a base designer cannot reliably anticipate — but it also means they will happily spend time on buildings that were not shooting at anything.</p><p>The second difference is economic, and it gets overlooked. <strong>Miners are trained in the Barracks and researched with elixir; Hog Riders and Valkyries come from the Dark Barracks and their research costs dark elixir.</strong> Given that dark elixir is the resource gating your heroes, an army researched on elixir is quietly cheaper to keep current. If you are choosing what to commit the laboratory to and your heroes are behind, that is a real argument for miners.</p>"
+        },
+        {
+          "h": "The one that needs you to do the work",
+          "body": "<p>The Valkyrie is the most conditional of the three. She does not jump or tunnel, so she needs walls opened and a funnel built for her. In exchange she clears compartments faster than either of the others once she is inside one, because her damage hits everything around her rather than one target at a time.</p><p>At 8 housing space she is also the most expensive of the three per unit, so a Valkyrie army is a smaller army, which makes each deployment decision matter more.</p><p>Practical read: Valkyries reward players who have already learned <a href='../wiki/mechanics/funnelling.html'>funnelling</a>, and punish players who have not. Hogs and miners are more forgiving of a sloppy funnel because they do not follow the ground path.</p>"
+        },
+        {
+          "h": "Which should you actually research?",
+          "body": "<p>Pick by which problem you would rather solve:</p><ol><li><strong>You want the fastest route to reliable three-stars in war and you will practise trap-avoidance.</strong> Hog Riders.</li><li><strong>Your heroes are behind and you want an army that does not compete with them for dark elixir.</strong> Miners.</li><li><strong>You already funnel well and want raw clearing power inside the base.</strong> Valkyries.</li></ol><p>Whichever you pick, pick <em>one</em>. The laboratory runs a single upgrade at a time, and spreading research across three ground armies gives you three under-levelled ones. Across a whole account that is <a href='how-long-to-max-clash-of-clans.html'>years of research time</a>; across a Town Hall it is the difference between an army that works and one that nearly does.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are Hog Riders or Miners better?",
+          "a": "Neither is strictly better. Hog Riders target defences and are faster at ending an attack, but they are predictable and die to well-placed traps. Miners are harder to trap because their targeting is less predictable, and they are researched with elixir rather than dark elixir, which leaves your dark elixir free for heroes."
+        },
+        {
+          "q": "Do walls stop Hog Riders or Miners?",
+          "a": "No. Hog Riders jump over walls and Miners travel underneath them, so wall compartments do very little against either. Valkyries are the only one of the three that walks, so she needs walls opened first."
+        },
+        {
+          "q": "How much housing space do they use?",
+          "a": "Hog Rider 5, Miner 6, Valkyrie 8. The Valkyrie being the largest means a Valkyrie army is a smaller army, so each deployment decision carries more weight."
+        },
+        {
+          "q": "Which one is cheapest to keep researched?",
+          "a": "The Miner. It is trained in the Barracks and researched with elixir, while the Hog Rider and Valkyrie come from the Dark Barracks and cost dark elixir to research — the same resource your heroes need."
+        }
+      ],
+      "related": [
+        "troops:hog-rider",
+        "troops:miner",
+        "troops:valkyrie",
+        "mechanics:walls-and-pathing"
+      ],
+      "priority": "0.7",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "starting-clash-of-clans-in-2026",
+      "name": "Starting Clash of Clans in 2026",
+      "h1": "Starting Clash of Clans in 2026: Is It Too Late?",
+      "head_title": "Starting Clash of Clans in 2026 — Is It Too Late to Begin?",
+      "description": "Whether it is worth starting Clash of Clans in 2026, what the game is actually like now after fourteen years, and what your first month realistically looks like.",
+      "summary": "Clash of Clans is fourteen years old and has eighteen Town Hall levels. The reasonable worry for a new player is that everyone else has a decade of head start. The structure of the game makes that worry mostly wrong, and it is worth explaining exactly why.",
+      "banner": "tutorials",
+      "tags": [
+        {
+          "label": "Beginners"
+        }
+      ],
+      "sections": [
+        {
+          "h": "You do not compete with maxed accounts",
+          "body": "<p>This is the part that answers the question. Clash of Clans matches you against bases near your own strength, and the loot available in an attack is set by the defender's Town Hall relative to yours, not by some global ladder. A Town Hall 18 account with six maxed heroes is not in your queue and has no way to take anything from you.</p><p>The game is also not a race with an end. There is no season reset that wipes your progress, no ranked ladder you are permanently behind on. A three-year-old account and a three-week-old account are playing the same game at different scales.</p><p>Where the head start is real: clan wars and Clan War Leagues, where your clan's overall strength matters. The answer there is to join a clan at your level, which is trivially easy — there are thousands.</p>"
+        },
+        {
+          "h": "What the game actually is",
+          "body": "<p>Two things at once, and new players usually only notice the first.</p><p><strong>It is a base-building game with timers.</strong> You collect gold, elixir and dark elixir; you spend them on upgrades that take real time; your builders and laboratory run whether the app is open or not. This half rewards logging in briefly and often rather than playing for hours.</p><p><strong>It is also a real-time tactics game.</strong> Each attack is a one-shot deployment problem with no undo: you place troops around a base, they act on their own rules, and you influence the outcome mostly through where and when you place them. This half has a genuinely deep skill ceiling and is the reason people are still playing after a decade.</p><p>If you enjoy exactly one of those halves, you will still get a lot out of the game. Most long-term players lean heavily to one side.</p>"
+        },
+        {
+          "h": "What has changed, if you played years ago",
+          "body": "<ul><li><strong>Troops are free.</strong> There is no training cost and no training time — the columns do not exist in the game files any more. An attack costs a <a href='../wiki/mechanics/matchmaking-and-search.html'>search fee</a> in gold and nothing else. If you remember rationing armies, that era is over, and a lot of guides online still have not noticed.</li><li><strong>Heroes have equipment.</strong> Heroes are now customised with gear upgraded from ores, a track that runs separately from hero levels. See <a href='../wiki/mechanics/hero-equipment.html'>hero equipment</a>.</li><li><strong>There are three villages.</strong> The Home Village, the <a href='../wiki/mechanics/builder-base.html'>Builder Base</a> and the <a href='../wiki/mechanics/clan-capital-and-raid-weekends.html'>Clan Capital</a>, each with its own progression.</li><li><strong>Six heroes, eighteen Town Halls.</strong> The ceiling has moved a long way up.</li></ul>"
+        },
+        {
+          "h": "What your first month looks like",
+          "body": "<p>Weeks one and two move fast — upgrades measured in minutes and hours, several Town Hall levels, most of the early troops. By week four you will be at a level where upgrades start taking a day or more, and the rhythm of the game becomes clear: log in, empty the collectors, start whatever is finished, run a few attacks, log off.</p><p>The three habits that matter most, all of which cost nothing:</p><ol><li><strong>Join a clan on day one.</strong> Donated troops are free, they arrive in every attack, and new players routinely wait weeks before doing this. It is the largest free advantage in the game.</li><li><strong>Never leave a builder idle.</strong> A boring upgrade beats an empty builder every time.</li><li><strong>Spend your loot before you log off.</strong> Resources in storage can be stolen; resources committed to an upgrade cannot.</li></ol><p>The full version is in <a href='../tutorials/getting-started.html'>your first week</a>.</p>"
+        },
+        {
+          "h": "The honest downsides",
+          "body": "<p><strong>The timers are real and they get long.</strong> By the late game, single upgrades run for a fortnight. A maxed top-level account represents <a href='how-long-to-max-clash-of-clans.html'>several thousand days of queued upgrades</a>. If waiting annoys you rather than suiting you, this is the wrong game and no amount of enthusiasm will change it.</p><p><strong>The monetisation is real too.</strong> It is not aggressive by current standards — nothing is locked behind money, and money buys speed rather than power — but it exists and the game is designed around it.</p><p><strong>Attacking is harder than it looks.</strong> Your first fifty attacks will mostly be disappointing, and the reason is almost always <a href='../wiki/mechanics/funnelling.html'>funnelling</a> rather than troop choice.</p>"
+        },
+        {
+          "h": "So, worth starting?",
+          "body": "<p>If you want a game that occupies ten minutes a day and rewards consistency over intensity, yes, straightforwardly. The age of the game works in your favour: fourteen years of balance changes, an enormous population at every Town Hall level, and a clan for every possible level of seriousness.</p><p>If you want to be competitive at the top of the game within a year, no. That is not how the timers work, and anyone telling you otherwise is selling something.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is it too late to start Clash of Clans in 2026?",
+          "a": "No. Matchmaking pairs you with bases near your own strength and loot is set by the defender's Town Hall relative to yours, so established accounts are not in your queue and cannot take anything from you. There is no ladder you are permanently behind on."
+        },
+        {
+          "q": "Is Clash of Clans pay to win?",
+          "a": "No content is locked behind money — no troop, building or Town Hall level. What money buys is speed: cost and time reductions on upgrades you were making anyway. A free player reaches everything a paying player does, more slowly."
+        },
+        {
+          "q": "How much time does Clash of Clans take per day?",
+          "a": "Ten minutes a day is enough to keep builders busy, keep the laboratory running and get through the collectors. The game is built to reward logging in briefly and often rather than long sessions."
+        },
+        {
+          "q": "What should a new player do first?",
+          "a": "Join a clan immediately. Donated Clan Castle troops are free, arrive in every attack, and new players routinely delay this for weeks. After that: never leave a builder idle, and spend your loot before logging off so it cannot be stolen."
+        }
+      ],
+      "related": [
+        "tutorials:getting-started",
+        "tutorials:choosing-a-clan",
+        "mechanics:funnelling",
+        "blog:free-to-play-clash-of-clans"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "free-to-play-clash-of-clans",
+      "name": "Free-to-play Clash of Clans",
+      "h1": "Free-to-Play Clash of Clans: What You Actually Give Up",
+      "head_title": "Free-to-Play Clash of Clans — What Money Really Buys",
+      "description": "What a free-to-play Clash of Clans account gives up compared with a paying one, what money actually buys, and how to close most of the gap without spending.",
+      "summary": "Nothing in Clash of Clans is locked behind money. That is true, and it is also the least useful true sentence about the game's economy. What money buys is time, and the interesting question is how much time, and whether you can get it another way.",
+      "banner": "guides",
+      "tags": [
+        {
+          "label": "Economy"
+        },
+        {
+          "label": "Free to play"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What money cannot buy",
+          "body": "<p>Worth stating plainly, because it is genuinely unusual for a game this old:</p><ul><li>No troop, spell, hero, building or Town Hall level is behind a paywall.</li><li>There is no paid power tier, no premium unit, no subscription-only defence.</li><li>Nothing expires or degrades if you stop paying.</li></ul><p>A free account and a paying account of the same Town Hall level are playing an identical game with identical tools.</p>"
+        },
+        {
+          "h": "What money does buy: about a third of the timers",
+          "body": "<p>A complete Town Hall 18 account is roughly <a href='how-long-to-max-clash-of-clans.html'>3,463 builder-days of construction, 2,476 days of research, 1,789 days of hero upgrades and 743 days of pets</a>. Money attacks that pile in three ways: percentage discounts on cost and time, magic items that skip timers outright, and gems that skip them directly.</p><p>Across a year of consistent play, a Gold Pass every month plausibly saves a meaningful fraction of that queue. That is what you are giving up as a free player — not capability, but calendar.</p><p>The other thing it buys is <strong>builders</strong>. Additional builders' huts are a gem purchase, and they are the one purchase with a genuinely compounding return, because every builder you own works forever. The game files allow up to five huts at Town Hall 18. If a free player is ever going to convert accumulated gems into something, it is this, and it is not close.</p>"
+        },
+        {
+          "h": "Where free players actually lose time",
+          "body": "<p>In practice, the gap between free and paying accounts is smaller than the gap between attentive and inattentive accounts. The three free habits that close most of it:</p><ol><li><strong>Never an idle builder.</strong> Five builders idle for six hours a day is 1.25 builder-days lost every day — over a year, well over a year of building. No purchase recovers that.</li><li><strong>Never an empty laboratory.</strong> The lab cannot be parallelised, so every hour it sits empty is an hour permanently gone from a 2,476-day queue.</li><li><strong>Never an idle hero.</strong> Hero timers are the longest in the game and a hero at home is producing nothing.</li></ol><p>An account that keeps all three slots full without spending will out-progress an account that buys the pass and leaves them empty. That is not a motivational line; it follows directly from the size of the queues.</p>"
+        },
+        {
+          "h": "Free sources of the things money buys",
+          "body": "<ul><li><strong>Season Challenges.</strong> The free track pays out magic items and resources every month. See <a href='../wiki/mechanics/season-challenges-and-the-gold-pass.html'>season challenges</a>.</li><li><strong>Clan Games.</strong> Reliable magic items for a modest amount of effort, and the reward tier is chosen by you.</li><li><strong>Clan Capital raids.</strong> Raid medals convert into resources and items every weekend.</li><li><strong>Gem mining.</strong> Clearing obstacles pays gems slowly and forever. It is the only free gem tap that never stops, and over a year it funds a builder.</li><li><strong>Achievements.</strong> A one-off but substantial pile of gems that many players never finish.</li></ul><div class='note'><p><b>The multiplier on all of it.</b> Magic items do not expire, and spending one on the longest available timer rather than the most convenient one is worth several times the item. A free player who hoards books for fortnight-long hero upgrades extracts more from the free track than a paying player who taps items to clear notifications. Full reasoning on the <a href='../wiki/mechanics/magic-items.html'>magic items page</a>.</p></div>"
+        },
+        {
+          "h": "The realistic picture",
+          "body": "<p>Free-to-play in Clash of Clans is not a handicap mode; it is the same game on a longer clock. What it demands is consistency, because every mechanism that compensates for not spending — builders busy, lab running, heroes upgrading, items hoarded — is a habit rather than a purchase.</p><p>If you want the shorter version: <strong>money buys speed, attention buys more of it, and attention is free.</strong></p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can you max Clash of Clans without paying?",
+          "a": "Yes. No troop, building, hero or Town Hall level is behind a paywall, and nothing expires if you do not spend. Paying only shortens the timers."
+        },
+        {
+          "q": "What is the best thing to spend gems on?",
+          "a": "Additional builders' huts. Every builder you buy works forever, so it is the only purchase with a compounding return. The game files allow up to five huts at Town Hall 18."
+        },
+        {
+          "q": "How far behind is a free-to-play account?",
+          "a": "Less far than most players assume. The gap between a paying and a free account is usually smaller than the gap between an account that never has an idle builder, empty laboratory or idle hero and one that does."
+        },
+        {
+          "q": "Where do free players get magic items?",
+          "a": "The free Season Challenge track, Clan Games, and Clan Capital raid medals. Items do not expire, so saving them for the longest timers you can find multiplies what the free track is worth."
+        }
+      ],
+      "related": [
+        "mechanics:magic-items",
+        "mechanics:season-challenges-and-the-gold-pass",
+        "blog:is-the-gold-pass-worth-it",
+        "blog:how-long-to-max-clash-of-clans"
+      ],
+      "priority": "0.7",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "why-your-clash-of-clans-account-stalls",
+      "name": "Why your account stalls",
+      "h1": "Why Your Clash of Clans Account Stalls, and How to Restart It",
+      "head_title": "Why Your Clash of Clans Account Stalls — 10 Causes and Fixes",
+      "description": "Ten reasons Clash of Clans accounts stop progressing — idle builders, an empty laboratory, rushed Town Halls — and the specific fix for each one.",
+      "summary": "Accounts rarely stall because the player got worse. They stall because one of a small number of slots quietly stopped being filled, and none of them announce themselves. Here is the list, in the order they cost you the most.",
+      "banner": "mechanics",
+      "tags": [
+        {
+          "label": "Progression"
+        },
+        {
+          "label": "Diagnosis"
+        }
+      ],
+      "sections": [
+        {
+          "h": "1. An idle builder",
+          "body": "<p>The most expensive thing in the game and the easiest to miss, because nothing warns you. Five builders idle for an evening is most of a builder-day gone from a queue that runs to <a href='how-long-to-max-clash-of-clans.html'>3,463 builder-days</a>.</p><p><strong>Fix:</strong> check builders first, before collectors, before attacking. If you cannot afford anything good, start something bad. A cheap wall or a collector level beats an empty slot, always.</p>"
+        },
+        {
+          "h": "2. An empty laboratory",
+          "body": "<p>Worse than an idle builder, because the laboratory cannot be parallelised. One lab, one research at a time, and about 2,476 days of research available across a full account. An empty lab is time you cannot buy back with more builders or more money.</p><p><strong>Fix:</strong> queue a research before you log off, every time. Even a research you do not urgently need is better than an empty lab.</p>"
+        },
+        {
+          "h": "3. A hero sitting at home",
+          "body": "<p>Hero timers are the longest in the game — <a href='which-hero-to-upgrade-first.html'>403 days for the Barbarian King alone</a> across his levels. A hero that is neither upgrading nor needed for a war this week is pure waste.</p><p><strong>Fix:</strong> keep one hero upgrading at all times, staggered so you are never without two at once. If dark elixir is the blocker, push the <a href='../wiki/heroes/grand-warden.html'>Grand Warden</a>, who costs elixir instead.</p>"
+        },
+        {
+          "h": "4. You rushed, and the loot did not follow",
+          "body": "<p>Available loot is determined by the Town Hall you attack relative to yours, not by the one you own, and the <a href='../wiki/mechanics/matchmaking-and-search.html'>search fee</a> rises with your Town Hall — 750 gold at Town Hall 9, 1,700 at Town Hall 18. Upgrading the Town Hall early raises your costs and your matchmaking difficulty while your army and defences stay where they were.</p><p><strong>Fix:</strong> stop upgrading the Town Hall and catch up on heroes and army research first. The full accounting is in <a href='../tutorials/avoid-rushing.html'>what rushing costs</a>.</p>"
+        },
+        {
+          "h": "5. You are storing loot instead of spending it",
+          "body": "<p>Resources in storage are stealable; resources in an upgrade are not. Players who log off on full storages are donating to whoever finds them.</p><p><strong>Fix:</strong> spend down before closing the app, every session. This single habit is worth more than any farming strategy.</p>"
+        },
+        {
+          "h": "6. You are farming at the wrong trophy level",
+          "body": "<p>Trophies are a trade-off, not a score. Higher leagues pay better bonuses but present harder bases and worse collector loot; lower leagues offer easy, loot-rich targets. Drifting upward without deciding to is a common quiet cause of a farming slowdown.</p><p><strong>Fix:</strong> pick a band deliberately and defend the choice. See <a href='../wiki/mechanics/trophies-and-leagues.html'>trophies and leagues</a>.</p>"
+        },
+        {
+          "h": "7. You never learned to lure the Clan Castle",
+          "body": "<p>More attacks fail to defending Clan Castle troops than to any single defence, and the fix is a fifteen-minute skill that works at every Town Hall for the rest of the account's life.</p><p><strong>Fix:</strong> <a href='../tutorials/clan-castle-lure.html'>the lure tutorial</a>.</p>"
+        },
+        {
+          "h": "8. You spread your research across four armies",
+          "body": "<p>One laboratory, one upgrade at a time. Research spread evenly across three or four strategies produces three or four under-levelled armies and no good one.</p><p><strong>Fix:</strong> pick one army for this Town Hall and research only it until it is current. <a href='attack-strategies-by-town-hall.html'>Which one to pick, by Town Hall</a>.</p>"
+        },
+        {
+          "h": "9. You are spending magic items on short timers",
+          "body": "<p>A Book of Heroes on a two-day upgrade saved two days; on a fourteen-day upgrade it saved fourteen. Same item. Books do not expire, so holding one costs nothing.</p><p><strong>Fix:</strong> never spend an item on a timer under a day, and hold books for hero and Town Hall upgrades. See <a href='../wiki/mechanics/magic-items.html'>magic items</a>.</p>"
+        },
+        {
+          "h": "10. You are in a dead clan",
+          "body": "<p>A clan with no donations and no wars removes free troops, war loot, Clan Games rewards and Clan Capital raid medals from your account at once. It is the only item on this list that is fixed in thirty seconds.</p><p><strong>Fix:</strong> leave and join an active one. <a href='../tutorials/choosing-a-clan.html'>How to find a good clan</a>.</p>"
+        },
+        {
+          "h": "The pattern",
+          "body": "<p>Nine of these ten are slots that stopped being filled, not decisions that were made badly. That is why stalling feels mysterious from the inside: nothing went wrong, something simply stopped running.</p><p>The corresponding habit is a thirty-second check on every login, in this order: <strong>builders, laboratory, heroes, storages.</strong> If all four are running, your account is progressing at close to its maximum rate whether or not you attack well that day.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is my Clash of Clans account not progressing?",
+          "a": "Usually one of four slots has quietly stopped running: a builder is idle, the laboratory is empty, a hero is sitting at home, or loot is being stored rather than spent. None of these produce a warning, and together they cost more time than any attacking mistake."
+        },
+        {
+          "q": "Is it worth upgrading something cheap just to keep a builder busy?",
+          "a": "Yes, almost always. A builder-day spent on a wall or a collector level is progress; a builder-day spent idle is gone permanently and cannot be bought back."
+        },
+        {
+          "q": "How do I fix a rushed base?",
+          "a": "Stop upgrading the Town Hall and catch up on heroes and army research first. Available loot depends on the Town Hall you attack relative to yours, and the search fee rises with your own Town Hall, so rushing raises costs while leaving your army behind."
+        },
+        {
+          "q": "What should I check every time I log in?",
+          "a": "Builders, laboratory, heroes, storages — in that order. If all four are running, your account is progressing at close to its maximum rate regardless of how the day's attacks go."
+        }
+      ],
+      "related": [
+        "mechanics:upgrade-priority",
+        "tutorials:avoid-rushing",
+        "tutorials:choosing-a-clan",
+        "blog:how-long-to-max-clash-of-clans"
+      ],
+      "priority": "0.7",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "clash-of-clans-glossary",
+      "name": "The Clash of Clans glossary",
+      "h1": "The Clash of Clans Glossary: Every Term and Abbreviation Explained",
+      "head_title": "Clash of Clans Glossary — Terms, Slang and Abbreviations",
+      "description": "A plain-English Clash of Clans glossary: attacking terms, base-building jargon, clan and war vocabulary, and every abbreviation your clan chat uses.",
+      "summary": "Clan chat is close to unreadable for the first month. It is not gatekeeping — the vocabulary is genuinely dense, and most of it is shorthand for a real mechanic. Here is the lot, grouped by where you will run into it.",
+      "banner": "wiki",
+      "tags": [
+        {
+          "label": "Reference"
+        },
+        {
+          "label": "Beginners"
+        }
+      ],
+      "sections": [
+        {
+          "h": "Attacking",
+          "body": "<ul><li><strong>Three star / two star / one star</strong> — the result of an attack. One star for 50% destruction, one for the Town Hall, one for 100%. War scoring runs entirely on these.</li><li><strong><a href='../wiki/mechanics/funnelling.html'>Funnel</a></strong> — clearing the outside buildings on two sides so your main army walks into the core rather than around the base. The single most common reason attacks fail.</li><li><strong>Queen walk / Queen charge</strong> — sending the <a href='../wiki/heroes/archer-queen.html'>Archer Queen</a> in with healers to carve a path and kill something important before the main army lands.</li><li><strong><a href='../tutorials/clan-castle-lure.html'>Lure</a></strong> — pulling the defending Clan Castle troops out with a cheap unit so they can be killed away from the base.</li><li><strong>Kill squad</strong> — a small, expensive group sent in first to destroy a specific high-value defence, separate from the main army.</li><li><strong>Spam</strong> — deploying a large number of one troop type quickly, with little placement finesse. Not automatically an insult; some armies work that way.</li><li><strong>Sniping</strong> — attacking only a specific building, usually an exposed Town Hall or a Dark Elixir Drill, and leaving.</li><li><strong><a href='../wiki/mechanics/troop-targeting-and-ai.html'>Aggro</a></strong> — what a troop is currently choosing to attack. Troops follow fixed targeting rules, not player orders.</li><li><strong>Tank</strong> — a high-hitpoint unit sent ahead to absorb damage for fragile units behind it.</li><li><strong>Splash</strong> — damage that hits an area rather than one unit. The counter to massed cheap troops.</li><li><strong>DPS</strong> — damage per second. The standard way troop and defence damage is quoted.</li><li><strong>Housing space</strong> — how much of your army capacity a troop occupies. A <a href='../wiki/troops/dragon.html'>Dragon</a> is 20, an <a href='../wiki/troops/archer.html'>Archer</a> is 1.</li><li><strong>Zap</strong> — using <a href='../wiki/spells/lightning-spell.html'>Lightning Spells</a> to destroy a specific building, most often an Air Defence, before the attack proper.</li><li><strong>Cycle</strong> — using cheap, fast attacks in sequence, usually to farm or to trigger something repeatedly.</li><li><strong>Time-out</strong> — the attack ending because the clock ran out rather than because the army died. Usually a funnelling problem.</li><li><strong>Scout</strong> — looking at a base before committing to the attack. Free, and skipped constantly.</li></ul>"
+        },
+        {
+          "h": "Bases and defence",
+          "body": "<ul><li><strong>Compartment</strong> — a walled-off cell in a base layout. The main tool against ground armies, and irrelevant against anything that jumps or tunnels.</li><li><strong>Core</strong> — the middle of the base, where the Town Hall, storages and strongest defences usually sit.</li><li><strong>Anti-three-star base</strong> — a layout that accepts giving up two stars in order to make the third very hard. Standard for war.</li><li><strong>Farming base</strong> — a layout built to protect storages rather than the Town Hall.</li><li><strong>Trophy base</strong> — a layout built to protect the Town Hall, because that is what costs trophies.</li><li><strong>Teaser</strong> — a building placed deliberately to bait troops in a chosen direction.</li><li><strong>Drag trap</strong> — a trap arrangement placed where the base designer expects troops to be pulled.</li><li><strong><a href='../wiki/traps/giant-bomb.html'>Giant bomb</a></strong> — the large ground trap, usually placed to punish grouped Hog Riders.</li><li><strong>Double giant bomb</strong> — two of them overlapping, which kills a hog wave outright rather than damaging it.</li><li><strong>Seeking Air Mine</strong> — the air trap that targets large air units. The reason unsupported Dragons and Lava Hounds disappear.</li><li><strong>Clan Castle radius</strong> — the area within which an attacking troop will trigger the defending Clan Castle. Knowing it is what makes a lure work.</li><li><strong>Town Hall as a defence</strong> — at higher levels the Town Hall shoots back, which changes where it can safely be placed.</li></ul>"
+        },
+        {
+          "h": "Resources and economy",
+          "body": "<ul><li><strong>DE</strong> — dark elixir. The <a href='../wiki/mechanics/dark-elixir.html'>resource that gates the late game</a>, because heroes and pets run on it.</li><li><strong>Collector loot</strong> — resources sitting in mines and collectors. A much larger share is stealable than from storages, which is why stripping collectors is the fastest farming.</li><li><strong>Storage loot</strong> — resources in storages. Only a percentage is available, set by the defender's Town Hall relative to yours. See <a href='../wiki/mechanics/loot-mechanics.html'>loot mechanics</a>.</li><li><strong>Dead base</strong> — an inactive village with full collectors and no shield. The ideal farming target.</li><li><strong>Treasury</strong> — the Clan Castle store fed by war and Clan Games. A separate, protected pool with its own stealable cap.</li><li><strong>Search fee</strong> — the gold an attack costs. It rises with your Town Hall: 750 at TH9, 1,700 at TH18. Troops themselves are free.</li><li><strong><a href='../wiki/mechanics/shields-and-village-guard.html'>Shield</a></strong> — protection from attack, gained by being attacked heavily. Attacking while shielded shortens it.</li><li><strong>Village Guard</strong> — short-term protection with no attacking penalty, usually granted after a shield ends or by an event.</li><li><strong>Rune</strong> — a magic item that fills a resource storage to capacity. Worth more the longer you hold it, because storage capacity grows.</li><li><strong>Book</strong> — a magic item that instantly finishes one upgrade. It does not pay for it.</li><li><strong>Hammer</strong> — instantly finishes <em>and</em> pays for an upgrade. The rarest items in the game.</li><li><strong>Potion</strong> — a timed boost. Builder potions and research potions are the ones worth planning around.</li></ul>"
+        },
+        {
+          "h": "Clans, wars and the side villages",
+          "body": "<ul><li><strong>CC</strong> — Clan Castle, or the troops inside it. Donated troops are free and arrive in every attack.</li><li><strong>Donation ratio</strong> — troops given against troops received. Many clans enforce a minimum.</li><li><strong><a href='../wiki/mechanics/war-weight.html'>War weight</a></strong> — the hidden value the game assigns your base for war matchmaking, driven mostly by defences and storages.</li><li><strong>CWL</strong> — <a href='../wiki/mechanics/clan-war-leagues.html'>Clan War Leagues</a>, the monthly tournament with one attack per war over seven wars.</li><li><strong>Clan Games</strong> — a periodic cooperative event paying magic items, with the reward tier chosen by each member.</li><li><strong>Raid Weekend</strong> — the <a href='../wiki/mechanics/clan-capital-and-raid-weekends.html'>Clan Capital</a> event, paying raid medals.</li><li><strong>Capital Gold</strong> — the Clan Capital's own currency, which cannot be moved to your Home Village.</li><li><strong>District</strong> — one of the Clan Capital's separate islands, unlocked in order.</li><li><strong><a href='../wiki/mechanics/builder-base.html'>Builder Base</a></strong> — the second village, with its own troops, buildings and progression, run on versus battles.</li></ul>"
+        },
+        {
+          "h": "Progression",
+          "body": "<ul><li><strong>TH</strong> — Town Hall, usually with a number: TH12, TH15. The single most important fact about an account.</li><li><strong>Rushed</strong> — a Town Hall upgraded before the level below it was developed. See <a href='../tutorials/avoid-rushing.html'>what rushing costs</a>.</li><li><strong>Maxed</strong> — everything at the highest level the current Town Hall allows. Usually means defences and army rather than literally everything.</li><li><strong>Lab</strong> — the Laboratory. One research at a time, which is why research choice matters so much.</li><li><strong><a href='../wiki/mechanics/super-troops.html'>Super troop</a></strong> — a temporarily boosted version of a normal troop, activated for a period rather than researched permanently.</li><li><strong>Ore</strong> — the currency for <a href='../wiki/mechanics/hero-equipment.html'>hero equipment</a>, on a track separate from hero levels.</li><li><strong>Pet</strong> — a companion assigned to a hero, upgraded with dark elixir in the Pet House.</li><li><strong>Siege machine</strong> — a <a href='../wiki/mechanics/siege-machines.html'>vehicle that carries Clan Castle troops</a> into the core instead of making them walk. Donatable.</li></ul>"
+        },
+        {
+          "h": "Abbreviations you will see in clan chat",
+          "body": "<ul><li><strong>BK, AQ, GW, RC, MP</strong> — Barbarian King, Archer Queen, Grand Warden, Royal Champion, Minion Prince.</li><li><strong>QC</strong> — Queen charge, as in 'QC Hybrid'.</li><li><strong>Hybrid</strong> — an army mixing Hog Riders and Miners.</li><li><strong>LavaLoon</strong> — Lava Hounds with Balloons, the classic air army.</li><li><strong>E-drag / ZapDrag</strong> — Electro Dragons, often with Lightning Spells used to open the way.</li><li><strong>GoWiPe / GoWiWi</strong> — older ground armies built on Golems with Wizards and either P.E.K.K.As or Witches. Historical, still referenced.</li><li><strong>Sui</strong> — a deliberately sacrificial deployment, usually to pull the Clan Castle or trigger traps.</li><li><strong>F2P</strong> — free to play. See <a href='free-to-play-clash-of-clans.html'>what that actually gives up</a>.</li><li><strong>GP</strong> — Gold Pass.</li></ul>"
+        },
+        {
+          "h": "If you only remember three",
+          "body": "<p><strong>Funnel, lure, and housing space.</strong> Those three explain most of what happens in an attack and most of what your clanmates are telling you to do differently. Everything else on this page is vocabulary; those three are mechanics.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does CC mean in Clash of Clans?",
+          "a": "Clan Castle, or the troops inside it. Donated Clan Castle troops are free, arrive in every attack, and the defending player's Clan Castle troops are the most common reason an attack fails."
+        },
+        {
+          "q": "What does funnelling mean?",
+          "a": "Clearing the buildings on the outside of a base on two sides so that your main army's path of least resistance points into the core rather than around the perimeter. It is the most common cause of attacks stalling at around 60%."
+        },
+        {
+          "q": "What does a rushed base mean?",
+          "a": "An account whose Town Hall was upgraded before the defences, heroes and army research of the previous level were developed. It raises your search fee and matchmaking difficulty while leaving your attacking and defending power behind."
+        },
+        {
+          "q": "What is DE in Clash of Clans?",
+          "a": "Dark elixir, the third resource. It funds heroes and pets, which makes it the resource that gates late-game progress — a fully maxed account needs roughly 101 million of it."
+        }
+      ],
+      "related": [
+        "mechanics:funnelling",
+        "mechanics:loot-mechanics",
+        "tutorials:getting-started",
+        "blog:starting-clash-of-clans-in-2026"
+      ],
+      "priority": "0.7",
+      "date": "2026-09-16",
+      "date_label": "16 September 2026",
+      "byline": "Goblins Farm"
+    }
+  ]
+}

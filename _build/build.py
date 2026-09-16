@@ -2,7 +2,7 @@
 """
 Goblins Farm static content generator.
 
-Reads _build/data/*.json and renders the /wiki, /tutorials and /news sections
+Reads _build/data/*.json and renders the /wiki, /tutorials, /news and /blog sections
 into the repository root, then regenerates sitemap.xml and llms.txt.
 
     python3 _build/merge_data.py       # splice prose over the verified stat layer
@@ -77,6 +77,7 @@ BANNERS = {
     "bb_troops": "builder-base", "bb_buildings": "builder-base",
     "capital_troops": "clan-capital", "capital_spells": "clan-capital",
     "capital_buildings": "clan-capital", "capital_districts": "clan-capital",
+    "blog": "attack",
 }
 
 
@@ -119,7 +120,7 @@ SECTION_MASCOTS = {
     "bb_troops": "point", "bb_buildings": "hammer",
     "capital_troops": "point", "capital_spells": "book",
     "capital_buildings": "hammer", "capital_districts": "lantern",
-    "wiki": "wave", "tutorials": "book", "news": "scroll",
+    "wiki": "wave", "tutorials": "book", "news": "scroll", "blog": "lantern",
 }
 
 
@@ -360,7 +361,7 @@ def verify_links(root: Path) -> list[str]:
     """
     problems = []
     targets = []
-    for pattern in ("wiki/**/*.html", "tutorials/*.html", "news/*.html", "guides/*.html"):
+    for pattern in ("wiki/**/*.html", "tutorials/*.html", "news/*.html", "blog/*.html", "guides/*.html"):
         targets.extend(root.glob(pattern))
     targets.append(root / "index.html")
 
@@ -553,6 +554,11 @@ def main() -> int:
     registry.add("news", "index", "/news/", "News")
     for post in news.get("entries", []):
         registry.add("news", post["slug"], f"/news/{post['slug']}.html", post["name"])
+
+    blog = load("blog")
+    registry.add("blog", "index", "/blog/", "Blog")
+    for post in blog.get("entries", []):
+        registry.add("blog", post["slug"], f"/blog/{post['slug']}.html", post["name"])
 
     # hand-written guides, so wiki pages can link across to them
     for guide in site.get("guides", []):
@@ -936,79 +942,95 @@ def main() -> int:
         ]
         render("hub.html.j2", hub_page, "0.9")
 
-    # ---- news
-    posts_meta = []
-    for post in news.get("entries", []):
-        url = f"/news/{post['slug']}.html"
-        crumbs = [
-            {"label": "Home", "href": ""},
-            {"label": "News", "href": "news/"},
-            {"label": post["name"], "href": None},
-        ]
-        page = {
-            "url": url,
-            "section": "news",
-            "banner": banner("news"),
-            "h1": post.get("h1", post["name"]),
-            "head_title": post.get("head_title", f"{post['name']} | {site['name']}"),
-            "description": post["description"],
-            "summary": post["summary"],
-            "updated": post["date_label"],
-            "byline": post.get("byline"),
-            "tags": post.get("tags"),
-            "sections": section_list(post.get("sections")),
-            "sources": post.get("sources"),
-            "related": resolve_related(post, url),
-            "crumbs": crumbs,
-            "iso_updated": post["date"],
-        }
-        page["jsonld"] = [jsonld_breadcrumbs(site, crumbs), jsonld_article(site, page, "NewsArticle")]
-        render("news_post.html.j2", page, post.get("priority", "0.6"))
-        posts_meta.append(
-            {
-                "title": post["name"],
+    # ---- dated post sections: /news/ (update coverage) and /blog/ (evergreen
+    # strategy). Same renderer, same feed, same schema; two separate hubs so the
+    # timely material and the evergreen material do not bury each other.
+    post_counts = {}
+    for key, data, folder, default_h1, article_type in (
+        ("news", news, "news", "Clash of Clans News", "NewsArticle"),
+        ("blog", blog, "blog", "Clash of Clans Blog", "BlogPosting"),
+    ):
+        if not data:
+            continue
+        posts_meta = []
+        for post in data.get("entries", []):
+            url = f"/{folder}/{post['slug']}.html"
+            crumbs = [
+                {"label": "Home", "href": ""},
+                {"label": default_h1.split()[-1], "href": f"{folder}/"},
+                {"label": post["name"], "href": None},
+            ]
+            page = {
                 "url": url,
+                "section": key,
+                "banner": banner(post.get("banner", key)),
+                "h1": post.get("h1", post["name"]),
+                "head_title": post.get("head_title", f"{post['name']} | {site['name']}"),
                 "description": post["description"],
-                "date": post["date"],
-                "date_label": post["date_label"],
-                "rfc822": format_datetime(
-                    datetime.fromisoformat(post["date"]).replace(tzinfo=timezone.utc)
-                ),
+                "summary": post["summary"],
+                "updated": post["date_label"],
+                "byline": post.get("byline"),
+                "tags": post.get("tags"),
+                "sections": section_list(post.get("sections")),
+                "faq": post.get("faq"),
+                "sources": post.get("sources"),
+                "related": resolve_related(post, url),
+                "crumbs": crumbs,
+                "iso_updated": post["date"],
             }
+            page["jsonld"] = [
+                jsonld_breadcrumbs(site, crumbs),
+                jsonld_article(site, page, article_type),
+            ] + ([jsonld_faq(post["faq"])] if post.get("faq") else [])
+            render("news_post.html.j2", page, post.get("priority", "0.6"))
+            posts_meta.append(
+                {
+                    "title": post["name"],
+                    "url": url,
+                    "description": post["description"],
+                    "date": post["date"],
+                    "date_label": post["date_label"],
+                    "rfc822": format_datetime(
+                        datetime.fromisoformat(post["date"]).replace(tzinfo=timezone.utc)
+                    ),
+                }
+            )
+
+        posts_meta.sort(key=lambda p: p["date"], reverse=True)
+        hub = data.get("hub", {})
+        crumbs = [{"label": "Home", "href": ""}, {"label": default_h1.split()[-1], "href": None}]
+        items = [
+            {"href": p["url"].lstrip("/"), "label": p["title"], "blurb": f"{p['date_label']} — {p['description'][:110]}"}
+            for p in posts_meta
+        ]
+        hub_page = {
+            "url": f"/{folder}/",
+            "section": key,
+            "banner": banner(key),
+            "mascot": section_mascot(key),
+            "h1": hub.get("h1", default_h1),
+            "head_title": hub.get("head_title", f"{default_h1} | {site['name']}"),
+            "description": hub.get("description", site.get(f"{key}_description", "")),
+            "summary": hub.get("summary", ""),
+            "sections": section_list(hub.get("sections")),
+            "groups": [{"id": "latest", "h": "Latest", "style": "cards", "links": items}]
+            if items
+            else [],
+            "faq": hub.get("faq"),
+            "related": resolve_related(hub, f"/{folder}/"),
+            "crumbs": crumbs,
+            "wide": True,
+            "og_type": "website",
+        }
+        hub_page["jsonld"] = [jsonld_breadcrumbs(site, crumbs)] + (
+            [jsonld_faq(hub["faq"])] if hub.get("faq") else []
         )
+        render("hub.html.j2", hub_page, "0.8")
 
-    posts_meta.sort(key=lambda p: p["date"], reverse=True)
-    news_hub = news.get("hub", {})
-    crumbs = [{"label": "Home", "href": ""}, {"label": "News", "href": None}]
-    news_items = [
-        {"href": p["url"].lstrip("/"), "label": p["title"], "blurb": f"{p['date_label']} — {p['description'][:110]}"}
-        for p in posts_meta
-    ]
-    news_page = {
-        "url": "/news/",
-        "section": "news",
-        "banner": banner("news"),
-        "mascot": section_mascot("news"),
-        "h1": news_hub.get("h1", "Clash of Clans News"),
-        "head_title": news_hub.get("head_title", f"Clash of Clans News | {site['name']}"),
-        "description": news_hub.get("description", site.get("news_description", "")),
-        "summary": news_hub.get("summary", ""),
-        "sections": section_list(news_hub.get("sections")),
-        "groups": [{"id": "latest", "h": "Latest", "style": "cards", "links": news_items}]
-        if news_items
-        else [],
-        "faq": news_hub.get("faq"),
-        "related": resolve_related(news_hub, "/news/"),
-        "crumbs": crumbs,
-        "wide": True,
-        "og_type": "website",
-    }
-    news_page["jsonld"] = [jsonld_breadcrumbs(site, crumbs)]
-    render("hub.html.j2", news_page, "0.8")
-
-    feed = env.get_template("feed.xml.j2").render(site=site, posts=posts_meta)
-    (ROOT / "news").mkdir(exist_ok=True)
-    (ROOT / "news" / "feed.xml").write_text(feed, encoding="utf-8")
+        feed = env.get_template("feed.xml.j2").render(site=site, posts=posts_meta)
+        (ROOT / folder).mkdir(exist_ok=True)
+        (ROOT / folder / "feed.xml").write_text(feed, encoding="utf-8")
+        post_counts[key] = len(posts_meta)
 
     # ---- top-level wiki hub
     wiki = load("wiki")
@@ -1091,6 +1113,10 @@ def main() -> int:
     for entry in tutorials.get("entries", [])[:14]:
         llms.append(bullet(f"/tutorials/{entry['slug']}.html", entry["name"]))
     llms += ["", "## News", bullet("/news/", "News index"), bullet("/news/feed.xml", "RSS feed")]
+    if blog.get("entries"):
+        llms += ["", "## Blog", bullet("/blog/", "Blog index"), bullet("/blog/feed.xml", "RSS feed")]
+        for post in sorted(blog["entries"], key=lambda e: e["date"], reverse=True):
+            llms.append(bullet(f"/blog/{post['slug']}.html", post["name"]))
     llms += ["", "## Bot guides"]
     for guide in site.get("guides", []):
         llms.append(bullet(guide["href"], guide["label"]))
@@ -1104,12 +1130,12 @@ def main() -> int:
     kept = {(ROOT / u.lstrip("/")).resolve() for u, _, _ in written}
     kept |= {(ROOT / u.lstrip("/") / "index.html").resolve() for u, _, _ in written if u.endswith("/")}
     pruned = []
-    for section in ("wiki", "tutorials", "news"):
+    for section in ("wiki", "tutorials", "news", "blog"):
         for stale in (ROOT / section).rglob("*.html"):
             if stale.resolve() not in kept:
                 stale.unlink()
                 pruned.append(str(stale.relative_to(ROOT)))
-    for section in ("wiki", "tutorials", "news"):
+    for section in ("wiki", "tutorials", "news", "blog"):
         for d in sorted((ROOT / section).rglob("*"), reverse=True):
             if d.is_dir() and not any(d.iterdir()):
                 d.rmdir()
@@ -1122,7 +1148,8 @@ def main() -> int:
             print(f"      - {x}")
     print(f"  wiki sections : {len(wiki_groups)}")
     print(f"  tutorials     : {len(tutorials.get('entries', []))}")
-    print(f"  news posts    : {len(posts_meta)}")
+    print(f"  news posts    : {post_counts.get('news', 0)}")
+    print(f"  blog posts    : {post_counts.get('blog', 0)}")
     print(f"  sitemap urls  : {len(seen)}")
     print(f"  TODO cells    : {todo_count}")
     static_synced = sync_static_entity(ROOT, site)

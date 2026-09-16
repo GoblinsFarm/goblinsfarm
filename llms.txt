@@ -43,6 +43,20 @@ The wiki and tutorial sections are reference material about the game itself and 
 - [News index](https://goblinsfarm.com/news/)
 - [RSS feed](https://goblinsfarm.com/news/feed.xml)
 
+## Blog
+- [Blog index](https://goblinsfarm.com/blog/)
+- [RSS feed](https://goblinsfarm.com/blog/feed.xml)
+- [How long it actually takes to max Clash of Clans](https://goblinsfarm.com/blog/how-long-to-max-clash-of-clans.html)
+- [Attack strategies by Town Hall](https://goblinsfarm.com/blog/attack-strategies-by-town-hall.html)
+- [Which hero to upgrade first](https://goblinsfarm.com/blog/which-hero-to-upgrade-first.html)
+- [Every Town Hall ranked by what it really costs you](https://goblinsfarm.com/blog/hardest-town-hall-upgrades-ranked.html)
+- [Is the Gold Pass worth it?](https://goblinsfarm.com/blog/is-the-gold-pass-worth-it.html)
+- [Hog Rider vs Miner vs Valkyrie](https://goblinsfarm.com/blog/hog-rider-vs-miner-vs-valkyrie.html)
+- [Starting Clash of Clans in 2026](https://goblinsfarm.com/blog/starting-clash-of-clans-in-2026.html)
+- [Free-to-play Clash of Clans](https://goblinsfarm.com/blog/free-to-play-clash-of-clans.html)
+- [Why your account stalls](https://goblinsfarm.com/blog/why-your-clash-of-clans-account-stalls.html)
+- [The Clash of Clans glossary](https://goblinsfarm.com/blog/clash-of-clans-glossary.html)
+
 ## Bot guides
 - [Clash of Clans bot, the complete guide](https://goblinsfarm.com/guides/clash-of-clans-bot.html)
 - [MyBot alternative](https://goblinsfarm.com/guides/mybot-alternative.html)
