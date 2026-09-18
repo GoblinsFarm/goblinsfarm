@@ -762,6 +762,657 @@
       "date": "2026-09-16",
       "date_label": "16 September 2026",
       "byline": "Goblins Farm"
+    },
+    {
+      "slug": "best-th11-attack-strategy",
+      "name": "The best TH11 attack strategy",
+      "h1": "The Best TH11 Attack Strategy Is the One You Can Repeat",
+      "head_title": "Best TH11 Attack Strategy — Armies That Fit 260 Housing Space",
+      "description": "Town Hall 11 gives you 260 army camp space and a Grand Warden. Here are the armies that fit it exactly, what the game files say they hit for, and which one to learn first.",
+      "summary": "Town Hall 11 is where Clash of Clans stops being forgiving. You get a fourth hero, an Eagle Artillery starts appearing across from you, and your army camps hold 260 housing space — not a number anyone picks at random, because it decides which armies are even possible. This is what fits, what it hits for at Town Hall 11 research levels, and which one to learn first.",
+      "banner": "attack",
+      "tags": [
+        {
+          "label": "Attack"
+        },
+        {
+          "label": "Town Hall 11"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The number that decides everything: 260",
+          "body": "<p>At Town Hall 11 you may place <strong>four Army Camps</strong>, and the game files give a level 9 Army Camp <strong>65 housing space</strong>. Four of them is <strong>260 space</strong>, and that is the entire budget you take into a battle. Your <a href='../wiki/buildings/clan-castle.html'>Clan Castle</a> at level 7 adds <strong>35 more</strong> plus <strong>one siege machine slot</strong>, which at Town Hall 11 you can only receive from a clanmate, because the Workshop does not unlock until Town Hall 12.</p><p>This matters more than it sounds. Every popular Town Hall 11 army is popular precisely because it divides into 260 without waste. An army that leaves 14 space empty is an army that is 5% smaller than it needed to be, every single attack, forever.</p><div class='note'><p><b>The one cost that is real.</b> Troops have no training cost and no training time in the current game files — those columns do not exist. What an attack actually spends is the <strong>search fee</strong>, which is <strong>1,000 gold</strong> at Town Hall 11, plus your time. Army composition is free to change. Use that.</p></div>"
+        },
+        {
+          "h": "What Town Hall 11 actually unlocks",
+          "body": "<p>Five things arrive: the <a href='../wiki/heroes/grand-warden.html'>Grand Warden</a>, the Eagle Artillery, the <a href='../wiki/troops/electro-dragon.html'>Electro Dragon</a>, the <a href='../wiki/troops/ice-golem.html'>Ice Golem</a> and the Invisibility Spell.</p><p>The Grand Warden is the one that changes how you attack. He is funded entirely by elixir — no dark elixir at any level — which means he can be upgrading while your dark elixir goes to the Barbarian King and Archer Queen. His aura is a permanent buff to everything near him and his Eternal Tome ability is several seconds of immunity for your whole push. Town Hall 11 armies are built around the fact that he exists.</p><p>The Eagle Artillery is the reason your old Town Hall 10 army stops working. It activates once a certain amount of housing space has been deployed and then fires on your densest group, which punishes exactly the habit most players bring up from Town Hall 10: dropping everything at once in one place.</p>"
+        },
+        {
+          "h": "Four armies that fit 260 exactly",
+          "body": "<p>Each of these uses every point of housing space. Levels quoted are the maximum a Town Hall 11 laboratory (level 9) allows, taken from the game files.</p><ul><li><strong>Zap Dragons — 13 Dragons (13 × 20 = 260).</strong> The simplest army in the game and still the highest floor at this Town Hall. A level 6 <a href='../wiki/troops/dragon.html'>Dragon</a> is 270 DPS and 3,400 hitpoints. Lightning the Air Defence you cannot reach, drop the rest in a line, and you will three-star most rushed bases and two-star most real ones.</li><li><strong>Electro Dragons — 8 Electro Dragons + 4 Balloons (8 × 30 + 4 × 5 = 260).</strong> A level 2 Electro Dragon is 290 DPS, 3,900 hitpoints, and its chain lightning clears the small buildings that would otherwise slow the pack. Slower than Dragons, more forgiving of bad funnelling.</li><li><strong>Lavaloon — 2 Lava Hounds + 36 Balloons + 10 Minions (60 + 180 + 20 = 260).</strong> The highest ceiling and the lowest floor. Two level 4 Lava Hounds at 7,200 hitpoints each soak the Air Defences while level 7 Balloons at 198 DPS chew through them. Gets three stars that Dragons cannot. Also gets 40% attacks when the hounds split wrong.</li><li><strong>Queen Charge Hogs — 4 Healers + 30 Hog Riders + 5 Wall Breakers + 10 Minions (56 + 150 + 10 + 20 = 236, plus 6 Wizards at 24 space for the funnel).</strong> The hardest to learn and the one that keeps working at Town Hall 12, 13 and 14. If you intend to stay in the game, this is the one worth the failed attacks.</li></ul>"
+        },
+        {
+          "h": "Which one to learn first, and why it is not the best one",
+          "body": "<p>Learn Zap Dragons first. Not because it is the strongest — Lavaloon and Queen Charge both have higher ceilings — but because at Town Hall 11 your problem is not ceiling, it is variance.</p><p>A Town Hall 11 laboratory is level 9. Of the troops you are likely to use, the <a href='../wiki/troops/dragon.html'>Dragon</a> sits at 6 of 13 levels, the <a href='../wiki/troops/hog-rider.html'>Hog Rider</a> at 7 of 15, the <a href='../wiki/troops/electro-dragon.html'>Electro Dragon</a> at 2 of 9. You are attacking with roughly half-levelled troops against bases whose defences are, relative to their own Town Hall, much closer to maxed. Armies that need precision will fail on the margin; armies that need only a decent funnel will not.</p><p>The practical test: if your last ten war attacks include more than two attacks under 50%, you are using an army above your execution level. Drop back to Dragons, bank the stars, and practise the Queen Charge in friendly challenges where failing costs nothing.</p>"
+        },
+        {
+          "h": "The mistake that costs more than army choice",
+          "body": "<p>Attacking without spending your Clan Castle slot. Thirty-five housing space of clan troops is <strong>13% more army</strong> than you own, delivered free, and at Town Hall 11 it can be a level-appropriate Electro Dragon or a pair of Baby Dragons that clean a whole side of the base. Players who request on cooldown attack with 295 space. Players who forget attack with 260 and then wonder why the same army works for everyone else.</p><p>The second mistake is upgrading the Town Hall before the laboratory catches up. Town Hall 12 does not make your Dragons stronger — it unlocks the research that does, and that research is weeks of laboratory time you have not started. There is more on that in <a href='why-your-clash-of-clans-account-stalls.html'>why your account stalls</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best attack strategy at TH11?",
+          "a": "For consistent two and three stars with modest research, 13 Dragons with Lightning Spells on an Air Defence. For higher ceilings once your execution is reliable, Lavaloon or a Queen Charge into Hog Riders. All three fit Town Hall 11's 260 housing space exactly."
+        },
+        {
+          "q": "How much army space do you get at TH11?",
+          "a": "260. Town Hall 11 allows four Army Camps and a level 9 Army Camp holds 65 housing space in the game files. A level 7 Clan Castle adds 35 more plus one siege machine slot."
+        },
+        {
+          "q": "Is Lavaloon good at TH11?",
+          "a": "It has the highest ceiling of any Town Hall 11 army and the lowest floor. Two Lava Hounds and 36 Balloons will three-star bases that Dragons cannot touch, but an unlucky hound split turns the same attack into 40%. Learn it second, not first."
+        }
+      ],
+      "related": [
+        "blog:attack-strategies-by-town-hall",
+        "blog:best-th12-attack-strategy",
+        "mechanics:funnelling",
+        "townhalls:town-hall-11"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "best-th12-attack-strategy",
+      "name": "The best TH12 attack strategy",
+      "h1": "The Best TH12 Attack Strategy: What 280 Housing Space and a Siege Machine Buy You",
+      "head_title": "Best TH12 Attack Strategy — Armies, Sieges and the 280 Space Budget",
+      "description": "Town Hall 12 gives you 280 army camp space and your own Workshop. Here are the armies that fit exactly, which siege machine to put behind them, and what the game files say each one hits for.",
+      "summary": "Town Hall 12 is the first level where you control your own siege machine, and that changes attacking more than the twenty extra housing space does. Your camps hold 280, your Clan Castle holds 40, and the Workshop finally means you are not waiting on a clanmate to donate the thing your army is built around.",
+      "banner": "attack",
+      "tags": [
+        {
+          "label": "Attack"
+        },
+        {
+          "label": "Town Hall 12"
+        }
+      ],
+      "sections": [
+        {
+          "h": "280 space, 40 in the castle, and a Workshop of your own",
+          "body": "<p>Four level 10 Army Camps hold <strong>70 housing space each</strong> in the game files — <strong>280 total</strong>, twenty more than Town Hall 11. A level 8 <a href='../wiki/buildings/clan-castle.html'>Clan Castle</a> holds <strong>40 troop space plus one siege machine</strong>.</p><p>The Workshop is the real unlock. Town Hall 12 gives you the <a href='../wiki/troops/wall-wrecker.html'>Wall Wrecker</a>, the <a href='../wiki/troops/battle-blimp.html'>Battle Blimp</a> and the <a href='../wiki/troops/stone-slammer.html'>Stone Slammer</a>, and from this point your army plan begins with which siege you are riding in on rather than which troops you are dropping.</p><p>Town Hall 12 also adds the <a href='../wiki/troops/yeti.html'>Yeti</a>, the <a href='../wiki/troops/headhunter.html'>Headhunter</a> and the Overgrowth Spell, and puts a Giga Tesla in the Town Hall itself — which is why attacks that used to end cleanly at Town Hall 11 now end with a live Town Hall and two stars.</p>"
+        },
+        {
+          "h": "Armies that fit 280 exactly",
+          "body": "<ul><li><strong>Zap Dragons — 14 Dragons (14 × 20 = 280).</strong> Still the highest-floor army in the game. A level 7 <a href='../wiki/troops/dragon.html'>Dragon</a> at Town Hall 12 research is 310 DPS and 3,900 hitpoints.</li><li><strong>Electro Dragons — 8 Electro Dragons + 8 Balloons (240 + 40 = 280).</strong> Level 3 Electro Dragons are 320 DPS and 4,400 hitpoints. The Balloons exist to take out the Air Defence the chain lightning will not reach in time.</li><li><strong>Yeti Smash — 9 Yetis + 6 Witches + 4 Wall Breakers + 19 Minions (162 + 72 + 8 + 38 = 280).</strong> Town Hall 12's signature ground army. A level 2 <a href='../wiki/troops/yeti.html'>Yeti</a> is 250 DPS and 3,200 hitpoints and spawns Yetimites on death, which is a lot of free damage on a compartment you have already broken into.</li><li><strong>Queen Charge Hybrid — 4 Healers + 18 Miners + 14 Hog Riders + 4 Wizards + 12 Minions (56 + 108 + 70 + 16 + 24 = 274, with 3 Wall Breakers for the last 6).</strong> The army that keeps working for the next four Town Halls. Learn it here where the mistakes are cheap.</li></ul>"
+        },
+        {
+          "h": "Which siege machine, and why the answer is usually the Wall Wrecker",
+          "body": "<p>Three sieges unlock here. The files make the comparison blunt:</p><ul><li><strong>Wall Wrecker</strong> — 10,000 hitpoints at level 6, 670 DPS, drives straight at the Town Hall through walls.</li><li><strong>Stone Slammer</strong> — 7,200 hitpoints, 820 DPS, flies and drops bombs on defences.</li><li><strong>Battle Blimp</strong> — 5,500 hitpoints, 300 DPS, flies over everything and unloads at the core.</li></ul><p>The Wall Wrecker has <strong>39% more hitpoints than the Stone Slammer and 82% more than the Battle Blimp</strong>, and hitpoints are what a siege machine is actually for: it is a delivery vehicle, and the measure of a delivery vehicle is whether it arrives. All three cost 48,500,000 elixir and 34.5 days of laboratory time to max, so the research decision is not about price.</p><p>Take the Stone Slammer when your army is air and needs the Air Defences opened. Take the Battle Blimp only with a plan that survives it being shot down halfway.</p>"
+        },
+        {
+          "h": "The Giga Tesla changes your route, not your army",
+          "body": "<p>Town Hall 12's Town Hall is a defence. It fires while it stands and explodes when it falls, damaging everything nearby. Two consequences for planning:</p><p>First, a Town Hall in the core is now a reason to go <em>through</em> the core rather than around it, which is exactly what the Wall Wrecker is for. Second, do not park your heroes next to it as it dies. The explosion is the single most common reason a Town Hall 12 attack that was heading for three stars ends on two.</p><p>If you are used to funnelling around the outside and pinching in, read <a href='../wiki/mechanics/funnelling.html'>funnelling</a> again with this in mind — at Town Hall 12 the funnel is shorter and the commitment is earlier.</p>"
+        },
+        {
+          "h": "What to research first at Town Hall 12",
+          "body": "<p>Your laboratory is level 10 and there is exactly one of it. The order that wastes the least time:</p><ol><li><strong>Whatever your main army needs to reach its Town Hall 12 level.</strong> Half a maxed army beats a spread of half-levelled ones.</li><li><strong>The siege machine you actually fly.</strong> 34.5 lab days for a maxed Wall Wrecker is real, and a level 1 siege dies on the way in.</li><li><strong>Spells.</strong> They are cheap relative to troops and every army uses them.</li></ol><p>What not to research: the troop you have never attacked with and are curious about. Curiosity in the laboratory is measured in weeks. <a href='how-long-to-max-clash-of-clans.html'>Maxing the whole laboratory is 2,476 days</a>, so every research is a choice not to do something else for a fortnight.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best attack strategy at TH12?",
+          "a": "Yeti Smash for ground and Electro Dragons or Zap Dragons for air are the highest-floor Town Hall 12 armies, all of which fit the 280 housing space exactly. A Queen Charge Hybrid has the highest ceiling and is worth learning here because it stays relevant through Town Hall 15."
+        },
+        {
+          "q": "How much army space do you have at TH12?",
+          "a": "280. Four Army Camps at level 10 hold 70 housing space each. A level 8 Clan Castle adds 40 troop space and one siege machine."
+        },
+        {
+          "q": "Which siege machine is best at TH12?",
+          "a": "The Wall Wrecker for most armies: 10,000 hitpoints at level 6 against the Stone Slammer's 7,200 and the Battle Blimp's 5,500. A siege machine is a delivery vehicle and hitpoints decide whether it arrives. Take the Stone Slammer with air armies that need Air Defences opened."
+        }
+      ],
+      "related": [
+        "blog:best-th11-attack-strategy",
+        "blog:best-th13-attack-strategy",
+        "blog:which-siege-machine-to-use",
+        "townhalls:town-hall-12"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "best-th13-attack-strategy",
+      "name": "The best TH13 attack strategy",
+      "h1": "The Best TH13 Attack Strategy: 300 Space, a Fourth Hero and the Scattershot Problem",
+      "head_title": "Best TH13 Attack Strategy — Armies for 300 Housing Space",
+      "description": "Town Hall 13 gives you 300 army camp space, the Royal Champion and a Scattershot to attack into. Here are the armies that fit exactly and what the game files say they hit for.",
+      "summary": "Town Hall 13 is the level where armies stop being lists of troops and start being plans. You get 300 housing space, a fourth hero with an ability that removes a defence outright, and on the other side of the map two Scattershots that punish everything you learned at Town Hall 12.",
+      "banner": "attack",
+      "tags": [
+        {
+          "label": "Attack"
+        },
+        {
+          "label": "Town Hall 13"
+        }
+      ],
+      "sections": [
+        {
+          "h": "300 space, and what arrived with it",
+          "body": "<p>Four level 11 Army Camps hold <strong>75 housing space each</strong> — <strong>300 total</strong>. A level 9 <a href='../wiki/buildings/clan-castle.html'>Clan Castle</a> holds <strong>45 troop space plus a siege machine</strong>, so a fully requested Town Hall 13 attack is 345 space of army and a vehicle.</p><p>Town Hall 13 unlocks the <a href='../wiki/heroes/royal-champion.html'>Royal Champion</a>, the Scattershot, the <a href='../wiki/troops/dragon-rider.html'>Dragon Rider</a>, the <a href='../wiki/troops/apprentice-warden.html'>Apprentice Warden</a>, the Recall Spell, the <a href='../wiki/troops/log-launcher.html'>Log Launcher</a> and the <a href='../wiki/troops/siege-barracks.html'>Siege Barracks</a>.</p><p>The Royal Champion is the headline. Her ability throws a shield that destroys a defence outright, which means Town Hall 13 is the first level where you can remove a specific problem building rather than out-damage it. The Recall Spell is the quieter change: it pulls deployed troops back out, which turns a failed side into a second attempt instead of a wasted 40%.</p>"
+        },
+        {
+          "h": "Armies that fit 300 exactly",
+          "body": "<ul><li><strong>Dragon Riders — 12 Dragon Riders (12 × 25 = 300).</strong> Twelve is not a rule of thumb, it is arithmetic: a <a href='../wiki/troops/dragon-rider.html'>Dragon Rider</a> is 25 housing space and your camps hold exactly 300. At Town Hall 13 research they are 370 DPS and 4,400 hitpoints each, and they prioritise defences, which means the funnel matters far less than it does with Dragons.</li><li><strong>Zap Dragons — 15 Dragons (15 × 20 = 300).</strong> Level 8 Dragons at 330 DPS and 4,200 hitpoints. The floor is still high; the ceiling is now lower than everything else on this list.</li><li><strong>Electro Dragons — 10 Electro Dragons (10 × 30 = 300).</strong> Level 4 Electro Dragons at 350 DPS and 4,700 hitpoints. Slow, durable, and the chain lightning does the funnelling for you.</li><li><strong>Queen Charge Hybrid — 4 Healers + 20 Miners + 16 Hog Riders + 4 Wizards + 14 Minions (56 + 120 + 80 + 16 + 28 = 300).</strong> The highest-ceiling army at this Town Hall and the one that rewards the Royal Champion's shield most directly: take the Scattershot out of the Queen's path and the whole charge holds together.</li></ul>"
+        },
+        {
+          "h": "The Scattershot is the reason your old army stopped working",
+          "body": "<p>Two Scattershots go up at Town Hall 13, at 190 DPS and 5,800 hitpoints each in the files. The DPS number undersells them badly — they fire a wide splash shot at groups, and the group they punish hardest is a pack of air troops flying in formation, which describes every Dragon army ever built.</p><p>This is why Dragon Riders replaced Dragons at this Town Hall rather than supplementing them. Dragon Riders spread naturally because they each pick their own defence target; Dragons clump because they follow the nearest building. Against splash, clumping is the whole problem.</p><div class='note'><p><b>If you take one thing.</b> At Town Hall 13 you do not need more damage, you need less overlap. Any change that spreads your army out is worth more than any change that makes it stronger.</p></div>"
+        },
+        {
+          "h": "Where the Royal Champion's shield should go",
+          "body": "<p>Her ability destroys one defence. Spend it on the building that would otherwise end the attack, in this order:</p><ol><li><strong>The Scattershot covering your entry.</strong> Almost always correct.</li><li><strong>An Inferno Tower on single target</strong> if your army is Dragon Riders or anything else with large individual hitpoints.</li><li><strong>The Eagle Artillery</strong> only if your attack takes long enough for it to matter, which for a 12-Dragon-Rider push it usually does not.</li></ol><p>Do not save it. A Royal Champion who dies with her ability unused is 45 seconds of your attack spent on nothing, and the files are clear that she is not durable enough to be treated as a tank.</p>"
+        },
+        {
+          "h": "What to research, and the trap at Town Hall 13",
+          "body": "<p>Your laboratory reaches level 11 and your Pet House does not exist yet — that is Town Hall 14. So Town Hall 13 is the last level where dark elixir has only two mouths to feed: heroes and the dark laboratory. Spend accordingly, because from Town Hall 14 onwards it has <a href='which-pet-for-which-hero.html'>twelve pets to fund as well</a>.</p><p>The trap is upgrading to Town Hall 14 on schedule. Town Hall 13's defences are strong relative to its attackers and its offence is well-supported; Town Hall 14 immediately adds a Pet House that will eat every scrap of dark elixir you have for months. Finish your heroes here. <a href='why-your-clash-of-clans-account-stalls.html'>Accounts stall at Town Hall 14 and 15</a> almost entirely because they arrived with nothing banked.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best attack strategy at TH13?",
+          "a": "Twelve Dragon Riders is the highest-floor army and fits Town Hall 13's 300 housing space exactly. A Queen Charge Hybrid has the highest ceiling and makes the best use of the Royal Champion's shield. Both beat Zap Dragons here because Scattershots punish clumped air troops."
+        },
+        {
+          "q": "How much army space do you get at TH13?",
+          "a": "300. Four level 11 Army Camps hold 75 housing space each. A level 9 Clan Castle adds 45 troop space and one siege machine, for 345 total in a fully requested attack."
+        },
+        {
+          "q": "Should you max heroes before upgrading to TH14?",
+          "a": "Largely, yes. Town Hall 14 adds the Pet House, and maxing all twelve pets costs 24.2 million dark elixir on its own. Arriving at Town Hall 14 with unfinished heroes means competing for the same resource on two fronts for months."
+        }
+      ],
+      "related": [
+        "blog:best-th12-attack-strategy",
+        "blog:which-pet-for-which-hero",
+        "heroes:royal-champion",
+        "townhalls:town-hall-13"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "which-hero-equipment-to-upgrade-first",
+      "name": "Which hero equipment to upgrade first",
+      "h1": "Which Hero Equipment to Upgrade First? Every Piece Costs the Same, So Only Value Matters",
+      "head_title": "Which Hero Equipment to Upgrade First — The Ore Maths",
+      "description": "We summed the ore cost of all 43 hero equipment pieces from the game files. Every Common costs 27,260 Shiny Ore, every Epic costs 56,060. Here is what that means for upgrade order.",
+      "summary": "There are 43 pieces of hero equipment in the game files and the ore cost of maxing one depends on exactly one thing: whether it is Common or Epic. Not which hero. Not which ability. Not how good it is. Once you know that, the whole upgrade question changes shape — you are not shopping on price, you are shopping on value at a fixed price.",
+      "banner": "equipment",
+      "tags": [
+        {
+          "label": "Equipment"
+        },
+        {
+          "label": "Data"
+        },
+        {
+          "label": "Decision"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The finding: price is flat, value is not",
+          "body": "<p>Summing every upgrade row in the game files gives two numbers and no others:</p><ul><li><strong>Every Common piece</strong> — 18 levels, <strong>27,260 Shiny Ore and 1,920 Glowy Ore</strong>.</li><li><strong>Every Epic piece</strong> — 27 levels, <strong>56,060 Shiny Ore, 3,720 Glowy Ore and 480 Starry Ore</strong>.</li></ul><p>That is it. The <a href='../wiki/equipment/giant-gauntlet.html'>Giant Gauntlet</a> costs exactly what the <a href='../wiki/equipment/action-figure.html'>Action Figure</a> costs. The <a href='../wiki/equipment/seeking-shield.html'>Seeking Shield</a> costs exactly what the <a href='../wiki/equipment/rage-vial.html'>Rage Vial</a> costs. There is no premium for the good ones.</p><p>Across all 43 pieces, maxing everything is <strong>1,719,380 Shiny Ore, 116,760 Glowy Ore and 9,120 Starry Ore</strong>.</p><div class='note'><p><b>The consequence.</b> Because price carries no information, every ore you spend on a piece you do not use is a pure loss with no offsetting saving. The only wrong answer is spreading ore thinly across pieces you never equip.</p></div>"
+        },
+        {
+          "h": "An Epic is 2.06 times a Common, and the third ore is the real gate",
+          "body": "<p>An Epic costs 2.06× a Common in Shiny Ore and 1.94× in Glowy — steep but survivable. The number that actually decides your pace is <strong>Starry Ore</strong>: 480 per Epic, and zero for every Common in the game.</p><p>Starry Ore is the scarcest of the three and it has exactly one use. If you own several Epics, you are not choosing which to max, you are choosing which to max <em>first</em>, and the gap between first and second is measured in months, not weeks.</p><p>So the practical rule is: <strong>Commons are a Shiny Ore problem, Epics are a Starry Ore problem</strong>, and those are two different queues that do not compete with each other. Level your Commons while you save Starry for the one Epic that matters.</p>"
+        },
+        {
+          "h": "How the 43 pieces are distributed",
+          "body": "<p>By hero: <strong>Archer Queen 8, Barbarian King 8, Grand Warden 7, Minion Prince 7, Royal Champion 7, Dragon Duke 6</strong>. Nineteen are Epic and 24 are Common.</p><p>Each hero carries two pieces into a battle, so a fully-equipped six-hero account uses twelve of the 43 — <strong>28%</strong>. The remaining 31 are, for your account specifically, decoration. That is not a criticism of the system; it is the whole point of it. But it means the correct spend is concentrated, not spread.</p><p>The pieces to fund are the ones the armies you actually attack with depend on, and that list is short. If you do not know which ones those are, the honest answer is that you should max nothing until you have settled on an attack, because equipment ore is the least reversible resource in the game.</p>"
+        },
+        {
+          "h": "The order that wastes the least",
+          "body": "<ol><li><strong>Both pieces on the hero who leads your attack.</strong> For a Queen Charge that is the Archer Queen; for ground smash armies it is usually the Barbarian King. Two pieces fully levelled beats six pieces half levelled every time, because only two are equipped.</li><li><strong>The Grand Warden's defensive piece.</strong> He is the one hero whose equipment protects the entire army rather than himself, which makes his ore the highest-leverage in the game.</li><li><strong>One Epic, chosen and finished.</strong> Not two started.</li><li><strong>Commons for your secondary heroes,</strong> which is where surplus Shiny Ore that cannot become Starry Ore should go.</li></ol><p>What to skip entirely: pieces for heroes you leave at home, and any piece whose ability duplicates a spell you already bring. Equipment that replaces a spell is only worth it if you then drop the spell.</p>"
+        },
+        {
+          "h": "How we counted",
+          "body": "<p>Every figure here is summed from the upgrade tables on this site's own <a href='../wiki/equipment/'>equipment pages</a>, which are read from Clash of Clans' game files rather than copied from community spreadsheets. We added the ore cost of every level from 1 to maximum for all 43 pieces, then grouped by rarity.</p><p>The limits worth stating: this counts ore only, ignores Blacksmith level requirements that gate when an upgrade becomes available, and excludes ore spent on crafting new pieces rather than levelling existing ones. The game version these files came from is printed under every table on the site.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which hero equipment should you upgrade first?",
+          "a": "Both pieces equipped on the hero that leads your attack, finished to maximum before starting anything else. Every Common costs the same 27,260 Shiny Ore and every Epic the same 56,060, so there is no cost saving in spreading ore around — only the loss of the pieces you never equip."
+        },
+        {
+          "q": "How much ore does it take to max all hero equipment?",
+          "a": "1,719,380 Shiny Ore, 116,760 Glowy Ore and 9,120 Starry Ore, summed across all 43 pieces in the game files. Nineteen of those pieces are Epic at 56,060 Shiny each and 24 are Common at 27,260 each."
+        },
+        {
+          "q": "Are Epic equipment pieces worth the extra ore?",
+          "a": "An Epic costs 2.06 times a Common in Shiny Ore, but the real constraint is Starry Ore: 480 per Epic and none for any Common. Treat Commons and Epics as two separate queues — level Commons continuously and save Starry Ore for one chosen Epic at a time."
+        }
+      ],
+      "related": [
+        "mechanics:hero-equipment",
+        "blog:which-pet-for-which-hero",
+        "blog:how-long-to-max-clash-of-clans",
+        "heroes:grand-warden"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "which-pet-for-which-hero",
+      "name": "Which pet goes on which hero",
+      "h1": "Which Pet Goes on Which Hero? And What Maxing All Twelve Actually Costs",
+      "head_title": "Clash of Clans Pets — Which Pet for Which Hero, and the Real Cost",
+      "description": "All twelve Clash of Clans pets summed from the game files: 24.2 million dark elixir and 782 days in the Pet House. Here is which pet belongs on which hero and what to level first.",
+      "summary": "There are twelve pets, one Pet House, and no way to run two upgrades at once. Maxing every pet is 24.2 million dark elixir and 782 days of Pet House time — nearly the same dark elixir bill as the entire laboratory. Which means pet order is not a preference question, it is a two-year scheduling problem.",
+      "banner": "pets",
+      "tags": [
+        {
+          "label": "Pets"
+        },
+        {
+          "label": "Progression"
+        },
+        {
+          "label": "Data"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The total: 24.2 million dark elixir, 782 days, one building",
+          "body": "<p>Summing every pet level in the game files:</p><ul><li><strong>Greedy Raven</strong> — 10 levels, 3,060,000 dark elixir, 72 days</li><li><strong>Diggy</strong> — 15 levels, 2,655,000 dark elixir, 76.5 days</li><li><strong>Sneezy</strong> — 10 levels, 2,520,000 dark elixir, 72 days</li><li><strong>Frosty</strong> — 15 levels, 2,455,000 dark elixir, 77 days</li><li><strong>Unicorn</strong> — 15 levels, 2,290,000 dark elixir, 77 days</li><li><strong>Poison Lizard</strong> — 15 levels, 2,075,000 dark elixir, 64 days</li><li><strong>Electro Owl</strong> — 15 levels, 1,785,000 dark elixir, 77 days</li><li><strong>Spirit Fox</strong> and <strong>Angry Jelly</strong> — 10 levels each, 1,710,000 dark elixir each, 52.5 and 57 days</li><li><strong>Mighty Yak</strong> — 15 levels, 1,470,000 dark elixir, 59.5 days</li><li><strong>Phoenix</strong> — 10 levels, 1,245,000 dark elixir, 38 days</li><li><strong>L.A.S.S.I.</strong> — 15 levels, 1,190,000 dark elixir, 59.5 days</li></ul><p><strong>Total: 24,165,000 dark elixir and 782 days of Pet House time.</strong> There is one Pet House and it upgrades one pet at a time, so those 782 days are calendar days, not parallel days — the same trap the laboratory sets.</p>"
+        },
+        {
+          "h": "Which pet belongs on which hero",
+          "body": "<p>The pairings that actually get used, and the reason each one works:</p><ul><li><strong>Archer Queen → <a href='../wiki/pets/frosty.html'>Frosty</a> or <a href='../wiki/pets/spirit-fox.html'>Spirit Fox</a>.</strong> The Queen's problem is that she dies, and both of these buy her time — Frosty by slowing what shoots at her, Spirit Fox by healing and speeding her up. On a Queen Charge this is the single highest-value pet slot in the game.</li><li><strong>Barbarian King → <a href='../wiki/pets/mighty-yak.html'>Mighty Yak</a>.</strong> The Yak breaks walls, which turns the King from a unit that walks around a compartment into one that walks through it. Nothing else changes his pathing this cheaply — 1.47 million dark elixir is the second-lowest bill on the list.</li><li><strong>Grand Warden → <a href='../wiki/pets/diggy.html'>Diggy</a> or <a href='../wiki/pets/unicorn.html'>Unicorn</a>.</strong> The Warden's job is to survive long enough to use his ability. Diggy goes underground and cannot be shot; Unicorn heals whichever hero it follows. Both are ways of saying the same thing: the Warden must not die early.</li><li><strong>Royal Champion → <a href='../wiki/pets/poison-lizard.html'>Poison Lizard</a> or <a href='../wiki/pets/electro-owl.html'>Electro Owl</a>.</strong> She dives, so she wants damage that arrives with her rather than protection that trails behind.</li><li><strong>Minion Prince and Dragon Duke → whatever is left.</strong> Being honest: by the time you own six heroes you own fewer good pets than hero slots, and the last two get the remainder.</li></ul>"
+        },
+        {
+          "h": "Unlock order is not upgrade order",
+          "body": "<p>Pets unlock with Pet House levels, and the Pet House unlocks at Town Hall 14. L.A.S.S.I. comes at Pet House 1, Electro Owl at 2, Mighty Yak at 3, Unicorn at 4 — all still at Town Hall 14. Frosty (5), Diggy (6), Poison Lizard (7) and Phoenix (8) arrive at Town Hall 15, Spirit Fox (9) and Angry Jelly (10) at Town Hall 16, Sneezy (11) at Town Hall 17 and Greedy Raven (12) at Town Hall 18.</p><p>The temptation is to level each pet as it unlocks. Resist it. The pets you unlock first are not the pets your attack uses, and 782 days of Pet House time means every misdirected upgrade is a fortnight you cannot get back. Level <strong>the pet on your leading hero</strong> to maximum, then the second, and leave the rest at level 1 until they earn a slot.</p>"
+        },
+        {
+          "h": "Pets, heroes and the dark elixir problem",
+          "body": "<p>Pets cost 24.2 million dark elixir. Heroes cost <a href='how-long-to-max-clash-of-clans.html'>57.5 million</a>. The dark side of the laboratory is another 18.6 million. That is roughly <strong>100 million dark elixir</strong> demanded by a maxed account, against three Dark Elixir Drills producing <strong>200 per hour each at maximum level</strong> — 14,400 a day if you never miss a collection.</p><p>Drills alone would take about nineteen years. Which is the real reason pet order matters: you are rationing the scarcest resource in the game across the three largest bills in the game, and the Pet House is the one that quietly arrived last. There is more on that arithmetic in <a href='dark-elixir-is-the-real-bottleneck.html'>dark elixir is the real bottleneck</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which pet is best for the Archer Queen?",
+          "a": "Frosty or Spirit Fox. Both extend how long she survives — Frosty by slowing what shoots at her, Spirit Fox by healing and hastening her. On a Queen Charge this is the highest-value pet slot in the game."
+        },
+        {
+          "q": "How much dark elixir does it take to max all pets?",
+          "a": "24,165,000 dark elixir and 782 days of Pet House time, summed across all twelve pets in the game files. There is only one Pet House and it upgrades one pet at a time, so those days are calendar days."
+        },
+        {
+          "q": "Which pet should you upgrade first?",
+          "a": "The pet equipped on the hero that leads your attack, taken to maximum before you start a second. Unlock order is not upgrade order — the pets that unlock first at Town Hall 14 are rarely the ones your army depends on."
+        }
+      ],
+      "related": [
+        "blog:which-hero-equipment-to-upgrade-first",
+        "blog:dark-elixir-is-the-real-bottleneck",
+        "buildings:pet-house",
+        "blog:which-hero-to-upgrade-first"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "are-super-troops-worth-it",
+      "name": "Are Super Troops worth it?",
+      "h1": "Are Super Troops Worth It? Every One Is Weaker Per Housing Space Than the Troop It Replaces",
+      "head_title": "Are Super Troops Worth It in Clash of Clans? The Housing Space Maths",
+      "description": "We compared all 17 Super Troops with their base troops at matched levels from the game files. Not one wins on damage per housing space. Here is what you are actually paying 25,000 dark elixir for.",
+      "summary": "A Super Troop costs 25,000 dark elixir and lasts 72 hours. That is the price everyone quotes. The price nobody quotes is housing space, and when you compare each Super Troop with the troop it replaces at the levels a real account has, the result is remarkably consistent: not one of the seventeen is better per housing space. You are buying an ability, and you are paying for it in army size.",
+      "banner": "troops",
+      "tags": [
+        {
+          "label": "Troops"
+        },
+        {
+          "label": "Data"
+        },
+        {
+          "label": "Decision"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What a Super Troop costs",
+          "body": "<p>The game files are uniform about this: all <strong>17 Super Troops</strong> cost <strong>25,000 dark elixir</strong>, run for <strong>72 hours</strong> and then sit on a <strong>72 hour cooldown</strong>. Each requires its base troop at a minimum level — 7 for the <a href='../wiki/troops/super-barbarian.html'>Super Barbarian</a>, 9 for the <a href='../wiki/troops/super-hog-rider.html'>Super Hog Rider</a>, 2 for the <a href='../wiki/troops/super-yeti.html'>Super Yeti</a>, and so on.</p><p>The level you get is tied to the base troop's level, so a Super Troop's real ceiling on a maxed account is lower than the number of rows in its table suggests. A maxed Barbarian is level 13 and the Super Barbarian needs level 7, which puts the Super Barbarian at level 7 of 9 — not level 9. Every comparison below uses the level a maxed account actually has, which is where most published comparisons go wrong.</p>"
+        },
+        {
+          "h": "The table nobody publishes: damage per housing space",
+          "body": "<p>Base troop first, Super Troop second, both at the level a maxed account owns:</p><ul><li><strong>Barbarian 51 → Super Barbarian 48</strong> DPS per space</li><li><strong>Goblin 82 → Sneaky Goblin 60</strong></li><li><strong>Minion 46 → Super Minion 30</strong></li><li><strong>Balloon 65 → Rocket Balloon 36</strong></li><li><strong>Wizard 78 → Super Wizard 27</strong></li><li><strong>Giant 23 → Super Giant 15</strong></li><li><strong>Valkyrie 32 → Super Valkyrie 13</strong></li><li><strong>Hog Rider 50 → Super Hog Rider 16</strong></li><li><strong>Wall Breaker 63 → Super Wall Breaker 20</strong></li><li><strong>Dragon 22 → Super Dragon 12</strong></li><li><strong>Witch 22 → Super Witch 9</strong></li><li><strong>Bowler 27 → Super Bowler 8</strong></li><li><strong>Miner 33 → Super Miner 7</strong></li><li><strong>Archer 46 → Super Archer 14</strong></li></ul><p><strong>Not one goes up.</strong> The closest is the Super Barbarian at 48 against 51, and the worst is the Super Miner at 7 against 33 — a Super Miner is 24 housing space against a Miner's 6, and it does not do four times the damage.</p><div class='note'><p><b>What this does not measure.</b> Abilities. The Super Archer shoots through walls, the Sneaky Goblin starts invisible, the Super Wall Breaker's blast is enormous, the Super Miner damages what killed it. None of that is DPS, and all of it can matter more than DPS. The point is that the trade is real and it runs in one direction.</p></div>"
+        },
+        {
+          "h": "The two that genuinely change what an army can do",
+          "body": "<p><strong>Sneaky Goblins.</strong> Three housing space, invisible for the first seconds after deployment, and they ignore defences entirely to eat storages. For farming this is not a damage upgrade, it is a different activity: an army of Sneaky Goblins takes loot from bases that would destroy a normal army. This is the one Super Troop that pays for its own 25,000 dark elixir and then some.</p><p><strong>Super Wall Breakers.</strong> Four times the housing space of a Wall Breaker for a blast that opens compartments a normal pair cannot. On ground armies where the whole attack depends on one wall opening in one place, the trade is straightforwardly good.</p><p>Everything else is situational. The Super Archer is excellent behind a Battle Blimp and mediocre anywhere else. The Super Witch is a novelty at 40 housing space. The Ice Hound is 40 space for less damage than a Lava Hound and a freeze on death.</p>"
+        },
+        {
+          "h": "When boosting is worth 25,000 dark elixir",
+          "body": "<p>Three cases, and only three:</p><ol><li><strong>Farming with Sneaky Goblins</strong>, where the boost pays for itself in raided dark elixir within a day or two of normal play.</li><li><strong>A war attack you have specifically planned around the ability</strong> — Blimp Super Archers, or Super Wall Breakers on a base whose core needs one hole.</li><li><strong>A Clan Games or event task</strong> that requires it.</li></ol><p>Outside those, 25,000 dark elixir is about 1.7 days of full drill production, and dark elixir is <a href='dark-elixir-is-the-real-bottleneck.html'>the resource your heroes and pets are starving for</a>. Boosting a Super Troop because it is available is one of the more expensive habits in the game, and the housing space table above is why it does not pay you back.</p>"
+        },
+        {
+          "h": "How we counted",
+          "body": "<p>Damage per housing space is DPS divided by housing space, both read from the game files. For each pair we took the base troop at its maximum level and the Super Troop at the level that base level grants — the file's minimum-level requirement subtracted from the base level, plus one — rather than at the highest level in its own table, which no account can reach.</p><p>Hitpoints per housing space tells a slightly different story: the Super Minion and Super Witch both improve on that measure. Everything else declines there too.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are Super Troops worth the 25,000 dark elixir?",
+          "a": "For Sneaky Goblin farming, yes — the boost usually pays for itself in raided dark elixir. For a specific planned war attack, sometimes. As a general habit, no: every one of the 17 Super Troops does less damage per housing space than the troop it replaces, so you are shrinking your effective army in exchange for an ability."
+        },
+        {
+          "q": "Which Super Troop is the best?",
+          "a": "Sneaky Goblins for farming and Super Wall Breakers for ground war attacks. Both buy an ability that changes what the army can do rather than trying to win on raw stats, which is the only way the housing space trade comes out ahead."
+        },
+        {
+          "q": "Do Super Troops get stronger as your base troop levels up?",
+          "a": "Yes — a Super Troop's level is tied to its base troop's level, which is why a maxed account's Super Barbarian is level 7 of 9 rather than level 9. Comparisons that use the highest row in the Super Troop's own table overstate it."
+        }
+      ],
+      "related": [
+        "mechanics:super-troops",
+        "blog:hog-rider-vs-miner-vs-valkyrie",
+        "blog:dark-elixir-is-the-real-bottleneck",
+        "troops:sneaky-goblin"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "what-a-defence-upgrade-is-actually-worth",
+      "name": "What a defence upgrade is actually worth",
+      "h1": "What a Defence Upgrade Is Actually Worth at Your Town Hall",
+      "head_title": "What a Defence Upgrade Is Worth — DPS Per Builder-Day by Town Hall",
+      "description": "We measured every defence upgrade in the game files by damage gained per builder-day. At Town Hall 8 it is 19 DPS a day. At Town Hall 18 it is 1.08. Here is what that means for upgrade order.",
+      "summary": "Everyone tells you to upgrade defences. Almost nobody tells you what an upgrade buys, and the answer changes by a factor of eighteen across the game. We took every defence level in the game files, divided the damage it adds by the builder time it costs, and grouped the results by Town Hall. The curve is steep, consistent, and it ought to change how you queue builders.",
+      "banner": "defence",
+      "tags": [
+        {
+          "label": "Defence"
+        },
+        {
+          "label": "Data"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The curve",
+          "body": "<p>Damage-per-second gained per builder-day spent, summed across every defence upgrade unlocked at each Town Hall:</p><ul><li><strong>TH8</strong> — 19.3 DPS per builder-day (13 upgrades, 6.0 builder-days, 8.6M gold)</li><li><strong>TH9</strong> — 11.5 (10 upgrades, 10.0 days, 12.2M gold)</li><li><strong>TH10</strong> — 7.1 (14 upgrades, 16.8 days, 20.3M gold)</li><li><strong>TH11</strong> — 4.4 (16 upgrades, 29.8 days, 40.1M gold)</li><li><strong>TH12</strong> — 4.1 (13 upgrades, 30.2 days, 45.4M gold)</li><li><strong>TH13</strong> — 4.1 (16 upgrades, 51.0 days, 73.8M gold)</li><li><strong>TH14</strong> — 4.1 (11 upgrades, 47.0 days, 73.5M gold)</li><li><strong>TH15</strong> — 2.1 (14 upgrades, 78.5 days, 106.2M gold)</li><li><strong>TH16</strong> — 2.4 (12 upgrades, 81.0 days, 114.0M gold)</li><li><strong>TH17</strong> — 1.8 (14 upgrades, 114.5 days, 218.3M gold)</li><li><strong>TH18</strong> — 1.1 (14 upgrades, 193.2 days, 317.4M gold)</li></ul><p>The same fortnight of builder time buys <strong>eighteen times less defence at Town Hall 18 than at Town Hall 8</strong>. Per million gold the collapse is worse: 13.6 DPS at Town Hall 8, 0.66 at Town Hall 18 — a factor of twenty.</p>"
+        },
+        {
+          "h": "Why the numbers get worse and the bases get harder",
+          "body": "<p>Both things are true at once, and they are not contradictory. A defence upgrade at Town Hall 18 adds almost nothing to that defence's damage — the top Air Defence level adds <strong>50 DPS for 26 million gold and 13.2 days</strong> — but late Town Halls add entirely new defences, more of each defence, and large hitpoint increases that this measure deliberately ignores.</p><p>What the curve really shows is where a builder-day is <em>cheap</em>. At Town Hall 8, defence upgrades are the best thing a builder can be doing, because the same day of work will never buy that much damage again. At Town Hall 17 and 18, an individual defence level is close to a rounding error, and what your builders are actually buying is hitpoints and the completion bonus of a finished base.</p>"
+        },
+        {
+          "h": "The practical rule this produces",
+          "body": "<p><strong>Below Town Hall 11: upgrade defences aggressively and in bulk.</strong> They are cheap, fast, and each one is a meaningful fraction of the base. This is also the range where rushing costs the most, because the upgrades you skip were the efficient ones — see <a href='../tutorials/avoid-rushing.html'>how not to rush</a>.</p><p><strong>Town Hall 11 to 14: defences and offence compete, and offence wins.</strong> Four DPS per builder-day is real but unremarkable, and a laboratory research or hero level in the same fortnight does more for your account, because attacking earns resources and defending does not.</p><p><strong>Town Hall 15 and up: upgrade defences to finish them, not to improve them.</strong> At one DPS per builder-day the individual upgrade has stopped mattering. What matters is that every defence is done, because it is the aggregate that decides whether a base holds.</p>"
+        },
+        {
+          "h": "The defence that breaks the pattern",
+          "body": "<p>Two do, in opposite directions. The <a href='../wiki/buildings/monolith.html'>Monolith</a> and the <a href='../wiki/buildings/revenge-tower.html'>Revenge Tower</a> cost hundreds of thousands of gold rather than tens of millions, which makes them the only defences at high Town Halls whose gold price is not the constraint — build time is.</p><p>Going the other way, the <a href='../wiki/buildings/eagle-artillery.html'>Eagle Artillery</a> reads as 50 DPS in the files, which would make it the worst defence in the game if the number meant what it appears to mean. It does not: the Eagle fires in volleys at deployed troops after a housing-space threshold is crossed, and a per-second average is the wrong unit for it. The same caution applies to the Inferno Tower's single-target mode and to anything with a charge-up. This is why the analysis above aggregates across all defences at a Town Hall instead of ranking individual buildings — the aggregate is robust to those quirks, a league table is not.</p>"
+        },
+        {
+          "h": "How we counted",
+          "body": "<p>For every defence in the game files we took each level's damage-per-second, subtracted the previous level's, and divided the total gain at each Town Hall by the total build time of those upgrades. Build time is in builder-days: one builder working one day. Gold is the raw build cost with no Gold Pass discount, no hammers and no potions.</p><p>Deliberately excluded: hitpoints, splash radius, range, trap upgrades and walls. Walls in particular would distort everything, since they cost <a href='how-long-to-max-clash-of-clans.html'>11.2 billion gold and no builder time at all</a>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which defence should you upgrade first in Clash of Clans?",
+          "a": "Below Town Hall 11, whichever is cheapest and fastest — defence upgrades there buy 7 to 19 DPS per builder-day, the best rate in the game. From Town Hall 15 up, individual defence levels buy around 1 to 2 DPS per builder-day, so the goal becomes finishing every defence rather than choosing between them."
+        },
+        {
+          "q": "Are defence upgrades worth it at high Town Halls?",
+          "a": "Individually, barely: at Town Hall 18 a defence upgrade buys 1.08 DPS per builder-day and often costs 26 million gold for 13 days. Collectively they still matter, because late upgrades add hitpoints and new buildings that this measure ignores. They are simply no longer the best use of a builder-day compared with offence."
+        },
+        {
+          "q": "Should you upgrade defence or offence first?",
+          "a": "Offence, from roughly Town Hall 11 onward. Attacking earns resources and defending does not, and from Town Hall 11 a defence upgrade buys about 4 DPS per builder-day against the compounding return of a better army."
+        }
+      ],
+      "related": [
+        "mechanics:defence-mechanics",
+        "blog:hardest-town-hall-upgrades-ranked",
+        "mechanics:upgrade-priority",
+        "tutorials:upgrade-order"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "army-camp-space-by-town-hall",
+      "name": "Army camp space at every Town Hall",
+      "h1": "Army Camp Space at Every Town Hall, and the Three Town Halls That Give You None",
+      "head_title": "Clash of Clans Army Camp Capacity by Town Hall — Full Table",
+      "description": "Army camp capacity for every Town Hall in Clash of Clans, read from the game files: 20 housing space at TH1, 352 at TH18, and three Town Halls that add nothing at all.",
+      "summary": "Housing space is the only hard limit on what you can bring to an attack, and it is the number players are vaguest about. Here is the full table from the game files — how much each Army Camp holds, how many you may place, what that totals at every Town Hall, and the three upgrades that give you no extra army whatsoever.",
+      "banner": "war-camp",
+      "tags": [
+        {
+          "label": "Reference"
+        },
+        {
+          "label": "Data"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The table",
+          "body": "<p>Total army camp housing space at every Town Hall, with the <a href='../wiki/buildings/clan-castle.html'>Clan Castle</a> capacity beside it:</p><ul><li><strong>TH1</strong> — 20 camp space</li><li><strong>TH2</strong> — 30</li><li><strong>TH3</strong> — 70, Clan Castle 10</li><li><strong>TH4</strong> — 80, castle 15</li><li><strong>TH5</strong> — 135, castle 15</li><li><strong>TH6</strong> — 150, castle 20</li><li><strong>TH7</strong> — 200, castle 20</li><li><strong>TH8</strong> — 200, castle 25</li><li><strong>TH9</strong> — 220, castle 30</li><li><strong>TH10</strong> — 240, castle 35 + 1 siege</li><li><strong>TH11</strong> — 260, castle 35 + 1 siege</li><li><strong>TH12</strong> — 280, castle 40 + 1 siege</li><li><strong>TH13</strong> — 300, castle 45 + 1 siege</li><li><strong>TH14</strong> — 300, castle 45 + 1 siege</li><li><strong>TH15</strong> — 320, castle 50 + 1 siege</li><li><strong>TH16</strong> — 320, castle 50 + 2 sieges</li><li><strong>TH17</strong> — 340, castle 55 + 2 sieges</li><li><strong>TH18</strong> — 352, castle 55 + 2 sieges</li></ul><p>From Town Hall 7 onwards you may place <strong>four Army Camps</strong> and the number never rises again — everything after that is camp levels, not camp count.</p>"
+        },
+        {
+          "h": "The three Town Halls that give you no extra army",
+          "body": "<p><strong>Town Hall 8, Town Hall 14 and Town Hall 16 add zero housing space.</strong> Town Hall 7 and 8 both cap the Army Camp at level 6 (50 space each). Town Hall 13 and 14 both cap it at level 11 (75). Town Hall 15 and 16 both cap it at level 12 (80).</p><p>This is worth knowing before you upgrade, because army size is the most visible thing a Town Hall gives you and at those three levels it gives nothing. What you get instead at Town Hall 14 is the Pet House and at Town Hall 16 new defences — real, but not the thing you will notice in a battle.</p><div class='note'><p><b>The practical read.</b> If you are deciding when to move up, Town Hall 12, 13, 15 and 17 hand you a bigger army the moment the camps finish. Town Hall 8, 14 and 16 hand you research and buildings, so there is less cost to arriving late and more cost to arriving unprepared.</p></div>"
+        },
+        {
+          "h": "Camp level is not free, and at the top it is expensive",
+          "body": "<p>The per-camp figures from the files: level 1 holds 20 housing space, level 6 holds 50, level 9 holds 65, level 12 holds 80 and level 14 holds 88.</p><p>The prices diverge sharply at the end. A level 12 Army Camp costs <strong>10,000,000 elixir and 6 days</strong> for 5 extra space. A level 14 costs <strong>26,000,000 elixir and 15 days</strong> for <strong>3</strong>. Four of those is 104 million elixir and 60 builder-days for 12 housing space — less than one Dragon.</p><p>That is not a reason to skip them; a maxed account maxes everything. It is a reason to put them last in the elixir queue at Town Hall 18, behind laboratory research that actually changes an attack.</p>"
+        },
+        {
+          "h": "Why this number decides your army, not your troop choice",
+          "body": "<p>Housing space is why the same armies keep appearing at each Town Hall. Twelve <a href='../wiki/troops/dragon-rider.html'>Dragon Riders</a> is 300 space, which is exactly a Town Hall 13 camp. Fourteen <a href='../wiki/troops/dragon.html'>Dragons</a> is 280, exactly Town Hall 12. Eight <a href='../wiki/troops/electro-dragon.html'>Electro Dragons</a> plus four Balloons is 260, exactly Town Hall 11.</p><p>Those are not coincidences — they are the reason the community settled on those compositions. An army that leaves space unused is a smaller army for no benefit, and at 20 to 30 housing space per heavy troop, leaving 15 space empty is leaving most of a unit at home.</p><p>The second thing the table shows is how much the Clan Castle is worth: at Town Hall 11 it is <strong>13% more army</strong> than you own, and at Town Hall 9 it is <strong>14%</strong>. Attacking without requesting is the cheapest mistake to fix in the game.</p>"
+        },
+        {
+          "h": "How we counted",
+          "body": "<p>Army Camp and Clan Castle housing space are read directly from Clash of Clans' game files — the same files the <a href='../wiki/buildings/army-camp.html'>Army Camp wiki page</a> and every stat table on this site are built from. Totals are the per-camp capacity at the highest level that Town Hall allows, multiplied by the number of camps that Town Hall permits.</p><p>Not included: hero slots, which sit outside housing space, and pets, which ride with heroes rather than taking camp space. Siege machines occupy the Clan Castle's separate siege slot, not troop space.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much army camp space do you get at each Town Hall?",
+          "a": "20 at TH1, 200 at TH7 and TH8, 220 at TH9, 240 at TH10, 260 at TH11, 280 at TH12, 300 at TH13 and TH14, 320 at TH15 and TH16, 340 at TH17 and 352 at TH18. From Town Hall 7 onwards you may place four Army Camps and the count never increases again."
+        },
+        {
+          "q": "Which Town Halls give no extra army space?",
+          "a": "Town Hall 8, 14 and 16. Each shares its maximum Army Camp level with the Town Hall below it, so army size does not change — what those levels give you is research, the Pet House and new defences instead."
+        },
+        {
+          "q": "How much does the Clan Castle add?",
+          "a": "35 troop space at Town Hall 10 and 11, 40 at 12, 45 at 13 and 14, 50 at 15 and 16 and 55 at 17 and 18, plus a siege machine slot from Town Hall 10 and a second from Town Hall 16. At Town Hall 11 that is 13% more army than your own camps hold."
+        }
+      ],
+      "related": [
+        "buildings:army-camp",
+        "blog:best-th12-attack-strategy",
+        "buildings:clan-castle",
+        "blog:attack-strategies-by-town-hall"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "which-siege-machine-to-use",
+      "name": "Which siege machine to use",
+      "h1": "Which Siege Machine Should You Use? Nine Exist, You Bring One",
+      "head_title": "Which Siege Machine to Use in Clash of Clans — All Nine Compared",
+      "description": "All nine Clash of Clans siege machines compared from the game files: hitpoints, damage, research cost and lab time. Maxing every one is 490 million elixir and 315 days of laboratory.",
+      "summary": "Nine siege machines exist in the game files, maxing all of them costs 490.7 million elixir and 315.5 days of laboratory time, and you take exactly one into an attack. That ratio is the whole decision. Here is what each one is for, which ones deserve lab time, and the number that settles most arguments about them.",
+      "banner": "troops",
+      "tags": [
+        {
+          "label": "Troops"
+        },
+        {
+          "label": "Decision"
+        },
+        {
+          "label": "Data"
+        }
+      ],
+      "sections": [
+        {
+          "h": "The nine, and what they cost to max",
+          "body": "<p>Hitpoints and damage at maximum level, with total research cost and laboratory time, all from the game files:</p><ul><li><strong><a href='../wiki/troops/wall-wrecker.html'>Wall Wrecker</a></strong> — 10,000 HP, 670 DPS, 48.5M elixir, 34.5 lab days. Unlocks TH12.</li><li><strong><a href='../wiki/troops/stone-slammer.html'>Stone Slammer</a></strong> — 7,200 HP, 820 DPS, 48.5M, 34.5 days. TH12.</li><li><strong><a href='../wiki/troops/battle-blimp.html'>Battle Blimp</a></strong> — 5,500 HP, 300 DPS, 48.5M, 34.5 days. TH12.</li><li><strong><a href='../wiki/troops/log-launcher.html'>Log Launcher</a></strong> — 5,800 HP, 230 DPS, 60.2M, 41 days. TH13.</li><li><strong><a href='../wiki/troops/siege-barracks.html'>Siege Barracks</a></strong> — 5,100 HP, spawns troops, 61.5M, 41 days. TH13.</li><li><strong><a href='../wiki/troops/flame-flinger.html'>Flame Flinger</a></strong> — 2,100 HP, 184 DPS, 41.5M, 26 days. TH14.</li><li><strong><a href='../wiki/troops/battle-drill.html'>Battle Drill</a></strong> — 6,900 HP, 640 DPS, 69.5M, 41.5 days. TH15.</li><li><strong><a href='../wiki/troops/troop-launcher.html'>Troop Launcher</a></strong> — 2,600 HP, launches troops, 35.5M, 23 days. TH16.</li><li><strong><a href='../wiki/troops/sky-wagon.html'>Sky Wagon</a></strong> — 4,200 HP, 77M elixir, 39.5 days. TH17.</li></ul><p><strong>All nine: 490,700,000 elixir and 315.5 days of laboratory time.</strong> You have one laboratory, so that is the better part of a year spent on vehicles you can only use one at a time.</p>"
+        },
+        {
+          "h": "Hitpoints, not damage, is the stat that matters",
+          "body": "<p>A siege machine is a delivery vehicle. Its job is to carry your Clan Castle troops to a place they could not walk to, and the measure of a delivery vehicle is whether it arrives.</p><p>That reframes the table. The <a href='../wiki/troops/wall-wrecker.html'>Wall Wrecker</a>'s 10,000 hitpoints is <strong>39% more than the Stone Slammer</strong> and <strong>82% more than the Battle Blimp</strong>, and its 670 DPS is more than enough to chew through walls on the way. The Flame Flinger's 2,100 hitpoints is why it works from range and dies instantly if anything reaches it.</p><p>The Stone Slammer's 820 DPS is the highest number on the list, and it is the clearest case of a number meaning less than it appears to: it is a flying bomb-dropper aimed at defences, so it is spending that damage on exactly the buildings that are shooting it down.</p>"
+        },
+        {
+          "h": "Which to bring",
+          "body": "<ul><li><strong>Ground army into a core? Wall Wrecker.</strong> It drives at the Town Hall through walls and survives long enough to get there. This is the default and it is the default for a reason.</li><li><strong>Air army? Stone Slammer.</strong> It opens the Air Defences your Balloons or Dragons need gone, and it flies, so it takes the same route your army does.</li><li><strong>A specific compartment you must reach intact? Battle Blimp.</strong> Highest risk, highest reward, and a plan that survives it being shot down is mandatory rather than optional.</li><li><strong>Long walls and open layouts? Log Launcher.</strong> It rolls a log through wall segments from a distance, which is worth more against sprawling bases than compact ones.</li><li><strong>A second wave rather than a vehicle? Siege Barracks.</strong> It does not carry your castle troops to the core; it spawns troops where it lands. Different tool, and the only one that changes your army's shape rather than its route.</li></ul>"
+        },
+        {
+          "h": "What to research, and what to leave at level 1",
+          "body": "<p>315.5 laboratory days across nine machines is an indefensible spend for a resource that is <a href='how-long-to-max-clash-of-clans.html'>already the tightest constraint in the game</a>. Research two:</p><ol><li><strong>The Wall Wrecker,</strong> because it is the default for ground.</li><li><strong>The Stone Slammer,</strong> because it is the default for air.</li></ol><p>That is 97 million elixir and 69 laboratory days for the two vehicles that cover almost every attack you will make. Everything else stays at whatever level it unlocks at until those two are finished and the rest of the laboratory is genuinely empty, which for most accounts means never.</p><p>The exception is a clan that wars on a fixed strategy — if every attack you make is a Blimp attack, research the Blimp. The rule is not about which machine is best, it is that lab time spent on a machine you do not fly is time not spent on troops you do.</p>"
+        },
+        {
+          "h": "How we counted",
+          "body": "<p>Hitpoints, damage, research costs and research times are summed across every level in Clash of Clans' game files, the same source as the <a href='../wiki/troops/'>troop pages</a> on this site. Totals are for taking each machine from unlock to maximum level.</p><p>Two honest caveats. The Siege Barracks and Troop Launcher have no meaningful damage-per-second figure because what they do is deploy other units, so their entries are not comparable on that column. And siege machines occupy the Clan Castle's separate siege slot rather than army camp housing space — bringing one does not shrink your army.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which siege machine is best in Clash of Clans?",
+          "a": "The Wall Wrecker for ground armies and the Stone Slammer for air. The Wall Wrecker has 10,000 hitpoints at maximum level against the Stone Slammer's 7,200 and the Battle Blimp's 5,500, and a siege machine's job is to arrive, which makes hitpoints the stat that decides it."
+        },
+        {
+          "q": "How long does it take to max all siege machines?",
+          "a": "490,700,000 elixir and 315.5 days of laboratory time across all nine, summed from the game files. Since there is one laboratory and you bring one siege machine into a battle, researching two of them is usually the correct stopping point."
+        },
+        {
+          "q": "Do siege machines take army camp space?",
+          "a": "No. A siege machine occupies the Clan Castle's separate siege slot, which unlocks at Town Hall 10 with a second slot at Town Hall 16. Bringing one costs you no housing space from your Army Camps."
+        }
+      ],
+      "related": [
+        "mechanics:siege-machines",
+        "blog:best-th12-attack-strategy",
+        "troops:wall-wrecker",
+        "blog:army-camp-space-by-town-hall"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
+    },
+    {
+      "slug": "dark-elixir-is-the-real-bottleneck",
+      "name": "Dark elixir is the real bottleneck",
+      "h1": "Dark Elixir Is the Real Bottleneck, and Your Drills Will Never Fix It",
+      "head_title": "Why Dark Elixir Is the Real Bottleneck in Clash of Clans",
+      "description": "A maxed Clash of Clans account needs about 100 million dark elixir. Three maxed drills produce 14,400 a day. We did the arithmetic from the game files, and the answer is 19 years.",
+      "summary": "Gold gets talked about because walls are expensive and the number is enormous. But gold arrives constantly and dark elixir does not. Adding up what a maxed account owes in dark elixir against what the game gives you produces a gap so wide it reframes most progression advice, and it explains why accounts stall exactly where they stall.",
+      "banner": "treasury",
+      "tags": [
+        {
+          "label": "Economy"
+        },
+        {
+          "label": "Data"
+        },
+        {
+          "label": "Progression"
+        }
+      ],
+      "sections": [
+        {
+          "h": "What a maxed account owes",
+          "body": "<p>Three bills, all summed from the game files:</p><ul><li><strong>Heroes — 57.5 million dark elixir.</strong> Six heroes, 474 levels, and only the Grand Warden is funded by elixir instead.</li><li><strong>Pets — 24.2 million.</strong> Twelve pets, <a href='which-pet-for-which-hero.html'>782 days of Pet House time</a>, added to the game long after the economy around them was designed.</li><li><strong>The dark side of the laboratory — 18.6 million.</strong> Every dark troop and dark spell research.</li></ul><p><strong>Total: roughly 100 million dark elixir</strong>, before a single Super Troop boost at 25,000 a time.</p>"
+        },
+        {
+          "h": "What the game gives you",
+          "body": "<p>A Town Hall 18 village may place <strong>three Dark Elixir Drills</strong>. A maximum-level drill produces <strong>20,000 dark elixir per 100 hours</strong> — 200 an hour. Three of them is <strong>600 an hour, or 14,400 a day</strong>, and only if you collect before each drill's 4,600 storage fills.</p><p>One hundred million divided by 14,400 is <strong>6,944 days. Nineteen years.</strong></p><div class='note'><p><b>This is not a complaint, it is a diagnosis.</b> The drills are not meant to pay for your account and they never have been. Every serious dark elixir income is raided, which means the resource that gates your heroes and pets is the one that requires you to attack well, repeatedly, for years.</p></div>"
+        },
+        {
+          "h": "Gold and elixir are no better — which is the actual lesson",
+          "body": "<p>Run the same arithmetic on the other two resources and the picture is worse, not better:</p><ul><li><strong>Gold.</strong> Seven maximum-level Gold Mines produce 756,000 per 100 hours each — about 1.27 million a day combined. A maxed village needs <a href='how-long-to-max-clash-of-clans.html'>15.38 billion gold</a>. That is <strong>12,100 days, or 33 years</strong>.</li><li><strong>Elixir.</strong> Seven Elixir Collectors at the same rate against roughly 5.2 billion elixir of buildings, research and Grand Warden levels is about <strong>eleven years</strong>.</li></ul><p>So the collectors do not fund the village in any resource. They are a trickle that keeps a casual account moving and a rounding error on a serious one. <strong>Everything you will ever build is paid for by attacking</strong>, and the only question is how efficiently.</p>"
+        },
+        {
+          "h": "Why accounts stall at Town Hall 14 and 15 specifically",
+          "body": "<p>Because that is where the dark elixir bill jumps and nothing about your income changes.</p><p>Through Town Hall 13 dark elixir has two mouths: heroes and dark research. At Town Hall 14 the Pet House arrives with twelve pets and 24.2 million dark elixir behind it, and it competes directly with the heroes you have not finished. Your drills produce the same 14,400 a day they did before. Your raids produce whatever your attack quality produces.</p><p>The players who get through it are not the ones with better bases. They are the ones who arrived at Town Hall 14 with heroes close to done and storages full, which is the specific advice in <a href='best-th13-attack-strategy.html'>the Town Hall 13 post</a> and the reason it is worth repeating.</p>"
+        },
+        {
+          "h": "What to actually do about it",
+          "body": "<ol><li><strong>Farm dark elixir deliberately, not incidentally.</strong> Dark elixir storages are usually central and normal farming armies do not reach them. <a href='../tutorials/dark-elixir-farming.html'>A dedicated dark elixir routine</a> is worth more than any upgrade order.</li><li><strong>Never let heroes idle.</strong> A hero not upgrading is dark elixir you are not spending, and unlike gold there is no wall to dump the surplus into. Upgrade one, attack with the other five.</li><li><strong>Stop boosting Super Troops out of habit.</strong> 25,000 dark elixir is 1.7 days of full drill production, and <a href='are-super-troops-worth-it.html'>every Super Troop is weaker per housing space than the troop it replaces</a>.</li><li><strong>Treat the Grand Warden as free progress.</strong> He costs elixir, not dark elixir, so he can level while your dark elixir goes elsewhere. He is the only hero who does not compete.</li></ol>"
+        },
+        {
+          "h": "How we counted",
+          "body": "<p>Hero, pet and research costs are summed from Clash of Clans' own game files, the same source as every stat table on this site. Production rates are the files' own per-100-hours figures for maximum-level drills, mines and collectors at Town Hall 18, multiplied by the number of each building a Town Hall 18 village may place.</p><p>Deliberately excluded: raided loot, Star Bonus, Clan Games rewards, Season Challenges, treasury income and anything bought with gems. Those are exactly the sources that make the game playable, and the point of leaving them out is to show how completely the passive economy depends on them.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much dark elixir does it take to max Clash of Clans?",
+          "a": "About 100 million: roughly 57.5 million for heroes, 24.2 million for all twelve pets and 18.6 million for dark laboratory research, summed from the game files. Super Troop boosts are extra at 25,000 each."
+        },
+        {
+          "q": "How much dark elixir do drills produce?",
+          "a": "A maximum-level Dark Elixir Drill produces 20,000 per 100 hours, or 200 an hour. A Town Hall 18 village may place three, so 14,400 a day if you collect before each drill's 4,600 capacity fills."
+        },
+        {
+          "q": "Why does my account stall at TH14?",
+          "a": "Because the Pet House arrives with 24.2 million dark elixir of upgrades behind it while your dark elixir income does not change. It competes directly with heroes you have probably not finished, which is why arriving at Town Hall 14 with heroes close to maxed matters more than any other preparation."
+        }
+      ],
+      "related": [
+        "mechanics:dark-elixir",
+        "tutorials:dark-elixir-farming",
+        "blog:which-pet-for-which-hero",
+        "blog:why-your-clash-of-clans-account-stalls"
+      ],
+      "priority": "0.8",
+      "date": "2026-09-18",
+      "date_label": "18 September 2026",
+      "byline": "Goblins Farm"
     }
   ]
 }

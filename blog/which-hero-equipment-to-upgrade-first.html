@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which Hero Equipment to Upgrade First — The Ore Maths</title>
+<meta name="description" content="We summed the ore cost of all 43 hero equipment pieces from the game files. Every Common costs 27,260 Shiny Ore, every Epic costs 56,060. Here is what that means for upgrade order.">
+<link rel="canonical" href="https://goblinsfarm.com/blog/which-hero-equipment-to-upgrade-first.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Which Hero Equipment to Upgrade First — The Ore Maths">
+<meta property="og:description" content="We summed the ore cost of all 43 hero equipment pieces from the game files. Every Common costs 27,260 Shiny Ore, every Epic costs 56,060. Here is what that means for upgrade order.">
+<meta property="og:url" content="https://goblinsfarm.com/blog/which-hero-equipment-to-upgrade-first.html">
+<meta property="og:site_name" content="Goblins Farm">
+<meta property="og:image" content="https://goblinsfarm.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Goblins Farm — Blog" href="https://goblinsfarm.com/blog/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://goblinsfarm.com/#organization","name":"Goblins Farm","alternateName":["GoblinsFarm","Goblins Farm bot","Goblins Farm team"],"url":"https://goblinsfarm.com/","logo":{"@type":"ImageObject","@id":"https://goblinsfarm.com/#logo","url":"https://goblinsfarm.com/assets/logo.png"},"description":"Goblins Farm is a Clash of Clans farming bot for Windows and macOS that reads the screen and plays inside the free BlueStacks emulator. It also publishes a free, independent Clash of Clans wiki.","foundingDate":"2026","sameAs":["https://github.com/GoblinsFarm"],"knowsAbout":["Clash of Clans","Clash of Clans farming","Town Hall upgrade costs","Clash of Clans loot mechanics","game automation","BlueStacks"]},{"@type":"WebSite","@id":"https://goblinsfarm.com/#website","url":"https://goblinsfarm.com/","name":"Goblins Farm","description":"Free independent Clash of Clans wiki, tutorials and game data, plus the Goblins Farm farming bot for Windows and macOS.","publisher":{"@id":"https://goblinsfarm.com/#organization"},"inLanguage":"en"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://goblinsfarm.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://goblinsfarm.com/blog/"},{"@type":"ListItem","position":3,"name":"Which hero equipment to upgrade first"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Which Hero Equipment to Upgrade First? Every Piece Costs the Same, So Only Value Matters","description":"We summed the ore cost of all 43 hero equipment pieces from the game files. Every Common costs 27,260 Shiny Ore, every Epic costs 56,060. Here is what that means for upgrade order.","url":"https://goblinsfarm.com/blog/which-hero-equipment-to-upgrade-first.html","dateModified":"2026-09-18","inLanguage":"en","isPartOf":{"@id":"https://goblinsfarm.com/#website"},"publisher":{"@id":"https://goblinsfarm.com/#organization"},"about":{"@type":"VideoGame","name":"Clash of Clans","publisher":"Supercell"},"author":{"@id":"https://goblinsfarm.com/#organization"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which hero equipment should you upgrade first?","acceptedAnswer":{"@type":"Answer","text":"Both pieces equipped on the hero that leads your attack, finished to maximum before starting anything else. Every Common costs the same 27,260 Shiny Ore and every Epic the same 56,060, so there is no cost saving in spreading ore around — only the loss of the pieces you never equip."}},{"@type":"Question","name":"How much ore does it take to max all hero equipment?","acceptedAnswer":{"@type":"Answer","text":"1,719,380 Shiny Ore, 116,760 Glowy Ore and 9,120 Starry Ore, summed across all 43 pieces in the game files. Nineteen of those pieces are Epic at 56,060 Shiny each and 24 are Common at 27,260 each."}},{"@type":"Question","name":"Are Epic equipment pieces worth the extra ore?","acceptedAnswer":{"@type":"Answer","text":"An Epic costs 2.06 times a Common in Shiny Ore, but the real constraint is Starry Ore: 480 per Epic and none for any Common. Treat Commons and Epics as two separate queues — level Commons continuously and save Starry Ore for one chosen Epic at a time."}}]}</script>
+<script defer src="/assets/ph.js"></script>
+<script defer src="../assets/search.js"></script>
+</head>
+<body class="tone-slate">
+<header class="sitebar">
+  <a class="brand" href="../">Goblins Farm</a>
+  <div class="searchbox" data-index="../assets/search-index.json" data-rel="../">
+    <label class="visually-hidden" for="wikisearch">Search the wiki</label>
+    <input id="wikisearch" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Search the wiki…" aria-expanded="false"
+           aria-controls="wikisearch-results" role="combobox" aria-autocomplete="list">
+    <kbd>/</kbd>
+    <div class="results" id="wikisearch-results" role="listbox" hidden></div>
+  </div>
+  <nav class="sitenav">
+    <a href="../wiki/">Wiki</a>
+    <a href="../tutorials/">Tutorials</a>
+    <a href="../blog/" aria-current="page">Blog</a>
+    <a href="../news/">News</a>
+    <a href="../patch-notes/">Patch notes</a>
+    <a href="../#pricing">Bot</a>
+  </nav>
+</header>
+
+<div class="shell">
+
+<main class="doc narrow">
+<div class="banner">
+  <img src="../assets/banners/equipment.webp" alt="" width="1400" height="700" decoding="async">
+</div>
+<div class="crumbs"><a href="../">Home</a><span>&rsaquo;</span><a href="../blog/">Blog</a><span>&rsaquo;</span>Which hero equipment to upgrade first
+</div>
+<h1>Which Hero Equipment to Upgrade First? Every Piece Costs the Same, So Only Value Matters</h1>
+<div class="tagrow"><span class="tag ">Equipment</span><span class="tag ">Data</span><span class="tag ">Decision</span></div>
+<p class="updated">Updated: 18 September 2026 &middot; Goblins Farm</p>
+
+
+<p class="lede">There are 43 pieces of hero equipment in the game files and the ore cost of maxing one depends on exactly one thing: whether it is Common or Epic. Not which hero. Not which ability. Not how good it is. Once you know that, the whole upgrade question changes shape — you are not shopping on price, you are shopping on value at a fixed price.</p>
+<h2 id="the-finding-price-is-flat-value-is-not">The finding: price is flat, value is not</h2>
+<p>Summing every upgrade row in the game files gives two numbers and no others:</p><ul><li><strong>Every Common piece</strong> — 18 levels, <strong>27,260 Shiny Ore and 1,920 Glowy Ore</strong>.</li><li><strong>Every Epic piece</strong> — 27 levels, <strong>56,060 Shiny Ore, 3,720 Glowy Ore and 480 Starry Ore</strong>.</li></ul><p>That is it. The <a href='../wiki/equipment/giant-gauntlet.html'>Giant Gauntlet</a> costs exactly what the <a href='../wiki/equipment/action-figure.html'>Action Figure</a> costs. The <a href='../wiki/equipment/seeking-shield.html'>Seeking Shield</a> costs exactly what the <a href='../wiki/equipment/rage-vial.html'>Rage Vial</a> costs. There is no premium for the good ones.</p><p>Across all 43 pieces, maxing everything is <strong>1,719,380 Shiny Ore, 116,760 Glowy Ore and 9,120 Starry Ore</strong>.</p><div class='note'><p><b>The consequence.</b> Because price carries no information, every ore you spend on a piece you do not use is a pure loss with no offsetting saving. The only wrong answer is spreading ore thinly across pieces you never equip.</p></div>
+<h2 id="an-epic-is-2-06-times-a-common-and-the-third-ore-is-the-real-gate">An Epic is 2.06 times a Common, and the third ore is the real gate</h2>
+<p>An Epic costs 2.06× a Common in Shiny Ore and 1.94× in Glowy — steep but survivable. The number that actually decides your pace is <strong>Starry Ore</strong>: 480 per Epic, and zero for every Common in the game.</p><p>Starry Ore is the scarcest of the three and it has exactly one use. If you own several Epics, you are not choosing which to max, you are choosing which to max <em>first</em>, and the gap between first and second is measured in months, not weeks.</p><p>So the practical rule is: <strong>Commons are a Shiny Ore problem, Epics are a Starry Ore problem</strong>, and those are two different queues that do not compete with each other. Level your Commons while you save Starry for the one Epic that matters.</p>
+<h2 id="how-the-43-pieces-are-distributed">How the 43 pieces are distributed</h2>
+<p>By hero: <strong>Archer Queen 8, Barbarian King 8, Grand Warden 7, Minion Prince 7, Royal Champion 7, Dragon Duke 6</strong>. Nineteen are Epic and 24 are Common.</p><p>Each hero carries two pieces into a battle, so a fully-equipped six-hero account uses twelve of the 43 — <strong>28%</strong>. The remaining 31 are, for your account specifically, decoration. That is not a criticism of the system; it is the whole point of it. But it means the correct spend is concentrated, not spread.</p><p>The pieces to fund are the ones the armies you actually attack with depend on, and that list is short. If you do not know which ones those are, the honest answer is that you should max nothing until you have settled on an attack, because equipment ore is the least reversible resource in the game.</p>
+<h2 id="the-order-that-wastes-the-least">The order that wastes the least</h2>
+<ol><li><strong>Both pieces on the hero who leads your attack.</strong> For a Queen Charge that is the Archer Queen; for ground smash armies it is usually the Barbarian King. Two pieces fully levelled beats six pieces half levelled every time, because only two are equipped.</li><li><strong>The Grand Warden's defensive piece.</strong> He is the one hero whose equipment protects the entire army rather than himself, which makes his ore the highest-leverage in the game.</li><li><strong>One Epic, chosen and finished.</strong> Not two started.</li><li><strong>Commons for your secondary heroes,</strong> which is where surplus Shiny Ore that cannot become Starry Ore should go.</li></ol><p>What to skip entirely: pieces for heroes you leave at home, and any piece whose ability duplicates a spell you already bring. Equipment that replaces a spell is only worth it if you then drop the spell.</p>
+<h2 id="how-we-counted">How we counted</h2>
+<p>Every figure here is summed from the upgrade tables on this site's own <a href='../wiki/equipment/'>equipment pages</a>, which are read from Clash of Clans' game files rather than copied from community spreadsheets. We added the ore cost of every level from 1 to maximum for all 43 pieces, then grouped by rarity.</p><p>The limits worth stating: this counts ore only, ignores Blacksmith level requirements that gate when an upgrade becomes available, and excludes ore spent on crafting new pieces rather than levelling existing ones. The game version these files came from is printed under every table on the site.</p>
+<h2 id="faq" class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/question.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Frequently asked</h2>
+<h3>Which hero equipment should you upgrade first?</h3>
+<p>Both pieces equipped on the hero that leads your attack, finished to maximum before starting anything else. Every Common costs the same 27,260 Shiny Ore and every Epic the same 56,060, so there is no cost saving in spreading ore around — only the loss of the pieces you never equip.</p>
+<h3>How much ore does it take to max all hero equipment?</h3>
+<p>1,719,380 Shiny Ore, 116,760 Glowy Ore and 9,120 Starry Ore, summed across all 43 pieces in the game files. Nineteen of those pieces are Epic at 56,060 Shiny each and 24 are Common at 27,260 each.</p>
+<h3>Are Epic equipment pieces worth the extra ore?</h3>
+<p>An Epic costs 2.06 times a Common in Shiny Ore, but the real constraint is Starry Ore: 480 per Epic and none for any Common. Treat Commons and Epics as two separate queues — level Commons continuously and save Starry Ore for one chosen Epic at a time.</p>
+
+<div class="related">
+<h2 class="withmascot"><span class="medallion"><img class="mascot small" src="../assets/mascots/lantern.webp" alt="" width="64" height="64" loading="lazy" decoding="async"></span>Keep reading</h2>
+<div class="readon">
+<a class="readon-item hasart" href="../wiki/mechanics/hero-equipment.html"><span class="plaque sm"><img class="thumb" src="../assets/icons/mechanics/hero-equipment.svg" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
+  <span>Hero Equipment</span>
+</a>
+<a class="readon-item" href="../blog/which-pet-for-which-hero.html">
+  <span>Which pet goes on which hero</span>
+</a>
+<a class="readon-item" href="../blog/how-long-to-max-clash-of-clans.html">
+  <span>How long it actually takes to max Clash of Clans</span>
+</a>
+<a class="readon-item hasart" href="../wiki/heroes/grand-warden.html"><span class="plaque sm"><img class="thumb" src="../assets/art/heroes/grand-warden.webp" alt="" width="48" height="48" loading="lazy" decoding="async"></span>
+  <span>Grand Warden</span>
+</a>
+</div>
+</div>
+
+<p class="legal">Goblins Farm is not affiliated with, endorsed by, sponsored by, or specifically approved by Supercell. Clash of Clans is a trademark of Supercell Oy. This material is unofficial fan content produced under Supercell's Fan Content Policy. Game values change with every update; always verify in-game before committing an upgrade.</p>
+</main>
+</div>
+
+<footer class="sitefoot">
+  <p><a href="../wiki/">Wiki</a> &middot; <a href="../tutorials/">Tutorials</a> &middot; <a href="../news/">News</a> &middot; <a href="../patch-notes/">Patch notes</a> &middot; <a href="../guides/clash-of-clans-bot.html">Bot guides</a> &middot; <a href="mailto:support@goblinsfarm.com">Contact</a></p>
+</footer>
+</body>
+</html>
